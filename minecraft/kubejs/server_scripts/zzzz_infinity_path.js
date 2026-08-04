@@ -34,6 +34,6 @@ ServerEvents.recipes(function(event) {
   }
 
   event.remove({ output: output })
-  event.shaped(output, ['ICI', 'PMP', 'DLD'], key).id('kubejs:v1_path/infinity_ingot')
+  event.shaped(output, ['ICI', 'PMP', 'DAL'], key).id('kubejs:v1_path/infinity_ingot')
   console.info('[InfinityPath] Registered fair cross-mod Infinity Ingot convergence recipe.')
 })
