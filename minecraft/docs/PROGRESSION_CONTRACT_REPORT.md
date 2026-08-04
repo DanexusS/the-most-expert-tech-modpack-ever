@@ -10,22 +10,16 @@
 - Current parsed quests: **2958**
 - Remaining quest budget: **2442**
 - Gated outputs: **58**
-- Gated outputs without a recipe declaration: **13**
+- Gated outputs without a recipe declaration: **7**
 
 ## Outputs still requiring an authoritative path
 
-- `ae2:drive`
-- `ae2:inscriber`
 - `avaritia:infinity_ingot`
-- `create:precision_mechanism`
-- `immersiveengineering:blastbrick_reinforced`
 - `kubejs:lunar_seal`
 - `kubejs:mortum_seal`
 - `kubejs:skythern_seal`
 - `kubejs:vethea_seal`
 - `mekanism:pellet_antimatter`
-- `modern_industrialization:basic_machine_hull`
-- `modern_industrialization:bronze_boiler`
 - `pneumaticcraft:printed_circuit_board`
 
 ## Outputs mentioned by multiple recipe definitions
@@ -38,6 +32,7 @@ These are not automatically failures because the v1 override removes legacy outp
 - `extendedcrafting:ultimate_table`
 - `industrialforegoing:machine_frame_advanced`
 - `kubejs:bioindustrial_matrix`
+- `kubejs:calibrated_substrate`
 - `kubejs:chemical_processor`
 - `kubejs:cosmic_catalyst`
 - `kubejs:draconic_processor`

@@ -7,12 +7,12 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 ## Summary
 
 - Gated outputs: **58**
-- Outputs with recipe declarations: **45**
+- Outputs with recipe declarations: **51**
 - Outputs with explicit recipe removal evidence: **3**
 - Unauthorized quest reward outputs: **2**
 - Unallowlisted data/loot mentions: **0**
-- Outputs without recipe declaration: **13**
-- Non-KubeJS outputs without removal evidence: **11**
+- Outputs without recipe declaration: **7**
+- Non-KubeJS outputs without removal evidence: **17**
 - Late outputs missing EMC policy: **4**
 - Stage 12+ outputs missing simulation policy: **15**
 
@@ -23,30 +23,30 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 
 ## Outputs without an authoritative recipe declaration
 
-- `ae2:drive`
-- `ae2:inscriber`
 - `avaritia:infinity_ingot`
-- `create:precision_mechanism`
-- `immersiveengineering:blastbrick_reinforced`
 - `kubejs:lunar_seal`
 - `kubejs:mortum_seal`
 - `kubejs:skythern_seal`
 - `kubejs:vethea_seal`
 - `mekanism:pellet_antimatter`
-- `modern_industrialization:basic_machine_hull`
-- `modern_industrialization:bronze_boiler`
 - `pneumaticcraft:printed_circuit_board`
 
 ## Non-KubeJS outputs without removal evidence
 
+- `ae2:drive`
+- `ae2:inscriber`
 - `ae2:quantum_ring`
 - `avaritia:extreme_crafting_table`
+- `create:precision_mechanism`
 - `draconicevolution:awakened_core`
 - `draconicevolution:wyvern_core`
+- `immersiveengineering:blastbrick_reinforced`
 - `industrialforegoing:machine_frame_advanced`
 - `mekanism:induction_casing`
 - `mekanism:sps_casing`
 - `mekanism:steel_casing`
+- `modern_industrialization:basic_machine_hull`
+- `modern_industrialization:bronze_boiler`
 - `powah:reactor_nitro`
 - `projecte:philosophers_stone`
 - `projecte:transmutation_table`
