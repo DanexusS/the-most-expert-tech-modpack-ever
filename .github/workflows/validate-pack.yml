@@ -54,6 +54,12 @@ jobs:
       - name: Build manifest-backed mod guide registry
         run: python minecraft/tools/build_mod_guide_registry.py
 
+      - name: Enforce ProjectE EMC blacklist
+        run: python minecraft/tools/sync_projecte_emc_blacklist.py
+
+      - name: Remove progression-skipping quest rewards
+        run: python minecraft/tools/remove_gated_quest_rewards.py
+
       - name: Synchronize bilingual expert quest localization
         run: python minecraft/tools/sync_expert_localization.py
 
@@ -138,12 +144,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             minecraft/config/mod_guide_registry.json \
-            minecraft/config/ftbquests/quests/chapters/expert_progression.snbt \
-            minecraft/config/ftbquests/quests/chapters/create.snbt \
-            minecraft/config/ftbquests/quests/chapters/immersive_engineering.snbt \
-            "minecraft/config/ftbquests/quests/chapters/Modern Industrialization.snbt" \
-            minecraft/config/ftbquests/quests/chapters/applied_energistics_2.snbt \
-            minecraft/config/ftbquests/quests/chapters/mekanism_part_1.snbt \
+            minecraft/config/ProjectE/custom_emc.json \
+            minecraft/config/ftbquests/quests/chapters \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
@@ -158,5 +160,5 @@ jobs:
             minecraft/docs/AE2_CORE_QUALITY_REPORT.md \
             minecraft/docs/MEKANISM_CORE_QUALITY_REPORT.md \
             minecraft/docs/V1_READINESS.md
-          git commit -m "automation: refresh v1 product and coverage reports"
+          git commit -m "automation: enforce gates and refresh v1 reports"
           git push origin HEAD:${TARGET_BRANCH}
