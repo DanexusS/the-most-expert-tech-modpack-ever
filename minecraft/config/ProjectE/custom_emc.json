@@ -6,79 +6,12 @@
       "emc": 0
     },
     {
+      "id": "ae2:controller",
+      "emc": 0
+    },
+    {
       "id": "ae2:fluix_crystal",
       "emc": 0
-    },
-    {
-      "id": "minecraft:copper_ingot",
-      "emc": 0
-    },
-    {
-      "id": "minecraft:redstone",
-      "emc": 0
-    },
-    {
-      "id": "biomeswevegone:white_puffball_stew",
-      "emc": 164
-    },
-    {
-      "id": "the_bumblezone:honey_crystal_shards",
-      "emc": 96
-    },
-    {
-      "id": "the_bumblezone:bee_soup",
-      "emc": 760
-    },
-    {
-      "id": "projecte:low_covalence_dust",
-      "emc": 16
-    },
-    {
-      "id": "projecte:medium_covalence_dust",
-      "emc": 289
-    },
-    {
-      "id": "extendedcrafting:the_ultimate_ingot",
-      "emc": 100000000
-    },
-    {
-      "id": "projecte:transmutation_table",
-      "emc": 19462711382
-    },
-    {
-      "id": "projecte:transmutation_tablet",
-      "emc": 140716897167446
-    },
-    {
-      "id": "justdirethings:gooblock_tier2",
-      "emc": 1797
-    },
-    {
-      "id": "extendedcrafting:singularity",
-      "data": {
-        "extendedcrafting:singularity_id": "extendedcrafting:refined_iron"
-      },
-      "emc": 153609120
-    },
-    {
-      "id": "mysticalagradditions:nether_star_shard",
-      "emc": 0
-    },
-    {
-      "id": "mysticalagriculture:nether_star_essence",
-      "emc": 0
-    },
-    {
-      "id": "tfmg:cable_tube",
-      "emc": 1024
-    },
-    {
-      "id": "tfmg:diagonal_cable_block",
-      "emc": 824
-    },
-    {
-      "id": "ae2:sky_stone_block",
-      "emc": 16
     },
     {
       "id": "ae2:printed_engineering_processor",
@@ -93,16 +26,279 @@
       "emc": 1
     },
     {
-      "id": "occultism:iesnium_ingot",
-      "emc": 512
+      "id": "ae2:quantum_ring",
+      "emc": 0
     },
     {
-      "id": "occultism:otherglass_natural",
-      "emc": 229
+      "id": "ae2:sky_stone_block",
+      "emc": 16
     },
     {
-      "id": "occultism:spirit_attuned_gem",
-      "emc": 8192
+      "id": "avaritia:blaze_cube",
+      "emc": 30568
+    },
+    {
+      "id": "avaritia:extreme_crafting_table",
+      "emc": 0
+    },
+    {
+      "id": "avaritia:full_matter_cluster",
+      "emc": 0
+    },
+    {
+      "id": "avaritia:infinity_ingot",
+      "emc": 0
+    },
+    {
+      "id": "avaritia:neutron_pile",
+      "emc": 100
+    },
+    {
+      "id": "biomeswevegone:white_puffball_stew",
+      "emc": 164
+    },
+    {
+      "id": "draconicevolution:awakened_core",
+      "emc": 0
+    },
+    {
+      "id": "draconicevolution:wyvern_core",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:singularity",
+      "data": {
+        "extendedcrafting:singularity_id": "extendedcrafting:refined_iron"
+      },
+      "emc": 153609120
+    },
+    {
+      "id": "extendedcrafting:the_ultimate_ingot",
+      "emc": 100000000
+    },
+    {
+      "id": "extendedcrafting:ultimate_table",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:machine_frame_advanced",
+      "emc": 0
+    },
+    {
+      "id": "justdirethings:gooblock_tier2",
+      "emc": 1797
+    },
+    {
+      "id": "kubejs:antimatter_regulator",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:apalachia_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:bio_process_controller",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:bioindustrial_matrix",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:calibrated_substrate",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:chemical_processor",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:chemical_reactor_core",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:cosmic_assembly_matrix",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:cosmic_catalyst",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:cosmic_synthesis_core",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:creative_convergence_matrix",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:dimensional_resonator",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:divine_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:draconic_lattice",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:draconic_processor",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:eden_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:electrical_bus",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:emc_containment_core",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:field_engineering_kit",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:industrial_frame",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:kinetic_interface",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:kinetic_regulator",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:lunar_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:materials_analysis_matrix",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:mechanical_core",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:mortum_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:power_regulation_unit",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:precision_circuit",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:pressure_manifold",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:quantum_bus",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:quantum_logic",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:resonant_core",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:resonant_power_cell",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:signal_backplane",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:skythern_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:structural_lattice",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:transmutation_matrix",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:vethea_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:wildwood_seal",
+      "emc": 0
+    },
+    {
+      "id": "kubejs:wreck_seal",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:cardboard_box",
+      "emc": 4
+    },
+    {
+      "id": "mekanism:induction_casing",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:pellet_antimatter",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:sps_casing",
+      "emc": 0
+    },
+    {
+      "id": "minecraft:bedrock",
+      "emc": 10
+    },
+    {
+      "id": "minecraft:copper_ingot",
+      "emc": 0
+    },
+    {
+      "id": "minecraft:redstone",
+      "emc": 0
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "emc": 1000
+    },
+    {
+      "id": "modern_industrialization:fire_clay_brick",
+      "emc": 16
+    },
+    {
+      "id": "modern_industrialization:tungsten_ingot",
+      "emc": 356
+    },
+    {
+      "id": "mysticalagradditions:nether_star_shard",
+      "emc": 0
+    },
+    {
+      "id": "mysticalagriculture:infusion_altar",
+      "emc": 0
+    },
+    {
+      "id": "mysticalagriculture:nether_star_essence",
+      "emc": 0
     },
     {
       "id": "occultism:afrit_essence",
@@ -117,51 +313,67 @@
       "emc": 516142
     },
     {
+      "id": "occultism:iesnium_ingot",
+      "emc": 512
+    },
+    {
+      "id": "occultism:otherglass_natural",
+      "emc": 229
+    },
+    {
       "id": "occultism:otherrock",
       "emc": 16
+    },
+    {
+      "id": "occultism:spirit_attuned_gem",
+      "emc": 8192
     },
     {
       "id": "occultism:tallow",
       "emc": 16
     },
     {
-      "id": "mekanism:cardboard_box",
-      "emc": 4
+      "id": "powah:reactor_nitro",
+      "emc": 0
     },
     {
-      "id": "modern_industrialization:tungsten_ingot",
-      "emc": 356
-    },
-    {
-      "id": "modern_industrialization:fire_clay_brick",
+      "id": "projecte:low_covalence_dust",
       "emc": 16
     },
     {
-      "id": "avaritia:neutron_pile",
-      "emc": 100
+      "id": "projecte:medium_covalence_dust",
+      "emc": 289
     },
     {
-      "id": "avaritia:blaze_cube",
-      "emc": 30568
+      "id": "projecte:philosophers_stone",
+      "emc": 0
     },
     {
-      "id": "minecraft:totem_of_undying",
-      "emc": 1000
+      "id": "projecte:transmutation_table",
+      "emc": 0
     },
     {
-      "id": "minecraft:bedrock",
-      "emc": 10
+      "id": "projecte:transmutation_tablet",
+      "emc": 140716897167446
+    },
+    {
+      "id": "tfmg:cable_tube",
+      "emc": 1024
+    },
+    {
+      "id": "tfmg:diagonal_cable_block",
+      "emc": 824
+    },
+    {
+      "id": "the_bumblezone:bee_soup",
+      "emc": 760
+    },
+    {
+      "id": "the_bumblezone:honey_crystal_shards",
+      "emc": 96
     },
     {
       "id": "xycraft_world:xychorium_gem_blue",
-      "emc": 512
-    },
-    {
-      "id": "xycraft_world:xychorium_gem_green",
-      "emc": 512
-    },
-    {
-      "id": "xycraft_world:xychorium_gem_red",
       "emc": 512
     },
     {
@@ -169,12 +381,16 @@
       "emc": 512
     },
     {
+      "id": "xycraft_world:xychorium_gem_green",
+      "emc": 512
+    },
+    {
       "id": "xycraft_world:xychorium_gem_light",
       "emc": 512
     },
     {
-      "id": "avaritia:full_matter_cluster",
-      "emc": 0
+      "id": "xycraft_world:xychorium_gem_red",
+      "emc": 512
     }
   ]
 }

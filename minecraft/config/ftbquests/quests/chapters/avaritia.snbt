@@ -1446,15 +1446,6 @@
 					xp_levels: 200
 				}
 				{
-					count: 2
-					id: "3FFC805443B761F0"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "1E8A4A69DE0F967F"
 					table_id: 5196609362437981520L
@@ -1479,15 +1470,6 @@
 					id: "5190D1D636910E89"
 					type: "xp_levels"
 					xp_levels: 200
-				}
-				{
-					count: 3
-					id: "3BE01F47B73AA5DF"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1515,15 +1497,6 @@
 					xp_levels: 200
 				}
 				{
-					count: 3
-					id: "09CB6B677CAAF54D"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "148B2FBA84A05A9F"
 					table_id: 5196609362437981520L
@@ -1547,15 +1520,6 @@
 					id: "2E7B77714B289E62"
 					type: "xp_levels"
 					xp_levels: 200
-				}
-				{
-					count: 3
-					id: "6E3B515DF78686F5"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1583,15 +1547,6 @@
 					xp_levels: 200
 				}
 				{
-					count: 3
-					id: "344FD094AA314D85"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "344FCC9D58B9BF8E"
 					table_id: 5196609362437981520L
@@ -1617,15 +1572,6 @@
 					xp_levels: 200
 				}
 				{
-					count: 3
-					id: "3E91C8741633012B"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "64CD0CC18E57E918"
 					table_id: 5196609362437981520L
@@ -1649,15 +1595,6 @@
 					id: "3B64B3EA50CD5528"
 					type: "xp_levels"
 					xp_levels: 200
-				}
-				{
-					count: 3
-					id: "0ED1159197EF2CA0"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -2116,14 +2053,7 @@
 		{
 			dependencies: ["2C53C8A3322CAB88"]
 			id: "7E70AB66644F1C9D"
-			rewards: [{
-				id: "6E85E51C28AC3C07"
-				item: {
-					count: 1
-					id: "avaritia:infinity_ingot"
-				}
-				type: "item"
-			}]
+			rewards: []
 			tasks: [{
 				id: "14F0A1DA8D105E57"
 				item: { count: 1, id: "avaritia_expand:infinity_book" }

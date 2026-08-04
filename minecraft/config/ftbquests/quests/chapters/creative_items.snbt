@@ -131,14 +131,6 @@
 					xp: 100000
 				}
 				{
-					id: "06EBAC10985BBCD9"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "273BE9ABFF9C1DF9"
 					table_id: 5196609362437981520L
@@ -161,14 +153,6 @@
 					id: "180CD0C94E5AB108"
 					type: "xp"
 					xp: 100000
-				}
-				{
-					id: "3BC16C8CDDE5B090"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -195,14 +179,6 @@
 					xp: 100000
 				}
 				{
-					id: "05FC878506D1651E"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "586C33F3B7D7EB1B"
 					table_id: 5196609362437981520L
@@ -225,14 +201,6 @@
 					id: "012742D77992DB18"
 					type: "xp"
 					xp: 100000
-				}
-				{
-					id: "2BF7886712C3C189"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -312,14 +280,6 @@
 					xp: 100000
 				}
 				{
-					id: "0B0BDABFDC89B734"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3EA2FA19A1E26B30"
 					table_id: 5196609362437981520L
@@ -342,14 +302,6 @@
 					id: "7F563E953BEE8C53"
 					type: "xp"
 					xp: 100000
-				}
-				{
-					id: "222170E667090FFA"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -403,14 +355,6 @@
 					xp: 100000
 				}
 				{
-					id: "1D9FD90F8682A89D"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3764B00541601464"
 					table_id: 5196609362437981520L
@@ -433,14 +377,6 @@
 					id: "10611F88C6E5E6B0"
 					type: "xp"
 					xp: 100000
-				}
-				{
-					id: "58649815E62E80F3"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -506,14 +442,6 @@
 					xp: 1000000
 				}
 				{
-					id: "1341A459C05F894F"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "28ABB3A5F11E71F5"
 					table_id: 5196609362437981520L
@@ -575,14 +503,6 @@
 			id: "25DF45F80400A12F"
 			rewards: [
 				{
-					id: "1419F3B248FF25F4"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "111BD73FED2D00C7"
 					table_id: 5196609362437981520L
@@ -601,14 +521,6 @@
 			dependencies: ["442BB17AE7AC4936"]
 			id: "508F41D6286655ED"
 			rewards: [
-				{
-					id: "6264CACF69E64EAA"
-					item: {
-						count: 1
-						id: "avaritia:infinity_ingot"
-					}
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "691015F377348D83"

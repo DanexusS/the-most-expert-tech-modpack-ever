@@ -10,18 +10,13 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 - Outputs with recipe declarations: **51**
 - Outputs with explicit recipe removal evidence: **36**
 - Authorized process or unique-permission outputs: **6**
-- Unauthorized quest reward outputs: **2**
+- Unauthorized quest reward outputs: **0**
 - Unallowlisted data/loot mentions: **0**
 - Outputs without an authoritative path: **1**
 - Non-KubeJS recipe outputs without removal evidence: **11**
 - Late outputs missing EMC policy: **0**
 - Stage 12+ outputs missing simulation policy: **0**
 - Stage 10+ non-KubeJS outputs missing trade policy: **0**
-
-## Unauthorized quest rewards
-
-- `avaritia:infinity_ingot`: config/ftbquests/quests/chapters/avaritia.snbt, config/ftbquests/quests/chapters/creative_items.snbt
-- `modern_industrialization:basic_machine_hull`: config/ftbquests/quests/chapters/Modern Industrialization.snbt
 
 ## Outputs without an authoritative path
 

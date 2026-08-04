@@ -1368,14 +1368,7 @@
 		{
 			dependencies: ["24A4F1AA0BFFE867"]
 			id: "37F3ABF113A1D399"
-			rewards: [{
-				id: "63CF2C69FB2F916A"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_machine_hull"
-				}
-				type: "item"
-			}]
+			rewards: []
 			tasks: [{
 				id: "517659A6D27E6777"
 				item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
@@ -1398,14 +1391,7 @@
 		{
 			dependencies: ["779C3C6B89AD2526"]
 			id: "6CA941AE132445D9"
-			rewards: [{
-				id: "2ED0E4787B3616C0"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_machine_hull"
-				}
-				type: "item"
-			}]
+			rewards: []
 			tasks: [{
 				id: "493D307B7B82105D"
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
