@@ -1,0 +1,145 @@
+{
+  "slug": "occultism",
+  "lessons": [
+    {
+      "slug": "dictionary",
+      "icon": "occultism:dictionary_of_spirits",
+      "title_en": "Dictionary, Spirit Tiers and Ritual Order",
+      "title_ru": "Словарь, уровни духов и порядок ритуалов",
+      "desc_en": [
+        "Occultism progresses through spirit tiers, chalks, ritual structures and bound entities. The Dictionary of Spirits is the authoritative process map.",
+        "Read the required spirit and ritual before collecting components, label ritual spaces and avoid using add-on recipes that summon a higher tier from lower-tier materials."
+      ],
+      "desc_ru": [
+        "Occultism развивается через уровни духов, мел, ритуальные структуры и связанных сущностей. Словарь духов является авторитетной картой процессов.",
+        "Изучайте требуемого духа и ритуал до сбора компонентов, подписывайте площадки и не используйте аддоны, вызывающие старший уровень из младших материалов."
+      ]
+    },
+    {
+      "slug": "chalks",
+      "icon": "occultism:chalk_white",
+      "title_en": "Chalk Types and Ritual Geometry",
+      "title_ru": "Типы мела и геометрия ритуалов",
+      "desc_en": [
+        "Ritual diagrams require exact chalk types, orientation and unobstructed blocks. One wrong glyph can make a complete ingredient set appear invalid.",
+        "Build dedicated marked pads, preserve line visibility, store chalk by tier and verify geometry before placing expensive sacrifice items."
+      ],
+      "desc_ru": [
+        "Ритуальные схемы требуют точных типов мела, ориентации и свободных блоков. Один неверный символ делает полный набор ингредиентов нерабочим.",
+        "Создавайте отдельные размеченные площадки, сохраняйте видимость линий, храните мел по уровням и проверяйте геометрию до размещения дорогих жертв."
+      ]
+    },
+    {
+      "slug": "summoning",
+      "icon": "occultism:golden_sacrificial_bowl",
+      "title_en": "Summoning Safety and Ownership",
+      "title_ru": "Безопасность призыва и владение",
+      "desc_en": [
+        "Summoned spirits may become workers, tools, familiars or hostile entities. Ownership and containment determine whether the ritual creates infrastructure or a recovery problem.",
+        "Prepare containment, dismissal and replacement items, record the bound owner and never summon an entity whose capability belongs to a later stage."
+      ],
+      "desc_ru": [
+        "Призванные духи становятся работниками, инструментами, фамильярами или врагами. Владение и удержание определяют, создаёт ли ритуал инфраструктуру или проблему восстановления.",
+        "Готовьте удержание, отзыв и замену, записывайте владельца и не вызывайте сущность с возможностями более позднего этапа."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "occultism:storage_controller",
+      "title_en": "Dimensional Storage and Stable Access",
+      "title_ru": "Пространственное хранение и стабильный доступ",
+      "desc_en": [
+        "Occultism storage separates a controller, dimensional capacity and access interfaces. Losing the controller or remote link can hide the only recovery tools.",
+        "Keep external emergency storage, document capacity upgrades, restrict remote access and reserve output space for automated workers."
+      ],
+      "desc_ru": [
+        "Хранение Occultism разделяет контроллер, пространственную ёмкость и интерфейсы. Потеря контроллера или удалённой связи скрывает единственные инструменты восстановления.",
+        "Храните аварийный запас снаружи, документируйте улучшения, ограничивайте удалённый доступ и оставляйте место выходам работников."
+      ]
+    },
+    {
+      "slug": "miners",
+      "icon": "occultism:dimensional_mineshaft",
+      "title_en": "Dimensional Mineshaft and Resource Policy",
+      "title_ru": "Пространственная шахта и политика ресурсов",
+      "desc_en": [
+        "Dimensional miners produce ores without ordinary world extraction. Their allowed outputs and spirit tier determine whether exploration stages remain meaningful.",
+        "Whitelist resources by progression, exclude boss and dimension permissions, meter operating cost and compare the miner with physical and industrial extraction."
+      ],
+      "desc_ru": [
+        "Пространственные шахтёры создают руды без обычной добычи. Разрешённые выходы и уровень духа определяют значимость исследования.",
+        "Разрешайте ресурсы по прогрессии, исключайте боссовые и измерительные допуски, учитывайте стоимость и сравнивайте с физической и промышленной добычей."
+      ]
+    },
+    {
+      "slug": "crusher",
+      "icon": "occultism:spirit_attuned_crystal",
+      "title_en": "Spirit Crushing and Yield Comparison",
+      "title_ru": "Дробление духами и сравнение выхода",
+      "desc_en": [
+        "Crusher spirits convert ores and materials through a bound worker whose tier changes speed and yield.",
+        "Measure complete batches, route every output, preserve replacement summoning materials and compare net yield with Mekanism, MI and other processing paths."
+      ],
+      "desc_ru": [
+        "Духи-дробители перерабатывают руды и материалы, а уровень связанного работника меняет скорость и выход.",
+        "Измеряйте полные партии, маршрутизируйте выходы, храните материалы повторного призыва и сравнивайте чистый результат с Mekanism, MI и другими путями."
+      ]
+    },
+    {
+      "slug": "jobs",
+      "icon": "occultism:otherworld_ashes",
+      "title_en": "Spirit Jobs and Failure Recovery",
+      "title_ru": "Работа духов и восстановление после отказа",
+      "desc_en": [
+        "Bound spirits perform transport, storage, crushing or other jobs. A lost or unloaded worker can silently stop a chain whose inventories remain full.",
+        "Name workers by role, expose job inputs and outputs, keep replacement ritual stock and test recovery after removing one worker from the system."
+      ],
+      "desc_ru": [
+        "Связанные духи выполняют транспорт, хранение, дробление и другие работы. Потерянный или незагруженный работник скрыто останавливает цепочку.",
+        "Называйте работников по роли, показывайте входы и выходы, храните запас ритуала замены и проверяйте восстановление после удаления одного духа."
+      ]
+    },
+    {
+      "slug": "familiars",
+      "icon": "occultism:familiar_ring",
+      "title_en": "Familiars and Permanent Capability",
+      "title_ru": "Фамильяры и постоянные возможности",
+      "desc_en": [
+        "Familiars provide passive effects, utility or protection beyond the ritual itself. Their capability can replace equipment or environmental preparation.",
+        "Gate familiar types by equivalent stage, document owner and effect, keep dismissal available and prevent transfer from becoming an early team-wide unlock."
+      ],
+      "desc_ru": [
+        "Фамильяры дают пассивные эффекты, утилиту или защиту за пределами ритуала и могут заменить снаряжение или подготовку среды.",
+        "Закрывайте виды эквивалентным этапом, документируйте владельца и эффект, сохраняйте отзыв и не превращайте передачу в раннее открытие для всей команды."
+      ]
+    },
+    {
+      "slug": "cross_mod",
+      "icon": "occultism:storage_remote",
+      "title_en": "Occultism and Cross-Mod Resource Loops",
+      "title_ru": "Occultism и межмодовые ресурсные циклы",
+      "desc_en": [
+        "Dimensional mining, crushing and storage may feed EMC, bees, seeds or machine recipes and create duplicate renewable paths.",
+        "Choose authoritative routes for late materials, set zero EMC on gates and reject loops that reproduce summoning components or higher-tier spirits at net gain."
+      ],
+      "desc_ru": [
+        "Пространственная добыча, дробление и хранение взаимодействуют с EMC, пчёлами, семенами и машинами, создавая дублирующие пути.",
+        "Выбирайте авторитетные поздние маршруты, задавайте нулевой EMC и запрещайте циклы, выгодно воспроизводящие компоненты призыва или старших духов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:dimensional_resonator",
+      "title_en": "Project: Audited Spirit Workshop",
+      "title_ru": "Проект: проверенная мастерская духов",
+      "desc_en": [
+        "Build an Occultism workshop with dedicated ritual pads, dimensional storage and one stage-approved worker for crushing, transport or mining.",
+        "The project passes after ownership audit, recovery test, output whitelist, two repeated jobs and proof that no spirit, familiar or mine bypasses a later permission."
+      ],
+      "desc_ru": [
+        "Постройте мастерскую Occultism с отдельными ритуальными площадками, пространственным хранением и разрешённым работником для дробления, транспорта или добычи.",
+        "Проект принят после аудита владения, теста восстановления, белого списка выходов, двух повторов и отсутствия обходов через духа, фамильяра или шахту."
+      ]
+    }
+  ]
+}
