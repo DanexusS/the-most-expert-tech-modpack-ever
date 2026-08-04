@@ -87,6 +87,12 @@ def main() -> int:
         classification = "DEVELOPMENT — NOT V1"
         decision = "One or more foundation reports do not pass or do not exist."
 
+    quest_volume_status = "PASS" if quest_volume_complete else f"IN PROGRESS ({quest_metrics['quests']})"
+    item_only_status = (
+        "PASS" if quest_structure_complete
+        else f"IN PROGRESS ({quest_metrics['item_only_ratio']:.1%})"
+    )
+
     lines = [
         "# v1 Readiness",
         "",
@@ -112,8 +118,8 @@ def main() -> int:
     for name, passed in product_status.items():
         lines.append(f"| {name} | {'PASS' if passed else 'IN PROGRESS / FAIL'} |")
     lines.extend([
-        f"| Quest volume 5,000–6,000 | {'PASS' if quest_volume_complete else f'IN PROGRESS ({quest_metrics["quests"]})'} |",
-        f"| Item-only ratio ≤30% | {'PASS' if quest_structure_complete else f'IN PROGRESS ({quest_metrics["item_only_ratio"]:.1%})'} |",
+        f"| Quest volume 5,000–6,000 | {quest_volume_status} |",
+        f"| Item-only ratio ≤30% | {item_only_status} |",
         "",
         "## Minimum runtime evidence",
         "",
