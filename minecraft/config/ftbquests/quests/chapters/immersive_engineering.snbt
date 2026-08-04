@@ -22,7 +22,12 @@
 				id: "20C035B018336E50"
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6641FDCD81B3D084"
+				type: "checkmark"
+			}
+			]
 			x: -7.0d
 			y: -8.5d
 		}
@@ -74,7 +79,12 @@
 				id: "5D57E16F56AE2326"
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B36EBDD7A049ECE1"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -7.0d
 		}
@@ -108,7 +118,12 @@
 				id: "7BF3E3F14FFD73F3"
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
-			}]
+			}
+			{
+				id: "97721C6BA2CADF00"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: -7.0d
 		}
@@ -127,7 +142,12 @@
 				id: "7BDC06A5B2C203AA"
 				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "ADAA21D58A2E91B6"
+				type: "checkmark"
+			}
+			]
 			x: -7.0d
 			y: -7.0d
 		}
@@ -146,7 +166,12 @@
 				id: "4C382E60831988A1"
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1BBB2DD37B93B62C"
+				type: "checkmark"
+			}
+			]
 			x: -7.0d
 			y: -5.5d
 		}
@@ -191,6 +216,11 @@
 					item: { count: 1, id: "minecraft:hopper" }
 					type: "item"
 				}
+			
+			{
+				id: "3ECB760E64F43A55"
+				type: "checkmark"
+			}
 			]
 			x: -5.5d
 			y: -5.5d
@@ -209,7 +239,12 @@
 				id: "67F741F4CF386668"
 				item: { count: 1, id: "immersiveengineering:craftingtable" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7C681EFF64B66824"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: -7.0d
 		}
@@ -227,7 +262,12 @@
 				id: "686223212991043C"
 				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3A547B1DEE9ED1B3"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: -4.0d
 		}
@@ -244,7 +284,12 @@
 				id: "3319B3D746C5AE5F"
 				item: { count: 1, id: "immersiveengineering:fluid_pump" }
 				type: "item"
-			}]
+			}
+			{
+				id: "61D594960519554A"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -7.0d
 		}
@@ -262,7 +307,12 @@
 				id: "70343EB62D023CCA"
 				item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0859DFB3FA256ACF"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: -7.0d
 		}
@@ -286,6 +336,11 @@
 					item: { count: 1, id: "immersiveengineering:component_steel" }
 					type: "item"
 				}
+			
+			{
+				id: "D76489F4BDE91845"
+				type: "checkmark"
+			}
 			]
 			x: 0.0d
 			y: -6.0d
@@ -303,7 +358,12 @@
 				id: "3BEDA424DCC8EB6F"
 				item: { count: 1, id: "immersiveengineering:voltmeter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6D4065A1015F4E24"
+				type: "checkmark"
+			}
+			]
 			x: -10.0d
 			y: -10.0d
 		}

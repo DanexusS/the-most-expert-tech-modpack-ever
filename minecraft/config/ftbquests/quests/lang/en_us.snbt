@@ -635,14 +635,8 @@
 	]
 	quest.09D97507A2027B57.quest_subtitle: "In the beginning, simplicity reigns."
 	quest.09D97507A2027B57.title: "Sophisticated Storage"
-	quest.0A0D08D0032BAF5B.quest_desc: [
-		"It uses Iron and Coal Coke to generate Steel Ingots and Slag. "
-		""
-		"Unlike with the Crude Blast Furnace, items are able to be piped in and out."
-		""
-		"Slag is removed from the back, items are loaded into the top and Blast Furnace Preheaters may be placed on either side to speed up manufacture."
-	]
-	quest.0A0D08D0032BAF5B.title: "Improved Blast Furnace"
+	quest.0A0D08D0032BAF5B.quest_desc: ["The reinforced furnace converts steel production from a manual milestone into an automatable industrial line.","Acceptance: automate input and both outputs, prevent slag backpressure, provide maintenance access, and demonstrate a sixteen-ingot batch without intervention."]
+	quest.0A0D08D0032BAF5B.title: "Reinforced Blast Furnace — Continuous Steel"
 	quest.0A34FD02D54EA6A2.quest_desc: [
 		"A display block that shows &blive status&r of ongoing &eautocrafting jobs&r in your &5ME Network&r. Lists queued, in-progress, and completed crafts with detailed progress bars."
 		""
@@ -916,15 +910,9 @@
 	]
 	quest.0D9F327D30321040.quest_desc: ["&4Voidborn&r and &dancient,&r this table is used for &ehigher cost crafting&r."]
 	quest.0DA65A502C57261C.quest_desc: ["Just like any other create contraption, you can superglue basically anything to a pumpjack, with the stipulation that the main arm is complete."]
-	quest.0DA972D85BB3C86C.quest_desc: [
-		"Coke Oven is a multi-block machine added by the Immersive Engineering mod. It turns Coal into Coal Coke and creates Creosote as a byproduct."
-		""
-		"The Coke oven makes charcoal, coal coke, or coal coke blocks. Input logs will be converted to charcoal, coal will create coal coke, and coal blocks create coal coke blocks. Coal coke can smelt 16 items and coal coke blocks can smelt 160 items. "
-		""
-		"Coal coke is also used as fuel for crude and improved blast furnaces since it cannot take regular coal."
-	]
+	quest.0DA972D85BB3C86C.quest_desc: ["The coke oven produces both coke and creosote; either blocked output can stop the entire process.","Acceptance: form the complete oven, route creosote into controlled storage, provide solid-output space, and complete three batches without manual clearing."]
 	quest.0DA972D85BB3C86C.quest_subtitle: "Hot Topic!"
-	quest.0DA972D85BB3C86C.title: "Coke Oven"
+	quest.0DA972D85BB3C86C.title: "Coke Oven — Two-Product Process"
 	quest.0DCFCBCFB363C921.quest_desc: ["Your whole farm is now in 1 block."]
 	quest.0DCFCBCFB363C921.quest_subtitle: "Can't be easier than that"
 	quest.0DD9575CCAD78266.quest_desc: [
@@ -1842,7 +1830,7 @@
 	quest.1AF3D7D0FEB98133.quest_desc: ["Solaris Plana is a kind of infinite void dimension where it is always midday, so it is a great dimension for machines that need constant sunlight, such as the &6Dyson Cube Project&r or the &bSolar Neutron Activator (mekanism)&r, or for those who want to create a base that is always bathed in sunlight!"]
 	quest.1AF3D7D0FEB98133.quest_subtitle: "Endless day"
 	quest.1AF3D7D0FEB98133.title: "Solaria Plana"
-	quest.1AFBE29BB6CC2C0D.title: "Mechanical Componets"
+	quest.1AFBE29BB6CC2C0D.title: "Iron and Steel Components — Batch Inventory"
 	quest.1B0028B5F47CB5F1.quest_desc: ["Combine &bLiquid Starlight&r, &7White Dwarf Fragment&r, &5nether star&r and &6obsidian matrix&r to obtain the &1Neutron Star Fragment&r."]
 	quest.1B04A295850D0F00.quest_desc: ["The Train Observer is used to detect passing Trains."]
 	quest.1B2DE63560613385.quest_desc: ["Grown form &dmagebloom seeds&r, these are used in many crafting recipes including &dmagebloom fiber&r."]
@@ -3202,7 +3190,7 @@
 		""
 		"Open the menu, here you can &binsert&r the &denchantment&r you want to store, &lShift-left-Click&r on a book to store it, &lLeft-Click&r on a stored &denchant&r to &edraw one level&r back, &lShift-Right-Click&r to draw the &6max level available&r."
 	]
-	quest.316399F0B5F729CA.quest_desc: ["It can be used like a normal crafting table. Additionally it has 18 storage slots additionaly it keeps the items you put inside it."]
+	quest.316399F0B5F729CA.quest_desc: ["A dedicated assembly station keeps recurring engineering parts visible and prevents critical tools from disappearing into general storage.","Acceptance: stock standard fasteners and plates, reserve tool slots, and label the table for IE components rather than treating it as another miscellaneous bench."]
 	quest.31B396E100E83098.quest_desc: [
 		"The &aChaos-Entangled Quantum Energy Tunnel&r is an advanced device for &benergy transfer&r across vast distances without any loss. "
 		""
@@ -3633,7 +3621,7 @@
 	quest.3999760881C855FA.quest_subtitle: "Turns Ore Slurry into Crystals"
 	quest.39AC44DD78BB695F.quest_desc: ["A basic yet robust power unit built for generating strong rotational energy. It’s reliable and easy to maintain, making it suitable for medium to large mechanical systems."]
 	quest.39ADBE9A60170296.quest_desc: ["Has 27 more filter slots and is 5x faster than the regular Importer. Also has the Stack Upgrade integrated."]
-	quest.39C8CD6102B26BFE.quest_desc: ["It is widely used to construct the items described in Engineer's Blueprints. A wide variety of blueprints bcan be crafted, as detailed in the respective manual entry, whereas a few select ones can bonly be discovered in the world or purchased from villagers."]
+	quest.39C8CD6102B26BFE.quest_desc: ["The workbench handles specialized equipment and upgrades whose ingredients should be controlled separately from bulk factory inputs.","Acceptance: provide dedicated blueprint and component storage, retain rollback parts, and record the intended loadout before consuming rare upgrades."]
 	quest.39C8E1705EF1CD31.quest_desc: ["The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk."]
 	quest.39C8E1705EF1CD31.title: "&e256k Fluid Part&r"
 	quest.39CACA9B9A3FC911.quest_desc: ["Allows you to get exactly the right &denchantment&r you want at the &6cost of materials&r."]
@@ -4294,8 +4282,8 @@
 	quest.44881E39AB1D62AA.quest_subtitle: "Automated crafting!"
 	quest.44881E39AB1D62AA.title: "Crafter"
 	quest.4489EFA2FFA1584C.quest_desc: ["Another rocket that allows you to reach more planets"]
-	quest.449C41A3AFBBE8E9.quest_desc: ["It uses Iron and Coal Coke to generate Steel Ingots and Slag. Unlike with the Improved Blast Furnace, slag may not be removed limiting its automation capabilities."]
-	quest.449C41A3AFBBE8E9.title: "Crude Blast Furnace"
+	quest.449C41A3AFBBE8E9.quest_desc: ["Steel becomes an infrastructure material and must be produced in planned batches rather than only when a recipe blocks progress.","Acceptance: provide coke input, slag handling and storage for at least one stack of steel output; the furnace must run three cycles unattended."]
+	quest.449C41A3AFBBE8E9.title: "Blast Furnace — Steel Baseline"
 	quest.449FA7FE3CBD2102.title: "Tier 5 Multiblock"
 	quest.44B0E00B7465F278.quest_desc: ["A &dauto-repairing shield&r (at the cost of mana). Also gives &bmana regen&r and &cspell damage&r buff &nupon blocking&r."]
 	quest.44B1B147CDAC4E36.quest_desc: ["This gives X-Ray vision for mobs, highlighting them from afar to make it easier to spot them."]
@@ -7483,7 +7471,7 @@
 		"&bOxygen:&r none"
 		"&cTemperature:&r -240 °C"
 	]
-	quest.774B1D4152A0B4ED.quest_desc: ["Mainly used to assemble multiblocks when right clicking the middle block."]
+	quest.774B1D4152A0B4ED.quest_desc: ["The hammer forms and services Immersive Engineering multiblocks; it is not merely a crafting ingredient.","Acceptance: keep a spare outside the production area, leave safe access to formation faces, and document how each critical multiblock is rebuilt after failure."]
 	quest.77572C546A50BE0C.quest_desc: [
 		"The &bShape Card (Placing Liquids)&r is a specialized version of the &bShape Card&r in &5RFTools&r designed for placing liquids in defined shapes."
 		""
@@ -10290,4 +10278,18 @@
 	quest.197AB0E07A40512F.title: "Water Wheels: Stable Generation"
 	quest.51CCB7ACFD7B45F1.title: "Brass Casing: Heated Production Gate"
 	quest.51CCB7ACFD7B45F1.quest_desc: ["Brass infrastructure marks the transition from andesite machinery to controlled heated production.","Acceptance: blaze-burner fuel is managed safely, zinc and copper inputs are buffered, and a batch of sixteen casings can be repeated without moving the mixer."]
+	quest.774B1D4152A0B4ED.title: "Engineer's Hammer — Multiblock Control"
+	quest.174228D87BAF69B2.title: "Voltmeter — Measure Before Connecting"
+	quest.174228D87BAF69B2.quest_desc: ["Voltage tier, transfer limits and stored energy must be checked before unfamiliar machines share a network.","Acceptance: measure source and buffer state, label the line tier, and preserve at least 25% normal transfer headroom before adding another consumer."]
+	quest.47709C807D643108.title: "Preheaters — Throughput With Power Cost"
+	quest.47709C807D643108.quest_desc: ["Preheaters accelerate the reinforced furnace but add continuous electrical demand and another failure point.","Acceptance: install the intended pair, measure demand under load, keep 25% network headroom, and verify that loss of power does not deadlock material routing."]
+	quest.316399F0B5F729CA.title: "Engineer's Crafting Table — Dedicated Assembly"
+	quest.39C8CD6102B26BFE.title: "Engineer's Workbench — Upgrade Discipline"
+	quest.1AFBE29BB6CC2C0D.quest_desc: ["Mechanical components are repeated machine inputs and become a hidden bottleneck when crafted only at the final assembly step.","Acceptance: maintain labelled buffers for iron and steel components, target at least sixteen of each, and expose the slowest plate or rod process for scaling."]
+	quest.7F00E38513D06DF9.title: "Fluid Pipes — Directed Material Flow"
+	quest.7F00E38513D06DF9.quest_desc: ["A connected pipe network is not automatically a controlled network; unintended connections can mix products or drain buffers.","Acceptance: label source and destination, use deliberate extraction points, provide shutoff access, and verify that a full destination cannot block an unrelated process."]
+	quest.63768F7BC7BD0188.title: "Fluid Pump — Bounded Transfer"
+	quest.63768F7BC7BD0188.quest_desc: ["The pump defines active fluid movement and must be sized around buffer capacity rather than maximum theoretical speed.","Acceptance: power it through a protected line, prevent dry or wrong-fluid transfer, add a controllable stop condition, and test recovery after the destination fills."]
+	quest.0884D6C10B1047A2.title: "Garden Cloche — Sustainable Input Contract"
+	quest.0884D6C10B1047A2.quest_desc: ["The cloche is useful only when water, power, soil and output handling form a stable contract with downstream machines.","Acceptance: run three harvest cycles unattended, stop safely on full storage, keep seed recovery independent, and document the actual output rate used by consumers."]
 }
