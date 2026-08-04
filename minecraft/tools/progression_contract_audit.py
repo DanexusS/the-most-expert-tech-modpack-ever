@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_PATH = ROOT / "config" / "expert_progression_contract.json"
+POLICY_PATH = ROOT / "config" / "expert_bypass_policy.json"
 REPORT_PATH = ROOT / "docs" / "PROGRESSION_CONTRACT_REPORT.md"
 CHAPTER_DIR = ROOT / "config" / "ftbquests" / "quests" / "chapters"
 STARTUP_COMPONENTS = ROOT / "kubejs" / "startup_scripts" / "expert_components.js"
@@ -15,11 +16,10 @@ SERVER_SCRIPTS = ROOT / "kubejs" / "server_scripts"
 
 OUTPUT_RE = re.compile(r"output:\s*['\"]([^'\"]+)['\"]")
 REGISTERED_COMPONENT_RE = re.compile(r"\['([a-z0-9_]+)',\s*'[^']+',\s*'[^']+'\]")
-QUEST_ID_RE = re.compile(r'(?m)^\s*id:\s*"([0-9A-F]{16})"')
 
 
-def load_contract() -> dict:
-    return json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def recipe_outputs() -> Counter[str]:
@@ -36,26 +36,25 @@ def registered_kubejs_items() -> set[str]:
 
 
 def quest_count() -> int:
+    quality_report = ROOT / "docs" / "QUEST_QUALITY_REPORT.md"
+    if quality_report.is_file():
+        match = re.search(
+            r"Quests parsed:\s*\*\*([0-9]+)\*\*",
+            quality_report.read_text(encoding="utf-8"),
+        )
+        if match:
+            return int(match.group(1))
+
     total = 0
     for path in CHAPTER_DIR.glob("*.snbt"):
         text = path.read_text(encoding="utf-8")
         marker = text.find("quests:")
-        if marker < 0:
-            continue
-        # Every quest and task has an ID. Quest blocks are identified by the
-        # first-level task marker count used by the existing quality audit.
-        total += len(re.findall(r'(?m)^\t\t\{\n(?:.|\n)*?^\t\t\}', text[marker:]))
-    # The broad block pattern may undercount unusual formatting. Use the stable
-    # known relationship from quest files when the quality report is available.
-    quality_report = ROOT / "docs" / "QUEST_QUALITY_REPORT.md"
-    if quality_report.is_file():
-        match = re.search(r"Quests parsed:\s*\*\*([0-9]+)\*\*", quality_report.read_text(encoding="utf-8"))
-        if match:
-            return int(match.group(1))
+        if marker >= 0:
+            total += len(re.findall(r"(?m)^\t\t\{", text[marker:]))
     return total
 
 
-def audit(contract: dict) -> tuple[list[str], dict]:
+def audit(contract: dict, policy: dict) -> tuple[list[str], dict]:
     failures: list[str] = []
     stages = contract.get("stages", [])
     indices = [stage.get("index") for stage in stages]
@@ -64,6 +63,7 @@ def audit(contract: dict) -> tuple[list[str], dict]:
     all_gated = [item for stage in stages for item in stage.get("gated_outputs", [])]
     outputs = recipe_outputs()
     registered = registered_kubejs_items()
+    authorized_non_recipe = policy.get("authorized_non_recipe_sources", {})
 
     if len(stages) != 18:
         failures.append(f"Expected 18 macro stages, found {len(stages)}")
@@ -100,7 +100,15 @@ def audit(contract: dict) -> tuple[list[str], dict]:
     if duplicate_gates:
         failures.append("Gated outputs assigned to multiple stages: " + ", ".join(duplicate_gates))
 
-    missing_authoritative = sorted(item for item in all_gated if outputs[item] == 0)
+    missing_authoritative = sorted(
+        item for item in all_gated
+        if outputs[item] == 0 and item not in authorized_non_recipe
+    )
+    authorized_processes = {
+        item: reason
+        for item, reason in authorized_non_recipe.items()
+        if item in all_gated
+    }
     multiple_recipe_mentions = sorted(item for item in all_gated if outputs[item] > 1)
 
     current_quests = quest_count()
@@ -112,6 +120,7 @@ def audit(contract: dict) -> tuple[list[str], dict]:
         "quest_gap": max(0, quest_budget - current_quests),
         "gated_outputs": len(all_gated),
         "missing_authoritative": missing_authoritative,
+        "authorized_processes": authorized_processes,
         "multiple_recipe_mentions": multiple_recipe_mentions,
         "structural_failures": failures,
     }
@@ -135,7 +144,8 @@ def render(metrics: dict) -> str:
         f"- Current parsed quests: **{metrics['current_quests']}**",
         f"- Remaining quest budget: **{metrics['quest_gap']}**",
         f"- Gated outputs: **{metrics['gated_outputs']}**",
-        f"- Gated outputs without a recipe declaration: **{len(missing)}**",
+        f"- Gated outputs without an authoritative path: **{len(missing)}**",
+        f"- Authorized process or unique-permission outputs: **{len(metrics['authorized_processes'])}**",
         "",
     ]
     if structural_failures:
@@ -146,11 +156,16 @@ def render(metrics: dict) -> str:
         lines.extend(["## Outputs still requiring an authoritative path", ""])
         lines.extend(f"- `{item}`" for item in missing)
         lines.append("")
+    if metrics["authorized_processes"]:
+        lines.extend(["## Authorized non-crafting paths", ""])
+        for item, reason in sorted(metrics["authorized_processes"].items()):
+            lines.append(f"- `{item}` — {reason}")
+        lines.append("")
     if metrics["multiple_recipe_mentions"]:
         lines.extend([
             "## Outputs mentioned by multiple recipe definitions",
             "",
-            "These are not automatically failures because the v1 override removes legacy outputs at runtime, but each entry requires bypass review.",
+            "These are not automatically failures because the last v1 layer removes legacy outputs at runtime, but each entry remains in the bypass review.",
             "",
         ])
         lines.extend(f"- `{item}`" for item in metrics["multiple_recipe_mentions"])
@@ -163,7 +178,7 @@ def main() -> int:
     parser.add_argument("--strict", action="store_true")
     args = parser.parse_args()
 
-    failures, metrics = audit(load_contract())
+    failures, metrics = audit(load_json(CONTRACT_PATH), load_json(POLICY_PATH))
     REPORT_PATH.write_text(render(metrics), encoding="utf-8", newline="\n")
     incomplete = bool(failures or metrics["missing_authoritative"])
     print(f"progression_contract: {'IN PROGRESS' if incomplete else 'PASS'}")
