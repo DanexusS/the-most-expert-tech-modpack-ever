@@ -12,10 +12,12 @@ REPORT_PATH = ROOT / "docs" / "V1_READINESS.md"
 FOUNDATION_REPORTS = {
     "Theoretical balance": ROOT / "docs" / "THEORETICAL_BALANCE_REPORT.md",
     "Core quest quality": ROOT / "docs" / "QUEST_QUALITY_REPORT.md",
+    "Recipe dependency graph": ROOT / "docs" / "RECIPE_DEPENDENCY_REPORT.md",
     "Create core route": ROOT / "docs" / "CREATE_CORE_QUALITY_REPORT.md",
     "Immersive Engineering core route": ROOT / "docs" / "IE_CORE_QUALITY_REPORT.md",
     "Modern Industrialization core route": ROOT / "docs" / "MI_CORE_QUALITY_REPORT.md",
     "Applied Energistics 2 core route": ROOT / "docs" / "AE2_CORE_QUALITY_REPORT.md",
+    "Mekanism core route": ROOT / "docs" / "MEKANISM_CORE_QUALITY_REPORT.md",
 }
 
 PRODUCT_REPORTS = {
@@ -150,7 +152,7 @@ def main() -> int:
         "",
         "## Rule",
         "",
-        "The label `v1` is prohibited until the product specification, progression contract, bypass audit, all-mod guide coverage and minimum runtime gates pass together.",
+        "The label `v1` is prohibited until the product specification, progression contract, recipe dependency graph, bypass audit, all-mod guide coverage and minimum runtime gates pass together.",
         "",
     ])
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
