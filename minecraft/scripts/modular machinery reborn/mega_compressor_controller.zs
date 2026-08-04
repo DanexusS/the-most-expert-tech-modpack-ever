@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("678a55e5-385b-4a0d-ac74-109c800c948b", 0, <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:mega_compressor_controller"), [
+	[<item:mekanism_extras:infinite_control_circuit>, <item:avaritia:densest_neutron_compressor>, <item:allthecompressed:antimatter_block_1x>, <item:oritech:machine_core_7>, <item:advanced_ae:quantum_accelerator>], 
+	[<item:advanced_ae:quantum_alloy_block>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:avaritia:neutron>], 
+	[<item:draconicevolution:awakened_draconium_block>, <item:modular_machinery_reborn:casing_plain>, <item:draconicevolution:reactor_stabilizer>, <item:modular_machinery_reborn:casing_plain>, <item:draconicevolution:awakened_draconium_block>], 
+	[<item:avaritia:neutron>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:advanced_ae:quantum_alloy_block>], 
+	[<item:advanced_ae:quantum_crafter>, <item:oritech:machine_core_7>, <item:allthecompressed:antimatter_block_1x>, <item:avaritia:densest_neutron_compressor>, <item:mekanism_extras:infinite_control_circuit>]
+]);

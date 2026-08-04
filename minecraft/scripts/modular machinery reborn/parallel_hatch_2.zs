@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("287363d7-c93f-4a44-84fc-0818920eac9d", 0, <item:modular_machinery_reborn:parallel_hatch_medium>, [
+	[<item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>], 
+	[<item:modular_machinery_reborn:casing_plain>, <item:allthecompressed:spirited_crystal_block_3x>, <item:oritech:flux_gate>, <item:allthecompressed:spirited_crystal_block_3x>, <item:modular_machinery_reborn:casing_plain>], 
+	[<item:modular_machinery_reborn:casing_plain>, <item:modern_industrialization:random_access_memory>, <item:modular_machinery_reborn:parallel_hatch_basic>, <item:modern_industrialization:digital_circuit_board>, <item:modular_machinery_reborn:casing_plain>], 
+	[<item:modular_machinery_reborn:casing_plain>, <item:allthecompressed:spirited_crystal_block_3x>, <item:advanced_ae:printed_quantum_processor>, <item:allthecompressed:spirited_crystal_block_3x>, <item:modular_machinery_reborn:casing_plain>], 
+	[<item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>]
+]);

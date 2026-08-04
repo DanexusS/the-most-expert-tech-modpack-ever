@@ -1,0 +1,11 @@
+{
+  "name": "Fluix Crystal",
+  "colors": [
+    "6B3DD9",
+    "3A1A7A"
+  ],
+  "ingredient": {
+    "item": "ae2:fluix_crystal"
+  },
+  "inUltimateSingularity": true
+}

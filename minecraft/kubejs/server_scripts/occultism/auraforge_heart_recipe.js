@@ -1,0 +1,21 @@
+ServerEvents.recipes(event => {
+    event.recipes.occultism.ritual(
+        'fragmentumneoforge:auraforgeheart',
+        [
+            'projectexpansion:orange_matter',
+            'forbidden_arcanus:sea_prism',
+            'ufo:dust_cryotheum',
+            'mysticalagradditions:awakened_draconium_crux',
+            'ars_elemental:water_focus',
+            'create_enchantment_industry:super_experience_nugget',
+            'kubejs:allthemodium_alloy',
+            'forbidden_arcanus:smelter_prism',
+            'cataclysm:ignitium_ingot',
+            'avaritia:star_fuel',
+            'projectexpansion:cyan_matter',
+            'avaritia:blaze_cube'
+        ],
+        'draconicevolution:dragon_heart', 
+        'occultism:craft_marid'         
+    )
+})

@@ -1,0 +1,1 @@
+{"name":"Realmite Ingot","type":"mysticalagriculture:resource","tier":"mysticalagriculture:3","ingredient":{"item":"divinerpg:realmite_ingot"},"color":"E48E2A","textures":{"flower":"mysticalagriculture:block/flower_ingot","essence":"mysticalagriculture:item/essence_ingot","seeds":"mysticalagriculture:item/mystical_seeds"},"baseSecondaryChance":0.4}

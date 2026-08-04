@@ -1,0 +1,11 @@
+{
+  "name": "Stainless Steel",
+  "colors": [
+    "D8D8D8",
+    "A0A0A0"
+  ],
+  "ingredient": {
+    "item": "modern_industrialization:stainless_steel_ingot"
+  },
+  "inUltimateSingularity": true
+}

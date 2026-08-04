@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/wetland_whimsy/way_sign_bald_cypress",
+		"sign": "supplementaries:block/way_signs/wetland_whimsy/way_sign_bald_cypress"
+	}
+}

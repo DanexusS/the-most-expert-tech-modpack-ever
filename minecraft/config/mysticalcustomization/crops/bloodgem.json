@@ -1,0 +1,1 @@
+{"name":"Bloodgem","type":"mysticalagriculture:resource","tier":"mysticalagriculture:4","ingredient":{"item":"divinerpg:bloodgem"},"color":"E76587","textures":{"flower":"mysticalagriculture:block/flower_gem","essence":"mysticalagriculture:item/essence_gem","seeds":"mysticalagriculture:item/mystical_seeds"},"baseSecondaryChance":0.4}

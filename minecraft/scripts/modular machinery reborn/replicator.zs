@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("1ac58b69-8111-4bc3-891a-8e9442f42e1a", 0, <item:modern_industrialization:replicator>, [
+	[<item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_upgrade>, <item:modern_industrialization:quantum_circuit>, <item:modern_industrialization:quantum_upgrade>, <item:modern_industrialization:quantum_machine_hull>], 
+	[<item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_machine_hull>, <item:avaritia:infinity>, <item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_machine_hull>], 
+	[<item:modern_industrialization:quantum_circuit>, <item:avaritia:infinity>, <item:modern_industrialization:uu_matter_bucket>, <item:avaritia:infinity>, <item:modern_industrialization:quantum_circuit>], 
+	[<item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_machine_hull>, <item:avaritia:infinity>, <item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_machine_hull>], 
+	[<item:modern_industrialization:quantum_machine_hull>, <item:modern_industrialization:quantum_upgrade>, <item:modern_industrialization:quantum_circuit>, <item:modern_industrialization:quantum_upgrade>, <item:modern_industrialization:quantum_machine_hull>]
+]);

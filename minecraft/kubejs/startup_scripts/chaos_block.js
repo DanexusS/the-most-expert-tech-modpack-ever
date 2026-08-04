@@ -1,0 +1,11 @@
+StartupEvents.registry('block', event => {
+  event.create('chaos_block')
+    .displayName('Chaos Block')
+    .soundType('polished_deepslate')
+    .hardness(1.0)
+    .resistance(1.0)
+    .lightLevel(0.4)
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_diamond_tool')
+})

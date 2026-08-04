@@ -1,0 +1,1 @@
+{"name":"Rupee Ingot","type":"mysticalagriculture:resource","tier":"mysticalagriculture:5","ingredient":{"item":"divinerpg:rupee_ingot"},"color":"3BC6E4","textures":{"flower":"mysticalagriculture:block/flower_ingot","essence":"mysticalagriculture:item/essence_ingot","seeds":"mysticalagriculture:item/mystical_seeds"},"baseSecondaryChance":0.4}

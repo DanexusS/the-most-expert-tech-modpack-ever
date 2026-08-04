@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("cd26911f-4bb2-42f6-92b1-e328c64bed72", 0, <item:create:refined_radiance>, [
+	[<item:actuallyadditions:empowered_enori_crystal>, <item:mekanism_extras:alloy_shining>, <item:occultism:storage_controller_stabilized>, <item:mekanism_extras:alloy_shining>, <item:actuallyadditions:empowered_enori_crystal>], 
+	[<item:mekanism_extras:alloy_shining>, <item:projectexpansion:white_matter>, <item:modern_industrialization:superconductor_ingot>, <item:projectexpansion:white_matter>, <item:mekanism_extras:alloy_shining>], 
+	[<item:avaritia:crystal_matrix>, <item:modern_industrialization:superconductor_ingot>, <item:mekanism_extras:alloy_radiance>, <item:modern_industrialization:superconductor_ingot>, <item:apothic_enchanting:geode_shelf>], 
+	[<item:mekanism_extras:alloy_shining>, <item:projectexpansion:white_matter>, <item:modern_industrialization:superconductor_ingot>, <item:projectexpansion:white_matter>, <item:mekanism_extras:alloy_shining>], 
+	[<item:actuallyadditions:empowered_enori_crystal>, <item:mekanism_extras:alloy_shining>, <item:forbidden_arcanus:white_quantum_catcher>, <item:mekanism_extras:alloy_shining>, <item:actuallyadditions:empowered_enori_crystal>]
+]);

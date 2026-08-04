@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/cannon_boat/wetland_whimsy/cannon_boat_bald_cypress"
+  }
+}

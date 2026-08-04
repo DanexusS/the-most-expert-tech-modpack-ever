@@ -1,0 +1,1 @@
+{"name":"Eden Fragments","type":"mysticalagriculture:resource","tier":"mysticalagriculture:1","ingredient":{"item":"divinerpg:eden_fragments"},"color":"FBFF06","textures":{"flower":"mysticalagriculture:block/flower_gem","essence":"mysticalagriculture:item/essence_gem","seeds":"mysticalagriculture:item/mystical_seeds"},"baseSecondaryChance":0.4,"crux":"divinerpg:eden_block"}

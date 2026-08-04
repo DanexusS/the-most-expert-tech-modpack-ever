@@ -1,0 +1,6 @@
+#General
+[general]
+	#Activate the Update-Checker
+	update-checker = true
+	#Enables tooltips for some blocks/items in your inventory
+	enable_tooltips = true

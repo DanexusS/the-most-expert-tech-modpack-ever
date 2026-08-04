@@ -1,0 +1,17 @@
+{
+  "name": "Plutonium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mekanism:pellet_plutonium"
+  },
+  "color": "94D8DA",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "modern_industrialization:uranium_235_block",
+  "recipes": {
+    "infusion": true // the infusion altar recipe for the seed
+  }
+}

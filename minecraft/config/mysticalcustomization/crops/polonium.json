@@ -1,0 +1,17 @@
+{
+  "name": "Polonium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mekanism:pellet_polonium"
+  },
+  "color": "80eaff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "mekanism:sps_casing",
+  "recipes": {
+    "infusion": true // the infusion altar recipe for the seed
+  }
+}

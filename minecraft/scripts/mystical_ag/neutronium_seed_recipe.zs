@@ -1,0 +1,9 @@
+recipes.remove(<item:mysticalagriculture:neutronium_seeds>);<recipetype:extendedcrafting:table>.addShaped("5a3c96a8-4ad2-4164-a523-ca7243f9e9d2", 0, <item:mysticalagriculture:neutronium_seeds>, [
+	[<item:avaritia:neutron>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_gear>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron>], 
+	[<item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>], 
+	[<item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>, <item:allthemodium:unobtainium_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>], 
+	[<item:avaritia:neutron_gear>, <item:avaritia:neutron_ingot>, <item:allthemodium:allthemodium_ingot>, <item:mysticalagriculture:prosperity_seed_base>, <item:allthemodium:vibranium_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_gear>], 
+	[<item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:allthemodium:unobtainium_ingot>, <item:allthemodium:vibranium_ingot>, <item:allthemodium:vibranium_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>], 
+	[<item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>], 
+	[<item:avaritia:neutron>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_gear>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron>]
+]);

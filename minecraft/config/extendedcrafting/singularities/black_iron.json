@@ -1,0 +1,11 @@
+{
+  "name": "Black Iron",
+  "colors": [
+    "2E2E2E",
+    "555555"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "inUltimateSingularity": true
+}

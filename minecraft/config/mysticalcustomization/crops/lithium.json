@@ -1,0 +1,16 @@
+{
+  "name": "Lithium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "mekanism:dust_lithium"
+  },
+  "color": "ffffff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "recipes": {
+    "infusion": true
+  }
+}

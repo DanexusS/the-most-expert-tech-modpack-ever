@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("bade6d41-357c-42d7-acb5-6b598696e657", 0, <item:irons_spellbooks:mithril_scrap>, [
+	[<item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>], 
+	[<item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>], 
+	[<item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>], 
+	[<item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>], 
+	[<item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>, <item:mysticalagriculture:mithril_essence>]
+]);

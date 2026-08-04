@@ -1,0 +1,114 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:uncommon_material"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 80.0,
+      "id": "apotheosis:rare_material"
+    },
+    {
+      "chance": 20.0,
+      "id": "minecraft:lapis_lazuli"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        },
+        {
+          "item": "apotheosis:uncommon_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 300
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:uncommon_material"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis:uncommon_material"
+  }
+}

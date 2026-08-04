@@ -1,0 +1,11 @@
+{
+  "name": "Entro",
+  "colors": [
+    "038181",
+    "3ED19B"
+  ],
+  "ingredient": {
+    "item": "extendedae:entro_ingot"
+  },
+  "inUltimateSingularity": true
+}

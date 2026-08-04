@@ -1,0 +1,17 @@
+#General
+[general]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+
+#Roads
+[roads]
+	#Enables the speed effect you get when you run on asphalt. [not boost blocks]
+	enable_asphalt_speed_effect = true
+	#How strong the speed effect should be.
+	# Default: 1
+	# Range: 0 ~ 5
+	speed_effect_amplifier = 1
+	#How strong the speed effect of Boost blocks should be.
+	# Default: 3
+	# Range: 0 ~ 5
+	boost_speed_effect_amplifier = 3

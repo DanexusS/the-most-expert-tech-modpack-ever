@@ -1,0 +1,1544 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ufo_future"
+	group: "177A10C99EDDA376"
+	icon: {
+		id: "ufo:quantum_anomaly"
+	}
+	id: "5B3707F191EEE3E9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6560DADDBE9FA983"
+			rewards: [{
+				id: "7E8323AA0198C11E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1F01F0057C68C2C9"
+				item: { count: 1, id: "ufo:obsidian_matrix" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6560DADDBE9FA983"
+				"1EF51C312AAA3437"
+			]
+			id: "0889B37C31A4D6EA"
+			rewards: [
+				{
+					count: 2
+					id: "61D3750DAD6F8CFD"
+					item: {
+						count: 1
+						id: "ufo:obsidian_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "61AD837C2DC470D8"
+					item: {
+						count: 1
+						id: "ufo:graviton_plated_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "3F3B4AFD8118AD13"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A03A91D0D81D1EE"
+				item: { count: 1, id: "ufo:dimensional_matter_assembler" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6560DADDBE9FA983"]
+			id: "1EF51C312AAA3437"
+			rewards: [
+				{
+					count: 2
+					id: "3AB16CBC074327D2"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "596DCA3FEA6A8407"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6077E596B02F5D76"
+				item: { count: 1, id: "ufo:graviton_plated_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1EF51C312AAA3437"
+				"0BA95CE9654FFC67"
+			]
+			id: "037A36EA33EE666D"
+			rewards: [{
+				id: "5FC936612CC4FCF0"
+				item: {
+					count: 1
+					id: "ufo:graviton_plated_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A6761AC36C2FC1"
+				item: { count: 1, id: "ufo:1b_mega_crafting_storage" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1EF51C312AAA3437"
+				"34F4B347F845C6FB"
+			]
+			id: "4C786266B391B772"
+			rewards: [{
+				id: "564FA67C7DA118CD"
+				item: {
+					count: 1
+					id: "ufo:phase_shift_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C618867324C45A"
+				item: { count: 1, id: "ufo:50b_mega_crafting_storage" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1EF51C312AAA3437"
+				"7D31A66C8F7B76F7"
+			]
+			id: "1357102EC118E363"
+			rewards: [{
+				id: "5EBE02161C8F50EE"
+				item: {
+					count: 1
+					id: "ufo:cosmic_string_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65474EB0459EB283"
+				item: { count: 1, id: "ufo:1t_mega_crafting_storage" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1EF51C312AAA3437"
+				"4D99A3C8F8D0B850"
+			]
+			id: "2976203B1081D414"
+			rewards: [{
+				id: "551F6730C93829B5"
+				item: {
+					count: 1
+					id: "ufo:tesseract_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CED4EC7B63B37A4"
+				item: { count: 1, id: "ufo:250t_mega_crafting_storage" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "0ADEFF34AAA0D7C7"
+			rewards: [
+				{
+					count: 9
+					id: "15AB25B4FAD5133E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "66F59D697AD2B5FA"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0882D671917894EF"
+				item: { count: 1, id: "ufo:dimensional_processor_press" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "667C5DAC623D8924"
+			rewards: [{
+				count: 32
+				id: "501E5D81D6E7134C"
+				item: {
+					count: 1
+					id: "minecraft:snowball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00806F1E8F0DB4C1"
+				item: { count: 1, id: "ufo:dust_blizz" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["667C5DAC623D8924"]
+			id: "63D158AEF40E3293"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:source_gelid_cryotheum"
+				}
+				id: "2C1280FC28A83F4D"
+				type: "fluid"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "676EA360D60595A3"
+			rewards: [{
+				id: "4ECB62AB343D3524"
+				item: {
+					count: 1
+					id: "allthecompressed:sky_stone_block_2x"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33DAD130A89CE04F"
+				item: { count: 1, id: "ufo:white_dwarf_fragment_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"676EA360D60595A3"
+				"0ADEFF34AAA0D7C7"
+			]
+			id: "4B83CFF3601C34C7"
+			rewards: [{
+				id: "215C57BD20F9B850"
+				item: {
+					count: 1
+					id: "ufo:white_dwarf_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "342F84D2AFBB427F"
+				item: { count: 1, id: "ufo:printed_dimensional_processor" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B83CFF3601C34C7"]
+			id: "2F8F54A16D09A07F"
+			rewards: [{
+				count: 12
+				id: "7C4D74C4E5E8D496"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7304589B76788CA7"
+				item: { count: 1, id: "ufo:dimensional_processor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F8F54A16D09A07F"]
+			id: "20EF6077B71569AA"
+			tasks: [{
+				id: "2E38627A0534E7F0"
+				item: { count: 1, id: "ufo:quantum_lattice_frame" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20EF6077B71569AA"]
+			id: "358C8577CE86AF68"
+			shape: "diamond"
+			tasks: [{
+				id: "4D9CE32C2303A1B0"
+				item: { count: 1, id: "ufo:50m_mega_co_processor" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["358C8577CE86AF68"]
+			id: "32615D0EAB219E27"
+			rewards: [{
+				id: "196E3A74D2A0CC72"
+				item: {
+					count: 1
+					id: "ufo:50m_mega_co_processor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "544A6BE08F08E210"
+				item: { count: 1, id: "ufo:150m_mega_co_processor" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["32615D0EAB219E27"]
+			id: "138404C3E1120F74"
+			rewards: [{
+				id: "704865811FE037C3"
+				item: {
+					count: 1
+					id: "ufo:150m_mega_co_processor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EE4468E6B3D37FF"
+				item: { count: 1, id: "ufo:300m_mega_co_processor" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["138404C3E1120F74"]
+			id: "5C950B2842FBB2D9"
+			rewards: [{
+				id: "4DAA2F62A156DDC9"
+				item: {
+					count: 1
+					id: "ufo:300m_mega_co_processor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B91AA4BF5A4D1F8"
+				item: { count: 1, id: "ufo:750m_mega_co_processor" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C950B2842FBB2D9"]
+			id: "776C4F2AE494ADB1"
+			rewards: [{
+				id: "3FE5B19FE1154FE5"
+				item: {
+					count: 1
+					id: "ufo:750m_mega_co_processor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3376EFC4D15D8254"
+				item: { count: 1, id: "ufo:2b_mega_co_processor" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F8F54A16D09A07F"]
+			id: "0BA95CE9654FFC67"
+			rewards: [{
+				id: "21304C88DA97F501"
+				item: {
+					count: 1
+					id: "ufo:dimensional_processor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7298444AF4E02A30"
+				item: { count: 1, id: "ufo:phase_shift_component_matrix" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA95CE9654FFC67"]
+			id: "34F4B347F845C6FB"
+			rewards: [{
+				id: "22E3E95789240D50"
+				item: {
+					count: 1
+					id: "ufo:phase_shift_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2CDDFCD1CDEF88"
+				item: { count: 1, id: "ufo:hyper_dense_component_matrix" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B0028B5F47CB5F1"]
+			id: "2AC48A0D4CA24084"
+			rewards: [{
+				count: 2
+				id: "1DD6599E41B3AEB0"
+				item: {
+					count: 1
+					id: "ufo:neutron_star_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02B876651E423612"
+				item: { count: 1, id: "ufo:pulsar_fragment_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "1B0028B5F47CB5F1"
+			rewards: [
+				{
+					count: 2
+					id: "2A7F3CC758EC3C27"
+					item: {
+						count: 1
+						id: "ufo:white_dwarf_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "008EE60BAB09BED8"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "266234616017B540"
+				item: { count: 1, id: "ufo:neutron_star_fragment_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AC48A0D4CA24084"]
+			id: "03DB20CF345324D5"
+			rewards: [{
+				id: "52FB6661AE488D58"
+				item: {
+					count: 1
+					id: "ufo:pulsar_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA104912F678511"
+				item: { count: 1, id: "ufo:pulsar_fragment_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["03DB20CF345324D5"]
+			id: "45DDCE3FF2E6A4F8"
+			rewards: [
+				{
+					count: 6
+					id: "3EE25AE8E89CD6EE"
+					item: {
+						count: 1
+						id: "ufo:pulsar_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2061B6F320368869"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+			]
+			tasks: [{
+				id: "22E386F81D9F65FE"
+				item: { count: 1, id: "ufo:quantum_anomaly" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"03DB20CF345324D5"
+				"1B0028B5F47CB5F1"
+			]
+			icon_scale: 1.2d
+			id: "480036468A6A5A4E"
+			rewards: [
+				{
+					count: 2
+					id: "204B65105FDDBB90"
+					item: {
+						count: 1
+						id: "ufo:white_dwarf_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "247950FD8E54D539"
+					item: {
+						count: 1
+						id: "ufo:neutron_star_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40B686987529970A"
+					item: {
+						count: 1
+						id: "ufo:pulsar_fragment_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:raw_star_matter_plasma"
+				}
+				id: "783CD6F4354AED0E"
+				type: "fluid"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45DDCE3FF2E6A4F8"]
+			id: "1D412A9098E05E0F"
+			tasks: [{
+				fluid: {
+					amount: 1
+					id: "ufo:source_temporal_fluid"
+				}
+				id: "0356412D19D03265"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"34F4B347F845C6FB"
+				"5F40AC971ECE683E"
+			]
+			id: "7D31A66C8F7B76F7"
+			rewards: [{
+				id: "0CC9E0897B832BE3"
+				item: {
+					count: 1
+					id: "ufo:hyper_dense_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DFC01604AE0E7B0"
+				item: { count: 1, id: "ufo:tesseract_component_matrix" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B0028B5F47CB5F1"]
+			hide_dependent_lines: true
+			id: "5F40AC971ECE683E"
+			tasks: [{
+				id: "7580B59C47AFD16A"
+				item: { count: 1, id: "ufo:neutron_star_matter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7D31A66C8F7B76F7"
+				"5014E85366FA6D22"
+				"04F456B8F4DF695D"
+			]
+			id: "4D99A3C8F8D0B850"
+			rewards: [{
+				id: "657C0E32839AE4A0"
+				item: {
+					count: 1
+					id: "ufo:tesseract_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ED75602F7BBBE81"
+				item: { count: 1, id: "ufo:event_horizon_component_matrix" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"480036468A6A5A4E"
+				"1B0028B5F47CB5F1"
+				"676EA360D60595A3"
+				"2AC48A0D4CA24084"
+			]
+			hide_dependency_lines: true
+			id: "50E9C56331BE762A"
+			rewards: [
+				{
+					count: 4
+					id: "7DE02428149D7B61"
+					item: {
+						count: 1
+						id: "ufo:white_dwarf_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0017262F50FB30DA"
+					item: {
+						count: 1
+						id: "ufo:pulsar_fragment_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "109BD7277A5611F3"
+					item: {
+						count: 1
+						id: "ufo:neutron_star_fragment_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6606C3DF8D700072"
+				item: { count: 1, id: "ufo:nuclear_star" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50E9C56331BE762A"]
+			id: "5014E85366FA6D22"
+			rewards: [{
+				id: "64ABD5A638C44549"
+				item: {
+					count: 1
+					id: "ufo:nuclear_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:source_spatial_fluid"
+				}
+				id: "45B7485801D5637D"
+				type: "fluid"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EC2703C7191C1BB"]
+			id: "04F456B8F4DF695D"
+			rewards: [{
+				id: "617B4812B0F75377"
+				item: {
+					count: 1
+					id: "ufo:corporeal_matter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7476FDF3E6D0C3"
+				item: { count: 1, id: "ufo:pulsar_matter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["654690D43983EF97"]
+			id: "4EC2703C7191C1BB"
+			rewards: [{
+				id: "7205459CB1D0950D"
+				item: {
+					count: 1
+					id: "allthecompressed:iron_block_2x"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D11CEFD05CEB37"
+				item: { count: 1, id: "ufo:corporeal_matter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FE8D5CAE4FEC6AF"
+				"6C52C108FA9020E4"
+			]
+			id: "654690D43983EF97"
+			rewards: [{
+				count: 2
+				id: "0FDE2EB28C632EDC"
+				item: {
+					count: 1
+					id: "ufo:neutronium_sphere"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD8C5924FDB87FD"
+				item: { count: 1, id: "ufo:proto_matter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7078DD00551BF863"
+				"472C30DE79844F67"
+			]
+			id: "2FE8D5CAE4FEC6AF"
+			rewards: [{
+				id: "1D1AFC271F092E2C"
+				item: {
+					count: 1
+					id: "ufo:quantum_anomaly"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F3F8324D394C731"
+				item: { count: 1, id: "ufo:enriched_neutronium_sphere" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "6C52C108FA9020E4"
+			rewards: [{
+				count: 64
+				id: "062B72649C2F956A"
+				item: {
+					count: 1
+					id: "ae2:matter_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:uu_matter"
+				}
+				id: "013902FC3E1CC835"
+				type: "fluid"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B0028B5F47CB5F1"]
+			hide_dependency_lines: true
+			id: "7078DD00551BF863"
+			rewards: [{
+				count: 2
+				id: "617672C89F1AA406"
+				item: {
+					count: 1
+					id: "ufo:neutron_star_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1816057C5546FC96"
+				item: { count: 1, id: "ufo:neutronium_sphere" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"480036468A6A5A4E"
+				"45DDCE3FF2E6A4F8"
+			]
+			hide_dependency_lines: true
+			id: "472C30DE79844F67"
+			rewards: [{
+				count: 12
+				id: "3E34461E6F46C9B4"
+				item: {
+					count: 1
+					id: "ufo:pulsar_fragment_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:source_primordial_matter_fluid"
+				}
+				id: "0873A3CB4B1448F1"
+				type: "fluid"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "120B72E8FF699F50"
+			rewards: [{
+				count: 16
+				id: "60FC5059DB6EE1CC"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2385335D2C8DB56E"
+				item: { count: 1, id: "ufo:thermal_resistor_plating" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["120B72E8FF699F50"]
+			id: "74E606B6472C77F9"
+			rewards: [{
+				count: 6
+				id: "09B48C72C85C4A84"
+				item: {
+					count: 1
+					id: "ufo:thermal_resistor_plating"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3DDC2F927171265C"
+					item: { count: 1, id: "ufo:thermal_resistor_mask" }
+					type: "item"
+				}
+				{
+					id: "7E93DFF5BA55FBE1"
+					item: { count: 1, id: "ufo:thermal_resistor_chest" }
+					type: "item"
+				}
+				{
+					id: "6A096AF297662F42"
+					item: { count: 1, id: "ufo:thermal_resistor_pants" }
+					type: "item"
+				}
+				{
+					id: "1A7E5C45EEFE6D99"
+					item: { count: 1, id: "ufo:thermal_resistor_boots" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"74E606B6472C77F9"
+				"10F23B659055346C"
+			]
+			id: "42125A0E7E0AAFAF"
+			rewards: [{
+				id: "3E45C320AC0B6400"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3668D7D03BF1F331"
+					item: { count: 1, id: "ufo:ufo_helmet" }
+					type: "item"
+				}
+				{
+					id: "2FB22D353FA54C89"
+					item: { count: 1, id: "ufo:ufo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "307A01DE7CFFF36C"
+					item: { count: 1, id: "ufo:ufo_leggings" }
+					type: "item"
+				}
+				{
+					id: "143D48EDA42AEDD2"
+					item: { count: 1, id: "ufo:ufo_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["620B503AE9D898D4"]
+			id: "10F23B659055346C"
+			rewards: [{
+				id: "19278D51C14A1CD5"
+				item: {
+					count: 1
+					id: "ufo:unstable_white_hole_matter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:transcending_matter"
+				}
+				id: "457398353CCC8EA0"
+				type: "fluid"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7463BA727C6D8148"]
+			id: "620B503AE9D898D4"
+			rewards: [{
+				id: "7A8A15BA21C4F3CB"
+				item: {
+					count: 1
+					id: "ufo:quantum_anomaly"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "734CD3BA4A189F08"
+				item: { count: 1, id: "ufo:unstable_white_hole_matter" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			id: "7463BA727C6D8148"
+			rewards: [{
+				count: 9
+				id: "3F235A3F7026D36F"
+				item: {
+					count: 1
+					id: "ufo:white_dwarf_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5541953CCD73E88E"
+				item: { count: 1, id: "ufo:white_dwarf_matter" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0889B37C31A4D6EA"]
+			id: "164604C02613AA58"
+			rewards: [{
+				id: "3D8EC3415C12CF08"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+			tasks: [{
+				id: "34446C704720E28C"
+				item: { count: 1, id: "ufo:ufo_staff" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4D99A3C8F8D0B850"
+				"66685C583D5075E5"
+			]
+			id: "54877D056BBDB4EF"
+			rewards: [{
+				id: "67CF59DA8A90F087"
+				item: {
+					count: 1
+					id: "ufo:event_horizon_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C6BEB9B3FB8D7F"
+				item: { count: 1, id: "ufo:cosmic_string_component_matrix" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7463BA727C6D8148"
+				"5F40AC971ECE683E"
+				"04F456B8F4DF695D"
+			]
+			hide_dependency_lines: true
+			id: "66685C583D5075E5"
+			rewards: [
+				{
+					count: 6
+					id: "1BBEF7E7EF8155C9"
+					item: {
+						count: 1
+						id: "ufo:white_dwarf_matter"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3382EB5148ABA52B"
+					item: {
+						count: 1
+						id: "ufo:neutron_star_matter"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "44C37EA86EF7464D"
+					item: {
+						count: 1
+						id: "ufo:pulsar_matter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "183B446965607F91"
+				item: { count: 1, id: "ufo:dark_matter" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54877D056BBDB4EF"]
+			id: "56FD576C200FC323"
+			rewards: [{
+				count: 2
+				id: "0C7ED95985AE816F"
+				item: {
+					count: 1
+					id: "ufo:event_horizon_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3A465A6B906C3A"
+				item: { count: 1, id: "ufo:1qd_mega_crafting_storage" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54877D056BBDB4EF"]
+			icon: {
+				id: "ufo:infinity_antimatter_pellet_cell"
+			}
+			id: "67741BCDA62F9915"
+			rewards: [{
+				id: "1C5F0200133A8E7F"
+				item: {
+					count: 1
+					id: "ufo:quantum_anomaly"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C0E635AC85BEBF"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1EF51C312AAA3437"]
+			id: "34937B332C62C0D7"
+			rewards: [{
+				count: 4
+				id: "79D03B98C372E069"
+				item: {
+					count: 1
+					id: "ufo:white_dwarf_fragment_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FB314F660904C9F"
+				item: { count: 1, id: "ufo:entropy_singularity_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34937B332C62C0D7"]
+			hide_dependency_lines: true
+			id: "049B8732C1336CB4"
+			tasks: [{
+				id: "4C0AC802469F70E4"
+				item: { count: 1, id: "ufo:stellar_field_generator_t1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["049B8732C1336CB4"]
+			id: "1AF9598470EABCEA"
+			tasks: [{
+				id: "26C6783144E04548"
+				item: { count: 1, id: "ufo:stellar_field_generator_t2" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AF9598470EABCEA"]
+			id: "232EA3CC5C2990E1"
+			tasks: [{
+				id: "08BD57979CF73D65"
+				item: { count: 1, id: "ufo:stellar_field_generator_t3" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"232EA3CC5C2990E1"
+				"2264770B8E993774"
+				"65FE4CA8B667A425"
+				"79A4739041FA0BDB"
+			]
+			icon: {
+				id: "ufo:stellar_nexus_controller"
+			}
+			icon_scale: 1.3d
+			id: "689F61EF65826A33"
+			rewards: [{
+				id: "1EB3AB7F07F835B4"
+				type: "xp_levels"
+				xp_levels: 5000
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 980L
+					id: "5DF942F6DAA148FB"
+					item: { count: 1, id: "ufo:entropy_singularity_casing" }
+					type: "item"
+				}
+				{
+					count: 534L
+					id: "2C7BB87C3125C0FF"
+					item: { count: 1, id: "ufo:entropy_assembler_core_casing" }
+					type: "item"
+				}
+				{
+					count: 168L
+					id: "34D9DD78E1D965BB"
+					item: { count: 1, id: "ufo:entropy_computer_condensation_matrix" }
+					type: "item"
+				}
+				{
+					count: 138L
+					id: "48286FF422161F16"
+					item: { count: 1, id: "ufo:stellar_field_generator_t1" }
+					type: "item"
+				}
+				{
+					id: "05DDC0C8023619EA"
+					item: { count: 1, id: "ufo:stellar_nexus_controller" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["564F3BA8FC29C800"]
+			id: "2264770B8E993774"
+			tasks: [{
+				id: "6954193DB56BB03A"
+				item: { count: 1, id: "ufo:entropy_computer_condensation_matrix" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34937B332C62C0D7"]
+			id: "564F3BA8FC29C800"
+			tasks: [{
+				id: "70EC7F593DC1D8A0"
+				item: { count: 1, id: "ufo:entropy_assembler_core_casing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"34937B332C62C0D7"
+				"04F456B8F4DF695D"
+				"4D99A3C8F8D0B850"
+			]
+			hide_dependency_lines: true
+			id: "65FE4CA8B667A425"
+			tasks: [{
+				id: "05C06AA68E6A53AF"
+				item: { count: 1, id: "ufo:me_massive_output_hatch" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"34937B332C62C0D7"
+				"4D99A3C8F8D0B850"
+			]
+			hide_dependency_lines: true
+			id: "79A4739041FA0BDB"
+			tasks: [{
+				id: "79BABBE037BEA2DE"
+				item: { count: 1, id: "ufo:ae_energy_input_hatch" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6560DADDBE9FA983"]
+			id: "76F22616A4D03494"
+			rewards: [{
+				id: "34EF2C80CAE1BD8E"
+				item: {
+					count: 1
+					id: "ufo:quantum_anomaly"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "325FA6DE28F914E8"
+				item: { count: 1, id: "ufo:structure_scanner" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B0028B5F47CB5F1"]
+			id: "6B207AD16E737A75"
+			rewards: [{
+				count: 2
+				id: "11231967D97F7F9C"
+				item: {
+					count: 1
+					id: "ufo:phase_shift_component_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E93A47739BD0167"
+				item: { count: 1, id: "ufo:quantum_hyper_mechanical_casing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B207AD16E737A75"]
+			id: "454F315FF637EA84"
+			rewards: [{
+				count: 4
+				id: "488DA0B8619AE946"
+				item: {
+					count: 1
+					id: "ufo:quantum_hyper_mechanical_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E49AFFF00C0DE2D"
+				item: { count: 1, id: "ufo:quantum_pattern_hatch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B207AD16E737A75"]
+			icon: {
+				id: "ufo:quantum_slicer_controller"
+			}
+			id: "30A1DEBBC212EDF1"
+			rewards: [
+				{
+					count: 8
+					id: "0A28B821981030FA"
+					item: {
+						count: 1
+						id: "ufo:quantum_hyper_mechanical_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "19E4013A5B7110B6"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5947CA571B27F00D"
+					item: { count: 1, id: "ufo:quantum_slicer_controller" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "232D14E2F070A3B3"
+					item: { count: 1, id: "ufo:stellar_field_generator_t1" }
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "6EA83EC0597A0286"
+					item: { count: 1, id: "ufo:quantum_hyper_mechanical_casing" }
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "5EC2DF09DB15CCC2"
+					item: { count: 1, id: "ae2:quartz_vibrant_glass" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B207AD16E737A75"]
+			icon: {
+				id: "ufo:quantum_processor_assembler_controller"
+			}
+			id: "187011CD52066727"
+			rewards: [
+				{
+					count: 8
+					id: "091126D7CD212B01"
+					item: {
+						count: 1
+						id: "ufo:quantum_hyper_mechanical_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "5AA1ED3EC094DD41"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					id: "45CDE3906C8288B4"
+					item: { count: 1, id: "ufo:quantum_processor_assembler_controller" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "7038D8542BE5D276"
+					item: { count: 1, id: "ufo:stellar_field_generator_t1" }
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "301E4D07821AA635"
+					item: { count: 1, id: "ae2:quartz_vibrant_glass" }
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "53D56BCD2A1B588A"
+					item: { count: 1, id: "ufo:quantum_hyper_mechanical_casing" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B207AD16E737A75"]
+			icon: {
+				id: "ufo:quantum_matter_fabricator_controller"
+			}
+			id: "1DBB7232A529A7E6"
+			rewards: [
+				{
+					count: 8
+					id: "44C4227F2FEF232E"
+					item: {
+						count: 1
+						id: "ufo:quantum_hyper_mechanical_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "6EAB1F6F2CE01545"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3231677F8C4BB24A"
+					item: { count: 1, id: "ufo:quantum_matter_fabricator_controller" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "39539E34894AD696"
+					item: { count: 1, id: "ufo:stellar_field_generator_t1" }
+					type: "item"
+				}
+				{
+					count: 43L
+					id: "58F01A60610A50BB"
+					item: { count: 1, id: "ae2:quartz_glass" }
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "394E8BF331B6FC10"
+					item: { count: 1, id: "ufo:quantum_hyper_mechanical_casing" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+	]
+}

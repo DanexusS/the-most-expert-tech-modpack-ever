@@ -1,0 +1,11 @@
+{
+  "name": "Imperium",
+  "colors": [
+    "3399FF",
+    "003399"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:imperium_essence"
+  },
+  "inUltimateSingularity": true
+}

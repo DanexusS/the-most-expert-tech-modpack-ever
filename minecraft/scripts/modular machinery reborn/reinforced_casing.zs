@@ -1,0 +1,7 @@
+recipes.remove(<item:modular_machinery_reborn:casing_reinforced>);<recipetype:extendedcrafting:table>.addShaped("23f750b8-be44-48c6-9d03-bb053d68d8b9", 0, <item:modular_machinery_reborn:casing_reinforced>, [
+	[<item:projectexpansion:purple_matter_block>, <item:avaritia:neutron>, <item:projectexpansion:purple_matter_block>, <item:avaritia:neutron>, <item:projectexpansion:purple_matter_block>], 
+	[<item:avaritia:neutron>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:avaritia:neutron>], 
+	[<item:projectexpansion:purple_matter_block>, <item:modular_machinery_reborn:casing_plain>, <item:mekanism:alloy_atomic>, <item:modular_machinery_reborn:casing_plain>, <item:projectexpansion:purple_matter_block>], 
+	[<item:avaritia:neutron>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:modular_machinery_reborn:casing_plain>, <item:avaritia:neutron>], 
+	[<item:projectexpansion:purple_matter_block>, <item:avaritia:neutron>, <item:projectexpansion:purple_matter_block>, <item:avaritia:neutron>, <item:projectexpansion:purple_matter_block>]
+]);recipes.remove(<item:avaritia:infinity_catalyst>);

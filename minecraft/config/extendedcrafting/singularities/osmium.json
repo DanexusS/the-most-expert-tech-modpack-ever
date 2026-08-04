@@ -1,0 +1,11 @@
+{
+  "name": "Osmium",
+  "colors": [
+    "6DA8E3",
+    "3A6CB3"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/osmium"
+  },
+  "inUltimateSingularity": true
+}

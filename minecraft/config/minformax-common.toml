@@ -1,0 +1,23 @@
+[general]
+	#Should replicators render block inside
+	should_render = true
+	#Energy multiplier for mob production
+	# Default: 8
+	# Range: > 1
+	mob_coefficient = 8
+	#Energy multiplier for farm production
+	# Default: 1024
+	# Range: > 1
+	farm_coefficient = 1024
+	#Energy required for 1 machine at basic speed
+	# Default: 1000000000
+	# Range: 0 ~ 9223372036854775807
+	basic_consumption = 1000000000
+	#Multiplier applied as speed increases
+	# Default: 10
+	# Range: > 0
+	exponential_growth = 10
+	#Maximum size for each edge of the Gate Of Babylon
+	# Default: 256
+	# Range: > 3
+	gate_of_babylon_size = 256

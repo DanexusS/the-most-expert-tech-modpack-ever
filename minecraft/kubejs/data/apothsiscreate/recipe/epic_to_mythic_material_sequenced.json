@@ -1,0 +1,132 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:epic_material"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 75.0,
+      "id": "apotheosis:mythic_material"
+    },
+    {
+      "chance": 25.0,
+      "id": "minecraft:ender_pearl"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        },
+        {
+          "item": "apotheosis:epic_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        },
+        {
+          "item": "minecraft:ender_eye"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apotheosis:epic_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:epic_material"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis:epic_material"
+  }
+}

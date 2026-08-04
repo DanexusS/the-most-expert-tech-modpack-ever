@@ -1,0 +1,11 @@
+{
+  "name": "Uranium",
+  "colors": [
+    "B4F542",
+    "7AAE2A"
+  ],
+  "ingredient": {
+    "tag": "alltheores:uranium_ingot"
+  },
+  "inUltimateSingularity": true
+}

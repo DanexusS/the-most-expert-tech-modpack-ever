@@ -1,0 +1,1856 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "combat_trials"
+	group: "4792EA6A86AE7F0B"
+	icon: {
+		id: "minecraft:netherite_sword"
+	}
+	id: "6EA0FB427B985A5D"
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "65977110985192B3"
+			optional: true
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7768C8D8443EDF68"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "01BDBF0EC1D48575"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4B15E0D562BD5CE6"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "560745C3E3EBA2B2"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "35883AB5020E9A78"
+				type: "kill"
+				value: 12L
+			}]
+			x: 6.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "613A631BF3F2F7B6"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:deepling"
+				id: "18059B52F328DE47"
+				type: "kill"
+				value: 12L
+			}]
+			x: 8.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "3E754A3E9C5594C9"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "1A3A947A9CB00FB8"
+				type: "kill"
+				value: 6L
+			}]
+			x: 10.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "24DB5E31717F9F37"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "32D9B4381ACC538F"
+				type: "kill"
+				value: 3L
+			}]
+			x: 12.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "5E12D24B035A461D"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				id: "450A8F4B1F7D5FF1"
+				type: "kill"
+				value: 3L
+			}]
+			x: 14.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "1E5ADDAD4894C6E3"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "39C688946119B2EC"
+				type: "kill"
+				value: 3L
+			}]
+			x: 16.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "1E34C0442B20365E"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "0509E39E43B79415"
+				type: "kill"
+				value: 0L
+			}]
+			x: 18.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "26585057050E8D51"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "3831741927F6E89A"
+				type: "kill"
+				value: 0L
+			}]
+			x: 20.0d
+			y: -26.2d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "6AD899AC4B3879E4"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "62B0339A5B78A64E"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "63E93AEE40C8832C"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "2D310BF85180AFB3"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "57665AF9F57E1DAF"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "4DB272F3AE921AF2"
+				type: "kill"
+				value: 0L
+			}]
+			x: 10.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "7912CAB7519DF2EF"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "0F9F3602729816E3"
+				type: "kill"
+				value: 0L
+			}]
+			x: 12.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "42D90BA30005A542"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "1A671B780F5FCD24"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "7B43297E0786E32D"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "681B5C1E7BAB7A83"
+				type: "kill"
+				value: 0L
+			}]
+			x: 16.0d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"560745C3E3EBA2B2"
+				"24DB5E31717F9F37"
+				"1E5ADDAD4894C6E3"
+				"26585057050E8D51"
+				"63E93AEE40C8832C"
+				"7B43297E0786E32D"
+			]
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "21B514DDD0177F9A"
+			optional: true
+			rewards: [{
+				id: "2D1A532CF9D6AEB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0323BA4451A9BDAE"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: -24.0d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "3690C0E169587826"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "11FD5FF6809A0C80"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "6935459B72A6BB98"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "1A3BBA885D22C85A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "2C25D363382831F1"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				id: "0833C95A3CC29C3F"
+				type: "kill"
+				value: 6L
+			}]
+			x: 8.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "3DB3BC998B24882D"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "6C0E5900BBF0D024"
+				type: "kill"
+				value: 6L
+			}]
+			x: 10.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "62DB4ADA381A3F03"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "3C3F0D947AEF0FBF"
+				type: "kill"
+				value: 6L
+			}]
+			x: 12.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "7A6EECDCB014E639"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "7B4CD411F707A516"
+				type: "kill"
+				value: 12L
+			}]
+			x: 14.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "73F72B3D7E1B9A41"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_raptor"
+				id: "5A81826A46913CC3"
+				type: "kill"
+				value: 6L
+			}]
+			x: 16.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "6469BA1D87F33557"
+			optional: true
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_crane"
+				id: "29CB34997BDBE0E7"
+				type: "kill"
+				value: 4L
+			}]
+			x: 18.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "5F01D276197BC9B0"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "755BBDE60A85916E"
+				type: "kill"
+				value: 0L
+			}]
+			x: 20.0d
+			y: -18.2d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "5DED5B01819C32D2"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "7A9AB5014D5D6743"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "47AADD409BFABA02"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "68CB80DCFD573FE1"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"6935459B72A6BB98"
+				"3DB3BC998B24882D"
+				"7A6EECDCB014E639"
+				"6469BA1D87F33557"
+				"5DED5B01819C32D2"
+			]
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "0C4CA9508E3A41CC"
+			optional: true
+			rewards: [{
+				id: "79C66AF979EBFA39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2BF1973559E06343"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: -16.0d
+		}
+		{
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "66C116BE7450E685"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "72583DCDF217AE75"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "0425479C71DB5D99"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "3E5B2E0F3031A830"
+				type: "kill"
+				value: 3L
+			}]
+			x: 6.0d
+			y: -10.2d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "2457E04AEC12E4D3"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "4B548145C75BF191"
+				type: "kill"
+				value: 3L
+			}]
+			x: 8.0d
+			y: -10.2d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "7F3C9D2396C5B946"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "60EBDF9DEE489ED9"
+				type: "kill"
+				value: 3L
+			}]
+			x: 10.0d
+			y: -10.2d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "1AD90A0F8F5C37F9"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "4EEE776CBA8BD7F8"
+				type: "kill"
+				value: 2L
+			}]
+			x: 12.0d
+			y: -10.2d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "56FE4EB8B2C15094"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				id: "567BB5619B279F9D"
+				type: "kill"
+				value: 6L
+			}]
+			x: 14.0d
+			y: -10.2d
+		}
+		{
+			dependencies: ["66C116BE7450E685"]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "2834573E47612DD8"
+			optional: true
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "71F4BE4324AD80C1"
+				type: "kill"
+				value: 5L
+			}]
+			x: 16.0d
+			y: -10.2d
+		}
+		{
+			dependencies: [
+				"2457E04AEC12E4D3"
+				"7F3C9D2396C5B946"
+			]
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "28FE5C4EF2C287CA"
+			optional: true
+			rewards: [{
+				id: "1A845D2E6EEC518C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1CA66BB4E6829732"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "25ADC8D37BF515CB"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "736E28D4410264C1"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "42E2969AF53C5187"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:bone_spider"
+				id: "47F9CE5830C15D8B"
+				type: "kill"
+				value: 12L
+			}]
+			x: 6.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "0C36BD7321B423CF"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:viler_witch"
+				id: "255BE039DB469E16"
+				type: "kill"
+				value: 8L
+			}]
+			x: 8.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "6F1E0BD6132E4965"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:bouldering_zombie"
+				id: "6EF6E06C8C5A42D5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "0716D7B205FA2A54"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:lobber_zombie"
+				id: "06A8D786ECD9F654"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "565295BBE73D9B91"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:bouldering_drowned"
+				id: "2EDB9738D528AE3D"
+				type: "kill"
+				value: 8L
+			}]
+			x: 14.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "6AAA218369EB1BE2"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:lobber_drowned"
+				id: "58AFA2565F806515"
+				type: "kill"
+				value: 8L
+			}]
+			x: 16.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "7A4EE8837C90190E"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:bouldering_frozen_zombie"
+				id: "09BCA7158124308F"
+				type: "kill"
+				value: 8L
+			}]
+			x: 18.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "5D762F6D71BD7E41"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:lobber_husk"
+				id: "3DA34175BC4FED66"
+				type: "kill"
+				value: 8L
+			}]
+			x: 20.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "4BF7F4579B99A0C7"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:tropical_slime"
+				id: "37E41F1A56BE92F2"
+				type: "kill"
+				value: 12L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "723815B1898A99B0"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:skeleton_wolf"
+				id: "773D932FA6859FAA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "00A17D9FEA11B6D6"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:wither_skeleton_wolf"
+				id: "2097B35212D05B2C"
+				type: "kill"
+				value: 6L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25ADC8D37BF515CB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "23B7A156B649379E"
+			optional: true
+			tasks: [{
+				entity: "earthmobsmod:zombified_rabbit"
+				id: "461406E9E755B611"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C36BD7321B423CF"
+				"6F1E0BD6132E4965"
+				"565295BBE73D9B91"
+				"5D762F6D71BD7E41"
+				"723815B1898A99B0"
+			]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "6D743B95130671AE"
+			optional: true
+			rewards: [{
+				id: "5041225E75AECC6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "40F36783B955A55F"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "7D676A0E2BDEEBC1"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "575DB19712CBF54F"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "04A0EEE797E8B329"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:ancient_entity"
+				id: "0491CB8E8EB8433A"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "6D31B8934FC38121"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:the_watcher"
+				id: "773859F6D3A39336"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "7B868EA3A78BC38A"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:king_of_scorchers"
+				id: "6C87BE878A75ED3D"
+				type: "kill"
+				value: 0L
+			}]
+			x: 10.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "1DA617FAE66A2900"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:ayeraco"
+				id: "0EA04E0D4CE268E7"
+				type: "kill"
+				value: 0L
+			}]
+			x: 12.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "302D30F04E5AA4EF"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:sunstorm"
+				id: "1345853A3950E075"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "1F62439F5FE3C2AD"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:termasect"
+				id: "751C12BBE72B113C"
+				type: "kill"
+				value: 0L
+			}]
+			x: 16.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "5380049C01C95D7D"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:eternal_archer"
+				id: "311ED792FFAA4B4E"
+				type: "kill"
+				value: 0L
+			}]
+			x: 18.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "659B0611CD356C68"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:experienced_cori"
+				id: "66939A2818644768"
+				type: "kill"
+				value: 0L
+			}]
+			x: 20.0d
+			y: 5.8d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "419F1DEF3B9943F6"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:parasecta"
+				id: "6E51AB60FE903DBC"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "451A5FAA93C1974C"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:dramix"
+				id: "3FADDD1DD8E98044"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "11DE509974AFE152"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:soul_fiend"
+				id: "444C94898E3F9F8C"
+				type: "kill"
+				value: 0L
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "4C66EB18C393582A"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:twilight_demon"
+				id: "1132892EB90339D4"
+				type: "kill"
+				value: 0L
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "583FB59AD0928B00"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:vamacheron"
+				id: "0035FCCE9FED4682"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "5E39C28AF56E1DF6"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:densos"
+				id: "0EB92923F1DCDA04"
+				type: "kill"
+				value: 0L
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "7BCF759F7B3F74E1"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:reyvor"
+				id: "2A15637A06AA25FD"
+				type: "kill"
+				value: 0L
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "413A2C765CA2199B"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:karot"
+				id: "615AE2174318E2A8"
+				type: "kill"
+				value: 0L
+			}]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "5204EC612D8C36C4"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:hive_queen"
+				id: "70C3FE993604A947"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "2BF575FAAD732C5C"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:quadro"
+				id: "00AED8E3F6D1942C"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "44314D23B11860D9"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:karos"
+				id: "79ED5EECA71F2CE6"
+				type: "kill"
+				value: 0L
+			}]
+			x: 10.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "53502DBD61471C17"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:raglok"
+				id: "15179A1DA9379506"
+				type: "kill"
+				value: 0L
+			}]
+			x: 12.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "09F82FEF1DF4F16A"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:wreck"
+				id: "07DD5A80225A0F34"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "7CEC08E3A10B8AA1"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:lady_luna"
+				id: "2A55722D4A7904D2"
+				type: "kill"
+				value: 0L
+			}]
+			x: 16.0d
+			y: 10.2d
+		}
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "66488BD652D7B704"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "divinerpg:kitra"
+				id: "4A437EFCFEBE41F7"
+				type: "kill"
+				value: 0L
+			}]
+			x: 18.0d
+			y: 10.2d
+		}
+		{
+			dependencies: [
+				"04A0EEE797E8B329"
+				"6D31B8934FC38121"
+				"7B868EA3A78BC38A"
+				"302D30F04E5AA4EF"
+				"1F62439F5FE3C2AD"
+				"5380049C01C95D7D"
+				"659B0611CD356C68"
+				"451A5FAA93C1974C"
+				"11DE509974AFE152"
+				"4C66EB18C393582A"
+				"44314D23B11860D9"
+				"7CEC08E3A10B8AA1"
+			]
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "0329FBB59A588116"
+			optional: true
+			rewards: [{
+				id: "36FF0CD90DC1CB62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2D1D7CF5EF6F3308"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "219439215FD5E2E0"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "288491E5AC86511E"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "2ED70F41E726CF0D"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "3028D7DCE199CADF"
+				type: "kill"
+				value: 12L
+			}]
+			x: 6.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "4EF458B0710AE0A8"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "33119DC4559F17D1"
+				type: "kill"
+				value: 6L
+			}]
+			x: 8.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "660EE9E509253392"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "0B14FD21DD44ABF6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "5A01F119AB0F36E5"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "2788E1A8541F7ECB"
+				type: "kill"
+				value: 12L
+			}]
+			x: 12.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "4AF0725B844CED63"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:goblin_knight_lower"
+				id: "72E989AE2E60FBAC"
+				type: "kill"
+				value: 6L
+			}]
+			x: 14.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "5C0C13D1C0E89FA0"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "7CC62EFCB13FCBAA"
+				type: "kill"
+				value: 16L
+			}]
+			x: 16.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "4C3250D26871C4E5"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "4AD116519A57F1B0"
+				type: "kill"
+				value: 12L
+			}]
+			x: 18.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "794A648C13FDED70"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5CBE19C0CAA97EFB"
+				type: "kill"
+				value: 0L
+			}]
+			x: 20.0d
+			y: 13.8d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "1E51BF53FDBC253E"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "22CB7E3C52BBA7EC"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "02475C5A07092C74"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "4EE43E2072D25E21"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "22730642E4742859"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "1B9B3C7A6F3C5D08"
+				type: "kill"
+				value: 0L
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "505BD863EE082D2A"
+			optional: true
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "532DA07703C09D86"
+				type: "kill"
+				value: 6L
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "70A625B435DA3F7F"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "223F8E96B5971DCA"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "1792E93E5DAEB303"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "6EA1C8764B5324AB"
+				type: "kill"
+				value: 0L
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["219439215FD5E2E0"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "1F62C485EDFEF939"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "0A699146556EBF0C"
+				type: "kill"
+				value: 0L
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4EF458B0710AE0A8"
+				"660EE9E509253392"
+				"4C3250D26871C4E5"
+				"1E51BF53FDBC253E"
+				"02475C5A07092C74"
+				"22730642E4742859"
+				"1792E93E5DAEB303"
+			]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "24B11C0EBB23F75A"
+			optional: true
+			rewards: [{
+				id: "0D416A4C882696EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7D90C2314F228CE1"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "3C4570590B13213A"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0E502EB210CA6C96"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "4D6E1D2F608F92CA"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				id: "3C9690C33886A0CF"
+				type: "kill"
+				value: 8L
+			}]
+			x: 6.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "4BBCB31C0620032B"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "783393122B936F0E"
+				type: "kill"
+				value: 8L
+			}]
+			x: 8.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "4CEE045BB55311E2"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "5B769618C77A474E"
+				type: "kill"
+				value: 6L
+			}]
+			x: 10.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "6D8B99F1AF3B0309"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "1194283924824242"
+				type: "kill"
+				value: 12L
+			}]
+			x: 12.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "363E87829ED769B7"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:ghost"
+				id: "3CA15C83404CAF14"
+				type: "kill"
+				value: 12L
+			}]
+			x: 14.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "6D94030EA589B1D9"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:death_worm"
+				id: "54B2F4237F697A76"
+				type: "kill"
+				value: 8L
+			}]
+			x: 16.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "2C9D2A6260577B6A"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "751399B9A43076A5"
+				type: "kill"
+				value: 4L
+			}]
+			x: 18.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "022ED08D274E542E"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "51C33AD1CC5E394B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 20.0d
+			y: 21.8d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "40E18C0E668652F4"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "7003D1640F05F3AC"
+				type: "kill"
+				value: 2L
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "422D0708D2EE996E"
+			optional: true
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "6D650EAB8C6C2383"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "16D0CDF3D34C79A9"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "0E4A7CB975F19415"
+				type: "kill"
+				value: 3L
+			}]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "0BE6432899E318A5"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "03EB88290BC3CFFE"
+				type: "kill"
+				value: 3L
+			}]
+			x: 12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C4570590B13213A"]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "7A29579DC6AEB8E4"
+			optional: true
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "7F142C8F0078D186"
+				type: "kill"
+				value: 3L
+			}]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"4D6E1D2F608F92CA"
+				"6D94030EA589B1D9"
+				"022ED08D274E542E"
+				"0BE6432899E318A5"
+				"7A29579DC6AEB8E4"
+			]
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+			}
+			id: "6D2A03C2AF9E2BE3"
+			optional: true
+			rewards: [{
+				id: "6B0A2781D040BDC9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5A3B37F84DACD843"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 24.0d
+		}
+	]
+}

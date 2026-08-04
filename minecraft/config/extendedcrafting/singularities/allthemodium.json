@@ -1,0 +1,11 @@
+{
+  "name": "Allthemodium",
+  "colors": [
+    "FFD700",
+    "CC9900"
+  ],
+  "ingredient": {
+    "item": "allthemodium:allthemodium_ingot"
+  },
+  "inUltimateSingularity": true
+}

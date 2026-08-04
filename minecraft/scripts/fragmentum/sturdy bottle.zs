@@ -1,0 +1,11 @@
+<recipetype:extendedcrafting:table>.addShaped("d5700253-439d-4447-a961-3c840b9bd40d", 0, <item:kubejs:sturdy_bottle>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:oak_log>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>], 
+	[<item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>], 
+	[<item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>], 
+	[<item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>], 
+	[<item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:forbidden_arcanus:deorum_glass>, <item:forbidden_arcanus:deorum_glass>, <item:forbidden_arcanus:deorum_glass>, <item:forbidden_arcanus:deorum_glass>, <item:forbidden_arcanus:deorum_glass>, <item:minecraft:air>, <item:minecraft:air>]
+]);

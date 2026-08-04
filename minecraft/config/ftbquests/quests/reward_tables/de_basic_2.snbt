@@ -1,0 +1,41 @@
+{
+	id: "45E659D75FF60276"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			count: 3
+			id: "31848FFBA0F4BE92"
+			item: {
+				count: 1
+				id: "draconicevolution:wyvern_core"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "416BFC2D6CD5063E"
+			item: {
+				count: 1
+				id: "draconicevolution:draconium_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "4D2CEE7AFB029F71"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "6794DBE6CCB4B34D"
+			item: {
+				count: 1
+				id: "draconicevolution:wyvern_energy_core"
+			}
+		}
+	]
+}

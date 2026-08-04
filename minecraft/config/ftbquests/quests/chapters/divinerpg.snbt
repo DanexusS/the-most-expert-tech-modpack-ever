@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "divinerpg"
+	group: "4792EA6A86AE7F0B"
+	icon: {
+		id: "divinerpg:divine_shards"
+	}
+	id: "020F1C776853B6E7"
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "divinerpg:divine_shards"
+			}
+			id: "1086BBFA8FB8AA80"
+			rewards: [{
+				id: "760EABC135D1BBDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4E4AA72DD5CEE165"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:ancient_entity_statue"
+			}
+			id: "179FCE9AB6967729"
+			rewards: [{
+				id: "70DCD6D0C84AFB16"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:ancient_entity"
+				id: "7EC210EA59AAD606"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["179FCE9AB6967729"]
+			icon: {
+				id: "divinerpg:the_watcher_statue"
+			}
+			id: "069AD068CDFB38A2"
+			rewards: [{
+				id: "5E6CA8A6D57C30B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:the_watcher"
+				id: "2F7EC0226E3944BD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["069AD068CDFB38A2"]
+			icon: {
+				id: "divinerpg:king_of_scorchers_statue"
+			}
+			id: "22D93E849A8ACA9A"
+			rewards: [{
+				id: "3C2258723916506F"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:king_of_scorchers"
+				id: "6FFC43442341CAFD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22D93E849A8ACA9A"]
+			icon: {
+				id: "divinerpg:divine_rock"
+			}
+			id: "05FCA2E85105E1D7"
+			rewards: [
+				{
+					id: "2F62C3EDA1ADC245"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "21AAC360EA80A965"
+					item: {
+						count: 1
+						id: "kubejs:divine_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3ACD3C655C2EDF9B"
+					item: { count: 1, id: "divinerpg:divine_shards" }
+					type: "item"
+				}
+				{
+					id: "6688B00B5C73C69C"
+					item: { count: 1, id: "divinerpg:divine_rock" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:ayeraco_statue"
+			}
+			id: "66CABAD95C0CCE94"
+			rewards: [{
+				id: "059D4F7B06EB39F7"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:ayeraco"
+				id: "3972C24178B3244A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66CABAD95C0CCE94"]
+			icon: {
+				id: "divinerpg:eden_heart"
+			}
+			id: "05FA9E02AB2C8163"
+			rewards: [
+				{
+					id: "7305327DA8376B4A"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "0857A8871E13F683"
+					item: {
+						count: 1
+						id: "kubejs:eden_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "divinerpg:sunstorm"
+					id: "6F2D2C9912D2E93A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "76FF2CEE7FDA0013"
+					item: { count: 1, id: "divinerpg:eden_heart" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05FA9E02AB2C8163"]
+			icon: {
+				id: "divinerpg:wildwood_heart"
+			}
+			id: "467DA402E9696C9E"
+			rewards: [
+				{
+					id: "44C28E4CD6D3E525"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+				{
+					id: "2B78A4B89019464C"
+					item: {
+						count: 1
+						id: "kubejs:wildwood_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "divinerpg:termasect"
+					id: "78DC68451FA65684"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1588BBEABC3E4C99"
+					item: { count: 1, id: "divinerpg:wildwood_heart" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:apalachia_heart"
+			}
+			id: "5ABE6C2C33F13A5B"
+			rewards: [
+				{
+					id: "114DDBF49DA21F84"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "59BB87481994F5AB"
+					item: {
+						count: 1
+						id: "kubejs:apalachia_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "divinerpg:eternal_archer"
+					id: "03653397A7EDE10E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "122DF6BB60EDAD0F"
+					item: { count: 1, id: "divinerpg:apalachia_heart" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:skythern_heart"
+			}
+			id: "4EFA24AD3B679AFE"
+			rewards: [
+				{
+					id: "5E72A6282D9F8FF7"
+					type: "xp_levels"
+					xp_levels: 11
+				}
+				{
+					id: "3C3311C6BC1B875D"
+					item: {
+						count: 1
+						id: "kubejs:skythern_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "divinerpg:experienced_cori"
+					id: "5AB094283C43EA3B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7DB1DF5087F745F9"
+					item: { count: 1, id: "divinerpg:skythern_heart" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:dungeon_tokens"
+			}
+			id: "59B95F948B6B9578"
+			rewards: [{
+				id: "1246D6C0D9931353"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "divinerpg:parasecta"
+					id: "6F06296BCDEFEE5B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:dramix"
+					id: "70248040508B622F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1BA39670571711FF"
+					item: { count: 1, id: "divinerpg:dungeon_tokens" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:mortum_heart"
+			}
+			id: "7289837B2A499473"
+			rewards: [
+				{
+					id: "6F25773D651E809F"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "52A66447B13EF44D"
+					item: {
+						count: 1
+						id: "kubejs:mortum_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "divinerpg:soul_fiend"
+					id: "7A148F1E45891736"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:twilight_demon"
+					id: "4ADC9B3223623E46"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:vamacheron"
+					id: "39AABBED028F5E25"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:densos"
+					id: "3E4FD6285DD3176E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:reyvor"
+					id: "06CF4E70AE332FBD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:karot"
+					id: "4827C45474E80EBA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3735EE7B28293DF4"
+					item: { count: 1, id: "divinerpg:mortum_heart" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:hive_egg"
+			}
+			id: "1672F109D4C0E42B"
+			rewards: [
+				{
+					id: "5973E399B948E08A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "0102753DF453FA24"
+					item: {
+						count: 1
+						id: "kubejs:vethea_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:hive_queen"
+				id: "13217D463C9748B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:quadrotic_altar"
+			}
+			id: "594DF7E33BAEFF34"
+			rewards: [{
+				id: "54284AB03FA232C6"
+				type: "xp_levels"
+				xp_levels: 13
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:quadro"
+				id: "0CB2B2B3BD4C60FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:karos_altar"
+			}
+			id: "29C46C9F9B029F54"
+			rewards: [{
+				id: "10A1CFCC9C1EE2CC"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:karos"
+				id: "1B39015CABA11549"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29C46C9F9B029F54"]
+			icon: {
+				id: "divinerpg:raglok_altar"
+			}
+			id: "1EEE7BB40F110ECE"
+			rewards: [{
+				id: "50C72AC72437893F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:raglok"
+				id: "157A4706DF8E6753"
+				type: "kill"
+				value: 1L
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:wreck_altar"
+			}
+			id: "0C0E383A6F559E02"
+			rewards: [
+				{
+					id: "4F6A5DD8076AA166"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "4440EE97140BFB84"
+					item: {
+						count: 1
+						id: "kubejs:wreck_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:wreck"
+				id: "41B594CA21D046F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 32.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "divinerpg:lunic_altar"
+			}
+			id: "4A53992AD167FA2E"
+			rewards: [
+				{
+					id: "05EF74ED50D0B2B3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31D6A98DDED730C4"
+					item: {
+						count: 1
+						id: "kubejs:lunar_seal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "divinerpg:lady_luna"
+				id: "391029D56B38D5A6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 35.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "kubejs:cosmic_catalyst"
+			}
+			id: "7F03669F864C0DA1"
+			rewards: [{
+				id: "3379DB42CEB5911E"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4B446CBA9CEBAD5C"
+					item: { count: 1, id: "kubejs:lunar_seal" }
+					type: "item"
+				}
+				{
+					id: "019BD5F1A5F64A57"
+					item: { count: 1, id: "kubejs:cosmic_catalyst" }
+					type: "item"
+				}
+			]
+			x: 37.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22D93E849A8ACA9A"]
+			icon: {
+				id: "divinerpg:kitra_statue"
+			}
+			id: "70B73B7BD6EB968E"
+			optional: true
+			rewards: [{
+				id: "6C540AE6E441B736"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "divinerpg:kitra"
+				id: "6B9CFC2E2B627F18"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+}

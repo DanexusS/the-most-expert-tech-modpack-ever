@@ -1,0 +1,11 @@
+{
+  "name": "Inferium",
+  "colors": [
+    "47C74A",
+    "2A9E2D"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:inferium_essence"
+  },
+  "inUltimateSingularity": true
+}

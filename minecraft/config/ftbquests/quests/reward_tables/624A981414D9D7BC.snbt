@@ -1,0 +1,185 @@
+{
+	id: "624A981414D9D7BC"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			count: 2
+			id: "7C0BA1CDDB93AE34"
+			item: {
+				count: 1
+				id: "minecraft:white_dye"
+			}
+		}
+		{
+			count: 2
+			id: "135854D809CFED7C"
+			item: {
+				count: 1
+				id: "minecraft:light_gray_dye"
+			}
+		}
+		{
+			count: 2
+			id: "36835993AD156076"
+			item: {
+				count: 1
+				id: "minecraft:gray_dye"
+			}
+		}
+		{
+			count: 2
+			id: "356735CF7858945A"
+			item: {
+				count: 1
+				id: "minecraft:black_dye"
+			}
+		}
+		{
+			count: 2
+			id: "5600067E65285373"
+			item: {
+				count: 1
+				id: "minecraft:brown_dye"
+			}
+		}
+		{
+			count: 2
+			id: "1D446AC044D0504B"
+			item: {
+				count: 1
+				id: "minecraft:red_dye"
+			}
+		}
+		{
+			count: 2
+			id: "2E788BB1B17DEAC8"
+			item: {
+				count: 1
+				id: "minecraft:orange_dye"
+			}
+		}
+		{
+			count: 2
+			id: "2C52486551620D1A"
+			item: {
+				count: 1
+				id: "minecraft:yellow_dye"
+			}
+		}
+		{
+			count: 2
+			id: "06A69884C3EF1A79"
+			item: {
+				count: 1
+				id: "minecraft:lime_dye"
+			}
+		}
+		{
+			count: 2
+			id: "67EC689D98CCEE2D"
+			item: {
+				count: 1
+				id: "minecraft:green_dye"
+			}
+		}
+		{
+			count: 2
+			id: "4783F61B2B27C638"
+			item: {
+				count: 1
+				id: "minecraft:cyan_dye"
+			}
+		}
+		{
+			count: 2
+			id: "0106CE28B4B77E5D"
+			item: {
+				count: 1
+				id: "minecraft:light_blue_dye"
+			}
+		}
+		{
+			count: 2
+			id: "378C13CFEC37D9FC"
+			item: {
+				count: 1
+				id: "minecraft:blue_dye"
+			}
+		}
+		{
+			count: 2
+			id: "535CF31E34DDF4B9"
+			item: {
+				count: 1
+				id: "minecraft:purple_dye"
+			}
+		}
+		{
+			count: 2
+			id: "270FABCA325663F1"
+			item: {
+				count: 1
+				id: "minecraft:magenta_dye"
+			}
+		}
+		{
+			count: 2
+			id: "77FAE577972F3F18"
+			item: {
+				count: 1
+				id: "minecraft:pink_dye"
+			}
+		}
+		{
+			id: "5BBA97F1B131C83D"
+			item: {
+				count: 1
+				id: "woot_revived:factory_base"
+			}
+			weight: 0.3f
+		}
+		{ id: "4FE2DA17DEE8AF51", item: { count: 1, id: "woot_revived:upgrade_base" } }
+		{ id: "7B20BFA307592425", item: { count: 1, id: "woot_revived:stygian_ingot" } }
+		{
+			id: "7CB85DA084CB7D5A"
+			item: {
+				count: 1
+				id: "woot_revived:stygian_block"
+			}
+			weight: 0.2f
+		}
+		{ id: "0718368DFD57E525", item: { count: 1, id: "woot_revived:stygian_plate" } }
+		{ id: "015F1617B773E5FA", item: { count: 1, id: "woot_revived:stygian_dust" } }
+		{
+			id: "73113790A00866DB"
+			item: {
+				count: 1
+				id: "woot_revived:stygian_hammer"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "61E717BB471598B5"
+			item: {
+				count: 1
+				id: "woot_revived:stygian_anvil"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "3C9AE14F453F3470"
+			item: {
+				count: 1
+				id: "woot_revived:prism"
+			}
+			weight: 0.1f
+		}
+		{ id: "7FB9DD5A7F740F30", item: { count: 1, id: "woot_revived:vitality_fuel_fluid_bucket" } }
+		{ id: "651700C0E6306F35", item: { count: 1, id: "woot_revived:pure_dye_fluid_bucket" } }
+		{ id: "0B1325AA5C72692F", item: { count: 1, id: "woot_revived:mob_tears_fluid_bucket" } }
+		{ id: "691D4DC35F3AC69B", item: { count: 1, id: "woot_revived:plate_mold" } }
+		{ id: "2C8455235160E522", item: { count: 1, id: "woot_revived:shard_mold" } }
+		{ id: "7824AB960925B447", item: { count: 1, id: "woot_revived:dye_casing_mold" } }
+	]
+}

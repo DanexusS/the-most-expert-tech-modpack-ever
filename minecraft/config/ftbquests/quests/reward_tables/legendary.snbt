@@ -1,0 +1,28 @@
+{
+	id: "639509C7B28C90DF"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "0A1D445E5A9F5142", item: { components: { "ftbquests:missing_item": "apotheosis:library" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1DAE806374796005", item: { count: 1, id: "powah:thermo_generator_nitro" } }
+		{ id: "7765FBD35B195AE0", item: { count: 1, id: "extendedcrafting:nether_star_block" } }
+		{ id: "36458B9A2272BB7A", item: { count: 1, id: "powah:solar_panel_nitro" } }
+		{
+			count: 36
+			id: "4ACBC0FFCC03BE11"
+			item: {
+				count: 1
+				id: "powah:reactor_niotic"
+			}
+		}
+		{
+			id: "23356BF270AB2D15"
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{ id: "2E58B8CBDBADBF87", item: { count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "747B12062226CA4C", item: { components: { "ftbquests:missing_item": "apotheosis:draconic_endshelf" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5498E2B410AF4770", item: { count: 1, id: "hostilenetworks:data_model" } }
+	]
+	use_title: true
+}

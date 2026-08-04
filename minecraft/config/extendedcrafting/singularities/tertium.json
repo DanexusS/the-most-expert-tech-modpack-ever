@@ -1,0 +1,11 @@
+{
+  "name": "Tertium",
+  "colors": [
+    "FF9933",
+    "CC6600"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:tertium_essence"
+  },
+  "inUltimateSingularity": true
+}

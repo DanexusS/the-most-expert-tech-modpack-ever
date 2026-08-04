@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:gem_dust"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 95.0,
+      "id": "apotheosis:common_material"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:iron_nugget"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:gem_dust"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:gem_dust"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis:gem_dust"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:gem_dust"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:gem_dust"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:gem_dust"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis:gem_dust"
+  }
+}

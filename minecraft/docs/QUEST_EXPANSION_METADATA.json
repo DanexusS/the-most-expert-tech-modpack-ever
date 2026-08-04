@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "chapters": {
+    "engineering_handbook": {
+      "id": "50C7409B109FC276",
+      "quests": 96
+    },
+    "automation_challenges": {
+      "id": "893D428C351EDF4C",
+      "quests": 72
+    },
+    "combat_trials": {
+      "id": "6EA0FB427B985A5D",
+      "quests": 108
+    },
+    "divinerpg_codex": {
+      "id": "7833368934691BD9",
+      "quests": 89
+    }
+  },
+  "added_quests": 365,
+  "kill_tasks": 116,
+  "item_tasks": 139,
+  "checkmark_tasks": 110,
+  "optional_quests": 181,
+  "rewarded_quests": 40
+}

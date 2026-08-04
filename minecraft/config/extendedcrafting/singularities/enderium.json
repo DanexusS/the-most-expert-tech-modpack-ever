@@ -1,0 +1,11 @@
+{
+  "name": "Enderium",
+  "colors": [
+    "0F9A8D",
+    "0C6E63"
+  ],
+  "ingredient": {
+    "item": "alltheores:enderium_ingot"
+  },
+  "inUltimateSingularity": true
+}

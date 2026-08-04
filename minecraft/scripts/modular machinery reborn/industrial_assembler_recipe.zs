@@ -1,0 +1,7 @@
+<recipetype:extendedcrafting:table>.addShaped("524bbca0-03ca-4aa8-819a-2b441bb9f325", 0, <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:industrial_grade_assembler"), [
+	[<item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>], 
+	[<item:immersiveengineering:duroplast>, <item:modern_industrialization:quantum_upgrade>, <item:industrialforegoing:machine_frame_supreme>, <item:modern_industrialization:quantum_upgrade>, <item:immersiveengineering:duroplast>], 
+	[<item:immersiveengineering:duroplast>, <item:pneumaticcraft:aerial_interface>, <item:extendedcrafting:crafting_core>, <item:immersiveengineering:railgun>, <item:immersiveengineering:duroplast>], 
+	[<item:immersiveengineering:duroplast>, <item:modern_industrialization:quantum_upgrade>, <item:createdieselgenerators:large_diesel_engine>, <item:modern_industrialization:quantum_upgrade>, <item:immersiveengineering:duroplast>], 
+	[<item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>, <item:immersiveengineering:duroplast>]
+]);

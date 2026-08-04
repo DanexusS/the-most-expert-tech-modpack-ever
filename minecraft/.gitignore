@@ -1,0 +1,154 @@
+# ============================================================
+# Minecraft modpack source repository
+# Keep configs, quests, scripts, datapacks and pack manifests.
+# Ignore the game runtime, player data, caches and downloaded mods.
+# ============================================================
+
+# --- OS / editors ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# --- Local credentials / launcher accounts ----------------------------------
+/launcher_accounts.json
+/launcher_profiles.json
+/launcher_msa_credentials.bin
+/accounts.json
+/microsoft_accounts.json
+
+# Private keys and certificate stores
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# --- Minecraft / launcher runtime -------------------------------------------
+/logs/
+/crash-reports/
+/debug/
+/screenshots/
+/resourcepacks/
+/shaderpacks/
+/saves/
+/world/
+/world_*/
+/backups/
+/backup/
+/downloads/
+/webcache/
+/cache/
+/.cache/
+/local/
+
+/assets/
+/libraries/
+/natives/
+/runtime/
+/versions/
+
+/.fabric/
+/.forge/
+/.quilt/
+/.mixin.out/
+/mixin.out/
+
+# Prism Launcher / MultiMC local instance state
+/.minecraft/
+/instance.cfg
+/minecraftinstance.json
+
+# --- Player-specific files ---------------------------------------------------
+/options.txt
+/optionsof.txt
+/optionsshaders.txt
+/servers.dat
+/servers.dat_old
+/realms_persistence.json
+/usercache.json
+/usernamecache.json
+/knownkeys.txt
+
+# Common client-generated data
+/journeymap/
+/xaero/
+/xaeroworldmap/
+/replay_recordings/
+/replay_videos/
+/recordings/
+/blueprints/
+/schematics/
+
+# --- Server-local state and secrets -----------------------------------------
+/eula.txt
+/server.properties
+/ops.json
+/whitelist.json
+/banned-players.json
+/banned-ips.json
+/permissions.json
+
+# Commit a sanitized server.properties.example instead of server.properties.
+
+# --- Downloaded mod binaries -------------------------------------------------
+/mods/.index/
+/mods/.cache/
+/mods/.connector/
+
+# Packwiz metadata (*.pw.toml), manifests and README files in /mods remain tracked.
+
+# --- Generated script/mod data ----------------------------------------------
+/kubejs/.cache/
+/kubejs/logs/
+/kubejs/probe/
+/kubejs/.probe/
+/kubejs/exported/
+
+/crafttweaker.log
+/crafttweaker.log.*
+
+# JEI per-world/user state; pack-level JEI config stays tracked
+/config/jei/world/
+
+# --- Build/export artifacts --------------------------------------------------
+/build/
+/dist/
+/out/
+/export/
+/exports/
+/run/
+
+/*.zip
+/*.7z
+/*.rar
+/*.tar
+/*.tar.gz
+/*.mrpack
+
+# --- Temporary and backup files ---------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Optional: uncomment when third-party resource/shader archives are represented
+# by a manifest or download list instead of being stored directly in Git.
+# /resourcepacks/*.zip
+# /shaderpacks/*.zip

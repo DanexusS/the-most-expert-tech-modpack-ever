@@ -1,0 +1,11 @@
+{
+  "name": "Unobtainium",
+  "colors": [
+    "FF66FF",
+    "993399"
+  ],
+  "ingredient": {
+    "item": "allthemodium:unobtainium_ingot"
+  },
+  "inUltimateSingularity": true
+}

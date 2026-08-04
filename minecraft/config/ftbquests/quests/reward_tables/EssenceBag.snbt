@@ -1,0 +1,107 @@
+{
+	id: "49E8BD91A6A936C5"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			count: 8
+			id: "5E91233B8EA9A976"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			random_bonus: 8
+			weight: 250.0f
+		}
+		{
+			count: 2
+			id: "42ABB2F6F5AD9805"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			random_bonus: 2
+			weight: 150.0f
+		}
+		{
+			count: 2
+			id: "776DCED2348B1BB8"
+			item: {
+				count: 1
+				id: "mysticalagriculture:tertium_essence"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "5AAEA387819986E5"
+			item: {
+				count: 1
+				id: "mysticalagriculture:imperium_essence"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "64E0FDC4DFE2902D"
+			item: {
+				count: 1
+				id: "mysticalagriculture:supremium_essence"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			count: 5
+			id: "6666A79AF5B4294E"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fertilized_essence"
+			}
+			random_bonus: 10
+			weight: 150.0f
+		}
+		{
+			id: "007BAC1F6C344740"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "37C2698EF91D27AE"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "4C61D2A08646F52C"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2794D7211FEC4891"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3E52201CF874C141"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

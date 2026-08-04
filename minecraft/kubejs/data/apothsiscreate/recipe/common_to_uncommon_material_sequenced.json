@@ -1,0 +1,114 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:common_material"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 85.0,
+      "id": "apotheosis:uncommon_material"
+    },
+    {
+      "chance": 15.0,
+      "id": "minecraft:gold_nugget"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        },
+        {
+          "item": "apotheosis:common_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis:common_material"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 200
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis:common_material"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis:common_material"
+  }
+}

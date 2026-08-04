@@ -1,0 +1,16 @@
+{
+  "name": "Vibranium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+"ingredient": {
+    "item": "allthemodium:vibranium_block"
+  },  "color": "26DB86",
+  "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+  },
+"crux": "allthemodium:vibranium_ore",
+  "recipes": {
+    "infusion": true // the infusion altar recipe for the seed
+  }
+}

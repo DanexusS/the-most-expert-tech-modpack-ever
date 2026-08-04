@@ -1,0 +1,15 @@
+{
+  "name": "Enderium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+"ingredient": {
+    "item": "alltheores:enderium_ingot"
+  },  "color": "0F6464",
+  "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "recipes": {
+    "infusion": true // the infusion altar recipe for the seed
+  }
+}

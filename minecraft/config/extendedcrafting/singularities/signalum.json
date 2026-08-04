@@ -1,0 +1,11 @@
+{
+  "name": "Signalum",
+  "colors": [
+    "E65B32",
+    "A63A1E"
+  ],
+  "ingredient": {
+    "item": "alltheores:signalum_ingot"
+  },
+  "inUltimateSingularity": true
+}

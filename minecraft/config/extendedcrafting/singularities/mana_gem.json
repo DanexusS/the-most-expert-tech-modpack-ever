@@ -1,0 +1,11 @@
+{
+  "name": "Mana Gem",
+  "colors": [
+    "921F8E",
+    "B16CDD"
+  ],
+  "ingredient": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,710 @@
+{
+  "entity.iceandfire.cyclops": {
+    "xp": 8,
+    "duration": 768,
+    "main_drop": "minecraft:leather",
+    "additional_drop": [
+      "iceandfire:cyclops_eye",
+      "minecraft:mutton",
+      "minecraft:white_wool"
+    ]
+  },
+  "entity.iceandfire.dread_lich": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:dread_shard",
+    "additional_drop": [
+      "minecraft:bone",
+      "iceandfire:dread_key"
+    ]
+  },
+  "entity.irons_spellbooks.pyromancer": {
+    "xp": 20,
+    "duration": 768,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:rare_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:fire_rune"
+    ]
+  },
+  "entity.iceandfire.hydra": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:hydra_fang",
+    "additional_drop": [
+      "iceandfire:hydra_heart",
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "entity.minecraft.slime": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:slime_ball",
+    "additional_drop": [
+      "reliquary:slime_pearl"
+    ]
+  },
+  "entity.irons_spellbooks.necromancer": {
+    "xp": 10,
+    "duration": 256,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": []
+  },
+  "entity.minecraft.vindicator": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:emerald",
+    "additional_drop": []
+  },
+  "entity.minecraft.piglin_brute": {
+    "xp": 20,
+    "duration": 1024,
+    "main_drop": "minecraft:netherite_upgrade_smithing_template",
+    "additional_drop": []
+  },
+  "entity.ars_nouveau.wilden_stalker": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "ars_nouveau:wilden_wing",
+    "additional_drop": []
+  },
+  "entity.minecraft.hoglin": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:porkchop",
+    "additional_drop": [
+      "minecraft:leather"
+    ]
+  },
+  "entity.iceandfire.deathworm": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:deathworm_tounge",
+    "additional_drop": [
+      "iceandfire:deathworm_chitin_yellow",
+      "iceandfire:deathworm_chitin_white",
+      "iceandfire:deathworm_chitin_red"
+    ]
+  },
+  "entity.iceandfire.dread_thrall": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:dread_shard",
+    "additional_drop": [
+      "minecraft:bone"
+    ]
+  },
+  "entity.irons_spellbooks.cryomancer": {
+    "xp": 15,
+    "duration": 512,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:common_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:ice_rune"
+    ]
+  },
+  "entity.cataclysm.scylla": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:lacrima",
+    "additional_drop": [
+      "cataclysm:essence_of_the_storm",
+      "bhc:yellow_heart"
+    ]
+  },
+  "entity.irons_spellbooks.dead_king": {
+    "xp": 80,
+    "duration": 5120,
+    "is_boss": true,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:legendary_ink",
+      "irons_spellbooks:epic_ink",
+      "irons_spellbooks:blank_rune"
+    ]
+  },
+  "entity.ars_nouveau.wilden_hunter": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "ars_nouveau:wilden_horn",
+    "additional_drop": []
+  },
+  "entity.minecraft.warden": {
+    "xp": 90,
+    "duration": 3072,
+    "is_boss": true,
+    "main_drop": "minecraft:echo_shard",
+    "additional_drop": [
+      "apothic_enchanting:warden_tendril",
+      "minecraft:sculk_catalyst",
+      "bhc:blue_heart"
+    ]
+  },
+  "entity.minecraft.bee": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:honeycomb",
+    "additional_drop": [
+      "minecraft:honey_bottle"
+    ]
+  },
+  "entity.minecraft.elder_guardian": {
+    "xp": 10,
+    "duration": 1024,
+    "main_drop": "minecraft:prismarine_shard",
+    "additional_drop": [
+      "minecraft:prismarine_crystals",
+      "minecraft:wet_sponge"
+    ]
+  },
+  "entity.minecraft.magma_cube": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:magma_cream",
+    "additional_drop": [
+      "reliquary:molten_core"
+    ]
+  },
+  "entity.iceandfire.stymphalian_bird": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:stymphalian_bird_feather",
+    "additional_drop": [
+      "iceandfire:copper_nugget",
+      "minecraft:iron_ingot",
+      "minecraft:copper_ingot"
+    ]
+  },
+  "entity.minecraft.armadillo": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:armadillo_scute",
+    "additional_drop": []
+  },
+  "entity.minecraft.cow": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:beef",
+    "additional_drop": [
+      "minecraft:leather"
+    ]
+  },
+  "entity.iceandfire.fire_dragon": {
+    "xp": 50,
+    "duration": 1024,
+    "is_boss": true,
+    "main_drop": "iceandfire:fire_dragon_heart",
+    "additional_drop": [
+      "iceandfire:fire_dragon_flesh",
+      "iceandfire:dragonscales_red",
+      "iceandfire:dragonbone"
+    ]
+  },
+  "entity.minecraft.squid": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:ink_sac",
+    "additional_drop": [
+      "croptopia:calamari",
+      "reliquary:squid_beak"
+    ]
+  },
+  "entity.minecraft.breeze": {
+    "xp": 0,
+    "duration": 256,
+    "main_drop": "minecraft:breeze_rod",
+    "additional_drop": []
+  },
+  "entity.minecraft.creeper": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:gunpowder",
+    "additional_drop": [
+      "reliquary:catalyzing_gland"
+    ]
+  },
+  "entity.irons_spellbooks.apothecarist": {
+    "xp": 15,
+    "duration": 512,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:common_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:nature_rune"
+    ]
+  },
+  "entity.iceandfire.dread_knight": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:dread_shard",
+    "additional_drop": [
+      "minecraft:bone",
+      "minecraft:iron_ingot"
+    ]
+  },
+  "entity.minecraft.ender_dragon": {
+    "xp": 100,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "minecraft:dragon_egg",
+    "additional_drop": [
+      "minecraft:dragon_breath",
+      "draconicevolution:dragon_heart"
+    ]
+  },
+  "entity.minecraft.iron_golem": {
+    "xp": 0,
+    "duration": 512,
+    "main_drop": "minecraft:iron_ingot",
+    "additional_drop": []
+  },
+  "entity.minecraft.skeleton": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:bone",
+    "additional_drop": [
+      "minecraft:arrow",
+      "reliquary:rib_bone"
+    ]
+  },
+  "entity.stellaris.alien_zombie": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "stellaris:moon_fruit",
+    "additional_drop": [
+      "stellaris:ice_shard"
+    ]
+  },
+  "entity.upgrade_aquatic.great_thrasher": {
+    "xp": 55,
+    "duration": 768,
+    "main_drop": "upgrade_aquatic:thrasher_tooth",
+    "additional_drop": [
+      "upgrade_aquatic:disc_fragment_atlantis"
+    ]
+  },
+  "entity.iceandfire.ice_dragon": {
+    "xp": 50,
+    "duration": 1024,
+    "is_boss": true,
+    "main_drop": "iceandfire:ice_dragon_heart",
+    "additional_drop": [
+      "iceandfire:ice_dragon_flesh",
+      "iceandfire:dragonscales_blue",
+      "iceandfire:dragonbone"
+    ]
+  },
+  "entity.iceandfire.sea_serpent": {
+    "xp": 5,
+    "duration": 768,
+    "main_drop": "iceandfire:sea_serpent_fang",
+    "additional_drop": [
+      "iceandfire:sea_serpent_scales_red",
+      "iceandfire:sea_serpent_scales_green",
+      "iceandfire:sea_serpent_scales_blue"
+    ]
+  },
+  "entity.minecraft.phantom": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:phantom_membrane",
+    "additional_drop": []
+  },
+  "entity.iceandfire.dread_ghoul": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:dread_shard",
+    "additional_drop": [
+      "minecraft:bone",
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "entity.iceandfire.lighting_dragon": {
+    "xp": 50,
+    "duration": 1024,
+    "is_boss": true,
+    "main_drop": "minecraft:air",
+    "additional_drop": [
+      "minecraft:air",
+      "iceandfire:dragonscales_electric",
+      "iceandfire:dragonbone"
+    ]
+  },
+  "entity.iceandfire.hippogryph": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:feather",
+    "additional_drop": [
+      "iceandfire:hippogryph_talon",
+      "minecraft:leather"
+    ]
+  },
+  "entity.forbidden_arcanus.lost_soul": {
+    "xp": 0,
+    "duration": 256,
+    "main_drop": "forbidden_arcanus:soul",
+    "additional_drop": []
+  },
+  "entity.minecraft.rabbit": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:rabbit",
+    "additional_drop": [
+      "minecraft:rabbit_foot",
+      "minecraft:rabbit_hide"
+    ]
+  },
+  "entity.iceandfire.hippocampus": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:shiny_scales",
+    "additional_drop": [
+      "iceandfire:hippocampus_fin"
+    ]
+  },
+  "entity.minecraft.zombie": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:rotten_flesh",
+    "additional_drop": [
+      "reliquary:zombie_heart"
+    ]
+  },
+  "entity.minecraft.glow_squid": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:glow_ink_sac",
+    "additional_drop": [
+      "croptopia:glowing_calamari"
+    ]
+  },
+  "entity.minecraft.wither_skeleton": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:bone",
+    "additional_drop": [
+      "minecraft:coal",
+      "minecraft:wither_skeleton_skull",
+      "reliquary:withered_rib"
+    ]
+  },
+  "entity.iceandfire.troll": {
+    "xp": 5,
+    "duration": 768,
+    "main_drop": "iceandfire:troll_tusk",
+    "additional_drop": [
+      "iceandfire:troll_leather_forest",
+      "iceandfire:troll_leather_mountain",
+      "iceandfire:troll_leather_frost"
+    ]
+  },
+  "entity.cataclysm.the_harbinger": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:witherite_block",
+    "additional_drop": [
+      "bhc:yellow_heart",
+      "minecraft:air"
+    ]
+  },
+  "entity.iceandfire.siren": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:shiny_scales",
+    "additional_drop": [
+      "iceandfire:siren_tear",
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals"
+    ]
+  },
+  "entity.irons_spellbooks.citadel_keeper": {
+    "xp": 25,
+    "duration": 1280,
+    "main_drop": "minecraft:netherite_scrap",
+    "additional_drop": [
+      "irons_spellbooks:cinder_essence"
+    ]
+  },
+  "entity.irons_spellbooks.archevoker": {
+    "xp": 20,
+    "duration": 768,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:rare_ink",
+      "irons_spellbooks:uncommon_ink",
+      "irons_spellbooks:evocation_rune"
+    ]
+  },
+  "entity.cataclysm.netherite_monstrosity": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:lava_power_cell",
+    "additional_drop": [
+      "bhc:yellow_heart",
+      "cataclysm:monstrous_horn"
+    ]
+  },
+  "entity.minecraft.zombified_piglin": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:rotten_flesh",
+    "additional_drop": [
+      "minecraft:gold_ingot"
+    ]
+  },
+  "entity.cataclysm.maledictus": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:cursium_ingot",
+    "additional_drop": [
+      "bhc:yellow_heart"
+    ]
+  },
+  "entity.minecraft.witch": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:redstone",
+    "additional_drop": [
+      "minecraft:glowstone_dust",
+      "minecraft:sugar",
+      "minecraft:gunpowder"
+    ]
+  },
+  "entity.cataclysm.ancient_remnant": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:ancient_metal_block",
+    "additional_drop": [
+      "bhc:yellow_heart",
+      "cataclysm:sandstorm_in_a_bottle"
+    ]
+  },
+  "entity.forbidden_arcanus.corrupt_lost_soul": {
+    "xp": 0,
+    "duration": 512,
+    "main_drop": "forbidden_arcanus:corrupt_soul",
+    "additional_drop": []
+  },
+  "entity.minecraft.chicken": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:chicken",
+    "additional_drop": [
+      "minecraft:feather",
+      "minecraft:egg"
+    ]
+  },
+  "entity.minecraft.spider": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:string",
+    "additional_drop": [
+      "minecraft:spider_eye",
+      "reliquary:chelicerae"
+    ]
+  },
+  "entity.minecraft.enderman": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:ender_pearl",
+    "additional_drop": [
+      "minecraft:end_crystal",
+      "reliquary:nebulous_heart"
+    ]
+  },
+  "entity.minecraft.evoker": {
+    "xp": 10,
+    "duration": 1024,
+    "main_drop": "minecraft:totem_of_undying",
+    "additional_drop": [
+      "minecraft:emerald"
+    ]
+  },
+  "entity.iceandfire.dread_beast": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:dread_shard",
+    "additional_drop": [
+      "minecraft:bone",
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "entity.ars_nouveau.wilden_guardian": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "ars_nouveau:wilden_spike",
+    "additional_drop": []
+  },
+  "entity.minecraft.bogged": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:bone",
+    "additional_drop": [
+      "minecraft:arrow"
+    ]
+  },
+  "entity.irons_spellbooks.fire_boss": {
+    "xp": 40,
+    "duration": 2560,
+    "main_drop": "irons_spellbooks:arcane_essence",
+    "additional_drop": [
+      "irons_spellbooks:cinder_essence"
+    ]
+  },
+  "entity.minecraft.shulker": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:shulker_shell",
+    "additional_drop": []
+  },
+  "entity.iceandfire.ghost": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:ectoplasm",
+    "additional_drop": [
+      "iceandfire:ghost_ingot"
+    ]
+  },
+  "entity.minecraft.cave_spider": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:string",
+    "additional_drop": [
+      "minecraft:spider_eye",
+      "reliquary:chelicerae"
+    ]
+  },
+  "entity.minecraft.mooshroom": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:beef",
+    "additional_drop": [
+      "minecraft:leather",
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom"
+    ]
+  },
+  "entity.minecraft.pig": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:porkchop",
+    "additional_drop": []
+  },
+  "entity.minecraft.wither": {
+    "xp": 70,
+    "duration": 2048,
+    "is_boss": true,
+    "main_drop": "minecraft:nether_star",
+    "additional_drop": [
+      "mysticalagradditions:withering_soul",
+      "bhc:yellow_heart"
+    ]
+  },
+  "entity.cataclysm.ignis": {
+    "xp": 500,
+    "duration": 4096,
+    "is_boss": true,
+    "main_drop": "cataclysm:ignitium_ingot",
+    "additional_drop": [
+      "bhc:yellow_heart"
+    ]
+  },
+  "entity.minecraft.bat": {
+    "xp": 0,
+    "duration": 256,
+    "main_drop": "reliquary:bat_wing",
+    "additional_drop": []
+  },
+  "entity.iceandfire.dread_scuttler": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:rotten_flesh",
+    "additional_drop": [
+      "minecraft:spider_eye"
+    ]
+  },
+  "entity.minecraft.guardian": {
+    "xp": 10,
+    "duration": 512,
+    "main_drop": "minecraft:prismarine_shard",
+    "additional_drop": [
+      "minecraft:prismarine_crystals",
+      "reliquary:guardian_spike"
+    ]
+  },
+  "entity.forbidden_arcanus.enchanted_lost_soul": {
+    "xp": 0,
+    "duration": 768,
+    "main_drop": "forbidden_arcanus:enchanted_soul",
+    "additional_drop": []
+  },
+  "entity.minecraft.snow_golem": {
+    "xp": 5,
+    "duration": 256,
+    "main_drop": "minecraft:snowball",
+    "additional_drop": [
+      "reliquary:frozen_core"
+    ]
+  },
+  "entity.wetland_whimsy.infected_spider": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "wetland_whimsy:fellcap_mushroom",
+    "additional_drop": [
+      "minecraft:fermented_spider_eye",
+      "minecraft:string"
+    ]
+  },
+  "entity.minecraft.drowned": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:rotten_flesh",
+    "additional_drop": [
+      "minecraft:copper_ingot"
+    ]
+  },
+  "entity.minecraft.sheep": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:mutton",
+    "additional_drop": [
+      "minecraft:white_wool"
+    ]
+  },
+  "entity.wetland_whimsy.crane": {
+    "xp": 3,
+    "duration": 256,
+    "main_drop": "minecraft:feather",
+    "additional_drop": []
+  },
+  "entity.minecraft.ghast": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "minecraft:ghast_tear",
+    "additional_drop": [
+      "minecraft:gunpowder",
+      "reliquary:catalyzing_gland"
+    ]
+  },
+  "entity.iceandfire.amphithere": {
+    "xp": 5,
+    "duration": 512,
+    "main_drop": "iceandfire:amphithere_feather",
+    "additional_drop": []
+  },
+  "entity.minecraft.blaze": {
+    "xp": 10,
+    "duration": 512,
+    "main_drop": "minecraft:blaze_rod",
+    "additional_drop": [
+      "reliquary:molten_core"
+    ]
+  }
+}

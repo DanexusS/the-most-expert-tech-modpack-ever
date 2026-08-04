@@ -1,0 +1,5 @@
+[*]
+chapter_panel_background: ftb:textures/quests/space_background_thin_alt.png; tint=#4DFFFFFF
+background: ftb:textures/quests/space_background.png; tint=#4DFFFFFF
+quest_view_background: ftb:textures/quests/space_background1.png; border=#FFFFFF
+quest_view_border: white

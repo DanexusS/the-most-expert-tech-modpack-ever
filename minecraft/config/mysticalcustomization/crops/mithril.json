@@ -1,0 +1,15 @@
+{
+  "name": "Mithril",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+"ingredient": {
+    "item": "irons_spellbooks:mithril_ingot"
+  },  "color": "BBF0F0",
+  "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "recipes": {
+    "infusion": true // the infusion altar recipe for the seed
+  }
+}

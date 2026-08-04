@@ -1,0 +1,106 @@
+[
+
+  {
+  "mob": "minecraft:falling_block",
+  "mincount": 20,
+  "result": "deny"
+},
+	{
+    "mob": "minecraft:bat",
+    "mincount": 1,
+    "result": "deny"
+  },
+
+  {
+    "mob": "artifacts:mimic",
+    "mincount": 5,
+    "result": "deny"
+  },
+
+ 
+  {
+    "mob": [
+      "iceandfire:fire_dragon",
+      "iceandfire:ice_dragon",
+      "iceandfire:lightning_dragon",
+      "iceandfire:dragon_multipart"
+    ],
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+
+  {
+    "mob": [
+      "mowziesmobs:wroughtnaut",
+      "forbidden_arcanus:lost_soul"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+
+
+  {
+    "mob": [
+      "ars_nouveau:drygmy",
+      "ars_nouveau:starbuncle",
+      "ars_nouveau:whirlisprig"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+
+  {
+    "mod": "productivebees",
+    "mincount": {
+      "amount": 15,
+      "mod": "productivebees",
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+
+
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:slime",
+      "minecraft:spider",
+      "minecraft:drowned"
+    ],
+    "mincount": {
+      "amount": 200,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+    {
+    "mod": "earthmobsmod",
+    "mincount": {
+      "amount": 25,
+      "mod": "earthmobsmod",
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+
+  {
+    "hostile": true,
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
+    "result": "default"
+  }
+
+]

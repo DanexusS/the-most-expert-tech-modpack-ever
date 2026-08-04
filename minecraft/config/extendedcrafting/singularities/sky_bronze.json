@@ -1,0 +1,11 @@
+{
+  "name": "Sky Bronze",
+  "colors": [
+    "CC9966",
+    "805533"
+  ],
+  "ingredient": {
+    "item": "megacells:sky_bronze_ingot"
+  },
+  "inUltimateSingularity": true
+}

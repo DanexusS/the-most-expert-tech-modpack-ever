@@ -1,0 +1,528 @@
+[
+  {
+    "drops": [
+      "endrem:guardian_eye#35%",
+      "minecraft:cod#30%",
+      "minecraft:prismarine_crystals#20%",
+      "minecraft:prismarine_shard#66%",
+      "minecraft:tide_armor_trim_smithing_template#20%",
+      "minecraft:wet_sponge"
+    ],
+    "id": "minecraft:elder_guardian",
+    "scale": 12,
+    "y_offset": -5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.01,
+    "type": 2,
+    "replace": true
+  },
+  {
+    "drops": [
+      "mowziesmobs:wrought_axe",
+      "mowziesmobs:wrought_helmet"
+    ],
+    "id": "mowziesmobs:ferrous_wroughtnaut",
+    "scale": 15,
+    "y_offset": 13,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.02,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:ancient_entity",
+    "drops": [
+      "divinerpg:divine_shards",
+      "divinerpg:sandslash",
+      "divinerpg:ancient_entity_statue"
+    ],
+    "scale": 5,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.03,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:the_watcher",
+    "drops": [
+      "divinerpg:divine_shards",
+      "divinerpg:torridite_ingot",
+      "divinerpg:soulfire_stone",
+      "divinerpg:the_watcher_statue"
+    ],
+    "scale": 10,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.04,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:king_of_scorchers",
+    "drops": [
+      "divinerpg:fury_fire",
+      "divinerpg:soulfire_stone",
+      "divinerpg:king_of_scorchers_statue"
+    ],
+    "scale": 20,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.05,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:kitra",
+    "drops": [
+      "divinerpg:kitra_statue"
+    ],
+    "scale": 12,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.06,
+    "replace": true
+  },
+  {
+    "drops": [
+      "minecraft:feather#50%",
+      "mowziesmobs:sol_visage"
+    ],
+    "id": "mowziesmobs:umvuthi",
+    "scale": 15,
+    "y_offset": 13,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.07,
+    "replace": true
+  },
+  {
+    "drops": [
+      "mowziesmobs:ice_crystal",
+      "mowziesmobs:music_disc_petiole"
+    ],
+    "id": "mowziesmobs:frostmaw",
+    "scale": 11,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": true,
+    "position": 0.08,
+    "replace": true
+  },
+  {
+    "drops": [
+      "mowziesmobs:earthrend_gauntlet",
+      "mowziesmobs:geomancer_beads#20%",
+      "mowziesmobs:geomancer_belt#20%",
+      "mowziesmobs:geomancer_robe#20%",
+      "mowziesmobs:geomancer_sandals#20%",
+      "mowziesmobs:sculptor_staff#20"
+    ],
+    "id": "mowziesmobs:sculptor",
+    "scale": 18,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": true,
+    "position": 0.09,
+    "replace": true
+  },
+  {
+    "drops": [
+      "endrem:wither_eye#99%",
+      "minecraft:nether_star"
+    ],
+    "id": "minecraft:wither",
+    "scale": 15,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.1,
+    "replace": true
+  },
+  {
+    "drops": [
+      "irons_spellbooks:arcane_essence",
+      "irons_spellbooks:dragonskin",
+      "minecraft:dragon_egg"
+    ],
+    "id": "minecraft:ender_dragon",
+    "scale": 7,
+    "y_offset": 6,
+    "rotate_y": 180,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.11,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:ayeraco",
+    "drops": [
+      "divinerpg:divine_shards",
+      "divinerpg:ayeraco_statue"
+    ],
+    "scale": 25,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.12,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:sunstorm",
+    "drops": [
+      "divinerpg:eden_fragments",
+      "divinerpg:eden_heart",
+      "divinerpg:eden_blitz",
+      "divinerpg:sunstorm_statue"
+    ],
+    "scale": 20,
+    "y_offset": 15,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.13,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:termasect",
+    "drops": [
+      "divinerpg:wildwood_fragments",
+      "divinerpg:wildwood_log",
+      "divinerpg:wildwood_heart",
+      "divinerpg:wildwood_blitz",
+      "divinerpg:termasect_statue"
+    ],
+    "scale": 5,
+    "y_offset": 3,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.14,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:eternal_archer",
+    "drops": [
+      "divinerpg:apalachia_fragments",
+      "divinerpg:apalachia_heart",
+      "divinerpg:halite_bow",
+      "divinerpg:eternal_archer_statue"
+    ],
+    "scale": 15,
+    "y_offset": 15,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.15,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:experienced_cori",
+    "drops": [
+      "divinerpg:skythern_fragments",
+      "divinerpg:skythern_heart",
+      "divinerpg:skythern_blitz",
+      "divinerpg:experienced_cori_statue"
+    ],
+    "scale": 10,
+    "y_offset": 15,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.16,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:parasecta",
+    "drops": [
+      "divinerpg:dungeon_tokens",
+      "divinerpg:parasecta_statue"
+    ],
+    "scale": 22,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.17,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:dramix",
+    "drops": [
+      "divinerpg:dungeon_tokens",
+      "divinerpg:dramix_statue"
+    ],
+    "scale": 20,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.18,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:soul_fiend",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_slicer",
+      "divinerpg:soul_fiend_statue"
+    ],
+    "scale": 22,
+    "y_offset": 5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.19,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:twilight_demon",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_boots",
+      "divinerpg:halite_helmet",
+      "divinerpg:twilight_demon_statue"
+    ],
+    "scale": 15,
+    "y_offset": 5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.2,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:vamacheron",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_blade",
+      "divinerpg:vamacheron_statue"
+    ],
+    "scale": 15,
+    "y_offset": 5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.21,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:densos",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_chestplate",
+      "divinerpg:densos_statue"
+    ],
+    "scale": 20,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.22,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:reyvor",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_leggings",
+      "divinerpg:reyvor_statue"
+    ],
+    "scale": 20,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.23,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:karot",
+    "drops": [
+      "divinerpg:mortum_heart",
+      "divinerpg:halite_phaser",
+      "divinerpg:karot_statue"
+    ],
+    "scale": 12,
+    "y_offset": 5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.24,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:hive_queen",
+    "drops": [
+      "divinerpg:cermile_lump"
+    ],
+    "scale": 30,
+    "y_offset": 15,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.25,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:quadro",
+    "drops": [
+      "divinerpg:cermile_lump"
+    ],
+    "scale": 21,
+    "y_offset": 5,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.26,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:karos",
+    "drops": [
+      "divinerpg:cermile_lump",
+      "divinerpg:rock_chunks"
+    ],
+    "scale": 22,
+    "y_offset": 7,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.27,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:raglok",
+    "drops": [
+      "divinerpg:cermile_lump"
+    ],
+    "scale": 12,
+    "y_offset": 7,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.28,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:wreck",
+    "drops": [
+      "divinerpg:cermile_lump",
+      "minecraft:potion"
+    ],
+    "scale": 25,
+    "y_offset": 8,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.29,
+    "replace": true
+  },
+  {
+    "id": "divinerpg:lady_luna",
+    "drops": [
+      "divinerpg:everbright"
+    ],
+    "scale": 20,
+    "y_offset": 7,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.3,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:infernal_forge",
+      "cataclysm:lava_power_cell",
+      "cataclysm:monstrous_horn",
+      "cataclysm:music_disc_netherite_monstrosity#10%"
+    ],
+    "id": "cataclysm:netherite_monstrosity",
+    "scale": 9,
+    "y_offset": 18,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.31,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:gauntlet_of_guard",
+      "cataclysm:music_disc_ender_guardian#10%"
+    ],
+    "id": "cataclysm:ender_guardian",
+    "scale": 15,
+    "y_offset": 22,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.32,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:music_disc_the_harbinger#10%",
+      "cataclysm:witherite_block"
+    ],
+    "id": "cataclysm:the_harbinger",
+    "scale": 12,
+    "y_offset": 20,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.33,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:ancient_metal_block",
+      "cataclysm:music_disc_ancient_remnant#10%",
+      "cataclysm:remnant_skull",
+      "cataclysm:sandstorm_in_a_bottle"
+    ],
+    "id": "cataclysm:ancient_remnant",
+    "scale": 7,
+    "y_offset": 14,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.34,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:abyssal_egg",
+      "cataclysm:music_disc_the_leviathan#10%",
+      "cataclysm:tidal_claws"
+    ],
+    "id": "cataclysm:the_leviathan",
+    "scale": 6,
+    "y_offset": -20,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.35,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:essence_of_the_storm",
+      "cataclysm:lacrima",
+      "cataclysm:music_disc_scylla#10%"
+    ],
+    "id": "cataclysm:scylla",
+    "scale": 15,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.36,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:cursium_ingot",
+      "cataclysm:music_disc_maledictus#10%"
+    ],
+    "id": "cataclysm:maledictus",
+    "scale": 12,
+    "y_offset": 0,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.37,
+    "replace": true
+  },
+  {
+    "drops": [
+      "cataclysm:ignitium_ingot",
+      "cataclysm:music_disc_ignis#10%"
+    ],
+    "id": "cataclysm:ignis",
+    "scale": 15,
+    "y_offset": 10,
+    "broken_model": false,
+    "additional_info": false,
+    "position": 0.38,
+    "replace": true
+  }
+]

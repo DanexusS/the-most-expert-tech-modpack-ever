@@ -1,0 +1,11 @@
+{
+  "name": "Supremium",
+  "colors": [
+    "FF2E2E",
+    "A61A1A"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:supremium_essence"
+  },
+  "inUltimateSingularity": true
+}

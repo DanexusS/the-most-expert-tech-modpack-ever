@@ -1,0 +1,12 @@
+#Enable recursive AE2 pattern generation. When enabled, the mod will automatically generate dependency patterns for missing crafting ingredients. Works with all AE2 pattern types (crafting, processing, smithing, stonecutting, etc.)
+enableRecursiveAE2PatternProvider = true
+#Maximum recursion depth for dependency pattern generation. -1 = no limit, 0 = disable recursion, positive values = max depth
+# Default: -1
+# Range: -1 ~ 100
+recursionDepth = -1
+#Default setting for allowing item substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent items (e.g., different wood types) to be used in recipes
+defaultAllowSubstitutes = false
+#Default setting for allowing fluid substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent fluids to be used in recipes
+defaultAllowFluidSubstitutes = false
+#Item required to craft recursive patterns. Use format: 'namespace:item_name'. Default is 'minecraft:iron_ingot'
+recipeItem = "minecraft:iron_ingot"

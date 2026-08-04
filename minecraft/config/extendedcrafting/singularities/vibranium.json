@@ -1,0 +1,11 @@
+{
+  "name": "Vibranium",
+  "colors": [
+    "00E5FF",
+    "006680"
+  ],
+  "ingredient": {
+    "item": "allthemodium:vibranium_ingot"
+  },
+  "inUltimateSingularity": true
+}

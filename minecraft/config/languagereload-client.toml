@@ -1,0 +1,5 @@
+multilingualItemSearch = true
+fallbacks = []
+previousFallbacks = []
+language = ""
+previousLanguage = ""

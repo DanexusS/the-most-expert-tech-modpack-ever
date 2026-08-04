@@ -1,0 +1,70 @@
+{
+	id: "51D32A776892238B"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			id: "4584EA2537B22A98"
+			item: {
+				count: 1
+				id: "powah:capacitor_niotic"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			id: "5AED6571F945F458"
+			item: {
+				count: 1
+				id: "powah:capacitor_spirited"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "65B909FE793902A6"
+			item: {
+				count: 1
+				id: "powah:crystal_niotic"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "0BC97A41D43B1AB5"
+			item: {
+				count: 1
+				id: "powah:crystal_spirited"
+			}
+			weight: 25.0f
+		}
+		{ id: "4EF47BF51CE2AA32", item: { count: 1, id: "powah:energy_cell_spirited" } }
+		{
+			count: 2
+			id: "7B3348337B123B54"
+			item: {
+				count: 1
+				id: "powah:energy_cable_spirited"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "0D83684B2322DD43"
+			item: {
+				count: 1
+				id: "powah:energizing_rod_spirited"
+			}
+			weight: 5.0f
+		}
+		{ id: "06C8D0C894B69042", item: { count: 1, id: "powah:solar_panel_spirited" } }
+		{
+			id: "1E6E5EDBFF5C45F3"
+			item: {
+				count: 1
+				id: "powah:niotic_crystal_block"
+			}
+			weight: 2.0f
+		}
+		{ id: "249C81219BFF959F", item: { count: 1, id: "powah:spirited_crystal_block" } }
+	]
+	use_title: true
+}

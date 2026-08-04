@@ -1,0 +1,11 @@
+{
+  "name": "Sky Osmium",
+  "colors": [
+    "99CCFF",
+    "336699"
+  ],
+  "ingredient": {
+    "item": "megacells:sky_osmium_ingot"
+  },
+  "inUltimateSingularity": true
+}

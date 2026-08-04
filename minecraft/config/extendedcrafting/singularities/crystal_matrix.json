@@ -1,0 +1,11 @@
+{
+  "name": "Crystal Matrix",
+  "colors": [
+    "E6FFFF",
+    "A3D9FF"
+  ],
+  "ingredient": {
+    "item": "avaritia:crystal_matrix_ingot"
+  },
+  "inUltimateSingularity": true
+}

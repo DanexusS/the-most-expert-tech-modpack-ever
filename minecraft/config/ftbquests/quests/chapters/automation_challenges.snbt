@@ -1,0 +1,1218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "automation_challenges"
+	group: "177A10C99EDDA376"
+	icon: {
+		id: "ae2:crafting_terminal"
+	}
+	id: "6A66C6C471F7CE78"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1ACB070EDBA5EC8B"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "2F9971B04407E5E5"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "365A7570A62D1D09"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9971B04407E5E5"]
+			icon: {
+				id: "create:shaft"
+			}
+			id: "72D97C73861B281E"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "0059B9B0D375D034"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 2.2d
+			y: -1.3d
+		}
+		{
+			dependencies: ["2F9971B04407E5E5"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "57A3C95848A95B48"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "54E77E9AF121BB53"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 4.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9971B04407E5E5"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "3A0BF535867D9EF0"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "63EF550774458818"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 6.6d
+			y: 1.3d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "2C328CFFE4B1CD63"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "65CFE8DA3D27A405"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["2C328CFFE4B1CD63"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "3AC4E2186DC04ED6"
+			optional: true
+			rewards: [{
+				id: "6B91108E67DAABF3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "52C9A18DCDD0DD54"
+				type: "checkmark"
+			}]
+			x: 10.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["649BA25A55131552"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "1027B188F5D27957"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "135AFBDF45FE5172"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1027B188F5D27957"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "23E2F2528AB7A0BB"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "289F47D3DA35EB2B"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: -1.3d
+		}
+		{
+			dependencies: ["1027B188F5D27957"]
+			icon: {
+				id: "immersiveengineering:component_steel"
+			}
+			id: "5571B40704061357"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "7C93F0DE5ADFDC24"
+				item: { count: 1, id: "immersiveengineering:component_steel" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1027B188F5D27957"]
+			icon: {
+				id: "immersiveengineering:heavy_engineering"
+			}
+			id: "5619B4AAA3C19DD2"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "35B07B5AF9EFB118"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: 18.6d
+			y: 1.3d
+		}
+		{
+			dependencies: ["23E2F2528AB7A0BB"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "6357756563F7247E"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "317033FB9CB464CA"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["6357756563F7247E"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "459266EB73384474"
+			optional: true
+			rewards: [{
+				id: "33F0D9991D037501"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "1567C1EABE9246B1"
+				type: "checkmark"
+			}]
+			x: 22.8d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "1147BF44D59068D6"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "75143F0B2D170CCE"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1147BF44D59068D6"]
+			icon: {
+				id: "modern_industrialization:bronze_ingot"
+			}
+			id: "7872204C06C53672"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "73D11C9598208B3F"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 26.2d
+			y: -1.3d
+		}
+		{
+			dependencies: ["1147BF44D59068D6"]
+			icon: {
+				id: "modern_industrialization:steel_ingot"
+			}
+			id: "51E179750AF9E0B6"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "0CCCF0FA354DDA53"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 28.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1147BF44D59068D6"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "4EEB515E5F3D68F1"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "6FD57EBB1849AD54"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 30.6d
+			y: 1.3d
+		}
+		{
+			dependencies: [
+				"7872204C06C53672"
+				"4EEB515E5F3D68F1"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "66490F456D8E6C6F"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "4619ACAB247FAE86"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["66490F456D8E6C6F"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "67E156F68E42F5A6"
+			optional: true
+			rewards: [{
+				id: "5D6B1890AE707559"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "26492B7AAF07FEB4"
+				type: "checkmark"
+			}]
+			x: 34.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79F6E9539CE10061"]
+			icon: {
+				id: "pneumaticcraft:printed_circuit_board"
+			}
+			id: "414BEEAF35C79C6C"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1346EEF3FAE81DD8"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:ingot_iron_compressed"
+			}
+			id: "61008A6AE19135D7"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "78AC6A583AE66ED5"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 38.2d
+			y: -1.3d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:printed_circuit_board"
+			}
+			id: "1F95DE2B8AEAADB6"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "264821449E11EB81"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 40.4d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:plastic"
+			}
+			id: "53DC65EC2650F714"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "630ED5FD1BDBA8FF"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 42.6d
+			y: 1.3d
+		}
+		{
+			dependencies: ["1F95DE2B8AEAADB6"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0BBD1E65BFD11D57"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "08F623507FAF2981"
+				type: "checkmark"
+			}]
+			x: 45.0d
+			y: -1.2d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:printed_circuit_board"
+			}
+			id: "51DFDEAC05124ED6"
+			optional: true
+			rewards: [{
+				id: "5D1768E2713ECE15"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "2E2D411EC2245F35"
+				type: "checkmark"
+			}]
+			x: 46.8d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "mekanism:alloy_atomic"
+			}
+			id: "0968C06136790B7A"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "246A4641DE0E22A4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0968C06136790B7A"]
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
+			id: "05833BA19A0C4441"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "2F12A753692F5856"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 2.2d
+			y: 8.7d
+		}
+		{
+			dependencies: ["0968C06136790B7A"]
+			icon: {
+				id: "mekanism:advanced_control_circuit"
+			}
+			id: "701F1772884734C0"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "0F35FEEE3C74E8E9"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 4.4d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0968C06136790B7A"]
+			icon: {
+				id: "mekanism:elite_control_circuit"
+			}
+			id: "25170E9E2A0EEF15"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "5A1724B2289A2138"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 6.6d
+			y: 11.3d
+		}
+		{
+			dependencies: [
+				"701F1772884734C0"
+				"25170E9E2A0EEF15"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "5C6927B068130E27"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "3B79A7BC18719189"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 8.8d
+		}
+		{
+			dependencies: ["5C6927B068130E27"]
+			icon: {
+				id: "mekanism:alloy_atomic"
+			}
+			id: "6ADF14F9875DBF13"
+			optional: true
+			rewards: [{
+				id: "72D5050E8BDA512E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "619C2E8A83EF9375"
+				type: "checkmark"
+			}]
+			x: 10.8d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "mekanism:hdpe_pellet"
+			}
+			id: "66020F7A696999F3"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3D320EDEB8F471D2"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66020F7A696999F3"]
+			icon: {
+				id: "mekanism:hdpe_pellet"
+			}
+			id: "5CD549A10495D51C"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "4F397118CEB266AC"
+				item: { count: 1, id: "mekanism:hdpe_pellet" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.7d
+		}
+		{
+			dependencies: ["66020F7A696999F3"]
+			icon: {
+				id: "mekanism:yellow_cake_uranium"
+			}
+			id: "61B587B8C2D76FD7"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "68AD65BA5891447F"
+				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66020F7A696999F3"]
+			icon: {
+				id: "mekanism:pellet_polonium"
+			}
+			id: "4E573AC18C6F3144"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "48D0C397C02E0FCF"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 18.6d
+			y: 11.3d
+		}
+		{
+			dependencies: [
+				"5CD549A10495D51C"
+				"61B587B8C2D76FD7"
+				"4E573AC18C6F3144"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "43B6CC7B5D29750E"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "01A49736D67D388B"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 8.8d
+		}
+		{
+			dependencies: ["43B6CC7B5D29750E"]
+			icon: {
+				id: "mekanism:hdpe_pellet"
+			}
+			id: "473B9CFA8C6E18CC"
+			optional: true
+			rewards: [{
+				id: "04302E8F42CC8D08"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "377F0E282702F8AC"
+				type: "checkmark"
+			}]
+			x: 22.8d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "5C7231CEC5177C96"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3991EDFACF660EEF"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "245F4D37B9D6BDEA"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "289A27947EEA86A6"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 26.2d
+			y: 8.7d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:pink_slime"
+			}
+			id: "7BF5A7A538541CA5"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "3D4DCA48DDB995AA"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: 28.4d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:machine_frame_advanced"
+			}
+			id: "5BDB48BA178720B1"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "5216CC49A9A58F95"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 30.6d
+			y: 11.3d
+		}
+		{
+			dependencies: ["245F4D37B9D6BDEA"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "75EDF3D53E9C19F4"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "480E5486522E1012"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: 8.8d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "7FA8EB0C90B3F72B"
+			optional: true
+			rewards: [{
+				id: "5D23BC21E28CE369"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "1715679EB44E5139"
+				type: "checkmark"
+			}]
+			x: 34.8d
+			y: 11.0d
+		}
+		{
+			dependencies: ["64998EE3453054F0"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "6D7EAC3B8443B1A9"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0A99B153CAF7CD1F"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "7B7D6EC785C52176"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "258EFE71900DE51A"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: 38.2d
+			y: 8.7d
+		}
+		{
+			icon: {
+				id: "ae2:calculation_processor"
+			}
+			id: "0309031C02F40F48"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "077AB0A91F920B94"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: 40.4d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "23E955FEEA77B312"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "4089F9E30E651B0F"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 42.6d
+			y: 11.3d
+		}
+		{
+			dependencies: ["0309031C02F40F48"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "39C1EA1162EEBF41"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "7EF8A7026DD3834F"
+				type: "checkmark"
+			}]
+			x: 45.0d
+			y: 8.8d
+		}
+		{
+			dependencies: ["39C1EA1162EEBF41"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "23B13127579104CF"
+			optional: true
+			rewards: [{
+				id: "5A2E8229D346AE11"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "555FE115E89C71C7"
+				type: "checkmark"
+			}]
+			x: 46.8d
+			y: 11.0d
+		}
+		{
+			dependencies: ["72B010537F44CE6A"]
+			icon: {
+				id: "powah:crystal_nitro"
+			}
+			id: "54AF525E727E5E62"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "11A77CB8746B55B2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54AF525E727E5E62"]
+			icon: {
+				id: "powah:dielectric_casing"
+			}
+			id: "3A3E58D0B6EA38BB"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "06442CB8DF7B93DA"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: 2.2d
+			y: 18.7d
+		}
+		{
+			dependencies: ["54AF525E727E5E62"]
+			icon: {
+				id: "powah:crystal_blazing"
+			}
+			id: "0BEADBE8FAA1A907"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "5568FB47EDCD22DE"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: 4.4d
+			y: 20.0d
+		}
+		{
+			dependencies: ["54AF525E727E5E62"]
+			icon: {
+				id: "powah:crystal_nitro"
+			}
+			id: "58205A5ACECFFD64"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "234D82E1F38437DB"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: 6.6d
+			y: 21.3d
+		}
+		{
+			dependencies: [
+				"3A3E58D0B6EA38BB"
+				"0BEADBE8FAA1A907"
+				"58205A5ACECFFD64"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0989A06E2244BB27"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "38186E727424BF3D"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 18.8d
+		}
+		{
+			dependencies: ["0989A06E2244BB27"]
+			icon: {
+				id: "powah:crystal_nitro"
+			}
+			id: "3A9F6E8659F5B2D6"
+			optional: true
+			rewards: [{
+				id: "5B803A69C765943C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "6FB9D31E6CD3CADA"
+				type: "checkmark"
+			}]
+			x: 10.8d
+			y: 21.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:awakened_core"
+			}
+			id: "7B7FE280AAC658C8"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6E9E902B20ED1B6E"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:draconium_core"
+			}
+			id: "7739E5F65499CE9F"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "61B3DC491D96F665"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 14.2d
+			y: 18.7d
+		}
+		{
+			icon: {
+				id: "draconicevolution:wyvern_core"
+			}
+			id: "3F34DC9EE4EFF09E"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "7C2C18A43101A71C"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 16.4d
+			y: 20.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:awakened_core"
+			}
+			id: "116F7A57C35817E2"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "0886908586A98648"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: 18.6d
+			y: 21.3d
+		}
+		{
+			dependencies: [
+				"7739E5F65499CE9F"
+				"3F34DC9EE4EFF09E"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "1E0211C004E3DB08"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "5BEA2CDB402E1323"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 18.8d
+		}
+		{
+			icon: {
+				id: "draconicevolution:awakened_core"
+			}
+			id: "603FEA2B63EBD29A"
+			optional: true
+			rewards: [{
+				id: "5A65B961E1ED9A97"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "7E0F583F8C55681A"
+				type: "checkmark"
+			}]
+			x: 22.8d
+			y: 21.0d
+		}
+		{
+			icon: {
+				id: "projecte:red_matter"
+			}
+			id: "0DCABE1F5AECE8DC"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "041208D3CB7E78A6"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0DCABE1F5AECE8DC"]
+			icon: {
+				id: "projecte:aeternalis_fuel"
+			}
+			id: "11076A09529A4BEA"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "0FB6C7F96634827E"
+				item: { count: 1, id: "projecte:aeternalis_fuel" }
+				type: "item"
+			}]
+			x: 26.2d
+			y: 18.7d
+		}
+		{
+			dependencies: ["0DCABE1F5AECE8DC"]
+			icon: {
+				id: "projecte:dark_matter"
+			}
+			id: "47B154FD7D42B946"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "59011EC30BB39696"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 28.4d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0DCABE1F5AECE8DC"]
+			icon: {
+				id: "projecte:red_matter"
+			}
+			id: "64E50825984A8C6B"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "57ECEB402BB4D4AA"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 30.6d
+			y: 21.3d
+		}
+		{
+			dependencies: [
+				"11076A09529A4BEA"
+				"47B154FD7D42B946"
+			]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "6E66934654A45A2E"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "5DF9C57EC12FA157"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: 18.8d
+		}
+		{
+			icon: {
+				id: "projecte:red_matter"
+			}
+			id: "69529ABB3E76DC19"
+			optional: true
+			rewards: [{
+				id: "7C699084C764166C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "3D8CF56A68C52C0B"
+				type: "checkmark"
+			}]
+			x: 34.8d
+			y: 21.0d
+		}
+		{
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "5FB60258AA48A05F"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6402B4DFCE29282A"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: 20.0d
+		}
+		{
+			icon: {
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			id: "75245F0AF0A38625"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "6F71B4D9D9DD26A0"
+				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+				type: "item"
+			}]
+			x: 38.2d
+			y: 18.7d
+		}
+		{
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			id: "562CD705335D967C"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "42A0E428FF8FC98B"
+				item: { count: 1, id: "avaritia:neutron_pile" }
+				type: "item"
+			}]
+			x: 40.4d
+			y: 20.0d
+		}
+		{
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "7B8C4499FFD8BB66"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "57A4A6D3841C0F6F"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 42.6d
+			y: 21.3d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "6FA491BD8659A13A"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			tasks: [{
+				id: "09F26EBF411BD34A"
+				type: "checkmark"
+			}]
+			x: 45.0d
+			y: 18.8d
+		}
+		{
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "6A569C5B3D593EEA"
+			optional: true
+			rewards: [{
+				id: "1B2322F0E5DD28D6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "7B7999BF6D363190"
+				type: "checkmark"
+			}]
+			x: 46.8d
+			y: 21.0d
+		}
+	]
+}

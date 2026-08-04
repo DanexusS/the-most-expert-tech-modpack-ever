@@ -1,0 +1,11 @@
+{
+  "name": "Neptunium",
+  "colors": [
+    "4DD9FF",
+    "1A6699"
+  ],
+  "ingredient": {
+    "item": "aquaculture:neptunium_ingot"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Sky Stone",
+  "colors": [
+    "2C2C2C",
+    "1A1A1A"
+  ],
+  "ingredient": {
+    "item": "ae2:sky_stone_block"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Neutronium",
+  "colors": [
+    "202020",
+    "505050"
+  ],
+  "ingredient": {
+    "item": "avaritia:neutron_ingot"
+  },
+  "inUltimateSingularity": true
+}

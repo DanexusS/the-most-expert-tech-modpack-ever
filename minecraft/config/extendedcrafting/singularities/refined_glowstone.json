@@ -1,0 +1,11 @@
+{
+  "name": "Refined Glowstone",
+  "colors": [
+    "F9F95E",
+    "C4C445"
+  ],
+  "ingredient": {
+    "item": "mekanism:ingot_refined_glowstone"
+  },
+  "inUltimateSingularity": true
+}

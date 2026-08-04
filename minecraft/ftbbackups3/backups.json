@@ -1,0 +1,22 @@
+[
+	{
+		"index": 4,
+		"success": true,
+		"size": 418887,
+		"file_count": 44,
+		"time": 1785701675420,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-08-02-23-14-35.zip",
+		"world_name": "Новый мир"
+	},
+	{
+		"index": 5,
+		"success": true,
+		"size": 1099958,
+		"file_count": 66,
+		"time": 1785705891827,
+		"archival_plugin": "ftbbackups3:zip",
+		"file": "2026-08-03-00-24-51.zip",
+		"world_name": "Новый мир"
+	}
+]
