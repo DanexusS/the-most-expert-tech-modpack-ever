@@ -15,17 +15,23 @@ function infinityPathExists(itemId) {
 }
 
 ServerEvents.recipes(function(event) {
-  var output = 'avaritia:infinity_ingot'
-  var key = {
-    I: 'avaritia:infinity_catalyst',
-    C: 'kubejs:cosmic_catalyst',
-    M: 'kubejs:cosmic_assembly_matrix',
-    A: 'kubejs:antimatter_regulator',
-    P: 'mekanism:pellet_antimatter',
-    D: 'draconicevolution:awakened_core',
-    L: 'kubejs:lunar_seal'
+  var definition = {
+    id: 'kubejs:v1_path/infinity_ingot',
+    output: 'avaritia:infinity_ingot',
+    pattern: ['ICI', 'PMP', 'DAL'],
+    key: {
+      I: 'avaritia:infinity_catalyst',
+      C: 'kubejs:cosmic_catalyst',
+      M: 'kubejs:cosmic_assembly_matrix',
+      A: 'kubejs:antimatter_regulator',
+      P: 'mekanism:pellet_antimatter',
+      D: 'draconicevolution:awakened_core',
+      L: 'kubejs:lunar_seal'
+    }
   }
-  var required = [output].concat(Object.keys(key).map(function(symbol) { return key[symbol] }))
+  var required = [definition.output].concat(Object.keys(definition.key).map(function(symbol) {
+    return definition.key[symbol]
+  }))
   for (var index = 0; index < required.length; index++) {
     if (!infinityPathExists(required[index])) {
       console.warn('[InfinityPath] Kept original Infinity Ingot recipe: unavailable item ' + required[index])
@@ -33,7 +39,7 @@ ServerEvents.recipes(function(event) {
     }
   }
 
-  event.remove({ output: output })
-  event.shaped(output, ['ICI', 'PMP', 'DAL'], key).id('kubejs:v1_path/infinity_ingot')
+  event.remove({ output: definition.output })
+  event.shaped(definition.output, definition.pattern, definition.key).id(definition.id)
   console.info('[InfinityPath] Registered fair cross-mod Infinity Ingot convergence recipe.')
 })
