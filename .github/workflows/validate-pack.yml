@@ -57,6 +57,12 @@ jobs:
       - name: Upgrade legacy expert progression guidance
         run: python minecraft/tools/upgrade_expert_progression_localization.py
 
+      - name: Upgrade Create core-route tasks
+        run: python minecraft/tools/upgrade_create_core.py
+
+      - name: Upgrade Create core-route guidance
+        run: python minecraft/tools/upgrade_create_core_localization.py
+
       - name: Tune combat profiles to modeled limits
         run: python minecraft/tools/tune_combat_profiles.py
 
@@ -65,6 +71,9 @@ jobs:
 
       - name: Audit quest quality
         run: python minecraft/tools/quest_quality_audit.py
+
+      - name: Gate Create core-route quality
+        run: python minecraft/tools/create_core_quality_gate.py
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -81,10 +90,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             minecraft/config/ftbquests/quests/chapters/expert_progression.snbt \
+            minecraft/config/ftbquests/quests/chapters/create.snbt \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
             minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
-            minecraft/docs/QUEST_QUALITY_REPORT.md
+            minecraft/docs/QUEST_QUALITY_REPORT.md \
+            minecraft/docs/CREATE_CORE_QUALITY_REPORT.md
           git commit -m "automation: apply modeled balance and quest upgrades"
           git push origin HEAD:${TARGET_BRANCH}
