@@ -1,0 +1,145 @@
+{
+  "slug": "divinerpg",
+  "lessons": [
+    {
+      "slug": "preparation",
+      "icon": "divinerpg:divine_shards",
+      "title_en": "Dimension Preparation as Infrastructure",
+      "title_ru": "Подготовка измерений как инфраструктура",
+      "desc_en": [
+        "DivineRPG progression is a chain of hostile dimensions, resources and bosses. Entering with only combat gear ignores return logistics, storage and replacement equipment.",
+        "Prepare a labelled portal room, independent return method, food and repair reserves, empty trophy storage and a written objective before every new dimension."
+      ],
+      "desc_ru": [
+        "Прогрессия DivineRPG является цепочкой опасных измерений, ресурсов и боссов. Один комплект брони не заменяет возврат, хранение и запасное снаряжение.",
+        "До каждого измерения готовьте подписанный портал, независимый возврат, еду и ремонт, пустое хранилище трофеев и записанную цель."
+      ]
+    },
+    {
+      "slug": "portal_order",
+      "icon": "divinerpg:eden_portal",
+      "title_en": "Portal Order and Technology Gates",
+      "title_ru": "Порядок порталов и технологические допуски",
+      "desc_en": [
+        "Dimension order should correspond to increasing equipment, resource processing and factory capability rather than portals built from any convenient side recipe.",
+        "Require the previous permission, block alternate portal-frame acquisition and explain which technology jump each dimension authorizes."
+      ],
+      "desc_ru": [
+        "Порядок измерений должен соответствовать росту экипировки, переработки и фабрики, а не порталам из удобного бокового рецепта.",
+        "Требуйте предыдущий допуск, закрывайте альтернативное получение рам и объясняйте, какой технологический скачок разрешает измерение."
+      ]
+    },
+    {
+      "slug": "gear",
+      "icon": "divinerpg:divine_helmet",
+      "title_en": "Dimension Gear and Replacement Stock",
+      "title_ru": "Снаряжение измерений и запас замены",
+      "desc_en": [
+        "DivineRPG equipment often answers specific damage, durability or movement requirements. The highest nominal armor is not always the safest expedition set.",
+        "Compare protection and repair materials, carry a replacement tool and keep one complete recovery set outside the target dimension."
+      ],
+      "desc_ru": [
+        "Снаряжение DivineRPG отвечает на конкретный урон, прочность или движение. Максимальная цифра брони не всегда делает экспедицию безопаснее.",
+        "Сравнивайте защиту и ремонт, несите запасной инструмент и храните полный комплект восстановления вне целевого измерения."
+      ]
+    },
+    {
+      "slug": "resources",
+      "icon": "divinerpg:eden_soul",
+      "title_en": "Dimension Resource Logistics",
+      "title_ru": "Логистика ресурсов измерений",
+      "desc_en": [
+        "Dimension materials become ingredients in cross-mod technology. Manual backpack trips should validate a source once, not remain the permanent supply chain.",
+        "Create sorted return storage, process resources at a safe hub, track consumption by stage and prohibit resource simulators until the dimension permission is earned."
+      ],
+      "desc_ru": [
+        "Материалы измерений становятся ингредиентами межмодовой технологии. Ручные походы должны подтвердить источник, а не оставаться постоянным снабжением.",
+        "Создавайте сортированное хранение возврата, перерабатывайте в безопасном узле, учитывайте расход по этапам и запрещайте симуляцию до допуска."
+      ]
+    },
+    {
+      "slug": "boss_readiness",
+      "icon": "divinerpg:watcher_soul",
+      "title_en": "Boss Readiness and Failure Recovery",
+      "title_ru": "Готовность к боссу и восстановление",
+      "desc_en": [
+        "A boss attempt should test equipment, arena control, healing and knowledge, not force repeated farming because the only recovery path was carried into the fight.",
+        "Build a safe approach, store a replacement kit, set a retreat condition and document the boss reward before consuming or storing it."
+      ],
+      "desc_ru": [
+        "Попытка босса должна проверять экипировку, арену, лечение и знания, а не повторный гринд из-за потерянного единственного пути восстановления.",
+        "Создайте безопасный подход, храните запасной комплект, задайте условие отступления и документируйте награду до расходования или хранения."
+      ]
+    },
+    {
+      "slug": "seals",
+      "icon": "kubejs:divine_seal",
+      "title_en": "Reusable Boss Seals",
+      "title_ru": "Многоразовые боссовые печати",
+      "desc_en": [
+        "A boss victory grants a reusable permission seal. The seal proves progression without making every machine recipe consume another unique trophy.",
+        "Issue each seal once through its quest, make it unstackable and reusable, set EMC to zero and block loot, trade, seed and simulation copies."
+      ],
+      "desc_ru": [
+        "Победа над боссом выдаёт многоразовую печать-допуск. Она доказывает прогрессию, не заставляя каждую машину поглощать новый уникальный трофей.",
+        "Выдавайте печать один раз квестом, делайте нестакаемой и возвратной, задавайте EMC=0 и блокируйте лут, торговлю, семена и симуляцию."
+      ]
+    },
+    {
+      "slug": "seal_order",
+      "icon": "kubejs:mortum_seal",
+      "title_en": "Seal-to-Technology Mapping",
+      "title_ru": "Связь печатей и технологий",
+      "desc_en": [
+        "Each seal belongs at the first technology stage that uses its dimension's materials or proves equivalent combat readiness.",
+        "Keep Divine at precision manufacturing, Eden at chemistry, Wildwood at scale, Apalachia at resource control, Skythern at logistics, Mortum at resonant energy, Vethea at draconic, Wreck at transmutation and Luna at extreme fabrication."
+      ],
+      "desc_ru": [
+        "Каждая печать относится к первому технологическому этапу, использующему материалы измерения или эквивалентную боевую готовность.",
+        "Divine относится к точности, Eden к химии, Wildwood к масштабу, Apalachia к ресурсам, Skythern к логистике, Mortum к энергии, Vethea к драконике, Wreck к трансмутации, Luna к экстремальному производству."
+      ]
+    },
+    {
+      "slug": "trophies",
+      "icon": "minecraft:ender_chest",
+      "title_en": "Trophy Storage and Non-Consumable Evidence",
+      "title_ru": "Хранение трофеев и нерасходуемые доказательства",
+      "desc_en": [
+        "Boss drops can be unique, decorative or useful in original mod recipes. Using them as mass-consumed gates creates unfair repetition and migration risk.",
+        "Store original trophies separately, use seals for repeated technology recipes and keep a record of which quest issued each permission."
+      ],
+      "desc_ru": [
+        "Боссовые предметы могут быть уникальными, декоративными или нужными оригинальным рецептам. Массовое расходование делает прогрессию несправедливой и хрупкой.",
+        "Храните оригинальные трофеи отдельно, используйте печати в повторных технологиях и записывайте, какой квест выдал каждый допуск."
+      ]
+    },
+    {
+      "slug": "safe_return",
+      "icon": "minecraft:recovery_compass",
+      "title_en": "Return Paths and Expedition Continuity",
+      "title_ru": "Пути возврата и непрерывность экспедиции",
+      "desc_en": [
+        "Dimension progression becomes frustrating when portal loss, death or unloaded infrastructure removes the only route home.",
+        "Maintain two independent return methods where possible, label coordinates, protect portal chunks and test the route before carrying irreplaceable materials."
+      ],
+      "desc_ru": [
+        "Прогрессия измерений становится раздражающей, когда потеря портала, смерть или незагруженная инфраструктура уничтожают единственный путь домой.",
+        "Поддерживайте два независимых возврата, записывайте координаты, защищайте чанки портала и проверяйте маршрут до переноса незаменимых материалов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:lunar_seal",
+      "title_en": "Project: Audited Dimension Progression",
+      "title_ru": "Проект: проверенная прогрессия измерений",
+      "desc_en": [
+        "Complete a documented sequence of DivineRPG permissions with safe portals, recovery equipment, sorted resource storage and one cross-mod recipe unlocked by each major seal tier.",
+        "The project passes when no unique trophy is mass-consumed, every seal has one source, all simulated resources respect stage order and the final return route works after a restart."
+      ],
+      "desc_ru": [
+        "Пройдите документированную последовательность допусков DivineRPG с безопасными порталами, восстановлением, сортировкой ресурсов и межмодовым рецептом на каждом крупном уровне печати.",
+        "Проект принят, когда уникальные трофеи не расходуются массово, у каждой печати один источник, симуляция соблюдает этапы, а финальный возврат работает после перезапуска."
+      ]
+    }
+  ]
+}
