@@ -27,7 +27,12 @@
 				id: "233CA0789DD64C01"
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4BB13C80196FD0A1"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 1.5d
 		}
@@ -45,7 +50,12 @@
 				id: "0B967F9E0B8B2BB6"
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0E5FC39E6C71A8B2"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 1.5d
 		}
@@ -62,7 +72,12 @@
 				id: "48EA3AB989CE9CCD"
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4B976C143EDA43C3"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: 1.5d
 		}
@@ -80,7 +95,12 @@
 				id: "0EFBD60BF63B2184"
 				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1837076B0EA3C1D4"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 3.0d
 		}
@@ -105,6 +125,11 @@
 					item: { count: 1, id: "create:large_cogwheel" }
 					type: "item"
 				}
+			
+			{
+				id: "4266BF7FCE3B43E5"
+				type: "checkmark"
+			}
 			]
 			x: -4.5d
 			y: 1.5d
@@ -123,7 +148,12 @@
 				id: "0052EE846ABA2814"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4C7CD3858A2BE8F6"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 1.5d
 		}
@@ -211,7 +241,12 @@
 				id: "7626282E9FA08C6D"
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
-			}]
+			}
+			{
+				id: "732D1A96512F2B18"
+				type: "checkmark"
+			}
+			]
 			x: -3.5d
 			y: 3.0d
 		}
@@ -337,7 +372,12 @@
 				id: "6827191BE1FF6020"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1D00D782B8F0B607"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 1.5d
 		}
@@ -505,7 +545,12 @@
 				id: "29D2E4E5A12C38E9"
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "61348E2551E8ADB4"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: 4.0d
 		}
@@ -542,7 +587,12 @@
 				id: "6C5C25499F346457"
 				item: { count: 1, id: "create:brass_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "51CCB7ACFD7B45D6"
+				type: "checkmark"
+			}
+			]
 			x: 13.0d
 			y: 3.5d
 		}
@@ -560,7 +610,12 @@
 				id: "16BAE78B4F248266"
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "19754AE8C11A6329"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 1.5d
 		}
@@ -578,7 +633,12 @@
 				id: "5DF5AAB6D4D540BB"
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0EE2E9EB6DC01E3A"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 3.5d
 		}
@@ -603,6 +663,11 @@
 					item: { count: 1, id: "create:large_water_wheel" }
 					type: "item"
 				}
+			
+			{
+				id: "197AB0E07A4051C5"
+				type: "checkmark"
+			}
 			]
 			x: -5.5d
 			y: 1.5d

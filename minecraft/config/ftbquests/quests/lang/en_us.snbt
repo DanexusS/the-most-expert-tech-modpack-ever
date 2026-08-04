@@ -43,7 +43,7 @@
 	chapter.568601071A7A5099.title: " &zAvaritia&r"
 	chapter.59395B6806F2A98A.title: "&#1D4FFFCata&rc&6lysm&r"
 	chapter.5B3707F191EEE3E9.title: "&bUFO Future&r"
-	chapter.5C3FF9D1ECAC4860.title: "&#FFB616Create&r"
+	chapter.5C3FF9D1ECAC4860.title: "Create — Kinetic Engineering"
 	chapter.5C764279146E5E66.title: "&dMystical Agriculture&r"
 	chapter.5DA21C95205687A9.title: "Simply Swords"
 	chapter.5E31DF282998B992.title: "&#1C26D9Pneumatic Craft&r"
@@ -952,8 +952,8 @@
 	]
 	quest.0E547F2503A07ACE.quest_desc: ["A sturdy mechanical drill made of iron, designed for efficient mining and material processing. It delivers reliable power and durability, perfect for automating excavation tasks and breaking tough blocks with ease."]
 	quest.0E580153F1936699.quest_desc: ["A powerful machine that converts excess energy or items into stored matter. It’s essential for producing singularities and other high-tier materials used in advanced storage and automation systems."]
-	quest.0E5FC39E6C71A872.quest_desc: ["The shaft is a basic mechanical component in Create. A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed."]
-	quest.0E5FC39E6C71A872.title: "Shaft"
+	quest.0E5FC39E6C71A872.quest_desc: ["Shafts transmit rotation; they do not create capacity and they do not solve overloads.","Acceptance: build a labelled test line, verify rotation direction, and leave physical access for later clutches, gearboxes and maintenance."]
+	quest.0E5FC39E6C71A872.title: "Shafts: Controlled Power Paths"
 	quest.0E63C1AD9074987E.quest_desc: ["Melt quartz in the blast furnace and cast the resulting liquid silicon."]
 	quest.0E72EF13D91DF064.quest_desc: [
 		"The first step in &dspace exploration&r."
@@ -1605,13 +1605,7 @@
 	]
 	quest.182525B7EDF23BB5.quest_desc: ["Same old &dnetherite,&r though it can be obtained in new ways."]
 	quest.18289605711FE891.quest_desc: ["The &9Ender Generator&r is powered by &aEnder Pearls&r and &5Eyes of Ender&r, producing significant amounts of &cEnergy&r. This generator is ideal for players with access to the &bEnd&r and its resources, offering a powerful energy source."]
-	quest.1837076B0EA3C11A.quest_desc: [
-		"A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."
-		""
-		"Placing a Belt requires at least two Shafts. Place the Belt by right-clicking on the first shaft and then right clicking the second. Regardless of the length, this only consumes one mechanical belt. Both shafts must face the same direction."
-		""
-		"A Mechanical Belt can be placed over any number of Shafts arranged horizontally, vertically, or diagonally (45° towards the y axis) in a single line, provided that no obstructions are present and that the total length is no longer than twenty blocks. The Mechanical Belt also require that the two shafts face the same direction."
-	]
+	quest.1837076B0EA3C11A.quest_desc: ["Belts move items visibly and are useful for diagnosing throughput, spacing and blocked outputs.","Acceptance: demonstrate automatic insertion and extraction, prevent item accumulation at the endpoint, and keep the belt reachable for filters and tunnels."]
 	quest.184528671B22DDDE.quest_desc: ["You get it at this point just hover above the item."]
 	quest.186593EBCE3FE8D8.quest_desc: ["&a+ 2 Spawn Range&r - can spawn mobs farther away from the spawner."]
 	quest.186731580B14F9D2.quest_desc: [
@@ -1734,22 +1728,8 @@
 	quest.195F63EAD8194971.quest_desc: ["&6Rugged legwear&r from &aprimitive times&r. As strong as &6leather.&r"]
 	quest.196E55B64667AE35.quest_desc: ["Place at the bottom of the Beehive and place inside it the item required for the respective bee start \"pollinating\" and producing combs."]
 	quest.196FD91EC6A7B73A.quest_desc: ["Same as the other rock&cets,&r except it is crafted with &cCalorite,&r lets you travel to more planets,"]
-	quest.19754AE8C11A6317.quest_desc: [
-		"The Deployer simulates player actions on blocks or entities exactly 2 blocks away from it."
-		""
-		"The Deployer can be given items to use with machines or by right clicking the items into the hand."
-		""
-		"The Deployer can be stopped with a Redstone signal."
-		""
-		"The Filter on the side of the Deployer can be adjusted to only use certain items. The filter is also essential when using a Deployer in a Contraption."
-		""
-		"{@pagebreak}"
-		""
-		"The Deployer has 2 inventory slots; the held item and one extra internal slot. As well as unusable items, items harvested by the Deployer will be transferred to the extra slot to be removed by machines, during which time the Deployer will stall. Items cannot be extracted from the extra slot directly by the player."
-		""
-		"The Deployer simulates right clicks by default. It can be adjusted to left click instead by right clicking the front with a Wrench. While in left-click mode, the Deployer can use normal tools, such as pickaxes and swords. The tools will behave as if the player was holding them, including mobs dropping rare items when slain by a Deployer."
-	]
-	quest.197AB0E07A40512F.quest_desc: ["The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it."]
+	quest.19754AE8C11A6317.quest_desc: ["Deployers automate player-like interaction and can consume the wrong item when their supply is not filtered.","Acceptance: lock the held item, recover incomplete workpieces, stop on missing input, and keep wrench access without entering the moving assembly."]
+	quest.197AB0E07A40512F.quest_desc: ["Water wheels provide predictable early capacity when flow direction and placement are correct.","Acceptance: compare standard and large wheels, measure the resulting network, and choose a layout that stays below 75% load during normal processing."]
 	quest.1987DF7742136DC4.quest_desc: [
 		"A &l3x3&r &lrectangle&r of &evarying heights,&r based on what you want to create. in the middle add the&b pipe machine casing.&r"
 		""
@@ -2020,13 +2000,7 @@
 		"Enchantments increase the &aenergy use&r of the plane per block broken. Enchanting with &eEfficiency&r reduces overall energy use, while &eUnbreaking&r gives a chance to save energy, similar to regular tools."
 	]
 	quest.1CF8263756EE8F2A.quest_desc: ["Dropped by the &5Ender dragon&r and &0Wither&r, you will sue this to create &6awakened gear&r."]
-	quest.1D00D782B8F0B6D6.quest_desc: [
-		"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
-		""
-		"The Mixer requires a minimum rotational speed of 30 RPM from its power source to work. Mixers will process ingredients faster the more speed it is given."
-		""
-		"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
-	]
+	quest.1D00D782B8F0B6D6.quest_desc: ["Mixer lines fail when recipes share uncontrolled inputs or when the basin cannot export the result.","Acceptance: use filtered inputs, provide automatic extraction, isolate heated recipes, and complete three consecutive batches without touching the basin."]
 	quest.1D06097B6206BA60.quest_desc: ["Some bookshelves have a more &cpowerful&r &bInfused&r version, these are bookshelves that have been &denchanted&r with a specific &eInfuse&r &denchant&r at a specific stat level."]
 	quest.1D06097B6206BA60.title: "Infusion"
 	quest.1D0939A8B41C72BF.quest_desc: [
@@ -4179,11 +4153,8 @@
 		""
 		"Extract liquids with Mechanical Pipe by setting them to \"pull\" (use a Configurator and Shift+Right click the outer edges of the pipe)."
 	]
-	quest.4266BF7FCE3B4330.quest_desc: [
-		"The Cogwheel is a basic mechanical component in Create that relays rotation."
-		"The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."
-	]
-	quest.4266BF7FCE3B4330.title: "Cogwheels"
+	quest.4266BF7FCE3B4330.quest_desc: ["Small and large cogwheels change speed and direction when meshed in different arrangements.","Acceptance: build one speed-up and one speed-down example, observe the direction change, and record which machine branch must remain slowest."]
+	quest.4266BF7FCE3B4330.title: "Cogwheels: Ratio Demonstration"
 	quest.4276B941670CE0E2.quest_desc: [
 		"P2P tunnels are a way to move things like items, fluids, redstone signals, power, light, and channels around a network without them directly interacting with the network. There are many variants of P2P tunnel but each only transports its specific type of thing. They essentially act like portals that directly connect two block faces at range. They are not bi-directional, there are defined inputs and outputs."
 		""
@@ -4750,17 +4721,8 @@
 		""
 		"The extracted fluid can be transferred using &eFluid Pipes&r."
 	]
-	quest.4B976C143EDA4317.quest_desc: [
-		"Casings are blocks used throughout many crafting recipes in Create, as well as for decoration and aesthetic purposes."
-		""
-		"There are four types of Casings: Andesite Casings are mainly used in basic Contraptions."
-		""
-		"{@pagebreak}"
-		"Casings can only be crafted through physically applying a valid alloy or ingot to any Stripped variant of Log or Wood. The logs will convert themselves into the casing."
-		""
-		"Mechanical Belts, Shafts, and Cogwheels can be encased in most casings, creating a decoration around the encased block. Copper casings, however, can be used only on Fluid Pipes. Likewise, a fluid pipe will not accept any other kind of casing."
-	]
-	quest.4B976C143EDA4317.title: "Andesite Casing"
+	quest.4B976C143EDA4317.quest_desc: ["Casings are a recurring machine input and should not be crafted one at a time.","Acceptance: provision a batch of sixteen, separate stripped-log processing from alloy storage, and keep enough reserve to rebuild one failed machine line."]
+	quest.4B976C143EDA4317.title: "Andesite Casing: Batch Standard"
 	quest.4B9E9497E44D0096.quest_desc: [
 		"These are the used to create &cbasic reactors&r, and will be used for the &6outer walls&r and &6edges.&r"
 		""
@@ -4768,14 +4730,9 @@
 	]
 	quest.4B9E9497E44D0096.title: "Reactor Casings"
 	quest.4BAA0DCA042ED9D7.quest_desc: ["Useful in many recipes and is a big step toward making this mods armour."]
-	quest.4BB13C80196FD034.quest_desc: [
-		"The &#FFB616Create&r mod brings true engineering to Minecraft!"
-		"Instead of simple machines, you’ll use rotational power generated by water wheels, windmills, and other types of contraptions."
-		""
-		"With Create, you can automate farms, build factories, or even design moving machines that run smoothly and look beautiful doing it."
-	]
+	quest.4BB13C80196FD034.quest_desc: ["Andesite begins the Create chapter, but one block is not a supply chain.","Acceptance: identify a renewable or well-stocked source, reserve material for at least sixteen casings, and keep progression components separate from decorative use."]
 	quest.4BB13C80196FD034.quest_subtitle: "Create"
-	quest.4BB13C80196FD034.title: "Create"
+	quest.4BB13C80196FD034.title: "Andesite: Structural Baseline"
 	quest.4BBA254500807468.quest_desc: ["Its a nugget"]
 	quest.4BDE773C3359D584.quest_desc: [
 		"Robit is Mekanism's mechanical companion. It can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy. It is immune to fire, including the Flamethrower."
@@ -4818,11 +4775,7 @@
 	]
 	quest.4C7455970DDABF24.quest_desc: ["You are making progress, &agood,&r but you must &6improve.&r"]
 	quest.4C786266B391B772.quest_subtitle: "How can you lift this?"
-	quest.4C7CD3858A2BE870.quest_desc: [
-		"The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it. It is used to press Ingots into Sheets, which are important ingredients for higher-level components."
-		""
-		"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
-	]
+	quest.4C7CD3858A2BE870.quest_desc: ["The press is the first serious proof that kinetic processing can replace repetitive crafting.","Acceptance: process sixteen plates without manual item placement, extract every result automatically, and stop the input when output storage is full."]
 	quest.4C80D71EE7CFD378.title: "&6Reinforced Deorum Sword \\& Blacksmith Gavel"
 	quest.4C873491F6F0FFAF.title: "&dSpiritfire&r Conversions"
 	quest.4CA17B0A80020B2F.quest_desc: [""]
@@ -6080,11 +6033,7 @@
 	]
 	quest.60F40F9349D3F369.title: "What now?"
 	quest.6128CB0FA162D322.title: "Find a Burning Arena"
-	quest.61348E2551E8AD6C.quest_desc: [
-		"For the Rotation Speed Controller to work, it must be paired with a Large Cogwheel. The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."
-		""
-		"The rotation speed and direction can be changed in the Value Settings Screen at the front or the back of the machine. The speed can be set to a maximum of 256rpms clockwise or counter-clockwise."
-	]
+	quest.61348E2551E8AD6C.quest_desc: ["A speed controller changes throughput but cannot create stress capacity.","Acceptance: keep at least 25% stress reserve at the chosen RPM, place high-speed machines on a controlled branch, and verify safe restart after shutdown."]
 	quest.61696434C1A9A76C.quest_desc: ["The &aChaotic Tools/Weapons&r have a grid of &b8x6&r for modules."]
 	quest.61696434C1A9A76C.title: "Chaotic Tools \\& Weapons"
 	quest.6173A841D5D5E52C.quest_desc: ["A &6chestplate&r crafted from &aancient materials&r. as strong as &6leather.&r"]
@@ -7174,25 +7123,7 @@
 	quest.72E4DF206C33D50D.quest_subtitle: "The main block used to craft the rockets!"
 	quest.731BAB843C26EA77.quest_desc: ["Oh oh, so you actually did it, not like I doubted you or anything. Well congratulations! I bet the fight have been epic, surely you didn't use some futuristic gear or spells to one shot it, right?"]
 	quest.7322A19FDA5B78E1.quest_desc: ["The Valve Handle functions much like the Hand Crank, though the amount and direction it rotates with one use can be adjusted in its Value Settings Screen."]
-	quest.732D1A96512F2BFD.quest_desc: [
-		"The Steam Engine is a block that provides Rotational Force. "
-		""
-		"It outputs the highest Stress Unit (SU) capacity of all the survival mode power generating blocks. "
-		""
-		"It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions to be powered."
-		""
-		"Brace for a huge amount of text."
-		""
-		"{@pagebreak}"
-		""
-		"Steam Engines use heated Water for power and are placed on Fluid Tanks, which are then used as a boiler. A Shaft can be used on the engine to create a kinetic output. The direction of said output can be adjusted through the Value Settings on the side of the engine."
-		""
-		"Increasing the total power generated requires that one or more of the three characteristics (heat, size, water) of the Fluid Tank boiler be increased. This will increase the boiler's level to the lowest level reached by any of the three characteristics, increasing the maximum amount of SU Steam Engines are capable of generating from the boiler. A single Steam Engine can only extract up to 16,384 SU (The equivalent of 1 boiler level). To combat this, multiple Steam Engines can be attached to a single boiler to extract more power; however, this will not increase the total power generated by the boiler."
-		""
-		"{@pagebreak}"
-		""
-		"The tank size is the basic characteristic of a steam boiler. The required dimensions are affected by the heat supplied. For a passive steam engine (level 0) the boiler must be a 2x2 fluid tank of preferably one block height (making it any higher will be a waste of resources). For an active steam engine (level 1 or higher) the boiler must have 4 blocks per heat level. For example, a level 1 boiler must have a tank made of at least 4 fluid tank blocks, a level 9 boiler must be made of at least 36 blocks and a level 18 boiler (maximum achievable) must be at least made of 72 blocks."
-	]
+	quest.732D1A96512F2BFD.quest_desc: ["Steam generation is an infrastructure project: heat, water, engines and stress capacity must remain stable together.","Acceptance: water is continuous, heat can be shut down safely, and the intended factory load uses no more than 75% of available stress capacity."]
 	quest.73349B993DE69954.quest_desc: [
 		"We'll be using all of that Darkstone to create the Hephaestus Forge."
 		""
@@ -10348,4 +10279,15 @@
 	quest.6B91727E7931BD65.quest_desc: ["ProjectE is introduced as a governed conversion system, not permission to erase the progression graph.","Acceptance: seal-locked and non-EMC items stay outside automated conversion, import and export are separated, and excluded materials are documented.","Transmutation may remove repetition; it must not remove technological prerequisites."]
 	quest.0D199D42E619C8CF.title: "Cosmic Catalyst — Final Integration Review"
 	quest.0D199D42E619C8CF.quest_desc: ["The catalyst joins Avaritia-scale crafting with every preceding industrial standard.","Acceptance: the factory can reproduce all prerequisite components, critical patterns and control items from stored or renewable inputs after a controlled shutdown.","Keep independent backups of progression seals, digital patterns and recovery equipment before calling the endgame infrastructure complete."]
+	quest.1837076B0EA3C11A.title: "Belts: Observable Logistics"
+	quest.4C7CD3858A2BE870.title: "Mechanical Press: Continuous Output"
+	quest.1D00D782B8F0B6D6.title: "Mechanical Mixer: Basin Discipline"
+	quest.732D1A96512F2BFD.title: "Steam Engine: Capacity Before Speed"
+	quest.19754AE8C11A6317.title: "Deployer: Controlled Interaction"
+	quest.0EE2E9EB6DC01E34.title: "Precision Mechanism: Sequenced Assembly"
+	quest.0EE2E9EB6DC01E34.quest_desc: ["Precision mechanisms are a repeatable manufacturing process, not a manual milestone tax.","Acceptance: automate every sequence step, loop incomplete items correctly, isolate junk output, and complete a batch of sixteen without manual reinsertion."]
+	quest.61348E2551E8AD6C.title: "Rotation Speed Controller: Governed RPM"
+	quest.197AB0E07A40512F.title: "Water Wheels: Stable Generation"
+	quest.51CCB7ACFD7B45F1.title: "Brass Casing: Heated Production Gate"
+	quest.51CCB7ACFD7B45F1.quest_desc: ["Brass infrastructure marks the transition from andesite machinery to controlled heated production.","Acceptance: blaze-burner fuel is managed safely, zinc and copper inputs are buffered, and a batch of sixteen casings can be repeated without moving the mixer."]
 }
