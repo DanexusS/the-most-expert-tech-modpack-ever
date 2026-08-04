@@ -38,25 +38,78 @@ function registerExpertShaped(event, definition) {
 
 ServerEvents.recipes(function(event) {
   var recipes = [
+    // -----------------------------------------------------------------------
+    // Early expert foundation
+    // -----------------------------------------------------------------------
+    // The pack no longer begins with a mandatory Create precision mechanism.
+    // Three independent foundations can be prepared in parallel, then joined
+    // into the first common engineering component.
+    {
+      id: 'kubejs:expert/field_engineering_kit',
+      output: 'kubejs:field_engineering_kit',
+      pattern: ['ICI', 'TGT', 'ICI'],
+      key: {
+        I: 'immersiveengineering:component_iron',
+        C: 'minecraft:copper_ingot',
+        T: 'minecraft:iron_ingot',
+        G: 'minecraft:glass'
+      }
+    },
+    {
+      id: 'kubejs:expert/power_regulation_unit',
+      output: 'kubejs:power_regulation_unit',
+      pattern: ['QRQ', 'CMC', 'QRQ'],
+      key: {
+        Q: 'actuallyadditions:black_quartz',
+        R: 'minecraft:redstone',
+        C: 'minecraft:copper_ingot',
+        M: 'modern_industrialization:motor'
+      }
+    },
+    {
+      id: 'kubejs:expert/materials_analysis_matrix',
+      output: 'kubejs:materials_analysis_matrix',
+      pattern: ['GQG', 'RCR', 'GQG'],
+      key: {
+        G: 'minecraft:glass',
+        Q: 'minecraft:quartz',
+        R: 'minecraft:redstone',
+        C: 'minecraft:comparator'
+      }
+    },
     {
       id: 'kubejs:expert/mechanical_core',
       output: 'kubejs:mechanical_core',
-      pattern: ['ICI', 'MPM', 'IQI'],
+      pattern: [' F ', 'AMP', ' I '],
       key: {
-        I: 'immersiveengineering:component_iron',
-        C: 'create:andesite_alloy',
+        F: 'kubejs:field_engineering_kit',
+        A: 'kubejs:materials_analysis_matrix',
         M: 'modern_industrialization:motor',
-        P: 'create:precision_mechanism',
-        Q: 'actuallyadditions:black_quartz'
+        P: 'kubejs:power_regulation_unit',
+        I: 'immersiveengineering:component_iron'
+      }
+    },
+
+    // Create becomes a deliberate mechanical-automation branch after the
+    // common foundation rather than the sole entrance to the pack.
+    {
+      id: 'kubejs:expert/kinetic_interface',
+      output: 'kubejs:kinetic_interface',
+      pattern: ['AMA', 'CMC', 'AIA'],
+      key: {
+        A: 'create:andesite_alloy',
+        M: 'modern_industrialization:motor',
+        C: 'kubejs:mechanical_core',
+        I: 'immersiveengineering:component_iron'
       }
     },
     {
       id: 'kubejs:expert/industrial_frame',
       output: 'kubejs:industrial_frame',
-      pattern: ['SDS', 'CMC', 'SPS'],
+      pattern: ['SKS', 'CMC', 'SPS'],
       key: {
         S: 'immersiveengineering:component_steel',
-        D: 'kubejs:divine_seal',
+        K: 'kubejs:kinetic_interface',
         C: 'pneumaticcraft:ingot_iron_compressed',
         M: 'kubejs:mechanical_core',
         P: 'modern_industrialization:basic_machine_hull'
@@ -159,7 +212,7 @@ ServerEvents.recipes(function(event) {
       }
     },
 
-    // Key progression recipes. Only these strategic machines are replaced;
+    // Key progression recipes. Only strategic machines are replaced here;
     // decorative and routine components remain untouched.
     {
       id: 'kubejs:expert/mekanism_steel_casing',
@@ -263,5 +316,5 @@ ServerEvents.recipes(function(event) {
     registerExpertShaped(event, recipe)
   })
 
-  console.info('[ExpertRecipes] Cross-mod expert progression recipes registered.')
+  console.info('[ExpertRecipes] Multi-branch cross-mod expert progression recipes registered.')
 })
