@@ -10,10 +10,12 @@ Core static checks pass, but the 5–6k quest target, guide coverage, progressio
 |---|---|
 | Theoretical balance | PASS |
 | Core quest quality | PASS |
+| Recipe dependency graph | PASS |
 | Create core route | PASS |
 | Immersive Engineering core route | PASS |
 | Modern Industrialization core route | PASS |
 | Applied Energistics 2 core route | PASS |
+| Mekanism core route | PASS |
 
 ## Product evidence
 
@@ -52,4 +54,4 @@ These improve tuning but do not block v1 under the current product specification
 
 ## Rule
 
-The label `v1` is prohibited until the product specification, progression contract, bypass audit, all-mod guide coverage and minimum runtime gates pass together.
+The label `v1` is prohibited until the product specification, progression contract, recipe dependency graph, bypass audit, all-mod guide coverage and minimum runtime gates pass together.
