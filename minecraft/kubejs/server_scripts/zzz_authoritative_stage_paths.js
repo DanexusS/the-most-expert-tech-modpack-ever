@@ -44,6 +44,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/structural_lattice',
       output: 'kubejs:structural_lattice',
+      authoritative: true,
       pattern: ['IBI', 'GFG', 'IBI'],
       key: {
         I: 'immersiveengineering:component_iron',
@@ -57,6 +58,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/calibrated_substrate',
       output: 'kubejs:calibrated_substrate',
+      authoritative: true,
       pattern: ['QGQ', 'EAE', 'QRQ'],
       key: {
         Q: 'minecraft:quartz',
@@ -69,6 +71,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/ae2_inscriber',
       output: 'ae2:inscriber',
+      authoritative: true,
       pattern: ['PCP', 'EME', 'PBP'],
       key: {
         P: 'minecraft:sticky_piston',
@@ -81,6 +84,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/ae2_drive',
       output: 'ae2:drive',
+      authoritative: true,
       pattern: ['QEQ', 'BSB', 'QCQ'],
       key: {
         Q: 'ae2:quartz_glass',
@@ -93,6 +97,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/create_precision_mechanism',
       output: 'create:precision_mechanism',
+      authoritative: true,
       pattern: ['GCG', 'TRT', 'NEN'],
       key: {
         G: 'create:golden_sheet',
@@ -106,6 +111,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/ie_reinforced_blastbrick',
       output: 'immersiveengineering:blastbrick_reinforced',
+      authoritative: true,
       pattern: ['SBS', 'BLB', 'SBS'],
       key: {
         S: 'modern_industrialization:steel_plate',
@@ -116,6 +122,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/mi_bronze_boiler',
       output: 'modern_industrialization:bronze_boiler',
+      authoritative: true,
       pattern: ['BCB', 'LFL', 'BKB'],
       key: {
         B: 'modern_industrialization:bronze_ingot',
@@ -128,6 +135,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:v1_path/mi_basic_machine_hull',
       output: 'modern_industrialization:basic_machine_hull',
+      authoritative: true,
       pattern: ['SLS', 'EBE', 'SMS'],
       key: {
         S: 'modern_industrialization:steel_plate',
