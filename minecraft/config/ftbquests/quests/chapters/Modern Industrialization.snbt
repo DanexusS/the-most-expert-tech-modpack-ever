@@ -27,7 +27,12 @@
 				id: "31202706E81B054F"
 				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DD2583EA2D6E6213"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: 35.5d
 		}
@@ -101,7 +106,12 @@
 				id: "3B6A2A71E8AEA203"
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "75CBED3550E0F862"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 23.5d
 		}
@@ -148,7 +158,12 @@
 				id: "1FC48C73D2617DAD"
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DDC9F69D0A40F3A2"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 4.0d
 		}
@@ -168,7 +183,12 @@
 				id: "351F5193ED239DE2"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4716F6CAD328DCD0"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 6.0d
 		}
@@ -208,7 +228,12 @@
 				id: "18FE204843C5AD4B"
 				item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D08F3ECAE5B37D9C"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: 6.0d
 		}
@@ -258,7 +283,12 @@
 				id: "59DEACFB61E466AF"
 				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0F6041AFDF0AC572"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -334,7 +364,12 @@
 				id: "1B7B79CC3EA48846"
 				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "37E86AE549E2E62E"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 3.0d
 		}

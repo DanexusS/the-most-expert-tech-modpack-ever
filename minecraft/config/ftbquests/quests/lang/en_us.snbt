@@ -2296,11 +2296,7 @@
 	quest.21EE72B7EC064BCB.title: "Kill a shulker"
 	quest.2229840A38178686.quest_subtitle: "Best midgame flight method."
 	quest.2239CC2E6B914090.quest_desc: ["A powered device that moves fluids through pipes using electrical energy. It provides precise and consistent flow control, perfect for automation systems and industrial machinery."]
-	quest.22420EF3089DD7F6.quest_desc: [
-		"Uses &9multiple materials&r to craft &buseful items,&r it is recommended to have &emany &rof these for &cautomation&r of these items."
-		""
-		"Some &bitems&r need &eone row&r to fit the requirements, some need &ethree,&r if you have can fit them, you can have say, one &bitem&r needing &etwo materials&r in the top, &clock it, &rthen a &etwo layers&r of &bitems&r in the &alast&r &atwo rows.&r"
-	]
+	quest.22420EF3089DD7F6.quest_desc: ["The assembler is a strategic automation point: uncontrolled shared inputs can produce the wrong item or consume rare components.","Acceptance: lock the intended recipe, dedicate or filter every input, return reusable tools or molds, and complete eight crafts without manual inventory rearrangement."]
 	quest.2242CC4BAB25C4B9.quest_subtitle: "Requires a MASSIVE amount of matter"
 	quest.226171470A06E7E8.quest_subtitle: "Get 4 planks"
 	quest.226171470A06E7E8.title: "Craft some planks"
@@ -2464,7 +2460,7 @@
 		"4. The screen will now display the configured data, providing a real-time overview of your network's status."
 	]
 	quest.2507593830977B88.quest_desc: ["Transfer your xp to the tank by standing on it."]
-	quest.250D1E2BFE6E0D50.quest_desc: ["A&e better version&r of the &bsteam boiler,&r however it is &lfive blocks tall. &r"]
+	quest.250D1E2BFE6E0D50.quest_desc: ["Large steam generation must be designed around startup demand, water security and safe shutdown rather than maximum nominal output.","Acceptance: stored steam covers two production cycles after fuel stops, water has an independent reserve, and one generator outage does not strand every critical machine."]
 	quest.253657BE5D9D9162.quest_desc: ["This type of cable interface is probably the most important item one can make in their Refined Storage journey. \\n \\n This type of cable interface connects an external storage to your Refined Storage Network. It basically lets RS look into the storage container to let you access it within your grid! \\n \\n This works on many things, including but not limited to: Chests, Barrels, Drawers, Drawer Controllers, and more! \\n \\n If you can't make drives and have a bunch of chests everywhere, this is your best bet in creating a storage Network!"]
 	quest.253657BE5D9D9162.title: "External Storage"
 	quest.253B13051E4540FB.quest_desc: ["You are making progress, &agood,&r but you must &6improve.&r"]
@@ -3044,7 +3040,7 @@
 		"Andesite Tunnels can also be used to separate single items from passing stacks to side outputs."
 	]
 	quest.2F0B0D4401AA455E.title: "Tunnel"
-	quest.2F66F85A601AC908.quest_desc: ["&cCrushes items,&r &9cobblestone&r to &bgravel,&r or &dflowers&r to &edye,&r or &cmetal&r items to &adust&r stuff like that."]
+	quest.2F66F85A601AC908.quest_desc: ["Maceration establishes the first controlled ore-processing route and should not mix every ore into one unbounded output chest.","Acceptance: input is filtered, products are separated or buffered, one stack can process unattended, and a full output stops intake without dropping items."]
 	quest.2F6B432512FA2A65.quest_desc: ["Attach to any inventory to expand its surface area. Great for access in tight spaces and smart setups with threshold switches."]
 	quest.2F6E8A0DFB555ED6.quest_desc: ["&e&oYou are what you eat and this time&r&r, you're becoming a &dstar.&r Another amazing &6food source&r, though &aexpensive.&r"]
 	quest.2F74E955A2455025.quest_desc: [
@@ -4220,7 +4216,7 @@
 	]
 	quest.439C6C61A5263D31.quest_subtitle: "Flux Networks lets you send, receive, and store energy across dimensions without cables."
 	quest.439C6C61A5263D31.title: "&fFlux"
-	quest.439D48E9647FC8C2.quest_desc: ["Boils &9water&r into &bsteam,&r can be filled with a bucket or &epipes.&r"]
+	quest.439D48E9647FC8C2.quest_desc: ["The first MI machines depend on steam quality, water supply and fuel delivery rather than on the boiler block alone.","Acceptance: water cannot run dry, fuel input can be stopped, steam has a buffer, and the boiler supports three normal machine cycles without manual correction."]
 	quest.43ABE0538875B85B.quest_desc: [
 		"The &bMatter Transmitter&r is a &n&cteleportation device&r in &5RFTools&r that allows players to instantly &dtravel&r between different &4locations&r and &9dimensions&r."
 		""
@@ -4415,7 +4411,7 @@
 	quest.46EBE6B0E06D750D.quest_desc: ["Used with &6Spatial IO Port&r to store spatial regions."]
 	quest.470B1F84D01E4F7A.quest_desc: ["Charged Certus Quartz is crafted by insterting an Certus Quartz Crystal into the Charger, and powering it."]
 	quest.47106CE1937C4340.quest_desc: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
-	quest.4722157BC8D3B965.quest_desc: ["&dEfficiently&r &bcuts&r items like &cmetals,&r though it requires &aLubricant&r from a &6mixer.&r"]
+	quest.4722157BC8D3B965.quest_desc: ["Cutting converts bulk materials into rods, rings and other recurring parts whose lubricant or secondary inputs must be controlled.","Acceptance: route required fluids safely, separate outputs, complete sixteen component operations, and stop cleanly when any destination is full."]
 	quest.472C30DE79844F67.quest_subtitle: "Primordial matter from the universe."
 	quest.472EBB6F6C957211.quest_subtitle: "“Beauty never dies.”"
 	quest.47358ADC1470C82A.quest_subtitle: "Get Ready for a Trip"
@@ -5387,7 +5383,7 @@
 		""
 		"Tunnels which are placed immediately next to each other are automatically treated as a group, in most cases collecting from all inputs and distributing to all outputs. The way that items are distributed is controlled by the tunnels' value setting. Item stacks from different inputs will not be combined prior to distributing."
 	]
-	quest.5676B5FD97FB10C3.quest_desc: ["A &bquicker version&r of the &cfurnace&r requiring &bsteam.&r"]
+	quest.5676B5FD97FB10C3.quest_desc: ["The furnace becomes useful when it consumes processed material at the same average rate that upstream machines provide it.","Acceptance: complete three batches automatically, preserve fuel or steam reserve, and prevent either input starvation or full output from blocking unrelated machines."]
 	quest.5680D3DCB53D9EAD.quest_desc: [
 		"The &4Quantum core&r is the heart of the &1Quantum Computer&r. It has 256M of crafting storage and 8 co-processor threads by"
 		"itself."
@@ -6896,7 +6892,7 @@
 		"This mod features Hydrogen Powered Jetpacks, a Mini Robotic friend, Reactors, a Digital Miner to automate mining, Reactors, and much more."
 	]
 	quest.6F62B5510FA881CD.title: "Welcome To Mekanism"
-	quest.6F63B60042A7F6AE.quest_desc: ["Used to &6craft&r multiple &bitems.&r"]
+	quest.6F63B60042A7F6AE.quest_desc: ["Plates are shared by many machine recipes; manual emergency compression creates hidden downtime across the entire factory.","Acceptance: maintain a labelled plate buffer, process sixteen plates unattended, and record the slowest material so capacity can be expanded deliberately."]
 	quest.6F6898DC529D1120.quest_desc: [
 		"&lFirst:&r Place a &aquarry&r on the ground."
 		"&lSecond:&r Make a &l3x3x2&r&e hollow rectangle &rwith the &aquarry&r in one side."
@@ -10292,4 +10288,11 @@
 	quest.63768F7BC7BD0188.quest_desc: ["The pump defines active fluid movement and must be sized around buffer capacity rather than maximum theoretical speed.","Acceptance: power it through a protected line, prevent dry or wrong-fluid transfer, add a controllable stop condition, and test recovery after the destination fills."]
 	quest.0884D6C10B1047A2.title: "Garden Cloche — Sustainable Input Contract"
 	quest.0884D6C10B1047A2.quest_desc: ["The cloche is useful only when water, power, soil and output handling form a stable contract with downstream machines.","Acceptance: run three harvest cycles unattended, stop safely on full storage, keep seed recovery independent, and document the actual output rate used by consumers."]
+	quest.439D48E9647FC8C2.title: "Bronze Boiler — Stable Steam Contract"
+	quest.2F66F85A601AC908.title: "Bronze Macerator — Ore Intake Standard"
+	quest.5676B5FD97FB10C3.title: "Bronze Furnace — Continuous Smelting"
+	quest.6F63B60042A7F6AE.title: "Bronze Compressor — Plate Throughput"
+	quest.4722157BC8D3B965.title: "Bronze Cutting Machine — Component Yield"
+	quest.22420EF3089DD7F6.title: "Assembler — Recipe Isolation"
+	quest.250D1E2BFE6E0D50.title: "Advanced Large Steam Boiler — Generation Redundancy"
 }
