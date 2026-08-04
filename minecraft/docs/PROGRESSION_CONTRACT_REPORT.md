@@ -1,6 +1,6 @@
 # Progression Contract Report
 
-**IN PROGRESS**
+**PASS**
 
 ## Contract metrics
 
@@ -9,20 +9,21 @@
 - Planned quest budget: **5400**
 - Current parsed quests: **2958**
 - Remaining quest budget: **2442**
-- Gated outputs: **58**
-- Gated outputs without an authoritative path: **1**
-- Authorized process or unique-permission outputs: **6**
-
-## Outputs still requiring an authoritative path
-
-- `avaritia:infinity_ingot`
+- Gated outputs: **63**
+- Gated outputs without an authoritative path: **0**
+- Authorized process or unique-permission outputs: **11**
 
 ## Authorized non-crafting paths
 
+- `kubejs:apalachia_seal` — unique reusable quest permission
+- `kubejs:divine_seal` — unique reusable quest permission
+- `kubejs:eden_seal` — unique reusable quest permission
 - `kubejs:lunar_seal` — unique reusable quest permission
 - `kubejs:mortum_seal` — unique reusable quest permission
 - `kubejs:skythern_seal` — unique reusable quest permission
 - `kubejs:vethea_seal` — unique reusable quest permission
+- `kubejs:wildwood_seal` — unique reusable quest permission
+- `kubejs:wreck_seal` — unique reusable quest permission
 - `mekanism:pellet_antimatter` — Mekanism SPS production process
 - `pneumaticcraft:printed_circuit_board` — PneumaticCraft etching and UV process
 
@@ -39,6 +40,7 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:calibrated_substrate`
 - `kubejs:chemical_processor`
 - `kubejs:cosmic_catalyst`
+- `kubejs:dimensional_resonator`
 - `kubejs:draconic_processor`
 - `kubejs:industrial_frame`
 - `kubejs:mechanical_core`
