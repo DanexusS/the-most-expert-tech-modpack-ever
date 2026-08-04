@@ -1,0 +1,145 @@
+{
+  "slug": "rftools",
+  "lessons": [
+    {
+      "slug": "machine_frames",
+      "icon": "rftoolsbase:machine_frame",
+      "title_en": "Machine Frames and Module Boundaries",
+      "title_ru": "Корпуса машин и границы модулей",
+      "desc_en": [
+        "RFTools is split across utility, storage, power and builder modules that share frames and components. A convenient side recipe can unlock several systems at once.",
+        "Keep frame recipes stage-aware, document which module consumes each component and remove alternate outputs only after a valid replacement is registered."
+      ],
+      "desc_ru": [
+        "RFTools разделён на утилиты, хранение, энергию и строительство с общими корпусами и компонентами. Удобный боковой рецепт открывает несколько систем сразу.",
+        "Согласуйте корпуса с этапами, документируйте потребителей компонентов и удаляйте старые выходы только после регистрации корректной замены."
+      ]
+    },
+    {
+      "slug": "power_cells",
+      "icon": "rftoolspower:cell1",
+      "title_en": "Power Cells and Linked Capacity",
+      "title_ru": "Энергоячейки и связанная ёмкость",
+      "desc_en": [
+        "Linked power cells create distributed storage whose capacity and transfer depend on tier and link configuration.",
+        "Protect recovery energy, label linked groups, verify input and output limits and prevent a remote optional load from draining the main industrial reserve."
+      ],
+      "desc_ru": [
+        "Связанные энергоячейки создают распределённое хранение, зависящее от уровня и настройки связи.",
+        "Защищайте энергию восстановления, подписывайте группы, проверяйте пределы ввода и вывода и не позволяйте удалённой второстепенной нагрузке разряжать основной резерв."
+      ]
+    },
+    {
+      "slug": "builder",
+      "icon": "rftoolsbuilder:builder",
+      "title_en": "Builder Shapes and Area Ownership",
+      "title_ru": "Формы строителя и владение областью",
+      "desc_en": [
+        "The Builder can place, quarry or transform large regions according to cards and filters. A wrong offset or shape can affect far more blocks than expected.",
+        "Preview every area, restrict filters, reserve return storage, protect claimed structures and test with a small shape before enabling bulk work."
+      ],
+      "desc_ru": [
+        "Строитель размещает, добывает или изменяет большие области по картам и фильтрам. Неверное смещение или форма затрагивают намного больше блоков.",
+        "Предварительно показывайте область, ограничивайте фильтры, готовьте возвратное хранение, защищайте структуры и тестируйте малой формой."
+      ]
+    },
+    {
+      "slug": "quarry_policy",
+      "icon": "rftoolsbuilder:shape_card_quarry",
+      "title_en": "Quarry Cards and Resource Policy",
+      "title_ru": "Карты карьера и политика ресурсов",
+      "desc_en": [
+        "Quarry cards can become an early source of rare or progression-locked blocks if filters, dimension access or replacement behavior are unrestricted.",
+        "Gate quarry modes, exclude protected resources, bound region size and height, meter energy and ensure mined output cannot bypass the declared material stage."
+      ],
+      "desc_ru": [
+        "Карты карьера дают ранний доступ к редким или закрытым блокам при бесконтрольных фильтрах, измерениях или замене.",
+        "Закрывайте режимы, исключайте защищённые ресурсы, ограничивайте размер и высоту, учитывайте энергию и соблюдайте этап материалов."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "rftoolsstorage:storage_scanner",
+      "title_en": "Storage Scanner and External Inventories",
+      "title_ru": "Сканер хранения и внешние инвентари",
+      "desc_en": [
+        "The Storage Scanner exposes many inventories through one interface. Overlapping ranges, wireless access and automation can create ambiguous ownership.",
+        "Label included inventories, exclude machine internals, reserve output space and verify the scanner cannot reveal or extract items from a later-stage protected area."
+      ],
+      "desc_ru": [
+        "Сканер открывает множество инвентарей одним интерфейсом. Пересекающиеся радиусы, беспроводной доступ и автоматизация создают неоднозначное владение.",
+        "Подписывайте включённые хранилища, исключайте внутренности машин, оставляйте выход и не допускайте доступа к защищённой области позднего этапа."
+      ]
+    },
+    {
+      "slug": "teleportation",
+      "icon": "rftoolsutility:matter_transmitter",
+      "title_en": "Matter Transmission and Destination Safety",
+      "title_ru": "Передача материи и безопасность назначения",
+      "desc_en": [
+        "Matter transmitters and receivers turn energy and coordinates into travel. A remote destination without power or return equipment can strand the player.",
+        "Power both endpoints, verify dialing and ownership, keep recovery items outside the link and gate destinations whose travel would skip dimension progression."
+      ],
+      "desc_ru": [
+        "Передатчики и приёмники превращают энергию и координаты в перемещение. Удалённая точка без питания или возврата оставляет игрока в ловушке.",
+        "Питайте обе стороны, проверяйте набор и владение, храните восстановительное оборудование вне связи и закрывайте направления, пропускающие прогрессию измерений."
+      ]
+    },
+    {
+      "slug": "environment",
+      "icon": "rftoolsutility:environmental_controller",
+      "title_en": "Environmental Controllers and Area Effects",
+      "title_ru": "Контроллеры среды и областные эффекты",
+      "desc_en": [
+        "Environmental Controllers apply modules over a configurable area and can replace armor, potions or hazard preparation if powerful effects arrive too early.",
+        "Gate modules by equivalent capability, bound radius, account for continuous energy and prevent overlapping controllers from creating unintended permanent buffs."
+      ],
+      "desc_ru": [
+        "Контроллеры среды применяют модули в области и заменяют броню, зелья или подготовку к опасностям при раннем доступе.",
+        "Закрывайте модули эквивалентными этапами, ограничивайте радиус, учитывайте постоянную энергию и исключайте непреднамеренное сложение эффектов."
+      ]
+    },
+    {
+      "slug": "screens",
+      "icon": "rftoolsutility:screen",
+      "title_en": "Screens and Operational Telemetry",
+      "title_ru": "Экраны и эксплуатационная телеметрия",
+      "desc_en": [
+        "Screens can expose power, storage and machine state at a glance. Telemetry is useful only when it reports the variables that actually stop production.",
+        "Display reserves, fill levels, disabled states and bottleneck alarms; avoid decorative dashboards that hide a missing input or full output."
+      ],
+      "desc_ru": [
+        "Экраны показывают энергию, хранение и состояние машин. Телеметрия полезна только при отображении переменных, реально останавливающих производство.",
+        "Показывайте резервы, заполнение, отключения и тревоги узких мест; не заменяйте диагностику декоративной панелью."
+      ]
+    },
+    {
+      "slug": "automation",
+      "icon": "rftoolsutility:machine_infuser",
+      "title_en": "Infusion and Machine Specialization",
+      "title_ru": "Инфузия и специализация машин",
+      "desc_en": [
+        "Machine infusion improves selected RFTools devices by consuming dimensional or technology materials. Infusion should strengthen an existing system, not unlock it before its stage.",
+        "Gate infusing materials, record performance before and after, preserve repair stock and compare upgraded machines with parallel uninfused alternatives."
+      ],
+      "desc_ru": [
+        "Инфузия усиливает устройства RFTools, расходуя материалы измерений или технологий. Она должна улучшать существующую систему, а не открывать её раньше этапа.",
+        "Закрывайте материалы, записывайте результат до и после, храните ремонтный запас и сравнивайте с параллельными обычными машинами."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:quantum_bus",
+      "title_en": "Project: Bounded RFTools Infrastructure",
+      "title_ru": "Проект: ограниченная инфраструктура RFTools",
+      "desc_en": [
+        "Build an RFTools system with linked energy, one previewed Builder task, controlled storage scanning and a safe transmitter route without protected-resource access.",
+        "The project passes after bounded-area verification, full-output recovery, protected destination checks, measured power demand and visible operational telemetry."
+      ],
+      "desc_ru": [
+        "Постройте систему RFTools со связанной энергией, проверенной задачей строителя, контролируемым сканером и безопасным маршрутом без доступа к закрытым ресурсам.",
+        "Проект принят после проверки области, восстановления при полном выходе, контроля назначений, измерения энергии и видимой телеметрии."
+      ]
+    }
+  ]
+}
