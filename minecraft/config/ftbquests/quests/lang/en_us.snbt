@@ -575,30 +575,8 @@
 		""
 		"When the Cube is in your &einventory&r, &nholding shift&r will display additional data about the Cube’s energy level."
 	]
-	quest.0942C0CC13ABAF70.quest_desc: [
-		"&1ME Drive&r"
-		"The physical storage device for digital &5Storage Cells&r in an &bME Network&r. Acts as a bay for up to &e10 cells&r (1K-65M types)."
-		""
-		"Key Properties:"
-		""
-		"&6No internal storage&r - capacity depends on inserted cells"
-		""
-		"Requires &5Fluix Cable&r connection and &dME Controller&r power"
-		""
-		"&5ME Chest&r"
-		"A wireless access point to your &bME Network&r inventory."
-		""
-		"Special Traits:"
-		""
-		"Needs &6Wireless Access Point&r + power"
-		""
-		"Shows only &epermitted items&r (via Security Terminal)"
-		""
-		"Works &across dimensions&r with Quantum Link"
-		""
-		"&e\"From physical storage to quantum access\"&r"
-	]
-	quest.0942C0CC13ABAF70.title: "ME Chest and ME Drive"
+	quest.0942C0CC13ABAF70.quest_desc: ["A Drive is useful only with a policy for cell sizes, item types, partitioning and overflow; random cells hide capacity problems until production stops.","Acceptance: separate bulk and rare items, reserve one expansion slot, expose remaining bytes and types, and route overflow without deleting or endlessly recirculating items."]
+	quest.0942C0CC13ABAF70.title: "ME Drive — Storage Policy"
 	quest.094F221EA84BF301.quest_desc: ["&aArmor&r almost identical to Netherite, though crafted from Dark matter. All of the armor &dnever breaks&r."]
 	quest.095E1C928584FAAC.quest_desc: [
 		"&9Free Runners&r are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing &cfall damage&r as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."
@@ -699,24 +677,8 @@
 		""
 		"&oYou can sometimes use materials of a lower rarity but you will need more.&r"
 	]
-	quest.0AA72D6706542CA6.quest_desc: [
-		"A tech-focused mod introducing &bdigital item storage&r and &eautomated crafting&r via sophisticated &5ME Networks&r. Replaces traditional chests with a &dsearchable,&r channel-managed system using &6Storage Cells&r and &bquantum technology&r."
-		""
-		"Core Components:"
-		""
-		"&5ME Drives&r (hold digital storage media)"
-		""
-		"&bWireless Terminals&r (remote network access)"
-		""
-		"&dMolecular Assemblers&r (on-demand crafting)"
-		""
-		"&9Quantum Bridges&r (cross-dimensional networks)"
-		""
-		"*(Integrates with &6RF/FE&r power systems while maintaining unique &5AE2 energy&r mechanics.)*"
-		""
-		"&a\"Your entire base's inventory - one wireless terminal away\"&r"
-	]
-	quest.0AA72D6706542CA6.title: "&5Applied Energistics 2&r"
+	quest.0AA72D6706542CA6.quest_desc: ["The Charger is the first powered AE2 process and establishes how external energy enters a dedicated digital-workshop line.","Acceptance: provide buffered power, automate input and output without mixing charged and uncharged crystals, and stop intake when the destination is full."]
+	quest.0AA72D6706542CA6.title: "Charger — Controlled Certus Intake"
 	quest.0ABDED0707E01F06.quest_desc: [
 		"The Sack of Sating must be fed by right-clicking edible items into it, similar to storing items in a Bundle. When fed, it irreversibly stores the hunger value of the items within itself. If fed food contained in Bowls or Bottles, the Sack of Sating will return the Bowl or Bottle."
 		""
@@ -1460,11 +1422,7 @@
 	quest.15ECBC8E174FA39B.title: "Wireless Grid"
 	quest.15F03A5E7E14C022.quest_desc: ["The stonemason is another key profession in the colony. They craft items commonly required by the builder. The stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, and basalt. They can also craft end stone from cobblestone and an ender pearl after you complete the research."]
 	quest.15F03A5E7E14C022.quest_subtitle: "Build a Stonemason's Hut"
-	quest.15F7524D7B3E023C.quest_desc: [
-		"The &bME Storage Bus&r, when facing an external storage container, treats the container as part of the &dME network&r. This allows items to be inserted into or extracted from the container via &aME&r."
-		""
-		"&bStorage buses&r can be &afiltered&r and &aprioritized&r, making specific items go to the attached storage first. However, they won't retroactively move filtered items from elsewhere in the network."
-	]
+	quest.15F7524D7B3E023C.quest_desc: ["A Storage Bus can expose drawers, vaults and machines as network storage, but priorities and recursive access must be planned explicitly.","Acceptance: assign priorities, prevent the same inventory from being exposed twice, reserve space for machine output, and verify extraction uses the intended source first."]
 	quest.1610C8F55F59E82F.quest_desc: [
 		"The Quartz Fiber."
 		""
@@ -1760,23 +1718,8 @@
 		"&e\"The stamp that shapes AE2 technology\"&r"
 	]
 	quest.19F6AA2773B46E1A.title: "&5Inscriber Press &r"
-	quest.19F70C37419802B0.quest_desc: [
-		"The core device that bridges external power systems (&6RF&r/&cFE&r) with your &5ME Network&r."
-		""
-		"Functions:"
-		""
-		"Converts &6RF/FE&r → &5AE2 Power&r"
-		""
-		"Must connect to &eME Cables&r or &aME Controller&r"
-		""
-		"Enables non-AE2 power sources (like &dSolar Panels&r) to fuel your network"
-		""
-		"Key Properties:"
-		"&a✔&r Works &eautomatically&r (zero configuration)"
-		"&a✔&r No channel consumption"
-		"&c!&r &4One-way conversion only&r (cannot extract AE2 power as RF/FE)"
-	]
-	quest.19F70C37419802B0.title: "&bEnergy Acceptor &r"
+	quest.19F70C37419802B0.quest_desc: ["The Energy Acceptor separates external FE infrastructure from the AE network and makes power loss diagnosable instead of invisible.","Acceptance: add an external buffer, label the feed, verify the network survives one normal crafting job after generation stops, and prevent unrelated consumers from draining the reserve."]
+	quest.19F70C37419802B0.title: "Energy Acceptor — Network Power Boundary"
 	quest.1A15FD4ACEBEFB36.quest_desc: ["cool shoes."]
 	quest.1A2C0FC9378B9857.quest_desc: ["&9Mage armor&r with a few &abuffs&r for &dIron's Spells&r These are crafted at the &esmithing table&r."]
 	quest.1A36CF372E3E1B09.quest_desc: [
@@ -1910,20 +1853,8 @@
 	]
 	quest.1C214DD51C58BE4D.title: "&fFlux Controller"
 	quest.1C25114D2AF71C35.quest_desc: ["A &l3x3x4&r &lrectangle,&r with &ablast proof casing&r in the &emiddle section,&r and &dtitanium casing&r for the &etop&r and &ebottom,&r again, you can hold a &6wrench&r to view the placement of required blocks for &dmulti-blocks.&r"]
-	quest.1C29C4D117761F30.quest_desc: [
-		"The core crafting machine for &bME Networks&r, capable of &einstantaneous item production&r when provided with &6Encoded Patterns&r and materials. Functions as a &dhigh-tech workbench&r that pulls ingredients directly from connected &5ME Storage&r."
-		""
-		"Key Traits:"
-		""
-		"Requires &bCrafting Patterns&r"
-		""
-		"Needs &9co-processors&r for parallel crafting"
-		""
-		"Uses &5AE2 power&r during operation"
-		""
-		"&aYour ME Network's robotic crafting arm&r"
-	]
-	quest.1C29C4D117761F30.title: "&5Molecular Assembler&r"
+	quest.1C29C4D117761F30.quest_desc: ["Assemblers convert patterns into production and can deadlock when ingredients, outputs or reusable tools share uncontrolled paths.","Acceptance: complete eight crafts from request to storage, prevent circular patterns, return container items, and expose a visible stalled-craft diagnostic path."]
+	quest.1C29C4D117761F30.title: "Molecular Assembler — Safe Autocrafting"
 	quest.1C4ABF4518638A82.quest_desc: ["A type of &aapple&r with &dmore effects&r then the&c previous tier&r"]
 	quest.1C91BD525C91FD73.quest_desc: [
 		"This stuff is everywhere."
@@ -3364,7 +3295,7 @@
 	quest.33B1D3FD4C0B5514.quest_desc: ["The Ancient Remnant is a colossal skeletal dinosaur that serves as the primary boss of the Cursed Pyramid structure. With its imposing frame and ornate golden harnesses, this ancient beast commands respect and requires careful preparation from anyone brave enough to confront it."]
 	quest.33D0760B5FEF7C46.quest_desc: ["A &bturbine&r that uses &dhelium plasma &rto create &eenergy.&r"]
 	quest.33D23C65E7274A8F.quest_desc: ["You will use the &6awakening alter&r to craft &cawakened items&r, place them the same way you placed the&a Infusion alter&r, except in the &ediagonals&r you will place &bessence vessels&r."]
-	quest.33DD68B85F163F50.quest_desc: ["The &bME Import Bus&r periodically pulls items from an &6external storage&r it faces. It can be &afiltered&r to only accept certain items from the connected inventory."]
+	quest.33DD68B85F163F50.quest_desc: ["Import Buses move items into the network and can silently consume every output slot or saturate storage when filtering is omitted.","Acceptance: filter the source, limit acceleration to actual demand, preserve machine maintenance slots, and stop cleanly when the target storage policy rejects an item."]
 	quest.33F44B87C5496158.quest_subtitle: "Dragon Tools"
 	quest.33F44B87C5496158.title: "&1Draco Tools"
 	quest.33F7680769B9FD4E.quest_desc: ["need the shard drop upgrade 1 to upgrade to tier 2"]
@@ -5824,11 +5755,8 @@
 	]
 	quest.5CF320E9C4C1B1E1.title: "Welcome to Infinity Legacy 2"
 	quest.5D0809A3B18C9206.quest_desc: ["[ \"\", { \"text\": \"Click me!\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E31F400E47B0D34\" } } ]"]
-	quest.5D343A8BA24FA327.quest_desc: [
-		"The central power and channel-management hub for an AE2 network."
-		"In this progression, the controller requires Quantum Logic, making a full ME network the result of several technology branches."
-	]
-	quest.5D343A8BA24FA327.title: "&5ME Controller&r"
+	quest.5D343A8BA24FA327.quest_desc: ["The Controller unlocks dense channel distribution, but a larger network is not automatically a better designed network.","Acceptance: document channel use per face, keep a maintenance path, isolate at least one subnet, and demonstrate that one disconnected cable cannot disable storage and autocrafting together."]
+	quest.5D343A8BA24FA327.title: "ME Controller — Channel Architecture"
 	quest.5D3A267FBE80149B.quest_desc: [
 		"This is how you will create a majority of your bees! Bees can be Cross Bred"
 		"In-World, or with the Breeding Chamber."
@@ -6043,7 +5971,7 @@
 	quest.618ECDB3FB534A8A.title: "&cAdvanced Universal Cables"
 	quest.61A51731E2EC1A96.quest_subtitle: "5.000 ingots"
 	quest.61B5E14CC5647919.quest_desc: ["Useful in more powerful crafts."]
-	quest.61C3E32E629F6E1E.quest_desc: ["The &bME Export Bus&r periodically sends items from its &awhitelist filter&r to an external storage it faces. Unlike the Import Bus, the Export Bus requires &afiltering&r to function."]
+	quest.61C3E32E629F6E1E.quest_desc: ["Export Buses should maintain a defined stock or machine input, not create uncontrolled loops through interfaces and external inventories.","Acceptance: set exact filters, cap stock with level control where appropriate, prevent re-import of the same item, and verify missing materials produce a visible shortage instead of a silent loop."]
 	quest.61FFBF4622E15859.quest_desc: [
 		"The &aDraconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b64M RF&r and has &c32 links&r, with a range of &d128 blocks&r."
 		""
@@ -7077,16 +7005,7 @@
 	quest.721C40D15B15DDC1.quest_desc: ["The &3Furnace Generator&r burns &aCombustible Items&r like &bCoal&r and &9Charcoal&r to generate &cEnergy&r. It’s a straightforward, reliable source of power, perfect for early to mid-game setups. Simply feed it fuel, and it will keep your machines running smoothly."]
 	quest.7234CB42AEF6C941.quest_desc: ["Introducing chaos to your enchants. Higher &cQuanta&r means more &avariation&r in the result possibly better, possibly worse. It's a &bgamble&r... but sometimes the &ejackpot&r is worth it."]
 	quest.7234CB42AEF6C941.title: "Quanta"
-	quest.726DF1B2F0DFE008.quest_desc: [
-		"&1ME Quantum Ring:&r"
-		"The primary multiblock structure for interdimensional ME networks. Forms one endpoint of a Quantum Network Bridge when linked to a matching ring in another dimension. Requires a Quantum Entangled Singularity for activation."
-		""
-		"&5ME Quantum Link Chamber:&r"
-		"A support block for the Quantum Ring that stabilizes interdimensional connections. Must be placed inside the ring and supplied with power."
-		""
-		"&cQuantum Entangled Singularity:&r"
-		"A crafted singularity that synchronizes two Quantum Rings across dimensions, enabling cross-dimensional ME networks. Created by combining 4 Singularities in an ME Condenser."
-	]
+	quest.726DF1B2F0DFE008.quest_desc: ["Quantum links are late infrastructure because they combine large energy demand, paired singularities and failure across dimensions or unloaded areas.","Acceptance: label both endpoints, provide independent power reserve, test shutdown and reconnection, and ensure loss of the link cannot strand the only copy of critical recovery equipment."]
 	quest.7295B4B792EB5103.quest_desc: ["A &anew alloy&r with many uses, smelted with the &6alloy smelter&r."]
 	quest.729A16C0DF2A473B.quest_desc: ["This book is the Dragon Master handbook. Inside you will find crucial information about dragons and other creatures roaming the Overworld."]
 	quest.72AE2A8DC19D3A5B.quest_desc: [
@@ -10295,4 +10214,10 @@
 	quest.4722157BC8D3B965.title: "Bronze Cutting Machine — Component Yield"
 	quest.22420EF3089DD7F6.title: "Assembler — Recipe Isolation"
 	quest.250D1E2BFE6E0D50.title: "Advanced Large Steam Boiler — Generation Redundancy"
+	quest.11CED277F3A317D0.title: "Inscriber — Processor Production Cell"
+	quest.11CED277F3A317D0.quest_desc: ["Processors are recurring infrastructure components; one shared unfiltered Inscriber becomes a permanent bottleneck and can trap the wrong press.","Acceptance: isolate press recipes, automate silicon and printed circuits, return reusable presses, and complete sixteen mixed processors without inventory correction."]
+	quest.15F7524D7B3E023C.title: "Storage Bus — External Inventory Contract"
+	quest.33DD68B85F163F50.title: "Import Bus — Bounded Extraction"
+	quest.61C3E32E629F6E1E.title: "Export Bus — Controlled Stocking"
+	quest.726DF1B2F0DFE008.title: "Quantum Ring — Cross-Dimensional Reliability"
 }

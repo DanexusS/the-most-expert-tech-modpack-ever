@@ -22,7 +22,7 @@ Core static checks pass, but the 5–6k quest target, guide coverage, progressio
 | Bypass closure | IN PROGRESS / FAIL |
 | All-mod guide coverage | IN PROGRESS / FAIL |
 | Quest volume 5,000–6,000 | IN PROGRESS (2958) |
-| Item-only ratio ≤30% | IN PROGRESS (76.3%) |
+| Item-only ratio ≤30% | IN PROGRESS (76.0%) |
 
 ## Minimum runtime evidence
 

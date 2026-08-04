@@ -588,7 +588,12 @@
 				id: "095C87F6F730A3A4"
 				item: { count: 1, id: "ae2:charger" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8C62E2A883AAC082"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -639,7 +644,12 @@
 				id: "688156C4EB3D71FD"
 				item: { count: 1, id: "ae2:energy_acceptor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "694B2568980DE678"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: 2.0d
 		}
@@ -889,7 +899,12 @@
 				id: "196EFD1B878FA880"
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "59C73BAB72E6015D"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -922,6 +937,11 @@
 					item: { count: 1, id: "ae2:drive" }
 					type: "item"
 				}
+			
+			{
+				id: "AB59FD8FE53574C4"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: 6.5d
@@ -1114,6 +1134,11 @@
 					item: { count: 1, id: "ae2:quantum_entangled_singularity" }
 					type: "item"
 				}
+			
+			{
+				id: "B407A80F6623FD18"
+				type: "checkmark"
+			}
 			]
 			x: 7.0d
 			y: 9.5d
@@ -1672,7 +1697,12 @@
 				id: "3EFA8453757B1ADA"
 				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "90197FCDA547181D"
+				type: "checkmark"
+			}
+			]
 			x: 13.5d
 			y: -0.5d
 		}
@@ -1792,7 +1822,12 @@
 				id: "49064689E181806E"
 				item: { count: 1, id: "ae2:import_bus" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2D594AD2F1B304B0"
+				type: "checkmark"
+			}
+			]
 			x: 17.5d
 			y: 12.5d
 		}
@@ -1826,7 +1861,12 @@
 				id: "40376221C9C2A788"
 				item: { count: 1, id: "ae2:export_bus" }
 				type: "item"
-			}]
+			}
+			{
+				id: "13B18ED4897564A0"
+				type: "checkmark"
+			}
+			]
 			x: 19.0d
 			y: 12.5d
 		}
@@ -1843,7 +1883,12 @@
 				id: "5338E99AC931FF19"
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
-			}]
+			}
+			{
+				id: "95DD95E782F2F2D5"
+				type: "checkmark"
+			}
+			]
 			x: 13.0d
 			y: 11.0d
 		}
@@ -3031,7 +3076,12 @@
 				id: "54427C75D33BD227"
 				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4CA474FB524975D7"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 0.5d
 		}
