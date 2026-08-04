@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "measured_at": null,
+  "environment": {
+    "minecraft": "1.21.1",
+    "loader": "NeoForge",
+    "java": null,
+    "memory_mib": null,
+    "hardware_note": null,
+    "test_world": null
+  },
+  "gates": {
+    "clean_client_start": false,
+    "new_world_create_save_reopen": false,
+    "kubejs_milestone_items_exist": false,
+    "strategic_recipes_verified": false,
+    "scaled_namespaces_sampled": false,
+    "representative_quest_tasks_complete": false,
+    "language_switch_verified": false,
+    "combat_samples_within_targets": false,
+    "startup_and_world_load_regression_below_10_percent": false,
+    "thirty_minute_soak_tps_gate": false,
+    "heap_stability_gate": false,
+    "log_rate_gate": false,
+    "second_clean_restart_and_world_reopen": false
+  },
+  "measurements": {
+    "baseline_startup_seconds_median": null,
+    "candidate_startup_seconds_median": null,
+    "baseline_world_load_seconds_median": null,
+    "candidate_world_load_seconds_median": null,
+    "soak_tps_p05": null,
+    "heap_after_first_cycle_mib": null,
+    "heap_after_second_cycle_mib": null,
+    "maximum_repeated_log_lines_per_minute": null
+  },
+  "notes": [
+    "All fields remain false until backed by a clean client or server run.",
+    "Do not set gates from theoretical calculations alone.",
+    "Record raw logs or profiler output before changing a gate to true."
+  ]
+}
