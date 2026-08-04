@@ -54,7 +54,9 @@ StartupEvents.registry('item', event => {
   EXPERT_COMPONENTS.forEach(component => {
     event.create(component[0])
       .texture(component[1])
+      .unstackable()
       .rarity(component[2])
+      .containerItem(`kubejs:${component[0]}`)
   })
 
   DIVINE_PROGRESSION_SEALS.forEach(seal => {
