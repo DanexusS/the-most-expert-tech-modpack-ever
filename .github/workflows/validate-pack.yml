@@ -115,7 +115,7 @@ jobs:
         run: python minecraft/tools/v1_readiness.py
 
       - name: Commit generated pack metadata
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
         shell: bash
         run: |
           if git diff --quiet; then
