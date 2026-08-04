@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "This model is a static approximation, not a replacement for an in-game benchmark.",
+    "Armor uses a post-1.9 Java-style approximation and ignores enchantments, effects, critical hits and mod-specific damage bypass.",
+    "TTK assumes the first hit lands at time zero and subsequent hits follow the configured attacks-per-second value.",
+    "Recipe complexity is a relative index: occupied slots + namespace breadth + dependency weight. It is not a time estimate."
+  ],
+  "weapon_tiers": [
+    {
+      "id": "early_iron",
+      "label": "Early iron-class weapon",
+      "damage": 6.0,
+      "attacks_per_second": 0.83
+    },
+    {
+      "id": "mid_tech",
+      "label": "Midgame technical weapon",
+      "damage": 12.0,
+      "attacks_per_second": 1.0
+    },
+    {
+      "id": "late_tech",
+      "label": "Late-game technical weapon",
+      "damage": 24.0,
+      "attacks_per_second": 1.2
+    }
+  ],
+  "player_tiers": [
+    {
+      "id": "iron",
+      "label": "Iron-tier player",
+      "health": 20.0,
+      "armor": 15.0,
+      "toughness": 0.0
+    },
+    {
+      "id": "diamond",
+      "label": "Diamond-tier player",
+      "health": 20.0,
+      "armor": 20.0,
+      "toughness": 8.0
+    },
+    {
+      "id": "late",
+      "label": "Late-game player",
+      "health": 40.0,
+      "armor": 25.0,
+      "toughness": 12.0
+    }
+  ],
+  "combat_archetypes": [
+    {
+      "id": "common_hostile",
+      "label": "Common hostile",
+      "profile": { "scope": "default", "kind": "hostile" },
+      "base_health": 20.0,
+      "base_armor": 0.0,
+      "base_attack": 4.0,
+      "weapon_gate": { "tier": "early_iron", "metric": "hits", "min": 5.0, "max": 12.0 },
+      "defense_gate": { "tier": "iron", "metric": "survival_hits", "min": 4.0, "max": 12.0 }
+    },
+    {
+      "id": "armored_mod_hostile",
+      "label": "Armored DivineRPG-class hostile",
+      "profile": { "scope": "namespace", "kind": "regular", "namespace": "divinerpg" },
+      "base_health": 30.0,
+      "base_armor": 8.0,
+      "base_attack": 7.0,
+      "weapon_gate": { "tier": "mid_tech", "metric": "hits", "min": 8.0, "max": 18.0 },
+      "defense_gate": { "tier": "diamond", "metric": "survival_hits", "min": 4.0, "max": 10.0 }
+    },
+    {
+      "id": "major_elite",
+      "label": "Major Ice and Fire-class elite",
+      "profile": { "scope": "namespace", "kind": "regular", "namespace": "iceandfire" },
+      "base_health": 80.0,
+      "base_armor": 10.0,
+      "base_attack": 12.0,
+      "weapon_gate": { "tier": "late_tech", "metric": "hits", "min": 10.0, "max": 25.0 },
+      "defense_gate": { "tier": "late", "metric": "survival_hits", "min": 6.0, "max": 16.0 }
+    },
+    {
+      "id": "major_boss",
+      "label": "Major Cataclysm-class boss",
+      "profile": { "scope": "namespace", "kind": "boss", "namespace": "cataclysm" },
+      "base_health": 300.0,
+      "base_armor": 12.0,
+      "base_attack": 20.0,
+      "weapon_gate": { "tier": "late_tech", "metric": "ttk_seconds", "min": 50.0, "max": 95.0 },
+      "defense_gate": { "tier": "late", "metric": "survival_hits", "min": 3.0, "max": 8.0 }
+    }
+  ],
+  "recipe_complexity": {
+    "namespace_weight": 2.0,
+    "kubejs_dependency_weight": 3.0,
+    "target_minimum_for_extensions": 10.0,
+    "target_maximum_for_extensions": 22.0
+  }
+}
