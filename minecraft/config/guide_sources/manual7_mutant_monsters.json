@@ -1,0 +1,145 @@
+{
+  "slug": "mutant_monsters",
+  "lessons": [
+    {
+      "slug": "threats",
+      "icon": "mutantmonsters:mutant_skeleton_skull",
+      "title_en": "Mutant Threat Classification",
+      "title_ru": "Классификация мутантных угроз",
+      "desc_en": [
+        "Mutant Monsters turns familiar hostile mobs into elite encounters with new movement, attacks, health and death behavior.",
+        "Treat each mutant as an elite tier, prepare outside ordinary mob-farm assumptions and document spawn or conversion paths before allowing repeat encounters."
+      ],
+      "desc_ru": [
+        "Mutant Monsters превращает знакомых враждебных мобов в элитные встречи с новыми движениями, атаками, здоровьем и поведением смерти.",
+        "Считайте каждого мутанта элитным уровнем, готовьтесь вне обычных предположений мобоферм и документируйте пути спавна или превращения до повторных встреч."
+      ]
+    },
+    {
+      "slug": "conversion",
+      "icon": "mutantmonsters:chemical_x",
+      "title_en": "Chemical X and Controlled Conversion",
+      "title_ru": "Chemical X и контролируемое превращение",
+      "desc_en": [
+        "Chemical X turns an ordinary entity into a potential mutant and therefore converts a common spawn into an elite reward path.",
+        "Gate production by combat stage, contain conversion attempts, prevent automated mass use and verify failure outcomes cannot duplicate the chemical or mutant drops."
+      ],
+      "desc_ru": [
+        "Chemical X превращает обычную сущность в возможного мутанта и тем самым создаёт путь от распространённого спавна к элитной награде.",
+        "Закрывайте производство боевым этапом, удерживайте попытки, запрещайте массовое автоматическое использование и проверяйте отсутствие дублирования химиката или лута."
+      ]
+    },
+    {
+      "slug": "arena",
+      "icon": "minecraft:obsidian",
+      "title_en": "Arena Space and Environmental Damage",
+      "title_ru": "Пространство арены и урон окружению",
+      "desc_en": [
+        "Mutants use leaps, grabs, projectiles, shockwaves or explosions that punish cramped rooms and fragile nearby infrastructure.",
+        "Choose a clear controlled area, protect only recovery storage, preserve retreat lanes and avoid cages that remove the creature's intended movement."
+      ],
+      "desc_ru": [
+        "Мутанты используют прыжки, захваты, снаряды, ударные волны или взрывы, наказывающие тесные комнаты и хрупкую инфраструктуру.",
+        "Выбирайте чистую контролируемую область, защищайте только восстановительное хранение, сохраняйте пути отхода и не убирайте предусмотренное движение клеткой."
+      ]
+    },
+    {
+      "slug": "death_phases",
+      "icon": "minecraft:tnt",
+      "title_en": "Death Phases and False Victory",
+      "title_ru": "Фазы смерти и ложная победа",
+      "desc_en": [
+        "Some mutants continue attacking, split, revive or create a final hazard after reaching zero health. Looting too early can turn apparent victory into item loss.",
+        "Learn the complete death sequence, keep distance until the encounter is finished and collect drops only after the arena is stable."
+      ],
+      "desc_ru": [
+        "Некоторые мутанты продолжают атаку, разделяются, оживают или создают последнюю опасность после нулевого здоровья. Ранний сбор лута превращает победу в потерю предметов.",
+        "Изучайте полную последовательность смерти, сохраняйте дистанцию до завершения и собирайте добычу после стабилизации арены."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "mutantmonsters:mutant_skeleton_armor",
+      "title_en": "Mutant Drops and Capability Mapping",
+      "title_ru": "Лут мутантов и карта возможностей",
+      "desc_en": [
+        "Mutant drops and equipment can provide mobility, protection, summoning or utility beyond normal mob loot.",
+        "Assign every unique drop to a stage, keep zero EMC where necessary and prevent ordinary mob farms, trades or quest rewards from granting the same capability."
+      ],
+      "desc_ru": [
+        "Лут и экипировка мутантов дают движение, защиту, призыв или утилиту выше обычного мобового лута.",
+        "Назначайте уникальным выходам этап, задавайте нулевой EMC и не позволяйте обычным фермам, торговле или наградам выдавать ту же возможность."
+      ]
+    },
+    {
+      "slug": "scaling",
+      "icon": "mutantmonsters:mutant_skeleton_skull",
+      "title_en": "Elite Scaling and Ordinary Caves",
+      "title_ru": "Масштабирование элиты и обычные пещеры",
+      "desc_en": [
+        "Mutants receive a stronger combat profile than common hostiles. Spawn frequency must remain low enough that ordinary exploration is dangerous but not permanently blocked.",
+        "Model hits and incoming damage, inspect encounter frequency and tune attributes together instead of solving every balance problem with health."
+      ],
+      "desc_ru": [
+        "Мутанты получают более сильный профиль, чем обычные враги. Частота должна сохранять опасность исследования, но не блокировать его постоянно.",
+        "Моделируйте число ударов и входящий урон, проверяйте частоту и меняйте характеристики вместе, а не решайте всё здоровьем."
+      ]
+    },
+    {
+      "slug": "summons",
+      "icon": "mutantmonsters:creeper_minion_tracker",
+      "title_en": "Minions, Summons and Ownership",
+      "title_ru": "Миньоны, призывы и владение",
+      "desc_en": [
+        "Certain mutant rewards create controllable minions or persistent entities. Ownership and population can become a hidden combat or tick advantage.",
+        "Cap active summons, document owner, provide dismissal and prevent automated creation from replacing normal defense or worker systems."
+      ],
+      "desc_ru": [
+        "Некоторые награды создают управляемых миньонов или постоянных сущностей. Владение и численность дают скрытое боевое или тиковое преимущество.",
+        "Ограничивайте активные призывы, документируйте владельца, обеспечьте отзыв и не заменяйте автоматическим созданием обычную защиту или работников."
+      ]
+    },
+    {
+      "slug": "anti_farm",
+      "icon": "mob_grinding_utils:mob_swab",
+      "title_en": "Mutant Farm and Capture Exclusion",
+      "title_ru": "Запрет ферм и захвата мутантов",
+      "desc_en": [
+        "Swabs, powered spawners, Woot and neural simulation can turn a mutant into an unattended loot source.",
+        "Block direct simulation of unique mutants, allow only reviewed ordinary secondary drops and preserve real elite encounters for capability-defining rewards."
+      ],
+      "desc_ru": [
+        "Мазки, спавнеры, Woot и нейросимуляция превращают мутанта в автономный источник лута.",
+        "Запрещайте прямую симуляцию уникальных мутантов, разрешайте только проверенные обычные вторичные выходы и сохраняйте реальные элитные встречи для значимых наград."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "minecraft:spyglass",
+      "title_en": "Encounter Diagnostics and Recovery",
+      "title_ru": "Диагностика встречи и восстановление",
+      "desc_en": [
+        "A failed mutant encounter should be reviewed by conversion state, arena geometry, attack pattern, equipment durability, retreat route and death phase.",
+        "Change one preparation variable, keep replacement gear outside the area and repeat only after the actual mechanical cause is identified."
+      ],
+      "desc_ru": [
+        "Неудачную встречу разбирайте по состоянию превращения, геометрии, паттерну, прочности снаряжения, пути отхода и фазе смерти.",
+        "Меняйте одну переменную подготовки, держите запасной комплект снаружи и повторяйте после определения реальной механической причины."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "mutantmonsters:chemical_x",
+      "title_en": "Project: Controlled Mutant Encounter",
+      "title_ru": "Проект: контролируемая встреча с мутантом",
+      "desc_en": [
+        "Create or locate one stage-approved mutant, complete the encounter without capture or terrain cheese and classify every resulting item.",
+        "The project passes after full death-sequence verification, safe recovery, measured combat profile and proof that unique drops cannot enter unattended farm or simulation paths."
+      ],
+      "desc_ru": [
+        "Создайте или найдите одного разрешённого мутанта, завершите бой без захвата или геометрического эксплойта и классифицируйте каждый выход.",
+        "Проект принят после проверки полной смерти, безопасного восстановления, измеренного профиля и доказательства отсутствия автономной фермы уникального лута."
+      ]
+    }
+  ]
+}
