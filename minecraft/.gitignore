@@ -80,6 +80,10 @@ desktop.ini
 /usercache.json
 /usernamecache.json
 /knownkeys.txt
+/command_history.txt
+
+# Enhanced Sound Muffler stores per-user and per-world anchor state here.
+/ESM/
 
 # Common client-generated data
 /journeymap/
