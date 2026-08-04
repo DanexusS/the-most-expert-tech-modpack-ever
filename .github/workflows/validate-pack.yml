@@ -54,6 +54,9 @@ jobs:
       - name: Build manifest-backed mod guide registry
         run: python minecraft/tools/build_mod_guide_registry.py
 
+      - name: Normalize progression order
+        run: python minecraft/tools/normalize_progression_contract.py
+
       - name: Enforce ProjectE EMC blacklist
         run: python minecraft/tools/sync_projecte_emc_blacklist.py
 
@@ -105,6 +108,9 @@ jobs:
       - name: Audit progression contract
         run: python minecraft/tools/progression_contract_audit.py
 
+      - name: Audit recipe dependency graph
+        run: python minecraft/tools/recipe_dependency_audit.py
+
       - name: Audit gated-item bypasses
         run: python minecraft/tools/bypass_audit.py
 
@@ -143,15 +149,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            minecraft/config/expert_progression_contract.json \
             minecraft/config/mod_guide_registry.json \
             minecraft/config/ProjectE/custom_emc.json \
             minecraft/config/ftbquests/quests/chapters \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
+            minecraft/docs/PROGRESSION_MAP.md \
             minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
             minecraft/docs/QUEST_QUALITY_REPORT.md \
             minecraft/docs/PROGRESSION_CONTRACT_REPORT.md \
+            minecraft/docs/RECIPE_DEPENDENCY_REPORT.md \
             minecraft/docs/BYPASS_AUDIT_REPORT.md \
             minecraft/docs/MOD_GUIDE_COVERAGE_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
