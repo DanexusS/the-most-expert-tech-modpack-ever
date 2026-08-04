@@ -10310,4 +10310,12 @@
 		"You completed the section and understand how it links to later dimensions and technical recipes."
 		"Verify a safe return point, backup supplies, and labelled trophy storage."
 	]
+	quest.A17E4D09B8C2F101.title: "Field Engineering Kit"
+	quest.A17E4D09B8C2F101.quest_desc: ["Build a practical foundation from Immersive Engineering components, copper and glass.", "This branch represents manual fabrication and structural engineering before large-scale automation."]
+	quest.B29F510AC7D3E202.title: "Power Regulation Unit"
+	quest.B29F510AC7D3E202.quest_desc: ["Combine basic electrical control, a Modern Industrialization motor and black quartz.", "This branch teaches that power distribution and motion control are separate from Create mechanics."]
+	quest.C3A0621BD8E4F303.title: "Materials Analysis Matrix"
+	quest.C3A0621BD8E4F303.quest_desc: ["Prepare an analytical matrix from quartz, redstone, glass and a comparator.", "It represents measurement, material classification and precise control before advanced circuits."]
+	quest.D4B1732CE9F50404.title: "Industrial Kinetic Interface"
+	quest.D4B1732CE9F50404.quest_desc: ["Create begins here as a specialized mechanical automation branch, not as the only opening path.", "Join the common mechanical core with andesite technology and an electric motor before constructing the industrial frame."]
 }
