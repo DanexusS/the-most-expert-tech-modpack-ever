@@ -66,8 +66,6 @@ def brace_spans(text: str) -> list[tuple[int, int]]:
 
 
 def parse_recipe_objects() -> dict[str, dict]:
-    # Later scripts and later definitions override earlier recipes, matching the
-    # intended z/zz/zzz load order in the pack.
     recipes: dict[str, dict] = {}
     for path in sorted(SERVER_SCRIPTS.glob("*.js")):
         text = path.read_text(encoding="utf-8")
@@ -196,7 +194,14 @@ def main() -> int:
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"recipe_dependency: {'PASS' if not cycles and not inversions else 'FAIL'}")
     print(f"cycles: {len(cycles)}")
+    for cycle in cycles:
+        print("CYCLE: " + " -> ".join(cycle))
     print(f"stage_inversions: {len(inversions)}")
+    for output, dependency, output_stage, dependency_stage, source in inversions:
+        print(
+            f"INVERSION: {output} [stage {output_stage}] -> {dependency} "
+            f"[stage {dependency_stage}] via {source}"
+        )
     return 1 if cycles or inversions else 0
 
 
