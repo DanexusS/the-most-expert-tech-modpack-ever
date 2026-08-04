@@ -1,0 +1,145 @@
+{
+  "slug": "mob_grinding_utils",
+  "lessons": [
+    {
+      "slug": "swabs",
+      "icon": "mob_grinding_utils:mob_swab",
+      "title_en": "Mob Swabs and Entity Permissions",
+      "title_ru": "Мазки мобов и разрешения сущностей",
+      "desc_en": [
+        "Mob Swabs capture entity identity for later spawning recipes. Swabbing a late entity can bypass its dimension, encounter or boss gate.",
+        "Classify allowed entities, reject bosses and permission carriers, require legitimate access and audit every conversion from swab to spawn item."
+      ],
+      "desc_ru": [
+        "Мазки сохраняют тип сущности для последующего спавна. Мазок позднего моба обходит измерение, встречу или босса.",
+        "Классифицируйте разрешённых сущностей, запрещайте боссов и носителей допусков, требуйте честный доступ и проверяйте каждую конверсию мазка."
+      ]
+    },
+    {
+      "slug": "feed",
+      "icon": "mob_grinding_utils:gm_chicken_feed_cursed",
+      "title_en": "Cursed Feed and Spawn Conversion",
+      "title_ru": "Проклятый корм и преобразование спавна",
+      "desc_en": [
+        "Cursed feed converts captured entity data into a spawnable source. Recipe cost alone does not balance an entity that should remain dimension-locked.",
+        "Gate feed by entity stage, block bosses and unique mobs, prevent duplication through breeding or containers and document the permitted drop set."
+      ],
+      "desc_ru": [
+        "Проклятый корм превращает данные сущности в источник спавна. Стоимость рецепта не балансирует моба, который должен оставаться закрытым измерением.",
+        "Закрывайте корм этапом сущности, блокируйте боссов и уникальных мобов, запрещайте дублирование и документируйте разрешённый набор лута."
+      ]
+    },
+    {
+      "slug": "fans",
+      "icon": "mob_grinding_utils:fan",
+      "title_en": "Fans and Entity Flow",
+      "title_ru": "Вентиляторы и поток сущностей",
+      "desc_en": [
+        "Fans move mobs without consuming them and define the geometry of a grinder. Excess range or force can push entities outside containment or into unloaded boundaries.",
+        "Test one lane, cap range, protect player access and verify every mob reaches the intended processing point without accumulating in corners."
+      ],
+      "desc_ru": [
+        "Вентиляторы перемещают мобов и определяют геометрию фермы. Избыточный радиус или сила выталкивают сущностей из удержания или в границы чанков.",
+        "Проверяйте одну полосу, ограничивайте радиус, защищайте доступ игрока и убеждайтесь, что мобы не накапливаются в углах."
+      ]
+    },
+    {
+      "slug": "mashers",
+      "icon": "mob_grinding_utils:mob_masher",
+      "title_en": "Mob Mashers and Upgrade Sets",
+      "title_ru": "Дробилки мобов и комплекты улучшений",
+      "desc_en": [
+        "Mob Mashers apply damage and optional upgrades such as looting, beheading or smite. Combined upgrades can produce drops far beyond a normal encounter.",
+        "Gate upgrade tiers, measure kill rate and output, preserve containment and prohibit permission items even when looting would normally roll them."
+      ],
+      "desc_ru": [
+        "Дробилки наносят урон и используют добычу, обезглавливание или специализированные улучшения. Комбинация сильно превышает обычный бой.",
+        "Закрывайте уровни, измеряйте скорость и лут, сохраняйте удержание и запрещайте предметы-допуски даже при обычной возможности выпадения."
+      ]
+    },
+    {
+      "slug": "hoppers",
+      "icon": "mob_grinding_utils:absorption_hopper",
+      "title_en": "Absorption Hoppers and Mixed Outputs",
+      "title_ru": "Поглощающие воронки и смешанные выходы",
+      "desc_en": [
+        "Absorption Hoppers collect items and experience from an area. Full item or fluid storage can leave drops and orbs accumulating invisibly around the grinder.",
+        "Route items and experience separately, expose fill levels, stop spawning on either overflow and verify collection range does not steal from unrelated systems."
+      ],
+      "desc_ru": [
+        "Поглощающие воронки собирают предметы и опыт из области. Полный выход оставляет лут и сферы накапливаться вокруг фермы.",
+        "Разделяйте предметы и опыт, показывайте заполнение, останавливайте спавн при любом переполнении и не забирайте ресурсы соседних систем."
+      ]
+    },
+    {
+      "slug": "experience",
+      "icon": "mob_grinding_utils:solid_xp_block",
+      "title_en": "Experience Storage and Consumption",
+      "title_ru": "Хранение и расход опыта",
+      "desc_en": [
+        "Mob farms can turn experience into a bulk fluid or solid resource used by enchanting, machines and repairs.",
+        "Measure experience per kill, protect a recovery reserve, cap passive storage and avoid loops where experience improves the same farm faster than its external cost."
+      ],
+      "desc_ru": [
+        "Фермы превращают опыт в массовую жидкость или твёрдый ресурс для зачарования, машин и ремонта.",
+        "Измеряйте опыт на убийство, защищайте резерв восстановления, ограничивайте хранение и исключайте циклы, где опыт ускоряет ту же ферму без внешней стоимости."
+      ]
+    },
+    {
+      "slug": "entity_limits",
+      "icon": "mob_grinding_utils:entity_conveyor",
+      "title_en": "Population Limits and Failure States",
+      "title_ru": "Пределы популяции и состояния отказа",
+      "desc_en": [
+        "A grinder must stop spawning before containment, killing or storage fails. Otherwise entity count becomes the real output buffer.",
+        "Use population sensors or bounded spawning, test a disabled masher and full hopper, and verify the system returns to normal without manual entity cleanup."
+      ],
+      "desc_ru": [
+        "Ферма должна прекращать спавн до отказа удержания, убийства или хранения. Иначе буфером становится число сущностей.",
+        "Используйте датчики или ограниченный спавн, отключите дробилку и заполните воронку в тесте, затем проверьте автоматическое восстановление."
+      ]
+    },
+    {
+      "slug": "boss_policy",
+      "icon": "mob_grinding_utils:mob_masher",
+      "title_en": "Bosses and Unique Drop Exclusion",
+      "title_ru": "Исключение боссов и уникального лута",
+      "desc_en": [
+        "A general mob grinder should not automate bosses, dimension permissions, unique quest entities or rare one-time artifacts.",
+        "Maintain an explicit blacklist, reject capture recipes, block permission drops and keep first victories and seals outside the farm economy."
+      ],
+      "desc_ru": [
+        "Обычная ферма не должна автоматизировать боссов, разрешения измерений, уникальных квестовых сущностей или одноразовые артефакты.",
+        "Ведите явный чёрный список, запрещайте рецепты захвата и лут-допуски и оставляйте первые победы и печати вне экономики фермы."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "mob_grinding_utils:absorption_hopper",
+      "title_en": "Mob Farm Diagnostics",
+      "title_ru": "Диагностика мобофермы",
+      "desc_en": [
+        "A weak or stalled farm should be checked for spawn conditions, population cap, movement, kill speed, item collection, experience storage and chunk state.",
+        "Change one boundary at a time, count entities and outputs over a fixed interval and compare expected loot with actual filters before adding more spawns."
+      ],
+      "desc_ru": [
+        "Слабую или остановившуюся ферму проверяйте по условиям спавна, пределу, движению, скорости убийства, сбору предметов, опыту и чанкам.",
+        "Меняйте одну границу, считайте сущностей и выход за фиксированный интервал и сравнивайте ожидаемый лут с фильтрами до увеличения спавна."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bio_process_controller",
+      "title_en": "Project: Bounded Physical Mob Farm",
+      "title_ru": "Проект: ограниченная физическая мобоферма",
+      "desc_en": [
+        "Build a physical farm for stage-approved ordinary mobs with controlled spawning, movement, killing, item collection and experience storage.",
+        "The project passes after a blocked-output test, population shutdown, output audit, no boss or permission path and measured entity and item rates."
+      ],
+      "desc_ru": [
+        "Постройте физическую ферму разрешённых обычных мобов с управляемым спавном, движением, убийством, сбором предметов и опытом.",
+        "Проект принят после теста полного выхода, остановки популяции, аудита лута, отсутствия боссов или допусков и измерения скорости сущностей и предметов."
+      ]
+    }
+  ]
+}
