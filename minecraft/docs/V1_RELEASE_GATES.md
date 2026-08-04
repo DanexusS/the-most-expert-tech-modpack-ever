@@ -1,77 +1,89 @@
 # v1 Release Gates
 
-The branch may be called **v1** only when every mandatory gate below has evidence. A green static CI run is necessary but not sufficient.
+Версия может называться **v1** только после выполнения продуктовой спецификации `V1_PRODUCT_SPEC.md`. Зелёный CI является обязательным, но сам по себе не означает готовность.
 
-## 1. Static structure — mandatory
+## 1. Продуктовые требования — обязательны
 
-- JavaScript syntax: PASS.
-- KubeJS JSON syntax: PASS.
-- FTB Quests SNBT balance: PASS.
-- Duplicate FTB object IDs: 0.
-- Missing quest dependency targets: 0.
-- Duplicate explicit KubeJS recipe IDs: 0.
-- Tracked runtime artifacts: 0.
-- Generated localization and audit files are reproducible and leave a clean working tree.
+- В книге находится 5 000–6 000 квестов.
+- Все пользовательские моды классифицированы и имеют обучающее покрытие.
+- Основные моды содержат путь от первого знакомства до автоматизации, диагностики и экспертного проекта.
+- Основная прогрессия состоит из 18 макроэтапов и не менее 60 подэтапов.
+- Все обязательные переходы имеют авторские межмодовые рецепты или авторский способ получения.
+- Все известные ранние пути, награды, генераторы ресурсов и альтернативные рецепты для закрытых предметов проверены аудитом обходов.
+- Сложность создаётся инфраструктурой и освоением систем, а не бессмысленной продолжительностью ручного крафта.
 
-## 2. Theoretical balance — mandatory before runtime testing
+## 2. Статическая структура — обязательна
 
-- Every configured combat archetype is inside its declared hit-count, TTK and survival range.
-- Strategic extension recipes remain inside the declared relative-complexity range.
-- Model assumptions are stored in `config/expert_balance_model.json`.
-- The generated `THEORETICAL_BALANCE_REPORT.md` contains PASS.
-- A theoretical PASS does not override measured gameplay. Runtime measurements replace assumptions when they disagree.
+- JavaScript: PASS.
+- KubeJS JSON: PASS.
+- FTB Quests SNBT: PASS.
+- Дубли ID FTB: 0.
+- Отсутствующие цели зависимостей: 0.
+- Дубли явных ID рецептов: 0.
+- Отслеживаемые runtime-файлы: 0.
+- Генераторы и аудиты идемпотентны и оставляют чистое рабочее дерево.
 
-## 3. Quest quality — mandatory for the critical path
+## 3. Формальный контракт прогрессии — обязателен
 
-- `expert_progression` and `engineering_foundations_guide` pass the core quality audit.
-- Every mandatory expert milestone has:
-  - a real task;
-  - a production acceptance task;
-  - Russian and English title and description;
-  - a dependency path;
-  - no single task requiring more than 64 items.
-- All chapter titles and all mandatory progression quests are bilingual.
-- Optional legacy/reference chapters may use the English fallback in v1 only when the missing Russian keys remain listed in `QUEST_QUALITY_REPORT.md`; they must not silently display broken keys.
-- The lowest-scoring legacy chapters are reviewed in priority order. Generic mass-generated descriptions do not count as an improvement.
+- `config/expert_progression_contract.json` содержит 18 упорядоченных этапов.
+- Граф этапов не имеет циклов и разрывов.
+- Каждый этап имеет роль, подэтапы, бюджет квестов, обязательные моды и закрытые выходы.
+- Суммарный бюджет квестов находится в диапазоне 5 000–6 000.
+- После раннего этапа каждый переход использует минимум два технологических домена.
+- Для каждого закрытого выхода определён единственный авторитетный источник либо явный список равноценных источников.
 
-## 4. Runtime correctness — mandatory and currently unverified
+## 4. Расчётный баланс — обязателен
 
-Evidence must come from a clean full restart, not only `/reload`.
+- Все боевые архетипы находятся внутри заявленных диапазонов ударов, TTK и выживаемости.
+- Рецепты основной ветки проходят модель сложности и межмодовой связности.
+- Модель не допускает резкого удешевления позднего этапа относительно предыдущего.
+- Ручная стоимость и время ожидания не могут быть единственным источником сложности.
+- Все допущения хранятся в конфигурации и отражаются в отчётах.
 
-- Client reaches the main menu without KubeJS startup errors.
-- A new test world can be created, saved, closed and reopened.
-- Every registered `kubejs:` milestone item exists.
-- Every replaced strategic recipe is present when its target mod item IDs exist.
-- Missing optional item IDs produce one clear warning and do not delete the original recipe.
-- At least one regular hostile and one boss from every scaled namespace spawn with the intended attributes.
-- FTB Quests loads all chapters and can complete representative item, checkmark and kill tasks.
-- Russian and English switching is checked without restarting the world.
+## 5. Качество квестов — обязательно
 
-## 5. Runtime balance — mandatory
+- Все обязательные квесты имеют RU/EN заголовок и описание.
+- Не менее 80% обучающих квестов имеют полноценные RU/EN описания.
+- Item-only задачи составляют не более 30% книги.
+- Каждый основной мод имеет хотя бы один контрольный проект.
+- Каждый обязательный этап содержит практическую проверку или проверку повторяемости.
+- Массово сгенерированный текст без конкретной механики не считается улучшением.
 
-Measured samples must include early, midgame and late equipment.
+## 6. Защита от обходов — обязательна
 
-- Common hostile encounter: neither one-hit trivial nor prolonged beyond the modeled early range.
-- Armored mod hostile: midgame weapon result stays within the modeled range or the model is revised.
-- Major elite: late-game weapon result stays within the modeled range or the profile is revised.
-- Major boss: active combat TTK remains inside the declared range after excluding invulnerability phases and scripted downtime.
-- Boss damage must leave the intended late-game test player at least three survivable hits in the representative scenario.
+`BYPASS_AUDIT_REPORT.md` должен содержать PASS.
 
-## 6. Performance and stability — mandatory
+Проверяются:
 
-Absolute startup time is hardware-dependent, so v1 uses repeatable baselines.
+- обычные и машинные рецепты;
+- квестовые награды;
+- лут-таблицы и структуры;
+- торговля и дропы;
+- ProjectE/EMC;
+- Mystical Agriculture, Productive Bees и генераторы ресурсов;
+- Woot, Hostile Neural Networks и другие симуляторы мобов;
+- теги, унификация и конвертация;
+- контейнерные предметы и возвраты;
+- альтернативные аддоны и дублирующие машины.
 
-- Compare the same world, Java build, memory allocation and graphics settings against `main`.
-- Median startup and world-load time must not regress by more than 10% without a documented reason.
-- A 30-minute controlled factory/combat soak must maintain at least 18 TPS for 95% of samples.
-- No monotonic heap growth after two forced-save and unload/reload cycles.
-- No repeating log line above 60 occurrences per minute unless explicitly allowlisted.
-- No crash, watchdog termination, deadlock warning or corrupted quest state.
+Неучтённый источник обязательного закрытого предмета является блокирующей ошибкой.
 
-## 7. Release decision
+## 7. Минимальная runtime-проверка — обязательна, но ограничена
 
-The release decision is binary:
+Runtime используется только там, где статическая проверка принципиально недостаточна.
 
-- **Not v1:** any mandatory gate lacks evidence or fails.
-- **v1 candidate:** all static, theoretical and quest gates pass; runtime evidence is complete.
-- **v1:** the candidate passes a second clean restart and world reopen with no new blocking issue.
+- Клиент достигает главного меню без ошибок startup-скриптов.
+- Тестовый мир создаётся, сохраняется и повторно открывается.
+- Все зарегистрированные предметы `kubejs:` существуют.
+- По одному стратегическому рецепту из каждого макроэтапа реально отображается и создаётся.
+- FTB Quests загружает все главы и принимает item/checkmark/kill задачи.
+- Повторный чистый запуск не создаёт новую блокирующую ошибку.
+
+Производительность и точный TTK остаются рекомендуемыми измерениями, но не блокируют v1, если расчётные модели проходят и отсутствуют явные краши, зависания или бесконечный рост логов.
+
+## 8. Решение о выпуске
+
+- **Development:** не выполнен хотя бы один статический, продуктовый или структурный критерий.
+- **Static candidate:** структура и расчёты проходят, но объём/качество квестов, рецепты или аудит обходов ещё не завершены.
+- **v1 candidate:** выполнены продуктовые требования, статические проверки и минимальная runtime-проверка.
+- **v1:** кандидат проходит второй чистый запуск и повторное открытие мира без новой блокирующей проблемы.
