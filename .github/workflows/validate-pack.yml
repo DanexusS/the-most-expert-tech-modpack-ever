@@ -66,6 +66,9 @@ jobs:
       - name: Upgrade IE core-route guidance
         run: python minecraft/tools/upgrade_ie_core_localization.py
 
+      - name: Upgrade MI core route
+        run: python minecraft/tools/upgrade_mi_core.py
+
       - name: Tune combat profiles to modeled limits
         run: python minecraft/tools/tune_combat_profiles.py
 
@@ -80,6 +83,9 @@ jobs:
 
       - name: Gate IE core-route quality
         run: python minecraft/tools/ie_core_quality_gate.py
+
+      - name: Gate MI core-route quality
+        run: python minecraft/tools/mi_core_quality_gate.py
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -97,12 +103,14 @@ jobs:
             minecraft/config/ftbquests/quests/chapters/expert_progression.snbt \
             minecraft/config/ftbquests/quests/chapters/create.snbt \
             minecraft/config/ftbquests/quests/chapters/immersive_engineering.snbt \
+            "minecraft/config/ftbquests/quests/chapters/Modern Industrialization.snbt" \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
             minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
             minecraft/docs/QUEST_QUALITY_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
-            minecraft/docs/IE_CORE_QUALITY_REPORT.md
+            minecraft/docs/IE_CORE_QUALITY_REPORT.md \
+            minecraft/docs/MI_CORE_QUALITY_REPORT.md
           git commit -m "automation: apply modeled balance and quest upgrades"
           git push origin HEAD:${GITHUB_REF_NAME}
