@@ -15,6 +15,7 @@ FOUNDATION_REPORTS = {
     "Create core route": ROOT / "docs" / "CREATE_CORE_QUALITY_REPORT.md",
     "Immersive Engineering core route": ROOT / "docs" / "IE_CORE_QUALITY_REPORT.md",
     "Modern Industrialization core route": ROOT / "docs" / "MI_CORE_QUALITY_REPORT.md",
+    "Applied Energistics 2 core route": ROOT / "docs" / "AE2_CORE_QUALITY_REPORT.md",
 }
 
 PRODUCT_REPORTS = {
