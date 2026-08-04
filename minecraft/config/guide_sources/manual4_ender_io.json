@@ -1,0 +1,145 @@
+{
+  "slug": "ender_io",
+  "lessons": [
+    {
+      "slug": "alloys",
+      "icon": "enderio:alloy_smelter",
+      "title_en": "Alloy Smelting and Furnace Modes",
+      "title_ru": "Сплавы и режимы плавильни",
+      "desc_en": [
+        "The Alloy Smelter shares ordinary smelting and multi-input alloy recipes. An unrestricted input can consume materials in the wrong mode or ratio.",
+        "Separate furnace and alloy schedules, insert exact batches, expose remaining ingredients and stop intake before an incomplete alloy occupies the machine."
+      ],
+      "desc_ru": [
+        "Плавильня Ender IO объединяет обычную плавку и многокомпонентные сплавы. Бесконтрольный вход расходует материалы в неверном режиме или соотношении.",
+        "Разделяйте расписания, подавайте точные партии, показывайте остатки и останавливайте вход до того, как незавершённый сплав займёт машину."
+      ]
+    },
+    {
+      "slug": "grinding",
+      "icon": "enderio:sag_mill",
+      "title_en": "Grinding Balls and Secondary Yield",
+      "title_ru": "Мелющие шары и вторичный выход",
+      "desc_en": [
+        "The SAG Mill changes speed and output chances through grinding balls. Nominal ore yield depends on both ball material and downstream handling.",
+        "Record ball consumption, separate primary and secondary products, compare net yield with other mods and prevent a full byproduct output from blocking valuable processing."
+      ],
+      "desc_ru": [
+        "Дробилка меняет скорость и вероятность выходов мелющими шарами. Реальный выход руды зависит от материала шара и нижней логистики.",
+        "Учитывайте расход шаров, разделяйте продукты, сравнивайте чистый выход с другими модами и не позволяйте побочному выходу блокировать ценную переработку."
+      ]
+    },
+    {
+      "slug": "conduits",
+      "icon": "enderio:energy_conduit",
+      "title_en": "Conduits and Shared Block Space",
+      "title_ru": "Кабели и общее пространство блока",
+      "desc_en": [
+        "Ender IO conduits carry several resource types in one block space. Compact routing reduces visibility and makes accidental feedback paths easier to create.",
+        "Label channels, configure extraction explicitly, avoid uncontrolled round trips and preserve access to each connection for maintenance and diagnostics."
+      ],
+      "desc_ru": [
+        "Кабели Ender IO передают несколько типов ресурсов в одном блоке. Компактность снижает видимость и облегчает случайные обратные маршруты.",
+        "Подписывайте каналы, явно настраивайте извлечение, избегайте бесконтрольных циклов и сохраняйте доступ к соединениям для обслуживания."
+      ]
+    },
+    {
+      "slug": "filters",
+      "icon": "enderio:basic_item_filter",
+      "title_en": "Filters, Priorities and Stocking",
+      "title_ru": "Фильтры, приоритеты и поддержание запаса",
+      "desc_en": [
+        "Conduit filters define which items can enter or leave a connection. Broad filters and equal priorities can make several destinations compete unpredictably.",
+        "Use explicit whitelist intent, document priority, cap maintained stock and test an unexpected item plus a full preferred destination."
+      ],
+      "desc_ru": [
+        "Фильтры определяют предметы входа и выхода. Широкие правила и одинаковые приоритеты заставляют назначения конкурировать непредсказуемо.",
+        "Используйте явный белый список, документируйте приоритет, ограничивайте запас и проверяйте неожиданный предмет с заполненным основным назначением."
+      ]
+    },
+    {
+      "slug": "capacitors",
+      "icon": "enderio:basic_capacitor",
+      "title_en": "Machine Capacitors and Operating Profiles",
+      "title_ru": "Конденсаторы машин и рабочие профили",
+      "desc_en": [
+        "Capacitors change machine speed, energy storage and demand. A faster machine may overload conduits or starve adjacent processes.",
+        "Benchmark the complete line before upgrading, record peak draw and preserve a lower-power profile for recovery or low-resource operation."
+      ],
+      "desc_ru": [
+        "Конденсаторы меняют скорость, хранение и потребление машин. Ускорение перегружает кабели или лишает энергии соседние процессы.",
+        "Измеряйте всю линию до улучшения, записывайте пик и сохраняйте маломощный профиль для восстановления или дефицитного режима."
+      ]
+    },
+    {
+      "slug": "power",
+      "icon": "enderio:stirling_generator",
+      "title_en": "Generation, Storage and Conduit Limits",
+      "title_ru": "Генерация, хранение и пределы кабелей",
+      "desc_en": [
+        "Ender IO generation and capacitors can coexist with other FE systems, but conduit tier remains the delivery boundary.",
+        "Separate generation from storage, protect restart energy, inspect connection limits and test simultaneous machine startup instead of one idle load."
+      ],
+      "desc_ru": [
+        "Генераторы и конденсаторы Ender IO работают с другими FE-системами, но уровень кабеля остаётся границей передачи.",
+        "Разделяйте генерацию и хранение, защищайте энергию запуска, проверяйте пределы соединений и тестируйте одновременный старт машин."
+      ]
+    },
+    {
+      "slug": "souls",
+      "icon": "enderio:soul_vial",
+      "title_en": "Soul Vials and Entity Permissions",
+      "title_ru": "Колбы душ и разрешения сущностей",
+      "desc_en": [
+        "Soul Vials and powered spawners turn captured entities into production inputs. Capturing a late mob can bypass dimension, boss or resource progression.",
+        "Classify allowed entities by stage, block bosses and permission carriers, contain spawns and audit every output against the resource-simulation policy."
+      ],
+      "desc_ru": [
+        "Колбы душ и спавнеры превращают сущностей в производственные входы. Захват позднего моба обходит измерение, босса или ресурсный этап.",
+        "Классифицируйте сущностей по этапам, блокируйте боссов и носителей допусков, удерживайте спавн и сверяйте выходы с политикой симуляции."
+      ]
+    },
+    {
+      "slug": "farming",
+      "icon": "enderio:farming_station",
+      "title_en": "Farming Station Inputs and Tool Wear",
+      "title_ru": "Входы фермы и износ инструментов",
+      "desc_en": [
+        "Automated farming depends on seeds, tools, power and output space. Tool breakage or seed depletion can leave part of a field silently idle.",
+        "Reserve seeds and replacement tools, separate products, stop on overflow and verify complete replanting over two harvest cycles."
+      ],
+      "desc_ru": [
+        "Автоматическая ферма зависит от семян, инструментов, энергии и выхода. Поломка инструмента или нехватка семян скрыто оставляет часть поля пустой.",
+        "Храните семена и запасные инструменты, разделяйте продукты, останавливайте при переполнении и проверяйте повторную посадку за два цикла."
+      ]
+    },
+    {
+      "slug": "dark_steel",
+      "icon": "enderio:dark_steel_ingot",
+      "title_en": "Dark Steel Equipment and Upgrade Cost",
+      "title_ru": "Снаряжение из тёмной стали и стоимость улучшений",
+      "desc_en": [
+        "Dark Steel equipment gains capabilities through upgrades and energy. Some upgrades can replace later movement, mining or protection systems.",
+        "Gate upgrade families by equivalent stages, account for energy and materials and prevent salvaging from producing more value than the original investment."
+      ],
+      "desc_ru": [
+        "Снаряжение из тёмной стали получает возможности улучшениями и энергией. Некоторые улучшения заменяют поздние системы движения, добычи или защиты.",
+        "Закрывайте семейства эквивалентными этапами, учитывайте энергию и материалы и не допускайте выгодной разборки сверх исходной стоимости."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:electrical_bus",
+      "title_en": "Project: Serviceable Ender IO Factory",
+      "title_ru": "Проект: обслуживаемая фабрика Ender IO",
+      "desc_en": [
+        "Build an Ender IO factory with automated alloy and grinding cells, multi-resource conduits, protected power and one stage-approved entity or farming system.",
+        "The project passes after two batches, documented channels, overflow shutdown, capacitor load audit and proof that no soul or equipment path bypasses progression."
+      ],
+      "desc_ru": [
+        "Постройте фабрику Ender IO с автоматическими сплавами и дроблением, многоресурсными кабелями, защищённой энергией и разрешённой системой сущностей или фермы.",
+        "Проект принят после двух партий, документированных каналов, остановки при переполнении, аудита нагрузки и отсутствия обходов через души или снаряжение."
+      ]
+    }
+  ]
+}
