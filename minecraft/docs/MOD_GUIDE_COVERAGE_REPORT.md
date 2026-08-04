@@ -7,20 +7,23 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 ## Summary
 
 - Manifest projects: **501**
-- User-facing projects: **0**
-- Unclassified projects: **501**
-- User-facing guides not reviewed: **0**
+- User-facing projects: **13**
+- Unclassified projects: **488**
+- User-facing guides not reviewed: **13**
 - Reviewed guides: **0**
 - Complete guides: **0**
-- Registry quest target: **0**
+- Registry quest target: **1350**
 
 ## Classification totals
 
-- `unclassified`: 501
+- `core_progression`: 13
+- `unclassified`: 488
 
 ## Guide status totals
 
-- `missing`: 501
+- `draft`: 12
+- `missing`: 488
+- `planned`: 1
 
 ## Next projects requiring classification
 
@@ -30,16 +33,11 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 - CurseForge project 64578 (`64578`); file `8192838`
 - CurseForge project 220311 (`220311`); file `7512691`
 - CurseForge project 220318 (`220318`); file `8288121`
-- CurseForge project 223565 (`223565`); file `7584459`
-- CurseForge project 223794 (`223794`); file `7027323`
 - CurseForge project 225738 (`225738`); file `7943676`
-- CurseForge project 226410 (`226410`); file `6611984`
-- CurseForge project 228404 (`228404`); file `8281896`
 - CurseForge project 228525 (`228525`); file `7606240`
 - CurseForge project 230976 (`230976`); file `5849090`
 - CurseForge project 231382 (`231382`); file `7130990`
 - CurseForge project 231484 (`231484`); file `8404453`
-- CurseForge project 231951 (`231951`); file `6733669`
 - CurseForge project 232758 (`232758`); file `8006281`
 - CurseForge project 233071 (`233071`); file `8019498`
 - CurseForge project 233105 (`233105`); file `8256201`
@@ -63,7 +61,6 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 - CurseForge project 244844 (`244844`); file `8205930`
 - CurseForge project 245506 (`245506`); file `8138370`
 - CurseForge project 245755 (`245755`); file `8450087`
-- CurseForge project 246640 (`246640`); file `8344249`
 - CurseForge project 246974 (`246974`); file `6776635`
 - CurseForge project 247007 (`247007`); file `8247199`
 - CurseForge project 247401 (`247401`); file `5739162`
@@ -89,9 +86,6 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 - CurseForge project 260262 (`260262`); file `8309722`
 - CurseForge project 260912 (`260912`); file `8256226`
 - CurseForge project 261924 (`261924`); file `7966196`
-- CurseForge project 266515 (`266515`); file `7600395`
-- CurseForge project 268387 (`268387`); file `7713533`
-- CurseForge project 268560 (`268560`); file `7904058`
 - CurseForge project 268566 (`268566`); file `7904061`
 - CurseForge project 268567 (`268567`); file `7904062`
 - CurseForge project 271740 (`271740`); file `6751464`
@@ -101,7 +95,6 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 - CurseForge project 277616 (`277616`); file `7374098`
 - CurseForge project 280441 (`280441`); file `7666340`
 - CurseForge project 280510 (`280510`); file `7115922`
-- CurseForge project 281849 (`281849`); file `8436524`
 - CurseForge project 282573 (`282573`); file `7774094`
 - CurseForge project 282574 (`282574`); file `7774085`
 - CurseForge project 282837 (`282837`); file `8381464`
@@ -124,4 +117,30 @@ The registry is sourced from the pack manifest. Every manifest project must be c
 - CurseForge project 300297 (`300297`); file `6974075`
 - CurseForge project 300331 (`300331`); file `6219029`
 - CurseForge project 301034 (`301034`); file `7783144`
-- ...and 401 more
+- CurseForge project 303278 (`303278`); file `7097877`
+- CurseForge project 306626 (`306626`); file `6948833`
+- CurseForge project 306770 (`306770`); file `7730942`
+- CurseForge project 306935 (`306935`); file `8370241`
+- CurseForge project 308380 (`308380`); file `7329743`
+- CurseForge project 308383 (`308383`); file `6828116`
+- CurseForge project 308989 (`308989`); file `5694215`
+- CurseForge project 309858 (`309858`); file `6875895`
+- CurseForge project 309927 (`309927`); file `6529130`
+- CurseForge project 312353 (`312353`); file `7875426`
+- ...and 388 more
+
+## User-facing guides not yet reviewed
+
+- Draconic Evolution (`223565`): tier `core`, status `draft`, target 90
+- Applied Energistics 2 (`223794`): tier `core`, status `draft`, target 140
+- ProjectE (`226410`): tier `core`, status `draft`, target 70
+- Actually Additions (`228404`): tier `core`, status `planned`, target 80
+- Immersive Engineering (`231951`): tier `core`, status `draft`, target 110
+- Mystical Agriculture (`246640`): tier `core`, status `draft`, target 100
+- Industrial Foregoing (`266515`): tier `core`, status `draft`, target 100
+- Extended Crafting (`268387`): tier `core`, status `draft`, target 60
+- Mekanism (`268560`): tier `core`, status `draft`, target 140
+- PneumaticCraft: Repressurized (`281849`): tier `core`, status `draft`, target 100
+- Create (`328085`): tier `core`, status `draft`, target 140
+- Modern Industrialization (`405388`): tier `core`, status `draft`, target 140
+- Powah! (`633483`): tier `core`, status `draft`, target 80
