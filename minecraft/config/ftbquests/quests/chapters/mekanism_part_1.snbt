@@ -1020,7 +1020,12 @@
 				id: "28277BA9F319240D"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8A8E42F64960F736"
+				type: "checkmark"
+			}
+			]
 			x: -13.5d
 			y: -3.0d
 		}
@@ -1038,7 +1043,12 @@
 				id: "1AE233B4CCFE99F7"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1594E225C3197AA4"
+				type: "checkmark"
+			}
+			]
 			x: -8.5d
 			y: -3.0d
 		}
@@ -1072,7 +1082,12 @@
 				id: "431D7329CFCAF880"
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1D87BED525FA4664"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -3.5d
 		}
@@ -1092,7 +1107,12 @@
 				id: "36FE95268A543F7C"
 				item: { count: 1, id: "mekanism:digital_miner" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3A00F3DB2984950B"
+				type: "checkmark"
+			}
+			]
 			x: -12.0d
 			y: 1.5d
 		}
@@ -1743,7 +1763,12 @@
 				id: "4983AE3B954BF2FE"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "86C1B54DD05E9D82"
+				type: "checkmark"
+			}
+			]
 			x: -3.5d
 			y: -3.5d
 		}
@@ -1779,7 +1804,12 @@
 				id: "054CC6FB5173F8A3"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DF5B6C79BE8602B9"
+				type: "checkmark"
+			}
+			]
 			x: -6.0d
 			y: -3.0d
 		}
@@ -1814,7 +1844,12 @@
 				id: "443DCB7E2E45F3DD"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1561712D4476A3EF"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: -2.0d
 		}
@@ -1880,7 +1915,12 @@
 				id: "1FE5AA0FF1F9BB51"
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "68A4E1ADA7862319"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 1.5d
 		}
@@ -2281,7 +2321,12 @@
 				id: "1C162E39F2ACA72F"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "55B242C9F35F0509"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -0.5d
 		}
@@ -2373,7 +2418,12 @@
 				id: "1DA159AA61B37545"
 				item: { count: 1, id: "mekanism:chemical_washer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A988D088B9DBA527"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 2.0d
 		}
@@ -2391,7 +2441,12 @@
 				id: "6F2B3A4206C129B0"
 				item: { count: 1, id: "mekanism:chemical_crystallizer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B58B0CFFCC0CBCFC"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 1.0d
 		}

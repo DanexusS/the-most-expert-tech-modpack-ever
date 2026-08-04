@@ -536,13 +536,7 @@
 		"Each &o&bmodule's effects can be tuned in the config&r screen bound to your desired &akeybind&r."
 	]
 	quest.08DB6154965F3519.quest_desc: ["&eHolds anything.&r Even things that shouldn't be held. Useful? &aYes.&r Safe? &cNo.&r"]
-	quest.08DDE018A804BFE7.quest_desc: [
-		"This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods."
-		""
-		"Can also be used to turn Coal or Charcoal into Compressed Carbon, Redstone into Compressed Redstone, Diamond into Compressed Diamond and Refined Obsidian Dust into Compressed Obsidian, all for use in the Metallurgic Infuser."
-		""
-		"Note: Compressed Carbon is worth 100 carbon; Coal is worth 10 and Charcoal is worth 20; hence it is better to refine coal and use Compressed Carbon."
-	]
+	quest.08DDE018A804BFE7.quest_desc: ["Enrichment improves ore yield and converts secondary materials into concentrated forms used by many later recipes.","Acceptance: separate ore and enrichment-material schedules, maintain a labelled concentrate buffer, process one stack unattended, and prevent scarce enrichment input from feeding a low-priority recipe."]
 	quest.08DDE018A804BFE7.quest_subtitle: "Breaks Raw Ores into Dusts"
 	quest.08FBA6F89454D23D.quest_desc: [
 		"The &dbest&r of the &dbest,&r &6no one can match you&r."
@@ -1428,22 +1422,7 @@
 		""
 		"A part designed to share energy between two ME Networks without sharing anything else, also used to craft Fluix ME Glass Cablr."
 	]
-	quest.162CE44400A63575.quest_desc: [
-		"The Metallurgic Infuser is the first step in the Mekanism tech tree. The Metallurgic Infuser is a machine used in the production of Steel Ingots, Bronze Ingot, Enriched Alloy, and Obsidian Ingots."
-		""
-		"{@pagebreak}"
-		""
-		"Infusing"
-		"In the purple slot the infusion material can be inserted, depending on the recipe for the item you are creating:"
-		""
-		"Redstone (Redstone, Block of Redstone or Enriched Redstone)"
-		"Diamond (Diamond Dust or Enriched Diamond)"
-		"Obsidian (Refined Obsidian Dust or Enriched Obsidian)"
-		"Carbon (Coal/Charcoal or Enriched Carbon)"
-		"Tin (Tin Dust or Enriched Tin)"
-		"Bio Fuel (Bio Fuel)"
-		"Mushroom (Red or Brown Mushrooms)"
-	]
+	quest.162CE44400A63575.quest_desc: ["The Infuser combines an item stream with a stored infusion type; changing recipes without clearing or separating infusion can contaminate the next batch.","Acceptance: dedicate or positively lock infusion inputs, expose remaining infusion, process sixteen mixed components, and recover safely from a full output without dumping valuable material."]
 	quest.162CE44400A63575.quest_subtitle: "The Starting Machine"
 	quest.162DD68C3B91FC5E.quest_desc: ["You will use these &acables&r to transport &eelectricity,&r plus the &btin cable&r is use in &6crafting.&r"]
 	quest.163BCEEEE08F3898.quest_desc: ["Pretty much makes some items &6magnetic.&r"]
@@ -1593,19 +1572,9 @@
 	quest.18A75E664BAC6425.quest_desc: ["Power is output via the three copper looking dots on the top of the multiblock, and the machine can be turned off by applying a redstone signal to the red dot on the front of the machine face. It does not have a GUI, so all input/output must be triggered manually."]
 	quest.18A75E664BAC6425.title: "Diesel Generator"
 	quest.18BCBC9235B04BE8.quest_subtitle: "“To live forever… at what cost?”"
-	quest.18D88932916C7A98.quest_desc: [
-		"Electrolytic Separator"
-		""
-		"The Electrolytic Separator sends controlled amounts of direct current into a fluid, breaking the bonds between its atoms. This process, known as electrolysis, allows you to produce useful gases from ordinary liquids."
-		""
-		"As the fluid is electrolyzed, the resulting gases are stored in the machine’s internal tanks. If either tank becomes full, the Separator will automatically shut down. To keep it running, connect Pressurized Tubes or any compatible gas transport system to both tanks."
-		""
-		"If you only need one type of gas, you can set the unused gas output to Dump to vent it into the environment. This prevents the machine from stopping when a tank fills up."
-		""
-		"You’ll need several of these if you plan to build a Tier 2 Ore Processing Factory later on. For now, start by creating one and using it to electrolyze the most basic fluid: Water."
-	]
+	quest.18D88932916C7A98.quest_desc: ["Electrolysis creates two gases from one fluid; allowing either gas tank to fill can stop production even when the other gas is urgently needed.","Acceptance: buffer both gases, configure dumping only for a documented surplus, preserve emergency oxygen, and demonstrate continuous operation through one complete upstream batch."]
 	quest.18D88932916C7A98.quest_subtitle: "Time to Break It Down"
-	quest.18D88932916C7A98.title: "The Start of a Ore Factory"
+	quest.18D88932916C7A98.title: "Electrolytic Separator — Gas Balance"
 	quest.18DA07CE1ACC69EF.quest_desc: [
 		"In order to teach the &4ME Advanced Pattern Provider&r where to send your items, a special device is needed to encode that"
 		"information. You can use a right-click with it in hand to open its GUI."
@@ -3540,11 +3509,7 @@
 	quest.3979E578C63823DB.quest_desc: ["More storage."]
 	quest.398F2CE7DBE4A31B.quest_desc: ["The &aChaotic Fusion Crafting Injector&r is the highest &btier&r available, offering unmatched energy intake speed. This results in the quickest crafting times when used with the &dFusion Crafting Core&r."]
 	quest.39959176F27817A1.quest_desc: ["The &aChaotic Chest Piece&r has a grid of &b10x8&r for modules."]
-	quest.3999760881C855FA.quest_desc: [
-		"The Chemical Crystallizer turns Clean Slurry into Crystals, Lithium into Lithium Dust and Antimatter into Antimatter Pellet. This is one of the select many machines in Mekanism to have dedicated, unchangeable sides, for input and output, with the exception of Item's config sides."
-		""
-		"Input is gas (uses Pressurized Tube) and output is items (uses Logistical Transporter)"
-	]
+	quest.3999760881C855FA.quest_desc: ["Crystallization converts clean slurry into solid crystals; its batch rate determines whether the expensive fivefold chemical infrastructure can actually run continuously.","Acceptance: crystallize one full clean-slurry batch, route crystals by material, prevent mixed outputs, and record the slowest stage across dissolution, washing and crystallization."]
 	quest.3999760881C855FA.quest_subtitle: "Turns Ore Slurry into Crystals"
 	quest.39AC44DD78BB695F.quest_desc: ["A basic yet robust power unit built for generating strong rotational energy. It’s reliable and easy to maintain, making it suitable for medium to large mechanical systems."]
 	quest.39ADBE9A60170296.quest_desc: ["Has 27 more filter slots and is 5x faster than the regular Importer. Also has the Stack Upgrade integrated."]
@@ -4615,7 +4580,7 @@
 		""
 		"This card is ideal for large-scale mining operations, automating the collection of vast amounts of resources."
 	]
-	quest.4AFF81D3D0E78255.quest_desc: ["The Chemical Washer turns Slurry into Clean Slurry using Water. The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer. Note that unlike most Mekanism machines this one has fixed \"in\" and \"out\" sides for the mineral flow. \"In\" will be on the left when first placed and \"out\" is on the right. It can of course be rotated with the Configurator. Water is piped in through the top of the machine."]
+	quest.4AFF81D3D0E78255.quest_desc: ["The Washer converts dirty slurry to clean slurry and can stall the entire fivefold line when water, chemical storage or output capacity is undersized.","Acceptance: guarantee water reserve, separate dirty and clean networks, expose tank fill levels, and process a full dissolution batch without cross-contamination or manual tank clearing."]
 	quest.4AFF81D3D0E78255.quest_subtitle: "Giving Ores a Bath"
 	quest.4B492F4CA6EBC3E8.quest_desc: ["Found within the &aToxic caves&r, only &cdeath&r (and a new&6 cat variant&r within these caves) can stop the &cexplosion&r once it has &ebegan&r."]
 	quest.4B4FD4F240F79E11.quest_desc: [
@@ -4891,14 +4856,8 @@
 		""
 		"It has a small AE energy storage buffer, so if not on a network with an energy cell, inserting or extracting too many items at once may cause it to brown out."
 	]
-	quest.4F1C04C0F6769825.quest_desc: [
-		"The Chemical Injection Chamber uses Hydrogen Chloride gas to convert Ores into 4 Shards and Raw Ores into 8 Shards."
-		""
-		"This marks the beginning of 4x ore processing and requires a steady supply of Hydrogen Chloride, which can only be produced with a Thermal Evaporation Plant."
-		""
-		"This machine is the next step in expanding your Ore Processing Factory. Place it to the left of your Purification Chamber to integrate it into your existing setup and continue your progression."
-	]
-	quest.4F1C04C0F6769825.title: "The Start of a Tier 3 Ore Factory"
+	quest.4F1C04C0F6769825.quest_desc: ["Chemical injection adds hydrogen chloride and another processing stage; gas starvation or excess intermediate stock makes the nominal yield irrelevant.","Acceptance: provide monitored hydrogen chloride, isolate shards from clumps, process sixteen ore units end to end, and shut down upstream machines before any intermediate buffer overflows."]
+	quest.4F1C04C0F6769825.title: "Chemical Injection Chamber — Fourfold Chain"
 	quest.4F1FA866A2F510A1.quest_desc: ["Obtained by putting an Electrum Ingot in a Rolling Mill."]
 	quest.4F1FA866A2F510A1.quest_subtitle: "Crafting component."
 	quest.4F216AB740548F80.quest_desc: ["A powerful industrial engine designed to generate massive amounts of rotational energy. Ideal for driving heavy machinery, large-scale factories, and advanced automation setups."]
@@ -4914,14 +4873,8 @@
 	]
 	quest.4F336B6358EC46BB.quest_subtitle: "Good for building and stealing stuff."
 	quest.4F35D04721DFC9FF.title: "&bOur First&r &dRitual&r"
-	quest.4F436770D30D8520.quest_desc: [
-		"We will need to add 3 more machines to our current setup."
-		""
-		"The Chemical Dissolution Chamber is the first machine in the 5x ore processing setup. It turns Raw Ores into Slurry using Sulfuric Acid."
-		""
-		"The machine uses 100mB of Sulfuric Acid for every ore dissolved and outputs 1000mb of Slurry. This Slurry needs washing in the Chemical Washer."
-	]
-	quest.4F436770D30D8520.title: "The Start of a Tier 4 Ore Factory"
+	quest.4F436770D30D8520.quest_desc: ["Dissolution converts ore into dirty slurry using sulfuric acid and marks the hazardous entrance to the fivefold processing chain.","Acceptance: acid production is separately buffered, dirty slurry has a dedicated route, no chemical is silently dumped, and loss of washing capacity automatically stops ore and acid input."]
+	quest.4F436770D30D8520.title: "Chemical Dissolution — Slurry Boundary"
 	quest.4F4B2A6997F25A5A.quest_desc: ["The chance to roll &brarer&r or &bmore&r &denchantments.&r Boosting &dArcana&r lets you pull from the deep end of the &denchantment&r pool think &amulti enchant&r combos or harder to get effects."]
 	quest.4F4B2A6997F25A5A.title: "Arcana"
 	quest.4F51E1672ECE7D3B.quest_desc: ["A specialized machine that works with Spatial Storage Cells to capture or deploy entire spatial regions. It must be connected to an ME network and placed within a frame of Spatial Pylons marking the area to be stored."]
@@ -5464,11 +5417,7 @@
 	quest.583A7AA84FEC027F.title: "Build the Builder Building"
 	quest.58445E5B3957ACC8.quest_desc: ["&6Glowstone Ingots&r can be used for making &eGlowstone Armor&r, &eRefined Glowstone Tools&r and &eTeleporter Frames&r."]
 	quest.58697C7A011F53FE.quest_desc: ["The &eSlimey Generator&r uses &aSlime-related Items&r such as &bSlimeballs&r and &dMagma Cream&r to produce &cEnergy&r. It’s a quirky way to convert your &aSlime&r collection into useful &cPower&r, especially if you have a slime farm."]
-	quest.587A19FC348387C5.quest_desc: [
-		"The Pressurized Reaction Chamber (PRC) is used primarily to create Substrate (to create HDPE Pellets), HDPE Pellets (to create HDPE Sheets), and Ethylene (an efficient source of fuel used in the Gas-Burning Generator). It has a variable speed and energy usage dependent on the materials/gasses it is creating."
-		""
-		"The Pressurized Reaction Chamber accepts a liquid, a gas, and a material(s); it uses these three substances to create another material(s) and some leftover gas. Like many other Mekanism machines, it has configurable sides; by default, it accepts gas from the left, accepts liquid from the back, and outputs gas on the right."
-	]
+	quest.587A19FC348387C5.quest_desc: ["The PRC combines items, fluids and gases; a recipe can appear idle when any one domain is missing, full or connected to the wrong side.","Acceptance: label every side, buffer all three domains, complete eight cycles unattended, recover secondary outputs, and provide a visible diagnostic for the missing input that stops production."]
 	quest.58C2ABED43B2EA61.quest_desc: ["To get a Data Model, you must first craft a Data Model Framework, and use it on the target entity to build the model. Once you have your model, you will have to train it."]
 	quest.58CA2853D9620919.quest_desc: ["Place &cinside machines&r to increase thier &boverclock.&r"]
 	quest.58D711E1E495E3C4.quest_subtitle: "“In darkness, I bring light.”"
@@ -6577,16 +6526,7 @@
 	quest.6BFE5D35265080E6.quest_subtitle: "Find the Scorched Mines"
 	quest.6C1BBA559963B3DF.title: "Little Book o' &cDemons&r"
 	quest.6C226F99E675B063.quest_desc: ["Used to fuel &6Agumenting tables&r. Put this sigil in the &lLeft-side lower slot&r below the item your upgrading."]
-	quest.6C25D42C36175BF4.quest_desc: [
-		"The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump."
-		""
-		"The oxygen can be provided externally as gas, internally with an oxygen filled Gas Tank or flint. (See the gas page for how to make oxygen)"
-		""
-		"For example: you could transform Copper Ore into 3 Copper Clump."
-		"Clumps can then be placed in a Crusher, producing dirty ores, which can be enriched in an Enrichment Chamber to create regular dusts."
-		""
-		"Additionally you can turn gravel into flint."
-	]
+	quest.6C25D42C36175BF4.quest_desc: ["Purification begins the threefold ore route and depends on stable oxygen supply, predictable raw-ore intake and downstream crushing capacity.","Acceptance: process one stack of raw ore, buffer oxygen and clumps, prevent downstream saturation, and calculate whether the whole chain—not this machine alone—meets the target throughput."]
 	quest.6C25D42C36175BF4.quest_subtitle: "It makes Clumps"
 	quest.6C29C97FD42F9CF2.quest_desc: ["Litteraly just the hat but... chestplate, also naturally has a higher tier cap."]
 	quest.6C3B025A4B223E82.quest_desc: [
@@ -7566,11 +7506,7 @@
 	quest.7A9DF67899445C99.title: "Extra Drop Upgrades"
 	quest.7AA18B409FB698D2.title: "&fFlux Block"
 	quest.7AA7094E591A373B.quest_desc: ["A gearbox with all 4 sides spinning in the same direction."]
-	quest.7AE502EDB73BD57A.quest_desc: [
-		"The Crusher crushes, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel."
-		""
-		"By defualt, it consumes 50 J/t and processes one item every 10 seconds."
-	]
+	quest.7AE502EDB73BD57A.quest_desc: ["The Crusher supports ore processing and chemical production, so one uncontrolled shared line can block unrelated recipes with the wrong dust or biofuel product.","Acceptance: filter each input route, separate outputs, complete sixteen operations from two recipe families, and stop intake when either destination cannot accept more material."]
 	quest.7AE502EDB73BD57A.quest_subtitle: "It's Crushing Time"
 	quest.7AEAF2E101B5D652.quest_desc: [""]
 	quest.7AEAF2E101B5D652.title: "&fFlux Plug"
@@ -7788,15 +7724,7 @@
 	quest.7E6AC4753CD6BF39.quest_desc: ["More storage."]
 	quest.7E70AB66644F1C9D.quest_subtitle: "Random Bullshit GO!"
 	quest.7E951F2E43900FC0.quest_desc: ["The &dultimate space suit&r, offering &bbuilt-in flight&r, &cheat resistance&r, and advanced protection for &eVenus&r and &9beyond.&r"]
-	quest.7EA6B942D1294ED6.quest_desc: [
-		"The &9Digital Miner&r can be configured to mine ores only within a certain area. The &9Digital Miner&r can also be set to &nsilk touch&r ores, but this results in higher power consumption."
-		""
-		"Like all other &7Mekanism&r machines, the &9Digital Miner&r can automatically remove ores from its &einventory&r for automated processing by other machines."
-		""
-		"This machine &ncan mine for you&r!"
-		""
-		"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
-	]
+	quest.7EA6B942D1294ED6.quest_desc: ["The Digital Miner is a strategic resource jump and must be treated as a controlled extraction project rather than an unlimited replacement for every mine.","Acceptance: use explicit tag or item filters, bound radius and height, provide return transport and energy reserve, review replacement-block behavior, and verify the machine cannot extract progression-locked resources."]
 	quest.7EB1BE897B2B8C1A.quest_desc: ["A mechanical component that redirects rotational force vertically while keeping the same rotational direction. Perfect for compact contraptions where space is limited and precise gear alignment is essential."]
 	quest.7EC01E7DB045DB05.quest_subtitle: "Don't forget the augments."
 	quest.7EC01E7DB045DB05.title: "Augments"
@@ -10220,4 +10148,12 @@
 	quest.33DD68B85F163F50.title: "Import Bus — Bounded Extraction"
 	quest.61C3E32E629F6E1E.title: "Export Bus — Controlled Stocking"
 	quest.726DF1B2F0DFE008.title: "Quantum Ring — Cross-Dimensional Reliability"
+	quest.162CE44400A63575.title: "Metallurgic Infuser — Infusion Accounting"
+	quest.08DDE018A804BFE7.title: "Enrichment Chamber — Concentrate Buffer"
+	quest.7AE502EDB73BD57A.title: "Crusher — Controlled Reduction"
+	quest.6C25D42C36175BF4.title: "Purification Chamber — Threefold Ore Contract"
+	quest.4AFF81D3D0E78255.title: "Chemical Washer — Slurry Purity"
+	quest.3999760881C855FA.title: "Chemical Crystallizer — Crystal Throughput"
+	quest.587A19FC348387C5.title: "Pressurized Reaction Chamber — Three-Domain Recipe Control"
+	quest.7EA6B942D1294ED6.title: "Digital Miner — Bounded Extraction Project"
 }
