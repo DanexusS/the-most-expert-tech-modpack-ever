@@ -10,21 +10,25 @@
 - Current parsed quests: **2958**
 - Remaining quest budget: **2442**
 - Gated outputs: **58**
-- Gated outputs without a recipe declaration: **7**
+- Gated outputs without an authoritative path: **1**
+- Authorized process or unique-permission outputs: **6**
 
 ## Outputs still requiring an authoritative path
 
 - `avaritia:infinity_ingot`
-- `kubejs:lunar_seal`
-- `kubejs:mortum_seal`
-- `kubejs:skythern_seal`
-- `kubejs:vethea_seal`
-- `mekanism:pellet_antimatter`
-- `pneumaticcraft:printed_circuit_board`
+
+## Authorized non-crafting paths
+
+- `kubejs:lunar_seal` — unique reusable quest permission
+- `kubejs:mortum_seal` — unique reusable quest permission
+- `kubejs:skythern_seal` — unique reusable quest permission
+- `kubejs:vethea_seal` — unique reusable quest permission
+- `mekanism:pellet_antimatter` — Mekanism SPS production process
+- `pneumaticcraft:printed_circuit_board` — PneumaticCraft etching and UV process
 
 ## Outputs mentioned by multiple recipe definitions
 
-These are not automatically failures because the v1 override removes legacy outputs at runtime, but each entry requires bypass review.
+These are not automatically failures because the last v1 layer removes legacy outputs at runtime, but each entry remains in the bypass review.
 
 - `ae2:controller`
 - `avaritia:extreme_crafting_table`
