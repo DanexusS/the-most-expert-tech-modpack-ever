@@ -43,11 +43,11 @@ var NAMESPACE_PROFILES = Object.freeze({
 })
 
 var BOSS_NAMESPACE_PROFILES = Object.freeze({
-  cataclysm: Object.freeze({ health: 6.0, damage: 1.85, armor: 10.0, knockback: 0.40 }),
-  mowziesmobs: Object.freeze({ health: 5.0, damage: 1.75, armor: 8.0, knockback: 0.35 }),
-  divinerpg: Object.freeze({ health: 5.0, damage: 1.80, armor: 8.0, knockback: 0.35 }),
-  twilightforest: Object.freeze({ health: 5.0, damage: 1.70, armor: 8.0, knockback: 0.35 }),
-  iceandfire: Object.freeze({ health: 5.5, damage: 1.85, armor: 9.0, knockback: 0.40 }),
+  cataclysm: Object.freeze({ health: 5.0, damage: 1.75, armor: 8.0, knockback: 0.35 }),
+  mowziesmobs: Object.freeze({ health: 4.5, damage: 1.65, armor: 6.0, knockback: 0.30 }),
+  divinerpg: Object.freeze({ health: 4.5, damage: 1.70, armor: 6.0, knockback: 0.30 }),
+  twilightforest: Object.freeze({ health: 4.5, damage: 1.60, armor: 6.0, knockback: 0.30 }),
+  iceandfire: Object.freeze({ health: 5.0, damage: 1.75, armor: 7.0, knockback: 0.35 }),
   minecraft: Object.freeze({ health: 2.5, damage: 1.45, armor: 4.0, knockback: 0.20 })
 })
 
@@ -244,4 +244,4 @@ EntityEvents.spawned(function(event) {
   applyProfile(entity, profileFor(entityId))
 })
 
-console.info('[CombatScaling] Multi-attribute expert combat profile v1.0.1 loaded.')
+console.info('[CombatScaling] Multi-attribute expert combat profile v1.1.0 loaded.')

@@ -41,7 +41,12 @@
 				id: "A17E4D09B8C2F111"
 				item: { count: 1, id: "kubejs:field_engineering_kit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A17E4D09B8C2F1A2"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -56,7 +61,12 @@
 				id: "B29F510AC7D3E212"
 				item: { count: 1, id: "kubejs:power_regulation_unit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B29F510AC7D3E2B3"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -71,7 +81,12 @@
 				id: "C3A0621BD8E4F313"
 				item: { count: 1, id: "kubejs:materials_analysis_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C3A0621BD8E4F3C4"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 3.0d
 		}
@@ -96,7 +111,12 @@
 				id: "4F0ADA3574A9678C"
 				item: { count: 1, id: "kubejs:mechanical_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5E5CFA388D9EC6D5"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -111,7 +131,12 @@
 				id: "D4B1732CE9F50414"
 				item: { count: 1, id: "kubejs:kinetic_interface" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D4B1732CE9F504E6"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -132,7 +157,12 @@
 				id: "6B3D6CAB641E65ED"
 				item: { count: 1, id: "kubejs:industrial_frame" }
 				type: "item"
-			}]
+			}
+			{
+				id: "16838B1A7CA4BEF7"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -156,7 +186,12 @@
 				id: "7ADAB6CBF9AA5A76"
 				item: { count: 1, id: "kubejs:precision_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "31E4D1B55CA654A8"
+				type: "checkmark"
+			}
+			]
 			x: 15.0d
 			y: 0.0d
 		}
@@ -177,7 +212,12 @@
 				id: "429ECBF37F855A8E"
 				item: { count: 1, id: "kubejs:chemical_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "33D42DC311D2F9B9"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 0.0d
 		}
@@ -198,7 +238,12 @@
 				id: "6388B08F2D5B98CD"
 				item: { count: 1, id: "kubejs:bioindustrial_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0D54023AEE59EDA0"
+				type: "checkmark"
+			}
+			]
 			x: 21.0d
 			y: 0.0d
 		}
@@ -219,7 +264,12 @@
 				id: "3FFA29A6510D76F8"
 				item: { count: 1, id: "kubejs:quantum_logic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4377C3797509D9B1"
+				type: "checkmark"
+			}
+			]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -240,7 +290,12 @@
 				id: "34F2ECF495842CE7"
 				item: { count: 1, id: "kubejs:resonant_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3EE8E42D0138A3C2"
+				type: "checkmark"
+			}
+			]
 			x: 27.0d
 			y: 0.0d
 		}
@@ -261,7 +316,12 @@
 				id: "06485851AA041A9A"
 				item: { count: 1, id: "kubejs:draconic_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "742C709923A5ABD3"
+				type: "checkmark"
+			}
+			]
 			x: 30.0d
 			y: 0.0d
 		}
@@ -282,7 +342,12 @@
 				id: "63B750350D14A0DA"
 				item: { count: 1, id: "kubejs:transmutation_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6B91727E7931BDE4"
+				type: "checkmark"
+			}
+			]
 			x: 33.0d
 			y: 0.0d
 		}
@@ -303,7 +368,12 @@
 				id: "14050E10B3BD99B8"
 				item: { count: 1, id: "kubejs:cosmic_catalyst" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0D199D42E619C8F5"
+				type: "checkmark"
+			}
+			]
 			x: 36.0d
 			y: 0.0d
 		}
