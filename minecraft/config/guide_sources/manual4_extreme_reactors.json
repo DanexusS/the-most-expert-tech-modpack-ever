@@ -1,0 +1,145 @@
+{
+  "slug": "extreme_reactors",
+  "lessons": [
+    {
+      "slug": "multiblock",
+      "icon": "bigreactors:reactorcasing",
+      "title_en": "Reactor Multiblock Fundamentals",
+      "title_ru": "Основы мультиблочного реактора",
+      "desc_en": [
+        "Extreme Reactors uses formed structures whose size, ports, control rods and internal layout determine actual behavior.",
+        "Plan input, waste, power and coolant interfaces before construction, leave service access and verify the minimum structure before expanding."
+      ],
+      "desc_ru": [
+        "Extreme Reactors использует формируемые структуры, а размер, порты, стержни и внутренняя схема определяют поведение.",
+        "Планируйте вход, отходы, энергию и охлаждение до строительства, оставляйте обслуживание и проверяйте минимальную структуру до расширения."
+      ]
+    },
+    {
+      "slug": "fuel",
+      "icon": "bigreactors:yellorium_ingot",
+      "title_en": "Fuel Supply and Net Energy",
+      "title_ru": "Топливное снабжение и чистая энергия",
+      "desc_en": [
+        "Reactor output depends on fuel supply and burn efficiency. A high instantaneous rate can waste fuel and create more heat than the system uses.",
+        "Measure energy per ingot, maintain startup fuel, stop insertion on full storage and compare several control-rod settings over complete burn intervals."
+      ],
+      "desc_ru": [
+        "Мощность реактора зависит от топлива и эффективности сгорания. Высокий мгновенный режим тратит топливо и создаёт лишнее тепло.",
+        "Измеряйте энергию на слиток, храните стартовый запас, останавливайте подачу при полном хранилище и сравнивайте положения стержней за полный интервал."
+      ]
+    },
+    {
+      "slug": "waste",
+      "icon": "bigreactors:cyanite_ingot",
+      "title_en": "Waste Extraction and Reprocessing",
+      "title_ru": "Извлечение и переработка отходов",
+      "desc_en": [
+        "Spent fuel and waste products are part of the reactor material balance. Full waste storage can halt an otherwise healthy plant.",
+        "Extract automatically, reserve reprocessing capacity, expose fill levels and avoid conversions that return more useful fuel than the consumed material permits."
+      ],
+      "desc_ru": [
+        "Отработанное топливо и отходы входят в материальный баланс. Полное хранилище останавливает исправную установку.",
+        "Автоматизируйте выгрузку, резервируйте переработку, показывайте заполнение и исключайте конверсии, возвращающие больше полезного топлива, чем допускает вход."
+      ]
+    },
+    {
+      "slug": "cooling",
+      "icon": "bigreactors:reactorredstoneport",
+      "title_en": "Cooling and Internal Layout",
+      "title_ru": "Охлаждение и внутренняя компоновка",
+      "desc_en": [
+        "Internal materials and fuel-rod spacing change heat transfer, efficiency and power density. More fuel rods are not automatically better.",
+        "Model at least two layouts, record temperature and consumption at steady state and choose a design with thermal margin instead of maximum short-term output."
+      ],
+      "desc_ru": [
+        "Внутренние материалы и расстояние между стержнями меняют теплообмен, эффективность и плотность мощности. Больше стержней не всегда лучше.",
+        "Сравните минимум две схемы, измерьте температуру и расход в установившемся режиме и выбирайте запас, а не максимальный краткий выход."
+      ]
+    },
+    {
+      "slug": "control_rods",
+      "icon": "bigreactors:reactorcontrolrod",
+      "title_en": "Control Rods and Automatic Regulation",
+      "title_ru": "Управляющие стержни и автоматическое регулирование",
+      "desc_en": [
+        "Control rods trade reaction rate for efficiency and temperature. Fixed maximum output wastes fuel whenever demand falls.",
+        "Use storage thresholds or load signals, retain a safe default insertion and test controller loss so the reactor moves toward shutdown rather than uncontrolled output."
+      ],
+      "desc_ru": [
+        "Управляющие стержни меняют скорость реакции, эффективность и температуру. Постоянный максимум тратит топливо при снижении спроса.",
+        "Используйте пороги хранилища или нагрузки, сохраняйте безопасное положение по умолчанию и проверяйте потерю управления с переходом к остановке."
+      ]
+    },
+    {
+      "slug": "active_cooling",
+      "icon": "bigreactors:reactorfluidport",
+      "title_en": "Active Cooling and Steam Production",
+      "title_ru": "Активное охлаждение и производство пара",
+      "desc_en": [
+        "Actively cooled reactors convert heat into steam and shift the power plant boundary into fluid transport and turbine capacity.",
+        "Guarantee coolant return, buffer steam and water, interlock the reactor with downstream capacity and prevent a full steam destination from overheating or wasting fuel."
+      ],
+      "desc_ru": [
+        "Активно охлаждаемые реакторы превращают тепло в пар и переносят границу станции в жидкости и турбину.",
+        "Гарантируйте возврат охлаждения, буферизуйте пар и воду, связывайте реактор с нижней мощностью и не допускайте перегрева при полном выходе."
+      ]
+    },
+    {
+      "slug": "turbine",
+      "icon": "bigreactors:turbinehousing",
+      "title_en": "Turbine Rotor and Coil Design",
+      "title_ru": "Ротор и катушки турбины",
+      "desc_en": [
+        "Turbine performance depends on blade count, rotor mass, coil material, steam flow and target RPM.",
+        "Tune one variable at a time, record steady RPM and output, protect overspeed conditions and size the reactor for the turbine rather than venting excess steam."
+      ],
+      "desc_ru": [
+        "Работа турбины зависит от лопастей, массы ротора, материала катушек, потока пара и целевых оборотов.",
+        "Меняйте по одной переменной, записывайте устойчивые обороты и выход, защищайте от разгона и рассчитывайте реактор под турбину без сброса лишнего пара."
+      ]
+    },
+    {
+      "slug": "scaling",
+      "icon": "bigreactors:reactorpowersystem",
+      "title_en": "Scaling by Demand, Not Empty Space",
+      "title_ru": "Масштабирование по спросу, а не по свободному месту",
+      "desc_en": [
+        "Large reactors and turbines impose block, chunk, fuel and control costs. Oversizing can reduce efficiency and obscure failures.",
+        "Scale from measured average and peak demand, preserve maintenance corridors and add modules only when storage discharge proves the current plant insufficient."
+      ],
+      "desc_ru": [
+        "Большие реакторы и турбины требуют блоков, чанков, топлива и управления. Избыточный размер снижает эффективность и скрывает отказы.",
+        "Масштабируйте по среднему и пиковому спросу, сохраняйте обслуживание и расширяйте только после доказанной нехватки текущей станции."
+      ]
+    },
+    {
+      "slug": "safety",
+      "icon": "bigreactors:reactorcomputerport",
+      "title_en": "Plant Safety and Black Start",
+      "title_ru": "Безопасность станции и холодный запуск",
+      "desc_en": [
+        "A power plant must preserve enough external energy and fluid movement to restart after shutdown or control failure.",
+        "Maintain independent control power, define safe rod positions, test sensor loss and document the manual black-start sequence outside the plant network."
+      ],
+      "desc_ru": [
+        "Электростанция должна сохранять внешнюю энергию и движение жидкостей для запуска после остановки или отказа управления.",
+        "Поддерживайте независимое питание контроля, безопасное положение стержней, проверяйте потерю датчиков и документируйте ручной холодный запуск."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:resonant_power_cell",
+      "title_en": "Project: Regulated Reactor-Turbine Plant",
+      "title_ru": "Проект: регулируемая реакторно-турбинная станция",
+      "desc_en": [
+        "Build a measured reactor or reactor-turbine plant with automatic fuel, waste, coolant, storage and control-rod management.",
+        "The project passes after a steady-state efficiency report, full-storage shutdown, waste-overflow protection, black-start test and proof that fuel processing respects progression."
+      ],
+      "desc_ru": [
+        "Постройте измеренную реакторную или реакторно-турбинную станцию с автоматическим топливом, отходами, охлаждением, хранением и стержнями.",
+        "Проект принят после отчёта эффективности, остановки при полном хранилище, защиты отходов, холодного запуска и соблюдения прогрессии топлива."
+      ]
+    }
+  ]
+}
