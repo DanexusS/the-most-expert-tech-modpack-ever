@@ -13,6 +13,7 @@ Core static checks pass, but the 5–6k quest target, guide coverage, progressio
 | Create core route | PASS |
 | Immersive Engineering core route | PASS |
 | Modern Industrialization core route | PASS |
+| Applied Energistics 2 core route | PASS |
 
 ## Product evidence
 
