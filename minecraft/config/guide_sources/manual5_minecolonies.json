@@ -1,0 +1,145 @@
+{
+  "slug": "minecolonies",
+  "lessons": [
+    {
+      "slug": "planning",
+      "icon": "minecolonies:build_tool",
+      "title_en": "Colony Planning and Spatial Budget",
+      "title_ru": "Планирование колонии и пространственный бюджет",
+      "desc_en": [
+        "MineColonies is a long-lived logistics system whose buildings, roads, work areas and chunk boundaries interact. Early placement errors become expensive migrations.",
+        "Survey terrain, reserve expansion corridors, separate industry from housing and document the intended production role before placing each core building."
+      ],
+      "desc_ru": [
+        "MineColonies является долговременной логистической системой, где здания, дороги, области и чанки взаимодействуют. Ранние ошибки размещения дороги в переносе.",
+        "Исследуйте местность, оставляйте коридоры расширения, отделяйте промышленность от жилья и записывайте роль до установки каждого основного здания."
+      ]
+    },
+    {
+      "slug": "town_hall",
+      "icon": "minecolonies:blockhuttownhall",
+      "title_en": "Town Hall, Ownership and Colony Boundary",
+      "title_ru": "Ратуша, владение и граница колонии",
+      "desc_en": [
+        "The Town Hall establishes ownership, colony limits and administrative control. Moving or abandoning it affects every later worker and building.",
+        "Confirm team ownership, protect administrative access, record boundaries and avoid placing progression-critical machines where colony permissions can block recovery."
+      ],
+      "desc_ru": [
+        "Ратуша устанавливает владение, границы и управление. Её перенос или потеря влияет на всех работников и здания.",
+        "Проверьте владение команды, защитите административный доступ, запишите границы и не ставьте критические машины там, где разрешения мешают восстановлению."
+      ]
+    },
+    {
+      "slug": "builder",
+      "icon": "minecolonies:blockhutbuilder",
+      "title_en": "Builder Supply and Construction Queue",
+      "title_ru": "Снабжение строителя и очередь строительства",
+      "desc_en": [
+        "Builders consume exact material lists over long jobs. Missing one decorative or processed block can stop a project while most materials remain unused.",
+        "Review the bill of materials, automate recurring blocks, stage supplies by project and keep one builder free for repairs instead of filling every queue with expansion."
+      ],
+      "desc_ru": [
+        "Строители расходуют точные списки материалов. Нехватка одного декоративного или обработанного блока останавливает проект при наличии остальных.",
+        "Проверяйте ведомость, автоматизируйте повторяющиеся блоки, комплектуйте по проектам и оставляйте строителя для ремонта, а не занимайте всю очередь расширением."
+      ]
+    },
+    {
+      "slug": "warehouse",
+      "icon": "minecolonies:blockhutwarehouse",
+      "title_en": "Warehouse and Inventory Ownership",
+      "title_ru": "Склад и владение инвентарями",
+      "desc_en": [
+        "The warehouse is the colony's shared material memory. Unsorted external insertion and unrestricted extraction can make workers compete with the player's factory.",
+        "Define import and export boundaries, reserve construction stock, expose shortages and keep progression-gated components outside automatic colony consumption unless explicitly approved."
+      ],
+      "desc_ru": [
+        "Склад является общей материальной памятью колонии. Несортированный внешний вход и бесконтрольная выгрузка заставляют работников конкурировать с фабрикой игрока.",
+        "Задавайте границы импорта и экспорта, резервируйте строительство, показывайте дефициты и держите закрытые компоненты вне автоматического расходования без разрешения."
+      ]
+    },
+    {
+      "slug": "couriers",
+      "icon": "minecolonies:blockhutdeliveryman",
+      "title_en": "Courier Capacity and Request Flow",
+      "title_ru": "Мощность курьеров и поток запросов",
+      "desc_en": [
+        "Couriers turn warehouse stock into delivered work. Too few couriers create hidden queues; too many cannot fix missing production or poor roads.",
+        "Measure outstanding requests, improve routes, assign priority buildings and verify that one blocked request does not prevent delivery to unrelated critical jobs."
+      ],
+      "desc_ru": [
+        "Курьеры превращают складской запас в выполненную доставку. Нехватка создаёт скрытую очередь, а избыток не исправляет отсутствующее производство или плохие дороги.",
+        "Измеряйте запросы, улучшайте маршруты, назначайте приоритеты и не позволяйте одному заблокированному заказу останавливать посторонние критические работы."
+      ]
+    },
+    {
+      "slug": "workers",
+      "icon": "minecolonies:blockhutminer",
+      "title_en": "Worker Chains and Internal Specialization",
+      "title_ru": "Цепочки работников и внутренняя специализация",
+      "desc_en": [
+        "Worker buildings form production chains: raw extraction, processing, crafting and delivery. One missing profession can force repeated manual intervention.",
+        "Map every colony recipe to a producer, keep tools and food supplied, compare internal throughput with external machines and avoid duplicate workers with no demand."
+      ],
+      "desc_ru": [
+        "Рабочие здания образуют цепочки добычи, переработки, крафта и доставки. Отсутствие одной профессии заставляет постоянно вмешиваться вручную.",
+        "Назначайте производителя каждому рецепту, снабжайте инструментами и едой, сравнивайте выпуск с внешними машинами и не создавайте лишних работников без спроса."
+      ]
+    },
+    {
+      "slug": "research",
+      "icon": "minecolonies:blockhutuniversity",
+      "title_en": "Research as Capability Progression",
+      "title_ru": "Исследования как прогрессия возможностей",
+      "desc_en": [
+        "University research grants colony-wide capability, capacity and efficiency. Research cost and duration should correspond to the infrastructure it improves.",
+        "Choose branches from measured bottlenecks, preserve research materials, document prerequisites and prevent colony research from unlocking player technology ahead of the main stage."
+      ],
+      "desc_ru": [
+        "Исследования университета дают общеколониальные возможности, ёмкость и эффективность. Стоимость и время должны соответствовать улучшаемой инфраструктуре.",
+        "Выбирайте ветви по измеренным узким местам, сохраняйте материалы, документируйте требования и не открывайте технологии игрока раньше основной прогрессии."
+      ]
+    },
+    {
+      "slug": "food_health",
+      "icon": "minecolonies:blockhutrestaurant",
+      "title_en": "Food, Health and Workforce Stability",
+      "title_ru": "Еда, здоровье и устойчивость рабочей силы",
+      "desc_en": [
+        "Worker output depends on food, health, housing, tools and pathing. Production machines cannot compensate for citizens who spend most time recovering or walking.",
+        "Provide local food and medical supply, measure travel time, maintain tool stock and treat population stability as part of industrial capacity."
+      ],
+      "desc_ru": [
+        "Выпуск работников зависит от еды, здоровья, жилья, инструментов и маршрутов. Машины не компенсируют жителей, занятых лечением или ходьбой.",
+        "Обеспечьте локальную еду и медицину, измеряйте путь, храните инструменты и учитывайте устойчивость населения как часть промышленной мощности."
+      ]
+    },
+    {
+      "slug": "raids",
+      "icon": "minecolonies:blockhutguardtower",
+      "title_en": "Raids, Guards and Recovery Stock",
+      "title_ru": "Рейды, охрана и запас восстановления",
+      "desc_en": [
+        "Raids test colony layout, guard coverage and replacement logistics. A defense that consumes all industrial stock can win the battle and stop the colony.",
+        "Layer guard coverage, protect warehouse access, reserve replacement gear and define a post-raid repair queue before increasing colony size."
+      ],
+      "desc_ru": [
+        "Рейды проверяют планировку, охрану и логистику замены. Защита, расходующая весь промышленный запас, выигрывает бой и останавливает колонию.",
+        "Создавайте слои охраны, защищайте склад, резервируйте снаряжение и задавайте очередь ремонта после рейда до роста колонии."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:industrial_frame",
+      "title_en": "Project: Self-Sustaining Industrial Colony",
+      "title_ru": "Проект: самодостаточная промышленная колония",
+      "desc_en": [
+        "Build a colony district where warehouse, couriers, builders and at least three worker chains complete a construction project without direct item delivery by the player.",
+        "The project passes after request-flow measurement, protected progression stock, research audit, raid recovery plan and a second repeated construction using internal supply."
+      ],
+      "desc_ru": [
+        "Постройте район, где склад, курьеры, строители и минимум три цепочки работников завершают проект без прямой передачи предметов игроком.",
+        "Проект принят после измерения запросов, защиты запаса прогрессии, аудита исследований, плана восстановления после рейда и второго строительства внутренним снабжением."
+      ]
+    }
+  ]
+}
