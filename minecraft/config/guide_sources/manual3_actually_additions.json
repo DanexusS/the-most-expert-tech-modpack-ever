@@ -1,0 +1,145 @@
+{
+  "slug": "actually_additions",
+  "lessons": [
+    {
+      "slug": "black_quartz",
+      "icon": "actuallyadditions:black_quartz",
+      "title_en": "Black Quartz and Early Analysis",
+      "title_ru": "Чёрный кварц и ранний анализ",
+      "desc_en": [
+        "Black Quartz is an early analytical and electrical material used by several Actually Additions systems and the pack's common power-regulation branch.",
+        "Maintain a measured supply, avoid consuming the entire stock on decoration and preserve enough material for reconstruction, circuits and first power components."
+      ],
+      "desc_ru": [
+        "Чёрный кварц является ранним аналитическим и электротехническим материалом для систем Actually Additions и общей ветки регулирования энергии.",
+        "Поддерживайте измеренный запас, не расходуйте всё на декор и сохраняйте материал для реконструкции, схем и первых энергетических компонентов."
+      ]
+    },
+    {
+      "slug": "reconstructor",
+      "icon": "actuallyadditions:atomic_reconstructor",
+      "title_en": "Atomic Reconstructor and Lens Control",
+      "title_ru": "Атомный реконструктор и управление линзами",
+      "desc_en": [
+        "The Atomic Reconstructor transforms blocks and items using energy and optional lenses. An unrestricted beam can convert the wrong inventory or surrounding blocks.",
+        "Enclose the beam, control activation, isolate input batches, document lens purpose and verify the output is removed before the next pulse."
+      ],
+      "desc_ru": [
+        "Атомный реконструктор преобразует блоки и предметы энергией и линзами. Бесконтрольный луч меняет неверный инвентарь или окружение.",
+        "Закрывайте луч, управляйте запуском, изолируйте партии, документируйте назначение линзы и удаляйте выход до следующего импульса."
+      ]
+    },
+    {
+      "slug": "empowerer",
+      "icon": "actuallyadditions:empowerer",
+      "title_en": "Empowerer Symmetry and Energy",
+      "title_ru": "Симметрия и энергия усилителя",
+      "desc_en": [
+        "The Empowerer combines a central item, four display stands and energy. Correct ingredients still fail when geometry, power or extraction is inconsistent.",
+        "Label stand positions, provide independent buffering, insert exact quantities and recover unused materials after a cancelled or incompatible recipe."
+      ],
+      "desc_ru": [
+        "Усилитель объединяет центральный предмет, четыре стенда и энергию. Даже правильные ингредиенты не работают при неверной геометрии, питании или выгрузке.",
+        "Подписывайте позиции, создавайте независимый буфер, подавайте точные количества и возвращайте неиспользованное после отмены или несовместимого рецепта."
+      ]
+    },
+    {
+      "slug": "power",
+      "icon": "actuallyadditions:energizer",
+      "title_en": "Energizer, Enervator and Power Boundaries",
+      "title_ru": "Зарядка, разрядка и границы энергии",
+      "desc_en": [
+        "Charging and discharging devices move energy between items and the factory. Portable cells can silently drain protected reserves or feed unintended machines.",
+        "Separate charging and recovery buses, set minimum reserves, filter allowed items and verify a full portable battery cannot bypass a later energy-storage stage."
+      ],
+      "desc_ru": [
+        "Устройства зарядки и разрядки перемещают энергию между предметами и фабрикой. Переносные ячейки незаметно расходуют защищённый резерв или питают лишние машины.",
+        "Разделяйте зарядную и аварийную шины, задавайте минимумы, фильтруйте предметы и не допускайте обхода позднего хранения переносной батареей."
+      ]
+    },
+    {
+      "slug": "laser_relays",
+      "icon": "actuallyadditions:laser_relay",
+      "title_en": "Laser Relays and Network Ownership",
+      "title_ru": "Лазерные реле и владение сетью",
+      "desc_en": [
+        "Laser relays move energy, items or fluids through wireless links. Dense relay webs become difficult to audit and can connect stages unintentionally.",
+        "Label networks, separate resource types and voltage intent, reserve link capacity and verify removing one relay cannot disable unrelated production."
+      ],
+      "desc_ru": [
+        "Лазерные реле передают энергию, предметы или жидкости по беспроводным связям. Плотная сеть становится неясной и случайно соединяет этапы.",
+        "Подписывайте сети, разделяйте типы ресурсов и назначение, оставляйте резерв и проверяйте, что потеря реле не отключает постороннее производство."
+      ]
+    },
+    {
+      "slug": "crusher",
+      "icon": "actuallyadditions:crusher_double",
+      "title_en": "Crushing and Secondary Outputs",
+      "title_ru": "Дробление и вторичные выходы",
+      "desc_en": [
+        "Actually Additions crushers can provide secondary outputs whose value changes the real ore-processing efficiency.",
+        "Measure both outputs, route them separately, stop input on either full destination and compare the line with Mekanism or MI before declaring one route obsolete."
+      ],
+      "desc_ru": [
+        "Дробители Actually Additions могут давать вторичный выход, меняющий реальную эффективность переработки руды.",
+        "Измеряйте оба выхода, разделяйте маршруты, останавливайте вход при заполнении любого назначения и сравнивайте линию с Mekanism или MI."
+      ]
+    },
+    {
+      "slug": "canola",
+      "icon": "actuallyadditions:canola_oil_bucket",
+      "title_en": "Canola Oil and Fuel Upgrades",
+      "title_ru": "Рапсовое масло и улучшение топлива",
+      "desc_en": [
+        "Canola fuel is a multi-step renewable chain whose later fluids improve energy density at the cost of more machines and control.",
+        "Automate farming, fluid conversion and buffering, calculate net energy after processing and keep enough startup fuel to recover from an empty grid."
+      ],
+      "desc_ru": [
+        "Рапсовое топливо является многоступенчатой возобновляемой цепочкой; поздние жидкости повышают плотность ценой машин и управления.",
+        "Автоматизируйте ферму, преобразование и буферы, считайте чистую энергию и храните стартовое топливо для восстановления пустой сети."
+      ]
+    },
+    {
+      "slug": "farmer",
+      "icon": "actuallyadditions:farmer",
+      "title_en": "Farmer Areas and Replanting",
+      "title_ru": "Области фермера и повторная посадка",
+      "desc_en": [
+        "The Farmer combines harvesting and replanting over a fixed area. Seed shortage, full output or unsupported crops can stop only part of the field and hide the failure.",
+        "Reserve seed stock, separate products, expose blocked slots and verify two full crop cycles without dropped item accumulation."
+      ],
+      "desc_ru": [
+        "Фермер объединяет сбор и посадку в фиксированной области. Нехватка семян, полный выход или неподдерживаемая культура скрыто останавливают часть поля.",
+        "Храните семенной резерв, разделяйте продукты, показывайте заполненные слоты и проверяйте два цикла без накопления предметов на земле."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "actuallyadditions:storage_crate",
+      "title_en": "Crates, Filters and Overflow",
+      "title_ru": "Ящики, фильтры и переполнение",
+      "desc_en": [
+        "Large crates are convenient bulk buffers but can hide an uncontrolled production surplus until extraction or item types become the true limit.",
+        "Assign crate purpose, use explicit filters, expose fill level and stop the producer before overflow is converted into dropped items or deletion."
+      ],
+      "desc_ru": [
+        "Большие ящики удобны как массовые буферы, но скрывают избыток до ограничения выгрузки или типов предметов.",
+        "Назначайте цель ящика, используйте точные фильтры, показывайте заполнение и останавливайте производство до выпадения или удаления предметов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:power_regulation_unit",
+      "title_en": "Project: Regulated Utility Workshop",
+      "title_ru": "Проект: регулируемая вспомогательная мастерская",
+      "desc_en": [
+        "Build an Actually Additions workshop with protected reconstruction, one Empowerer recipe, controlled laser relays and a renewable Canola or farming line.",
+        "The project passes after two repeated batches, safe beam containment, measured energy balance, recovery reserves and no wireless link crossing a later stage boundary."
+      ],
+      "desc_ru": [
+        "Постройте мастерскую Actually Additions с защищённой реконструкцией, рецептом усилителя, управляемыми реле и возобновляемой рапсовой или фермерской линией.",
+        "Проект принят после двух партий, безопасного луча, измеренного баланса энергии, резервов восстановления и отсутствия связи через позднюю границу."
+      ]
+    }
+  ]
+}
