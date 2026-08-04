@@ -13,8 +13,8 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 - Unallowlisted data/loot mentions: **0**
 - Outputs without recipe declaration: **7**
 - Non-KubeJS outputs without removal evidence: **17**
-- Late outputs missing EMC policy: **4**
-- Stage 12+ outputs missing simulation policy: **15**
+- Late outputs missing EMC policy: **0**
+- Stage 12+ outputs missing simulation policy: **0**
 
 ## Unauthorized quest rewards
 
@@ -51,36 +51,20 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 - `projecte:philosophers_stone`
 - `projecte:transmutation_table`
 
-## EMC policy gaps
-
-- `kubejs:lunar_seal`
-- `kubejs:mortum_seal`
-- `kubejs:skythern_seal`
-- `kubejs:vethea_seal`
-
-## Resource simulation policy gaps
-
-- `draconicevolution:wyvern_core`
-- `kubejs:antimatter_regulator`
-- `kubejs:cosmic_assembly_matrix`
-- `kubejs:cosmic_catalyst`
-- `kubejs:cosmic_synthesis_core`
-- `kubejs:dimensional_resonator`
-- `kubejs:draconic_lattice`
-- `kubejs:draconic_processor`
-- `kubejs:emc_containment_core`
-- `kubejs:lunar_seal`
-- `kubejs:mortum_seal`
-- `kubejs:skythern_seal`
-- `kubejs:transmutation_matrix`
-- `kubejs:vethea_seal`
-- `mekanism:sps_casing`
-
 ## Trade policy coverage
 
 The following non-KubeJS late outputs already have an explicit trade blacklist entry:
 
 - `ae2:controller`
+- `ae2:quantum_ring`
+- `avaritia:extreme_crafting_table`
 - `avaritia:infinity_ingot`
+- `draconicevolution:awakened_core`
+- `draconicevolution:wyvern_core`
+- `extendedcrafting:ultimate_table`
+- `mekanism:induction_casing`
+- `mekanism:pellet_antimatter`
 - `mekanism:sps_casing`
+- `powah:reactor_nitro`
 - `projecte:philosophers_stone`
+- `projecte:transmutation_table`
