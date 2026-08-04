@@ -41,6 +41,21 @@ jobs:
       - name: Synchronize engineering guide localization
         run: python minecraft/tools/sync_engineering_guide_localization.py
 
+      - name: Upgrade legacy expert progression tasks
+        run: python minecraft/tools/upgrade_expert_progression.py
+
+      - name: Upgrade legacy expert progression guidance
+        run: python minecraft/tools/upgrade_expert_progression_localization.py
+
+      - name: Tune combat profiles to modeled limits
+        run: python minecraft/tools/tune_combat_profiles.py
+
+      - name: Calculate theoretical balance
+        run: python minecraft/tools/theoretical_balance.py
+
+      - name: Audit quest quality
+        run: python minecraft/tools/quest_quality_audit.py
+
       - name: Generate repository size audit
         run: python minecraft/tools/audit_repository_size.py
 
@@ -58,8 +73,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            minecraft/config/ftbquests/quests/chapters/expert_progression.snbt \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
+            minecraft/kubejs/server_scripts/combat_scaling.js \
+            minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
+            minecraft/docs/QUEST_QUALITY_REPORT.md \
             minecraft/docs/REPOSITORY_SIZE_AUDIT.md
-          git commit -m "automation: sync generated pack metadata"
+          git commit -m "automation: apply modeled balance and quest upgrades"
           git push origin HEAD:${GITHUB_REF_NAME}
