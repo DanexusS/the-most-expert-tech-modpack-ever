@@ -124,6 +124,11 @@ var BOSS_IDS = Object.freeze({
   'iceandfire:dread_knight': true
 })
 
+// Entity categories and profiles are stable after registries finish loading.
+// Cache the resolution so large mob farms do not repeat registry lookups for
+// every entity of the same type.
+var PROFILE_CACHE = Object.create(null)
+
 function namespaceOf(entityId) {
   var separator = entityId.indexOf(':')
   return separator < 0 ? 'minecraft' : entityId.substring(0, separator)
@@ -144,7 +149,7 @@ function isMonsterCategory(entityId) {
   }
 }
 
-function profileFor(entityId) {
+function resolveProfile(entityId) {
   var namespace = namespaceOf(entityId)
 
   if (BOSS_IDS[entityId] === true) {
@@ -157,6 +162,16 @@ function profileFor(entityId) {
   }
 
   return NAMESPACE_PROFILES[namespace] || DEFAULT_HOSTILE_PROFILE
+}
+
+function profileFor(entityId) {
+  if (Object.prototype.hasOwnProperty.call(PROFILE_CACHE, entityId)) {
+    return PROFILE_CACHE[entityId] || null
+  }
+
+  var profile = resolveProfile(entityId)
+  PROFILE_CACHE[entityId] = profile || false
+  return profile
 }
 
 function replaceModifier(entity, attributeType, modifierId, amount, operation) {
@@ -229,4 +244,4 @@ EntityEvents.spawned(function(event) {
   applyProfile(entity, profileFor(entityId))
 })
 
-console.info('[CombatScaling] Multi-attribute expert combat profile v1.0.0 loaded.')
+console.info('[CombatScaling] Multi-attribute expert combat profile v1.0.1 loaded.')
