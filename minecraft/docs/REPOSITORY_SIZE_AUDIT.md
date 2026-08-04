@@ -5,7 +5,7 @@ It measures the checked-out source tree, excluding Git internals and editor cach
 
 ## Summary
 
-- Files: **5,927**
+- Files: **5,929**
 - Total checked-out size: **1.21 GiB**
 - Archive/JAR files: **500** (1.17 GiB)
 - Runtime-state files in tracked directories: **0** (0.00 B)
@@ -17,7 +17,7 @@ It measures the checked-out source tree, excluding Git internals and editor cach
 | `minecraft` | 1.21 GiB | 99.97% |
 | `flame` | 262.86 KiB | 0.02% |
 | `modlist recon.html` | 57.93 KiB | 0.00% |
-| `.github` | 2.69 KiB | 0.00% |
+| `.github` | 4.41 KiB | 0.00% |
 | `instance.cfg` | 2.66 KiB | 0.00% |
 | `mmc-pack.json` | 947.00 B | 0.00% |
 | `docs` | 742.00 B | 0.00% |
@@ -85,11 +85,11 @@ It measures the checked-out source tree, excluding Git internals and editor cach
 | `.js` | 238.61 KiB |
 | `.json5` | 170.80 KiB |
 | `.yaml` | 88.60 KiB |
+| `.md` | 84.81 KiB |
 | `.cfs` | 81.35 KiB |
 | `.py` | 80.76 KiB |
 | `.zs` | 78.20 KiB |
 | `.html` | 57.93 KiB |
-| `.md` | 47.21 KiB |
 | `.ini` | 34.20 KiB |
 
 ## Tracked archives and mod binaries
