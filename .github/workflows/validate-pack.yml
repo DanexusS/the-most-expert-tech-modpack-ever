@@ -99,6 +99,9 @@ jobs:
       - name: Upgrade Mekanism core route
         run: python minecraft/tools/upgrade_mekanism_core.py
 
+      - name: Generate Core Technology Manual I
+        run: python minecraft/tools/generate_core_technology_manual.py
+
       - name: Tune combat profiles to modeled limits
         run: python minecraft/tools/tune_combat_profiles.py
 
