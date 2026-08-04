@@ -54,6 +54,9 @@ jobs:
       - name: Build manifest-backed mod guide registry
         run: python minecraft/tools/build_mod_guide_registry.py
 
+      - name: Seed verified core mod guide plans
+        run: python minecraft/tools/seed_core_mod_guide_registry.py
+
       - name: Normalize progression order
         run: python minecraft/tools/normalize_progression_contract.py
 
