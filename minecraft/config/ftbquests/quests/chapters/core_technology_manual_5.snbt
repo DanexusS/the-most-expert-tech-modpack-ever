@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "core_technology_manual_5"
+	group: "177A10C99EDDA376"
+	icon: { id: "kubejs:bioindustrial_matrix" }
+	id: "07BDCB0129CEA24C"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+		{
+			icon: { id: "productivebees:honey_treat" }
+			id: "8A40FFCC5C5945D4"
+			shape: "hexagon"
+			tasks: [{
+				id: "8942F5F5FE3BB070"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8A40FFCC5C5945D4"]
+			icon: { id: "productivebees:breeding_chamber" }
+			id: "943BC2306B8F8D00"
+			shape: "hexagon"
+			tasks: [{
+				id: "431CFC8590DA7194"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["943BC2306B8F8D00"]
+			icon: { id: "productivebees:advanced_oak_beehive" }
+			id: "BD17D80C058D6D00"
+			shape: "hexagon"
+			tasks: [{
+				id: "B982E7DBDA1B7D61"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["BD17D80C058D6D00"]
+			icon: { id: "productivebees:configurable_honeycomb" }
+			id: "6BCB7A661DECE269"
+			shape: "hexagon"
+			tasks: [{
+				id: "2C387F83C03E0377"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BCB7A661DECE269"]
+			icon: { id: "productivebees:centrifuge" }
+			id: "AC3AA114FD77F051"
+			shape: "hexagon"
+			tasks: [{
+				id: "4F2803FEB1EEED85"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["AC3AA114FD77F051"]
+			icon: { id: "productivebees:productivity_upgrade" }
+			id: "214CD0A52134C913"
+			shape: "hexagon"
+			tasks: [{
+				id: "EBA29B430701B7E2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["214CD0A52134C913"]
+			icon: { id: "productivebees:gene_bottle" }
+			id: "A3CC45A2EC93A3E3"
+			shape: "hexagon"
+			tasks: [{
+				id: "7A079346F341DAA8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["A3CC45A2EC93A3E3"]
+			icon: { id: "productivebees:honey_treat" }
+			id: "A4E4AE9328ED5895"
+			shape: "hexagon"
+			tasks: [{
+				id: "D59FAD7BF0987279"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["A4E4AE9328ED5895"]
+			icon: { id: "productivebees:bee_cage" }
+			id: "FF57B74803C723F8"
+			shape: "hexagon"
+			tasks: [{
+				id: "FD8C29FDF97B36D3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["FF57B74803C723F8"]
+			icon: { id: "kubejs:bioindustrial_matrix" }
+			id: "C082EF45CFDE1625"
+			shape: "hexagon"
+			tasks: [{
+				id: "30DA908045B52F11"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "hostilenetworks:blank_data_model" }
+			id: "0351021E0E10E008"
+			shape: "hexagon"
+			tasks: [{
+				id: "EA470B89B25ED1AF"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0351021E0E10E008"]
+			icon: { id: "hostilenetworks:deep_learner" }
+			id: "C4E492FB7EF9EC3D"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D8B60DE362E91D4"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C4E492FB7EF9EC3D"]
+			icon: { id: "hostilenetworks:simulation_chamber" }
+			id: "2505CF4526D8D68A"
+			shape: "hexagon"
+			tasks: [{
+				id: "1431025BCE7379FB"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2505CF4526D8D68A"]
+			icon: { id: "hostilenetworks:loot_fabricator" }
+			id: "1DF7CFCC119963EC"
+			shape: "hexagon"
+			tasks: [{
+				id: "9C5E6B8728EF4DE0"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DF7CFCC119963EC"]
+			icon: { id: "hostilenetworks:prediction_matrix" }
+			id: "63FC9BE9A2BC8210"
+			shape: "hexagon"
+			tasks: [{
+				id: "58729EDCD7C3B38A"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63FC9BE9A2BC8210"]
+			icon: { id: "hostilenetworks:simulation_chamber" }
+			id: "007CA23F21CA951F"
+			shape: "hexagon"
+			tasks: [{
+				id: "298E2EDFB1722322"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["007CA23F21CA951F"]
+			icon: { id: "hostilenetworks:deep_learner" }
+			id: "04DAFACEAAB534EC"
+			shape: "hexagon"
+			tasks: [{
+				id: "346BF08F50BCB51D"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["04DAFACEAAB534EC"]
+			icon: { id: "hostilenetworks:prediction_matrix" }
+			id: "7BD07F194C5B0D45"
+			shape: "hexagon"
+			tasks: [{
+				id: "993380D665C48B47"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7BD07F194C5B0D45"]
+			icon: { id: "hostilenetworks:simulation_chamber" }
+			id: "0B2896A30AF551A6"
+			shape: "hexagon"
+			tasks: [{
+				id: "BE1604EE1CC54B88"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0B2896A30AF551A6"]
+			icon: { id: "kubejs:bioindustrial_matrix" }
+			id: "9759625C0DB9CC24"
+			shape: "hexagon"
+			tasks: [{
+				id: "9EB3307FF3F9DB3D"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "woot:factory_controller" }
+			id: "2357B5028192FA75"
+			shape: "hexagon"
+			tasks: [{
+				id: "3904F32E4842C212"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2357B5028192FA75"]
+			icon: { id: "woot:factory_base" }
+			id: "6DD5E9B7834E8D96"
+			shape: "hexagon"
+			tasks: [{
+				id: "6004A195192D395A"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DD5E9B7834E8D96"]
+			icon: { id: "woot:mob_shard" }
+			id: "DB23E1DC3446D17B"
+			shape: "hexagon"
+			tasks: [{
+				id: "4F1013DB64F0B8B5"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["DB23E1DC3446D17B"]
+			icon: { id: "woot:loot_exporter" }
+			id: "242B6F6FE4E09623"
+			shape: "hexagon"
+			tasks: [{
+				id: "66ECCCCE3488BD0D"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["242B6F6FE4E09623"]
+			icon: { id: "woot:power_cell" }
+			id: "6B25AECC339331F9"
+			shape: "hexagon"
+			tasks: [{
+				id: "8FA407D54C532555"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B25AECC339331F9"]
+			icon: { id: "woot:upgrade_base" }
+			id: "48998CD20DE5FE0B"
+			shape: "hexagon"
+			tasks: [{
+				id: "FC15A8F08788D774"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["48998CD20DE5FE0B"]
+			icon: { id: "woot:loot_exporter" }
+			id: "14F4702CB5D67165"
+			shape: "hexagon"
+			tasks: [{
+				id: "9B5248EBE8077040"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["14F4702CB5D67165"]
+			icon: { id: "woot:factory_controller" }
+			id: "E7BEFA8E846F06D0"
+			shape: "hexagon"
+			tasks: [{
+				id: "8AF32DA6C9505C47"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["E7BEFA8E846F06D0"]
+			icon: { id: "woot:factory_controller" }
+			id: "51ED95FF925A92D8"
+			shape: "hexagon"
+			tasks: [{
+				id: "71864BA9541BA18E"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["51ED95FF925A92D8"]
+			icon: { id: "kubejs:bioindustrial_matrix" }
+			id: "FBCB9517D959B44E"
+			shape: "hexagon"
+			tasks: [{
+				id: "B29D86AAB6EB5756"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "mob_grinding_utils:mob_swab" }
+			id: "76E382155F7E1499"
+			shape: "hexagon"
+			tasks: [{
+				id: "84E5C672B4C67C00"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76E382155F7E1499"]
+			icon: { id: "mob_grinding_utils:gm_chicken_feed_cursed" }
+			id: "CA20AAD4361F7415"
+			shape: "hexagon"
+			tasks: [{
+				id: "E8526AEEF98427F8"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["CA20AAD4361F7415"]
+			icon: { id: "mob_grinding_utils:fan" }
+			id: "B50B56E1B2D39754"
+			shape: "hexagon"
+			tasks: [{
+				id: "26E2584D6ADE3EF1"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B50B56E1B2D39754"]
+			icon: { id: "mob_grinding_utils:mob_masher" }
+			id: "586EAB39BFBA9379"
+			shape: "hexagon"
+			tasks: [{
+				id: "EE0696D23D764E5C"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["586EAB39BFBA9379"]
+			icon: { id: "mob_grinding_utils:absorption_hopper" }
+			id: "04B8BFBF5E0385D4"
+			shape: "hexagon"
+			tasks: [{
+				id: "058C24CDCC20F38A"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04B8BFBF5E0385D4"]
+			icon: { id: "mob_grinding_utils:solid_xp_block" }
+			id: "E77063B933D117ED"
+			shape: "hexagon"
+			tasks: [{
+				id: "9C36456A88081F49"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["E77063B933D117ED"]
+			icon: { id: "mob_grinding_utils:entity_conveyor" }
+			id: "D30A9C0D61B25055"
+			shape: "hexagon"
+			tasks: [{
+				id: "36EE7E11C0493E8C"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["D30A9C0D61B25055"]
+			icon: { id: "mob_grinding_utils:mob_masher" }
+			id: "C46B17EFEB4BB5E6"
+			shape: "hexagon"
+			tasks: [{
+				id: "D73297FB1FF64FB4"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["C46B17EFEB4BB5E6"]
+			icon: { id: "mob_grinding_utils:absorption_hopper" }
+			id: "38D0528C08A26DE6"
+			shape: "hexagon"
+			tasks: [{
+				id: "ACCBD644E3FAFD22"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["38D0528C08A26DE6"]
+			icon: { id: "kubejs:bio_process_controller" }
+			id: "D1B891A6627145D4"
+			shape: "hexagon"
+			tasks: [{
+				id: "CA107E20A2285046"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "minecolonies:build_tool" }
+			id: "1EAB680A21B213CF"
+			shape: "hexagon"
+			tasks: [{
+				id: "9A1884430C39AD1D"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EAB680A21B213CF"]
+			icon: { id: "minecolonies:blockhuttownhall" }
+			id: "26C5819233EED85F"
+			shape: "hexagon"
+			tasks: [{
+				id: "1FEF642D792C0F10"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26C5819233EED85F"]
+			icon: { id: "minecolonies:blockhutbuilder" }
+			id: "1A515A2049671A25"
+			shape: "hexagon"
+			tasks: [{
+				id: "5CC451EDF171A168"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A515A2049671A25"]
+			icon: { id: "minecolonies:blockhutwarehouse" }
+			id: "9A12D7A39C28AE53"
+			shape: "hexagon"
+			tasks: [{
+				id: "D2EB377CDF707BDA"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["9A12D7A39C28AE53"]
+			icon: { id: "minecolonies:blockhutdeliveryman" }
+			id: "C6A2AED1B25AEE42"
+			shape: "hexagon"
+			tasks: [{
+				id: "C23260F71F4D9481"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C6A2AED1B25AEE42"]
+			icon: { id: "minecolonies:blockhutminer" }
+			id: "1C9A7EA5B58F1E3F"
+			shape: "hexagon"
+			tasks: [{
+				id: "859BC30C2CD8EF46"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C9A7EA5B58F1E3F"]
+			icon: { id: "minecolonies:blockhutuniversity" }
+			id: "68042445257A4272"
+			shape: "hexagon"
+			tasks: [{
+				id: "E82BC737226FC684"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["68042445257A4272"]
+			icon: { id: "minecolonies:blockhutrestaurant" }
+			id: "DFF545EC1772CC25"
+			shape: "hexagon"
+			tasks: [{
+				id: "F384766C66A128A3"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["DFF545EC1772CC25"]
+			icon: { id: "minecolonies:blockhutguardtower" }
+			id: "92CCF54F9B6A019C"
+			shape: "hexagon"
+			tasks: [{
+				id: "12D40D8B3CF982C8"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["92CCF54F9B6A019C"]
+			icon: { id: "kubejs:industrial_frame" }
+			id: "0FA697624A124954"
+			shape: "hexagon"
+			tasks: [{
+				id: "0E81E67ACDF1970A"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+	]
+}
