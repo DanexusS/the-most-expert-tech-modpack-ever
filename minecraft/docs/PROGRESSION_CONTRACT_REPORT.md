@@ -45,6 +45,7 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:precision_circuit`
 - `kubejs:quantum_logic`
 - `kubejs:resonant_core`
+- `kubejs:structural_lattice`
 - `kubejs:transmutation_matrix`
 - `mekanism:steel_casing`
 - `mysticalagriculture:infusion_altar`
