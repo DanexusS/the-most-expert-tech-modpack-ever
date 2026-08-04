@@ -1,0 +1,145 @@
+{
+  "slug": "draconic_evolution",
+  "lessons": [
+    {
+      "slug": "draconium",
+      "icon": "draconicevolution:draconium_ingot",
+      "title_en": "Draconium Supply and Stage Entry",
+      "title_ru": "Снабжение драконием и вход в этап",
+      "desc_en": [
+        "Draconium begins a high-energy material branch whose mining, processing and storage must already be repeatable before advanced cores are attempted.",
+        "Separate raw supply from component stock, preserve emergency ingots and prevent dimension or resource simulators from granting awakened materials early."
+      ],
+      "desc_ru": [
+        "Драконий начинает высокоэнергетическую ветвь, поэтому добыча, переработка и хранение должны быть повторяемыми до сложных ядер.",
+        "Разделяйте сырьё и компоненты, сохраняйте аварийные слитки и не позволяйте симуляторам измерений или ресурсов выдавать пробуждённые материалы раньше срока."
+      ]
+    },
+    {
+      "slug": "energy_core",
+      "icon": "draconicevolution:energy_core",
+      "title_en": "Energy Core Structure and Measurement",
+      "title_ru": "Структура и измерение энергетического ядра",
+      "desc_en": [
+        "Draconic energy cores trade large construction cost for extreme capacity. Capacity is useful only when input and output transfer can reach it safely.",
+        "Document core tier and stabilizers, measure charge and discharge, reserve black-start energy and isolate the core from uncontrolled wireless drains."
+      ],
+      "desc_ru": [
+        "Энергетические ядра обменивают стоимость строительства на огромную ёмкость. Она полезна только при безопасной скорости ввода и вывода.",
+        "Документируйте уровень и стабилизаторы, измеряйте заряд и разряд, храните энергию холодного запуска и изолируйте ядро от бесконтрольных беспроводных нагрузок."
+      ]
+    },
+    {
+      "slug": "fusion",
+      "icon": "draconicevolution:fusion_crafting_core",
+      "title_en": "Fusion Crafting Architecture",
+      "title_ru": "Архитектура слияния",
+      "desc_en": [
+        "Fusion crafting combines a central ingredient, injector inventory and a large energy transfer. Missing one injector or item can hold an expensive setup indefinitely.",
+        "Label injector positions, automate exact quantities, recover unused ingredients and prove the grid can stop before draining the protected factory reserve."
+      ],
+      "desc_ru": [
+        "Слияние объединяет центральный предмет, инвентари инжекторов и большой поток энергии. Нехватка одной детали удерживает дорогую установку без результата.",
+        "Подписывайте позиции, подавайте точные количества, возвращайте неиспользованное и останавливайте процесс до разряда защищённого резерва фабрики."
+      ]
+    },
+    {
+      "slug": "injectors",
+      "icon": "draconicevolution:basic_crafting_injector",
+      "title_en": "Injector Tiers and Symmetry",
+      "title_ru": "Уровни инжекторов и симметрия",
+      "desc_en": [
+        "Injector tiers limit recipes and energy delivery. Mixing tiers or ambiguous placement creates a setup that looks complete but cannot start.",
+        "Upgrade injectors as a matched set, preserve access for automation and verify the lowest injector tier before diagnosing power or ingredient failure."
+      ],
+      "desc_ru": [
+        "Уровни инжекторов ограничивают рецепты и передачу энергии. Смешение уровней или неясное размещение создаёт внешне готовую, но неработающую установку.",
+        "Улучшайте инжекторы комплектом, сохраняйте доступ автоматизации и проверяйте самый низкий уровень до поиска проблем питания или ингредиентов."
+      ]
+    },
+    {
+      "slug": "wyvern",
+      "icon": "draconicevolution:wyvern_core",
+      "title_en": "Wyvern as the First Capability Gate",
+      "title_ru": "Wyvern как первый скачок возможностей",
+      "desc_en": [
+        "Wyvern cores unlock equipment, energy and crafting capabilities beyond ordinary industrial tiers. Their recipe must prove resonant energy and dimensional preparation.",
+        "Keep the core at zero EMC, remove alternate recipes and require the resonant core plus the dimensional resonator before mass production."
+      ],
+      "desc_ru": [
+        "Ядра Wyvern открывают экипировку, энергию и крафты выше обычной промышленности. Их рецепт должен доказывать резонансную энергию и подготовку измерений.",
+        "Задавайте нулевой EMC, удаляйте альтернативные рецепты и требуйте резонансное ядро с пространственным резонатором до серийного производства."
+      ]
+    },
+    {
+      "slug": "awakened",
+      "icon": "draconicevolution:awakened_core",
+      "title_en": "Awakened Material Production",
+      "title_ru": "Производство пробуждённых материалов",
+      "desc_en": [
+        "Awakened Draconium is a dedicated fusion-crafting era, not a simple upgrade of raw Draconium. It combines rare inputs, injector tier and substantial energy.",
+        "Gate the first awakened core behind the draconic processor, automate only after one audited craft and block loot, EMC, seeds and simulation routes."
+      ],
+      "desc_ru": [
+        "Пробуждённый драконий является отдельной эпохой слияния, а не простым улучшением сырья. Он объединяет редкие входы, уровень инжекторов и энергию.",
+        "Закрывайте первое ядро драконическим процессором, автоматизируйте после проверенного крафта и блокируйте лут, EMC, семена и симуляцию."
+      ]
+    },
+    {
+      "slug": "equipment",
+      "icon": "draconicevolution:modular_chestpiece",
+      "title_en": "Modular Equipment and Power Budget",
+      "title_ru": "Модульное снаряжение и энергетический бюджет",
+      "desc_en": [
+        "Draconic equipment capability depends on installed modules, configuration and available energy. Maximum modules can create a larger grid demand than expected.",
+        "Separate combat and utility profiles, protect recovery charge, document module effects and verify equipment cannot bypass a later travel or mining permission."
+      ],
+      "desc_ru": [
+        "Возможности драконического снаряжения зависят от модулей, настроек и энергии. Максимальная комплектация создаёт неожиданно большой спрос.",
+        "Разделяйте боевой и рабочий профиль, защищайте аварийный заряд, документируйте эффекты и не допускайте обхода поздних разрешений перемещения или добычи."
+      ]
+    },
+    {
+      "slug": "reactor",
+      "icon": "draconicevolution:reactor_core",
+      "title_en": "Draconic Reactor Containment",
+      "title_ru": "Удержание драконического реактора",
+      "desc_en": [
+        "The reactor is an energy project with explicit containment, fuel conversion and catastrophic failure states. High output is not permission to ignore shutdown engineering.",
+        "Commission at low load, separate containment power, automate shutdown thresholds and keep all recovery equipment outside the potential failure area."
+      ],
+      "desc_ru": [
+        "Реактор является энергетическим проектом с удержанием, топливом и катастрофическим отказом. Высокая мощность не отменяет проектирование остановки.",
+        "Запускайте на малой нагрузке, отделяйте питание удержания, автоматизируйте пороги остановки и храните восстановительное оборудование вне зоны отказа."
+      ]
+    },
+    {
+      "slug": "chaos",
+      "icon": "draconicevolution:chaos_shard",
+      "title_en": "Chaos Resources and Expedition Control",
+      "title_ru": "Ресурсы хаоса и контроль экспедиции",
+      "desc_en": [
+        "Chaos resources are tied to dangerous remote encounters and should remain proof of combat and logistics readiness, not a simulated renewable commodity.",
+        "Prepare independent return equipment, secure drops immediately, prohibit ordinary farming paths and reserve shards for declared endgame projects."
+      ],
+      "desc_ru": [
+        "Ресурсы хаоса связаны с опасными удалёнными боями и должны доказывать боевую и логистическую готовность, а не становиться симулируемым товаром.",
+        "Готовьте независимый возврат, сразу защищайте добычу, запрещайте обычные фермы и сохраняйте осколки для объявленных эндгейм-проектов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:draconic_processor",
+      "title_en": "Project: Audited Draconic Infrastructure",
+      "title_ru": "Проект: проверенная драконическая инфраструктура",
+      "desc_en": [
+        "Build a measured energy core, a recoverable fusion-crafting grid and one modular equipment profile without using EMC, loot or simulated gated materials.",
+        "The project passes after one Wyvern and one Awakened production cycle, protected reserve verification, injector-tier audit and safe shutdown of every high-energy subsystem."
+      ],
+      "desc_ru": [
+        "Постройте измеренное энергоядро, восстанавливаемую установку слияния и один профиль модульного снаряжения без EMC, лута или симуляции закрытых материалов.",
+        "Проект принят после цикла Wyvern и Awakened, проверки защищённого резерва, уровней инжекторов и безопасной остановки каждой высокоэнергетической подсистемы."
+      ]
+    }
+  ]
+}
