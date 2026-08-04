@@ -51,6 +51,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/mekanism_induction_casing',
       output: 'mekanism:induction_casing',
+      authoritative: true,
       pattern: ['SCS', 'PQP', 'SCS'],
       key: {
         S: 'mekanism:ingot_refined_obsidian',
@@ -64,6 +65,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/ae2_quantum_ring',
       output: 'ae2:quantum_ring',
+      authoritative: true,
       pattern: ['FEF', 'QIQ', 'FEF'],
       key: {
         F: 'ae2:fluix_crystal',
@@ -77,6 +79,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/powah_energizing_rod_nitro',
       output: 'powah:energizing_rod_nitro',
+      authoritative: true,
       pattern: ['NCN', 'RER', 'NQN'],
       key: {
         N: 'powah:crystal_nitro',
@@ -91,6 +94,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/industrial_foregoing_supreme_frame',
       output: 'industrialforegoing:machine_frame_supreme',
+      authoritative: true,
       pattern: ['NUN', 'ABA', 'NUN'],
       key: {
         N: 'minecraft:netherite_ingot',
@@ -104,6 +108,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/mekanism_sps_casing',
       output: 'mekanism:sps_casing',
+      authoritative: true,
       pattern: ['PUP', 'IRI', 'PUP'],
       key: {
         P: 'mekanism:pellet_polonium',
@@ -117,6 +122,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/draconic_awakened_core',
       output: 'draconicevolution:awakened_core',
+      authoritative: true,
       pattern: ['AWA', 'PWP', 'ANA'],
       key: {
         A: 'draconicevolution:awakened_draconium_ingot',
@@ -130,6 +136,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/extendedcrafting_ultimate_table',
       output: 'extendedcrafting:ultimate_table',
+      authoritative: true,
       pattern: ['UCU', 'TPT', 'UEU'],
       key: {
         U: 'extendedcrafting:ultimate_component',
@@ -144,6 +151,7 @@ ServerEvents.recipes(function(event) {
     {
       id: 'kubejs:expert_extension/projecte_transmutation_table',
       output: 'projecte:transmutation_table',
+      authoritative: true,
       pattern: ['DOD', 'PMP', 'DOD'],
       key: {
         D: 'projecte:dark_matter_block',
