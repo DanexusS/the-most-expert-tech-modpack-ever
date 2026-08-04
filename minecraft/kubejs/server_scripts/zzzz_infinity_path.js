@@ -18,6 +18,7 @@ ServerEvents.recipes(function(event) {
   var definition = {
     id: 'kubejs:v1_path/infinity_ingot',
     output: 'avaritia:infinity_ingot',
+    authoritative: true,
     pattern: ['ICI', 'PMP', 'DAL'],
     key: {
       I: 'avaritia:infinity_catalyst',
