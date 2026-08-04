@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "quest_target": 5400,
+  "quest_target_min": 5000,
+  "quest_target_max": 6000,
+  "minimum_substages": 60,
+  "maximum_item_only_ratio": 0.3,
+  "minimum_bilingual_guide_ratio": 0.8,
+  "stages": [
+    {
+      "index": 1,
+      "id": "field_foundations",
+      "title_en": "Field Foundations",
+      "title_ru": "Полевые основы",
+      "milestone": "kubejs:field_engineering_kit",
+      "quest_budget": 300,
+      "required_domains": ["minecraft", "immersiveengineering", "actuallyadditions"],
+      "substages": ["survival_workshop", "material_identification", "manual_fabrication", "field_safety"],
+      "gated_outputs": ["kubejs:field_engineering_kit", "kubejs:materials_analysis_matrix", "kubejs:power_regulation_unit"]
+    },
+    {
+      "index": 2,
+      "id": "steam_metallurgy",
+      "title_en": "Steam and Metallurgy",
+      "title_ru": "Пар и металлургия",
+      "milestone": "kubejs:structural_lattice",
+      "quest_budget": 280,
+      "required_domains": ["modern_industrialization", "immersiveengineering", "create"],
+      "substages": ["coke_and_creosote", "bronze_steam", "steel_production", "structural_standards"],
+      "gated_outputs": ["modern_industrialization:bronze_boiler", "immersiveengineering:blastbrick_reinforced", "kubejs:structural_lattice"]
+    },
+    {
+      "index": 3,
+      "id": "kinetic_automation",
+      "title_en": "Kinetic Automation",
+      "title_ru": "Кинетическая автоматизация",
+      "milestone": "kubejs:kinetic_interface",
+      "quest_budget": 360,
+      "required_domains": ["create", "modern_industrialization", "immersiveengineering"],
+      "substages": ["stress_capacity", "transmission", "processing_lines", "sequenced_assembly"],
+      "gated_outputs": ["kubejs:kinetic_interface", "create:precision_mechanism", "kubejs:kinetic_regulator"]
+    },
+    {
+      "index": 4,
+      "id": "regulated_electricity",
+      "title_en": "Regulated Electricity",
+      "title_ru": "Регулируемая электротехника",
+      "milestone": "kubejs:mechanical_core",
+      "quest_budget": 320,
+      "required_domains": ["immersiveengineering", "modern_industrialization", "powah"],
+      "substages": ["generation", "voltage_and_tiers", "buffering", "distribution_and_protection"],
+      "gated_outputs": ["kubejs:mechanical_core", "kubejs:electrical_bus", "modern_industrialization:basic_machine_hull"]
+    },
+    {
+      "index": 5,
+      "id": "precision_manufacturing",
+      "title_en": "Precision Manufacturing",
+      "title_ru": "Прецизионное производство",
+      "milestone": "kubejs:industrial_frame",
+      "quest_budget": 300,
+      "required_domains": ["create", "modern_industrialization", "pneumaticcraft"],
+      "substages": ["compressed_materials", "component_stocking", "assembly_control", "quality_acceptance"],
+      "gated_outputs": ["kubejs:industrial_frame", "kubejs:calibrated_substrate", "pneumaticcraft:printed_circuit_board"]
+    },
+    {
+      "index": 6,
+      "id": "digital_storage",
+      "title_en": "Digital Storage",
+      "title_ru": "Цифровое хранение",
+      "milestone": "kubejs:signal_backplane",
+      "quest_budget": 340,
+      "required_domains": ["ae2", "modern_industrialization", "create"],
+      "substages": ["certus_processing", "processor_manufacturing", "storage_cells", "channel_planning"],
+      "gated_outputs": ["ae2:inscriber", "ae2:drive", "kubejs:signal_backplane"]
+    },
+    {
+      "index": 7,
+      "id": "process_chemistry",
+      "title_en": "Process Chemistry",
+      "title_ru": "Промышленная химия",
+      "milestone": "kubejs:precision_circuit",
+      "quest_budget": 360,
+      "required_domains": ["mekanism", "pneumaticcraft", "immersiveengineering", "modern_industrialization"],
+      "substages": ["infusion", "gas_handling", "pressure_and_plastic", "waste_and_byproducts"],
+      "gated_outputs": ["kubejs:precision_circuit", "mekanism:steel_casing", "kubejs:pressure_manifold"]
+    },
+    {
+      "index": 8,
+      "id": "industrial_scale",
+      "title_en": "Industrial Scale",
+      "title_ru": "Промышленный масштаб",
+      "milestone": "kubejs:chemical_processor",
+      "quest_budget": 330,
+      "required_domains": ["mekanism", "industrialforegoing", "pneumaticcraft"],
+      "substages": ["parallel_processing", "fluid_logistics", "factory_control", "maintenance_and_recovery"],
+      "gated_outputs": ["kubejs:chemical_processor", "industrialforegoing:machine_frame_advanced", "kubejs:chemical_reactor_core"]
+    },
+    {
+      "index": 9,
+      "id": "controlled_resources",
+      "title_en": "Controlled Resource Production",
+      "title_ru": "Управляемое производство ресурсов",
+      "milestone": "kubejs:bioindustrial_matrix",
+      "quest_budget": 360,
+      "required_domains": ["industrialforegoing", "mysticalagriculture", "productivebees", "hostilenetworks"],
+      "substages": ["biological_inputs", "resource_simulation", "renewable_materials", "anti_loop_controls"],
+      "gated_outputs": ["kubejs:bioindustrial_matrix", "mysticalagriculture:infusion_altar", "kubejs:bio_process_controller"]
+    },
+    {
+      "index": 10,
+      "id": "applied_logistics",
+      "title_en": "Applied Logistics",
+      "title_ru": "Прикладная логистика",
+      "milestone": "kubejs:quantum_logic",
+      "quest_budget": 320,
+      "required_domains": ["ae2", "modern_industrialization", "mekanism"],
+      "substages": ["controller_networks", "autocrafting", "subnet_design", "cross_dimensional_links"],
+      "gated_outputs": ["kubejs:quantum_logic", "ae2:controller", "ae2:quantum_ring", "kubejs:quantum_bus"]
+    },
+    {
+      "index": 11,
+      "id": "resonant_energy",
+      "title_en": "Resonant Energy",
+      "title_ru": "Резонансная энергетика",
+      "milestone": "kubejs:resonant_core",
+      "quest_budget": 330,
+      "required_domains": ["powah", "mekanism", "draconicevolution"],
+      "substages": ["nitro_generation", "mass_storage", "high_current_distribution", "energy_failure_modes"],
+      "gated_outputs": ["kubejs:resonant_core", "powah:reactor_nitro", "mekanism:induction_casing", "kubejs:resonant_power_cell"]
+    },
+    {
+      "index": 12,
+      "id": "nuclear_antimatter",
+      "title_en": "Nuclear and Antimatter Engineering",
+      "title_ru": "Ядерная и антиматериальная инженерия",
+      "milestone": "kubejs:antimatter_regulator",
+      "quest_budget": 300,
+      "required_domains": ["mekanism", "extremereactors", "powah"],
+      "substages": ["radiation_control", "fission_and_coolants", "fusion_infrastructure", "sps_and_antimatter"],
+      "gated_outputs": ["mekanism:sps_casing", "mekanism:pellet_antimatter", "kubejs:antimatter_regulator"]
+    },
+    {
+      "index": 13,
+      "id": "dimensional_materials",
+      "title_en": "Dimensional Materials",
+      "title_ru": "Материалы измерений",
+      "milestone": "kubejs:dimensional_resonator",
+      "quest_budget": 340,
+      "required_domains": ["divinerpg", "twilightforest", "iceandfire", "cataclysm"],
+      "substages": ["expedition_preparation", "boss_permissions", "trophy_processing", "dimensional_supply_chains"],
+      "gated_outputs": ["kubejs:dimensional_resonator", "kubejs:skythern_seal", "kubejs:mortum_seal", "kubejs:vethea_seal"]
+    },
+    {
+      "index": 14,
+      "id": "draconic_engineering",
+      "title_en": "Draconic Engineering",
+      "title_ru": "Драконическая инженерия",
+      "milestone": "kubejs:draconic_processor",
+      "quest_budget": 280,
+      "required_domains": ["draconicevolution", "extendedcrafting", "mekanism"],
+      "substages": ["draconium_processing", "wyvern_systems", "awakened_infrastructure", "energy_containment"],
+      "gated_outputs": ["draconicevolution:wyvern_core", "draconicevolution:awakened_core", "kubejs:draconic_processor", "kubejs:draconic_lattice"]
+    },
+    {
+      "index": 15,
+      "id": "contained_transmutation",
+      "title_en": "Contained Transmutation",
+      "title_ru": "Контролируемая трансмутация",
+      "milestone": "kubejs:transmutation_matrix",
+      "quest_budget": 250,
+      "required_domains": ["projecte", "extendedcrafting", "draconicevolution"],
+      "substages": ["emc_accounting", "matter_tiers", "transmutation_access", "automation_limits"],
+      "gated_outputs": ["projecte:philosophers_stone", "projecte:transmutation_table", "kubejs:transmutation_matrix", "kubejs:emc_containment_core"]
+    },
+    {
+      "index": 16,
+      "id": "extreme_fabrication",
+      "title_en": "Extreme Fabrication",
+      "title_ru": "Экстремальное производство",
+      "milestone": "kubejs:cosmic_catalyst",
+      "quest_budget": 250,
+      "required_domains": ["extendedcrafting", "avaritia", "projecte"],
+      "substages": ["large_pattern_crafting", "singularity_supply", "extreme_components", "factory_scale_assembly"],
+      "gated_outputs": ["extendedcrafting:ultimate_table", "avaritia:extreme_crafting_table", "kubejs:cosmic_catalyst", "kubejs:cosmic_assembly_matrix"]
+    },
+    {
+      "index": 17,
+      "id": "cosmic_synthesis",
+      "title_en": "Cosmic Synthesis",
+      "title_ru": "Космический синтез",
+      "milestone": "kubejs:cosmic_synthesis_core",
+      "quest_budget": 230,
+      "required_domains": ["avaritia", "draconicevolution", "divinerpg", "stellaris"],
+      "substages": ["infinity_materials", "stellar_resources", "cosmic_energy", "final_supply_chain"],
+      "gated_outputs": ["kubejs:cosmic_synthesis_core", "avaritia:infinity_ingot", "kubejs:lunar_seal"]
+    },
+    {
+      "index": 18,
+      "id": "creative_convergence",
+      "title_en": "Creative Convergence",
+      "title_ru": "Творческая конвергенция",
+      "milestone": "kubejs:creative_convergence_matrix",
+      "quest_budget": 150,
+      "required_domains": ["avaritia", "extendedcrafting", "projecte", "mekanism", "ae2"],
+      "substages": ["creative_components", "infinite_infrastructure", "pack_mastery_project", "completion_audit"],
+      "gated_outputs": ["kubejs:creative_convergence_matrix"]
+    }
+  ]
+}
