@@ -38,6 +38,9 @@ jobs:
       - name: Synchronize bilingual expert quest localization
         run: python minecraft/tools/sync_expert_localization.py
 
+      - name: Synchronize engineering guide localization
+        run: python minecraft/tools/sync_engineering_guide_localization.py
+
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
 
