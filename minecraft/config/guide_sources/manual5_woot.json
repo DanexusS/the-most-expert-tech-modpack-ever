@@ -1,0 +1,145 @@
+{
+  "slug": "woot",
+  "lessons": [
+    {
+      "slug": "factory_model",
+      "icon": "woot:factory_controller",
+      "title_en": "Factory Simulation Model",
+      "title_ru": "Модель фабричной симуляции",
+      "desc_en": [
+        "Woot replaces live mob spawning with a structured factory that simulates an approved entity and its loot table.",
+        "Treat the factory as a resource simulator: require legitimate entity access, audit every drop and prohibit seals, unique trophies or progression permissions."
+      ],
+      "desc_ru": [
+        "Woot заменяет живой спавн структурированной фабрикой, симулирующей разрешённую сущность и её таблицу лута.",
+        "Считайте фабрику симулятором ресурсов: требуйте честный доступ к сущности, проверяйте каждый выход и запрещайте печати, уникальные трофеи и допуски."
+      ]
+    },
+    {
+      "slug": "layout",
+      "icon": "woot:factory_base",
+      "title_en": "Factory Layout and Tier Structure",
+      "title_ru": "Компоновка и уровни фабрики",
+      "desc_en": [
+        "Factory tiers use specific structures, controllers, cells and upgrades. A missing block or incorrect tier can leave the build visually plausible but inactive.",
+        "Build from a documented plan, verify each tier before adding upgrades and preserve maintenance access to the controller, power and output interfaces."
+      ],
+      "desc_ru": [
+        "Уровни фабрики используют определённые структуры, контроллеры, ячейки и улучшения. Неверный блок или уровень оставляет внешне готовую, но неработающую сборку.",
+        "Стройте по плану, проверяйте каждый уровень до улучшений и сохраняйте доступ к контроллеру, энергии и выходам."
+      ]
+    },
+    {
+      "slug": "mob_learning",
+      "icon": "woot:mob_shard",
+      "title_en": "Mob Learning and First Access",
+      "title_ru": "Изучение моба и первый доступ",
+      "desc_en": [
+        "A simulated mob must first be encountered through the real world, dimension or encounter path. Capturing metadata should not replace the first legitimate kill.",
+        "Require stage-approved learning, separate normal mobs from bosses and keep the first-victory quest as the sole source of reusable permissions."
+      ],
+      "desc_ru": [
+        "Симулируемая сущность должна быть впервые встречена честным путём мира, измерения или боя. Захват данных не заменяет первую законную победу.",
+        "Требуйте разрешённое изучение, отделяйте обычных мобов от боссов и оставляйте первый квест единственным источником многоразовых допусков."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "woot:loot_exporter",
+      "title_en": "Loot Tables and Output Whitelists",
+      "title_ru": "Таблицы лута и белые списки выходов",
+      "desc_en": [
+        "Simulated loot may include common drops, rare rolls, equipment and modded progression items. Copying the full table is not automatically balanced.",
+        "Whitelist ordinary outputs, exclude permissions and unique rewards, document rare chances and ensure every allowed item has already been accessible at that stage."
+      ],
+      "desc_ru": [
+        "Симулированный лут включает обычные предметы, редкие выпадения, экипировку и компоненты прогрессии. Полная копия таблицы не означает баланс.",
+        "Разрешайте обычные выходы, исключайте допуски и уникальные награды, документируйте редкость и проверяйте доступность каждого предмета на этапе."
+      ]
+    },
+    {
+      "slug": "power",
+      "icon": "woot:power_cell",
+      "title_en": "Power Cost and Factory Scale",
+      "title_ru": "Энергозатраты и масштаб фабрики",
+      "desc_en": [
+        "Higher-tier factories and upgrades convert more energy into simulated loot. Cheap unlimited power can make dimension and combat content irrelevant.",
+        "Measure energy per output, cap factory count by stage, protect industrial reserves and compare simulation with physical farms before scaling."
+      ],
+      "desc_ru": [
+        "Старшие фабрики и улучшения превращают больше энергии в симулированный лут. Дешёвая неограниченная энергия делает измерения и бой ненужными.",
+        "Измеряйте энергию на выход, ограничивайте число фабрик по этапу, защищайте резерв и сравнивайте симуляцию с физической фермой."
+      ]
+    },
+    {
+      "slug": "upgrades",
+      "icon": "woot:upgrade_base",
+      "title_en": "Upgrades and Compound Multipliers",
+      "title_ru": "Улучшения и составные множители",
+      "desc_en": [
+        "Rate, looting, efficiency and other upgrades multiply each other. Combining maximum values can exceed the balance of the original encounter by orders of magnitude.",
+        "Evaluate complete upgrade sets, gate looting and rate tiers, measure output after every change and preserve a safe low-power operating profile."
+      ],
+      "desc_ru": [
+        "Скорость, добыча, эффективность и другие улучшения перемножаются. Максимальная комбинация превосходит исходный бой на порядки.",
+        "Оценивайте полный комплект, закрывайте уровни добычи и скорости, измеряйте выход после каждого изменения и сохраняйте маломощный профиль."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "woot:loot_exporter",
+      "title_en": "Bulk Output and Overflow Control",
+      "title_ru": "Массовый выход и контроль переполнения",
+      "desc_en": [
+        "A simulated factory can generate many item types without visible entities. Storage saturation may remain hidden until the exporter blocks the whole system.",
+        "Sort high-volume drops, cap low-value stock, provide a deliberate sink and shut down the factory before items are deleted or trapped internally."
+      ],
+      "desc_ru": [
+        "Симулирующая фабрика создаёт много типов предметов без видимых сущностей. Переполнение скрыто до блокировки экспортёра.",
+        "Сортируйте массовый лут, ограничивайте дешёвый запас, создавайте осознанный поглотитель и останавливайте фабрику до удаления или застревания предметов."
+      ]
+    },
+    {
+      "slug": "cross_mod",
+      "icon": "woot:factory_controller",
+      "title_en": "Woot, EMC and Renewable Loops",
+      "title_ru": "Woot, EMC и возобновляемые циклы",
+      "desc_en": [
+        "Simulated drops can feed EMC, seeds, bees or crafting and form a closed loop whose output finances more factories.",
+        "Set zero EMC on gates, compare energy and material cost with output value and reject loops that reproduce controllers, upgrades or permission resources."
+      ],
+      "desc_ru": [
+        "Симулированный лут попадает в EMC, семена, пчёл или крафт и образует цикл, финансирующий новые фабрики.",
+        "Задавайте нулевой EMC, сравнивайте затраты с выходом и запрещайте циклы, воспроизводящие контроллеры, улучшения или ресурсы-допуски."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "woot:factory_controller",
+      "title_en": "Factory Diagnostics",
+      "title_ru": "Диагностика фабрики",
+      "desc_en": [
+        "A stopped Woot factory should be checked for structure tier, learned entity, power, allowed output, upgrade compatibility and full exporter state.",
+        "Record one complete cycle, disable upgrades during diagnosis and compare controller status with external energy and storage measurements."
+      ],
+      "desc_ru": [
+        "Остановившуюся фабрику проверяйте по структуре, сущности, энергии, разрешённому выходу, совместимости улучшений и заполнению экспортёра.",
+        "Запишите полный цикл, отключите улучшения на время диагностики и сравните контроллер с внешней энергией и хранением."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bioindustrial_matrix",
+      "title_en": "Project: Stage-Audited Woot Factory",
+      "title_ru": "Проект: фабрика Woot с аудитом этапа",
+      "desc_en": [
+        "Build a Woot factory for one approved ordinary mob with bounded upgrades, measured energy and a complete output whitelist.",
+        "The project passes after real-access proof, two simulation batches, overflow shutdown, cross-mod loop review and a demonstrated rejection of a forbidden boss or seal output."
+      ],
+      "desc_ru": [
+        "Постройте фабрику Woot для одного разрешённого обычного моба с ограниченными улучшениями, измеренной энергией и полным белым списком.",
+        "Проект принят после доказательства реального доступа, двух партий, остановки при переполнении, проверки циклов и отклонения запрещённого босса или печати."
+      ]
+    }
+  ]
+}
