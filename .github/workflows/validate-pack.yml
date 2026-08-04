@@ -5,10 +5,12 @@ on:
     branches:
       - expert-overhaul-v1
     paths:
+      - "flame/manifest.json"
       - "minecraft/**"
       - ".github/workflows/validate-pack.yml"
   pull_request:
     paths:
+      - "flame/manifest.json"
       - "minecraft/**"
       - ".github/workflows/validate-pack.yml"
 
@@ -33,6 +35,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             .github
+            flame/manifest.json
             minecraft/config
             minecraft/docs
             minecraft/kubejs
@@ -47,6 +50,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Build manifest-backed mod guide registry
+        run: python minecraft/tools/build_mod_guide_registry.py
 
       - name: Synchronize bilingual expert quest localization
         run: python minecraft/tools/sync_expert_localization.py
@@ -84,6 +90,15 @@ jobs:
       - name: Audit quest quality
         run: python minecraft/tools/quest_quality_audit.py
 
+      - name: Audit progression contract
+        run: python minecraft/tools/progression_contract_audit.py
+
+      - name: Audit gated-item bypasses
+        run: python minecraft/tools/bypass_audit.py
+
+      - name: Audit guide coverage for all manifest projects
+        run: python minecraft/tools/mod_guide_coverage_audit.py
+
       - name: Gate Create core-route quality
         run: python minecraft/tools/create_core_quality_gate.py
 
@@ -110,6 +125,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            minecraft/config/mod_guide_registry.json \
             minecraft/config/ftbquests/quests/chapters/expert_progression.snbt \
             minecraft/config/ftbquests/quests/chapters/create.snbt \
             minecraft/config/ftbquests/quests/chapters/immersive_engineering.snbt \
@@ -119,9 +135,12 @@ jobs:
             minecraft/kubejs/server_scripts/combat_scaling.js \
             minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
             minecraft/docs/QUEST_QUALITY_REPORT.md \
+            minecraft/docs/PROGRESSION_CONTRACT_REPORT.md \
+            minecraft/docs/BYPASS_AUDIT_REPORT.md \
+            minecraft/docs/MOD_GUIDE_COVERAGE_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
             minecraft/docs/IE_CORE_QUALITY_REPORT.md \
             minecraft/docs/MI_CORE_QUALITY_REPORT.md \
             minecraft/docs/V1_READINESS.md
-          git commit -m "automation: apply modeled balance and quest upgrades"
+          git commit -m "automation: refresh v1 product and coverage reports"
           git push origin HEAD:${TARGET_BRANCH}
