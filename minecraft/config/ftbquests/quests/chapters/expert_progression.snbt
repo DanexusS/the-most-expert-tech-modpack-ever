@@ -33,6 +33,55 @@
 		{
 			dependencies: ["1B663F652AEF7395"]
 			icon: {
+				id: "kubejs:field_engineering_kit"
+			}
+			id: "A17E4D09B8C2F101"
+			shape: "gear"
+			tasks: [{
+				id: "A17E4D09B8C2F111"
+				item: { count: 1, id: "kubejs:field_engineering_kit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B663F652AEF7395"]
+			icon: {
+				id: "kubejs:power_regulation_unit"
+			}
+			id: "B29F510AC7D3E202"
+			shape: "gear"
+			tasks: [{
+				id: "B29F510AC7D3E212"
+				item: { count: 1, id: "kubejs:power_regulation_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B663F652AEF7395"]
+			icon: {
+				id: "kubejs:materials_analysis_matrix"
+			}
+			id: "C3A0621BD8E4F303"
+			shape: "gear"
+			tasks: [{
+				id: "C3A0621BD8E4F313"
+				item: { count: 1, id: "kubejs:materials_analysis_matrix" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"A17E4D09B8C2F101"
+				"B29F510AC7D3E202"
+				"C3A0621BD8E4F303"
+			]
+			icon: {
 				id: "kubejs:mechanical_core"
 			}
 			id: "5E5CFA388D9EC683"
@@ -48,11 +97,26 @@
 				item: { count: 1, id: "kubejs:mechanical_core" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E5CFA388D9EC683"]
+			icon: {
+				id: "kubejs:kinetic_interface"
+			}
+			id: "D4B1732CE9F50404"
+			shape: "gear"
+			tasks: [{
+				id: "D4B1732CE9F50414"
+				item: { count: 1, id: "kubejs:kinetic_interface" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D4B1732CE9F50404"]
 			icon: {
 				id: "kubejs:industrial_frame"
 			}
@@ -69,11 +133,14 @@
 				item: { count: 1, id: "kubejs:industrial_frame" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["05FA9E02AB2C8163"]
+			dependencies: [
+				"16838B1A7CA4BE89"
+				"05FA9E02AB2C8163"
+			]
 			icon: {
 				id: "kubejs:precision_circuit"
 			}
@@ -90,7 +157,7 @@
 				item: { count: 1, id: "kubejs:precision_circuit" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -111,10 +178,11 @@
 				item: { count: 1, id: "kubejs:chemical_processor" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["33D42DC311D2F9BE"]
 			icon: {
 				id: "kubejs:bioindustrial_matrix"
 			}
@@ -131,7 +199,7 @@
 				item: { count: 1, id: "kubejs:bioindustrial_matrix" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -152,7 +220,7 @@
 				item: { count: 1, id: "kubejs:quantum_logic" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
@@ -173,10 +241,11 @@
 				item: { count: 1, id: "kubejs:resonant_core" }
 				type: "item"
 			}]
-			x: 21.0d
+			x: 27.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["3EE8E42D0138A34A"]
 			icon: {
 				id: "kubejs:draconic_processor"
 			}
@@ -193,7 +262,7 @@
 				item: { count: 1, id: "kubejs:draconic_processor" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -214,10 +283,11 @@
 				item: { count: 1, id: "kubejs:transmutation_matrix" }
 				type: "item"
 			}]
-			x: 27.0d
+			x: 33.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["6B91727E7931BD65"]
 			icon: {
 				id: "kubejs:cosmic_catalyst"
 			}
@@ -234,7 +304,7 @@
 				item: { count: 1, id: "kubejs:cosmic_catalyst" }
 				type: "item"
 			}]
-			x: 30.0d
+			x: 36.0d
 			y: 0.0d
 		}
 	]
