@@ -1,7 +1,8 @@
 #General mod settings
 [general]
-	#logging
-	useLoggingLog = true
+	#Disable routine CoroUtil log traffic in the production pack.
+	#Errors remain enabled; debug remains disabled.
+	useLoggingLog = false
 	#-
 	useLoggingDebug = false
 	#-
