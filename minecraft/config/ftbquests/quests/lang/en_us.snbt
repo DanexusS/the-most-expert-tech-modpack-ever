@@ -10156,4 +10156,125 @@
 	quest.3999760881C855FA.title: "Chemical Crystallizer — Crystal Throughput"
 	quest.587A19FC348387C5.title: "Pressurized Reaction Chamber — Three-Domain Recipe Control"
 	quest.7EA6B942D1294ED6.title: "Digital Miner — Bounded Extraction Project"
+	chapter.BB8991485482A0AC.title: "Core Technology Manual I"
+	quest.F81E0A028C5C063F.title: "Rotational Network Model"
+	quest.F81E0A028C5C063F.quest_desc: ["Create transmits rotation through connected components. Speed, direction and stress capacity are separate properties and must be inspected together.","A working design starts with a labelled source, a measurable distribution path and an intentional shutdown point; adding shafts does not add capacity."]
+	quest.AC275065482E87D8.title: "Sources and Stress Capacity"
+	quest.AC275065482E87D8.quest_desc: ["Water wheels, steam engines and other sources provide stress capacity. Consumers spend that capacity according to their stress impact and current speed.","Keep normal operation below the absolute limit, reserve capacity for startup spikes and split independent factories instead of building one fragile universal shaft."]
+	quest.377F3890FCF854C4.title: "Ratios, Speed and Direction"
+	quest.377F3890FCF854C4.quest_desc: ["Cogwheel ratios and speed controllers change RPM, while gearboxes and chain drives route direction. Faster processing usually increases stress demand.","Choose speed from the slowest stable process, document every ratio change and avoid hidden direction reversals that only appear after a line is expanded."]
+	quest.2372BBDD46B032BD.title: "Belts and Visible Throughput"
+	quest.2372BBDD46B032BD.quest_desc: ["Belts make item flow observable, which is useful for finding spacing problems, blocked outputs and uneven processing times.","A belt line needs controlled insertion, extraction, overflow handling and enough spacing for the slowest machine; visual motion is not proof of sustained throughput."]
+	quest.9F9E91C624EA6812.title: "Mechanical Processing Cells"
+	quest.9F9E91C624EA6812.quest_desc: ["Presses, mixers, crushers, saws and deployers should be arranged as repeatable cells with defined inputs, outputs and recovery access.","Test each cell with a full batch, return reusable tools and containers, and stop upstream delivery before a full destination scatters or destroys workpieces."]
+	quest.63A27BD30FD8480C.title: "Sequenced Assembly"
+	quest.63A27BD30FD8480C.quest_desc: ["Sequenced assembly applies several operations to an incomplete item. Wrong order, missing tools or uncontrolled recirculation can consume materials without producing a result.","Use a bounded loop, verify every operation and chance, recover incomplete items and maintain enough component stock for one complete sequence rather than one individual step."]
+	quest.F739F4192D5DBA5A.title: "Fluid Networks"
+	quest.F739F4192D5DBA5A.quest_desc: ["Pumps define flow direction and tanks provide buffering. Pipe connectivity alone does not guarantee correct routing when several fluids or consumers share a network.","Separate incompatible fluids, label pump direction, reserve expansion capacity and ensure a full output tank stops production before the source is wasted."]
+	quest.3003D7ABB2BE8504.title: "Filters and Stock Control"
+	quest.3003D7ABB2BE8504.quest_desc: ["Funnels, tunnels, filters and threshold switches turn visible transport into controlled logistics. Broad filters are convenient but can route future items into the wrong machine.","Use explicit tags only when their membership is intended, cap maintained stock and test the line with an unexpected item before trusting unattended production."]
+	quest.3CAECC260F5DE3A4.title: "Contraptions and Moving Inventories"
+	quest.3CAECC260F5DE3A4.quest_desc: ["Contraptions move blocks, inventories and tools as one assembly. Movement changes which interfaces remain accessible and how items are transferred at stations.","Provide safe clearance, emergency disassembly, predictable loading and unloading, and a recovery plan for a stopped assembly outside its home position."]
+	quest.95FC9E2BE1C4B2E2.title: "Rail Logistics"
+	quest.95FC9E2BE1C4B2E2.quest_desc: ["Trains are long-distance logistics systems, not faster belts. Schedules, station ownership, chunk availability and transfer time determine reliability.","Separate passenger and freight intent, prevent two stations from competing for one cargo, include timeout behavior and keep critical recovery supplies on both sides of a route."]
+	quest.6BFE5482D5852EEB.title: "Create Diagnostics"
+	quest.6BFE5482D5852EEB.quest_desc: ["Goggles and network readouts reveal stress, speed and machine state. Diagnose from the first failed boundary instead of replacing random shafts or adding uncontrolled power.","Record source capacity, consumer load, RPM and blocked inventory state; reproduce the failure with a small batch before changing a working production network."]
+	quest.1284C2FB7B9EF266.title: "Project: Repeatable Kinetic Factory"
+	quest.1284C2FB7B9EF266.quest_desc: ["Build one factory that accepts buffered raw materials and produces at least three processed outputs through separate, measurable cells.","The project passes when it restarts after empty inputs, stops safely on full outputs, shows stress reserve, exposes bottlenecks and completes two consecutive batches without manual item movement."]
+	quest.E3540A1715EF05F2.title: "Engineer's Manual and Multiblocks"
+	quest.E3540A1715EF05F2.quest_desc: ["Immersive Engineering uses shaped multiblocks with specific orientation, formation points and input/output faces. The manual is part of the machine interface, not optional flavor text.","Before forming a structure, verify dimensions, clear maintenance space and label planned ports so later pipes and wires do not block access."]
+	quest.A3D60C4D902B79F3.title: "Coke Oven and Creosote"
+	quest.A3D60C4D902B79F3.quest_desc: ["The Coke Oven produces both solid coke products and creosote. Either full output can halt the same process.","Provide independent storage, convert creosote into planned treated-wood batches and preserve enough coke for steel production instead of consuming every output as fuel."]
+	quest.2F8C0DB8894CEDD9.title: "Steel Production"
+	quest.2F8C0DB8894CEDD9.quest_desc: ["Blast furnaces convert iron and coke into steel with slag as a secondary output. Preheaters improve throughput but add continuous power demand.","Balance coke supply, iron input, slag extraction and output storage; measure the complete batch time before deciding whether another furnace or preheater is justified."]
+	quest.EA79999088AC5FCF.title: "Wire Tiers and Loss Boundaries"
+	quest.EA79999088AC5FCF.quest_desc: ["Wire types differ in transfer limits and intended voltage tier. A connector, relay or machine can become the bottleneck even when the generator is large enough.","Document each tier transition, avoid accidental long-distance low-tier trunks and protect critical machines from sharing a line with irregular high-demand consumers."]
+	quest.D40F384449CEBE79.title: "Connectors, Relays and Topology"
+	quest.D40F384449CEBE79.quest_desc: ["Connectors terminate energy at machines; relays route wires without exposing an inventory or power port. Mixing their roles creates confusing networks.","Build a readable topology with junction labels, service isolation and no crossing wire that must be removed to reach another component."]
+	quest.907BE71CA2FE869E.title: "Buffers and Demand Spikes"
+	quest.907BE71CA2FE869E.quest_desc: ["Capacitors separate generation rate from short demand spikes and expose whether a network is slowly losing energy over time.","Size buffers from measured cycle demand, configure input/output sides deliberately and test recovery after simultaneous machine startup rather than relying on a full idle capacitor."]
+	quest.161F748018929362.title: "Standard Components"
+	quest.161F748018929362.quest_desc: ["Iron, steel and electronic components recur across tools and multiblocks. Producing them one at a time turns every later machine into a manual interruption.","Maintain minimum stock, record component demand by project and automate plates, rods and wires before expanding into machines that consume them continuously."]
+	quest.8121A4F6C57E7BAA.title: "Pumps, Pipes and Tank Safety"
+	quest.8121A4F6C57E7BAA.quest_desc: ["Fluid pipes share capacity and pumps define active movement. A visually connected line may still fail because a side, redstone mode or destination is incorrect.","Label fluids, separate incompatible networks, expose tank levels and stop producers before a full destination forces a valuable byproduct to block the plant."]
+	quest.ECEB8E8F97095296.title: "Fuel Processing and Diesel Generation"
+	quest.ECEB8E8F97095296.quest_desc: ["Diesel generation depends on an entire chain of crops or oil products, refining, fluid buffers and generator demand; the generator alone is not the system.","Calculate net energy after farm and processing costs, reserve startup fuel and prevent a power failure from disabling the pumps needed to restore fuel production."]
+	quest.FACAB8446DC28354.title: "Excavator Project Planning"
+	quest.FACAB8446DC28354.quest_desc: ["The Excavator is a large regional extraction project with high continuous energy demand and deposit-dependent output.","Survey before construction, provide bulk transport and overflow, compare deposit value with operating cost and ensure the machine cannot become an early source of progression-locked materials."]
+	quest.73F71F969BFB6012.title: "Industrial Diagnostics"
+	quest.73F71F969BFB6012.quest_desc: ["The voltmeter and visible machine state should be used to locate the first failing boundary: generation, wire capacity, machine input, fluid supply or blocked output.","Record measurements before changing the network, isolate one section at a time and preserve a known-good baseline so an attempted repair does not create a second fault."]
+	quest.2A2E995964922438.title: "Project: Integrated Industrial Yard"
+	quest.2A2E995964922438.quest_desc: ["Construct a serviceable yard that produces coke, creosote products and steel while feeding one powered IE machine through a documented wire network.","The project passes when all byproducts are handled, buffers expose shortages, maintenance access remains open and two complete steel batches finish without manual transfers."]
+	quest.128615634CED098E.title: "Steam as a Production Utility"
+	quest.128615634CED098E.quest_desc: ["Early MI machines are a shared steam system. Boiler fuel, water delivery, steam storage and pipe throughput determine whether individual machines can sustain work.","Keep dry-boiler protection, reserve water, separate generation from consumers and measure steam recovery between batches."]
+	quest.77F66B7318E67C88.title: "Bronze Machine Workshop"
+	quest.77F66B7318E67C88.quest_desc: ["Bronze machines establish crushing, smelting, cutting and compression before electrical tiers. Their low speed is intended to teach flow design, not permanent manual feeding.","Build common input and output buffers, preserve byproducts and queue enough work to observe the actual slowest machine."]
+	quest.1828C74ACF99DFCC.title: "Item and Fluid Pipe Contracts"
+	quest.1828C74ACF99DFCC.quest_desc: ["MI pipes use connections, extraction settings and filters to define movement. A pipe touching a machine is not automatically a valid route.","Document extraction points, avoid circular routes, reserve maintenance sides and test the network with a blocked destination and an unexpected item."]
+	quest.58C4FB28BD20CDFD.title: "Electric Tier Transition"
+	quest.58C4FB28BD20CDFD.quest_desc: ["Electric hulls replace steam consumption with voltage-tiered energy and recurring circuits, motors and cables.","Move only after component stock and generation can support several machines; one powered hull without a component supply chain is not an industrial transition."]
+	quest.B60421514100B713.title: "Voltage and Transformer Boundaries"
+	quest.B60421514100B713.quest_desc: ["Machine tiers accept specific voltage classes. Transformers connect tiers but do not make an undersized cable or generator safe.","Label every boundary, isolate new machines during commissioning and verify both normal draw and startup behavior before joining a production bus."]
+	quest.4B2A2D1812769D31.title: "Overclocking and Energy Cost"
+	quest.4B2A2D1812769D31.quest_desc: ["Overclocking improves throughput by increasing machine energy demand and may shift the bottleneck into generation, input transport or output handling.","Add upgrades only after measuring a complete line, preserve thermal and power margin and compare parallel machines with one heavily upgraded machine."]
+	quest.5F37BD6605608008.title: "Circuit Production"
+	quest.5F37BD6605608008.quest_desc: ["Circuits are tier gates assembled from plates, wires, components and increasingly complex intermediate parts.","Stock recurring subcomponents, separate circuit tiers, record per-machine demand and avoid consuming the last lower-tier circuit needed to rebuild its own production line."]
+	quest.9E1FBD2BFA04CCC7.title: "Industrial Multiblocks"
+	quest.9E1FBD2BFA04CCC7.quest_desc: ["Large MI structures trade construction and infrastructure cost for sustained throughput. Hatch placement and tier compatibility define the actual machine.","Plan ports before building, leave service corridors, match energy and fluid hatches and verify minimum and expanded forms separately."]
+	quest.D9133AB289D9525B.title: "Byproducts and Closed Loops"
+	quest.D9133AB289D9525B.quest_desc: ["Chemical and refining recipes often return secondary fluids or materials that are required elsewhere. Voiding them can make a later chain unnecessarily expensive.","Map every output, recycle only when the loop has a controlled purge and ensure a full low-value byproduct cannot stop a high-value process."]
+	quest.139FD0860123D9CB.title: "Assembler and Repeated Components"
+	quest.139FD0860123D9CB.quest_desc: ["The Assembler converts component stocking into repeatable machine production. It becomes useful only when inputs arrive in stable ratios and outputs leave automatically.","Run several recipes, isolate incompatible fluids, keep templates documented and verify the line can rebuild one of its own upstream components."]
+	quest.55E7C76F7F9D2062.title: "MI Diagnostics and Maintenance"
+	quest.55E7C76F7F9D2062.quest_desc: ["A stopped MI line should be diagnosed by energy tier, pipe extraction, recipe inputs, machine progress and output capacity in that order.","Preserve wrench access, label side configuration, use test batches and compare expected material balance with actual inventories before replacing machines."]
+	quest.3245C8766BC1F7FB.title: "Project: Steam-to-Electric Factory"
+	quest.3245C8766BC1F7FB.quest_desc: ["Build a factory that turns raw ore into processed material, manufactures recurring components and assembles one electric machine without hand-moving intermediate items.","The project passes after two repeated builds, safe recovery from a full output, documented voltage boundaries and a stored reserve of every component required to restart production."]
+	quest.9CE30FB7CD26B1A5.title: "Certus, Fluix and Crystal Supply"
+	quest.9CE30FB7CD26B1A5.quest_desc: ["AE2 depends on recurring certus, charged certus and fluix products. Treat them as production materials rather than one-time quest items.","Automate charging and fluix preparation, separate crystal states and keep enough reserve to rebuild power, terminals and processor production after a network failure."]
+	quest.EEC3A17819603C73.title: "Network Power and Idle Cost"
+	quest.EEC3A17819603C73.quest_desc: ["Every active device contributes to AE network demand. A system can fail during autocrafting even when idle power appears stable.","Use external buffering, observe idle and peak draw, isolate nonessential devices and ensure power loss does not trap the only tools needed to repair the network."]
+	quest.37A2614776AA14DD.title: "Channels and Dense Trunks"
+	quest.37A2614776AA14DD.quest_desc: ["Channels are a topology constraint. Smart cables expose usage, dense cables aggregate branches and ad-hoc expansion can silently exceed a path limit.","Budget channels before placement, label trunks, reserve expansion and design failure boundaries so one cut does not remove storage, crafting and monitoring together."]
+	quest.F3F6685DE19B24CF.title: "Cells, Bytes and Types"
+	quest.F3F6685DE19B24CF.quest_desc: ["Storage cells have both byte capacity and type limits. Many tiny stacks can fill types while leaving most bytes unused.","Separate bulk materials from diverse equipment, partition specialized cells, expose remaining capacity and provide an overflow route that cannot loop back into the same full storage."]
+	quest.B2D73A57683EFF07.title: "External Storage and Priority"
+	quest.B2D73A57683EFF07.quest_desc: ["Storage buses expose external inventories to the network. Priorities decide insertion and extraction order, while duplicate exposure can create recursive behavior.","Connect an inventory once, document priority, reserve machine output space and test extraction after both preferred and fallback stores contain the same item."]
+	quest.C39AB18EF836F065.title: "Subnets and Functional Boundaries"
+	quest.C39AB18EF836F065.quest_desc: ["Subnets isolate channels and functions while quartz fiber can share power without joining channel logic.","Create dedicated import, storage or machine-control subnets, document their boundary and verify the main network remains usable when one subnet is disconnected."]
+	quest.DDB2DB4EDE9314BF.title: "Processor Manufacturing"
+	quest.DDB2DB4EDE9314BF.quest_desc: ["Logic, calculation and engineering processors are recurring parts. Manual press swapping creates mistakes and blocks all advanced infrastructure.","Dedicate or positively route presses, automate silicon and printed parts, return reusable tools and keep a minimum stock for emergency network reconstruction."]
+	quest.286A05049884FAFB.title: "Processing and Crafting Patterns"
+	quest.286A05049884FAFB.quest_desc: ["Crafting patterns describe grid recipes; processing patterns describe an external transformation. Using the wrong type hides outputs or creates loops.","Name providers by destination, encode every secondary output, prevent recipes that request their own output and test one pattern with unavailable input before enabling bulk requests."]
+	quest.2AEBBD355CA6385C.title: "Crafting CPU Capacity"
+	quest.2AEBBD355CA6385C.quest_desc: ["Crafting storage limits the size of an active job and co-processors allow more parallel processing steps; neither fixes a missing ingredient or blocked machine.","Size CPUs from measured jobs, separate critical and bulk requests, expose stuck tasks and keep one small CPU free for recovery components during a large craft."]
+	quest.F958010A69C13B3B.title: "P2P Tunnels"
+	quest.F958010A69C13B3B.quest_desc: ["P2P tunnels transport channels or other resources through an AE path. They compress topology but make undocumented networks difficult to repair.","Label input/output pairs, avoid hidden nested dependencies, reserve tunnel capacity and verify endpoint loss fails only the intended subsystem."]
+	quest.DD9F85F98340A961.title: "Quantum Network Link"
+	quest.DD9F85F98340A961.quest_desc: ["Quantum bridges connect distant networks with substantial ongoing energy demand and two critical endpoints.","Power both sides independently, keep recovery items outside the bridge, test reconnection and ensure unloaded or failed remote infrastructure cannot stall unrelated local autocrafting."]
+	quest.4CEF06B4C6DB4531.title: "Project: Resilient Autocrafting Network"
+	quest.4CEF06B4C6DB4531.quest_desc: ["Build a channel-documented network with bulk and diverse storage, one functional subnet, automated processors and at least five external processing patterns.","The project passes when two simultaneous jobs finish, one subnet can be disconnected safely, a blocked machine is diagnosable and recovery parts remain available during a large request."]
+	quest.73DC027ACFC62E99.title: "Circuits, Alloys and Machine Tiers"
+	quest.73DC027ACFC62E99.quest_desc: ["Mekanism tiers consume recurring control circuits and infused alloys. Building only the final machine hides a component bottleneck.","Automate infusion inputs, stock every lower tier and reserve enough components to rebuild the machine that produces the next tier."]
+	quest.2B4F57928E155CB6.title: "Upgrades, Factories and Energy"
+	quest.2B4F57928E155CB6.quest_desc: ["Speed and factory upgrades increase parallel throughput and energy demand. Energy upgrades reduce cost but do not solve input or output saturation.","Upgrade after measuring the complete line, size cables and buffers for peak draw and compare one factory with several independently serviceable machines."]
+	quest.0A9BD05294480AA8.title: "Transporters and Side Configuration"
+	quest.0A9BD05294480AA8.quest_desc: ["Items, fluids, gases and energy use different transport systems with pull/push rules, color channels and machine side configuration.","Label each medium, avoid unrestricted round trips, preserve maintenance sides and test the network with a full destination and a disabled consumer."]
+	quest.D99E0BAB00514D28.title: "Gas Production and Dumping"
+	quest.D99E0BAB00514D28.quest_desc: ["Many chemical machines stop when either gas input is empty or an unwanted coproduct tank is full. Dumping is an operating policy, not a default fix.","Buffer every gas, document dump modes, preserve emergency oxygen or hydrogen and stop upstream production when a valuable gas destination is full."]
+	quest.4640F27407479271.title: "Twofold Ore Processing"
+	quest.4640F27407479271.quest_desc: ["Enrichment and smelting provide a compact twofold route suitable for moderate throughput and early automation.","Measure raw input, enriched output and final ingots over one stack; use the result as a baseline before accepting the infrastructure cost of chemical multiplication."]
+	quest.E32B5AD59381565F.title: "Threefold Ore Processing"
+	quest.E32B5AD59381565F.quest_desc: ["Purification adds oxygen and clumps before crushing and enrichment. The yield matters only if the gas and downstream machines keep pace.","Buffer oxygen and clumps, stop raw input on saturation and record the slowest stage across a complete raw-ore batch."]
+	quest.3D75E5354AC552C3.title: "Fourfold Ore Processing"
+	quest.3D75E5354AC552C3.quest_desc: ["Chemical injection adds hydrogen chloride and shards. Acid precursor production, gas capacity and intermediate storage become part of the ore cost.","Calculate net resource and energy demand, isolate shards by material and ensure acid failure stops ore delivery before partial intermediates accumulate."]
+	quest.0FDF4DBDA9DE4707.title: "Fivefold Slurry Processing"
+	quest.0FDF4DBDA9DE4707.quest_desc: ["Dissolution, washing and crystallization form a sulfuric-acid and slurry chain with multiple hazardous buffers.","Separate dirty and clean slurry, prohibit silent chemical dumping, interlock acid input with washer and crystallizer capacity and validate the whole route with a bounded batch."]
+	quest.44B94BA5A7DA15F0.title: "Fission, Coolant and Waste"
+	quest.44B94BA5A7DA15F0.quest_desc: ["Fission output is limited by coolant delivery, heat removal and radioactive waste handling. Raising burn rate before those systems are proven creates a delayed failure.","Start at low burn, measure steady temperatures, buffer coolant and waste, provide shutdown logic and keep recovery equipment outside the radiation area."]
+	quest.5BCD580F0880D9B2.title: "Fusion Fuel Infrastructure"
+	quest.5BCD580F0880D9B2.quest_desc: ["Fusion requires sustained deuterium, tritium and supporting thermal systems. A successful ignition does not prove continuous operation.","Maintain independent fuel reserves, measure production against injection rate, plan restart energy and ensure one upstream slowdown cannot empty both fuels simultaneously."]
+	quest.9670FDBDCD3FCA23.title: "SPS and Antimatter"
+	quest.9670FDBDCD3FCA23.quest_desc: ["The SPS converts polonium using an enormous energy budget. Antimatter is therefore a factory-capacity proof, not a passive timer.","Provide isolated energy storage, stable polonium supply, visible progress and a shutdown threshold that protects the wider grid from complete discharge."]
+	quest.A9339FE080F201E9.title: "Project: Interlocked Chemical Complex"
+	quest.A9339FE080F201E9.quest_desc: ["Build a complex that sustains gases, runs at least a threefold ore chain and supports one hazardous late chemical process with automatic shutdown conditions.","The project passes after two bounded batches, no silent dumping, visible buffer levels, documented energy draw and recovery from a deliberately blocked downstream machine."]
 }

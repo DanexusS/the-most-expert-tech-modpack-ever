@@ -1,0 +1,728 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "core_technology_manual_1"
+	group: "177A10C99EDDA376"
+	icon: { id: "kubejs:mechanical_core" }
+	id: "BB8991485482A0AC"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+		{
+			icon: { id: "create:shaft" }
+			id: "F81E0A028C5C063F"
+			shape: "hexagon"
+			tasks: [{
+				id: "073ED98878C6629B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F81E0A028C5C063F"]
+			icon: { id: "create:water_wheel" }
+			id: "AC275065482E87D8"
+			shape: "hexagon"
+			tasks: [{
+				id: "B8412D70164A4883"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["AC275065482E87D8"]
+			icon: { id: "create:large_cogwheel" }
+			id: "377F3890FCF854C4"
+			shape: "hexagon"
+			tasks: [{
+				id: "4BCCF0AF5B5BC46B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["377F3890FCF854C4"]
+			icon: { id: "create:belt_connector" }
+			id: "2372BBDD46B032BD"
+			shape: "hexagon"
+			tasks: [{
+				id: "50A77C744357CFD9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2372BBDD46B032BD"]
+			icon: { id: "create:mechanical_press" }
+			id: "9F9E91C624EA6812"
+			shape: "hexagon"
+			tasks: [{
+				id: "58D7ADAA46AD0DE4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["9F9E91C624EA6812"]
+			icon: { id: "create:precision_mechanism" }
+			id: "63A27BD30FD8480C"
+			shape: "hexagon"
+			tasks: [{
+				id: "8A76100280EAF140"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["63A27BD30FD8480C"]
+			icon: { id: "create:mechanical_pump" }
+			id: "F739F4192D5DBA5A"
+			shape: "hexagon"
+			tasks: [{
+				id: "0C9298F1BA4B9C66"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["F739F4192D5DBA5A"]
+			icon: { id: "create:brass_funnel" }
+			id: "3003D7ABB2BE8504"
+			shape: "hexagon"
+			tasks: [{
+				id: "57B91BBA75B0C12B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3003D7ABB2BE8504"]
+			icon: { id: "create:mechanical_piston" }
+			id: "3CAECC260F5DE3A4"
+			shape: "hexagon"
+			tasks: [{
+				id: "EB663D0E07E08F47"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3CAECC260F5DE3A4"]
+			icon: { id: "create:track" }
+			id: "95FC9E2BE1C4B2E2"
+			shape: "hexagon"
+			tasks: [{
+				id: "A3B0DE58F7C0F5C8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["95FC9E2BE1C4B2E2"]
+			icon: { id: "create:goggles" }
+			id: "6BFE5482D5852EEB"
+			shape: "hexagon"
+			tasks: [{
+				id: "419045D64CE542FF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6BFE5482D5852EEB"]
+			icon: { id: "kubejs:kinetic_interface" }
+			id: "1284C2FB7B9EF266"
+			shape: "hexagon"
+			tasks: [{
+				id: "DE9A5C1633B08822"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			icon: { id: "immersiveengineering:manual" }
+			id: "E3540A1715EF05F2"
+			shape: "hexagon"
+			tasks: [{
+				id: "1C778AE21E7629B8"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E3540A1715EF05F2"]
+			icon: { id: "immersiveengineering:cokebrick" }
+			id: "A3D60C4D902B79F3"
+			shape: "hexagon"
+			tasks: [{
+				id: "B7A53DEFAE6B1D2A"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A3D60C4D902B79F3"]
+			icon: { id: "immersiveengineering:blastbrick_reinforced" }
+			id: "2F8C0DB8894CEDD9"
+			shape: "hexagon"
+			tasks: [{
+				id: "80FBF14B5DA2120D"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F8C0DB8894CEDD9"]
+			icon: { id: "immersiveengineering:wirecoil_copper" }
+			id: "EA79999088AC5FCF"
+			shape: "hexagon"
+			tasks: [{
+				id: "0E9A1540FAF10356"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["EA79999088AC5FCF"]
+			icon: { id: "immersiveengineering:connector_lv" }
+			id: "D40F384449CEBE79"
+			shape: "hexagon"
+			tasks: [{
+				id: "86D8829FDBD48C39"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["D40F384449CEBE79"]
+			icon: { id: "immersiveengineering:capacitor_lv" }
+			id: "907BE71CA2FE869E"
+			shape: "hexagon"
+			tasks: [{
+				id: "39A8C45A41F2D8C1"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["907BE71CA2FE869E"]
+			icon: { id: "immersiveengineering:component_steel" }
+			id: "161F748018929362"
+			shape: "hexagon"
+			tasks: [{
+				id: "5BB3822A20E07C05"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["161F748018929362"]
+			icon: { id: "immersiveengineering:fluid_pump" }
+			id: "8121A4F6C57E7BAA"
+			shape: "hexagon"
+			tasks: [{
+				id: "93B324DEE9D70607"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["8121A4F6C57E7BAA"]
+			icon: { id: "immersiveengineering:diesel_generator" }
+			id: "ECEB8E8F97095296"
+			shape: "hexagon"
+			tasks: [{
+				id: "4C9EBC2D18C21AB6"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["ECEB8E8F97095296"]
+			icon: { id: "immersiveengineering:excavator" }
+			id: "FACAB8446DC28354"
+			shape: "hexagon"
+			tasks: [{
+				id: "81B6297FDFA03C9E"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["FACAB8446DC28354"]
+			icon: { id: "immersiveengineering:voltmeter" }
+			id: "73F71F969BFB6012"
+			shape: "hexagon"
+			tasks: [{
+				id: "09C905AA579A191F"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["73F71F969BFB6012"]
+			icon: { id: "kubejs:structural_lattice" }
+			id: "2A2E995964922438"
+			shape: "hexagon"
+			tasks: [{
+				id: "4697CBC5D41EC5B1"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			icon: { id: "modern_industrialization:bronze_boiler" }
+			id: "128615634CED098E"
+			shape: "hexagon"
+			tasks: [{
+				id: "1688D9BF948F4C9A"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["128615634CED098E"]
+			icon: { id: "modern_industrialization:bronze_macerator" }
+			id: "77F66B7318E67C88"
+			shape: "hexagon"
+			tasks: [{
+				id: "A19DA6DF4867260F"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77F66B7318E67C88"]
+			icon: { id: "modern_industrialization:bronze_item_pipe" }
+			id: "1828C74ACF99DFCC"
+			shape: "hexagon"
+			tasks: [{
+				id: "88113D90B572BB86"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1828C74ACF99DFCC"]
+			icon: { id: "modern_industrialization:basic_machine_hull" }
+			id: "58C4FB28BD20CDFD"
+			shape: "hexagon"
+			tasks: [{
+				id: "78FE5B6FDD22D314"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58C4FB28BD20CDFD"]
+			icon: { id: "modern_industrialization:lv_transformer" }
+			id: "B60421514100B713"
+			shape: "hexagon"
+			tasks: [{
+				id: "9C24515272B272B4"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["B60421514100B713"]
+			icon: { id: "modern_industrialization:overdrive_module" }
+			id: "4B2A2D1812769D31"
+			shape: "hexagon"
+			tasks: [{
+				id: "0126C698E3B6AF52"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4B2A2D1812769D31"]
+			icon: { id: "modern_industrialization:electronic_circuit" }
+			id: "5F37BD6605608008"
+			shape: "hexagon"
+			tasks: [{
+				id: "483A8BA7AB976527"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F37BD6605608008"]
+			icon: { id: "modern_industrialization:large_steam_boiler" }
+			id: "9E1FBD2BFA04CCC7"
+			shape: "hexagon"
+			tasks: [{
+				id: "EAE3E4CA0C917DB7"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["9E1FBD2BFA04CCC7"]
+			icon: { id: "modern_industrialization:chemical_reactor" }
+			id: "D9133AB289D9525B"
+			shape: "hexagon"
+			tasks: [{
+				id: "74D5461CB77B7768"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["D9133AB289D9525B"]
+			icon: { id: "modern_industrialization:assembler" }
+			id: "139FD0860123D9CB"
+			shape: "hexagon"
+			tasks: [{
+				id: "BA8A783588DA5AEB"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["139FD0860123D9CB"]
+			icon: { id: "modern_industrialization:wrench" }
+			id: "55E7C76F7F9D2062"
+			shape: "hexagon"
+			tasks: [{
+				id: "A7B34D0FB3D1C3DD"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["55E7C76F7F9D2062"]
+			icon: { id: "modern_industrialization:assembler" }
+			id: "3245C8766BC1F7FB"
+			shape: "hexagon"
+			tasks: [{
+				id: "7E48DCE1675F3910"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 22.0d
+		}
+		{
+			icon: { id: "ae2:certus_quartz_crystal" }
+			id: "9CE30FB7CD26B1A5"
+			shape: "hexagon"
+			tasks: [{
+				id: "ECBA24F34D809B99"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9CE30FB7CD26B1A5"]
+			icon: { id: "ae2:energy_acceptor" }
+			id: "EEC3A17819603C73"
+			shape: "hexagon"
+			tasks: [{
+				id: "0991DCDAAE5A1B7E"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EEC3A17819603C73"]
+			icon: { id: "ae2:smart_cable" }
+			id: "37A2614776AA14DD"
+			shape: "hexagon"
+			tasks: [{
+				id: "D586EC5E52398A01"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37A2614776AA14DD"]
+			icon: { id: "ae2:item_storage_cell_16k" }
+			id: "F3F6685DE19B24CF"
+			shape: "hexagon"
+			tasks: [{
+				id: "498531C41E66DAEE"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["F3F6685DE19B24CF"]
+			icon: { id: "ae2:storage_bus" }
+			id: "B2D73A57683EFF07"
+			shape: "hexagon"
+			tasks: [{
+				id: "20E8114E0E168CD4"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["B2D73A57683EFF07"]
+			icon: { id: "ae2:quartz_fiber" }
+			id: "C39AB18EF836F065"
+			shape: "hexagon"
+			tasks: [{
+				id: "3F8393ADCB31DFE5"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["C39AB18EF836F065"]
+			icon: { id: "ae2:engineering_processor" }
+			id: "DDB2DB4EDE9314BF"
+			shape: "hexagon"
+			tasks: [{
+				id: "F5DADC32A80A6C98"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["DDB2DB4EDE9314BF"]
+			icon: { id: "ae2:pattern_provider" }
+			id: "286A05049884FAFB"
+			shape: "hexagon"
+			tasks: [{
+				id: "AC9E01A30AD01D5B"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["286A05049884FAFB"]
+			icon: { id: "ae2:crafting_unit" }
+			id: "2AEBBD355CA6385C"
+			shape: "hexagon"
+			tasks: [{
+				id: "EA89F8A418F281BD"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2AEBBD355CA6385C"]
+			icon: { id: "ae2:me_p2p_tunnel" }
+			id: "F958010A69C13B3B"
+			shape: "hexagon"
+			tasks: [{
+				id: "C08C293E35DF6DAD"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["F958010A69C13B3B"]
+			icon: { id: "ae2:quantum_ring" }
+			id: "DD9F85F98340A961"
+			shape: "hexagon"
+			tasks: [{
+				id: "82A66F536FA7CAFB"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["DD9F85F98340A961"]
+			icon: { id: "kubejs:quantum_logic" }
+			id: "4CEF06B4C6DB4531"
+			shape: "hexagon"
+			tasks: [{
+				id: "341DCF9926B4C142"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 22.0d
+		}
+		{
+			icon: { id: "mekanism:basic_control_circuit" }
+			id: "73DC027ACFC62E99"
+			shape: "hexagon"
+			tasks: [{
+				id: "D63913523038B248"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DC027ACFC62E99"]
+			icon: { id: "mekanism:upgrade_speed" }
+			id: "2B4F57928E155CB6"
+			shape: "hexagon"
+			tasks: [{
+				id: "D572F167BE79D3A3"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B4F57928E155CB6"]
+			icon: { id: "mekanism:ultimate_logistical_transporter" }
+			id: "0A9BD05294480AA8"
+			shape: "hexagon"
+			tasks: [{
+				id: "17D762B4EA2A87B9"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A9BD05294480AA8"]
+			icon: { id: "mekanism:electrolytic_separator" }
+			id: "D99E0BAB00514D28"
+			shape: "hexagon"
+			tasks: [{
+				id: "2F456F733FAE13D4"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D99E0BAB00514D28"]
+			icon: { id: "mekanism:enrichment_chamber" }
+			id: "4640F27407479271"
+			shape: "hexagon"
+			tasks: [{
+				id: "3A3C0C5ED5E76AAC"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4640F27407479271"]
+			icon: { id: "mekanism:purification_chamber" }
+			id: "E32B5AD59381565F"
+			shape: "hexagon"
+			tasks: [{
+				id: "9881E2813CA1DDF8"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["E32B5AD59381565F"]
+			icon: { id: "mekanism:chemical_injection_chamber" }
+			id: "3D75E5354AC552C3"
+			shape: "hexagon"
+			tasks: [{
+				id: "8C54612270D89A59"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3D75E5354AC552C3"]
+			icon: { id: "mekanism:chemical_dissolution_chamber" }
+			id: "0FDF4DBDA9DE4707"
+			shape: "hexagon"
+			tasks: [{
+				id: "AA64103EE8F5F233"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0FDF4DBDA9DE4707"]
+			icon: { id: "mekanismgenerators:fission_reactor_casing" }
+			id: "44B94BA5A7DA15F0"
+			shape: "hexagon"
+			tasks: [{
+				id: "3358E45D782BC15A"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["44B94BA5A7DA15F0"]
+			icon: { id: "mekanismgenerators:fusion_reactor_controller" }
+			id: "5BCD580F0880D9B2"
+			shape: "hexagon"
+			tasks: [{
+				id: "CE16E6437ABC1DC4"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5BCD580F0880D9B2"]
+			icon: { id: "mekanism:sps_casing" }
+			id: "9670FDBDCD3FCA23"
+			shape: "hexagon"
+			tasks: [{
+				id: "4C084AA3ECE1699E"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["9670FDBDCD3FCA23"]
+			icon: { id: "kubejs:antimatter_regulator" }
+			id: "A9339FE080F201E9"
+			shape: "hexagon"
+			tasks: [{
+				id: "61158FA880435C0E"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 22.0d
+		}
+	]
+}
