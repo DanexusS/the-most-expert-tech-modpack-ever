@@ -7,8 +7,8 @@
 - Macro stages: **18**
 - Mandatory substages: **72**
 - Planned quest budget: **5400**
-- Current parsed quests: **3068**
-- Remaining quest budget: **2332**
+- Current parsed quests: **3118**
+- Remaining quest budget: **2282**
 - Gated outputs: **63**
 - Gated outputs without an authoritative path: **0**
 - Authorized process or unique-permission outputs: **11**
