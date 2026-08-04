@@ -1,0 +1,59 @@
+name: Validate expert modpack
+
+on:
+  push:
+    branches:
+      - expert-overhaul-v1
+  pull_request:
+    paths:
+      - "minecraft/**"
+      - ".github/workflows/validate-pack.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expert-pack-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Synchronize bilingual expert quest localization
+        run: python minecraft/tools/sync_expert_localization.py
+
+      - name: Validate scripts, quests and localization
+        run: python minecraft/tools/static_validate.py
+
+      - name: Commit synchronized localization
+        if: github.event_name == 'push' && github.ref_name == 'expert-overhaul-v1'
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Localization is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            minecraft/config/ftbquests/quests/lang/en_us.snbt \
+            minecraft/config/ftbquests/quests/lang/ru_ru.snbt
+          git commit -m "localization: sync expert quest translations"
+          git push origin HEAD:${GITHUB_REF_NAME}
