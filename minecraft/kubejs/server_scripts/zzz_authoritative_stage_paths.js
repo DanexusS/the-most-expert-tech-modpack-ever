@@ -39,6 +39,19 @@ function v1PathRegister(event, definition) {
 
 ServerEvents.recipes(function(event) {
   var definitions = [
+    // The structural standard must be craftable before powered bronze plate
+    // production; otherwise the bronze boiler and lattice form a cycle.
+    {
+      id: 'kubejs:v1_path/structural_lattice',
+      output: 'kubejs:structural_lattice',
+      pattern: ['IBI', 'GFG', 'IBI'],
+      key: {
+        I: 'immersiveengineering:component_iron',
+        B: 'minecraft:iron_bars',
+        G: 'minecraft:glass',
+        F: 'kubejs:field_engineering_kit'
+      }
+    },
     // Correct the early calibrated substrate so it does not depend on an AE2
     // processor that itself requires the gated Inscriber.
     {
