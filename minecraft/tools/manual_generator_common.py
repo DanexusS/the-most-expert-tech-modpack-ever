@@ -26,8 +26,7 @@ def upsert_localization(text: str, key: str, value: str) -> str:
     return text[:closing].rstrip() + "\n" + rendered + "}\n"
 
 
-def generate_manual(root: Path, data_path: Path) -> tuple[int, bool]:
-    data = json.loads(data_path.read_text(encoding="utf-8"))
+def generate_manual_data(root: Path, data: dict) -> tuple[int, bool]:
     chapter_dir = root / "config" / "ftbquests" / "quests" / "chapters"
     lang_dir = root / "config" / "ftbquests" / "quests" / "lang"
     chapter_path = chapter_dir / f"{data['filename']}.snbt"
@@ -97,3 +96,7 @@ def generate_manual(root: Path, data_path: Path) -> tuple[int, bool]:
 
     print(f"{data['filename']}: {quest_total} quests; {'updated' if changed else 'unchanged'}")
     return quest_total, changed
+
+
+def generate_manual(root: Path, data_path: Path) -> tuple[int, bool]:
+    return generate_manual_data(root, json.loads(data_path.read_text(encoding="utf-8")))
