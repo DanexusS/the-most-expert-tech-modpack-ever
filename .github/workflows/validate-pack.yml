@@ -90,6 +90,9 @@ jobs:
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
 
+      - name: Classify v1 readiness
+        run: python minecraft/tools/v1_readiness.py
+
       - name: Commit generated pack metadata
         shell: bash
         run: |
@@ -111,6 +114,7 @@ jobs:
             minecraft/docs/QUEST_QUALITY_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
             minecraft/docs/IE_CORE_QUALITY_REPORT.md \
-            minecraft/docs/MI_CORE_QUALITY_REPORT.md
+            minecraft/docs/MI_CORE_QUALITY_REPORT.md \
+            minecraft/docs/V1_READINESS.md
           git commit -m "automation: apply modeled balance and quest upgrades"
           git push origin HEAD:${GITHUB_REF_NAME}
