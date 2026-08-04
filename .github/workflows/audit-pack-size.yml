@@ -1,0 +1,51 @@
+name: Audit pack size
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - expert-overhaul-v1
+    paths:
+      - "flame/**"
+      - "minecraft/config/ftbquests/ftb/textures/**"
+      - "minecraft/resourcepacks/**"
+      - "minecraft/shaderpacks/**"
+      - "minecraft/tools/audit_repository_size.py"
+      - ".github/workflows/audit-pack-size.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expert-pack-size-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit-size:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate repository size audit
+        run: python minecraft/tools/audit_repository_size.py
+
+      - name: Commit size report
+        shell: bash
+        run: |
+          if git diff --quiet -- minecraft/docs/REPOSITORY_SIZE_AUDIT.md; then
+            echo "Repository size report is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add minecraft/docs/REPOSITORY_SIZE_AUDIT.md
+          git commit -m "audit: update repository size report"
+          git push origin HEAD:${GITHUB_REF_NAME}
