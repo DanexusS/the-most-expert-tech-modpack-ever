@@ -14,8 +14,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Allthemodium Resource Gate | PASS |
 | Amateur Archaeologist Catalog | PASS |
 | Apotheosis Catalog | PASS |
+| Apotheosis Secondary Systems | PASS |
 | Ars Nouveau Catalog | PASS |
 | Avaritia Catalog | PASS |
+| Building Gadgets Safety | PASS |
 | Bypass closure | PASS |
 | Cataclysm Catalog | PASS |
 | Create Catalog | PASS |
@@ -24,12 +26,14 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Create Crafts Additions Operational | PASS |
 | Create Stuff N Additions Catalog | PASS |
 | Creative Items Permission | PASS |
+| Divinerpg Stage Seal | PASS |
 | Draconic Evolution Catalog | PASS |
 | Dyson Cube Operational | PASS |
 | Ender Io Catalog | PASS |
 | Engineering Handbook Catalog | PASS |
 | Extended Crafting Catalog | PASS |
 | Extreme Reactors Operational | PASS |
+| Flux Networks Grid | PASS |
 | Heart Of The Void Convergence | PASS |
 | Hostile Neural Networks | PASS |
 | Ice And Fire Catalog | PASS |
@@ -42,6 +46,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Mekanism Part 2 Catalog | PASS |
 | Mi Core | PASS |
 | Minecolonies Catalog | PASS |
+| Minimum For Maximum Operational | PASS |
 | Mob Grinding Utils Catalog | PASS |
 | Modern Industrialization Catalog | PASS |
 | Mystical Agriculture | PASS |
@@ -69,6 +74,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Theoretical balance | PASS |
 | Tips And Tricks Catalog | PASS |
 | Ufo Future Catalog | PASS |
+| When Dungeons Arise Expedition | PASS |
 | Woot | PASS |
 
 ## Quest product specification
@@ -76,10 +82,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5711 / 5970 | IN PROGRESS |
-| Single item-only ratio | 2.2% / ≤30% | PASS |
+| RU/EN descriptions | 5827 / 5970 | IN PROGRESS |
+| Single item-only ratio | 1.3% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 259 | IN PROGRESS |
+| Remaining without full RU/EN | 143 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 

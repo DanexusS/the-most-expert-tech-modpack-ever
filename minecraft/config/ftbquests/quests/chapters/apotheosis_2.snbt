@@ -157,14 +157,6 @@
 		{
 			dependencies: ["7C3968AF39557751"]
 			id: "5B653A45093C56F0"
-			rewards: [{
-				id: "551D3CE25E4DD3EB"
-				item: {
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "2A0D3BDA4C874A43"
@@ -176,6 +168,11 @@
 					item: { count: 1, id: "minecraft:shears" }
 					type: "item"
 				}
+			
+			{
+				id: "B2CB93AA0D869DC1"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: -2.0d
@@ -183,15 +180,6 @@
 		{
 			dependencies: ["7C3968AF39557751"]
 			id: "6184B40362A7B190"
-			rewards: [{
-				count: 32
-				id: "26405F74A6300E73"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "01F155EEAC1A8404"
@@ -208,6 +196,11 @@
 					item: { count: 1, id: "minecraft:bamboo" }
 					type: "item"
 				}
+			
+			{
+				id: "E4D08EDEB0875ACE"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: 0.0d
@@ -215,20 +208,16 @@
 		{
 			dependencies: ["7C3968AF39557751"]
 			id: "00588B2FDB99874D"
-			rewards: [{
-				count: 8
-				id: "25153229ED21F95C"
-				item: {
-					count: 1
-					id: "minecraft:arrow"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6CB3873E7BCE06F2"
 				item: { count: 1, id: "minecraft:fletching_table" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8F315656F4F3532E"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: -1.0d
 		}
@@ -237,28 +226,23 @@
 				id: "minecraft:spawner"
 			}
 			id: "310969B8FE0A94DE"
-			rewards: [{
-				id: "763FACC9D65773DD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
 			tasks: [{
 				advancement: "apothic_spawners:root"
 				criterion: ""
 				id: "256BA7F05A23110F"
 				type: "advancement"
-			}]
+			}
+			{
+				id: "A931DB3CBD5FC846"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			hide_dependency_lines: true
 			id: "7C3968AF39557751"
-			rewards: [{
-				id: "20109648BE79F246"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
 			tasks: [{
 				id: "1F3314E76D27E430"
 				type: "checkmark"
@@ -269,337 +253,272 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0F89BFD4A3F63A48"
-			rewards: [{
-				count: 6
-				id: "6A4D02231F59F402"
-				item: {
-					count: 1
-					id: "minecraft:soul_lantern"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5F16431DBEAF97B0"
 				item: { count: 1, id: "minecraft:soul_lantern" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8995C4019A290D0A"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "6A497B063CF32A5C"
-			rewards: [{
-				count: 8
-				id: "73665429569060DB"
-				item: {
-					count: 1
-					id: "minecraft:fermented_spider_eye"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0E1360171857D9E0"
 				item: { count: 1, id: "minecraft:fermented_spider_eye" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B0715DC5BE6048C4"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "4D07B0A4A2E77CDA"
-			rewards: [{
-				count: 10
-				id: "125102EC635E5209"
-				item: {
-					count: 1
-					id: "minecraft:ghast_tear"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4DA7AE7F61B1FC05"
 				item: { count: 1, id: "minecraft:ghast_tear" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D34C488D28939797"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "42D7C8CD8E6F5CD7"
-			rewards: [{
-				count: 16
-				id: "486430FFCA5D1BAF"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6E21B38588BB9AF4"
 				item: { count: 1, id: "minecraft:clock" }
 				type: "item"
-			}]
+			}
+			{
+				id: "95662079C36D369B"
+				type: "checkmark"
+			}
+			]
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "6F71FD826C29C31A"
-			rewards: [{
-				count: 2
-				id: "5F5A9891B43FF923"
-				item: {
-					count: 1
-					id: "minecraft:turtle_egg"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "65FF566B862C7211"
 				item: { count: 1, id: "minecraft:turtle_egg" }
 				type: "item"
-			}]
+			}
+			{
+				id: "567D3BF807EA4158"
+				type: "checkmark"
+			}
+			]
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "186593EBCE3FE8D8"
-			rewards: [{
-				count: 8
-				id: "0CFDDB194610C1FE"
-				item: {
-					count: 1
-					id: "minecraft:piston"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5E1D4330184C7E38"
 				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A14C51D368E0D420"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0E02CE4469FCA4C9"
-			rewards: [{
-				count: 16
-				id: "0E37557EFACD595E"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "39E60F2CA2EFAB9E"
 				item: { count: 1, id: "minecraft:comparator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "528C4BA52415D7EF"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "3E2A411FF5B4B0E7"
-			rewards: [{
-				count: 14
-				id: "1CFFBC0A625D0737"
-				item: {
-					count: 1
-					id: "minecraft:prismarine_crystals"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "75FE61AB74C39108"
 				item: { count: 1, id: "minecraft:prismarine_crystals" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1C3BE85737A71389"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "7A9AE63998BB41FF"
-			rewards: [{
-				count: 4
-				id: "05AA7058746402B1"
-				item: {
-					count: 1
-					id: "minecraft:chorus_fruit"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3394CF51F5EB44E0"
 				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7B549D309CBB0196"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0D6D45DBA64E612D"
-			rewards: [{
-				count: 12
-				id: "32480C364271A441"
-				item: {
-					count: 1
-					id: "minecraft:sugar"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "25D7DDF94DAB2801"
 				item: { count: 1, id: "minecraft:sugar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A126EEEA0CE94B09"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "30EB438C66324213"
-			rewards: [{
-				id: "1C43F585E0CF4C8D"
-				item: {
-					count: 1
-					id: "minecraft:nether_star"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "587488A48E9D2B9B"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AD7C2008DF3FD091"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "40096ED0B04C3EC5"
-			rewards: [{
-				id: "64C28759155CD5C0"
-				item: {
-					count: 1
-					id: "minecraft:conduit"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "74B1D74F1C52D05C"
 				item: { count: 1, id: "minecraft:conduit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6734377EA64563EC"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "167E1474644C9908"
-			rewards: [{
-				count: 32
-				id: "0D2D3CC89ECD4C53"
-				item: {
-					count: 1
-					id: "minecraft:quartz"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "20D72B07EE11DDCB"
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
-			}]
+			}
+			{
+				id: "68D5262711DEEED3"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "1AD87CB3226ED224"
-			rewards: [{
-				count: 8
-				id: "71620B10B752E19D"
-				item: {
-					count: 1
-					id: "minecraft:white_wool"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "69EB047F9BE57F1F"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "03E5F88018E827D3"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "528111F34C96380C"
-			rewards: [{
-				count: 8
-				id: "4FA62E67371B44DF"
-				item: {
-					count: 1
-					id: "minecraft:pointed_dripstone"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "616EA079E90675A8"
 				item: { count: 1, id: "minecraft:pointed_dripstone" }
 				type: "item"
-			}]
+			}
+			{
+				id: "74D10D7E5F8AC82B"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "5A0DDE4265A2A8B4"
-			rewards: [{
-				count: 4
-				id: "3CC54E9946DDFB09"
-				item: {
-					count: 1
-					id: "minecraft:echo_shard"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2EB9CF0493353F4C"
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
-			}]
+			}
+			{
+				id: "544840C0C3B390C8"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "340BCA3B946CB5CF"
-			rewards: [{
-				id: "502937B625F7E5C4"
-				item: {
-					count: 1
-					id: "minecraft:campfire"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "1B992A0B82778608"
 				item: { count: 1, id: "minecraft:campfire" }
 				type: "item"
-			}]
+			}
+			{
+				id: "194BDA0B14C9ECE4"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: -0.5d
 		}
