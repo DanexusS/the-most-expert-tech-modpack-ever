@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import legacy_quest_semantic_audit_v2 as audit
 import recipe_fairness_audit as fairness
+import runtime_evidence_quality_gate as runtime_evidence
 
 
 def calibrated_milestone_thresholds(stage: int) -> tuple[int, int, int, int]:
@@ -22,7 +23,10 @@ def main() -> int:
     semantic_result = audit.main()
     if semantic_result:
         return semantic_result
-    return fairness.main()
+    fairness_result = fairness.main()
+    if fairness_result:
+        return fairness_result
+    return runtime_evidence.main()
 
 
 if __name__ == "__main__":
