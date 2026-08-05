@@ -5,6 +5,8 @@ import json
 import re
 from pathlib import Path
 
+KEY_RE = re.compile(r"(?m)^\t([A-Za-z0-9_.-]+):")
+
 
 def stable_id(namespace: str) -> str:
     return hashlib.sha256(namespace.encode("utf-8")).hexdigest()[:16].upper()
@@ -24,6 +26,36 @@ def upsert_localization(text: str, key: str, value: str) -> str:
     if closing < 0:
         raise RuntimeError("Localization file has no closing brace")
     return text[:closing].rstrip() + "\n" + rendered + "}\n"
+
+
+def upsert_localizations(text: str, entries: dict[str, str]) -> str:
+    """Merge many localization keys with one scan of a large SNBT file."""
+    closing = text.rfind("}")
+    if closing < 0:
+        raise RuntimeError("Localization file has no closing brace")
+
+    matches = list(KEY_RE.finditer(text))
+    if not matches:
+        prefix = text[:closing].rstrip() + "\n"
+        body_parts: list[str] = []
+        seen: set[str] = set()
+    else:
+        prefix = text[: matches[0].start()]
+        body_parts = []
+        seen = set()
+        for index, match in enumerate(matches):
+            key = match.group(1)
+            end = matches[index + 1].start() if index + 1 < len(matches) else closing
+            if key in entries:
+                body_parts.append(f"\t{key}: {entries[key]}\n")
+                seen.add(key)
+            else:
+                body_parts.append(text[match.start():end])
+
+    for key in sorted(set(entries) - seen):
+        body_parts.append(f"\t{key}: {entries[key]}\n")
+
+    return prefix + "".join(body_parts).rstrip() + "\n}\n"
 
 
 def generate_manual_data(root: Path, data: dict) -> tuple[int, bool]:
@@ -87,11 +119,9 @@ def generate_manual_data(root: Path, data: dict) -> tuple[int, bool]:
     for locale, entries in localization.items():
         path = lang_dir / f"{locale}.snbt"
         text = path.read_text(encoding="utf-8")
-        original = text
-        for key, value in entries.items():
-            text = upsert_localization(text, key, value)
-        if text != original:
-            path.write_text(text, encoding="utf-8", newline="\n")
+        updated = upsert_localizations(text, entries)
+        if updated != text:
+            path.write_text(updated, encoding="utf-8", newline="\n")
             changed = True
 
     print(f"{data['filename']}: {quest_total} quests; {'updated' if changed else 'unchanged'}")
