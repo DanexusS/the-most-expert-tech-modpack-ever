@@ -78,6 +78,7 @@ jobs:
           python minecraft/tools/upgrade_simply_swords_catalog.py
           python minecraft/tools/upgrade_powah_catalog.py
           python minecraft/tools/upgrade_storage_systems_core_v2.py
+          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/storage_systems_full.json
           python minecraft/tools/upgrade_mystical_agriculture_catalog.py
           python minecraft/tools/upgrade_industrial_foregoing_catalog.py
           python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
@@ -134,6 +135,7 @@ jobs:
           python minecraft/tools/simply_swords_quality_gate.py
           python minecraft/tools/powah_quality_gate.py
           python minecraft/tools/storage_systems_core_quality_gate_v2.py
+          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/storage_systems_full.json
           python minecraft/tools/mystical_agriculture_quality_gate.py
           python minecraft/tools/industrial_foregoing_quality_gate.py
           python minecraft/tools/hostile_neural_networks_quality_gate.py
