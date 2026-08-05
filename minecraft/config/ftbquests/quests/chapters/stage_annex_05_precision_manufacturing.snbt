@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_05_precision_manufacturing"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:industrial_frame" }
+	id: "D716A7ADC8990441"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["8A6D5255D4A42684"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "927B5F3EE8CAF930"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "8AC9619D301658C3"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["927B5F3EE8CAF930"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "39FED2FD39203D78"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "57E52962D81D06EF"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["39FED2FD39203D78"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "071C24C64FD590B4"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "5CC55B2108B9E271"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["071C24C64FD590B4"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A986B791ACA04A91"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "DD7125F139BEE8E7"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["A986B791ACA04A91"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "BDE1988CC2C7E17E"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "8EBF46D558AAA6C9"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["BDE1988CC2C7E17E"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6884BA42F1BF95E5"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "626F71754328B776"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

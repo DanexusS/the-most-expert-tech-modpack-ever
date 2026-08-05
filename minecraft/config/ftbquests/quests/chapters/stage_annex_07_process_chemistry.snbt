@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_07_process_chemistry"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:precision_circuit" }
+	id: "858FC3288661E646"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["55D6D789A2C91690"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "CC24ACC8D09C52C4"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "BB62DFE58CDE72F4"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["CC24ACC8D09C52C4"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "12627D9B025A54CB"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "ED1264118149927C"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["12627D9B025A54CB"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "019183FCE5CE1238"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "50C5804EFC664A0B"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["019183FCE5CE1238"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "0854A96A8A94B757"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "49C53531A062B281"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["0854A96A8A94B757"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "BC1CBA1F67460E67"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "52531C5CA2FA1932"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["BC1CBA1F67460E67"]
+		icon: { id: "kubejs:precision_circuit" }
+		id: "5139E4805C37C75C"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "2FCAA5920DA87473"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main_stage_09_controlled_resources"
+	group: "F56B9C180F65BF60"
+	icon: { id: "kubejs:bioindustrial_matrix" }
+	id: "6738CB434AA5E516"
+	order_index: 9
+	progression_mode: "linear"
+	quest_links: []
+	quests: [
+	{
+		id: "4856F0373DEC67C9"
+		dependencies: ["5D47E22F084CA49A"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C20BA92658532FA7"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		id: "BFA33DA00A21D086"
+		dependencies: ["4856F0373DEC67C9"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "180406990B95FEC6"
+				type: "checkmark"
+			}
+		]
+		x: 1.4d
+		y: 0.0d
+	}
+	{
+		id: "71F55A65C81FBBCF"
+		dependencies: ["BFA33DA00A21D086"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "247CE0A8A3B720B3"
+				type: "checkmark"
+			}
+		]
+		x: 2.8d
+		y: 0.0d
+	}
+	{
+		id: "618125DA1C8B4508"
+		dependencies: ["71F55A65C81FBBCF"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "1F7A7E5215EA5F83"
+				type: "checkmark"
+			}
+		]
+		x: 5.0d
+		y: 3.5d
+	}
+	{
+		id: "B3D703D2137CE704"
+		dependencies: ["618125DA1C8B4508"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "0228D486C5F1572F"
+				type: "checkmark"
+			}
+		]
+		x: 6.4d
+		y: 3.5d
+	}
+	{
+		id: "8DB41D3EDF699E3A"
+		dependencies: ["B3D703D2137CE704"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "5C9337CFC859F545"
+				type: "checkmark"
+			}
+		]
+		x: 7.8d
+		y: 3.5d
+	}
+	{
+		id: "D65D600D3E863CFA"
+		dependencies: ["8DB41D3EDF699E3A"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "0E449D46F9A853CC"
+				type: "checkmark"
+			}
+		]
+		x: 10.0d
+		y: 7.0d
+	}
+	{
+		id: "9A8E9DC274ADCEBA"
+		dependencies: ["D65D600D3E863CFA"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "4C19B8749A99E8DA"
+				type: "checkmark"
+			}
+		]
+		x: 11.4d
+		y: 7.0d
+	}
+	{
+		id: "48BDE9E759B32FDC"
+		dependencies: ["9A8E9DC274ADCEBA"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "E12BBF8CFD802A2F"
+				type: "checkmark"
+			}
+		]
+		x: 12.8d
+		y: 7.0d
+	}
+	{
+		id: "7B239994B6CD49C6"
+		dependencies: ["48BDE9E759B32FDC"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "02B50AD2A22B78C9"
+				type: "checkmark"
+			}
+		]
+		x: 15.0d
+		y: 10.5d
+	}
+	{
+		id: "6BA4D264DA9A07CF"
+		dependencies: ["7B239994B6CD49C6"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C45593BE4D525228"
+				type: "checkmark"
+			}
+		]
+		x: 16.4d
+		y: 10.5d
+	}
+	{
+		id: "529F232B78A00147"
+		dependencies: ["6BA4D264DA9A07CF"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "68D9BCC40ED558F9"
+				type: "checkmark"
+			}
+		]
+		x: 17.8d
+		y: 10.5d
+	}
+	{
+		id: "A0EDE65745959D85"
+		dependencies: ["529F232B78A00147"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "B7A362E1CB4937EA"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 18.0d
+	}
+	{
+		id: "62DB4F9B64CEC109"
+		dependencies: ["A0EDE65745959D85"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "5BF4E882A4DAE059"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 18.0d
+	}
+	{
+		id: "8D5B47C11C2532A9"
+		dependencies: ["62DB4F9B64CEC109"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C474871FE66F7458"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 18.0d
+	}
+	{
+		id: "F109D0B69970D6A3"
+		dependencies: ["8D5B47C11C2532A9"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "61E8C8F95859D5DF"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 18.0d
+	}
+	{
+		id: "106FB5BA8ECC1B51"
+		dependencies: ["F109D0B69970D6A3"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "FFCF83C17E698D3B"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 18.0d
+	}
+	{
+		id: "AB93322B3776A269"
+		dependencies: ["106FB5BA8ECC1B51"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "FC61189C9568F354"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 22.0d
+	}
+	{
+		id: "9D08A0AEC41731C6"
+		dependencies: ["AB93322B3776A269"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "3DBFD980DEAE680B"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 22.0d
+	}
+	{
+		id: "C8C2767A898C97FC"
+		dependencies: ["9D08A0AEC41731C6"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "4981190511A67CE4"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 22.0d
+	}
+	{
+		id: "7FF04B48422C56CF"
+		dependencies: ["C8C2767A898C97FC"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "E7C1DEA4C0F698C4"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 22.0d
+	}
+	{
+		id: "1779187598ADB151"
+		dependencies: ["7FF04B48422C56CF"]
+		icon: { id: "kubejs:bioindustrial_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "23E0E844930752F9"
+				item: { count: 1, id: "kubejs:bioindustrial_matrix" }
+				type: "item"
+			}
+			{
+				id: "650DD49648AE8915"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 22.0d
+	}
+	]
+}

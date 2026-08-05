@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main_stage_12_nuclear_antimatter"
+	group: "F56B9C180F65BF60"
+	icon: { id: "kubejs:antimatter_regulator" }
+	id: "DF319EECA2AE888E"
+	order_index: 12
+	progression_mode: "linear"
+	quest_links: []
+	quests: [
+	{
+		id: "4EB4AC195353CED5"
+		dependencies: ["82712E5F3C7DEB9E"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "232C7D8C90556606"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		id: "3160DCC089896BE3"
+		dependencies: ["4EB4AC195353CED5"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "4DC88522F6D36539"
+				type: "checkmark"
+			}
+		]
+		x: 1.4d
+		y: 0.0d
+	}
+	{
+		id: "837680D3628CE33F"
+		dependencies: ["3160DCC089896BE3"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "74F8CC971B52FC4C"
+				type: "checkmark"
+			}
+		]
+		x: 2.8d
+		y: 0.0d
+	}
+	{
+		id: "78DA542734E19E85"
+		dependencies: ["837680D3628CE33F"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "30F281DAB18C7A7E"
+				type: "checkmark"
+			}
+		]
+		x: 5.0d
+		y: 3.5d
+	}
+	{
+		id: "A778B5757929276C"
+		dependencies: ["78DA542734E19E85"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "1CAA92BFD3CFCD43"
+				type: "checkmark"
+			}
+		]
+		x: 6.4d
+		y: 3.5d
+	}
+	{
+		id: "3C2E9E68D4E669D9"
+		dependencies: ["A778B5757929276C"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "AE23C760D1CD996E"
+				type: "checkmark"
+			}
+		]
+		x: 7.8d
+		y: 3.5d
+	}
+	{
+		id: "FD3CB73E91ADDC26"
+		dependencies: ["3C2E9E68D4E669D9"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "49C37B0F4C0B459C"
+				type: "checkmark"
+			}
+		]
+		x: 10.0d
+		y: 7.0d
+	}
+	{
+		id: "372CCE8370E209F0"
+		dependencies: ["FD3CB73E91ADDC26"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "A42F8329CC699C70"
+				type: "checkmark"
+			}
+		]
+		x: 11.4d
+		y: 7.0d
+	}
+	{
+		id: "208611E68B0E930F"
+		dependencies: ["372CCE8370E209F0"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "9AE9D9532C87B0A7"
+				type: "checkmark"
+			}
+		]
+		x: 12.8d
+		y: 7.0d
+	}
+	{
+		id: "F9C5246B80A8C4EE"
+		dependencies: ["208611E68B0E930F"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "BFEB52D29D65034B"
+				type: "checkmark"
+			}
+		]
+		x: 15.0d
+		y: 10.5d
+	}
+	{
+		id: "B509CA3C6C07F3D8"
+		dependencies: ["F9C5246B80A8C4EE"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "EED49740E061C026"
+				type: "checkmark"
+			}
+		]
+		x: 16.4d
+		y: 10.5d
+	}
+	{
+		id: "0C1A208DAC83B35E"
+		dependencies: ["B509CA3C6C07F3D8"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "08FD5A6AB9C74396"
+				type: "checkmark"
+			}
+		]
+		x: 17.8d
+		y: 10.5d
+	}
+	{
+		id: "E6BCCC8D4AC6CEAB"
+		dependencies: ["0C1A208DAC83B35E"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "0F9E91D1D889A055"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 18.0d
+	}
+	{
+		id: "2B586CBB2475A02D"
+		dependencies: ["E6BCCC8D4AC6CEAB"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "65D2B54E62987E7F"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 18.0d
+	}
+	{
+		id: "94A52E24974BE02F"
+		dependencies: ["2B586CBB2475A02D"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "FDA858813AF279CE"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 18.0d
+	}
+	{
+		id: "5041ACBBFE80D867"
+		dependencies: ["94A52E24974BE02F"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "14DF2138877D67A7"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 18.0d
+	}
+	{
+		id: "6265D8FF2A6577A4"
+		dependencies: ["5041ACBBFE80D867"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "472CF32A331F6599"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 18.0d
+	}
+	{
+		id: "C6CF66B8C23ED9CA"
+		dependencies: ["6265D8FF2A6577A4"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "44842D9CF12E6C92"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 22.0d
+	}
+	{
+		id: "A25FE7120D0DF34E"
+		dependencies: ["C6CF66B8C23ED9CA"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "A06BC3999585B9F2"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 22.0d
+	}
+	{
+		id: "921CE53A839068C1"
+		dependencies: ["A25FE7120D0DF34E"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "63BB0EC661963C36"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 22.0d
+	}
+	{
+		id: "B7ED0E3731FC662C"
+		dependencies: ["921CE53A839068C1"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CEB9EF3A4EFE63A2"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 22.0d
+	}
+	{
+		id: "9AA13B9D99CAE7EA"
+		dependencies: ["B7ED0E3731FC662C"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "713008CF6230491D"
+				item: { count: 1, id: "kubejs:antimatter_regulator" }
+				type: "item"
+			}
+			{
+				id: "E3636D5C533E8C91"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 22.0d
+	}
+	]
+}

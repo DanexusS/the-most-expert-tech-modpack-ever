@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main_stage_15_contained_transmutation"
+	group: "F56B9C180F65BF60"
+	icon: { id: "kubejs:transmutation_matrix" }
+	id: "D0CFE6B557818F1A"
+	order_index: 15
+	progression_mode: "linear"
+	quest_links: []
+	quests: [
+	{
+		id: "A26FDB8A023F1E6D"
+		dependencies: ["F6E9886FDD82A0AE"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C3EA5338D8D61D99"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		id: "5D0D9B8F370529AE"
+		dependencies: ["A26FDB8A023F1E6D"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CDD5A2CC98630F16"
+				type: "checkmark"
+			}
+		]
+		x: 1.4d
+		y: 0.0d
+	}
+	{
+		id: "00B82848F675E64A"
+		dependencies: ["5D0D9B8F370529AE"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "24867E32583E4396"
+				type: "checkmark"
+			}
+		]
+		x: 2.8d
+		y: 0.0d
+	}
+	{
+		id: "02CDE0C185BE262B"
+		dependencies: ["00B82848F675E64A"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "A27A6EF5A6A2042A"
+				type: "checkmark"
+			}
+		]
+		x: 5.0d
+		y: 3.5d
+	}
+	{
+		id: "4214DAFF66DE3CCC"
+		dependencies: ["02CDE0C185BE262B"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "5612E51148730200"
+				type: "checkmark"
+			}
+		]
+		x: 6.4d
+		y: 3.5d
+	}
+	{
+		id: "4E683E10B2F682D1"
+		dependencies: ["4214DAFF66DE3CCC"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "C88AFFA0605BDFD4"
+				type: "checkmark"
+			}
+		]
+		x: 7.8d
+		y: 3.5d
+	}
+	{
+		id: "E9CBCC88214DE6CA"
+		dependencies: ["4E683E10B2F682D1"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "F6E3C37DF1504DE4"
+				type: "checkmark"
+			}
+		]
+		x: 10.0d
+		y: 7.0d
+	}
+	{
+		id: "9F208D79CB9AA53D"
+		dependencies: ["E9CBCC88214DE6CA"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "F3D5148B101F3738"
+				type: "checkmark"
+			}
+		]
+		x: 11.4d
+		y: 7.0d
+	}
+	{
+		id: "B5C699188335FE53"
+		dependencies: ["9F208D79CB9AA53D"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "33D8C9B177C294D9"
+				type: "checkmark"
+			}
+		]
+		x: 12.8d
+		y: 7.0d
+	}
+	{
+		id: "A24419431E30D334"
+		dependencies: ["B5C699188335FE53"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "44382DB00A99378F"
+				type: "checkmark"
+			}
+		]
+		x: 15.0d
+		y: 10.5d
+	}
+	{
+		id: "20C2D1D75B0508CB"
+		dependencies: ["A24419431E30D334"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CDB4672D7B9ADA59"
+				type: "checkmark"
+			}
+		]
+		x: 16.4d
+		y: 10.5d
+	}
+	{
+		id: "7B723B3FEF770F98"
+		dependencies: ["20C2D1D75B0508CB"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "E37C442C21BAF842"
+				type: "checkmark"
+			}
+		]
+		x: 17.8d
+		y: 10.5d
+	}
+	{
+		id: "3786800D2223B541"
+		dependencies: ["7B723B3FEF770F98"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "36B93D41AA8FBBC1"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 18.0d
+	}
+	{
+		id: "B478FA4BFD813902"
+		dependencies: ["3786800D2223B541"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "6E29FAEA2B601EF7"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 18.0d
+	}
+	{
+		id: "E947A40BAA85C8AF"
+		dependencies: ["B478FA4BFD813902"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "28222D870665413C"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 18.0d
+	}
+	{
+		id: "86F7FF2070D89E72"
+		dependencies: ["E947A40BAA85C8AF"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "FF52563B5B00920F"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 18.0d
+	}
+	{
+		id: "A64339A03740EBBC"
+		dependencies: ["86F7FF2070D89E72"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "448B3660CF5FF229"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 18.0d
+	}
+	{
+		id: "A9ACF205EF7ECEAA"
+		dependencies: ["A64339A03740EBBC"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "6263F735ECCD59B9"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 22.0d
+	}
+	{
+		id: "97CD66C8B744B671"
+		dependencies: ["A9ACF205EF7ECEAA"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CC124D486B845EC6"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 22.0d
+	}
+	{
+		id: "D5403BBD6AEE56A4"
+		dependencies: ["97CD66C8B744B671"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "BA5C9A31BCE468B5"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 22.0d
+	}
+	{
+		id: "AC711C249673FCF6"
+		dependencies: ["D5403BBD6AEE56A4"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "E3CFD6480ECD7495"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 22.0d
+	}
+	{
+		id: "6E6218D68A91581C"
+		dependencies: ["AC711C249673FCF6"]
+		icon: { id: "kubejs:transmutation_matrix" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "CA597B2FB135B884"
+				item: { count: 1, id: "kubejs:transmutation_matrix" }
+				type: "item"
+			}
+			{
+				id: "2373BB2B37D1F6AC"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 22.0d
+	}
+	]
+}

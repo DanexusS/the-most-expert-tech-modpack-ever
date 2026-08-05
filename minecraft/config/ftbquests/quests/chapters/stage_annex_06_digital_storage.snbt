@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_06_digital_storage"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:signal_backplane" }
+	id: "257C185DFF831859"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["4FF20715D49E9FC5"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "3B27D14A5B8A7662"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "0C41208962352709"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["3B27D14A5B8A7662"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "380232072A52AF86"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "DFC96F4C66978670"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["380232072A52AF86"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "4C4A1B0EEAFEF58F"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "77CBBDCA1792ED99"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["4C4A1B0EEAFEF58F"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "105558E6C9C50A9F"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "D54AF5A11DBDDA80"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["105558E6C9C50A9F"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "6EEC9A1E6C0C8E0A"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "0E7B0610DD32D0A0"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["6EEC9A1E6C0C8E0A"]
+		icon: { id: "kubejs:signal_backplane" }
+		id: "55DE420C3440F23D"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "30FC38EE4DD26D89"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

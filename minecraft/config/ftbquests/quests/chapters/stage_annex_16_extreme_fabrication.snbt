@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_16_extreme_fabrication"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:cosmic_catalyst" }
+	id: "03196B317F5FFA1D"
+	order_index: 16
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["E6F1970B6F7B8A1C"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "7CE7281B2CCAFB0E"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "85E741F8CCB04018"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["7CE7281B2CCAFB0E"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "A35EA633BF377752"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "D1CE3A08B59FD17C"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["A35EA633BF377752"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "7E9BE5B732878520"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "66F2F79D7017B42D"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["7E9BE5B732878520"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "DF796FDDC827FF1A"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "E915AF8B6068BE3F"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["DF796FDDC827FF1A"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "B571873FB9DEFE52"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "57CF2C82936B7F74"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["B571873FB9DEFE52"]
+		icon: { id: "kubejs:cosmic_catalyst" }
+		id: "AD3FD915B2CCF5A1"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "527F68F6C66B15B8"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

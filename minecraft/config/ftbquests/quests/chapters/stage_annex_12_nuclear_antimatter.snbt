@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_12_nuclear_antimatter"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:antimatter_regulator" }
+	id: "E242C71396FC6B2E"
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["4EB4AC195353CED5"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "98272BEBB0A30FA5"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "356CB771EBE08790"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["98272BEBB0A30FA5"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "415305B22D34460B"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "7D908E79C224994E"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["415305B22D34460B"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "AE4B4EDD0126CCA4"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "4CB21D1E00781463"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["AE4B4EDD0126CCA4"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "B5D25E76C0B1A7D1"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "171F37A3F99D4BDA"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["B5D25E76C0B1A7D1"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "C5C3CFBBD05B1979"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "799DC2D247497768"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["C5C3CFBBD05B1979"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "870AC98F2B10B705"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "57D91F5E4A1C2132"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

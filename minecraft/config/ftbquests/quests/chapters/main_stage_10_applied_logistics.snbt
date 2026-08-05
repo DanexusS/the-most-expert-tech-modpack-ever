@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main_stage_10_applied_logistics"
+	group: "F56B9C180F65BF60"
+	icon: { id: "kubejs:quantum_logic" }
+	id: "C9A5AAD925D83B6F"
+	order_index: 10
+	progression_mode: "linear"
+	quest_links: []
+	quests: [
+	{
+		id: "802C7DB9CB7449B2"
+		dependencies: ["1779187598ADB151"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "1018D9A657C8B549"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		id: "218EF08B2984FD8E"
+		dependencies: ["802C7DB9CB7449B2"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C81E1C14A6A71040"
+				type: "checkmark"
+			}
+		]
+		x: 1.4d
+		y: 0.0d
+	}
+	{
+		id: "6A6AB7EE13A197FC"
+		dependencies: ["218EF08B2984FD8E"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "7C1F59BFF75981A8"
+				type: "checkmark"
+			}
+		]
+		x: 2.8d
+		y: 0.0d
+	}
+	{
+		id: "B9EFE2337F463761"
+		dependencies: ["6A6AB7EE13A197FC"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "6771715A5B1FE9B0"
+				type: "checkmark"
+			}
+		]
+		x: 5.0d
+		y: 3.5d
+	}
+	{
+		id: "BA64A7B7016509B3"
+		dependencies: ["B9EFE2337F463761"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "00338E1986187185"
+				type: "checkmark"
+			}
+		]
+		x: 6.4d
+		y: 3.5d
+	}
+	{
+		id: "9C493AECE7689262"
+		dependencies: ["BA64A7B7016509B3"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "CE0212E9EE3851F4"
+				type: "checkmark"
+			}
+		]
+		x: 7.8d
+		y: 3.5d
+	}
+	{
+		id: "B34525AF539A6295"
+		dependencies: ["9C493AECE7689262"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C6A478BDCAF4666A"
+				type: "checkmark"
+			}
+		]
+		x: 10.0d
+		y: 7.0d
+	}
+	{
+		id: "F116E58E52465F62"
+		dependencies: ["B34525AF539A6295"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "2951D556E60ADCEB"
+				type: "checkmark"
+			}
+		]
+		x: 11.4d
+		y: 7.0d
+	}
+	{
+		id: "4BBA599A457F5BB1"
+		dependencies: ["F116E58E52465F62"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "9CA842780B3D4B3B"
+				type: "checkmark"
+			}
+		]
+		x: 12.8d
+		y: 7.0d
+	}
+	{
+		id: "84D3BF151E28DA4A"
+		dependencies: ["4BBA599A457F5BB1"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "FBD9AD4E3DCD3B48"
+				type: "checkmark"
+			}
+		]
+		x: 15.0d
+		y: 10.5d
+	}
+	{
+		id: "2EED07A840ED2A66"
+		dependencies: ["84D3BF151E28DA4A"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "BBEB49737FE0F626"
+				type: "checkmark"
+			}
+		]
+		x: 16.4d
+		y: 10.5d
+	}
+	{
+		id: "588CCBA93854A435"
+		dependencies: ["2EED07A840ED2A66"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "BE1E49048A99B7F7"
+				type: "checkmark"
+			}
+		]
+		x: 17.8d
+		y: 10.5d
+	}
+	{
+		id: "F10CC69D0539E4FE"
+		dependencies: ["588CCBA93854A435"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CFB66F3B8DE14E33"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 18.0d
+	}
+	{
+		id: "08B2E9CAF9BCFF6F"
+		dependencies: ["F10CC69D0539E4FE"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "D62AC1F9FA966AE7"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 18.0d
+	}
+	{
+		id: "8A9CB2B07B3D3AB2"
+		dependencies: ["08B2E9CAF9BCFF6F"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "E5C8371AA5802655"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 18.0d
+	}
+	{
+		id: "F1B7B995BD3F9383"
+		dependencies: ["8A9CB2B07B3D3AB2"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "9A39F88057412EA4"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 18.0d
+	}
+	{
+		id: "9626AABD16BE76B9"
+		dependencies: ["F1B7B995BD3F9383"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "A1455FCD299070B4"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 18.0d
+	}
+	{
+		id: "32FA1A90438136E9"
+		dependencies: ["9626AABD16BE76B9"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "BC2735D1BC006C5F"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 22.0d
+	}
+	{
+		id: "5AB1261C2C04CE8D"
+		dependencies: ["32FA1A90438136E9"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "14733713396E1114"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 22.0d
+	}
+	{
+		id: "925A84C64268ACEA"
+		dependencies: ["5AB1261C2C04CE8D"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "9365E29484801832"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 22.0d
+	}
+	{
+		id: "DAF7C626BCE352CA"
+		dependencies: ["925A84C64268ACEA"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CBE28DDF1661F57A"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 22.0d
+	}
+	{
+		id: "550257627419672C"
+		dependencies: ["DAF7C626BCE352CA"]
+		icon: { id: "kubejs:quantum_logic" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "E11D9173E8888318"
+				item: { count: 1, id: "kubejs:quantum_logic" }
+				type: "item"
+			}
+			{
+				id: "9BA81146341E7460"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 22.0d
+	}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_18_creative_convergence"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:creative_convergence_matrix" }
+	id: "4E0E2D1B7835F951"
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["F5AD3F339E034F52"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "6708012561AB3881"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "402FF8FF0363983E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["6708012561AB3881"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "463BC4AB50D8E5AB"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "C46C0564635B637F"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["463BC4AB50D8E5AB"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "743C95A05D75F7F7"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "D9B2B51B3E21C811"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["743C95A05D75F7F7"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "4FFF93F1AE75233C"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "75B5407757F05F84"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["4FFF93F1AE75233C"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "D4815F17FE3EE774"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "6B3183E4425FD4F0"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["D4815F17FE3EE774"]
+		icon: { id: "kubejs:creative_convergence_matrix" }
+		id: "3D261E356CE45104"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "1B77AFB8E44DE2E4"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

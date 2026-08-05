@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_10_applied_logistics"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:quantum_logic" }
+	id: "BC89F72A462E6AA1"
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["802C7DB9CB7449B2"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "E100641C01820D6D"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "F92B966B6B9334EA"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["E100641C01820D6D"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "1F3F18C4D1433AE6"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "44457519DDE71EB9"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["1F3F18C4D1433AE6"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "8CE5473714D623D0"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "D925C927A7B80E58"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["8CE5473714D623D0"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "F98451DB6E8EF9BD"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "3B0C51B8C11A06EA"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["F98451DB6E8EF9BD"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "E61A4E4E912770CC"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "AC51BB18212D9DD7"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["E61A4E4E912770CC"]
+		icon: { id: "kubejs:quantum_logic" }
+		id: "8F08A4A0FB55E961"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "4F34D35E9C87B351"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}

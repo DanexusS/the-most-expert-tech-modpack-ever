@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main_stage_14_draconic_engineering"
+	group: "F56B9C180F65BF60"
+	icon: { id: "kubejs:draconic_processor" }
+	id: "22A2D5E9D338D7A2"
+	order_index: 14
+	progression_mode: "linear"
+	quest_links: []
+	quests: [
+	{
+		id: "8C1389081E2B7488"
+		dependencies: ["BC35699784BED8E7"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "8FA16CDE52321880"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		id: "0B4349EA98654037"
+		dependencies: ["8C1389081E2B7488"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "8E8C154758FEFCAE"
+				type: "checkmark"
+			}
+		]
+		x: 1.4d
+		y: 0.0d
+	}
+	{
+		id: "503F2E12C7DF1414"
+		dependencies: ["0B4349EA98654037"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "7F239053FB0FF63C"
+				type: "checkmark"
+			}
+		]
+		x: 2.8d
+		y: 0.0d
+	}
+	{
+		id: "F9AD71C89385A123"
+		dependencies: ["503F2E12C7DF1414"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "0BFCBF893A6DB57C"
+				type: "checkmark"
+			}
+		]
+		x: 5.0d
+		y: 3.5d
+	}
+	{
+		id: "E3F5E5DFB012272B"
+		dependencies: ["F9AD71C89385A123"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "547ADA5D1EF0580D"
+				type: "checkmark"
+			}
+		]
+		x: 6.4d
+		y: 3.5d
+	}
+	{
+		id: "0FE61EEBFCFF7F8F"
+		dependencies: ["E3F5E5DFB012272B"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "7F8E438D105B63FA"
+				type: "checkmark"
+			}
+		]
+		x: 7.8d
+		y: 3.5d
+	}
+	{
+		id: "889B8569A0092214"
+		dependencies: ["0FE61EEBFCFF7F8F"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "CF58B4F10D72D6AD"
+				type: "checkmark"
+			}
+		]
+		x: 10.0d
+		y: 7.0d
+	}
+	{
+		id: "4AFAC479811D1B6F"
+		dependencies: ["889B8569A0092214"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "A58F237CAF7E21C6"
+				type: "checkmark"
+			}
+		]
+		x: 11.4d
+		y: 7.0d
+	}
+	{
+		id: "14158A52900374AC"
+		dependencies: ["4AFAC479811D1B6F"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "CE2328CEEB831AEF"
+				type: "checkmark"
+			}
+		]
+		x: 12.8d
+		y: 7.0d
+	}
+	{
+		id: "25130167B321E166"
+		dependencies: ["14158A52900374AC"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "9AD2435824A01A52"
+				type: "checkmark"
+			}
+		]
+		x: 15.0d
+		y: 10.5d
+	}
+	{
+		id: "0FB279536E3B29A6"
+		dependencies: ["25130167B321E166"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "9480BEC05B0B7597"
+				type: "checkmark"
+			}
+		]
+		x: 16.4d
+		y: 10.5d
+	}
+	{
+		id: "EAF6B171958E3EC6"
+		dependencies: ["0FB279536E3B29A6"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "76FF8F3FF669F5D6"
+				type: "checkmark"
+			}
+		]
+		x: 17.8d
+		y: 10.5d
+	}
+	{
+		id: "751AFD5F83C83D1F"
+		dependencies: ["EAF6B171958E3EC6"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "60997380F018BAF0"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 18.0d
+	}
+	{
+		id: "E4E81A1A7478ABA1"
+		dependencies: ["751AFD5F83C83D1F"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "837444B838A9EA8D"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 18.0d
+	}
+	{
+		id: "3B53B387837328E2"
+		dependencies: ["E4E81A1A7478ABA1"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "C7B46C0722A3ABA0"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 18.0d
+	}
+	{
+		id: "955B25CDE3C41526"
+		dependencies: ["3B53B387837328E2"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "67E78BE02B37E3C6"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 18.0d
+	}
+	{
+		id: "6FB939AF6062D1EE"
+		dependencies: ["955B25CDE3C41526"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "6A42A021996EDC99"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 18.0d
+	}
+	{
+		id: "6D84FDAF0985446B"
+		dependencies: ["6FB939AF6062D1EE"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "E456CD010FD60DFB"
+				type: "checkmark"
+			}
+		]
+		x: 0.0d
+		y: 22.0d
+	}
+	{
+		id: "7F705B66BEEC5323"
+		dependencies: ["6D84FDAF0985446B"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "BCED1089CAA884AF"
+				type: "checkmark"
+			}
+		]
+		x: 4.0d
+		y: 22.0d
+	}
+	{
+		id: "2BF000216C70D195"
+		dependencies: ["7F705B66BEEC5323"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "DE956FC303FF9D89"
+				type: "checkmark"
+			}
+		]
+		x: 8.0d
+		y: 22.0d
+	}
+	{
+		id: "3E59E22E59869C60"
+		dependencies: ["2BF000216C70D195"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "hexagon"
+		tasks: [
+			{
+				id: "7D3684FD0C56CC0D"
+				type: "checkmark"
+			}
+		]
+		x: 12.0d
+		y: 22.0d
+	}
+	{
+		id: "F6E9886FDD82A0AE"
+		dependencies: ["3E59E22E59869C60"]
+		icon: { id: "kubejs:draconic_processor" }
+		shape: "diamond"
+		tasks: [
+			{
+				id: "606DBF1D6417BEF9"
+				item: { count: 1, id: "kubejs:draconic_processor" }
+				type: "item"
+			}
+			{
+				id: "5A757F453D4C8CB6"
+				type: "checkmark"
+			}
+		]
+		x: 16.0d
+		y: 22.0d
+	}
+	]
+}

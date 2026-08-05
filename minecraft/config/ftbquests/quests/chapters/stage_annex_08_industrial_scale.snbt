@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "stage_annex_08_industrial_scale"
+	group: "99948FA76BB60233"
+	icon: { id: "kubejs:chemical_processor" }
+	id: "18DEB51FE41A0148"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+	{
+		dependencies: ["DD938DC59F539A70"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "69DD9B60812CBAC6"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "1648E91BC89F632F"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["69DD9B60812CBAC6"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "705BC53C0EEEC821"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "60A9805294392360"
+			type: "checkmark"
+		}]
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["705BC53C0EEEC821"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "4B0550976FE36E47"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "C3BCABA5067C55F9"
+			type: "checkmark"
+		}]
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["4B0550976FE36E47"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "D0A650965183082E"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "F31DB452C245A708"
+			type: "checkmark"
+		}]
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["D0A650965183082E"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "47FF1EDF9DC6B1E3"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "F824471251A7BDB7"
+			type: "checkmark"
+		}]
+		x: 12.0d
+		y: 0.0d
+	}
+	{
+		dependencies: ["47FF1EDF9DC6B1E3"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "FEE009F31F24E021"
+		optional: true
+		shape: "hexagon"
+		tasks: [{
+			id: "D1F88B888971165A"
+			type: "checkmark"
+		}]
+		x: 15.0d
+		y: 0.0d
+	}
+	]
+}
