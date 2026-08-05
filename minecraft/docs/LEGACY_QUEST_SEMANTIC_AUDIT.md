@@ -7,10 +7,10 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 - Legacy chapters analysed: **57**
 - Legacy quests and malformed objects analysed: **3324**
 - Malformed quest objects: **0**
-- Chapters requiring rewrite: **22**
+- Chapters requiring rewrite: **19**
 - Chapters requiring review: **5**
 - Empty chapters requiring a keep/remove decision: **0**
-- Duplicate description groups: **60**
+- Duplicate description groups: **61**
 
 ## Chapter remediation queue
 
@@ -18,9 +18,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | `apotheosis` | 43 | 407 | 43 | 0 | 34 | 43 | 36 | REWRITE_REQUIRED |
 | `create_stuff_n_additions` | 36 | 361 | 36 | 0 | 35 | 36 | 36 | REWRITE_REQUIRED |
-| `immersive_engineering` | 46 | 338 | 34 | 0 | 21 | 34 | 46 | REWRITE_REQUIRED |
-| `tfmg_chemistry` | 35 | 324 | 33 | 0 | 31 | 35 | 28 | REWRITE_REQUIRED |
-| `tfmg_steel` | 39 | 319 | 38 | 0 | 27 | 39 | 24 | REWRITE_REQUIRED |
 | `tips_and_tricks` | 32 | 319 | 32 | 0 | 19 | 32 | 32 | REWRITE_REQUIRED |
 | `create_crafts__additions` | 27 | 273 | 27 | 0 | 27 | 27 | 27 | REWRITE_REQUIRED |
 | `allthemodium` | 31 | 272 | 31 | 0 | 19 | 31 | 30 | REWRITE_REQUIRED |
@@ -60,6 +57,8 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `mob_grinding` | 25 | 5 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `create` | 80 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `mystical_ag` | 141 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `tfmg_chemistry` | 35 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `tfmg_steel` | 39 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `draconic_evolution` | 111 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `mekanism_part_1` | 78 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `rftools` | 81 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
@@ -70,6 +69,7 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `cataclysm` | 79 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `extended_crafting` | 43 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `hostile_neural_networks` | 51 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `immersive_engineering` | 46 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `other_storage_systems` | 104 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `powah` | 74 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `woot` | 58 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
@@ -130,13 +130,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `package_mod` | `54832AACF9BC8B54` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `projecte` | `54DA9183B37E2BC5` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `projecte` | `60140A3E8BFB3CA0` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_chemistry` | `265D7836300A8B1E` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_chemistry` | `2DEF812916A51C34` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_chemistry` | `4F78375EDADAFEC2` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_chemistry` | `68E50F7501B945BB` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_steel` | `037621E5EC46F613` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_steel` | `2B6E2CD796D4ADF3` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `tfmg_steel` | `5B9501552E5DFB20` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `tips_and_tricks` | `059EC5CDA14D238F` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `tips_and_tricks` | `0821032D8ACE7E82` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `tips_and_tricks` | `0F2DC52E03408D83` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -178,3 +171,10 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `allthemodium` | `7E30CB57EA769363` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis` | `076DFB0B39A4259F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis` | `0C596CB7C7C24615` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `0F77A9AD1F422537` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `10C527C66EE4E95A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `12282CBB658F1132` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `1D06097B6206BA60` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `218803812A9C332B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `27BE23C8489886AF` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `apotheosis` | `353C7440B32F0A5E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |

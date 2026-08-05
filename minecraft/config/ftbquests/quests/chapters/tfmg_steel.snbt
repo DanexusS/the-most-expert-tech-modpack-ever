@@ -19,22 +19,18 @@
 				id: "22B1314FB53C1847"
 				item: { count: 1, id: "tfmg:cast_iron_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DE370A5E02CD8F22"
+				type: "checkmark"
+			}
+			]
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["36766831FDA775FD"]
 			id: "1DE428DE5A0AB47C"
-			rewards: [{
-				count: 8
-				id: "178D34921913B64F"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -42,50 +38,47 @@
 				id: "38121C5E27740F93"
 				item: { count: 1, id: "tfmg:coke_oven" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E88DB960399B87D5"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1DE428DE5A0AB47C"]
 			id: "13B495F64F5C9D48"
-			rewards: [{
-				count: 8
-				id: "30D0B930EBBD9C85"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				count: 8L
 				id: "33F4B53F36D96126"
 				item: { count: 1, id: "tfmg:coal_coke" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7B5A23A9A5760DE6"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1DE428DE5A0AB47C"]
 			id: "43D31DAC4737005E"
-			rewards: [{
-				count: 8
-				id: "186E75332E28D483"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "06C9A0ED7CC448AD"
 				item: { count: 1, id: "tfmg:creosote_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AFD88B9D1BBDC604"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: -2.0d
 		}
@@ -98,28 +91,29 @@
 				id: "3C855FD4E275950D"
 				item: { count: 1, id: "tfmg:hardened_planks" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6158675DCEBA2BB9"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			id: "5B9501552E5DFB20"
-			rewards: [{
-				count: 16
-				id: "3762DCDAB5B35FFB"
-				item: {
-					count: 1
-					id: "tfmg:fireclay_ball"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "00359A82AB2A914E"
 				item: { count: 1, id: "tfmg:fireclay_ball" }
 				type: "item"
-			}]
+			}
+			{
+				id: "017317F31D0223AB"
+				type: "checkmark"
+			}
+			]
 			x: -5.0d
 			y: 2.5d
 		}
@@ -127,15 +121,6 @@
 			dependencies: ["5B9501552E5DFB20"]
 			hide_dependent_lines: true
 			id: "74DA690631920E06"
-			rewards: [{
-				count: 4
-				id: "0877467371853DC8"
-				item: {
-					count: 1
-					id: "tfmg:fireproof_bricks"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -150,6 +135,11 @@
 					item: { count: 1, id: "tfmg:fireproof_bricks" }
 					type: "item"
 				}
+			
+			{
+				id: "2361FB03332DEE9F"
+				type: "checkmark"
+			}
 			]
 			x: -7.0d
 			y: 2.5d
@@ -203,6 +193,11 @@
 					optional_task: true
 					type: "item"
 				}
+			
+			{
+				id: "74D9AE26A0F926C2"
+				type: "checkmark"
+			}
 			]
 			x: -7.0d
 			y: 1.0d
@@ -210,21 +205,17 @@
 		{
 			dependencies: ["4F5AA576DC7B9B24"]
 			id: "062051ED6D130ACD"
-			rewards: [{
-				count: 16
-				id: "3EA743F09B4A0E2B"
-				item: {
-					count: 1
-					id: "create:crushed_raw_iron"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "3D7248D1DE959FB8"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7C299EB3C13D5D2A"
+				type: "checkmark"
+			}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
@@ -234,14 +225,6 @@
 				"13B495F64F5C9D48"
 			]
 			id: "4F5AA576DC7B9B24"
-			rewards: [{
-				id: "260BECC5F50D490D"
-				item: {
-					count: 1
-					id: "tfmg:creosote_bucket"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -259,6 +242,11 @@
 					item: { count: 1, id: "tfmg:coal_coke_dust" }
 					type: "item"
 				}
+			
+			{
+				id: "A56073B4669D51D7"
+				type: "checkmark"
+			}
 			]
 			x: -3.0d
 			y: 1.0d
@@ -267,14 +255,6 @@
 			dependencies: ["71EDE15818D4C2A1"]
 			id: "405A318D640D514E"
 			optional: true
-			rewards: [{
-				id: "132DA8342DAB75F3"
-				item: {
-					count: 1
-					id: "tfmg:furnace_gas_bucket"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "2F807494FCCE4FF2"
@@ -286,42 +266,36 @@
 		{
 			dependencies: ["0203D270DDDC7E84"]
 			id: "6A539510EEB5F29E"
-			rewards: [{
-				id: "0466A5EAC563CB6C"
-				item: {
-					count: 1
-					id: "tfmg:steel_ingot"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "71B1502013F32EC5"
 				item: { count: 1, id: "tfmg:steel_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D193C07798ECF723"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6A539510EEB5F29E"]
 			id: "0104893F8F3458DA"
-			rewards: [{
-				id: "23D8288A25B5F2AA"
-				item: {
-					count: 1
-					id: "tfmg:heavy_plate"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "1DB090F7C3925D7E"
 				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "654ADDAEA2002AC6"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -332,96 +306,73 @@
 				"2B6E2CD796D4ADF3"
 			]
 			id: "2D94489E09F8DD9C"
-			rewards: [{
-				id: "0ADA07AA1CA93F53"
-				item: {
-					count: 1
-					id: "tfmg:steel_mechanism"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "5696000AC524C5AE"
 				item: { count: 1, id: "tfmg:steel_mechanism" }
 				type: "item"
-			}]
+			}
+			{
+				id: "80E89464CEB9AE6E"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["43D31DAC4737005E"]
 			id: "43E02E5DBDE6F0D2"
-			rewards: [{
-				count: 2
-				id: "102CAADE585004AA"
-				item: {
-					count: 1
-					id: "tfmg:steel_ingot"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "2D560DB1A82AA28D"
 				item: { count: 1, id: "tfmg:flarestack" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5900784452E681F4"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			id: "2B6E2CD796D4ADF3"
-			rewards: [{
-				count: 5
-				id: "2A04E921EEDC436C"
-				item: {
-					count: 1
-					id: "tfmg:lead_ingot"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "2001951DAC0E4252"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/lead)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "853F935D8DE9E68F"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			id: "037621E5EC46F613"
-			rewards: [{
-				count: 2
-				id: "13F8FC7AFF24C4EA"
-				item: {
-					count: 1
-					id: "tfmg:nickel_ingot"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "2D424764D8041416"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "264EA730902ABEE6"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["36766831FDA775FD"]
 			id: "09C334C044BC464F"
-			rewards: [{
-				id: "0A091D926D010C9E"
-				item: {
-					count: 1
-					id: "tfmg:air_intake"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -436,6 +387,11 @@
 					item: { count: 1, id: "tfmg:blast_stove" }
 					type: "item"
 				}
+			
+			{
+				id: "856775F17C04D68A"
+				type: "checkmark"
+			}
 			]
 			x: -7.0d
 			y: -2.0d
@@ -444,22 +400,18 @@
 			dependencies: ["71EDE15818D4C2A1"]
 			id: "02D05B1D0B266578"
 			optional: true
-			rewards: [{
-				count: 6
-				id: "72F9859A7941619A"
-				item: {
-					count: 1
-					id: "tfmg:steel_ingot"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				count: 4L
 				id: "3C20272FEF10E5C9"
 				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
 				type: "item"
-			}]
+			}
+			{
+				id: "63C37189D0018666"
+				type: "checkmark"
+			}
+			]
 			x: -9.0d
 			y: 0.5d
 		}
@@ -471,7 +423,12 @@
 				id: "16538DFDCE171688"
 				item: { count: 1, id: "tfmg:constantan_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2D5B8A0104BF2C7E"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: 2.5d
 		}
@@ -495,14 +452,6 @@
 				"2D94489E09F8DD9C"
 			]
 			id: "0AE4B0BD9B765D60"
-			rewards: [{
-				id: "232C85ABFF30BBA2"
-				item: {
-					count: 1
-					id: "minecraft:iron_shovel"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -515,6 +464,11 @@
 					item: { count: 1, id: "tfmg:machine_input" }
 					type: "item"
 				}
+			
+			{
+				id: "E42949F6AAB0267D"
+				type: "checkmark"
+			}
 			]
 			x: 4.0d
 			y: 1.0d
@@ -527,22 +481,18 @@
 				id: "739E982C23ECFD0B"
 				item: { count: 1, id: "tfmg:oil_hammer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FB48C429DFD5CFC0"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0AE4B0BD9B765D60"]
 			id: "0DA65A502C57261C"
-			rewards: [{
-				count: 8
-				id: "6EAF158F81301B08"
-				item: {
-					count: 1
-					id: "tfmg:industrial_pipe"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -571,6 +521,11 @@
 					item: { count: 1, id: "tfmg:pumpjack_hammer" }
 					type: "item"
 				}
+			
+			{
+				id: "8D3FFF04A8457ECA"
+				type: "checkmark"
+			}
 			]
 			x: 5.5d
 			y: 1.0d
@@ -583,21 +538,18 @@
 				id: "2A0BB56B7EF657C6"
 				item: { count: 1, id: "tfmg:crude_oil_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "EF771EA8608E6624"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0DA65A502C57261C"]
 			id: "28B88FFE1B735E3E"
-			rewards: [{
-				id: "316C965088B98B5E"
-				item: {
-					count: 1
-					id: "tfmg:steel_block"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "3482A4AD3F3D754F"
@@ -619,6 +571,11 @@
 					item: { count: 1, id: "create:super_glue" }
 					type: "item"
 				}
+			
+			{
+				id: "4EC550CBD9E0F8F7"
+				type: "checkmark"
+			}
 			]
 			x: 7.0d
 			y: 1.0d
@@ -627,14 +584,6 @@
 			dependencies: ["0DA65A502C57261C"]
 			id: "0B281C34E455EE72"
 			optional: true
-			rewards: [{
-				id: "2F270F0DCA4253D9"
-				item: {
-					count: 1
-					id: "tfmg:steel_block"
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -657,6 +606,11 @@
 					item: { count: 1, id: "create:super_glue" }
 					type: "item"
 				}
+			
+			{
+				id: "63568BB01EA72230"
+				type: "checkmark"
+			}
 			]
 			x: 7.0d
 			y: 2.5d
@@ -668,19 +622,16 @@
 			]
 			id: "717CA8EB4DF4EDB8"
 			optional: true
-			rewards: [{
-				id: "1CA93A1C29FC3A84"
-				item: {
-					count: 1
-					id: "tfmg:exhaust"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2334C18748214D1A"
 				item: { count: 1, id: "tfmg:firebox" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F78FF9234C25232C"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: 2.5d
 		}
@@ -691,15 +642,6 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "1065B5980FAF5937"
-			rewards: [{
-				count: 4
-				id: "62C654129E49BEC4"
-				item: {
-					count: 1
-					id: "tfmg:steel_fluid_tank"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -767,6 +709,11 @@
 					optional_task: true
 					type: "item"
 				}
+			
+			{
+				id: "BD156B8E76C079E6"
+				type: "checkmark"
+			}
 			]
 			x: 8.5d
 			y: 1.0d
@@ -779,7 +726,12 @@
 				id: "4F2051C2A1266E0D"
 				item: { count: 1, id: "tfmg:heavy_oil_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "24A1351176EFEE8F"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 1.0d
 		}
@@ -787,19 +739,16 @@
 			dependencies: ["5EAD4ABEAD315352"]
 			id: "21D45D2B85002B6E"
 			optional: true
-			rewards: [{
-				id: "261C36F0D9103601"
-				item: {
-					count: 1
-					id: "tfmg:heavy_oil_bucket"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "45769135F92F358F"
 				item: { count: 1, id: "tfmg:bitumen" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9315B3EA52F5E8F9"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 2.5d
 		}
@@ -807,15 +756,6 @@
 			dependencies: ["21D45D2B85002B6E"]
 			id: "3380750419A2A2C9"
 			optional: true
-			rewards: [{
-				count: 16
-				id: "0A1C39FE392515CA"
-				item: {
-					count: 1
-					id: "tfmg:asphalt_mixture"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "320F50DCD2E70EAD"
@@ -829,6 +769,11 @@
 					item: { count: 1, id: "tfmg:asphalt_mixture" }
 					type: "item"
 				}
+			
+			{
+				id: "10236B8605035BF7"
+				type: "checkmark"
+			}
 			]
 			x: 12.0d
 			y: 2.5d
@@ -841,7 +786,12 @@
 				id: "0A36081877C6A0C4"
 				item: { count: 1, id: "tfmg:lubrication_oil_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C92503850591F4D4"
+				type: "checkmark"
+			}
+			]
 			x: 11.5d
 			y: 1.0d
 		}
@@ -853,7 +803,12 @@
 				id: "5277C7D42CD4E10B"
 				item: { count: 1, id: "tfmg:oil_can" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B7F5D80ED780C85E"
+				type: "checkmark"
+			}
+			]
 			x: 13.0d
 			y: 1.0d
 		}
@@ -866,7 +821,12 @@
 				id: "440942015FB43B54"
 				item: { count: 1, id: "tfmg:kerosene_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5B09F5545222956F"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: -0.5d
 		}
@@ -879,7 +839,12 @@
 				id: "76B971B4933E72DC"
 				item: { count: 1, id: "tfmg:gasoline_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0F0C05372C635CE0"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: -1.0d
 		}
@@ -892,7 +857,12 @@
 				id: "62015FBE5DF6B7C7"
 				item: { count: 1, id: "tfmg:naphtha_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "293CCBCD6553C928"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -1.0d
 		}
@@ -905,7 +875,12 @@
 				id: "784BB3203965E647"
 				item: { count: 1, id: "tfmg:diesel_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2F11B9869A0628D0"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: -1.5d
 		}
@@ -918,7 +893,12 @@
 				id: "78B3DF19483A6DC8"
 				item: { count: 1, id: "tfmg:lpg_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "89892F0DA6B6E9FE"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: -2.5d
 		}

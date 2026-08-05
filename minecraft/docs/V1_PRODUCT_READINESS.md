@@ -25,6 +25,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Hostile Neural Networks | PASS |
 | Ice And Fire Catalog | PASS |
 | Ie Core | PASS |
+| Immersive Engineering Catalog | PASS |
 | Industrial Foregoing | PASS |
 | Mainquestline Part 1 Catalog | PASS |
 | Mekanism Core | PASS |
@@ -50,7 +51,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Stage Depth Program | PASS |
 | Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
+| Tfmg Chemistry Catalog | PASS |
 | Tfmg Electricity Catalog | PASS |
+| Tfmg Steel Catalog | PASS |
 | Theoretical balance | PASS |
 | Ufo Future Catalog | PASS |
 | Woot | PASS |
@@ -60,10 +63,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5238 / 5970 | IN PROGRESS |
-| Single item-only ratio | 8.5% / ≤30% | PASS |
+| RU/EN descriptions | 5346 / 5970 | IN PROGRESS |
+| Single item-only ratio | 7.2% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 732 | IN PROGRESS |
+| Remaining without full RU/EN | 624 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 

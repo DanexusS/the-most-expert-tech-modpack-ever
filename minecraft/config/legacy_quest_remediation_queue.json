@@ -9,9 +9,9 @@
     "legacy_chapters": 57,
     "legacy_quests": 3324,
     "malformed_quest_objects": 0,
-    "rewrite_required_chapters": 22,
+    "rewrite_required_chapters": 19,
     "review_required_chapters": 5,
-    "duplicate_description_groups": 60
+    "duplicate_description_groups": 61
   },
   "chapters": [
     {
@@ -40,47 +40,6 @@
         "HAS_REWARD": 36,
         "ROOT_OR_ORPHAN": 1,
         "ITEM_ONLY": 35
-      }
-    },
-    {
-      "chapter": "immersive_engineering",
-      "quests": 46,
-      "risk_score": 338,
-      "high_risk_quests": 34,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "HAS_REWARD": 46,
-        "ROOT_OR_ORPHAN": 1,
-        "ITEM_ONLY": 21,
-        "NO_OPERATIONAL_GUIDANCE": 34
-      }
-    },
-    {
-      "chapter": "tfmg_chemistry",
-      "quests": 35,
-      "risk_score": 324,
-      "high_risk_quests": 33,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "ITEM_ONLY": 31,
-        "NO_OPERATIONAL_GUIDANCE": 35,
-        "HAS_REWARD": 28,
-        "ROOT_OR_ORPHAN": 4,
-        "CHECKMARK_ONLY": 1
-      }
-    },
-    {
-      "chapter": "tfmg_steel",
-      "quests": 39,
-      "risk_score": 319,
-      "high_risk_quests": 38,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "ITEM_ONLY": 27,
-        "NO_OPERATIONAL_GUIDANCE": 39,
-        "HAS_REWARD": 24,
-        "ROOT_OR_ORPHAN": 4,
-        "CHECKMARK_ONLY": 2
       }
     },
     {
@@ -562,6 +521,28 @@
       }
     },
     {
+      "chapter": "tfmg_chemistry",
+      "quests": 35,
+      "risk_score": 4,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "ROOT_OR_ORPHAN": 4,
+        "CHECKMARK_ONLY": 1
+      }
+    },
+    {
+      "chapter": "tfmg_steel",
+      "quests": 39,
+      "risk_score": 4,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "ROOT_OR_ORPHAN": 4,
+        "CHECKMARK_ONLY": 2
+      }
+    },
+    {
       "chapter": "draconic_evolution",
       "quests": 111,
       "risk_score": 3,
@@ -658,6 +639,16 @@
     {
       "chapter": "hostile_neural_networks",
       "quests": 51,
+      "risk_score": 1,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "ROOT_OR_ORPHAN": 1
+      }
+    },
+    {
+      "chapter": "immersive_engineering",
+      "quests": 46,
       "risk_score": 1,
       "high_risk_quests": 0,
       "classification": "CURRENTLY_ACCEPTABLE",
@@ -1580,125 +1571,6 @@
       "en_description_length": 107,
       "ru_description_length": 0,
       "maximum_item_count": 1
-    },
-    {
-      "chapter": "tfmg_chemistry",
-      "quest_id": "265D7836300A8B1E",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "tfmg_chemistry",
-      "quest_id": "2DEF812916A51C34",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 4
-    },
-    {
-      "chapter": "tfmg_chemistry",
-      "quest_id": "4F78375EDADAFEC2",
-      "risk_score": 11,
-      "flags": [
-        "CHECKMARK_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "checkmark"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "tfmg_chemistry",
-      "quest_id": "68E50F7501B945BB",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 237,
-      "ru_description_length": 0,
-      "maximum_item_count": 3
-    },
-    {
-      "chapter": "tfmg_steel",
-      "quest_id": "037621E5EC46F613",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 2
-    },
-    {
-      "chapter": "tfmg_steel",
-      "quest_id": "2B6E2CD796D4ADF3",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 175,
-      "ru_description_length": 0,
-      "maximum_item_count": 5
-    },
-    {
-      "chapter": "tfmg_steel",
-      "quest_id": "5B9501552E5DFB20",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 16
     },
     {
       "chapter": "tips_and_tricks",
@@ -4774,6 +4646,118 @@
         "item"
       ],
       "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "45C02BA617A092FC",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 165,
+      "ru_description_length": 0,
+      "maximum_item_count": 6
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "518D71CFF03E0A96",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 136,
+      "ru_description_length": 0,
+      "maximum_item_count": 4
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "537FEA93C4D1E084",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "55AD5F4C1CDDCE35",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "560AF08F81A2D904",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 5
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "5685710C9FE8C918",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 213,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quest_id": "58F63AEBB7F5241A",
+      "risk_score": 10,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 263,
       "ru_description_length": 0,
       "maximum_item_count": 1
     }
