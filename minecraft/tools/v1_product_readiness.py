@@ -23,6 +23,7 @@ REPORTS = {
     "Applied Energistics 2 route": ROOT / "docs" / "AE2_CORE_QUALITY_REPORT.md",
     "Mekanism route": ROOT / "docs" / "MEKANISM_CORE_QUALITY_REPORT.md",
     "Simply Swords catalogue": ROOT / "docs" / "SIMPLY_SWORDS_QUALITY_REPORT.md",
+    "Powah catalogue": ROOT / "docs" / "POWAH_QUALITY_REPORT.md",
 }
 
 MINIMUM_RUNTIME_GATES = {
