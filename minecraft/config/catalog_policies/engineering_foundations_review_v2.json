@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "engineering_foundations_guide",
+  "chapter_id": "5E684E5FDC0912E2",
+  "chapter_title_en": "Engineering Foundations — Instrumented Early Systems",
+  "chapter_title_ru": "Инженерные основы — измеряемые ранние системы",
+  "report_filename": "ENGINEERING_FOUNDATIONS_REVIEW_QUALITY_REPORT.md",
+  "report_title": "Engineering Foundations Review Quality Report",
+  "report_intro": "Every foundation node must teach a real workshop, kinetic, metallurgical or electrical acceptance test instead of a component checklist or XP reward.",
+  "expected_quests": 16,
+  "minimum_description": 220,
+  "primary_namespace": "kubejs",
+  "primary_namespaces": ["kubejs", "create", "immersiveengineering", "modern_industrialization", "minecraft"],
+  "acceptance_namespace": "engineering_foundations_acceptance",
+  "checkpoint_name": "Engineering Foundations Checkpoint",
+  "title_suffix_en": "Foundation-System Acceptance",
+  "title_suffix_ru": "приёмка базовой инженерной системы",
+  "description_en": "{display} is a {role} in the engineering foundations guide. The lesson must prove a usable workshop capability through construction, instrumentation and a repeatable work cycle—not merely require the component or reward experience after crafting it.",
+  "description_ru": "{display} — {role} в руководстве по инженерным основам. Урок должен подтверждать полезную возможность мастерской через строительство, измерение и повторяемый рабочий цикл, а не только требовать компонент или выдавать опыт после его изготовления.",
+  "acceptance_en": "Acceptance: verify {focus}; document inputs and safety limits, build or inspect the complete subsystem, run one representative batch, measure speed, stress, voltage, temperature or yield as applicable, test a blocked or interrupted state, recover cleanly and confirm that rewards and manual item presentation cannot replace the operating proof.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте входы и пределы безопасности, постройте или осмотрите полную подсистему, выполните показательную партию, измерьте скорость, нагрузку, напряжение, температуру или выход, испытайте блокировку либо прерывание, корректно восстановитесь и исключите замену рабочего доказательства наградами и ручным предъявлением предметов.",
+  "categories": [
+    {
+      "tokens": ["field_engineering_kit", "tool", "kit"],
+      "role_en": "field-workshop tool and diagnostic capability",
+      "role_ru": "инструмент полевой мастерской и диагностики",
+      "focus_en": "contained tools and consumables, intended inspections, repair and replacement policy, protected-item storage, one actual diagnostic use and readiness for remote recovery without duplicated equipment",
+      "focus_ru": "содержащиеся инструменты и расходники, назначенные проверки, правила ремонта и замены, хранение защищённых предметов, одно фактическое диагностическое применение и готовность к удалённому восстановлению без копирования оборудования"
+    },
+    {
+      "tokens": ["power_regulation", "motor", "redstone", "comparator"],
+      "role_en": "early electrical regulation or control component",
+      "role_ru": "ранний компонент электрического регулирования или управления",
+      "focus_en": "source voltage or signal, controlled load, switching truth table, current or power limit, idle state, overload response, safe isolation and restart state",
+      "focus_ru": "напряжение источника или сигнал, управляемую нагрузку, таблицу переключения, предел тока или мощности, простой, реакцию на перегрузку, безопасную изоляцию и состояние после перезапуска"
+    },
+    {
+      "tokens": ["materials_analysis", "matrix", "analysis"],
+      "role_en": "material analysis and process-selection capability",
+      "role_ru": "возможность анализа материалов и выбора процесса",
+      "focus_en": "sample identity, intended property or recipe decision, legal sample source, retained records, rejected or ambiguous result, storage and one documented choice that changes the production route",
+      "focus_ru": "идентичность образца, проверяемое свойство или решение по рецепту, честный источник образца, сохранённые записи, отклонённый или неоднозначный результат, хранение и одно документированное решение, изменяющее производственный маршрут"
+    },
+    {
+      "tokens": ["mechanical_core", "kinetic_interface", "cogwheel", "stressometer", "speedometer"],
+      "role_en": "kinetic power, transmission or instrumentation component",
+      "role_ru": "компонент кинетической мощности, передачи или измерения",
+      "focus_en": "source RPM and stress capacity, gear ratio and rotation direction, measured load, overload margin, inaccessible-shaft maintenance, stopped state and recovery after a jam or chunk reload",
+      "focus_ru": "обороты источника и допустимую нагрузку, передаточное отношение и направление вращения, измеренную нагрузку, запас перегрузки, обслуживание недоступного вала, остановленное состояние и восстановление после заклинивания или перезагрузки чанка"
+    },
+    {
+      "tokens": ["cokebrick", "treated_wood", "industrial_frame"],
+      "role_en": "early metallurgy, treated-material or industrial-structure component",
+      "role_ru": "компонент ранней металлургии, обработанного материала или промышленной конструкции",
+      "focus_en": "complete structure counts, fuel and feedstock, batch time and yield, byproducts, temperature or fire safety, protected output buffer and proof that the component is consumed by a meaningful next assembly",
+      "focus_ru": "полное число блоков структуры, топливо и сырьё, время и выход партии, побочные продукты, температурную или пожарную безопасность, защищённый выходной буфер и реальный расход компонента в следующей значимой сборке"
+    }
+  ],
+  "default": {
+    "role_en": "specialized early engineering foundation",
+    "role_ru": "специализированная ранняя инженерная основа",
+    "focus_en": "legal materials, construction sequence, useful operating role, instrumentation, capacity, failure mode, recovery and connection to the next stage capability",
+    "focus_ru": "честные материалы, последовательность строительства, полезную рабочую роль, измерения, ёмкость, режим отказа, восстановление и связь со следующей этапной возможностью"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite used by the engineering foundation",
+    "role_ru": "межмодовая предпосылка инженерной основы",
+    "focus_en": "its legal source, exact count, interface or consumption role, replacement reserve and proof that the guide does not refund or bypass the source mod's production step",
+    "focus_ru": "его честный источник, точное количество, роль интерфейса или расхода, резерв замены и доказательство, что руководство не возвращает и не обходит производственный шаг исходного мода"
+  },
+  "checkpoint": {
+    "role_en": "foundation workshop architecture review",
+    "role_ru": "проверка архитектуры базовой мастерской",
+    "focus_en": "tools, analysis, power regulation, kinetic instrumentation, metallurgy, control logic, material buffers, safety, failure recovery and readiness for the industrial frame",
+    "focus_ru": "инструменты, анализ, регулирование энергии, кинетические измерения, металлургию, логику управления, буферы материалов, безопасность, восстановление после отказа и готовность к промышленной раме"
+  }
+}
