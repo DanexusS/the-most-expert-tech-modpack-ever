@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "extreme_reactors",
+  "chapter_id": "1EC3E81AC4B01484",
+  "chapter_title_en": "Extreme Reactors — Measured Fission and Turbine Engineering",
+  "chapter_title_ru": "Extreme Reactors — измеряемое деление и турбинная инженерия",
+  "report_filename": "EXTREME_REACTORS_OPERATIONAL_QUALITY_REPORT.md",
+  "report_title": "Extreme Reactors Operational Quality Report",
+  "report_intro": "Every reactor and turbine quest must teach complete multiblock construction, fuel accounting, heat or fluid behavior, measurable output and safe shutdown instead of paying experience or returning reactor materials.",
+  "expected_quests": 30,
+  "minimum_description": 220,
+  "primary_namespace": "bigreactors",
+  "primary_namespaces": ["bigreactors", "zerocore"],
+  "acceptance_namespace": "extreme_reactors_operational_acceptance",
+  "checkpoint_name": "Reactor Safety Checkpoint",
+  "title_suffix_en": "Measured Power-System Acceptance",
+  "title_suffix_ru": "приёмка измеряемой энергосистемы",
+  "description_en": "{display} is a {role} in the Extreme Reactors power branch. It must be accepted as part of a complete, instrumented multiblock whose fuel, heat, waste, coolant and output are reconciled—not as an isolated block or reward-funded power shortcut.",
+  "description_ru": "{display} — {role} энергетической ветви Extreme Reactors. Его необходимо принимать как часть полного измеряемого мультиблока со сверкой топлива, тепла, отходов, охлаждения и выхода, а не как отдельный блок или энергический обход, оплаченный наградой.",
+  "acceptance_en": "Acceptance: verify {focus}; build or inspect the complete structure, record a cold baseline, run a bounded fuel batch, measure output and waste, test control-rod or emergency shutdown response, recover after full output or restart and confirm that rewards, duplicated fuel, free coolant and waste loops cannot create net power or gated materials.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; постройте или осмотрите полную структуру, зафиксируйте холодную базовую линию, проведите ограниченную топливную партию, измерьте выход и отходы, испытайте управляющие стержни или аварийное отключение, восстановитесь после полного выхода или перезапуска и исключите чистую энергию или закрытые материалы через награды, копирование топлива, бесплатное охлаждение и циклы отходов.",
+  "categories": [
+    {
+      "tokens": ["reactorcasing", "reactorglass", "reactorcontroller", "reactorsolidaccessport", "reactorfluidport", "reactorpowertap", "reactorcontrolrod", "reactorfuelrod"],
+      "role_en": "reactor multiblock structure or control component",
+      "role_ru": "структурный или управляющий компонент реакторного мультиблока",
+      "focus_en": "complete casing and interior counts, controller and access placement, fuel-rod and control-rod alignment, power or fluid port mode, formed-state verification and safe behavior when an input or output is disconnected",
+      "focus_ru": "полное число оболочки и внутренних блоков, размещение контроллера и портов, совмещение топливных и управляющих стержней, режим энергетического или жидкостного порта, формирование структуры и безопасность при отключённом входе или выходе"
+    },
+    {
+      "tokens": ["turbinehousing", "turbineglass", "turbinecontroller", "turbinefluidport", "turbinepowertap", "turbinerotor", "rotorblade", "rotorshaft", "coil"],
+      "role_en": "turbine multiblock or electromechanical conversion component",
+      "role_ru": "компонент турбинного мультиблока или электромеханического преобразования",
+      "focus_en": "rotor length and blade count, coil material and placement, steam input, condensate output, target RPM, overspeed protection, generator load and restart without trapped fluid",
+      "focus_ru": "длину ротора и число лопастей, материал и размещение катушек, вход пара, выход конденсата, целевые обороты, защиту от превышения скорости, нагрузку генератора и перезапуск без запертой жидкости"
+    },
+    {
+      "tokens": ["uranium", "yellorium", "fuel", "ingot", "graphite"],
+      "role_en": "reactor fuel or structural feedstock",
+      "role_ru": "реакторное топливо или конструкционное сырьё",
+      "focus_en": "legal ore source, processing yield, fuel composition, batch mass, storage limit, consumption rate and prohibition on quest rewards or recycling creating more fresh fuel than was consumed",
+      "focus_ru": "честный источник руды, выход переработки, состав топлива, массу партии, предел хранения, скорость расхода и запрет получения свежего топлива сверх расхода через награды или переработку"
+    },
+    {
+      "tokens": ["cyanite", "blutonium", "ludicrite", "insanite", "waste", "reprocessor"],
+      "role_en": "reactor waste, reprocessing product or high-tier material",
+      "role_ru": "реакторный отход, продукт переработки или высокоуровневый материал",
+      "focus_en": "waste ratio per fuel batch, extraction route, reprocessing energy and reagent cost, recovered yield, residual waste, EMC and simulation restrictions and use in an authorized later-stage assembly",
+      "focus_ru": "долю отхода на топливную партию, путь извлечения, стоимость энергии и реагентов переработки, возвращаемый выход, остаточный отход, ограничения EMC и симуляции и расход в разрешённой поздней сборке"
+    },
+    {
+      "tokens": ["coolant", "moderator", "fluid", "vapor", "steam"],
+      "role_en": "coolant, moderator or heat-transfer medium",
+      "role_ru": "охладитель, замедлитель или теплоноситель",
+      "focus_en": "source and closed-loop inventory, insertion method, temperature or vapor behavior, leak and void policy, buffer capacity, pump shutdown and proof that the coolant loop does not duplicate fluid",
+      "focus_ru": "источник и запас замкнутого контура, способ загрузки, температурное или паровое поведение, правила утечки и удаления, ёмкость буфера, отключение насосов и отсутствие копирования жидкости"
+    }
+  ],
+  "default": {
+    "role_en": "specialized reactor or turbine engineering component",
+    "role_ru": "специализированный компонент реакторной или турбинной инженерии",
+    "focus_en": "multiblock role, material ancestry, operating limit, measured contribution, maintenance, shutdown, restart recovery and interaction with the stage power ceiling",
+    "focus_ru": "роль в мультиблоке, происхождение материала, рабочий предел, измеряемый вклад, обслуживание, отключение, восстановление после перезапуска и связь с энергетическим пределом этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod fuel, coolant or grid-integration prerequisite",
+    "role_ru": "межмодовая предпосылка топлива, охлаждения или подключения к сети",
+    "focus_en": "its legal production route, exact consumption, transfer limit, buffer, loss and why it supports rather than bypasses reactor engineering",
+    "focus_ru": "его честный производственный маршрут, точный расход, предел передачи, буфер, потери и поддержку без обхода реакторной инженерии"
+  },
+  "checkpoint": {
+    "role_en": "reactor and turbine commissioning checkpoint",
+    "role_ru": "контрольная точка ввода реактора и турбины в эксплуатацию",
+    "focus_en": "structure validation, fuel reserve, moderator or coolant, instrumentation, output load, waste route, control response, shutdown, restart and measured efficiency",
+    "focus_ru": "проверку структуры, запас топлива, замедлитель или охлаждение, измерительные приборы, нагрузку выхода, маршрут отходов, реакцию управления, отключение, перезапуск и измеренную эффективность"
+  }
+}
