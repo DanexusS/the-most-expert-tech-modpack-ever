@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "tfmg_electricity",
+  "chapter_id": "7332B6BB3E51839A",
+  "chapter_title_en": "TFMG Electricity — Generation, Conductors and Control",
+  "chapter_title_ru": "TFMG Electricity — генерация, проводники и управление",
+  "report_filename": "TFMG_ELECTRICITY_CATALOG_QUALITY_REPORT.md",
+  "report_title": "TFMG Electricity Catalogue Quality Report",
+  "report_intro": "TFMG electrical quests must teach generation, conductor production, storage, measurement, conversion and protected distribution instead of returning the same wires, magnets or XP as rewards.",
+  "expected_quests": 44,
+  "minimum_description": 200,
+  "primary_namespace": "tfmg",
+  "primary_namespace_prefixes": ["tfmg", "create"],
+  "acceptance_namespace": "tfmg_electricity_acceptance",
+  "checkpoint_name": "TFMG Electrical Engineering Checkpoint",
+  "title_suffix_en": "Electrical Acceptance",
+  "title_suffix_ru": "электротехническая приёмка",
+  "description_en": "{display} is a {role} in the TFMG electrical route. The lesson must establish a measured and protected power capability with reproducible conductor and component supply—not reward the player with the same wire, magnet or capacitor being requested.",
+  "description_ru": "{display} — {role} электрической ветви TFMG. Задание должно создавать измеряемую и защищённую энергетическую возможность с воспроизводимым снабжением проводниками и компонентами, а не возвращать игроку тот же провод, магнит или конденсатор наградой.",
+  "acceptance_en": "Acceptance: verify {focus}; build or operate a representative circuit, record voltage, current or capacity and the limiting component, test overload, empty generation or disconnected output, recover safely and remove material, XP and shortcut rewards.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; соберите или запустите типовую цепь, запишите напряжение, ток или ёмкость и ограничивающий компонент, испытайте перегрузку, пустую генерацию или отключённый выход, безопасно восстановитесь и уберите материальные, XP- и обходные награды.",
+  "categories": [
+    {
+      "tokens": ["wire", "spool", "cable", "connector", "insulator"],
+      "role_en": "electrical conductor, spool or connection component",
+      "role_ru": "электрический проводник, катушка или соединительный компонент",
+      "focus_en": "alloy ancestry, winding or drawing route, conductor count, transfer limit, insulation, connection direction, voltage drop and safe replacement of one damaged segment",
+      "focus_ru": "происхождение сплава, путь намотки или протяжки, число проводников, предел передачи, изоляцию, направление соединения, падение напряжения и безопасную замену повреждённого участка"
+    },
+    {
+      "tokens": ["generator", "dynamo", "alternator", "motor", "turbine", "engine"],
+      "role_en": "electromechanical generation or conversion machine",
+      "role_ru": "электромеханическая машина генерации или преобразования",
+      "focus_en": "mechanical input or electrical output, rotational speed, sustained generation, load response, startup reserve, idle loss and controlled shutdown under overload",
+      "focus_ru": "механический вход или электрический выход, скорость вращения, устойчивую генерацию, реакцию на нагрузку, пусковой резерв, потери простоя и контролируемую остановку при перегрузе"
+    },
+    {
+      "tokens": ["accumulator", "capacitor", "battery", "storage", "cell"],
+      "role_en": "electrical storage or smoothing component",
+      "role_ru": "компонент накопления или сглаживания энергии",
+      "focus_en": "usable capacity, charge and discharge rate, polarity, reserve policy, state indication, isolation from short circuits and recovery after complete discharge",
+      "focus_ru": "полезную ёмкость, скорость заряда и разряда, полярность, правила резерва, индикацию состояния, изоляцию от короткого замыкания и восстановление после полного разряда"
+    },
+    {
+      "tokens": ["voltmeter", "multimeter", "ammeter", "meter", "potentiometer", "resistor", "diode", "transistor"],
+      "role_en": "measurement, regulation or circuit-control component",
+      "role_ru": "компонент измерения, регулирования или управления цепью",
+      "focus_en": "measured quantity and range, probe location, expected reading, regulation rule, safe default, visible fault and calibration against a known operating state",
+      "focus_ru": "измеряемую величину и диапазон, место щупа, ожидаемое показание, правило регулирования, безопасное значение по умолчанию, видимый отказ и калибровку по известному режиму"
+    },
+    {
+      "tokens": ["transformer", "switch", "relay", "fuse", "breaker", "distribution", "panel"],
+      "role_en": "protected conversion, switching or distribution component",
+      "role_ru": "компонент защищённого преобразования, коммутации или распределения",
+      "focus_en": "input and output boundary, conversion ratio or switch state, protection threshold, branch isolation, manual override, load shedding and black-start order",
+      "focus_ru": "границу входа и выхода, коэффициент преобразования или состояние переключателя, порог защиты, изоляцию ветвей, ручное управление, сброс нагрузки и порядок холодного запуска"
+    },
+    {
+      "tokens": ["winding_machine", "electric_post", "magnet", "magnetic", "silicon", "circuit", "electrode"],
+      "role_en": "recurring electrical manufacturing material or machine",
+      "role_ru": "повторяющийся электротехнический материал или машина",
+      "focus_en": "legal material source, batch recipe, tooling and returned parts, throughput, minimum stock, rejected output and scalable production without quest-supplied components",
+      "focus_ru": "честный источник материала, рецепт партии, оснастку и возвращаемые детали, скорость, минимальный запас, брак и масштабируемое производство без компонентов из наград"
+    }
+  ],
+  "default": {
+    "role_en": "specialized TFMG electrical component",
+    "role_ru": "специализированный электротехнический компонент TFMG",
+    "focus_en": "its exact electrical or electromechanical contract, legal component ancestry, measurable state, protection, representative cycle and recovery after disconnection or overload",
+    "focus_ru": "его точный электрический или электромеханический контракт, честное происхождение компонентов, измеримое состояние, защиту, типовой цикл и восстановление после отключения или перегрузки"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod power or kinetic interface component",
+    "role_ru": "межмодовый компонент энергетического или кинетического интерфейса",
+    "focus_en": "which system owns rotation, generation, storage or control, the conversion direction, interface reserve and absence of a free-energy or duplicate-conversion loop",
+    "focus_ru": "какая система отвечает за вращение, генерацию, хранение или управление, направление преобразования, интерфейсный резерв и отсутствие цикла бесплатной энергии или двойного преобразования"
+  },
+  "checkpoint": {
+    "role_en": "TFMG electrical-system design checkpoint",
+    "role_ru": "контрольная точка проектирования электрической системы TFMG",
+    "focus_en": "generation curve, conductor and spool stock, storage capacity, measurement points, protected branches, overload response, idle shutdown and black-start sequence",
+    "focus_ru": "кривую генерации, запас проводников и катушек, ёмкость хранения, точки измерения, защищённые ветви, реакцию на перегрузку, отключение простоя и последовательность холодного запуска"
+  }
+}
