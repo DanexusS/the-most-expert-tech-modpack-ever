@@ -2,11 +2,11 @@
 
 **PASS**
 
-This is a static safeguard report. It verifies low-risk configuration and script practices before runtime profiling; it does not replace the required TPS, heap and restart measurements.
+This static safeguard verifies low-risk configuration, bounded questbook growth and script budgets before runtime profiling. It does not replace TPS, heap and restart measurements.
 
 | Check | Current | Status |
 |---|---|---|
-| FTB Quests detection delay | `20.0` | PASS |
+| FTB Quests detection delay | `40.0` | PASS |
 | FTB Quests grid scale | `0.5` | PASS |
 | FTB Quests verify_on_load | `False` | PASS |
 | FTB Quests drop_loot_crates | `False` | PASS |
@@ -28,14 +28,13 @@ This is a static safeguard report. It verifies low-risk configuration and script
 | Runtime path crash-reports/ | `absent` | PASS |
 | Runtime path local/ | `absent` | PASS |
 | Runtime path saves/ | `absent` | PASS |
-| Measured optimization quests | `60/60` | PASS |
-
-## Script inventory
-
-- KubeJS JavaScript files: **204**
-- Event subscriptions found: **196**
-- Explicit console calls found: **28**
-- Required measured optimization quests: **60**
+| Workflow optimization quests | `90/90` | PASS |
+| Depth optimization quests | `180/180` | PASS |
+| Mandatory quests per stage | `min=121, max=121` | PASS |
+| Total questbook size | `5640/6000` | PASS |
+| KubeJS JavaScript files | `205/220` | PASS |
+| Event subscriptions | `197/220` | PASS |
+| Explicit console calls | `30/35` | PASS |
 
 ## Runtime measurements still required
 

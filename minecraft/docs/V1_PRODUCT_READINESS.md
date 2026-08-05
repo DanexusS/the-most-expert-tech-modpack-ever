@@ -40,6 +40,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
 | Stage Chapter Organization | PASS |
+| Stage Depth Program | PASS |
 | Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
 | Theoretical balance | PASS |
@@ -49,10 +50,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 4164 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 3099 / 4164 | IN PROGRESS |
-| Single item-only ratio | 18.9% / ≤30% | PASS |
-| Remaining to 5,000 quests | 836 | IN PROGRESS |
+| Total quests | 5604 / 5,000–6,000 | PASS |
+| RU/EN descriptions | 4539 / 5604 | IN PROGRESS |
+| Single item-only ratio | 14.1% / ≤30% | PASS |
+| Remaining to 5,000 quests | 0 | PASS |
 | Remaining without full RU/EN | 1065 | IN PROGRESS |
 
 ## Selected gameplay guide specification

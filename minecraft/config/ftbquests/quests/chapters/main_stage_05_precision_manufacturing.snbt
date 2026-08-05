@@ -9,7 +9,7 @@
 	progression_mode: "linear"
 	quest_links: []
 	quests: [
-	{
+{
 		id: "8A6D5255D4A42684"
 		dependencies: ["4FF3AA6C64A6B294"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -23,7 +23,7 @@
 		x: 0.0d
 		y: 0.0d
 	}
-	{
+{
 		id: "8FE76122C94A587A"
 		dependencies: ["8A6D5255D4A42684"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -37,7 +37,7 @@
 		x: 1.4d
 		y: 0.0d
 	}
-	{
+{
 		id: "7D1C43821928C7EB"
 		dependencies: ["8FE76122C94A587A"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -51,7 +51,7 @@
 		x: 2.8d
 		y: 0.0d
 	}
-	{
+{
 		id: "D0669556AA5A08DC"
 		dependencies: ["7D1C43821928C7EB"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -65,7 +65,7 @@
 		x: 5.0d
 		y: 3.5d
 	}
-	{
+{
 		id: "9A13D68D890C8666"
 		dependencies: ["D0669556AA5A08DC"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -79,7 +79,7 @@
 		x: 6.4d
 		y: 3.5d
 	}
-	{
+{
 		id: "2B8D4B6DE2137DD4"
 		dependencies: ["9A13D68D890C8666"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -93,7 +93,7 @@
 		x: 7.8d
 		y: 3.5d
 	}
-	{
+{
 		id: "0C04EB937652CC18"
 		dependencies: ["2B8D4B6DE2137DD4"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -107,7 +107,7 @@
 		x: 10.0d
 		y: 7.0d
 	}
-	{
+{
 		id: "0946588A5FF24C64"
 		dependencies: ["0C04EB937652CC18"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -121,7 +121,7 @@
 		x: 11.4d
 		y: 7.0d
 	}
-	{
+{
 		id: "BB8BB4A5798591D0"
 		dependencies: ["0946588A5FF24C64"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -135,7 +135,7 @@
 		x: 12.8d
 		y: 7.0d
 	}
-	{
+{
 		id: "4A82091C9ABD3A4B"
 		dependencies: ["BB8BB4A5798591D0"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -149,7 +149,7 @@
 		x: 15.0d
 		y: 10.5d
 	}
-	{
+{
 		id: "FE3102ACFBF4D8CA"
 		dependencies: ["4A82091C9ABD3A4B"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -163,7 +163,7 @@
 		x: 16.4d
 		y: 10.5d
 	}
-	{
+{
 		id: "7A1BDED97DF86A36"
 		dependencies: ["FE3102ACFBF4D8CA"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -177,7 +177,7 @@
 		x: 17.8d
 		y: 10.5d
 	}
-		{
+{
 		dependencies: ["7A1BDED97DF86A36"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "A3879A2C824725E4"
@@ -191,7 +191,7 @@
 		x: 0.0d
 		y: 31.0d
 	}
-	{
+{
 		dependencies: ["A3879A2C824725E4"]
 		icon: { id: "kubejs:pressure_treated_frame" }
 		id: "11EF8EEAD211C9BF"
@@ -210,7 +210,7 @@
 		x: 1.7d
 		y: 34.0d
 	}
-	{
+{
 		dependencies: ["11EF8EEAD211C9BF"]
 		icon: { id: "pneumaticcraft:pressure_chamber_valve" }
 		id: "155229EA2AE9C82D"
@@ -229,7 +229,7 @@
 		x: 3.4d
 		y: 37.0d
 	}
-	{
+{
 		dependencies: ["155229EA2AE9C82D"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "6FEB7CCE1C8971FE"
@@ -243,7 +243,7 @@
 		x: 5.1d
 		y: 40.0d
 	}
-	{
+{
 		dependencies: ["7A1BDED97DF86A36"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "A10BC0CD346093CD"
@@ -257,7 +257,7 @@
 		x: 8.0d
 		y: 31.0d
 	}
-	{
+{
 		dependencies: ["A10BC0CD346093CD"]
 		icon: { id: "kubejs:etched_copper_substrate" }
 		id: "59F3E313600D624E"
@@ -276,7 +276,7 @@
 		x: 9.7d
 		y: 34.0d
 	}
-	{
+{
 		dependencies: ["59F3E313600D624E"]
 		icon: { id: "kubejs:calibrated_substrate" }
 		id: "7EBA36B57977060A"
@@ -295,7 +295,7 @@
 		x: 11.4d
 		y: 37.0d
 	}
-	{
+{
 		dependencies: ["7EBA36B57977060A"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "9372ABA653EF4AFD"
@@ -309,7 +309,7 @@
 		x: 13.1d
 		y: 40.0d
 	}
-	{
+{
 		dependencies: ["9372ABA653EF4AFD"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "522825844FECD55D"
@@ -323,7 +323,7 @@
 		x: 16.0d
 		y: 31.0d
 	}
-	{
+{
 		dependencies: ["522825844FECD55D"]
 		icon: { id: "kubejs:assembly_alignment_jig" }
 		id: "54DE274CFD2A6985"
@@ -342,7 +342,7 @@
 		x: 17.7d
 		y: 34.0d
 	}
-	{
+{
 		dependencies: ["54DE274CFD2A6985"]
 		icon: { id: "pneumaticcraft:printed_circuit_board" }
 		id: "C1A123D16043F52A"
@@ -361,7 +361,7 @@
 		x: 19.4d
 		y: 37.0d
 	}
-	{
+{
 		dependencies: ["C1A123D16043F52A"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "51926B75D3EE43F3"
@@ -375,7 +375,7 @@
 		x: 21.1d
 		y: 40.0d
 	}
-	{
+{
 		dependencies: ["7A1BDED97DF86A36"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "79F2BBF2F9FB5706"
@@ -389,7 +389,7 @@
 		x: 27.0d
 		y: 31.0d
 	}
-	{
+{
 		dependencies: ["79F2BBF2F9FB5706"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "97E127FB6E084CFA"
@@ -403,7 +403,7 @@
 		x: 28.8d
 		y: 34.0d
 	}
-	{
+{
 		dependencies: ["97E127FB6E084CFA"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "49481300AB2211B2"
@@ -417,7 +417,7 @@
 		x: 30.6d
 		y: 37.0d
 	}
-	{
+{
 		dependencies: ["49481300AB2211B2"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "8B5B91217946E315"
@@ -431,7 +431,7 @@
 		x: 32.4d
 		y: 40.0d
 	}
-	{
+{
 		dependencies: ["8B5B91217946E315"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "4244880F83EC8DEE"
@@ -445,7 +445,7 @@
 		x: 34.2d
 		y: 43.0d
 	}
-	{
+{
 		dependencies: ["6FEB7CCE1C8971FE" "9372ABA653EF4AFD" "51926B75D3EE43F3" "4244880F83EC8DEE"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "398069B4106545AC"
@@ -464,7 +464,7 @@
 		x: 15.0d
 		y: 48.0d
 	}
-	{
+{
 		dependencies: ["398069B4106545AC"]
 		icon: { id: "kubejs:industrial_frame" }
 		id: "2CE24510E32DD223"
@@ -478,9 +478,1194 @@
 		x: 19.0d
 		y: 48.0d
 	}
+	{
+		dependencies: ["2CE24510E32DD223"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "47A7AAC1DC42086B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D4DE6EB1E90ED901"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 28.0d
+	}
+	{
+		dependencies: ["47A7AAC1DC42086B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "13A62DA820D03D3A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "BF356F10B821D348"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.2d
+	}
+	{
+		dependencies: ["13A62DA820D03D3A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "8C0622C3BE763BF6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "DB6D037CD302A780"
+			item: { count: 2, id: "kubejs:pressure_treated_frame" }
+			type: "item"
+		}
+		{
+			id: "31D08D6270154A27"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 34.4d
+	}
+	{
+		dependencies: ["8C0622C3BE763BF6"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "55B01193336A322C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "90FD590F2BB9D69C"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 37.6d
+	}
+	{
+		dependencies: ["55B01193336A322C"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "24911156ED044DDC"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "C30A439ED71F7B84"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 40.8d
+	}
+	{
+		dependencies: ["24911156ED044DDC"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "8B5D32D3F9AE054E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "DB76CF0AB645847E"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 44.0d
+	}
+	{
+		dependencies: ["8B5D32D3F9AE054E"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "79D8D8730BC6CD00"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8FB1BD6B4D98C332"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 47.2d
+	}
+	{
+		dependencies: ["79D8D8730BC6CD00"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "35F645F91556FF3F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D878B08B9395DB7B"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 50.4d
+	}
+	{
+		dependencies: ["35F645F91556FF3F"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "C9371312246D6BD6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7B94003EFE2414E1"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 53.6d
+	}
+	{
+		dependencies: ["C9371312246D6BD6"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "94F703FB05916896"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "2BE5A2D56EC56B91"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 56.8d
+	}
+	{
+		dependencies: ["94F703FB05916896"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "CF43BC76D7D44071"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "9D0F618B201523A2"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 28.0d
+	}
+	{
+		dependencies: ["CF43BC76D7D44071"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "D175DA9A9B36EC6E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B0B59568C0397447"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 31.2d
+	}
+	{
+		dependencies: ["D175DA9A9B36EC6E"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "EA0E7BD4C1415567"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "0D66393A427CCAD2"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 34.4d
+	}
+	{
+		dependencies: ["EA0E7BD4C1415567"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "91BC2CF9DE8FF880"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2044C1FE51B4BCAB"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 37.6d
+	}
+	{
+		dependencies: ["91BC2CF9DE8FF880"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "F3C9FF1238FD91C4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8C036B94E0BBB06F"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 40.8d
+	}
+	{
+		dependencies: ["F3C9FF1238FD91C4"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "FE1BC2458B04B465"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2D951689521BE33A"
+			item: { count: 2, id: "kubejs:pressure_treated_frame" }
+			type: "item"
+		}
+		{
+			id: "90BDF1CF5B5B1780"
+			item: { count: 2, id: "kubejs:etched_copper_substrate" }
+			type: "item"
+		}
+		{
+			id: "6E2A3876F30B475D"
+			item: { count: 2, id: "kubejs:assembly_alignment_jig" }
+			type: "item"
+		}
+		{
+			id: "0D1B4FA9535ECC7A"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 44.0d
+	}
+	{
+		dependencies: ["FE1BC2458B04B465"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "75C06229A8D6AA73"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8057B5A21971F54B"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 47.2d
+	}
+	{
+		dependencies: ["75C06229A8D6AA73"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "8125721E96167724"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "CE3EAFC39D24D63F"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 50.4d
+	}
+	{
+		dependencies: ["8125721E96167724"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "0D258ADA35F22FD7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "5C9460F8860A4BE5"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 53.6d
+	}
+	{
+		dependencies: ["0D258ADA35F22FD7"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "2BCA95AF7F190679"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "E37E44AD9A389B5C"
+			type: "checkmark"
+		}
+	]
+		x: 7.5d
+		y: 56.8d
+	}
+	{
+		dependencies: ["2BCA95AF7F190679"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "5C1AC8E799C4B34F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "48B5D067A74E2715"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 28.0d
+	}
+	{
+		dependencies: ["5C1AC8E799C4B34F"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "34BD712601513B40"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "C1F4198AB6002675"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 31.2d
+	}
+	{
+		dependencies: ["34BD712601513B40"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "0EB214DA017A8E94"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "5D7C4EE32094E5E1"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 34.4d
+	}
+	{
+		dependencies: ["0EB214DA017A8E94"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "5A99D6DCF46BDD9A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2B5DF2EDB5F767FA"
+			item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+			type: "item"
+		}
+		{
+			id: "956A7B6C053D6928"
+			item: { count: 1, id: "kubejs:calibrated_substrate" }
+			type: "item"
+		}
+		{
+			id: "E6184E8D822B5DA3"
+			item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+			type: "item"
+		}
+		{
+			id: "14A212CC74EBE157"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 37.6d
+	}
+	{
+		dependencies: ["5A99D6DCF46BDD9A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4609E7521D916D12"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1817261B3010193D"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 40.8d
+	}
+	{
+		dependencies: ["4609E7521D916D12"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6A4601914F8FD656"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "E96809CF89069067"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 44.0d
+	}
+	{
+		dependencies: ["6A4601914F8FD656"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "AF4C34D436240D6B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "FAD2B75A1ACE086F"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 47.2d
+	}
+	{
+		dependencies: ["AF4C34D436240D6B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "DA27B72F497E4CF1"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "6A2985FF480B44C7"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 50.4d
+	}
+	{
+		dependencies: ["DA27B72F497E4CF1"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "9ED1B0A21B7A2D5B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8C6483379E387F1E"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 53.6d
+	}
+	{
+		dependencies: ["9ED1B0A21B7A2D5B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4AA6CD980BFBAB04"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "F0CC5D3CD38A9A10"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 56.8d
+	}
+	{
+		dependencies: ["4AA6CD980BFBAB04"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6A7E9C6AF574E336"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "544D9BE58ADB586A"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 28.0d
+	}
+	{
+		dependencies: ["6A7E9C6AF574E336"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "F3447A9E1EA9B02E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "398A2FC0935EA11E"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 31.2d
+	}
+	{
+		dependencies: ["F3447A9E1EA9B02E"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4A6D23FDD67E026A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1DC6EF186C38A60A"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 34.4d
+	}
+	{
+		dependencies: ["4A6D23FDD67E026A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "5C2510796BB2AA42"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "39F48B2194B68E99"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 37.6d
+	}
+	{
+		dependencies: ["5C2510796BB2AA42"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6FF52BB5F3D82289"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "F68C582484C75BB4"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 40.8d
+	}
+	{
+		dependencies: ["6FF52BB5F3D82289"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "69D8133604EFE6AB"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "6471D5D15A8419B9"
+			item: { count: 1, id: "kubejs:calibrated_substrate" }
+			type: "item"
+		}
+		{
+			id: "B0C98581777631B8"
+			item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+			type: "item"
+		}
+		{
+			id: "056760D6C0FBC001"
+			item: { count: 1, id: "kubejs:divine_seal" }
+			type: "item"
+		}
+		{
+			id: "F5F25BD3894C636B"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 44.0d
+	}
+	{
+		dependencies: ["69D8133604EFE6AB"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "098AEEA6A588A149"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "018AE91A0B1C4EF8"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 47.2d
+	}
+	{
+		dependencies: ["098AEEA6A588A149"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "29015ADC8A578C5D"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "866103A1DEDB2F1B"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 50.4d
+	}
+	{
+		dependencies: ["29015ADC8A578C5D"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "B25546C1C7486605"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "FE87BA55463F4F66"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 53.6d
+	}
+	{
+		dependencies: ["B25546C1C7486605"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4E209C07213D33EF"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "4BBDAEA40F164A6A"
+			type: "checkmark"
+		}
+	]
+		x: 22.5d
+		y: 56.8d
+	}
+	{
+		dependencies: ["4E209C07213D33EF"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A8566957C29CFC65"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B1C6312BD1C82B5A"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 28.0d
+	}
+	{
+		dependencies: ["A8566957C29CFC65"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "E8F7FC6D2BEF39C6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D08387655935376A"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 31.2d
+	}
+	{
+		dependencies: ["E8F7FC6D2BEF39C6"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "020388A856483CE9"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "103BE28BABB49515"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 34.4d
+	}
+	{
+		dependencies: ["020388A856483CE9"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "93ECC97EEF3CDA89"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8AC9EA4FC70958D0"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 37.6d
+	}
+	{
+		dependencies: ["93ECC97EEF3CDA89"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "2964F1FD3E1B4E2E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "5A31EEF89EBC6F2C"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 40.8d
+	}
+	{
+		dependencies: ["2964F1FD3E1B4E2E"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "2F6D11369443F27D"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "17C70945181DD95B"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 44.0d
+	}
+	{
+		dependencies: ["2F6D11369443F27D"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "453B51AF80859F9C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2F5BABD72C06DA3D"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 47.2d
+	}
+	{
+		dependencies: ["453B51AF80859F9C"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "438897F7B4D6B3CD"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "894642D62140B453"
+			item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+			type: "item"
+		}
+		{
+			id: "FA928BD66A98C819"
+			item: { count: 1, id: "kubejs:calibrated_substrate" }
+			type: "item"
+		}
+		{
+			id: "B3361D632ECCB5C5"
+			item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+			type: "item"
+		}
+		{
+			id: "D7FE212C976B1A3A"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 50.4d
+	}
+	{
+		dependencies: ["438897F7B4D6B3CD"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "196AF53F91E28936"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "39DC0F8915F3822B"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 53.6d
+	}
+	{
+		dependencies: ["196AF53F91E28936"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6D119B0163FB95E1"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "8831FD10768651FE"
+			type: "checkmark"
+		}
+	]
+		x: 30.0d
+		y: 56.8d
+	}
+	{
+		dependencies: ["94F703FB05916896"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "22D649C53A833785"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "79F1F8584A33848D"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 28.0d
+	}
+	{
+		dependencies: ["22D649C53A833785"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "D98E55C8F7366279"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "41BB41F478BAFDF7"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 31.2d
+	}
+	{
+		dependencies: ["D98E55C8F7366279"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "19467B6EF7AF4271"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D7E5C8395C523905"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 34.4d
+	}
+	{
+		dependencies: ["19467B6EF7AF4271"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "38859851D8B56381"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1E0484060A0394C1"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 37.6d
+	}
+	{
+		dependencies: ["38859851D8B56381"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "70B12CDF2538F8C6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "520BC15AE2FDDC53"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 40.8d
+	}
+	{
+		dependencies: ["70B12CDF2538F8C6"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "E21E5890AEF07ECC"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "FBBA79D626C24CD6"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 44.0d
+	}
+	{
+		dependencies: ["E21E5890AEF07ECC"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "33EB7C6C413B882F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "E48ED8F7CA9CEDF3"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 47.2d
+	}
+	{
+		dependencies: ["33EB7C6C413B882F"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "D67B8B847367D305"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8635E934CB36962F"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 50.4d
+	}
+	{
+		dependencies: ["D67B8B847367D305"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "93612FB1CEEC2D2C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B1E65663F8961EEE"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 53.6d
+	}
+	{
+		dependencies: ["93612FB1CEEC2D2C"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "59C620FB6AA2CEDD"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "DCDD1581A50DCEA1"
+			type: "checkmark"
+		}
+	]
+		x: 37.5d
+		y: 56.8d
+	}
+	{
+		dependencies: ["4AA6CD980BFBAB04" "59C620FB6AA2CEDD"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6ECE974C0E159CEF"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B7609023A8093031"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 28.0d
+	}
+	{
+		dependencies: ["6ECE974C0E159CEF"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4830F9F5387FC06A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "50D55C42AD609001"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 31.2d
+	}
+	{
+		dependencies: ["4830F9F5387FC06A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "30FDA1CBDB9D0F4A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B0AEB9F7D239AA29"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 34.4d
+	}
+	{
+		dependencies: ["30FDA1CBDB9D0F4A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A176928715A60C3F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B12B13544816D54E"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 37.6d
+	}
+	{
+		dependencies: ["A176928715A60C3F"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "364D2C81AF9FCF5B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "92042D893A943EB7"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 40.8d
+	}
+	{
+		dependencies: ["364D2C81AF9FCF5B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "26EA221F09E37A04"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2D212185DD6F4E79"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 44.0d
+	}
+	{
+		dependencies: ["26EA221F09E37A04"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "F0EC550222E413B7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "85EE7DB0CB96AD5E"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 47.2d
+	}
+	{
+		dependencies: ["F0EC550222E413B7"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4DDCEAFDDC279936"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "19ADB9473CDA72C3"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 50.4d
+	}
+	{
+		dependencies: ["4DDCEAFDDC279936"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "9AA09B95A1265A2C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "91F8B97B776E95F0"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 53.6d
+	}
+	{
+		dependencies: ["9AA09B95A1265A2C"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "FBBA97ECD6D85F0A"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "792ED7DB217A6547"
+			type: "checkmark"
+		}
+	]
+		x: 45.0d
+		y: 56.8d
+	}
+	{
+		dependencies: ["6D119B0163FB95E1" "FBBA97ECD6D85F0A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "3F8B7803612179A3"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D402CBF1811DBE2B"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 28.0d
+	}
+	{
+		dependencies: ["3F8B7803612179A3"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "90B8DFFFB3D0EE3B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B49E4A3E128E048F"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 31.2d
+	}
+	{
+		dependencies: ["90B8DFFFB3D0EE3B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "457E89D3843684EC"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "813A38F28659D3C1"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 34.4d
+	}
+	{
+		dependencies: ["457E89D3843684EC"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "F0F49D02C1FA442F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7E1692C350DCABC3"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 37.6d
+	}
+	{
+		dependencies: ["F0F49D02C1FA442F"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "0EE9AC3CE3FC089A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "278520D0FE7ED3C5"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 40.8d
+	}
+	{
+		dependencies: ["0EE9AC3CE3FC089A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "C4D1DB3A681959B3"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "CCB71822A81FC7AF"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 44.0d
+	}
+	{
+		dependencies: ["C4D1DB3A681959B3"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A1F93AD6D972989B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "18F45409AFD8A45D"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 47.2d
+	}
+	{
+		dependencies: ["A1F93AD6D972989B"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "15D56581EFEBBBA3"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "9269A0311A171DF8"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 50.4d
+	}
+	{
+		dependencies: ["15D56581EFEBBBA3"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "887C060381C46779"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2FDCACCAC9AE8A95"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 53.6d
+	}
+	{
+		dependencies: ["887C060381C46779"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "AA3F4A9B92EF7BC9"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "0DEB18EED9185415"
+			type: "checkmark"
+		}
+	]
+		x: 52.5d
+		y: 56.8d
+	}
 {
 		id: "51A665711EA516AC"
-		dependencies: ["2CE24510E32DD223"]
+		dependencies: ["AA3F4A9B92EF7BC9"]
 		icon: { id: "kubejs:industrial_frame" }
 		shape: "hexagon"
 		tasks: [
@@ -492,7 +1677,7 @@
 		x: 0.0d
 		y: 18.0d
 	}
-	{
+{
 		id: "400AAD5DEE6DB87C"
 		dependencies: ["51A665711EA516AC"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -506,7 +1691,7 @@
 		x: 4.0d
 		y: 18.0d
 	}
-	{
+{
 		id: "23C96517A20A37EA"
 		dependencies: ["400AAD5DEE6DB87C"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -520,7 +1705,7 @@
 		x: 8.0d
 		y: 18.0d
 	}
-	{
+{
 		id: "3E2FD2ABE5D2CCB3"
 		dependencies: ["23C96517A20A37EA"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -534,7 +1719,7 @@
 		x: 12.0d
 		y: 18.0d
 	}
-	{
+{
 		id: "0DF4329F2BD9B995"
 		dependencies: ["3E2FD2ABE5D2CCB3"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -548,7 +1733,7 @@
 		x: 16.0d
 		y: 18.0d
 	}
-	{
+{
 		id: "F530D9EDF216BCDE"
 		dependencies: ["0DF4329F2BD9B995"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -562,7 +1747,7 @@
 		x: 0.0d
 		y: 22.0d
 	}
-	{
+{
 		id: "F0B8FB386F6827CA"
 		dependencies: ["F530D9EDF216BCDE"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -576,7 +1761,7 @@
 		x: 4.0d
 		y: 22.0d
 	}
-	{
+{
 		id: "2F60DCCF97E3E9E4"
 		dependencies: ["F0B8FB386F6827CA"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -590,7 +1775,7 @@
 		x: 8.0d
 		y: 22.0d
 	}
-	{
+{
 		id: "F1153D4C66EFFD36"
 		dependencies: ["2F60DCCF97E3E9E4"]
 		icon: { id: "kubejs:industrial_frame" }
@@ -604,7 +1789,7 @@
 		x: 12.0d
 		y: 22.0d
 	}
-	{
+{
 		id: "6F47CCD3B635CE8A"
 		dependencies: ["F1153D4C66EFFD36"]
 		icon: { id: "kubejs:industrial_frame" }
