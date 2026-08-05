@@ -92,6 +92,10 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/cataclysm_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/mob_grinding_utils_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/occultism_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ender_io_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/modern_industrialization_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/create_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_2_full.json
 
       - name: Generate curated manuals I-VII sequentially
         run: |
@@ -142,6 +146,10 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/cataclysm_full.json
           python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/mob_grinding_utils_full.json
           python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/occultism_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ender_io_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/modern_industrialization_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/create_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/mekanism_part_2_full.json
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -197,6 +205,10 @@ jobs:
             minecraft/docs/CATACLYSM_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/MOB_GRINDING_UTILS_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/OCCULTISM_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/ENDER_IO_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/MODERN_INDUSTRIALIZATION_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/CREATE_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/MEKANISM_PART_2_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/V1_PRODUCT_READINESS.md
           git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
