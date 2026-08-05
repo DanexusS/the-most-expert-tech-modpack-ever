@@ -100,7 +100,7 @@ jobs:
           python minecraft/tools/bypass_audit.py
           python minecraft/tools/mod_guide_coverage_audit.py
           python minecraft/tools/legacy_quest_semantic_audit_safe.py
-          python -c "import sys; sys.path.insert(0, 'minecraft/tools'); import late_stage_workflow_profiles_corrected; import performance_configuration_audit as m; raise SystemExit(m.main())"
+          python minecraft/tools/performance_configuration_audit_all.py
 
       - name: Gate curated manuals and core routes
         run: |
