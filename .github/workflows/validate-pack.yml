@@ -89,6 +89,9 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/pneumaticcraft_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/avaritia_full.json
           python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/rftools_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/cataclysm_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/mob_grinding_utils_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/occultism_full.json
 
       - name: Generate curated manuals I-VII sequentially
         run: |
@@ -136,6 +139,9 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/pneumaticcraft_full.json
           python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/avaritia_full.json
           python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/rftools_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/cataclysm_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/mob_grinding_utils_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/occultism_full.json
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -188,6 +194,9 @@ jobs:
             minecraft/docs/PNEUMATICCRAFT_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/AVARITIA_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/RFTOOLS_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/CATACLYSM_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/MOB_GRINDING_UTILS_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/OCCULTISM_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/V1_PRODUCT_READINESS.md
           git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
