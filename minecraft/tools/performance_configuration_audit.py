@@ -6,12 +6,17 @@ import sys
 from pathlib import Path
 
 import generate_early_stage_workflow_expansions as workflow
+import generate_stage_depth_program as depth
+from advanced_stage_workflow_profiles import ADVANCED_STAGE_WORKFLOW_PROFILES
+from catalog_upgrade_common import quest_spans
+from late_stage_workflow_profiles import LATE_STAGE_WORKFLOW_PROFILES
 from mid_stage_workflow_profiles import MID_STAGE_WORKFLOW_PROFILES
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY_PATH = ROOT / "config" / "expert_performance_policy.json"
 CONTRACT_PATH = ROOT / "config" / "expert_progression_contract.json"
 QUEST_DATA_PATH = ROOT / "config" / "ftbquests" / "quests" / "data.snbt"
+CHAPTER_DIR = ROOT / "config" / "ftbquests" / "quests" / "chapters"
 COROUTIL_PATH = ROOT / "config" / "CoroUtil" / "General.toml"
 COMBAT_PATH = ROOT / "kubejs" / "server_scripts" / "combat_scaling.js"
 GITIGNORE_PATH = ROOT / ".gitignore"
@@ -33,20 +38,28 @@ def toml_bool(text: str, key: str) -> bool | None:
     return None if match is None else match.group(1) == "true"
 
 
-def main() -> int:
-    overlap = set(workflow.WORKFLOW_STAGES) & set(MID_STAGE_WORKFLOW_PROFILES)
-    if overlap:
-        raise RuntimeError(
-            "Duplicate workflow stage profiles: " + ", ".join(sorted(overlap))
-        )
-    workflow.WORKFLOW_STAGES.update(MID_STAGE_WORKFLOW_PROFILES)
+def add_workflow_profiles() -> None:
+    additions = {}
+    for profiles in (
+        MID_STAGE_WORKFLOW_PROFILES,
+        ADVANCED_STAGE_WORKFLOW_PROFILES,
+        LATE_STAGE_WORKFLOW_PROFILES,
+    ):
+        overlap = (set(workflow.WORKFLOW_STAGES) | set(additions)) & set(profiles)
+        if overlap:
+            raise RuntimeError(
+                "Duplicate performance workflow profiles: " + ", ".join(sorted(overlap))
+            )
+        additions.update(profiles)
+    workflow.WORKFLOW_STAGES.update(additions)
 
+
+def main() -> int:
+    add_workflow_profiles()
     policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
     contract = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
-    stage_indexes = {
-        stage["id"]: int(stage["index"])
-        for stage in contract["stages"]
-    }
+    stages = contract["stages"]
+    stage_indexes = {stage["id"]: int(stage["index"]) for stage in stages}
     quest_data = QUEST_DATA_PATH.read_text(encoding="utf-8")
     coroutil = COROUTIL_PATH.read_text(encoding="utf-8")
     combat = COMBAT_PATH.read_text(encoding="utf-8")
@@ -82,12 +95,11 @@ def main() -> int:
             failures.append(f"FTB Quests {key} expected {expected}, found {actual}")
 
     logging = policy["logging"]
-    logging_checks = (
+    for key, expected in (
         ("useLoggingLog", bool(logging["coroutil_routine_logging"])),
         ("useLoggingDebug", bool(logging["coroutil_debug_logging"])),
         ("useLoggingError", bool(logging["coroutil_error_logging"])),
-    )
-    for key, expected in logging_checks:
+    ):
         actual = toml_bool(coroutil, key)
         ok = actual is expected
         rows.append((f"CoroUtil {key}", str(actual), "PASS" if ok else "FAIL"))
@@ -119,42 +131,96 @@ def main() -> int:
         if exists:
             failures.append(f"Runtime-generated path remains in source checkout: {relative}")
 
-    optimization_total = 0
-    optimization_missing: list[str] = []
-    for stage_id in sorted(
-        workflow.expanded_stage_ids(),
-        key=lambda value: stage_indexes.get(value, 10_000),
-    ):
-        index = stage_indexes.get(stage_id)
-        if index is None:
-            optimization_missing.append(f"{stage_id}:missing-contract-stage")
-            continue
-        chapter = ROOT / "config" / "ftbquests" / "quests" / "chapters" / f"main_stage_{index:02d}_{stage_id}.snbt"
+    workflow_total = 0
+    workflow_missing: list[str] = []
+    depth_total = 0
+    depth_missing: list[str] = []
+    stage_counts: list[int] = []
+    total_quests = 0
+
+    for stage in stages:
+        stage_id = stage["id"]
+        index = stage_indexes[stage_id]
+        chapter = CHAPTER_DIR / f"main_stage_{index:02d}_{stage_id}.snbt"
         text = chapter.read_text(encoding="utf-8") if chapter.is_file() else ""
+        stage_count = len(quest_spans(text)) if text else 0
+        stage_counts.append(stage_count)
+
         for step in workflow.OPTIMIZATION_STEPS:
             quest_id = workflow.workflow_id(stage_id, "optimization", step)
-            optimization_total += 1
+            workflow_total += 1
             if f'id: "{quest_id}"' not in text:
-                optimization_missing.append(f"{stage_id}:{step}")
-    optimization_ok = not optimization_missing
-    rows.append(("Measured optimization quests", f"{optimization_total - len(optimization_missing)}/{optimization_total}", "PASS" if optimization_ok else "FAIL"))
-    if optimization_missing:
-        failures.append("Missing optimization workflow quests: " + ", ".join(optimization_missing))
+                workflow_missing.append(f"{stage_id}:{step}")
+
+        for phase in depth.PHASES:
+            quest_id = depth.depth_id(stage_id, "performance_optimization", phase[0])
+            depth_total += 1
+            if f'id: "{quest_id}"' not in text:
+                depth_missing.append(f"{stage_id}:{phase[0]}")
+
+    for chapter in CHAPTER_DIR.glob("*.snbt"):
+        try:
+            total_quests += len(quest_spans(chapter.read_text(encoding="utf-8")))
+        except RuntimeError:
+            continue
+
+    guidance = policy["factory_guidance"]
+    workflow_min = int(guidance["minimum_workflow_optimization_quests"])
+    depth_min = int(guidance["minimum_depth_optimization_quests"])
+    workflow_ok = not workflow_missing and workflow_total >= workflow_min
+    depth_ok = not depth_missing and depth_total >= depth_min
+    rows.append(("Workflow optimization quests", f"{workflow_total - len(workflow_missing)}/{workflow_total}", "PASS" if workflow_ok else "FAIL"))
+    rows.append(("Depth optimization quests", f"{depth_total - len(depth_missing)}/{depth_total}", "PASS" if depth_ok else "FAIL"))
+    if not workflow_ok:
+        failures.append("Missing workflow optimization quests: " + ", ".join(workflow_missing))
+    if not depth_ok:
+        failures.append("Missing depth optimization quests: " + ", ".join(depth_missing))
+
+    quest_budgets = policy["questbook_budgets"]
+    minimum_stage = int(quest_budgets["minimum_mandatory_quests_per_stage"])
+    maximum_stage = int(quest_budgets["maximum_mandatory_quests_per_stage"])
+    maximum_total = int(quest_budgets["maximum_total_quests"])
+    stage_budget_ok = bool(stage_counts) and all(minimum_stage <= count <= maximum_stage for count in stage_counts)
+    total_budget_ok = total_quests <= maximum_total
+    rows.append(("Mandatory quests per stage", f"min={min(stage_counts, default=0)}, max={max(stage_counts, default=0)}", "PASS" if stage_budget_ok else "FAIL"))
+    rows.append(("Total questbook size", f"{total_quests}/{maximum_total}", "PASS" if total_budget_ok else "FAIL"))
+    if not stage_budget_ok:
+        failures.append(
+            f"Mandatory stage quest counts must stay within {minimum_stage}–{maximum_stage}; found {stage_counts}"
+        )
+    if not total_budget_ok:
+        failures.append(f"Questbook contains {total_quests} quests, above the budget {maximum_total}")
 
     js_files = sorted((ROOT / "kubejs").rglob("*.js"))
     event_subscriptions = 0
     console_calls = 0
     for path in js_files:
-        text = path.read_text(encoding="utf-8")
-        event_subscriptions += len(re.findall(r"\b(?:ServerEvents|StartupEvents|EntityEvents)\.[A-Za-z_]+\s*\(", text))
-        console_calls += len(re.findall(r"\bconsole\.(?:log|info|warn|error)\s*\(", text))
+        script = path.read_text(encoding="utf-8")
+        event_subscriptions += len(
+            re.findall(r"\b(?:ServerEvents|StartupEvents|EntityEvents)\.[A-Za-z_]+\s*\(", script)
+        )
+        console_calls += len(
+            re.findall(r"\bconsole\.(?:log|info|warn|error)\s*\(", script)
+        )
+
+    script_budgets = policy["script_budgets"]
+    script_checks = (
+        ("KubeJS JavaScript files", len(js_files), int(script_budgets["maximum_javascript_files"])),
+        ("Event subscriptions", event_subscriptions, int(script_budgets["maximum_event_subscriptions"])),
+        ("Explicit console calls", console_calls, int(script_budgets["maximum_console_calls"])),
+    )
+    for label, current, maximum in script_checks:
+        ok = current <= maximum
+        rows.append((label, f"{current}/{maximum}", "PASS" if ok else "FAIL"))
+        if not ok:
+            failures.append(f"{label} exceeds budget: {current} > {maximum}")
 
     lines = [
         "# Performance Configuration Quality Report",
         "",
         f"**{'PASS' if not failures else 'FAIL'}**",
         "",
-        "This is a static safeguard report. It verifies low-risk configuration and script practices before runtime profiling; it does not replace the required TPS, heap and restart measurements.",
+        "This static safeguard verifies low-risk configuration, bounded questbook growth and script budgets before runtime profiling. It does not replace TPS, heap and restart measurements.",
         "",
         "| Check | Current | Status |",
         "|---|---|---|",
@@ -163,13 +229,6 @@ def main() -> int:
         lines.append(f"| {label} | `{current}` | {status} |")
     lines.extend(
         [
-            "",
-            "## Script inventory",
-            "",
-            f"- KubeJS JavaScript files: **{len(js_files)}**",
-            f"- Event subscriptions found: **{event_subscriptions}**",
-            f"- Explicit console calls found: **{console_calls}**",
-            f"- Required measured optimization quests: **{optimization_total}**",
             "",
             "## Runtime measurements still required",
             "",
@@ -189,7 +248,9 @@ def main() -> int:
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
     print(f"performance_configuration: {'PASS' if not failures else 'FAIL'}")
-    print(f"optimization_quests: {optimization_total - len(optimization_missing)}/{optimization_total}")
+    print(f"workflow_optimization_quests: {workflow_total - len(workflow_missing)}/{workflow_total}")
+    print(f"depth_optimization_quests: {depth_total - len(depth_missing)}/{depth_total}")
+    print(f"total_quests: {total_quests}")
     print(f"javascript_files: {len(js_files)}")
     print(f"event_subscriptions: {event_subscriptions}")
     print(f"console_calls: {console_calls}")
