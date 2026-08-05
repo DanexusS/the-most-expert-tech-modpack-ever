@@ -2,13 +2,13 @@
 
 **PASS**
 
-The project matrix is the practical main route: ten ordered engineering checks for each of eighteen progression stages.
+The project matrix is the practical main route: ten ordered engineering checks for each of eighteen progression stages. Validation is based on stable quest IDs, not physical SNBT block order.
 
 ## Summary
 
 - Progression stages: **18**
-- Project quests: **180**
-- Expected linear quests: **180**
+- Expected project quests: **180**
+- Parsed project quests: **180**
 - Final milestone acceptance quests: **18**
 - Reward-bearing project quests: **0**
 - Failures: **0**
