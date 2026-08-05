@@ -13,8 +13,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Bypass closure | PASS |
 | Create Core | PASS |
 | Ie Core | PASS |
+| Industrial Foregoing | PASS |
 | Mekanism Core | PASS |
 | Mi Core | PASS |
+| Mystical Agriculture | PASS |
 | Powah | PASS |
 | Progression contract | PASS |
 | Quest | PASS |
@@ -29,8 +31,8 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 769 / 3318 | IN PROGRESS |
-| Single item-only ratio | 63.3% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 981 / 3318 | IN PROGRESS |
+| Single item-only ratio | 57.4% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
