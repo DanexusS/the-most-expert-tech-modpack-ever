@@ -1,5 +1,5 @@
 {
-  "schema_version": 7,
+  "schema_version": 8,
   "policies": [
     "config/catalog_policies/ufo_future_full.json",
     "config/catalog_policies/engineering_handbook_full.json",
@@ -21,9 +21,15 @@
     "config/catalog_policies/heart_of_the_void_full_v2.json",
     "config/catalog_policies/dl_stellaris_full_v2.json",
     "config/catalog_policies/dyson_cube_project_full_v2.json",
-    "config/catalog_policies/creative_items_full_v2.json"
+    "config/catalog_policies/creative_items_full_v2.json",
+    "config/catalog_policies/minimum_for_maximum_full_v2.json",
+    "config/catalog_policies/apotheosis_2_full_v2.json",
+    "config/catalog_policies/building_gadgets_full_v2.json",
+    "config/catalog_policies/flux_networks_full_v2.json"
   ],
   "tools": [
-    "tools/productive_bees_remediation.py"
+    "tools/productive_bees_remediation.py",
+    "tools/when_dungeons_arise_remediation.py",
+    "tools/divinerpg_stage_seal_remediation.py"
   ]
 }
