@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "core_technology_manual_2"
+	group: "177A10C99EDDA376"
+	icon: { id: "kubejs:chemical_processor" }
+	id: "AC3B17F6F034C9C9"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: []
+	quests: [
+		{
+			icon: { id: "pneumaticcraft:pressure_tube" }
+			id: "E86D0E212E4572D3"
+			shape: "hexagon"
+			tasks: [{
+				id: "A0D70FC54384B80F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E86D0E212E4572D3"]
+			icon: { id: "pneumaticcraft:air_compressor" }
+			id: "A46B956681010564"
+			shape: "hexagon"
+			tasks: [{
+				id: "609655062342EFAA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A46B956681010564"]
+			icon: { id: "pneumaticcraft:safety_tube_module" }
+			id: "C7AEEF080C1C4D75"
+			shape: "hexagon"
+			tasks: [{
+				id: "35190ECC595791DA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C7AEEF080C1C4D75"]
+			icon: { id: "pneumaticcraft:pressure_chamber_wall" }
+			id: "DFB43C0EB0B17931"
+			shape: "hexagon"
+			tasks: [{
+				id: "DAFB8F1D9C46C16E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["DFB43C0EB0B17931"]
+			icon: { id: "pneumaticcraft:plastic" }
+			id: "1AB40A3FE27D565D"
+			shape: "hexagon"
+			tasks: [{
+				id: "88021EC23A7BC610"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1AB40A3FE27D565D"]
+			icon: { id: "pneumaticcraft:printed_circuit_board" }
+			id: "F9293E0FB90DA06C"
+			shape: "hexagon"
+			tasks: [{
+				id: "87C7F1DE8594B7ED"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["F9293E0FB90DA06C"]
+			icon: { id: "pneumaticcraft:logistics_drone" }
+			id: "58034A9FB4D6267B"
+			shape: "hexagon"
+			tasks: [{
+				id: "80DDB1E979ECB21F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["58034A9FB4D6267B"]
+			icon: { id: "pneumaticcraft:drone" }
+			id: "5BDBB1906C74FEB6"
+			shape: "hexagon"
+			tasks: [{
+				id: "5AA6B2ACE9B8E3A6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5BDBB1906C74FEB6"]
+			icon: { id: "pneumaticcraft:manometer" }
+			id: "0267778222F67B52"
+			shape: "hexagon"
+			tasks: [{
+				id: "6DFB4D8F9BCFB9B9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0267778222F67B52"]
+			icon: { id: "kubejs:pressure_manifold" }
+			id: "B899290FFDF02799"
+			shape: "hexagon"
+			tasks: [{
+				id: "CD13D4F0E1A1D2D4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "industrialforegoing:latex_processing_unit" }
+			id: "349D58AB6074A6CD"
+			shape: "hexagon"
+			tasks: [{
+				id: "116C1876C24F51B6"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["349D58AB6074A6CD"]
+			icon: { id: "industrialforegoing:machine_frame_advanced" }
+			id: "987A87132F9EED76"
+			shape: "hexagon"
+			tasks: [{
+				id: "0C1DAA5EE96DD22E"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["987A87132F9EED76"]
+			icon: { id: "industrialforegoing:machine_area_provider" }
+			id: "A1B44CF3018B552A"
+			shape: "hexagon"
+			tasks: [{
+				id: "F940B1E01E3D4DAB"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A1B44CF3018B552A"]
+			icon: { id: "industrialforegoing:plant_gatherer" }
+			id: "F6F2257FE367CC3B"
+			shape: "hexagon"
+			tasks: [{
+				id: "EE209AC4F8F40358"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["F6F2257FE367CC3B"]
+			icon: { id: "industrialforegoing:animal_rancher" }
+			id: "0647ED50C4FC3FE8"
+			shape: "hexagon"
+			tasks: [{
+				id: "04979F91DCCE00C2"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0647ED50C4FC3FE8"]
+			icon: { id: "industrialforegoing:mob_crusher" }
+			id: "17650B9616DBACC3"
+			shape: "hexagon"
+			tasks: [{
+				id: "BA2D8C5BB0A65957"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["17650B9616DBACC3"]
+			icon: { id: "industrialforegoing:dissolution_chamber" }
+			id: "81C65F3863192E87"
+			shape: "hexagon"
+			tasks: [{
+				id: "C29D97C4ABE247BF"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["81C65F3863192E87"]
+			icon: { id: "industrialforegoing:laser_drill" }
+			id: "D9910DBCFA123B22"
+			shape: "hexagon"
+			tasks: [{
+				id: "4364E1F846932A2D"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["D9910DBCFA123B22"]
+			icon: { id: "industrialforegoing:enchantment_factory" }
+			id: "EE4E8A017E9E2FF9"
+			shape: "hexagon"
+			tasks: [{
+				id: "A0220B24C204CEC7"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["EE4E8A017E9E2FF9"]
+			icon: { id: "kubejs:bio_process_controller" }
+			id: "70ED936789C62049"
+			shape: "hexagon"
+			tasks: [{
+				id: "2B4165908933EF82"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "powah:capacitor_basic" }
+			id: "D635AC31AADD3076"
+			shape: "hexagon"
+			tasks: [{
+				id: "746C548D254E7697"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D635AC31AADD3076"]
+			icon: { id: "powah:furnator_basic" }
+			id: "D46C81996789B031"
+			shape: "hexagon"
+			tasks: [{
+				id: "C0372870382895E1"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D46C81996789B031"]
+			icon: { id: "powah:thermo_generator_basic" }
+			id: "960EB35051288D03"
+			shape: "hexagon"
+			tasks: [{
+				id: "0A77840D2A98B9C6"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["960EB35051288D03"]
+			icon: { id: "powah:energizing_rod_basic" }
+			id: "A403F77708CCDAF8"
+			shape: "hexagon"
+			tasks: [{
+				id: "2ED68328DA8571CE"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A403F77708CCDAF8"]
+			icon: { id: "powah:energy_cell_basic" }
+			id: "501B9C3D253144B5"
+			shape: "hexagon"
+			tasks: [{
+				id: "0F39DC39D2DC9C09"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["501B9C3D253144B5"]
+			icon: { id: "powah:energy_cable_basic" }
+			id: "C9A4C89AC3C0B87B"
+			shape: "hexagon"
+			tasks: [{
+				id: "0ED4B4E2484092A7"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["C9A4C89AC3C0B87B"]
+			icon: { id: "powah:player_transmitter_basic" }
+			id: "9177A816706064BD"
+			shape: "hexagon"
+			tasks: [{
+				id: "B3CF80BDECB7F73B"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["9177A816706064BD"]
+			icon: { id: "powah:reactor_nitro" }
+			id: "B590ECE826D27E07"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E90F954131FFBF6"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["B590ECE826D27E07"]
+			icon: { id: "powah:energy_hopper_basic" }
+			id: "3C0D8E1495DC77C9"
+			shape: "hexagon"
+			tasks: [{
+				id: "CA9E46B2E3441224"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3C0D8E1495DC77C9"]
+			icon: { id: "kubejs:resonant_power_cell" }
+			id: "FBCBBD66E2FA26A4"
+			shape: "hexagon"
+			tasks: [{
+				id: "35B25BB149EC4857"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "projecte:philosophers_stone" }
+			id: "5EF725744BA4F800"
+			shape: "hexagon"
+			tasks: [{
+				id: "A8DC202C18E060CF"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EF725744BA4F800"]
+			icon: { id: "projecte:philosophers_stone" }
+			id: "017BDF28BB205224"
+			shape: "hexagon"
+			tasks: [{
+				id: "C9C11A6FEB891B20"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["017BDF28BB205224"]
+			icon: { id: "projecte:transmutation_table" }
+			id: "2B28C7D85FC5398A"
+			shape: "hexagon"
+			tasks: [{
+				id: "C2CE290EEFCBCB21"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B28C7D85FC5398A"]
+			icon: { id: "projecte:collector_mk1" }
+			id: "FE6B40F1FE0FC3B6"
+			shape: "hexagon"
+			tasks: [{
+				id: "6367FD76A61E5722"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["FE6B40F1FE0FC3B6"]
+			icon: { id: "projecte:relay_mk1" }
+			id: "432CF4F9AA1C9692"
+			shape: "hexagon"
+			tasks: [{
+				id: "B831A11FA80B50DF"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["432CF4F9AA1C9692"]
+			icon: { id: "projecte:condenser_mk1" }
+			id: "5CEFEF4147E58758"
+			shape: "hexagon"
+			tasks: [{
+				id: "FD0293928B406FF5"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CEFEF4147E58758"]
+			icon: { id: "projecte:dark_matter" }
+			id: "222869AB7B2F40D3"
+			shape: "hexagon"
+			tasks: [{
+				id: "48AB688CE2E3D8F5"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["222869AB7B2F40D3"]
+			icon: { id: "projecte:klein_star_ein" }
+			id: "6AD08C917F49951A"
+			shape: "hexagon"
+			tasks: [{
+				id: "9418394AF5D72FA1"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6AD08C917F49951A"]
+			icon: { id: "projecte:condenser_mk2" }
+			id: "A8B0C4B093997987"
+			shape: "hexagon"
+			tasks: [{
+				id: "FE62C2F6274CB094"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["A8B0C4B093997987"]
+			icon: { id: "kubejs:emc_containment_core" }
+			id: "FA8669C41598E63E"
+			shape: "hexagon"
+			tasks: [{
+				id: "D960C72E031261F3"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 18.0d
+		}
+		{
+			icon: { id: "mysticalagriculture:inferium_essence" }
+			id: "AECFC3F299DF2C3A"
+			shape: "hexagon"
+			tasks: [{
+				id: "0520B4C31C335EF8"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AECFC3F299DF2C3A"]
+			icon: { id: "mysticalagriculture:infusion_altar" }
+			id: "2633DDA42E2F7DF1"
+			shape: "hexagon"
+			tasks: [{
+				id: "FCF000D6A631F977"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2633DDA42E2F7DF1"]
+			icon: { id: "mysticalagriculture:prosperity_seed_base" }
+			id: "8C318642FE80BEF0"
+			shape: "hexagon"
+			tasks: [{
+				id: "9874EE577CF40EFF"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["8C318642FE80BEF0"]
+			icon: { id: "mysticalagriculture:inferium_farmland" }
+			id: "094801348F01F43F"
+			shape: "hexagon"
+			tasks: [{
+				id: "1C18C7DF322162AC"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["094801348F01F43F"]
+			icon: { id: "mysticalagriculture:growth_accelerator" }
+			id: "3AD6449BB8FE1362"
+			shape: "hexagon"
+			tasks: [{
+				id: "DEDBBAD4E840D902"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3AD6449BB8FE1362"]
+			icon: { id: "mysticalagriculture:watering_can" }
+			id: "867111A33B980D7B"
+			shape: "hexagon"
+			tasks: [{
+				id: "58B99711EDA87235"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["867111A33B980D7B"]
+			icon: { id: "mysticalagriculture:fertilized_essence" }
+			id: "97189F1D45856512"
+			shape: "hexagon"
+			tasks: [{
+				id: "CE177F1317069D83"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["97189F1D45856512"]
+			icon: { id: "mysticalagriculture:supremium_ingot" }
+			id: "31D5098A06F15F4C"
+			shape: "hexagon"
+			tasks: [{
+				id: "64F14BDC0F8B75DB"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["31D5098A06F15F4C"]
+			icon: { id: "mysticalagriculture:master_infusion_crystal" }
+			id: "A471D119C4C21596"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E84082F6081D7EF"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["A471D119C4C21596"]
+			icon: { id: "kubejs:bio_process_controller" }
+			id: "5C7523EBFF6FF0CC"
+			shape: "hexagon"
+			tasks: [{
+				id: "683A55E0A6D546F3"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+	]
+}
