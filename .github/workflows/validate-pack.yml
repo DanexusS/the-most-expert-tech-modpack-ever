@@ -82,6 +82,9 @@ jobs:
           python minecraft/tools/upgrade_industrial_foregoing_catalog.py
           python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
           python minecraft/tools/upgrade_woot_catalog.py
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ae2_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/draconic_evolution_full.json
+          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ars_nouveau_full.json
 
       - name: Generate curated manuals I-VII sequentially
         run: |
@@ -122,6 +125,9 @@ jobs:
           python minecraft/tools/industrial_foregoing_quality_gate.py
           python minecraft/tools/hostile_neural_networks_quality_gate.py
           python minecraft/tools/woot_quality_gate.py
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ae2_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/draconic_evolution_full.json
+          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ars_nouveau_full.json
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -167,6 +173,9 @@ jobs:
             minecraft/docs/INDUSTRIAL_FOREGOING_QUALITY_REPORT.md \
             minecraft/docs/HOSTILE_NEURAL_NETWORKS_QUALITY_REPORT.md \
             minecraft/docs/WOOT_QUALITY_REPORT.md \
+            minecraft/docs/AE2_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/DRACONIC_EVOLUTION_CATALOG_QUALITY_REPORT.md \
+            minecraft/docs/ARS_NOUVEAU_CATALOG_QUALITY_REPORT.md \
             minecraft/docs/V1_PRODUCT_READINESS.md
           git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
