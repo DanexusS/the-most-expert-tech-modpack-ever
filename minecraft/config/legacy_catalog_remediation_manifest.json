@@ -1,5 +1,5 @@
 {
-  "schema_version": 8,
+  "schema_version": 9,
   "policies": [
     "config/catalog_policies/ufo_future_full.json",
     "config/catalog_policies/engineering_handbook_full.json",
@@ -25,11 +25,16 @@
     "config/catalog_policies/minimum_for_maximum_full_v2.json",
     "config/catalog_policies/apotheosis_2_full_v2.json",
     "config/catalog_policies/building_gadgets_full_v2.json",
-    "config/catalog_policies/flux_networks_full_v2.json"
+    "config/catalog_policies/flux_networks_full_v2.json",
+    "config/catalog_policies/automation_challenges_review_v2.json",
+    "config/catalog_policies/engineering_foundations_review_v2.json",
+    "config/catalog_policies/expert_progression_review_v2.json"
   ],
   "tools": [
     "tools/productive_bees_remediation.py",
     "tools/when_dungeons_arise_remediation.py",
-    "tools/divinerpg_stage_seal_remediation.py"
+    "tools/divinerpg_stage_seal_remediation.py",
+    "tools/divinerpg_codex_remediation.py",
+    "tools/combat_trials_remediation.py"
   ]
 }
