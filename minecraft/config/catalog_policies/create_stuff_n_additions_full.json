@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "create_stuff_n_additions",
+  "chapter_id": "1E0B14B8BEAE3175",
+  "chapter_title_en": "Create Stuff & Additions — Engines, Mobility and Field Tools",
+  "chapter_title_ru": "Create Stuff & Additions — двигатели, мобильность и полевые инструменты",
+  "report_filename": "CREATE_STUFF_N_ADDITIONS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Create Stuff & Additions Catalogue Quality Report",
+  "report_intro": "Every Create Stuff & Additions quest must describe the energy source, operating envelope, safety limits and repeatable field test instead of returning brass, equipment or experience as a reward.",
+  "expected_quests": 36,
+  "minimum_description": 205,
+  "primary_namespace": "create_sa",
+  "primary_namespaces": ["create_sa", "create"],
+  "acceptance_namespace": "create_sa_catalog_acceptance",
+  "checkpoint_name": "Create S&A Field-Test Checkpoint",
+  "title_suffix_en": "Field-System Acceptance",
+  "title_suffix_ru": "приёмка полевой системы",
+  "description_en": "{display} is a {role} in the Create Stuff & Additions branch. It must be evaluated as part of a powered mechanical system with explicit fuel, stress, range or durability limits—not as a collectible item whose quest reward refunds its cost.",
+  "description_ru": "{display} — {role} ветви Create Stuff & Additions. Его необходимо оценивать как часть питаемой механической системы с явными ограничениями по топливу, нагрузке, дальности или прочности, а не как коллекционный предмет, стоимость которого возвращает квестовая награда.",
+  "acceptance_en": "Acceptance: verify {focus}; document inputs and idle state, run one representative work cycle, measure consumption or operating duration, test blocked-output or low-power behavior, recover after interruption and confirm that quest rewards, duplicated fuel and free replacement parts cannot bypass the intended cost.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте входы и состояние простоя, выполните один показательный рабочий цикл, измерьте расход или длительность работы, испытайте поведение при полном выходе или нехватке энергии, восстановитесь после прерывания и исключите обходы через награды, копирование топлива и бесплатные запчасти.",
+  "categories": [
+    {
+      "tokens": ["steam_engine", "heat_engine", "hydraulic_engine", "combustion", "engine"],
+      "role_en": "mechanical power source or engine module",
+      "role_ru": "источник механической мощности или двигательный модуль",
+      "focus_en": "energy or fluid source, startup condition, stress capacity, sustained output, shutdown interlock, heat or pressure risk and comparison with the previous stage power source",
+      "focus_ru": "источник энергии или жидкости, условие запуска, допустимую нагрузку, устойчивую мощность, блокировку отключения, риск температуры или давления и сравнение с предыдущим источником"
+    },
+    {
+      "tokens": ["jetpack", "exoskeleton", "boots", "chestplate", "helmet", "leggings"],
+      "role_en": "powered mobility or wearable engineering system",
+      "role_ru": "энергозависимая система мобильности или носимое инженерное устройство",
+      "focus_en": "fuel or charge route, operating duration, fall and void safety, armor trade-off, emergency landing, repair path and restrictions in staged exploration or boss encounters",
+      "focus_ru": "путь топлива или зарядки, длительность работы, защиту от падения и пустоты, компромисс брони, аварийную посадку, ремонт и ограничения в этапных экспедициях или боях"
+    },
+    {
+      "tokens": ["drone", "controller", "remote"],
+      "role_en": "remote-control or autonomous transport system",
+      "role_ru": "система дистанционного управления или автономного транспорта",
+      "focus_en": "control range, cargo or task scope, pairing, unloaded-chunk behavior, loss recovery, collision safety and prevention of remote access bypassing gated areas",
+      "focus_ru": "дальность управления, объём груза или задач, привязку, поведение в выгруженном чанке, восстановление после потери, безопасность столкновений и запрет обхода закрытых областей"
+    },
+    {
+      "tokens": ["flamethrower", "portable_drill", "drill", "grappl", "blazing", "tool"],
+      "role_en": "powered field tool or hazardous utility",
+      "role_ru": "энергозависимый полевой инструмент или опасная утилита",
+      "focus_en": "fuel or durability cost, effective range, block and entity safety, protected-area policy, representative work rate, emergency stop and repair or refill procedure",
+      "focus_ru": "стоимость топлива или прочности, эффективную дальность, безопасность блоков и сущностей, правила защищённых зон, показатель работы, аварийную остановку и ремонт или заправку"
+    },
+    {
+      "tokens": ["brass", "copper", "component", "mechanism"],
+      "role_en": "fabricated mechanical component or upgrade material",
+      "role_ru": "изготавливаемый механический компонент или материал улучшения",
+      "focus_en": "material ancestry, batch size, intermediate-machine route, quality control, buffer limit and whether the component is consumed in a meaningful assembly rather than refunded by the quest book",
+      "focus_ru": "происхождение материала, размер партии, маршрут промежуточных машин, контроль качества, лимит буфера и реальный расход компонента в сборке без возврата из квестовой книги"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Create Stuff & Additions device",
+    "role_ru": "специализированное устройство Create Stuff & Additions",
+    "focus_en": "power source, material cost, operating limit, useful work rate, failure mode, recovery and integration with current-stage Create infrastructure",
+    "focus_ru": "источник питания, стоимость материалов, рабочий предел, полезную производительность, режим отказа, восстановление и интеграцию с инфраструктурой Create текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod support component for a Create S&A system",
+    "role_ru": "межмодовый компонент поддержки системы Create S&A",
+    "focus_en": "why the component is required, its legal stage source, buffer and replacement policy and confirmation that it does not provide free power or bypass a production prerequisite",
+    "focus_ru": "причину необходимости, честный этапный источник, правила буфера и замены и подтверждение отсутствия бесплатной энергии или обхода производственной предпосылки"
+  },
+  "checkpoint": {
+    "role_en": "Create S&A system-design checkpoint",
+    "role_ru": "контрольная точка проектирования системы Create S&A",
+    "focus_en": "energy source, stress budget, operator safety, mobility limits, tool permissions, maintenance stock, shutdown behavior and post-failure recovery",
+    "focus_ru": "источник энергии, бюджет нагрузки, безопасность оператора, пределы мобильности, допуски инструментов, запас обслуживания, отключение и восстановление после отказа"
+  }
+}
