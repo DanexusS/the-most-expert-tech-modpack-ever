@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "policies": [
+    "config/catalog_policies/ufo_future_full.json",
+    "config/catalog_policies/engineering_handbook_full.json",
+    "config/catalog_policies/minecolonies_full.json"
+  ]
+}
