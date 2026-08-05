@@ -72,18 +72,38 @@ const EXPERT_ASSEMBLY_COMPONENTS = [
   ['maintenance_access_frame', 'minecraft:item/iron_trapdoor', 'rare'],
 
   // Stages 9–12.
-  ['culture_support_matrix', 'minecraft:item/moss_block', 'rare'],
-  ['simulation_data_coupler', 'minecraft:item/ender_eye', 'rare'],
-  ['renewable_harvest_controller', 'minecraft:item/composter', 'rare'],
-  ['controller_channel_frame', 'minecraft:item/respawn_anchor', 'rare'],
-  ['crafting_cpu_scheduler', 'minecraft:item/recovery_compass', 'rare'],
-  ['quantum_link_stabilizer', 'minecraft:item/end_crystal', 'epic'],
-  ['nitro_regulation_array', 'minecraft:item/blaze_powder', 'epic'],
-  ['induction_transfer_manifold', 'minecraft:item/lightning_rod', 'epic'],
+  ['crop_support_matrix', 'minecraft:item/hay_block', 'rare'],
+  ['simulation_interface', 'minecraft:item/sculk_sensor', 'rare'],
+  ['renewable_harvest_controller', 'minecraft:item/observer', 'rare'],
+  ['network_controller_frame', 'minecraft:item/reinforced_deepslate', 'rare'],
+  ['crafting_cpu_scheduler', 'minecraft:item/comparator', 'rare'],
+  ['quantum_link_stabilizer', 'minecraft:item/ender_eye', 'epic'],
+  ['nitro_voltage_regulator', 'minecraft:item/lightning_rod', 'epic'],
+  ['induction_transfer_node', 'minecraft:item/copper_block', 'epic'],
   ['resonant_distribution_frame', 'minecraft:item/nether_star', 'epic'],
-  ['radiation_interlock_module', 'minecraft:item/sculk_sensor', 'epic'],
-  ['sps_pulse_controller', 'minecraft:item/beacon', 'epic'],
-  ['antimatter_containment_cell', 'minecraft:item/dragon_breath', 'epic']
+  ['radiation_interlock', 'minecraft:item/iron_door', 'epic'],
+  ['sps_pulse_controller', 'minecraft:item/daylight_detector', 'epic'],
+  ['antimatter_containment_cell', 'minecraft:item/end_crystal', 'epic'],
+
+  // Stages 13–18.
+  ['expedition_supply_frame', 'minecraft:item/bundle', 'epic'],
+  ['trophy_assay_module', 'minecraft:item/spyglass', 'epic'],
+  ['dimensional_cargo_anchor', 'minecraft:item/lodestone', 'epic'],
+  ['injector_alignment_core', 'minecraft:item/target', 'epic'],
+  ['awakened_containment_shell', 'minecraft:item/crying_obsidian', 'epic'],
+  ['draconic_energy_coupler', 'minecraft:item/end_crystal', 'epic'],
+  ['emc_accounting_ledger', 'minecraft:item/book', 'epic'],
+  ['matter_compression_frame', 'minecraft:item/netherite_block', 'epic'],
+  ['transmutation_safety_lock', 'minecraft:item/tripwire_hook', 'epic'],
+  ['singularity_routing_lattice', 'minecraft:item/ender_eye', 'epic'],
+  ['ultimate_pattern_frame', 'minecraft:item/crafting_table', 'epic'],
+  ['bulk_material_manifold', 'minecraft:item/hopper', 'epic'],
+  ['stellar_sample_chamber', 'minecraft:item/tinted_glass', 'epic'],
+  ['infinity_alloy_crucible', 'minecraft:item/lava_bucket', 'epic'],
+  ['cosmic_energy_coupler', 'minecraft:item/beacon', 'epic'],
+  ['creative_subsystem_key', 'minecraft:item/knowledge_book', 'epic'],
+  ['infinite_logistics_frame', 'minecraft:item/ender_chest', 'epic'],
+  ['completion_audit_seal', 'minecraft:item/recovery_compass', 'epic']
 ]
 
 const DIVINE_PROGRESSION_SEALS = [
