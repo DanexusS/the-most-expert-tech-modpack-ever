@@ -1,0 +1,69 @@
+{
+  "chapter_filename": "amateur_archaeologist",
+  "chapter_id": "621813C074AE72A7",
+  "chapter_title_en": "Archaeology and Artifact Fieldwork",
+  "chapter_title_ru": "Археология и полевая работа с артефактами",
+  "report_filename": "AMATEUR_ARCHAEOLOGIST_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Archaeology Catalogue Quality Report",
+  "report_intro": "Artifact quests must teach discovery, identification, safe use and recovery instead of paying the player for collecting a random trinket.",
+  "expected_quests": 43,
+  "minimum_description": 190,
+  "primary_namespace": "artifacts",
+  "primary_namespace_prefixes": ["artifacts"],
+  "acceptance_namespace": "archaeology_catalog_acceptance",
+  "checkpoint_name": "Archaeological Fieldwork Checkpoint",
+  "title_suffix_en": "Field Acceptance",
+  "title_suffix_ru": "полевая приёмка",
+  "description_en": "{display} is a {role} in the archaeology and artifact branch. The lesson is discovery context, identification, bounded use and preservation—not merely owning a randomly found item.",
+  "description_ru": "{display} — {role} археологической и артефактной ветви. Смысл задания — контекст находки, идентификация, ограниченное применение и сохранность, а не простое владение случайным предметом.",
+  "acceptance_en": "Acceptance: verify {focus}; document where it was found, test its effect in a controlled situation, record limitations or conflicts, keep a recovery copy of ordinary equipment and remove reward, trade, loot-reroll and duplication incentives.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте место находки, испытайте эффект в контролируемой ситуации, запишите ограничения и конфликты, сохраните обычное резервное снаряжение и уберите стимулы к наградам, торговле, перероллу лута и копированию.",
+  "categories": [
+    {
+      "tokens": ["mimic", "artifact", "excavation", "archae", "relic"],
+      "role_en": "discovery, excavation or identification milestone",
+      "role_ru": "этап обнаружения, раскопок или идентификации",
+      "focus_en": "site preparation, hostile or trap risk, container provenance, identification notes, duplicate handling and leaving the site recoverable rather than stripped blindly",
+      "focus_ru": "подготовку места, риск врагов и ловушек, происхождение контейнера, заметки идентификации, обработку дублей и сохранение возможности восстановить место вместо слепого разграбления"
+    },
+    {
+      "tokens": ["hat", "cap", "hood", "scarf", "necklace", "amulet", "charm", "ring", "belt", "glove", "shoe", "boot"],
+      "role_en": "wearable artifact with a conditional passive effect",
+      "role_ru": "носимый артефакт с условным пассивным эффектом",
+      "focus_en": "valid equipment slot, activation condition, measurable benefit, incompatibilities, death-loss policy and comparison with ordinary armour or tools",
+      "focus_ru": "правильный слот, условие активации, измеримую пользу, несовместимости, политику потери при смерти и сравнение с обычной бронёй или инструментами"
+    },
+    {
+      "tokens": ["umbrella", "cloud", "whoopee", "flame", "crystal", "thorn", "helium", "pocket", "plastic", "night_vision"],
+      "role_en": "mobility, survival or environmental utility artifact",
+      "role_ru": "артефакт мобильности, выживания или работы со средой",
+      "focus_en": "activation control, durability or cooldown, movement or survival gain, unsafe edge cases, multiplayer interference and a safe fallback when the artifact is unavailable",
+      "focus_ru": "управление активацией, прочность или перезарядку, выигрыш мобильности или выживания, опасные крайние случаи, влияние на других игроков и безопасную замену при отсутствии артефакта"
+    },
+    {
+      "tokens": ["claw", "fang", "beak", "horn", "fin", "eye", "skull", "vampir", "feral", "power"],
+      "role_en": "combat-oriented artifact or creature-derived relic",
+      "role_ru": "боевой артефакт или реликвия существа",
+      "focus_en": "damage or defence condition, target restrictions, cooldown, friendly-fire risk, repair or replacement and confirmation that it does not trivialize a gated boss encounter",
+      "focus_ru": "условие урона или защиты, ограничения целей, перезарядку, риск дружественного огня, ремонт или замену и подтверждение, что предмет не обесценивает закрытого босса"
+    }
+  ],
+  "default": {
+    "role_en": "specialized archaeological artifact",
+    "role_ru": "специализированный археологический артефакт",
+    "focus_en": "provenance, equipment or activation rule, measurable effect, limitations, safe storage and replacement without farming quest rewards",
+    "focus_ru": "происхождение, правило экипировки или активации, измеримый эффект, ограничения, безопасное хранение и замену без фарма квестовых наград"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod exploration or artifact-support item",
+    "role_ru": "межмодовый предмет исследования или поддержки артефактов",
+    "focus_en": "its role in site access, identification, storage or recovery and why it supports fieldwork without replacing progression-gated equipment",
+    "focus_ru": "его роль в доступе к месту, идентификации, хранении или восстановлении и отсутствие замены закрытого прогрессией снаряжения"
+  },
+  "checkpoint": {
+    "role_en": "archaeological expedition checkpoint",
+    "role_ru": "контрольная точка археологической экспедиции",
+    "focus_en": "site plan, inventory discipline, identification records, controlled artifact tests, duplicate policy, retreat route and post-expedition reconciliation",
+    "focus_ru": "план места, дисциплину инвентаря, записи идентификации, контролируемые испытания артефактов, правила дублей, маршрут отступления и сверку после экспедиции"
+  }
+}
