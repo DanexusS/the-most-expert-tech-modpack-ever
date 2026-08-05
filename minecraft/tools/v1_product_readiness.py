@@ -75,6 +75,12 @@ def guide_metrics() -> dict[str, int]:
     }
 
 
+def runtime_gate_verified(value: object) -> bool:
+    if isinstance(value, bool):
+        return value
+    return isinstance(value, dict) and value.get("verified") is True
+
+
 def main() -> int:
     reports = report_registry()
     status = {name: report_pass(path) for name, path in reports.items()}
@@ -82,7 +88,7 @@ def main() -> int:
     guides = guide_metrics()
     evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
     runtime = {
-        name: bool(evidence.get("gates", {}).get(name, False))
+        name: runtime_gate_verified(evidence.get("gates", {}).get(name, False))
         for name in MINIMUM_RUNTIME_GATES
     }
 
