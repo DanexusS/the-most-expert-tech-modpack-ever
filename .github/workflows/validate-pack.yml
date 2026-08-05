@@ -80,6 +80,8 @@ jobs:
           python minecraft/tools/upgrade_storage_systems_core_v2.py
           python minecraft/tools/upgrade_mystical_agriculture_catalog.py
           python minecraft/tools/upgrade_industrial_foregoing_catalog.py
+          python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
+          python minecraft/tools/upgrade_woot_catalog.py
 
       - name: Generate curated manuals I-VII sequentially
         run: |
@@ -118,6 +120,8 @@ jobs:
           python minecraft/tools/storage_systems_core_quality_gate_v2.py
           python minecraft/tools/mystical_agriculture_quality_gate.py
           python minecraft/tools/industrial_foregoing_quality_gate.py
+          python minecraft/tools/hostile_neural_networks_quality_gate.py
+          python minecraft/tools/woot_quality_gate.py
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -161,6 +165,8 @@ jobs:
             minecraft/docs/STORAGE_SYSTEMS_CORE_QUALITY_REPORT.md \
             minecraft/docs/MYSTICAL_AGRICULTURE_QUALITY_REPORT.md \
             minecraft/docs/INDUSTRIAL_FOREGOING_QUALITY_REPORT.md \
+            minecraft/docs/HOSTILE_NEURAL_NETWORKS_QUALITY_REPORT.md \
+            minecraft/docs/WOOT_QUALITY_REPORT.md \
             minecraft/docs/V1_PRODUCT_READINESS.md
           git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
