@@ -1,0 +1,145 @@
+{
+  "slug": "simply_swords",
+  "lessons": [
+    {
+      "slug": "weapon_families",
+      "icon": "minecraft:iron_sword",
+      "title_en": "Weapon Families and Intended Roles",
+      "title_ru": "Семейства оружия и назначение",
+      "desc_en": [
+        "Simply Swords adds many weapon families such as spears, glaives, chakrams, katanas, heavy weapons and rapiers, each intended to trade reach, speed, area or handling differently.",
+        "Compare role rather than only tooltip damage, document attack cadence and reach, and prevent one family from replacing every early, mid and late combat choice."
+      ],
+      "desc_ru": [
+        "Simply Swords добавляет копья, глефы, чакрамы, катаны, тяжёлое оружие, рапиры и другие семейства с разным обменом дальности, скорости и контроля.",
+        "Сравнивайте роль, а не только урон в подсказке, фиксируйте темп и дальность и не позволяйте одному семейству заменить все варианты раннего, среднего и позднего боя."
+      ]
+    },
+    {
+      "slug": "attack_speed",
+      "icon": "minecraft:clock",
+      "title_en": "Attack Speed, Recovery and Real DPS",
+      "title_ru": "Скорость атаки, восстановление и реальный DPS",
+      "desc_en": [
+        "A slow heavy hit and a fast light sequence can show similar nominal damage while producing very different interruption risk, enchantment value and effective damage uptime.",
+        "Calculate full-cycle DPS, include missed attacks and recovery windows, then balance recipes by usable combat value rather than a single damage number."
+      ],
+      "desc_ru": [
+        "Медленный тяжёлый удар и быстрая лёгкая серия могут иметь похожий номинальный урон, но разный риск прерывания, ценность чар и реальное время нанесения урона.",
+        "Считайте DPS полного цикла с промахами и восстановлением и оценивайте рецепты по применимой боевой ценности, а не по одной цифре."
+      ]
+    },
+    {
+      "slug": "reach_and_area",
+      "icon": "minecraft:trident",
+      "title_en": "Reach, Cleave and Positioning Power",
+      "title_ru": "Дальность, рассечение и сила позиции",
+      "desc_en": [
+        "Extra reach, wide swings and projectile-like weapons can grant safety or crowd control whose value exceeds their direct damage, especially against enhanced mobs.",
+        "Test confined and open arenas, count targets controlled per action, and assign stage cost for positional advantage instead of compensating only with durability."
+      ],
+      "desc_ru": [
+        "Дополнительная дальность, широкие удары и метательное оружие дают безопасность или контроль толпы, ценность которых выше прямого урона против усиленных мобов.",
+        "Проверяйте тесные и открытые арены, считайте контролируемые цели за действие и назначайте этап за позиционное преимущество, а не только прочность."
+      ]
+    },
+    {
+      "slug": "materials",
+      "icon": "minecraft:smithing_table",
+      "title_en": "Material Tiers and Cross-Mod Smithing",
+      "title_ru": "Уровни материалов и межмодовая ковка",
+      "desc_en": [
+        "Large material compatibility can create a weapon from an ore or alloy earlier than the corresponding armor, machine or processing line was intended to unlock.",
+        "Tie each material family to its real production stage, remove alternative smithing shortcuts and keep repair ingredients subject to the same gate as the first craft."
+      ],
+      "desc_ru": [
+        "Широкая совместимость материалов может открыть оружие из руды или сплава раньше соответствующей брони, машины или производственной линии.",
+        "Привязывайте семейство к реальному этапу производства, удаляйте альтернативные обходы ковки и подчиняйте ремонт тому же допуску, что и первый крафт."
+      ]
+    },
+    {
+      "slug": "unique_loot",
+      "icon": "minecraft:chest",
+      "title_en": "Unique Weapons and Exploration Loot",
+      "title_ru": "Уникальное оружие и исследовательский лут",
+      "desc_en": [
+        "Simply Swords unique weapons can appear in exploration chests and may provide powerful abilities while being intentionally non-craftable.",
+        "Classify every unique by capability and stage, audit all injected loot tables, prohibit quest or trade duplication and provide only a fair replacement policy after legitimate discovery."
+      ],
+      "desc_ru": [
+        "Уникальное оружие Simply Swords может находиться в исследовательских сундуках и давать сильные способности при намеренном отсутствии обычного крафта.",
+        "Классифицируйте каждый уникальный предмет по способности и этапу, проверяйте таблицы лута, запрещайте копирование наградами и торговлей и задавайте честную замену после находки."
+      ]
+    },
+    {
+      "slug": "unique_effects",
+      "icon": "minecraft:enchanted_book",
+      "title_en": "Unique Effects and Capability Budget",
+      "title_ru": "Уникальные эффекты и бюджет возможностей",
+      "desc_en": [
+        "Healing, execution thresholds, area effects, movement, elemental damage or crowd control can shift progression more than base attack statistics.",
+        "Evaluate the complete effect under boss and group conditions, set cooldown and acquisition expectations, and prevent stacking with other mods from creating an early dominant loop."
+      ],
+      "desc_ru": [
+        "Лечение, добивание по порогу, эффекты области, движение, стихийный урон и контроль могут менять прогрессию сильнее базовых характеристик.",
+        "Оценивайте полный эффект в бою с боссом и группой, задавайте ожидания по перезарядке и получению и не допускайте ранней доминирующей связки с другими модами."
+      ]
+    },
+    {
+      "slug": "combat_compatibility",
+      "icon": "minecraft:wooden_sword",
+      "title_en": "Animation Compatibility and Hit Validation",
+      "title_ru": "Совместимость анимаций и проверка попаданий",
+      "desc_en": [
+        "When paired with combat animation overhauls, weapon families can gain different swing arcs and timing, so tooltip balance may not match actual hit coverage.",
+        "Validate representative attacks with the installed combat stack, check server authority and latency, and keep progression rules independent of a purely visual animation advantage."
+      ],
+      "desc_ru": [
+        "При совместимости с переработкой боя семейства получают разные дуги и тайминги, поэтому баланс подсказки может не совпадать с фактическим покрытием удара.",
+        "Проверяйте типовые атаки с установленным боевым стеком, серверную обработку и задержку и не основывайте прогрессию на чисто визуальном преимуществе анимации."
+      ]
+    },
+    {
+      "slug": "repair",
+      "icon": "minecraft:anvil",
+      "title_en": "Enchanting, Repair and Lifetime Cost",
+      "title_ru": "Зачарование, ремонт и стоимость срока службы",
+      "desc_en": [
+        "A fair first craft can still become an early permanent advantage if repair, duplication or enchantment transfer ignores the material and stage that produced the weapon.",
+        "Gate repair inputs, review mending and salvage systems, prevent cheap copying of unique effects and evaluate lifetime cost instead of only initial ingredients."
+      ],
+      "desc_ru": [
+        "Справедливый первый крафт всё равно становится ранним постоянным преимуществом, если ремонт, копирование или перенос чар обходят материал и этап оружия.",
+        "Закрывайте ремонтные входы, проверяйте починку и разбор, запрещайте дешёвое копирование уникальных эффектов и оценивайте стоимость всего срока службы."
+      ]
+    },
+    {
+      "slug": "boss_balance",
+      "icon": "minecraft:netherite_sword",
+      "title_en": "Boss TTK and Weapon Benchmarking",
+      "title_ru": "TTK боссов и эталоны оружия",
+      "desc_en": [
+        "A diverse weapon pack needs benchmark roles at several progression stages so boss health is not tuned around one exceptional unique item or an unrealistic stationary target.",
+        "Measure active combat time, include mechanic downtime, compare several families and keep the strongest reward situational rather than universally optimal."
+      ],
+      "desc_ru": [
+        "Разнообразному оружию нужны эталоны на нескольких этапах, чтобы здоровье боссов не настраивалось под один исключительный уникальный предмет или неподвижную цель.",
+        "Измеряйте активное время боя с фазами, сравнивайте несколько семейств и оставляйте сильнейшую награду ситуационной, а не универсально лучшей."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "minecraft:target",
+      "title_en": "Project: Comparative Weapon Trial",
+      "title_ru": "Проект: сравнительное испытание оружия",
+      "desc_en": [
+        "Select three different weapon families at the same material stage and compare reach, cycle damage, control, durability, repair cost and performance against one group and one elite.",
+        "The project passes when each family has a clear role, unique loot is stage-classified and no recipe, repair or loot path grants a later capability early."
+      ],
+      "desc_ru": [
+        "Выберите три семейства одного материального этапа и сравните дальность, циклический урон, контроль, прочность, ремонт и работу против группы и элиты.",
+        "Проект принят, когда у каждого семейства есть роль, уникальный лут классифицирован, а крафт, ремонт и добыча не открывают позднюю возможность раньше времени."
+      ]
+    }
+  ]
+}
