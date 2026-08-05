@@ -8,9 +8,9 @@ This static gate scans frequent KubeJS handlers and startup scripts. It rejects 
 
 | Category | Current | Maximum | Status |
 |---|---:|---:|---|
-| tick subscriptions | 0 | 12 | PASS |
-| spawn subscriptions | 1 | 12 | PASS |
-| hurt subscriptions | 0 | 12 | PASS |
+| tick subscriptions | 0 | 4 | PASS |
+| spawn subscriptions | 1 | 4 | PASS |
+| hurt subscriptions | 0 | 4 | PASS |
 | Guarded startup file writers | 1 | diagnostic only | PASS |
 | Unguarded startup file writers | 0 | 0 | PASS |
 | Combat EntityType identity cache | present | required | PASS |
