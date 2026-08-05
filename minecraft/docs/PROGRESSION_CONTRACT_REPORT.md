@@ -32,6 +32,8 @@
 These are not automatically failures because the last v1 layer removes legacy outputs at runtime, but each entry remains in the bypass review.
 
 - `ae2:controller`
+- `ae2:drive`
+- `ae2:inscriber`
 - `avaritia:extreme_crafting_table`
 - `create:precision_mechanism`
 - `draconicevolution:wyvern_core`
@@ -41,6 +43,7 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:bioindustrial_matrix`
 - `kubejs:calibrated_substrate`
 - `kubejs:chemical_processor`
+- `kubejs:chemical_reactor_core`
 - `kubejs:cosmic_catalyst`
 - `kubejs:dimensional_resonator`
 - `kubejs:draconic_processor`
@@ -53,8 +56,10 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:mechanical_core`
 - `kubejs:power_regulation_unit`
 - `kubejs:precision_circuit`
+- `kubejs:pressure_manifold`
 - `kubejs:quantum_logic`
 - `kubejs:resonant_core`
+- `kubejs:signal_backplane`
 - `kubejs:structural_lattice`
 - `kubejs:transmutation_matrix`
 - `mekanism:steel_casing`
