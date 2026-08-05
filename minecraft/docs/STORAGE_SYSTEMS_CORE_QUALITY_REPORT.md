@@ -1,5 +1,7 @@
 # Storage Systems Core Quality Report
 
+**PASS**
+
 This report covers the redesigned portable and stationary storage route in the legacy storage catalogue.
 
 | Item gate | Quest | Tasks | EN description | RU description | Status |
@@ -19,4 +21,4 @@ This report covers the redesigned portable and stationary storage route in the l
 
 ## Result
 
-**PASS** — selected storage quests require practical acceptance and include bilingual failure-oriented guidance.
+All selected storage quests require practical acceptance and include bilingual failure-oriented guidance.
