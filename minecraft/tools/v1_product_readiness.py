@@ -28,6 +28,13 @@ MINIMUM_RUNTIME_GATES = {
     "second_clean_restart_and_world_reopen",
 }
 
+FINAL_PERFORMANCE_GATES = {
+    "startup_and_world_load_regression_below_10_percent",
+    "thirty_minute_soak_tps_gate",
+    "heap_stability_gate",
+    "log_rate_gate",
+}
+
 
 def report_label(path: Path) -> str:
     return path.stem.replace("_QUALITY_REPORT", "").replace("_", " ").title()
@@ -87,9 +94,14 @@ def main() -> int:
     quests = quest_metrics()
     guides = guide_metrics()
     evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
-    runtime = {
-        name: runtime_gate_verified(evidence.get("gates", {}).get(name, False))
+    gate_records = evidence.get("gates", {})
+    minimum_runtime = {
+        name: runtime_gate_verified(gate_records.get(name, False))
         for name in MINIMUM_RUNTIME_GATES
+    }
+    final_performance = {
+        name: runtime_gate_verified(gate_records.get(name, False))
+        for name in FINAL_PERFORMANCE_GATES
     }
 
     quest_volume = 5000 <= quests["quests"] <= 6000
@@ -107,10 +119,13 @@ def main() -> int:
         and quest_structure
         and guide_complete
     )
-    runtime_complete = all(runtime.values())
+    minimum_runtime_complete = all(minimum_runtime.values())
+    final_performance_complete = all(final_performance.values())
 
-    if static_complete and runtime_complete:
+    if static_complete and minimum_runtime_complete and final_performance_complete:
         classification = "V1"
+    elif static_complete and minimum_runtime_complete:
+        classification = "V1 CANDIDATE — PERFORMANCE EVIDENCE REQUIRED"
     elif static_complete:
         classification = "V1 CANDIDATE — MINIMUM RUNTIME EVIDENCE REQUIRED"
     elif all(status.values()):
@@ -125,7 +140,7 @@ def main() -> int:
         "",
         f"## Classification: **{classification}**",
         "",
-        "Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter therefore adds a mandatory v1 check without editing this classifier.",
+        "Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter or performance safeguard therefore adds a mandatory static check without editing this classifier.",
         "",
         "## Static reports",
         "",
@@ -160,21 +175,33 @@ def main() -> int:
             f"| Complete tracked guides | {guides['complete']} |",
             f"| Coverage status | {'PASS' if guide_complete else 'IN PROGRESS'} |",
             "",
-            "## Minimum runtime evidence",
+            "## Minimum functional runtime evidence",
             "",
             "| Gate | Status |",
             "|---|---|",
         ]
     )
-    for name in sorted(runtime):
-        lines.append(f"| `{name}` | {'VERIFIED' if runtime[name] else 'UNVERIFIED'} |")
+    for name in sorted(minimum_runtime):
+        lines.append(f"| `{name}` | {'VERIFIED' if minimum_runtime[name] else 'UNVERIFIED'} |")
+
+    lines.extend(
+        [
+            "",
+            "## Final release performance evidence",
+            "",
+            "| Gate | Status |",
+            "|---|---|",
+        ]
+    )
+    for name in sorted(final_performance):
+        lines.append(f"| `{name}` | {'VERIFIED' if final_performance[name] else 'UNVERIFIED'} |")
 
     lines.extend(
         [
             "",
             "## Release rule",
             "",
-            "The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
+            "The label `v1` is prohibited until all static reports pass, the quest product specification is complete, all seven functional runtime gates are verified, and the four final performance gates pass measured startup/world-load, representative soak, heap-stability and repeated-log thresholds. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
             "",
         ]
     )
@@ -196,7 +223,12 @@ def main() -> int:
         f"{guides['tracked'] - guides['missing_review']}/{guides['tracked']}"
     )
     print(f"manifest_projects_not_selected: {guides['not_selected']}")
-    print(f"minimum_runtime: {sum(runtime.values())}/{len(runtime)}")
+    print(
+        f"minimum_runtime: {sum(minimum_runtime.values())}/{len(minimum_runtime)}"
+    )
+    print(
+        f"final_performance: {sum(final_performance.values())}/{len(final_performance)}"
+    )
     return 0
 
 
