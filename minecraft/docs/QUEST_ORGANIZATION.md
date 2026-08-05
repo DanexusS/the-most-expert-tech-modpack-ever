@@ -41,7 +41,20 @@ Annexes unlock when their stage begins but never block the next stage. They deep
 
 The seven Core Technology Manuals remain supplementary references. Full catalogue upgrades explain individual machines, items and mechanics. Stage chapters define progression requirements; manuals and catalogues explain how the underlying mods work.
 
-Legacy chapters are analysed by `legacy_quest_semantic_audit.py`. Chapters are ranked for rewrite when they contain item-only catalogues, missing operational guidance, rewards, excessive counts, duplicate text or malformed objects. Remediation policies remove rewards, add practical acceptance work and provide full RU/EN explanations without adding more quests beyond the 6,000-product ceiling.
+Legacy chapters are analysed by `legacy_quest_semantic_audit.py`. Chapters are ranked for rewrite when they contain item-only catalogues, missing operational guidance, rewards, excessive counts, duplicate text or malformed objects. Manifest-driven remediation policies remove rewards, add practical acceptance work and provide full RU/EN explanations without adding more quests beyond the 6,000-product ceiling.
+
+Completed full-catalogue remediation currently includes:
+
+- Mekanism I;
+- amateur archaeology;
+- Ice and Fire;
+- Stellaris/UFO Future;
+- Engineering Handbook;
+- MineColonies;
+- Productive Bees with bee-type-aware guidance;
+- Survival Foundations / old Main Questline Part I;
+- TFMG Electricity, Chemistry and Steel;
+- Immersive Engineering.
 
 ## Release checks
 
@@ -57,3 +70,5 @@ The stage organization and depth gates verify:
 - no quest rewards in organized progression chapters;
 - 90 workflow optimization quests and 180 depth optimization quests;
 - total questbook size between 5,000 and 6,000 quests.
+
+Manual generators merge localization keys in one batch per locale. Remediation policies are manifest-driven, so adding another legacy chapter does not require another workflow edit.
