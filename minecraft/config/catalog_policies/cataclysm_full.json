@@ -1,0 +1,96 @@
+{
+  "chapter_filename": "cataclysm",
+  "chapter_id": "59395B6806F2A98A",
+  "chapter_title_en": "Cataclysm — Structures, Bosses and Relic Control",
+  "chapter_title_ru": "Cataclysm — структуры, боссы и контроль реликвий",
+  "report_filename": "CATACLYSM_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Cataclysm Catalogue Quality Report",
+  "report_intro": "Every Cataclysm node must explain discovery, encounter preparation, boss mechanics, relic use or post-victory production and must not distribute boss materials or unique rewards through quests.",
+  "expected_quests": 79,
+  "minimum_description": 190,
+  "primary_namespace": "cataclysm",
+  "acceptance_namespace": "cataclysm_catalog_acceptance",
+  "checkpoint_name": "Cataclysm Encounter Checkpoint",
+  "title_suffix_en": "Encounter Acceptance",
+  "title_suffix_ru": "приёмка встречи",
+  "description_en": "{display} is a {role} in Cataclysm. Progress must come from discovering the correct structure, preparing for its mechanics and winning the legitimate encounter rather than receiving boss progress from a reward table or simulated drop source.",
+  "description_ru": "{display} — {role} в Cataclysm. Прогресс должен происходить из поиска правильной структуры, подготовки к механикам и честной победы, а не из выдачи боссового прогресса таблицей наград или симулятором лута.",
+  "acceptance_en": "Acceptance: verify {focus}; document entry, arena safety, required equipment, failure recovery and first-victory evidence, then prove that Woot, neural simulation, spawners, trades, EMC, loot aliases and quest rewards cannot grant unique or capability-changing drops early.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте вход, безопасность арены, нужное снаряжение, восстановление после поражения и доказательство первой победы, затем исключите ранний уникальный или меняющий возможности лут через Woot, нейросимуляцию, спавнеры, торговлю, EMC, алиасы лута и награды квестов.",
+  "categories": [
+    {
+      "tokens": ["eye", "flame_eye", "void_eye", "abyss_eye", "desert_eye", "mech_eye", "storm_eye", "cursed_eye"],
+      "role_en": "structure locator or encounter key",
+      "role_ru": "локатор структуры или ключ встречи",
+      "focus_en": "legal ingredient sources, one-way or reusable behaviour, destination structure, loss recovery and prevention of key duplication or reward distribution",
+      "focus_ru": "честные источники ингредиентов, расходуемость или возврат, целевую структуру, восстановление после потери и запрет копирования либо выдачи ключа"
+    },
+    {
+      "tokens": ["ignitium", "monstrous_horn", "void_core", "abyssal_sacrifice", "ancient_metal", "witherite", "cursium", "strange_key", "burning_ashes"],
+      "role_en": "boss-gated material or trophy",
+      "role_ru": "боссовый материал или трофей",
+      "focus_en": "exact legitimate encounter, first-victory requirement, normal versus unique drop classification, reusable permission policy and exclusion from renewable simulators",
+      "focus_ru": "точную честную встречу, требование первой победы, классификацию обычного и уникального дропа, политику многоразового допуска и запрет возобновляемой симуляции"
+    },
+    {
+      "tokens": ["the_incinerator", "gauntlet", "infernal_forge", "bulwark", "void_forge", "tidal_claws", "astrape", "ceraunus", "soul_render", "meat_shredder", "laser_gatling", "wrath_of_the_desert"],
+      "role_en": "boss-derived weapon or combat capability",
+      "role_ru": "боссовое оружие или боевая возможность",
+      "focus_en": "damage profile, area effect, cooldown or ammunition, durability, interaction with combat scaling and strict post-boss replacement path",
+      "focus_ru": "профиль урона, эффект области, перезарядку или боеприпасы, прочность, взаимодействие с боевым усилением и строгий путь замены после босса"
+    },
+    {
+      "tokens": ["ignitium_helmet", "ignitium_chestplate", "ignitium_elytra_chestplate", "ignitium_leggings", "ignitium_boots", "cursium_helmet", "cursium_chestplate", "cursium_leggings", "cursium_boots", "monstrous_helm"],
+      "role_en": "boss-derived armor capability",
+      "role_ru": "боссовая защитная возможность",
+      "focus_en": "set bonus, mobility, environmental resistance, effective survivability, repair material and stage-safe replacement after loss",
+      "focus_ru": "бонус комплекта, мобильность, сопротивление среде, реальную выживаемость, материал ремонта и безопасную замену после потери"
+    },
+    {
+      "tokens": ["altar", "sacrificial", "soul_black_smith", "mechanical_fusion_anvil"],
+      "role_en": "encounter or relic-crafting infrastructure",
+      "role_ru": "инфраструктура встречи или изготовления реликвий",
+      "focus_en": "structure layout, activation item, recipe isolation, consumed and reusable inputs, output ownership and safe interruption",
+      "focus_ru": "схему структуры, предмет активации, изоляцию рецепта, расходуемые и возвращаемые входы, владельца выхода и безопасное прерывание"
+    },
+    {
+      "tokens": ["music_disc", "disc_fragment", "banner_pattern", "block_of_", "statue", "egg"],
+      "role_en": "collectible, decorative or encounter-record item",
+      "role_ru": "коллекционный, декоративный или фиксирующий встречу предмет",
+      "focus_en": "whether the item is cosmetic or progression-bearing, its exact source, duplication policy and separation from mandatory boss gates",
+      "focus_ru": "косметическую или этапную роль, точный источник, политику копирования и отделение от обязательных боссовых допусков"
+    },
+    {
+      "tokens": ["amethyst_crab", "koboleton", "deepling", "coral_golem", "wadjet", "aptrgangr", "draugr", "lionfish", "remnant", "prowler"],
+      "role_en": "hostile encounter or creature-derived component",
+      "role_ru": "враждебная встреча или компонент существа",
+      "focus_en": "spawn location, attack pattern, ordinary drop table, safe first encounter and whether repeat farming is allowed without exposing boss-only rewards",
+      "focus_ru": "место появления, схему атак, обычную таблицу лута, безопасную первую встречу и допустимость повторного фарма без доступа к боссовым наградам"
+    },
+    {
+      "tokens": ["ancient_factory", "sunken_city", "burning_arena", "ruined_citadel", "frosted_prison", "cursed_pyramid"],
+      "role_en": "major structure progression marker",
+      "role_ru": "этапный маркер крупной структуры",
+      "focus_en": "discovery method, entry conditions, retreat route, chunk and arena hazards, boss trigger and post-clear recovery",
+      "focus_ru": "способ поиска, условия входа, путь отступления, опасности чанков и арены, запуск босса и восстановление после зачистки"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Cataclysm encounter component",
+    "role_ru": "специализированный компонент встречи Cataclysm",
+    "focus_en": "its structure or boss source, mechanical purpose, first-victory boundary, repeat-farm policy and every alternate acquisition route",
+    "focus_ru": "его структурный или боссовый источник, механическую роль, границу первой победы, политику повторного фарма и каждый альтернативный путь получения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod encounter preparation component",
+    "role_ru": "межмодовый компонент подготовки к встрече",
+    "focus_en": "the supplying mod's stage, legal production path, data-bearing state, consumed or reusable behaviour and absence of a cheaper substitute",
+    "focus_ru": "этап исходного мода, честный производственный путь, состояние с данными, расходуемость или возврат и отсутствие более дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "boss-encounter planning checkpoint",
+    "role_ru": "контрольная точка планирования боссовой встречи",
+    "focus_en": "documented structure route, arena preparation, equipment reserve, escape and recovery plan, first-victory evidence and post-victory automation limits",
+    "focus_ru": "задокументированный маршрут структуры, подготовку арены, резерв снаряжения, план выхода и восстановления, доказательство первой победы и ограничения автоматизации после неё"
+  }
+}
