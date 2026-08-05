@@ -78,28 +78,11 @@ jobs:
           python minecraft/tools/upgrade_simply_swords_catalog.py
           python minecraft/tools/upgrade_powah_catalog.py
           python minecraft/tools/upgrade_storage_systems_core_v2.py
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/storage_systems_full.json
           python minecraft/tools/upgrade_mystical_agriculture_catalog.py
           python minecraft/tools/upgrade_industrial_foregoing_catalog.py
           python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
           python minecraft/tools/upgrade_woot_catalog.py
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_1_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/amateur_archaeologist_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/ice_and_fire_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ae2_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/draconic_evolution_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ars_nouveau_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/extended_crafting_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/pneumaticcraft_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/avaritia_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/rftools_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/cataclysm_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/mob_grinding_utils_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/occultism_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ender_io_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/modern_industrialization_full.json
-          python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/create_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_2_full.json
+          python minecraft/tools/run_established_catalog_suite.py upgrade
 
       - name: Generate or verify curated manuals and 121-quest stages
         run: python minecraft/tools/generate_cached_questbook.py
@@ -132,28 +115,11 @@ jobs:
           python minecraft/tools/simply_swords_quality_gate.py
           python minecraft/tools/powah_quality_gate.py
           python minecraft/tools/storage_systems_core_quality_gate_v2.py
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/storage_systems_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/mekanism_part_1_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/amateur_archaeologist_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/ice_and_fire_full.json
           python minecraft/tools/mystical_agriculture_quality_gate.py
           python minecraft/tools/industrial_foregoing_quality_gate.py
           python minecraft/tools/hostile_neural_networks_quality_gate.py
           python minecraft/tools/woot_quality_gate.py
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ae2_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/draconic_evolution_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ars_nouveau_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/extended_crafting_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/pneumaticcraft_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/avaritia_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/rftools_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/cataclysm_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/mob_grinding_utils_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/occultism_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/ender_io_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/modern_industrialization_full.json
-          python minecraft/tools/catalog_upgrade_common.py gate config/catalog_policies/create_full.json
-          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/mekanism_part_2_full.json
+          python minecraft/tools/run_established_catalog_suite.py gate
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
