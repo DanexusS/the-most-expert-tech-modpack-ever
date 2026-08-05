@@ -1,0 +1,46 @@
+name: Patch stage project gate
+
+on:
+  push:
+    branches:
+      - expert-overhaul-v1
+    paths:
+      - ".github/workflows/patch-stage-project-gate.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: expert-overhaul-v1
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            minecraft/tools
+
+      - name: Replace brittle gate and remove diagnostics
+        shell: bash
+        run: |
+          cp minecraft/tools/stage_project_matrix_quality_gate_v2.py \
+             minecraft/tools/stage_project_matrix_quality_gate.py
+          git rm -f \
+            minecraft/tools/stage_project_matrix_quality_gate_v2.py \
+            minecraft/tools/sitecustomize.py \
+            minecraft/tools/stage_project_diagnostic_disabled \
+            .github/workflows/diagnose-stage-projects.yml \
+            .github/workflows/patch-stage-project-gate.yml
+
+      - name: Commit strict gate
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add minecraft/tools/stage_project_matrix_quality_gate.py
+          git commit -m "ci: replace stage gate with stable-id validation"
+          git push origin HEAD:expert-overhaul-v1
