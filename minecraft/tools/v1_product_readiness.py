@@ -24,6 +24,7 @@ REPORTS = {
     "Mekanism route": ROOT / "docs" / "MEKANISM_CORE_QUALITY_REPORT.md",
     "Simply Swords catalogue": ROOT / "docs" / "SIMPLY_SWORDS_QUALITY_REPORT.md",
     "Powah catalogue": ROOT / "docs" / "POWAH_QUALITY_REPORT.md",
+    "Storage systems route": ROOT / "docs" / "STORAGE_SYSTEMS_CORE_QUALITY_REPORT.md",
 }
 
 MINIMUM_RUNTIME_GATES = {
