@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "policies": [
     "config/catalog_policies/ufo_future_full.json",
     "config/catalog_policies/engineering_handbook_full.json",
@@ -8,7 +8,10 @@
     "config/catalog_policies/tfmg_electricity_full.json",
     "config/catalog_policies/immersive_engineering_full.json",
     "config/catalog_policies/tfmg_chemistry_full.json",
-    "config/catalog_policies/tfmg_steel_full.json"
+    "config/catalog_policies/tfmg_steel_full.json",
+    "config/catalog_policies/apotheosis_full.json",
+    "config/catalog_policies/create_stuff_n_additions_full.json",
+    "config/catalog_policies/tips_and_tricks_full.json"
   ],
   "tools": [
     "tools/productive_bees_remediation.py"
