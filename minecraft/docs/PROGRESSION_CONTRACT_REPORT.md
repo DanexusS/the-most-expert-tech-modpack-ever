@@ -7,8 +7,8 @@
 - Macro stages: **18**
 - Mandatory substages: **72**
 - Planned quest budget: **5400**
-- Current parsed quests: **3974**
-- Remaining quest budget: **1426**
+- Current parsed quests: **4050**
+- Remaining quest budget: **1350**
 - Gated outputs: **63**
 - Gated outputs without an authoritative path: **0**
 - Authorized process or unique-permission outputs: **11**
@@ -34,12 +34,15 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `ae2:controller`
 - `ae2:drive`
 - `ae2:inscriber`
+- `ae2:quantum_ring`
 - `avaritia:extreme_crafting_table`
 - `create:precision_mechanism`
 - `draconicevolution:wyvern_core`
 - `extendedcrafting:ultimate_table`
 - `immersiveengineering:blastbrick_reinforced`
 - `industrialforegoing:machine_frame_advanced`
+- `kubejs:antimatter_regulator`
+- `kubejs:bio_process_controller`
 - `kubejs:bioindustrial_matrix`
 - `kubejs:calibrated_substrate`
 - `kubejs:chemical_processor`
@@ -57,11 +60,15 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:power_regulation_unit`
 - `kubejs:precision_circuit`
 - `kubejs:pressure_manifold`
+- `kubejs:quantum_bus`
 - `kubejs:quantum_logic`
 - `kubejs:resonant_core`
+- `kubejs:resonant_power_cell`
 - `kubejs:signal_backplane`
 - `kubejs:structural_lattice`
 - `kubejs:transmutation_matrix`
+- `mekanism:induction_casing`
+- `mekanism:sps_casing`
 - `mekanism:steel_casing`
 - `modern_industrialization:basic_machine_hull`
 - `modern_industrialization:bronze_boiler`

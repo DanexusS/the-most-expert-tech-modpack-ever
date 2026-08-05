@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "E6BCCC8D4AC6CEAB"
+		{
 		dependencies: ["0C1A208DAC83B35E"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "864C9364E4360555"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D532012C64DE9C21"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["864C9364E4360555"]
+		icon: { id: "kubejs:radiation_interlock_module" }
+		id: "291C73BF9FAFE059"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "A6292CB4BF15A277"
+			item: { count: 1, id: "kubejs:radiation_interlock_module" }
+			type: "item"
+		}
+		{
+			id: "A44E06F706BBD335"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["291C73BF9FAFE059"]
+		icon: { id: "mekanism:sps_casing" }
+		id: "EA33E418F6FB2035"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "ED7C5AD04B3D327B"
+			item: { count: 1, id: "mekanism:sps_casing" }
+			type: "item"
+		}
+		{
+			id: "FB72715ED473DE77"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["EA33E418F6FB2035"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "66D4A52D84C15268"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "48419E31B171B720"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["66D4A52D84C15268"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "FFF05F933AE603C4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B6CE3C98BA594102"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["FFF05F933AE603C4"]
+		icon: { id: "kubejs:sps_pulse_controller" }
+		id: "939F346750373A2C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1AFED84986025F5F"
+			item: { count: 1, id: "kubejs:sps_pulse_controller" }
+			type: "item"
+		}
+		{
+			id: "6B4290CE5E42861D"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["939F346750373A2C"]
+		icon: { id: "mekanism:supercharged_coil" }
+		id: "8CCE3D7A8D585F03"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "D6C76CE944A2A705"
+			item: { count: 1, id: "mekanism:supercharged_coil" }
+			type: "item"
+		}
+		{
+			id: "C07C573A59E1AFE5"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["8CCE3D7A8D585F03"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "EA3B13391AA47731"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "2BC67F09A57ADBBF"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["66D4A52D84C15268" "EA3B13391AA47731"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "80DE2587593710A2"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "871EA82F8D616D91"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["80DE2587593710A2"]
+		icon: { id: "kubejs:antimatter_containment_cell" }
+		id: "1FF85C34C69EF7D6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "3B60D0BA17A529BE"
+			item: { count: 1, id: "kubejs:antimatter_containment_cell" }
+			type: "item"
+		}
+		{
+			id: "AF535FC86B98AF2E"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["1FF85C34C69EF7D6"]
+		icon: { id: "mekanism:pellet_antimatter" }
+		id: "65F2658E5C4E6BED"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "92225EE283CD5569"
+			item: { count: 1, id: "mekanism:pellet_antimatter" }
+			type: "item"
+		}
+		{
+			id: "21522C588C6D8372"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["65F2658E5C4E6BED"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "69CAF1F61A38B0A7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "30E8E0E49EEAA89C"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["0C1A208DAC83B35E"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "84E06E1682FAD051"
+		shape: "gear"
+		tasks: [
+		{
+			id: "E8D9422C2D18B79E"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["84E06E1682FAD051"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "D420B488E82B8817"
+		shape: "gear"
+		tasks: [
+		{
+			id: "4E34F50AC76B9727"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["D420B488E82B8817"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "672C54DF88CBBC66"
+		shape: "gear"
+		tasks: [
+		{
+			id: "4C84938423734264"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["672C54DF88CBBC66"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "4F76FD69AE7816BC"
+		shape: "gear"
+		tasks: [
+		{
+			id: "DFB8DFFD6AE6068F"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["4F76FD69AE7816BC"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "3518A0DDD90DBC5F"
+		shape: "gear"
+		tasks: [
+		{
+			id: "6798E4066615900D"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["66D4A52D84C15268" "EA3B13391AA47731" "69CAF1F61A38B0A7" "3518A0DDD90DBC5F"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "B2ADAB8A67827BB9"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "D59F056109C06D55"
+			item: { count: 1, id: "kubejs:antimatter_regulator" }
+			type: "item"
+		}
+		{
+			id: "C18A3BC99174B9C8"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["B2ADAB8A67827BB9"]
+		icon: { id: "kubejs:antimatter_regulator" }
+		id: "976AE04977CC2479"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "0CE18A35E6802F04"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "E6BCCC8D4AC6CEAB"
+		dependencies: ["976AE04977CC2479"]
 		icon: { id: "kubejs:antimatter_regulator" }
 		shape: "hexagon"
 		tasks: [

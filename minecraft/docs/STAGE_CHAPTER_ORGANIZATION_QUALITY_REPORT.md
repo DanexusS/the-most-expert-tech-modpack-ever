@@ -14,10 +14,10 @@ The mandatory route is split into one chapter per stage. Stages 1–4 additional
 | 6 | `digital_storage` | 41 | 41 | 6 | 6 | PASS |
 | 7 | `process_chemistry` | 41 | 41 | 6 | 6 | PASS |
 | 8 | `industrial_scale` | 41 | 41 | 6 | 6 | PASS |
-| 9 | `controlled_resources` | 22 | 22 | 6 | 6 | PASS |
-| 10 | `applied_logistics` | 22 | 22 | 6 | 6 | PASS |
-| 11 | `resonant_energy` | 22 | 22 | 6 | 6 | PASS |
-| 12 | `nuclear_antimatter` | 22 | 22 | 6 | 6 | PASS |
+| 9 | `controlled_resources` | 41 | 41 | 6 | 6 | PASS |
+| 10 | `applied_logistics` | 41 | 41 | 6 | 6 | PASS |
+| 11 | `resonant_energy` | 41 | 41 | 6 | 6 | PASS |
+| 12 | `nuclear_antimatter` | 41 | 41 | 6 | 6 | PASS |
 | 13 | `dimensional_materials` | 22 | 22 | 6 | 6 | PASS |
 | 14 | `draconic_engineering` | 22 | 22 | 6 | 6 | PASS |
 | 15 | `contained_transmutation` | 22 | 22 | 6 | 6 | PASS |
@@ -28,10 +28,10 @@ The mandatory route is split into one chapter per stage. Stages 1–4 additional
 ## Aggregate
 
 - Main stage chapters: **18 / 18**
-- Mandatory stage quests: **548**
-- Expanded workflow stages: **8 / 8**
-- Required workflow quests: **152**
+- Mandatory stage quests: **624**
+- Expanded workflow stages: **12 / 12**
+- Required workflow quests: **228**
 - Optional annex chapters: **18 / 18**
 - Optional annex quests: **108**
-- Unique organized quest IDs: **656**
+- Unique organized quest IDs: **732**
 - Failures: **0**
