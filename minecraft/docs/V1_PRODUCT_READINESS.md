@@ -2,25 +2,27 @@
 
 ## Classification: **STATIC FOUNDATION PASS — PRODUCT INCOMPLETE**
 
+Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new redesigned chapter therefore adds a mandatory v1 check without editing this classifier.
+
 ## Static reports
 
 | Gate | Status |
 |---|---|
-| Theoretical balance | PASS |
-| Quest quality | PASS |
-| Curated manuals | PASS |
-| Progression contract | PASS |
-| Recipe dependency graph | PASS |
+| Ae2 Core | PASS |
+| All Manual | PASS |
 | Bypass closure | PASS |
+| Create Core | PASS |
+| Ie Core | PASS |
+| Mekanism Core | PASS |
+| Mi Core | PASS |
+| Powah | PASS |
+| Progression contract | PASS |
+| Quest | PASS |
+| Recipe dependency graph | PASS |
 | Selected gameplay guide coverage | PASS |
-| Create route | PASS |
-| Immersive Engineering route | PASS |
-| Modern Industrialization route | PASS |
-| Applied Energistics 2 route | PASS |
-| Mekanism route | PASS |
-| Simply Swords catalogue | PASS |
-| Powah catalogue | PASS |
-| Storage systems route | PASS |
+| Simply Swords | PASS |
+| Storage Systems Core | PASS |
+| Theoretical balance | PASS |
 
 ## Quest product specification
 
@@ -56,4 +58,4 @@
 
 ## Release rule
 
-The label `v1` is prohibited until all static reports pass, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.
+The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.
