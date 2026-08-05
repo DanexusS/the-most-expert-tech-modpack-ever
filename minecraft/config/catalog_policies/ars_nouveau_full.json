@@ -1,0 +1,124 @@
+{
+  "chapter_filename": "ars_nouveau",
+  "chapter_id": "78E6F7C6BE58E3FE",
+  "chapter_title_en": "Ars Nouveau — Source and Spell Engineering",
+  "chapter_title_ru": "Ars Nouveau — инженерия Source и заклинаний",
+  "report_filename": "ARS_NOUVEAU_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Ars Nouveau Catalogue Quality Report",
+  "report_intro": "Every Ars Nouveau catalogue node must explain its Source, spell, ritual, automation or familiar role and include a practical acceptance check without progression-skipping rewards.",
+  "expected_quests": 94,
+  "minimum_description": 190,
+  "primary_namespace": "ars_nouveau",
+  "acceptance_namespace": "ars_catalog_acceptance",
+  "checkpoint_name": "Ars Engineering Checkpoint",
+  "title_suffix_en": "Arcane Acceptance",
+  "title_suffix_ru": "магическая приёмка",
+  "description_en": "{display} is a {role} in Ars Nouveau. Its value depends on Source economy, spell configuration, automation behaviour or ritual conditions rather than on possessing the item alone.",
+  "description_ru": "{display} — {role} в Ars Nouveau. Его ценность зависит от экономики Source, настройки заклинаний, поведения автоматизации или условий ритуала, а не от одного владения предметом.",
+  "acceptance_en": "Acceptance: verify {focus}; perform a representative spell, ritual or automated cycle, record Source use and recovery, test interruption or invalid input, and close loot, reward, trade, duplication and alternate-crafting shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой цикл заклинания, ритуала или автоматизации, запишите расход и восстановление Source, испытайте прерывание или неверный вход и закройте обходы через лут, награды, торговлю, копирование и альтернативный крафт.",
+  "categories": [
+    {
+      "tokens": ["novice_spell_book", "apprentice_spell_book", "archmage_spell_book", "spell_book"],
+      "role_en": "spellbook capability tier",
+      "role_ru": "уровень возможностей книги заклинаний",
+      "focus_en": "book tier, unlocked glyph tier, spell slots, upgrade ingredients and replacement after loss",
+      "focus_ru": "уровень книги, доступный уровень глифов, слоты заклинаний, ингредиенты улучшения и замену после потери"
+    },
+    {
+      "tokens": ["glyph_", "scribes_table", "spell_parchment"],
+      "role_en": "spell component or inscription system",
+      "role_ru": "компонент заклинания или система записи",
+      "focus_en": "glyph prerequisites, reagent cost, compatible forms and augments, inscription ownership and test-cast safety",
+      "focus_ru": "условия глифа, стоимость реагентов, совместимые формы и усиления, владение записью и безопасное тестовое применение"
+    },
+    {
+      "tokens": ["source_jar", "source_gem", "sourceberry", "agronomic_sourcelink", "alchemical_sourcelink", "mycelial_sourcelink", "volcanic_sourcelink", "vitalic_sourcelink"],
+      "role_en": "Source generation or storage component",
+      "role_ru": "компонент генерации или хранения Source",
+      "focus_en": "input legality, Source per cycle, jar routing, generation radius, renewable boundary and overflow",
+      "focus_ru": "законность входа, Source за цикл, маршрутизацию банок, радиус генерации, границу возобновляемости и переполнение"
+    },
+    {
+      "tokens": ["imbuement_chamber", "enchanting_apparatus", "arcane_core", "pedestal"],
+      "role_en": "arcane crafting infrastructure component",
+      "role_ru": "компонент инфраструктуры магического крафта",
+      "focus_en": "pedestal layout, recipe isolation, Source reserve, ingredient return and recovery from interrupted crafting",
+      "focus_ru": "раскладку пьедесталов, изоляцию рецепта, резерв Source, возврат ингредиентов и восстановление прерванного крафта"
+    },
+    {
+      "tokens": ["relay", "splitter", "deposit", "repository", "storage_lectern"],
+      "role_en": "Source or item logistics component",
+      "role_ru": "компонент логистики Source или предметов",
+      "focus_en": "link direction, range, priority, destination capacity, visible diagnostics and loop prevention",
+      "focus_ru": "направление связи, радиус, приоритет, ёмкость назначения, видимую диагностику и защиту от циклов"
+    },
+    {
+      "tokens": ["ritual", "ritual_brazier", "tablet"],
+      "role_en": "ritual execution component",
+      "role_ru": "компонент выполнения ритуала",
+      "focus_en": "activation reagent, area, duration, Source demand, world side effects and safe cancellation",
+      "focus_ru": "реагент активации, область, длительность, расход Source, последствия для мира и безопасную отмену"
+    },
+    {
+      "tokens": ["wilden", "summon", "familiar", "whirlisprig", "starbuncle", "drygmy"],
+      "role_en": "summoning, familiar or magical automation component",
+      "role_ru": "компонент призыва, фамильяра или магической автоматизации",
+      "focus_en": "summoning prerequisite, entity ownership, working area, valid targets, output policy and unique-drop exclusion",
+      "focus_ru": "условие призыва, владение существом, рабочую область, допустимые цели, правила выхода и запрет уникального дропа"
+    },
+    {
+      "tokens": ["carbuncle", "amethyst_golem", "bookwyrm"],
+      "role_en": "specialized magical worker",
+      "role_ru": "специализированный магический работник",
+      "focus_en": "task assignment, inventory ownership, pathing, filter behaviour and recovery after chunk reload",
+      "focus_ru": "назначение задачи, владение инвентарём, поиск пути, фильтры и восстановление после перезагрузки чанка"
+    },
+    {
+      "tokens": ["magebloom", "arcanist", "sorcerer", "battlemage", "armor"],
+      "role_en": "magical equipment tier",
+      "role_ru": "уровень магического снаряжения",
+      "focus_en": "mana or Source benefit, thread slots, defensive statistics, mobility interaction and repair path",
+      "focus_ru": "пользу маны или Source, слоты нитей, защитные характеристики, взаимодействие с движением и ремонт"
+    },
+    {
+      "tokens": ["thread_", "blank_thread", "mundane_belt", "ring_of_"],
+      "role_en": "equipment augmentation component",
+      "role_ru": "компонент усиления снаряжения",
+      "focus_en": "compatible slot, stacking rule, exact capability gain, removal cost and interaction with other accessory mods",
+      "focus_ru": "совместимый слот, правила сложения, точный прирост возможности, стоимость снятия и взаимодействие с другими аксессуарами"
+    },
+    {
+      "tokens": ["warp_scroll", "stable_warp_scroll", "ritual_of_warping", "portal"],
+      "role_en": "teleportation and location-binding component",
+      "role_ru": "компонент телепортации и привязки места",
+      "focus_en": "binding ownership, destination validation, cross-dimensional rules, consumable cost and recovery from invalid anchors",
+      "focus_ru": "владение привязкой, проверку назначения, межпространственные правила, расход и восстановление неверных точек"
+    },
+    {
+      "tokens": ["potion", "flask", "alchemical"],
+      "role_en": "arcane alchemy component",
+      "role_ru": "компонент магической алхимии",
+      "focus_en": "effect recipe, duration, amplification, container return, Source cost and prevention of effect duplication loops",
+      "focus_ru": "рецепт эффекта, длительность, усиление, возврат контейнера, расход Source и защиту от циклов копирования эффектов"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Ars Nouveau component",
+    "role_ru": "специализированный компонент Ars Nouveau",
+    "focus_en": "its Source, spell, ritual, entity or automation contract and a safe invalid-input or interrupted state",
+    "focus_ru": "его контракт Source, заклинания, ритуала, существа или автоматизации и безопасное состояние ошибки или прерывания"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod arcane integration component",
+    "role_ru": "межмодовый компонент магической интеграции",
+    "focus_en": "the external mod's stage, conversion direction, data-bearing state and absence of a cheaper parallel route",
+    "focus_ru": "этап внешнего мода, направление преобразования, состояние с данными и отсутствие более дешёвого параллельного пути"
+  },
+  "checkpoint": {
+    "role_en": "arcane-system design checkpoint",
+    "role_ru": "контрольная точка проектирования магической системы",
+    "focus_en": "documented Source budget, spell or ritual inputs, automation ownership, failure response and restart procedure",
+    "focus_ru": "задокументированный бюджет Source, входы заклинания или ритуала, владение автоматизацией, реакцию на отказ и перезапуск"
+  }
+}
