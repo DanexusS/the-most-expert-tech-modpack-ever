@@ -7,6 +7,7 @@ var ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation'
 var BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
 var Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
 var AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+var IdentityHashMap = Java.loadClass('java.util.IdentityHashMap')
 
 var MODIFIER_IDS = Object.freeze({
   health: ResourceLocation.parse('kubejs:expert_health_scale'),
@@ -125,9 +126,12 @@ var BOSS_IDS = Object.freeze({
 })
 
 // Entity categories and profiles are stable after registries finish loading.
-// Cache the resolution so large mob farms do not repeat registry lookups for
-// every entity of the same type.
+// The string cache prevents repeated profile resolution by ID. The identity
+// cache additionally removes the registry-key lookup from every repeated spawn
+// of the same EntityType singleton, which matters in large farms and during
+// world population.
 var PROFILE_CACHE = Object.create(null)
+var TYPE_PROFILE_CACHE = new IdentityHashMap()
 
 function namespaceOf(entityId) {
   var separator = entityId.indexOf(':')
@@ -171,6 +175,17 @@ function profileFor(entityId) {
 
   var profile = resolveProfile(entityId)
   PROFILE_CACHE[entityId] = profile || false
+  return profile
+}
+
+function profileForType(entityType) {
+  if (TYPE_PROFILE_CACHE.containsKey(entityType)) {
+    return TYPE_PROFILE_CACHE.get(entityType) || null
+  }
+
+  var entityId = String(BuiltInRegistries.ENTITY_TYPE.getKey(entityType))
+  var profile = profileFor(entityId)
+  TYPE_PROFILE_CACHE.put(entityType, profile || false)
   return profile
 }
 
@@ -240,8 +255,5 @@ EntityEvents.spawned(function(event) {
     return
   }
 
-  var entityId = String(BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()))
-  applyProfile(entity, profileFor(entityId))
+  applyProfile(entity, profileForType(entity.getType()))
 })
-
-console.info('[CombatScaling] Multi-attribute expert combat profile v1.1.0 loaded.')
