@@ -39,6 +39,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
 | Stage Chapter Organization | PASS |
+| Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
 | Theoretical balance | PASS |
 | Woot | PASS |
@@ -48,8 +49,8 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3822 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 2665 / 3822 | IN PROGRESS |
-| Single item-only ratio | 23.0% / ≤30% | PASS |
+| RU/EN descriptions | 2757 / 3822 | IN PROGRESS |
+| Single item-only ratio | 20.6% / ≤30% | PASS |
 
 ## Selected gameplay guide specification
 
