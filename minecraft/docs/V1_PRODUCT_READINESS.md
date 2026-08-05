@@ -20,6 +20,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Create Core | PASS |
 | Draconic Evolution Catalog | PASS |
 | Ender Io Catalog | PASS |
+| Engineering Handbook Catalog | PASS |
 | Extended Crafting Catalog | PASS |
 | Hostile Neural Networks | PASS |
 | Ice And Fire Catalog | PASS |
@@ -29,6 +30,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Mekanism Part 1 Catalog | PASS |
 | Mekanism Part 2 Catalog | PASS |
 | Mi Core | PASS |
+| Minecolonies Catalog | PASS |
 | Mob Grinding Utils Catalog | PASS |
 | Modern Industrialization Catalog | PASS |
 | Mystical Agriculture | PASS |
@@ -47,6 +49,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
 | Theoretical balance | PASS |
+| Ufo Future Catalog | PASS |
 | Woot | PASS |
 
 ## Quest product specification
@@ -54,10 +57,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 4736 / 5970 | IN PROGRESS |
-| Single item-only ratio | 15.8% / ≤30% | PASS |
+| RU/EN descriptions | 4916 / 5970 | IN PROGRESS |
+| Single item-only ratio | 13.5% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 1234 | IN PROGRESS |
+| Remaining without full RU/EN | 1054 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 

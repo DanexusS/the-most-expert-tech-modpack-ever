@@ -36,7 +36,12 @@
 				id: "5250BBD00769293A"
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6C765C0C04A4DB53"
+				type: "checkmark"
+			}
+			]
 			x: 1.6d
 			y: -0.6d
 		}
@@ -51,7 +56,12 @@
 				id: "3C220801341E3C44"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9C958BDE3E1E19CB"
+				type: "checkmark"
+			}
+			]
 			x: 3.2d
 			y: 0.6d
 		}
@@ -66,7 +76,12 @@
 				id: "7D904865D341111A"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F061CD3BC99FBB11"
+				type: "checkmark"
+			}
+			]
 			x: 4.8d
 			y: -0.6d
 		}
@@ -80,7 +95,12 @@
 				id: "40C47F4A0DCC30D0"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AE810E2B048B3119"
+				type: "checkmark"
+			}
+			]
 			x: 6.4d
 			y: 0.6d
 		}
@@ -94,7 +114,12 @@
 				id: "62FFBB2EF62985D6"
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
-			}]
+			}
+			{
+				id: "980F5E163FC59507"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -0.6d
 		}
@@ -109,7 +134,12 @@
 				id: "4767357FD10861C7"
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BFAB870F348B96D1"
+				type: "checkmark"
+			}
+			]
 			x: 9.6d
 			y: 0.6d
 		}
@@ -118,11 +148,6 @@
 				id: "create:mechanical_press"
 			}
 			id: "1ACB070EDBA5EC8B"
-			rewards: [{
-				id: "7C0C5DE4875EACAC"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -158,7 +183,12 @@
 				id: "11735B71652B748E"
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1FBFBBFB193F31E8"
+				type: "checkmark"
+			}
+			]
 			x: 14.6d
 			y: -0.6d
 		}
@@ -173,7 +203,12 @@
 				id: "1AE4605313F6A42F"
 				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BB65C774DAB68D0A"
+				type: "checkmark"
+			}
+			]
 			x: 16.2d
 			y: 0.6d
 		}
@@ -188,7 +223,12 @@
 				id: "703AEE89561BC50A"
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "27B60DF422D6CE9C"
+				type: "checkmark"
+			}
+			]
 			x: 17.8d
 			y: -0.6d
 		}
@@ -203,7 +243,12 @@
 				id: "52F04590D230B930"
 				item: { count: 1, id: "immersiveengineering:ingot_steel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1118457D63BE0EF0"
+				type: "checkmark"
+			}
+			]
 			x: 19.4d
 			y: 0.6d
 		}
@@ -217,7 +262,12 @@
 				id: "6EFBFE6A4B92A4CA"
 				item: { count: 1, id: "immersiveengineering:component_steel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A3B355ADB6A9CB85"
+				type: "checkmark"
+			}
+			]
 			x: 21.0d
 			y: -0.6d
 		}
@@ -231,7 +281,12 @@
 				id: "12D03F20156A4C65"
 				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 				type: "item"
-			}]
+			}
+			{
+				id: "760B191E0E85091A"
+				type: "checkmark"
+			}
+			]
 			x: 22.6d
 			y: 0.6d
 		}
@@ -241,11 +296,6 @@
 				id: "immersiveengineering:heavy_engineering"
 			}
 			id: "649BA25A55131552"
-			rewards: [{
-				id: "725997A6659F4AC3"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -280,7 +330,12 @@
 				id: "1A1533D616DDEDB7"
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "058A61E18F5CF80E"
+				type: "checkmark"
+			}
+			]
 			x: 27.6d
 			y: -0.6d
 		}
@@ -295,7 +350,12 @@
 				id: "250E6C044764C163"
 				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F9CE5A2EA2FE5D2F"
+				type: "checkmark"
+			}
+			]
 			x: 29.2d
 			y: 0.6d
 		}
@@ -310,7 +370,12 @@
 				id: "0D1C01321534295F"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B730360E0A8CEA1E"
+				type: "checkmark"
+			}
+			]
 			x: 30.8d
 			y: -0.6d
 		}
@@ -325,7 +390,12 @@
 				id: "76F84C950664C49A"
 				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "182172AC22998723"
+				type: "checkmark"
+			}
+			]
 			x: 32.4d
 			y: 0.6d
 		}
@@ -339,7 +409,12 @@
 				id: "38B5E33CB71C22A1"
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
-			}]
+			}
+			{
+				id: "101599F0D5236C02"
+				type: "checkmark"
+			}
+			]
 			x: 34.0d
 			y: -0.6d
 		}
@@ -354,7 +429,12 @@
 				id: "14A1855E4CA1136B"
 				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E5F80A78CCD798EC"
+				type: "checkmark"
+			}
+			]
 			x: 35.6d
 			y: 0.6d
 		}
@@ -364,11 +444,6 @@
 				id: "modern_industrialization:assembler"
 			}
 			id: "0AA8C01B2464C724"
-			rewards: [{
-				id: "66EF369FAE9A341F"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -403,7 +478,12 @@
 				id: "6B155454EB2C7A09"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1137257EC42017DF"
+				type: "checkmark"
+			}
+			]
 			x: 40.6d
 			y: -0.6d
 		}
@@ -417,7 +497,12 @@
 				id: "2B89C6A0F4575AF6"
 				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3E3C5CF1C19685E2"
+				type: "checkmark"
+			}
+			]
 			x: 42.2d
 			y: 0.6d
 		}
@@ -432,7 +517,12 @@
 				id: "3C4C4EC5441DB652"
 				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
 				type: "item"
-			}]
+			}
+			{
+				id: "89DE33C616DA1611"
+				type: "checkmark"
+			}
+			]
 			x: 43.8d
 			y: -0.6d
 		}
@@ -446,7 +536,12 @@
 				id: "406432068B8282A1"
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "53953368B266B732"
+				type: "checkmark"
+			}
+			]
 			x: 45.4d
 			y: 0.6d
 		}
@@ -461,7 +556,12 @@
 				id: "14ABC61EF651A534"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "89462340DBF21221"
+				type: "checkmark"
+			}
+			]
 			x: 47.0d
 			y: -0.6d
 		}
@@ -475,7 +575,12 @@
 				id: "553B9EB03CD521E0"
 				item: { count: 1, id: "pneumaticcraft:refinery" }
 				type: "item"
-			}]
+			}
+			{
+				id: "984C9C62AC60FB14"
+				type: "checkmark"
+			}
+			]
 			x: 48.6d
 			y: 0.6d
 		}
@@ -484,11 +589,6 @@
 				id: "pneumaticcraft:printed_circuit_board"
 			}
 			id: "79F6E9539CE10061"
-			rewards: [{
-				id: "08DC6896AA38C3AB"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -523,7 +623,12 @@
 				id: "417724252FD71D4F"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1509EF219F0E99FA"
+				type: "checkmark"
+			}
+			]
 			x: 53.6d
 			y: -0.6d
 		}
@@ -537,7 +642,12 @@
 				id: "5637BB375D4B0CB3"
 				item: { count: 1, id: "mekanism:alloy_infused" }
 				type: "item"
-			}]
+			}
+			{
+				id: "346BA27CAFBCD0CE"
+				type: "checkmark"
+			}
+			]
 			x: 55.2d
 			y: 0.6d
 		}
@@ -551,7 +661,12 @@
 				id: "16D7A5350F5D29EF"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0CF120D307A80C2B"
+				type: "checkmark"
+			}
+			]
 			x: 56.8d
 			y: -0.6d
 		}
@@ -565,7 +680,12 @@
 				id: "719F520893236D02"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B61A743585719E9B"
+				type: "checkmark"
+			}
+			]
 			x: 58.4d
 			y: 0.6d
 		}
@@ -580,7 +700,12 @@
 				id: "4E8214C66B22FF7D"
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
-			}]
+			}
+			{
+				id: "11DDC790B52C8A5C"
+				type: "checkmark"
+			}
+			]
 			x: 60.0d
 			y: -0.6d
 		}
@@ -595,7 +720,12 @@
 				id: "756A7628C7683365"
 				item: { count: 1, id: "mekanism:steel_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "70417B46F93CA226"
+				type: "checkmark"
+			}
+			]
 			x: 61.6d
 			y: 0.6d
 		}
@@ -604,11 +734,6 @@
 				id: "mekanism:metallurgic_infuser"
 			}
 			id: "4A375E32DB624009"
-			rewards: [{
-				id: "1AE047AC1C78CC98"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -643,7 +768,12 @@
 				id: "6A4A203BCEDAED0D"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FB62C8E26AC7FAE4"
+				type: "checkmark"
+			}
+			]
 			x: 66.6d
 			y: -0.6d
 		}
@@ -657,7 +787,12 @@
 				id: "3E500E1E0F32474D"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F555E26E80BB6ED5"
+				type: "checkmark"
+			}
+			]
 			x: 68.2d
 			y: 0.6d
 		}
@@ -671,7 +806,12 @@
 				id: "7E41167D01CFE2F2"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8FE6510E6B5CFA14"
+				type: "checkmark"
+			}
+			]
 			x: 69.8d
 			y: -0.6d
 		}
@@ -686,7 +826,12 @@
 				id: "31D9134EB4D2E718"
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FED9F9AA9E4E20CE"
+				type: "checkmark"
+			}
+			]
 			x: 71.4d
 			y: 0.6d
 		}
@@ -701,7 +846,12 @@
 				id: "1A7136F94DC10605"
 				item: { count: 1, id: "mekanism:chemical_washer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7BD55870BCD1794A"
+				type: "checkmark"
+			}
+			]
 			x: 73.0d
 			y: -0.6d
 		}
@@ -715,7 +865,12 @@
 				id: "56B6BF0767ED5E9D"
 				item: { count: 1, id: "mekanism:chemical_crystallizer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "884457C6E15D0ED3"
+				type: "checkmark"
+			}
+			]
 			x: 74.6d
 			y: 0.6d
 		}
@@ -725,11 +880,6 @@
 				id: "mekanism:chemical_dissolution_chamber"
 			}
 			id: "5ED6FC1C6AA79127"
-			rewards: [{
-				id: "20D3C9889CE77E9A"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -764,7 +914,12 @@
 				id: "09EA80E863C465A8"
 				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2333043CD338E592"
+				type: "checkmark"
+			}
+			]
 			x: 1.6d
 			y: 14.4d
 		}
@@ -779,7 +934,12 @@
 				id: "6CA010E08A77222E"
 				item: { count: 1, id: "industrialforegoing:latex_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2F3E61472E384C30"
+				type: "checkmark"
+			}
+			]
 			x: 3.2d
 			y: 15.6d
 		}
@@ -793,7 +953,12 @@
 				id: "2E801C7EEFE48974"
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4C4B95D277397F0D"
+				type: "checkmark"
+			}
+			]
 			x: 4.8d
 			y: 14.4d
 		}
@@ -808,7 +973,12 @@
 				id: "4E933F26C87EF0BB"
 				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "842DF8AB010CBA3F"
+				type: "checkmark"
+			}
+			]
 			x: 6.4d
 			y: 15.6d
 		}
@@ -822,7 +992,12 @@
 				id: "1BC08F83B60572D4"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1FDC22148592B917"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 14.4d
 		}
@@ -836,7 +1011,12 @@
 				id: "3912514E35456B37"
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
-			}]
+			}
+			{
+				id: "26913AB96EB00699"
+				type: "checkmark"
+			}
+			]
 			x: 9.6d
 			y: 15.6d
 		}
@@ -845,11 +1025,6 @@
 				id: "industrialforegoing:dissolution_chamber"
 			}
 			id: "7B0FE78E09D054E2"
-			rewards: [{
-				id: "1537AEA5E5D51465"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -883,7 +1058,12 @@
 				id: "226BD34DEDFE61D4"
 				item: { count: 1, id: "ae2:charger" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AC1BFC1DAC2A9DF5"
+				type: "checkmark"
+			}
+			]
 			x: 14.6d
 			y: 14.4d
 		}
@@ -897,7 +1077,12 @@
 				id: "1235EDE21F705AD8"
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7CF0A441959D1FD3"
+				type: "checkmark"
+			}
+			]
 			x: 16.2d
 			y: 15.6d
 		}
@@ -912,7 +1097,12 @@
 				id: "443B0AC56404058E"
 				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C41EEF66AE4542FD"
+				type: "checkmark"
+			}
+			]
 			x: 17.8d
 			y: 14.4d
 		}
@@ -927,7 +1117,12 @@
 				id: "43F8B89446963B3F"
 				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DC809C03A501F42F"
+				type: "checkmark"
+			}
+			]
 			x: 19.4d
 			y: 15.6d
 		}
@@ -941,7 +1136,12 @@
 				id: "032510BBD93DE95A"
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C6F75CC6C30F030A"
+				type: "checkmark"
+			}
+			]
 			x: 21.0d
 			y: 14.4d
 		}
@@ -956,7 +1156,12 @@
 				id: "5DF36FF7424241E5"
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9A19386B69A4F161"
+				type: "checkmark"
+			}
+			]
 			x: 22.6d
 			y: 15.6d
 		}
@@ -966,11 +1171,6 @@
 				id: "ae2:controller"
 			}
 			id: "64998EE3453054F0"
-			rewards: [{
-				id: "7F1224AB80019F20"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -1005,7 +1205,12 @@
 				id: "7F5499606DE8BA9A"
 				item: { count: 1, id: "powah:dielectric_paste" }
 				type: "item"
-			}]
+			}
+			{
+				id: "73FA5B1E5D0236F9"
+				type: "checkmark"
+			}
+			]
 			x: 27.6d
 			y: 14.4d
 		}
@@ -1020,7 +1225,12 @@
 				id: "4B9D1787D49A4CE8"
 				item: { count: 1, id: "powah:dielectric_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A2E7E10F8B5D223B"
+				type: "checkmark"
+			}
+			]
 			x: 29.2d
 			y: 15.6d
 		}
@@ -1034,7 +1244,12 @@
 				id: "0638C5A9463E8165"
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8CFEAF6339DBADE4"
+				type: "checkmark"
+			}
+			]
 			x: 30.8d
 			y: 14.4d
 		}
@@ -1048,7 +1263,12 @@
 				id: "3E95D76460C5C36A"
 				item: { count: 1, id: "powah:crystal_blazing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "60EB0FAFD9E8AA6A"
+				type: "checkmark"
+			}
+			]
 			x: 32.4d
 			y: 15.6d
 		}
@@ -1063,7 +1283,12 @@
 				id: "35CA2CC263C3DA31"
 				item: { count: 1, id: "powah:crystal_nitro" }
 				type: "item"
-			}]
+			}
+			{
+				id: "65C456E3888B44A7"
+				type: "checkmark"
+			}
+			]
 			x: 34.0d
 			y: 14.4d
 		}
@@ -1077,7 +1302,12 @@
 				id: "542E1D783EA4B51E"
 				item: { count: 1, id: "powah:reactor_nitro" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E21A5569B9E4BA89"
+				type: "checkmark"
+			}
+			]
 			x: 35.6d
 			y: 15.6d
 		}
@@ -1086,11 +1316,6 @@
 				id: "powah:energizing_orb"
 			}
 			id: "72B010537F44CE6A"
-			rewards: [{
-				id: "1AA190D527B22E50"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -1126,7 +1351,12 @@
 				id: "209367ACAA587F45"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E01640B20DD8BC44"
+				type: "checkmark"
+			}
+			]
 			x: 40.6d
 			y: 14.4d
 		}
@@ -1141,7 +1371,12 @@
 				id: "149D92644593234E"
 				item: { count: 1, id: "draconicevolution:wyvern_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2FB4412B82288266"
+				type: "checkmark"
+			}
+			]
 			x: 42.2d
 			y: 15.6d
 		}
@@ -1155,7 +1390,12 @@
 				id: "400C58F5240055BD"
 				item: { count: 1, id: "draconicevolution:crafting_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "96E8BEDEB761CC31"
+				type: "checkmark"
+			}
+			]
 			x: 43.8d
 			y: 14.4d
 		}
@@ -1169,7 +1409,12 @@
 				id: "2184AA7E6DCE45F1"
 				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6C766ED0EECAECA2"
+				type: "checkmark"
+			}
+			]
 			x: 45.4d
 			y: 15.6d
 		}
@@ -1184,7 +1429,12 @@
 				id: "4B1486763BAC80B1"
 				item: { count: 1, id: "draconicevolution:awakened_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "03E164F2C44AC6BB"
+				type: "checkmark"
+			}
+			]
 			x: 47.0d
 			y: 14.4d
 		}
@@ -1198,7 +1448,12 @@
 				id: "630B3F76220E89A5"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5FEA195427596EED"
+				type: "checkmark"
+			}
+			]
 			x: 48.6d
 			y: 15.6d
 		}
@@ -1208,11 +1463,6 @@
 				id: "draconicevolution:crafting_core"
 			}
 			id: "36479E941F2EF241"
-			rewards: [{
-				id: "384EC64355EEEC83"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -1247,7 +1497,12 @@
 				id: "2FAF14CF9342A78D"
 				item: { count: 1, id: "projecte:philosophers_stone" }
 				type: "item"
-			}]
+			}
+			{
+				id: "90480B0D948B0A4C"
+				type: "checkmark"
+			}
+			]
 			x: 53.6d
 			y: 14.4d
 		}
@@ -1261,7 +1516,12 @@
 				id: "52A293B97157512E"
 				item: { count: 1, id: "projecte:alchemical_chest" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7D6E84C0ABAC89EC"
+				type: "checkmark"
+			}
+			]
 			x: 55.2d
 			y: 15.6d
 		}
@@ -1275,7 +1535,12 @@
 				id: "61E4A746D4516ED7"
 				item: { count: 1, id: "projecte:transmutation_table" }
 				type: "item"
-			}]
+			}
+			{
+				id: "34508FB962A44869"
+				type: "checkmark"
+			}
+			]
 			x: 56.8d
 			y: 14.4d
 		}
@@ -1289,7 +1554,12 @@
 				id: "718434AEFA6E47D7"
 				item: { count: 1, id: "projecte:condenser_mk1" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DA6B0B4A298AF1E0"
+				type: "checkmark"
+			}
+			]
 			x: 58.4d
 			y: 15.6d
 		}
@@ -1304,7 +1574,12 @@
 				id: "4C76D71CE7F8BA48"
 				item: { count: 1, id: "projecte:dark_matter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CC9A605F52F2F089"
+				type: "checkmark"
+			}
+			]
 			x: 60.0d
 			y: 14.4d
 		}
@@ -1318,7 +1593,12 @@
 				id: "670E6DDE1BD52FA3"
 				item: { count: 1, id: "projecte:red_matter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "20177C5271D7A5A4"
+				type: "checkmark"
+			}
+			]
 			x: 61.6d
 			y: 15.6d
 		}
@@ -1327,11 +1607,6 @@
 				id: "projecte:transmutation_table"
 			}
 			id: "62686C560A771CB7"
-			rewards: [{
-				id: "3D35128091D64C71"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -1365,7 +1640,12 @@
 				id: "58F0E67DD08184C7"
 				item: { count: 1, id: "avaritia:compressed_crafting_table" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D1806A36047200A6"
+				type: "checkmark"
+			}
+			]
 			x: 66.6d
 			y: 14.4d
 		}
@@ -1379,7 +1659,12 @@
 				id: "1EA58375F9F7EBCC"
 				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8D3F3AEF0D97C7D4"
+				type: "checkmark"
+			}
+			]
 			x: 68.2d
 			y: 15.6d
 		}
@@ -1394,7 +1679,12 @@
 				id: "1A42C6FF4AB3D486"
 				item: { count: 1, id: "avaritia:extreme_crafting_table" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FF9BBAF7DB54F567"
+				type: "checkmark"
+			}
+			]
 			x: 69.8d
 			y: 14.4d
 		}
@@ -1408,7 +1698,12 @@
 				id: "0A04D54773F5DB1E"
 				item: { count: 1, id: "avaritia:neutron_pile" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A5D73284AAAA4DFB"
+				type: "checkmark"
+			}
+			]
 			x: 71.4d
 			y: 15.6d
 		}
@@ -1423,7 +1718,12 @@
 				id: "699D1770E0A095E2"
 				item: { count: 1, id: "avaritia:infinity_catalyst" }
 				type: "item"
-			}]
+			}
+			{
+				id: "674FBE4AF1F7C913"
+				type: "checkmark"
+			}
+			]
 			x: 73.0d
 			y: 14.4d
 		}
@@ -1437,7 +1737,12 @@
 				id: "13B7E9CCFF589617"
 				item: { count: 1, id: "kubejs:cosmic_catalyst" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9A3F5666ABF2CF76"
+				type: "checkmark"
+			}
+			]
 			x: 74.6d
 			y: 15.6d
 		}
@@ -1447,11 +1752,6 @@
 				id: "avaritia:extreme_crafting_table"
 			}
 			id: "6052575ABD6E4095"
-			rewards: [{
-				id: "525A3426CA0045C3"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{

@@ -7,10 +7,10 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 - Legacy chapters analysed: **57**
 - Legacy quests and malformed objects analysed: **3324**
 - Malformed quest objects: **0**
-- Chapters requiring rewrite: **28**
+- Chapters requiring rewrite: **25**
 - Chapters requiring review: **5**
 - Empty chapters requiring a keep/remove decision: **0**
-- Duplicate description groups: **55**
+- Duplicate description groups: **54**
 
 ## Chapter remediation queue
 
@@ -18,9 +18,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | `productive_bees` | 204 | 2195 | 204 | 0 | 200 | 204 | 200 | REWRITE_REQUIRED |
 | `mainquestline_part_1` | 74 | 684 | 74 | 0 | 61 | 74 | 63 | REWRITE_REQUIRED |
-| `ufo_future` | 65 | 583 | 63 | 0 | 51 | 65 | 53 | REWRITE_REQUIRED |
-| `engineering_handbook` | 96 | 538 | 50 | 0 | 72 | 50 | 12 | REWRITE_REQUIRED |
-| `minecolonies` | 65 | 523 | 64 | 0 | 18 | 65 | 63 | REWRITE_REQUIRED |
 | `tfmg_electricity` | 44 | 418 | 44 | 0 | 36 | 44 | 44 | REWRITE_REQUIRED |
 | `apotheosis` | 43 | 407 | 43 | 0 | 34 | 43 | 36 | REWRITE_REQUIRED |
 | `create_stuff_n_additions` | 36 | 361 | 36 | 0 | 35 | 36 | 36 | REWRITE_REQUIRED |
@@ -50,11 +47,14 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `engineering_foundations_guide` | 16 | 34 | 0 | 0 | 10 | 0 | 1 | REVIEW_REQUIRED |
 | `expert_progression` | 15 | 34 | 0 | 0 | 0 | 0 | 11 | REVIEW_REQUIRED |
 | `simply_swords_2` | 52 | 52 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `engineering_handbook` | 96 | 50 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `amateur_archaeologist` | 43 | 43 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `ars_nouveau` | 94 | 18 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `applied_energistics_2` | 135 | 13 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `Modern Industrialization` | 105 | 11 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `minecolonies` | 65 | 11 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `mekanism_part_2` | 102 | 9 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `ufo_future` | 65 | 8 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `pneumaticcraft` | 72 | 6 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `avaritia` | 75 | 5 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `ice_and_fire` | 88 | 5 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
@@ -80,7 +80,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 |---|---|---:|---|
 | `create_connected` | `2ADDA74C73C08DB2` | 12 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, DUPLICATE_DESCRIPTION |
 | `create_connected` | `30D6BFA1A3B6B205` | 12 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, DUPLICATE_DESCRIPTION |
-| `ufo_future` | `689F61EF65826A33` | 12 | NO_OPERATIONAL_GUIDANCE, HAS_REWARD, EXCESSIVE_ITEM_COUNT |
 | `Gadgets` | `2A2E1C7C34C9A4AA` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `2B29DDBADF11195E` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `40F1315207ADEB80` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -112,9 +111,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `divinerpg_codex` | `2685BED005B7CE85` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `divinerpg_codex` | `3A0EB475437F4169` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `dl_stellaris` | `128AF83728356D60` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `engineering_handbook` | `4A375E32DB624009` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `engineering_handbook` | `62686C560A771CB7` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `engineering_handbook` | `7B0FE78E09D054E2` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `extreme_reactors` | `7C4E4793DA887DE4` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `flux_networks` | `439C6C61A5263D31` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `heart_of_the_void` | `030E814BD568A97F` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -132,14 +128,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `mainquestline_part_1` | `4E5238F00CEED8B2` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `mainquestline_part_1` | `5124C00739DA3A59` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `mainquestline_part_1` | `701BF0AC3A57E4CF` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `085F473094778DCD` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `130E8FC7479E4271` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `1BB571557F74D3A1` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `1C16AEE8E29FB5A0` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `201CB898A399F1D5` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `493B9FC17C3CF3CA` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `49793060345FB28C` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `minecolonies` | `7870800C28A7E199` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `minimum_for_maximummfm` | `1F87798C942B893F` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `minimum_for_maximummfm` | `232F28C7B5A9F4DD` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `package_mod` | `54832AACF9BC8B54` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -178,3 +166,15 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `productive_bees` | `10DF9DE4B6C03D6B` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `productive_bees` | `114D668C691A2BDF` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `productive_bees` | `117241986C99E475` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `13C5C06278DD9C95` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `13CAD46F4B229AB4` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `150FB369BEFFCBBF` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `15288215A4BA2596` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `1540A9CDE2ED77E8` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `15C9CCCC8E06D430` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `16987C41D4F5BA47` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `170C31F3BAF050BC` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `176ACC61DC206E55` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `177199FED92C3B5B` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `17B18040EFA37F86` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
+| `productive_bees` | `18F948FF9FE015FB` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
