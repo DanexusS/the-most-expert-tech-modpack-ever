@@ -1,0 +1,117 @@
+{
+  "chapter_filename": "Modern Industrialization",
+  "chapter_id": "6A5B4531418CC297",
+  "chapter_title_en": "Modern Industrialization — Full Factory Engineering",
+  "chapter_title_ru": "Modern Industrialization — полная инженерия фабрики",
+  "report_filename": "MODERN_INDUSTRIALIZATION_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Modern Industrialization Catalogue Quality Report",
+  "report_intro": "Every Modern Industrialization catalogue node must explain its material form, machine tier, energy, fluid or multiblock role and include an operating acceptance check.",
+  "expected_quests": 105,
+  "minimum_description": 190,
+  "primary_namespace": "modern_industrialization",
+  "acceptance_namespace": "mi_catalog_acceptance",
+  "checkpoint_name": "MI Factory Checkpoint",
+  "title_suffix_en": "Factory Acceptance",
+  "title_suffix_ru": "фабричная приёмка",
+  "description_en": "{display} is a {role} in Modern Industrialization. The real requirement is a stable material and machine network with controlled voltage, fluids, byproducts and throughput rather than possession of one block.",
+  "description_ru": "{display} — {role} в Modern Industrialization. Реальное требование — стабильная сеть материалов и машин с контролем напряжения, жидкостей, побочных продуктов и скорости, а не владение одним блоком.",
+  "acceptance_en": "Acceptance: verify {focus}; complete a representative unattended batch, record energy, fluid and material reserves, test full output or power loss, and close loot, reward, trade, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую автономную партию, запишите резервы энергии, жидкостей и материалов, испытайте полный выход или потерю питания и закройте обходы через лут, награды, торговлю, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["ingot", "plate", "rod", "ring", "gear", "wire", "bolt", "tiny_dust", "dust", "foil", "rotor", "blade"],
+      "role_en": "industrial material form",
+      "role_ru": "промышленная форма материала",
+      "focus_en": "authoritative source material, forming machine, tool or mold return, batch buffer and tag-unification direction",
+      "focus_ru": "авторитетный исходный материал, формующую машину, возврат инструмента или формы, буфер партии и направление унификации тегов"
+    },
+    {
+      "tokens": ["bronze_boiler", "steel_boiler", "large_steam_boiler", "steam_turbine"],
+      "role_en": "steam-generation or conversion component",
+      "role_ru": "компонент генерации или преобразования пара",
+      "focus_en": "water reserve, fuel or heat input, steam output, pressure-safe buffer, turbine demand and clean shutdown",
+      "focus_ru": "резерв воды, топливо или тепло, выход пара, безопасный буфер, спрос турбины и чистую остановку"
+    },
+    {
+      "tokens": ["bronze_", "steam_"],
+      "role_en": "early steam-machine component",
+      "role_ru": "компонент ранней паровой машины",
+      "focus_en": "steam supply, input and output separation, recipe duration, exhaust or byproducts and unattended stack processing",
+      "focus_ru": "подачу пара, разделение входов и выходов, длительность рецепта, выхлоп или побочные продукты и автономную обработку стака"
+    },
+    {
+      "tokens": ["electric_", "lv_", "mv_", "hv_", "ev_", "superconductor"],
+      "role_en": "voltage-tier electrical component",
+      "role_ru": "электрический компонент уровня напряжения",
+      "focus_en": "voltage tier, amperage or EU demand, cable loss, transformer boundary, overvoltage protection and reserve capacity",
+      "focus_ru": "уровень напряжения, ток или EU, потери кабеля, границу трансформатора, защиту от перенапряжения и резерв"
+    },
+    {
+      "tokens": ["machine_hull", "casing", "coil", "motor", "piston", "robot_arm", "pump", "conveyor"],
+      "role_en": "machine-structure or electromechanical component",
+      "role_ru": "конструкционный или электромеханический компонент машины",
+      "focus_en": "previous-tier ancestry, material forms, motor or pump tier, reusable molds and continuous component stocking",
+      "focus_ru": "происхождение от предыдущего уровня, формы материалов, уровень мотора или насоса, многоразовые формы и постоянный запас компонентов"
+    },
+    {
+      "tokens": ["electronic_circuit", "digital_circuit", "quantum_circuit", "analog_circuit", "processing_unit"],
+      "role_en": "industrial control-circuit tier",
+      "role_ru": "уровень промышленной управляющей схемы",
+      "focus_en": "previous circuit tier, board and wire supply, clean-room or machine requirement, batch yield and stage authority",
+      "focus_ru": "предыдущий уровень схемы, снабжение платами и проводами, чистую комнату или машину, выход партии и авторитет этапа"
+    },
+    {
+      "tokens": ["macerator", "furnace", "compressor", "cutting_machine", "assembler", "wiremill", "bender", "lathe", "centrifuge", "electrolyzer", "mixer", "chemical_reactor", "distillery", "packer", "unpacker"],
+      "role_en": "single-block industrial processing machine",
+      "role_ru": "одноблочная промышленная машина",
+      "focus_en": "recipe lock, input and output buffers, fluid or tool requirements, power tier, byproducts and full-output shutdown",
+      "focus_ru": "фиксацию рецепта, буферы входов и выходов, требования жидкостей или инструментов, уровень питания, побочные продукты и остановку"
+    },
+    {
+      "tokens": ["large_", "multiblock", "blast_furnace", "vacuum_freezer", "fusion_reactor", "implosion_compressor", "distillation_tower"],
+      "role_en": "large industrial multiblock component",
+      "role_ru": "компонент крупного промышленного мультиблока",
+      "focus_en": "structure validity, hatch tiers, parallel recipes, heat or pressure requirement, maintenance access and recovery after interruption",
+      "focus_ru": "валидность структуры, уровни люков, параллельные рецепты, требования тепла или давления, обслуживание и восстановление после прерывания"
+    },
+    {
+      "tokens": ["tank", "pipe", "fluid_", "barrel"],
+      "role_en": "industrial fluid logistics or storage component",
+      "role_ru": "компонент промышленной жидкостной логистики или хранения",
+      "focus_en": "fluid compatibility, capacity, transfer rate, side ownership, overflow destination and prevention of accidental mixing",
+      "focus_ru": "совместимость жидкости, ёмкость, скорость передачи, владение сторонами, направление переполнения и защиту от смешивания"
+    },
+    {
+      "tokens": ["nuclear", "uranium", "plutonium", "reactor", "waste", "depleted"],
+      "role_en": "nuclear fuel or reactor-cycle component",
+      "role_ru": "компонент ядерного топлива или реакторного цикла",
+      "focus_en": "fuel preparation, reactor heat, coolant, depleted output, radiation or waste handling and emergency shutdown",
+      "focus_ru": "подготовку топлива, тепло реактора, охлаждение, отработанный выход, радиацию или отходы и аварийную остановку"
+    },
+    {
+      "tokens": ["singularity", "quantum", "replicator", "matter"],
+      "role_en": "late matter or quantum-production component",
+      "role_ru": "поздний компонент производства материи или квантовых систем",
+      "focus_en": "energy scale, data or matter input, previous circuit tier, cross-mod gate, output rate and prohibition of early replication",
+      "focus_ru": "масштаб энергии, данные или материю, предыдущий уровень схемы, межмодовый допуск, скорость выхода и запрет ранней репликации"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Modern Industrialization component",
+    "role_ru": "специализированный компонент Modern Industrialization",
+    "focus_en": "its material, voltage, fluid, tool, machine or multiblock contract and a safe blocked or unpowered state",
+    "focus_ru": "его контракт материала, напряжения, жидкости, инструмента, машины или мультиблока и безопасное заблокированное или обесточенное состояние"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod industrial integration component",
+    "role_ru": "межмодовый компонент промышленной интеграции",
+    "focus_en": "the external stage, authoritative material identity, conversion direction and absence of a cheaper substitute",
+    "focus_ru": "внешний этап, авторитетную идентичность материала, направление преобразования и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "industrial-factory design checkpoint",
+    "role_ru": "контрольная точка проектирования промышленной фабрики",
+    "focus_en": "documented voltage tree, steam and fluid budgets, component stock, byproduct routing, failure isolation and restart procedure",
+    "focus_ru": "задокументированное дерево напряжений, бюджеты пара и жидкостей, запас компонентов, побочные продукты, изоляцию отказа и перезапуск"
+  }
+}
