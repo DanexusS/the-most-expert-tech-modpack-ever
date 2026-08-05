@@ -84,6 +84,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += authorityCorrectionRegister(event, definition) ? 1 : 0
   })
-  console.info('[AuthorityCorrections] Registered ' + registered + '/' + definitions.length +
-    ' final authoritative component recipes.')
 })

@@ -404,6 +404,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += advancedPathRegister(event, definition) ? 1 : 0
   })
-  console.info('[AdvancedStagePaths] Registered ' + registered + '/' + definitions.length +
-    ' staged resource, logistics, energy and antimatter recipes.')
 })

@@ -514,6 +514,4 @@ ServerEvents.recipes(function(event) {
     }
   })
 
-  console.info('[ExpertProgressionV1] Registered ' + registered +
-    '/' + definitions.length + ' authoritative and intermediate recipes.')
 })

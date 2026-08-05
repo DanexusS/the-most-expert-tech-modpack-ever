@@ -166,5 +166,4 @@ ServerEvents.recipes(function(event) {
     registerExpertExtensionRecipe(event, recipe)
   })
 
-  console.info('[ExpertRecipeExtensions] Registered strategic midgame and endgame gates.')
 })

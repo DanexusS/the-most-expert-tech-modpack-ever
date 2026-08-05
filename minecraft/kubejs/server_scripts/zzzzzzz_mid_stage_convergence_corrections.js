@@ -64,6 +64,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += midConvergenceRecipe(event, definition) ? 1 : 0
   })
-  console.info('[MidStageConvergence] Registered ' + registered +
-    '/' + definitions.length + ' branch-complete convergence recipes.')
 })

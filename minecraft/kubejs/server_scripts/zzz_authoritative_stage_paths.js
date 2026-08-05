@@ -151,6 +151,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += v1PathRegister(event, definition) ? 1 : 0
   })
-  console.info('[AuthoritativeStagePaths] Registered ' + registered +
-    '/' + definitions.length + ' corrected progression paths.')
 })

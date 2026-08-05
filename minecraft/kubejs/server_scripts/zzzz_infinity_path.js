@@ -42,5 +42,4 @@ ServerEvents.recipes(function(event) {
 
   event.remove({ output: definition.output })
   event.shaped(definition.output, definition.pattern, definition.key).id(definition.id)
-  console.info('[InfinityPath] Registered fair cross-mod Infinity Ingot convergence recipe.')
 })

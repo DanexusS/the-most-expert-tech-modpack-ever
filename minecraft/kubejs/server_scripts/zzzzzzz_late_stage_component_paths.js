@@ -375,6 +375,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += latePathRegister(event, definition) ? 1 : 0
   })
-  console.info('[LateStagePaths] Registered ' + registered + '/' + definitions.length +
-    ' late-stage component and milestone recipes.')
 })

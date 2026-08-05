@@ -60,6 +60,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += stageOrderRecipe(event, definition) ? 1 : 0
   })
-  console.info('[StageOrderCorrections] Registered ' + registered +
-    '/' + definitions.length + ' stage-order corrections.')
 })

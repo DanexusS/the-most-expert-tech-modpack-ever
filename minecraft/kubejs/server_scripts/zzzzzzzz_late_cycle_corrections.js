@@ -59,6 +59,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += lateCorrectionRecipe(event, definition) ? 1 : 0
   })
-  console.info('[LateCycleCorrections] Registered ' + registered + '/' + definitions.length +
-    ' cycle-free intermediate recipes.')
 })

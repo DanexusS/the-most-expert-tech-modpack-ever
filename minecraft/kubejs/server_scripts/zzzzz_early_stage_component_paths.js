@@ -369,6 +369,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += earlyPathRegister(event, definition) ? 1 : 0
   })
-  console.info('[EarlyStagePaths] Registered ' + registered + '/' + definitions.length +
-    ' fair multi-step stage recipes.')
 })

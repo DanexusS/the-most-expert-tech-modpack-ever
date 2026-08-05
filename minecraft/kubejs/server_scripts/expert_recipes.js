@@ -316,5 +316,4 @@ ServerEvents.recipes(function(event) {
     registerExpertShaped(event, recipe)
   })
 
-  console.info('[ExpertRecipes] Multi-branch cross-mod expert progression recipes registered.')
 })

@@ -34,7 +34,7 @@ This static safeguard verifies low-risk configuration, bounded questbook growth 
 | Total questbook size | `5970/6000` | PASS |
 | KubeJS JavaScript files | `206/220` | PASS |
 | Event subscriptions | `198/220` | PASS |
-| Explicit console calls | `31/35` | PASS |
+| Explicit console calls | `18/35` | PASS |
 
 ## Runtime measurements still required
 

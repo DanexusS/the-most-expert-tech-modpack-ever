@@ -357,6 +357,4 @@ ServerEvents.recipes(function(event) {
   definitions.forEach(function(definition) {
     registered += midPathRegister(event, definition) ? 1 : 0
   })
-  console.info('[MidStagePaths] Registered ' + registered + '/' + definitions.length +
-    ' staged manufacturing recipes.')
 })
