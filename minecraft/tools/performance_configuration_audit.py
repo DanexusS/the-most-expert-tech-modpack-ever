@@ -6,9 +6,11 @@ import sys
 from pathlib import Path
 
 import generate_early_stage_workflow_expansions as workflow
+from mid_stage_workflow_profiles import MID_STAGE_WORKFLOW_PROFILES
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY_PATH = ROOT / "config" / "expert_performance_policy.json"
+CONTRACT_PATH = ROOT / "config" / "expert_progression_contract.json"
 QUEST_DATA_PATH = ROOT / "config" / "ftbquests" / "quests" / "data.snbt"
 COROUTIL_PATH = ROOT / "config" / "CoroUtil" / "General.toml"
 COMBAT_PATH = ROOT / "kubejs" / "server_scripts" / "combat_scaling.js"
@@ -32,7 +34,19 @@ def toml_bool(text: str, key: str) -> bool | None:
 
 
 def main() -> int:
+    overlap = set(workflow.WORKFLOW_STAGES) & set(MID_STAGE_WORKFLOW_PROFILES)
+    if overlap:
+        raise RuntimeError(
+            "Duplicate workflow stage profiles: " + ", ".join(sorted(overlap))
+        )
+    workflow.WORKFLOW_STAGES.update(MID_STAGE_WORKFLOW_PROFILES)
+
     policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
+    contract = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+    stage_indexes = {
+        stage["id"]: int(stage["index"])
+        for stage in contract["stages"]
+    }
     quest_data = QUEST_DATA_PATH.read_text(encoding="utf-8")
     coroutil = COROUTIL_PATH.read_text(encoding="utf-8")
     combat = COMBAT_PATH.read_text(encoding="utf-8")
@@ -107,13 +121,14 @@ def main() -> int:
 
     optimization_total = 0
     optimization_missing: list[str] = []
-    for stage_id in sorted(workflow.expanded_stage_ids()):
-        index = {
-            "field_foundations": 1,
-            "steam_metallurgy": 2,
-            "regulated_electricity": 3,
-            "kinetic_automation": 4,
-        }[stage_id]
+    for stage_id in sorted(
+        workflow.expanded_stage_ids(),
+        key=lambda value: stage_indexes.get(value, 10_000),
+    ):
+        index = stage_indexes.get(stage_id)
+        if index is None:
+            optimization_missing.append(f"{stage_id}:missing-contract-stage")
+            continue
         chapter = ROOT / "config" / "ftbquests" / "quests" / "chapters" / f"main_stage_{index:02d}_{stage_id}.snbt"
         text = chapter.read_text(encoding="utf-8") if chapter.is_file() else ""
         for step in workflow.OPTIMIZATION_STEPS:
