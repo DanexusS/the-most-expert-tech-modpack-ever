@@ -7,20 +7,17 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 - Legacy chapters analysed: **57**
 - Legacy quests and malformed objects analysed: **3324**
 - Malformed quest objects: **0**
-- Chapters requiring rewrite: **13**
+- Chapters requiring rewrite: **10**
 - Chapters requiring review: **5**
 - Empty chapters requiring a keep/remove decision: **0**
-- Duplicate description groups: **64**
+- Duplicate description groups: **63**
 
 ## Chapter remediation queue
 
 | Chapter | Objects | Risk score | High risk | Malformed | Item-only | Missing guidance | Rewards | Classification |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
-| `create_crafts__additions` | 27 | 273 | 27 | 0 | 27 | 27 | 27 | REWRITE_REQUIRED |
 | `dl_stellaris` | 29 | 270 | 29 | 0 | 21 | 29 | 29 | REWRITE_REQUIRED |
 | `heart_of_the_void` | 26 | 270 | 26 | 0 | 26 | 26 | 25 | REWRITE_REQUIRED |
-| `package_mod` | 27 | 265 | 27 | 0 | 25 | 27 | 27 | REWRITE_REQUIRED |
-| `create_connected` | 26 | 258 | 26 | 0 | 25 | 26 | 25 | REWRITE_REQUIRED |
 | `when_dungeons_arise` | 31 | 248 | 31 | 0 | 0 | 31 | 31 | REWRITE_REQUIRED |
 | `minimum_for_maximummfm` | 25 | 240 | 24 | 0 | 18 | 25 | 24 | REWRITE_REQUIRED |
 | `apotheosis_2` | 22 | 213 | 22 | 0 | 18 | 22 | 22 | REWRITE_REQUIRED |
@@ -55,6 +52,7 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `mystical_ag` | 141 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `tfmg_chemistry` | 35 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `tfmg_steel` | 39 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `create_crafts__additions` | 27 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `draconic_evolution` | 111 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `mekanism_part_1` | 78 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `projecte` | 29 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
@@ -65,12 +63,14 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `tfmg_electricity` | 44 | 2 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `allthemodium` | 31 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `cataclysm` | 79 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `create_connected` | 26 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `create_stuff_n_additions` | 36 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `extended_crafting` | 43 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `extreme_reactors` | 30 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `hostile_neural_networks` | 51 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `immersive_engineering` | 46 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `other_storage_systems` | 104 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `package_mod` | 27 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `powah` | 74 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `woot` | 58 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 
@@ -78,8 +78,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 
 | Chapter | Quest/Object ID | Score | Flags |
 |---|---|---:|---|
-| `create_connected` | `2ADDA74C73C08DB2` | 12 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, DUPLICATE_DESCRIPTION |
-| `create_connected` | `30D6BFA1A3B6B205` | 12 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, DUPLICATE_DESCRIPTION |
 | `Gadgets` | `2A2E1C7C34C9A4AA` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `2B29DDBADF11195E` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `40F1315207ADEB80` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -91,9 +89,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `automation_challenges` | `51DFDEAC05124ED6` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `automation_challenges` | `69529ABB3E76DC19` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `automation_challenges` | `6A569C5B3D593EEA` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `create_crafts__additions` | `43E4EE94BB396A7C` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `create_crafts__additions` | `4FCCEB8B6A6AA643` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `create_crafts__additions` | `7B6E46D719CFB570` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `creative_items` | `087144F5252E5FF5` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `creative_items` | `7C31E7904E8DD77C` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `divinerpg` | `1086BBFA8FB8AA80` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -115,7 +110,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `heart_of_the_void` | `79D9840E56157DCB` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `minimum_for_maximummfm` | `1F87798C942B893F` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `minimum_for_maximummfm` | `232F28C7B5A9F4DD` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `package_mod` | `54832AACF9BC8B54` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `68107A111627BD77` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis_2` | `00588B2FDB99874D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis_2` | `0D6D45DBA64E612D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
@@ -142,39 +136,45 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `combat_trials` | `28FE5C4EF2C287CA` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `combat_trials` | `6D2A03C2AF9E2BE3` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `combat_trials` | `6D743B95130671AE` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `00654F576522DDCA` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `1A61ABEC34369F47` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `1D197B1919452187` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `1E01AC22D5903AD1` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `261ABBDC3DABD8B3` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `2AF85A5EE9A8CCBA` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `2F6B432512FA2A65` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `35F24F6E403AADA1` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `4A47E558AD90EB64` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `4EC20D5D0EEC1DF7` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `4EC499B88FBFA01C` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `54589F10802DFE16` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `63B4B83F528E6AD6` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `63E8F78EEA3063F7` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `6832CFEAFA7922E8` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `69816C16E81355E8` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `6B7188472F6ED6AF` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `6B8966D7EA9BB5FB` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `6DE8ACA4F08C420E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `6FE2FE40C2F60183` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `7AA7094E591A373B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `7EB1BE897B2B8C1A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_connected` | `7F5D32DA7E8D094F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `00ACD837E30165B3` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `0354DB37FD2030EE` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `0488989FD7F5AF42` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `0834527ED1C0E83B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `0B8148DAF5CC9DF1` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `0C8F501F6BDFFB92` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `113E1D3C37C63088` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `17709C4D6222244B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `1F36CF5D11E08839` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `215D766150B54B17` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `22AC3C79141AB3FC` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `36760F31374EB61E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `create_crafts__additions` | `39124F73B82400F4` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `0E01D082BFC07BF4` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `1BEEB1B3081EA395` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `2457221FA3BDC0CB` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `25DF45F80400A12F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `2C1AB8A598E5BFB3` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `3B118C4351749B71` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `3BDF340E0327AEE4` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `3DF8B525061EC953` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `42A3D1BBCF05AEF9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `442BB17AE7AC4936` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `508F41D6286655ED` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `53776E966FE9B0A0` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `5F86D3C647B91BD4` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `6518A54F5163C106` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `71CD58F48960B657` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `785460A567666B2D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `creative_items` | `7D4AFD1FFF1326A9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `divinerpg_codex` | `0EA838E3062775AB` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `divinerpg_codex` | `14F3BA3DDC607758` | 10 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `04F8C9922D2F3BC3` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `3063CA76F5A02422` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `36C32C9F7271DB7B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `45C02BA617A092FC` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `518D71CFF03E0A96` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `537FEA93C4D1E084` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `55AD5F4C1CDDCE35` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `560AF08F81A2D904` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `5685710C9FE8C918` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `58F63AEBB7F5241A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `5960A0A84D0D98B2` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `5AAFDED22803AE85` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `5B99D103BD8A2507` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `61E4661095098FC0` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `637C95233A2AF9E2` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `6657B2892F72C3EE` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `68DBCC34C70AEF1A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `6C4B5F02B8A6AFD0` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `6F8577EACCE26F1F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `72E4DF206C33D50D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dl_stellaris` | `776DACB7E66AAE5A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dyson_cube_project` | `0B951A1F67328A1B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `dyson_cube_project` | `0CA317D971204E58` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |

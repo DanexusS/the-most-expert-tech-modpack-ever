@@ -19,7 +19,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Bypass closure | PASS |
 | Cataclysm Catalog | PASS |
 | Create Catalog | PASS |
+| Create Connected Routing | PASS |
 | Create Core | PASS |
+| Create Crafts Additions Operational | PASS |
 | Create Stuff N Additions Catalog | PASS |
 | Draconic Evolution Catalog | PASS |
 | Ender Io Catalog | PASS |
@@ -41,6 +43,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Modern Industrialization Catalog | PASS |
 | Mystical Agriculture | PASS |
 | Occultism Catalog | PASS |
+| Packaged Automation Contract | PASS |
 | Performance Configuration | PASS |
 | Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
@@ -69,10 +72,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5545 / 5970 | IN PROGRESS |
-| Single item-only ratio | 4.8% / ≤30% | PASS |
+| RU/EN descriptions | 5625 / 5970 | IN PROGRESS |
+| Single item-only ratio | 3.5% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 425 | IN PROGRESS |
+| Remaining without full RU/EN | 345 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
