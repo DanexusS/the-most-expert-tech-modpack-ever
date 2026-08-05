@@ -324,7 +324,12 @@
 				id: "4C9CFE5F9A187566"
 				item: { count: 1, id: "iceandfire:manuscript" }
 				type: "item"
-			}]
+			}
+			{
+				id: "690AC1C6CF4982F9"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -1.0d
 		}
@@ -335,7 +340,12 @@
 				id: "121C84F95D15E27E"
 				item: { count: 1, id: "iceandfire:bestiary" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C4AC6A326BC6D3C5"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -1.0d
 		}
@@ -346,7 +356,12 @@
 				id: "3A4921628E495CE5"
 				item: { count: 1, id: "iceandfire:lectern" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7B8BB8280603EFA8"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: -1.0d
 		}
@@ -357,7 +372,12 @@
 				id: "217DE7B1B0461FAD"
 				item: { count: 1, id: "iceandfire:dragon_seeker" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DF3B8B78AB9A5D8E"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: -1.0d
 		}
@@ -368,7 +388,12 @@
 				id: "698C12499930E2D7"
 				item: { count: 1, id: "iceandfire:epic_dragon_seeker" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7C73246C02FF8A9A"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: 1.0d
 		}
@@ -379,7 +404,12 @@
 				id: "78BC1DB9C4820B0D"
 				item: { count: 1, id: "iceandfire:legendary_dragon_seeker" }
 				type: "item"
-			}]
+			}
+			{
+				id: "950EFAAC234C97E9"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: 1.0d
 		}
@@ -391,7 +421,12 @@
 				criterion: ""
 				id: "582C0DB8FDCE1C93"
 				type: "advancement"
-			}]
+			}
+			{
+				id: "824C9FF82F251553"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: -1.0d
 		}
@@ -404,7 +439,12 @@
 				criterion: ""
 				id: "1A9DB9ED3E2B15F0"
 				type: "advancement"
-			}]
+			}
+			{
+				id: "E31C95785A877101"
+				type: "checkmark"
+			}
+			]
 			x: 10.5d
 			y: -1.0d
 		}
@@ -415,7 +455,12 @@
 				id: "17350BBA7BF84C31"
 				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0712954D529B4CD5"
+				type: "checkmark"
+			}
+			]
 			x: 12.5d
 			y: -3.5d
 		}
@@ -426,7 +471,12 @@
 				id: "5E749A7F3ABBCE6F"
 				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "50641485751FF1A1"
+				type: "checkmark"
+			}
+			]
 			x: 13.0d
 			y: -1.0d
 		}
@@ -437,7 +487,12 @@
 				id: "7BB497E0936AEA8A"
 				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "06B915FD7A64F12B"
+				type: "checkmark"
+			}
+			]
 			x: 12.5d
 			y: 1.5d
 		}
@@ -467,6 +522,11 @@
 					item: { count: 1, id: "iceandfire:dragon_bone_block" }
 					type: "item"
 				}
+			
+			{
+				id: "F68D21157018C184"
+				type: "checkmark"
+			}
 			]
 			x: 15.0d
 			y: -3.5d
@@ -497,6 +557,11 @@
 					item: { count: 1, id: "iceandfire:dragon_bone_block" }
 					type: "item"
 				}
+			
+			{
+				id: "41F2094DB226EC11"
+				type: "checkmark"
+			}
 			]
 			x: 15.0d
 			y: -1.0d
@@ -527,6 +592,11 @@
 					item: { count: 1, id: "iceandfire:dragon_bone_block" }
 					type: "item"
 				}
+			
+			{
+				id: "AD9D4FA8FEE7C7CD"
+				type: "checkmark"
+			}
 			]
 			x: 15.0d
 			y: 1.5d
@@ -538,7 +608,12 @@
 				id: "5D1B484A7BCFA449"
 				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1F96AFC705ED321B"
+				type: "checkmark"
+			}
+			]
 			x: 17.0d
 			y: -5.5d
 		}
@@ -549,7 +624,12 @@
 				id: "256DC4D163208AE6"
 				item: { count: 1, id: "iceandfire:ice_dragon_blood" }
 				type: "item"
-			}]
+			}
+			{
+				id: "40CB0B999ECE1CDB"
+				type: "checkmark"
+			}
+			]
 			x: 17.5d
 			y: -1.0d
 		}
@@ -560,67 +640,60 @@
 				id: "540290724C8CD7C3"
 				item: { count: 1, id: "iceandfire:lightning_dragon_blood" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4B4BABF7BBA037E9"
+				type: "checkmark"
+			}
+			]
 			x: 17.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["64836D86D076ABA0"]
 			id: "05A207547B1FFEF3"
-			rewards: [{
-				count: 5
-				id: "32C5D159BBBB8340"
-				item: {
-					count: 1
-					id: "iceandfire:dragonsteel_ice_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B4BD711BFE3A8FC"
 				item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "82A6D3F6E9A84720"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4B1A1A336C95C9AE"]
 			id: "5C946629EE6FB9B1"
-			rewards: [{
-				count: 5
-				id: "5972B76E094D3905"
-				item: {
-					count: 1
-					id: "iceandfire:dragonsteel_fire_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "14C240879D6F1519"
 				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B7A858D5AD579547"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["32493BEB1C0E2598"]
 			id: "7656118B385A67FF"
-			rewards: [{
-				count: 5
-				id: "23F1B091BDA20380"
-				item: {
-					count: 1
-					id: "iceandfire:dragonsteel_lightning_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "78E79A0749E234C4"
 				item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CB8D95972EED9478"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: 3.5d
 		}
@@ -631,7 +704,12 @@
 				id: "1802C0F254470A10"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:ice_dragonsteel" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				type: "item"
-			}]
+			}
+			{
+				id: "57C92F405436CAA9"
+				type: "checkmark"
+			}
+			]
 			x: 17.5d
 			y: 1.0d
 		}
@@ -642,7 +720,12 @@
 				id: "5D211151FFCACD24"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:fire_dragonsteel" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				type: "item"
-			}]
+			}
+			{
+				id: "77709DAF9EB9D014"
+				type: "checkmark"
+			}
+			]
 			x: 17.0d
 			y: -7.5d
 		}
@@ -653,7 +736,12 @@
 				id: "5D06971999B08496"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:lightning_dragonsteel" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E67C4808E93D416C"
+				type: "checkmark"
+			}
+			]
 			x: 17.0d
 			y: 5.5d
 		}
@@ -686,6 +774,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_ice_hoe" }
 					type: "item"
 				}
+			
+			{
+				id: "54D5B46918895166"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: -1.0d
@@ -714,6 +807,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_ice_boots" }
 					type: "item"
 				}
+			
+			{
+				id: "FD9B8AD69CB35DE5"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: 1.5d
@@ -742,6 +840,11 @@
 					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_ice_tail" }
 					type: "item"
 				}
+			
+			{
+				id: "246D6DE63A1E4681"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: -3.5d
@@ -775,6 +878,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_fire_hoe" }
 					type: "item"
 				}
+			
+			{
+				id: "837CC0BF45E53675"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: -8.5d
@@ -803,6 +911,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_fire_boots" }
 					type: "item"
 				}
+			
+			{
+				id: "47C19E2428BFEC03"
+				type: "checkmark"
+			}
 			]
 			x: 20.0d
 			y: -8.5d
@@ -831,6 +944,11 @@
 					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_tail" }
 					type: "item"
 				}
+			
+			{
+				id: "EF5A07044A9E2111"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: -5.5d
@@ -859,6 +977,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_lightning_boots" }
 					type: "item"
 				}
+			
+			{
+				id: "B9509DACD241F437"
+				type: "checkmark"
+			}
 			]
 			x: 20.0d
 			y: 6.5d
@@ -892,6 +1015,11 @@
 					item: { count: 1, id: "iceandfire:dragonsteel_lightning_hoe" }
 					type: "item"
 				}
+			
+			{
+				id: "75ACD8DF5BDED8DB"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: 6.5d
@@ -920,6 +1048,11 @@
 					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_lightning_tail" }
 					type: "item"
 				}
+			
+			{
+				id: "0D8D6DC511709964"
+				type: "checkmark"
+			}
 			]
 			x: 23.0d
 			y: 3.5d
@@ -942,7 +1075,12 @@
 				id: "4DAACEC78D833170"
 				item: { count: 1, id: "iceandfire:dragon_horn" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6118676081760E82"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 3.0d
 		}
@@ -953,7 +1091,12 @@
 				id: "26BB93F62ABA569C"
 				item: { count: 1, id: "iceandfire:dragon_meal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3FC4BF4E0F4AB2B9"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: 3.0d
 		}
@@ -964,7 +1107,12 @@
 				id: "73AADBFCE3B97D21"
 				item: { count: 1, id: "iceandfire:sickly_dragon_meal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "214871DA57942DE8"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: 5.0d
 		}
@@ -975,7 +1123,12 @@
 				id: "3A8EAF53B58CCE78"
 				item: { count: 1, id: "iceandfire:dragon_stick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E94298F9A90B67C1"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 5.0d
 		}
@@ -986,7 +1139,12 @@
 				id: "3B0DE6251F4E3160"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "94F1404A549176C7"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: -4.0d
 		}
@@ -997,7 +1155,12 @@
 				id: "5C2ADEE253BE17A9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/sea_serpent)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A9852564EFD638D6"
+				type: "checkmark"
+			}
+			]
 			x: 7.5d
 			y: -5.5d
 		}
@@ -1012,7 +1175,12 @@
 				id: "574A1E633D2DEBAB"
 				item: { count: 1, id: "iceandfire:shiny_scales" }
 				type: "item"
-			}]
+			}
+			{
+				id: "82B82879843EFFDC"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: -5.5d
 		}
@@ -1023,7 +1191,12 @@
 				id: "75FF74B300D441AB"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "2EDF5DBE5BB72DA6"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: -7.0d
 		}
@@ -1034,7 +1207,12 @@
 				id: "3E48AF0378F71186"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "1015E032E94772A0"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: -4.0d
 		}
@@ -1044,7 +1222,12 @@
 				id: "626325D93E41E2D7"
 				item: { count: 1, id: "iceandfire:earplugs" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CA33160336B9E78D"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -7.0d
 		}
@@ -1058,7 +1241,12 @@
 				id: "011552FEAC1CDD3B"
 				item: { count: 1, id: "iceandfire:tide_trident" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FE26F7AA2C49D183"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: -7.0d
 		}
@@ -1085,7 +1273,12 @@
 				id: "1D9688737B81FC9F"
 				item: { count: 1, id: "iceandfire:sea_serpent_fang" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D55BBF2BA69FC2FD"
+				type: "checkmark"
+			}
+			]
 			x: 10.5d
 			y: -5.5d
 		}
@@ -1109,7 +1302,12 @@
 				id: "4F11491451CE8CC3"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "C252D494246A844A"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 5.0d
 		}
@@ -1120,7 +1318,12 @@
 				id: "786D5459FD73B64C"
 				item: { count: 1, id: "iceandfire:cyclops_eye" }
 				type: "item"
-			}]
+			}
+			{
+				id: "54485FCDC77C9E34"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 5.0d
 		}
@@ -1133,7 +1336,12 @@
 				id: "17740D4FEFDDEEC6"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "DBDA6C84593BAA19"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 8.0d
 		}
@@ -1144,7 +1352,12 @@
 				id: "0BB84DC2604CEB1F"
 				item: { count: 1, id: "iceandfire:troll_leather_forest" }
 				type: "item"
-			}]
+			}
+			{
+				id: "426E3A8C8FBAE0D1"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 7.5d
 		}
@@ -1155,7 +1368,12 @@
 				id: "75D0161A811C40D4"
 				item: { count: 1, id: "iceandfire:troll_leather_frost" }
 				type: "item"
-			}]
+			}
+			{
+				id: "015167919B492DFA"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 8.5d
 		}
@@ -1166,7 +1384,12 @@
 				id: "3838D3614058A7A1"
 				item: { count: 1, id: "iceandfire:troll_leather_mountain" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C904053FB719FB11"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 6.5d
 		}
@@ -1177,7 +1400,12 @@
 				id: "7A331BC2E22D2CF4"
 				item: { count: 1, id: "iceandfire:troll_tusk" }
 				type: "item"
-			}]
+			}
+			{
+				id: "102C6E7DE84E55ED"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 9.5d
 		}
@@ -1209,7 +1437,12 @@
 				id: "02A141BEA7E4ED2E"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "884BB0D7D9BE0338"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 12.0d
 		}
@@ -1220,7 +1453,12 @@
 				id: "6A173240B3B4D643"
 				item: { count: 1, id: "iceandfire:ectoplasm" }
 				type: "item"
-			}]
+			}
+			{
+				id: "96DD74000B1916F8"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 11.0d
 		}
@@ -1231,7 +1469,12 @@
 				id: "7740350EC7EE6981"
 				item: { count: 1, id: "iceandfire:ghost_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3012C9EEF7F4EFB2"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 12.0d
 		}
@@ -1242,7 +1485,12 @@
 				id: "4DD04212E2631B96"
 				item: { count: 1, id: "iceandfire:ghost_sword" }
 				type: "item"
-			}]
+			}
+			{
+				id: "67134D2593E64163"
+				type: "checkmark"
+			}
+			]
 			x: -6.5d
 			y: 12.0d
 		}
@@ -1255,7 +1503,12 @@
 				id: "38888E2F6777C159"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "AAA20EA3019D1FDF"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 5.0d
 		}
@@ -1266,7 +1519,12 @@
 				id: "6AB1377E71842759"
 				item: { count: 1, id: "iceandfire:amphithere_feather" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9EB41C0BC70E631C"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 5.0d
 		}
@@ -1277,7 +1535,12 @@
 				id: "7DA40F840C500AEB"
 				item: { count: 1, id: "iceandfire:amphithere_macuahuitl" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CD50D7C7D2D6CE5D"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 5.0d
 		}
@@ -1290,7 +1553,12 @@
 				id: "0AA09F0F83132102"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "383FDFA831C5AAD1"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 8.0d
 		}
@@ -1301,7 +1569,12 @@
 				id: "3AC3498C66818CB1"
 				item: { count: 1, id: "iceandfire:pixie_dust" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BB4C24B2B0B9637F"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 7.0d
 		}
@@ -1312,7 +1585,12 @@
 				id: "37F2A4E44A7B8D77"
 				item: { count: 1, id: "iceandfire:pixie_wings" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A00197BC85E68202"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 9.0d
 		}
@@ -1323,7 +1601,12 @@
 				id: "334A684E6C74EF11"
 				item: { count: 1, id: "iceandfire:pixie_wand" }
 				type: "item"
-			}]
+			}
+			{
+				id: "933102BC83C6EB7E"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 9.0d
 		}
@@ -1334,7 +1617,12 @@
 				id: "52A94C85E0A1A6C0"
 				item: { count: 1, id: "iceandfire:ambrosia" }
 				type: "item"
-			}]
+			}
+			{
+				id: "18FE06F4088EDCBD"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 7.0d
 		}
@@ -1346,7 +1634,12 @@
 				id: "3C63A95DC2AECE54"
 				item: { count: 1, id: "iceandfire:pixie_jar_empty" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0E18153C915B8E33"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 8.0d
 		}
@@ -1359,7 +1652,12 @@
 				id: "766C20D9D0418821"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "00AC8466EEA06DA8"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 11.5d
 		}
@@ -1370,7 +1668,12 @@
 				id: "46EBFF947C441B78"
 				item: { count: 1, id: "iceandfire:hippogryph_talon" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E09AFB32FC3EEF92"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 11.0d
 		}
@@ -1381,7 +1684,12 @@
 				id: "04F80C4B3929B155"
 				item: { count: 1, id: "iceandfire:hippogryph_sword" }
 				type: "item"
-			}]
+			}
+			{
+				id: "93A1FF1A106C9553"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 11.0d
 		}
@@ -1392,7 +1700,12 @@
 				id: "524CF503FB66D934"
 				item: { count: 1, id: "iceandfire:hippocampus_slapper" }
 				type: "item"
-			}]
+			}
+			{
+				id: "56E0A1DD28DAB1A9"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -4.5d
 		}
@@ -1403,7 +1716,12 @@
 				id: "1452FEB611A5BFB2"
 				item: { count: 1, id: "iceandfire:hippocampus_fin" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B059D8551640A2F2"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1415,7 +1733,12 @@
 				id: "6444D2C2358F27F5"
 				item: { count: 1, id: "minecraft:rabbit_foot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E097A9C2B4491092"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 12.0d
 		}
@@ -1441,7 +1764,12 @@
 				id: "041CE870677C7B90"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "BE9F6A9B00BDAAFC"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 14.5d
 		}
@@ -1452,7 +1780,12 @@
 				id: "280A01FA163D794E"
 				item: { count: 1, id: "iceandfire:witherbone" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C16AF4B9AE058935"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 14.5d
 		}
@@ -1463,7 +1796,12 @@
 				id: "6F9F43514A13AB62"
 				item: { count: 1, id: "iceandfire:wither_shard" }
 				type: "item"
-			}]
+			}
+			{
+				id: "983EE95789F90E94"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 13.5d
 		}
@@ -1478,7 +1816,12 @@
 				id: "07553F8576CA58CE"
 				item: { count: 1, id: "iceandfire:cockatrice_scepter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5F22AECFE07E25DA"
+				type: "checkmark"
+			}
+			]
 			x: -6.5d
 			y: 14.5d
 		}
@@ -1489,7 +1832,12 @@
 				id: "4A1C1838DF867A83"
 				item: { count: 1, id: "iceandfire:cockatrice_eye" }
 				type: "item"
-			}]
+			}
+			{
+				id: "14348AB80B86D224"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 15.5d
 		}
@@ -1515,7 +1863,12 @@
 				id: "6BFC94C1E1303BA3"
 				item: { count: 1, id: "iceandfire:dragon_flute" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D5910639DC0C79BC"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: -2.0d
 		}
@@ -1528,7 +1881,12 @@
 				id: "64AFFD13BB1894D7"
 				type: "kill"
 				value: 1L
-			}]
+			}
+			{
+				id: "9319B10B727E36A2"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1539,7 +1897,12 @@
 				id: "4596808062013176"
 				item: { count: 1, id: "iceandfire:stymphalian_bird_feather" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2C0FD000CF6C2423"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 14.5d
 		}
@@ -1550,7 +1913,12 @@
 				id: "27903C47F3C6946E"
 				item: { count: 1, id: "iceandfire:stymphalian_feather_bundle" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4D43ECAA68597C2B"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 13.5d
 		}
@@ -1561,7 +1929,12 @@
 				id: "0EAECBDF3D3DE516"
 				item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E48AFFC26D2E4A2C"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 14.5d
 		}
@@ -1572,7 +1945,12 @@
 				id: "15579830FA53ACEF"
 				item: { count: 1, id: "iceandfire:stymphalian_arrow" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A4A1F55EE1EDF75B"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 15.5d
 		}

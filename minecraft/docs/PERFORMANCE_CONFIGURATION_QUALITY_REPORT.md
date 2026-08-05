@@ -31,7 +31,7 @@ This static safeguard verifies low-risk configuration, bounded questbook growth 
 | Workflow optimization quests | `90/90` | PASS |
 | Depth optimization quests | `180/180` | PASS |
 | Mandatory quests per stage | `min=121, max=121` | PASS |
-| Total questbook size | `5640/6000` | PASS |
+| Total questbook size | `5970/6000` | PASS |
 | KubeJS JavaScript files | `205/220` | PASS |
 | Event subscriptions | `197/220` | PASS |
 | Explicit console calls | `30/35` | PASS |

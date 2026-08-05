@@ -11,6 +11,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ae2 Catalog | PASS |
 | Ae2 Core | PASS |
 | All Manual | PASS |
+| Amateur Archaeologist Catalog | PASS |
 | Ars Nouveau Catalog | PASS |
 | Avaritia Catalog | PASS |
 | Bypass closure | PASS |
@@ -21,9 +22,11 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ender Io Catalog | PASS |
 | Extended Crafting Catalog | PASS |
 | Hostile Neural Networks | PASS |
+| Ice And Fire Catalog | PASS |
 | Ie Core | PASS |
 | Industrial Foregoing | PASS |
 | Mekanism Core | PASS |
+| Mekanism Part 1 Catalog | PASS |
 | Mekanism Part 2 Catalog | PASS |
 | Mi Core | PASS |
 | Mob Grinding Utils Catalog | PASS |
@@ -50,11 +53,11 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 5604 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 4539 / 5604 | IN PROGRESS |
-| Single item-only ratio | 14.1% / ≤30% | PASS |
+| Total quests | 5970 / 5,000–6,000 | PASS |
+| RU/EN descriptions | 4736 / 5970 | IN PROGRESS |
+| Single item-only ratio | 15.8% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 1065 | IN PROGRESS |
+| Remaining without full RU/EN | 1234 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
