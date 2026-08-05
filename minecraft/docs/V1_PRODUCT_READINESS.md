@@ -38,6 +38,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Rftools Catalog | PASS |
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
+| Stage Project Matrix | PASS |
 | Storage Systems Core | PASS |
 | Theoretical balance | PASS |
 | Woot | PASS |
@@ -46,9 +47,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 2161 / 3318 | IN PROGRESS |
-| Single item-only ratio | 26.5% / ≤30% | PASS |
+| Total quests | 3498 / 5,000–6,000 | IN PROGRESS |
+| RU/EN descriptions | 2341 / 3498 | IN PROGRESS |
+| Single item-only ratio | 25.2% / ≤30% | PASS |
 
 ## Selected gameplay guide specification
 
