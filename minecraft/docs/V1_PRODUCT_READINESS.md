@@ -26,6 +26,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ice And Fire Catalog | PASS |
 | Ie Core | PASS |
 | Industrial Foregoing | PASS |
+| Mainquestline Part 1 Catalog | PASS |
 | Mekanism Core | PASS |
 | Mekanism Part 1 Catalog | PASS |
 | Mekanism Part 2 Catalog | PASS |
@@ -38,6 +39,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Performance Configuration | PASS |
 | Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
+| Productive Bees Catalog | PASS |
 | Progression contract | PASS |
 | Quest | PASS |
 | Recipe dependency graph | PASS |
@@ -48,6 +50,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Stage Depth Program | PASS |
 | Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
+| Tfmg Electricity Catalog | PASS |
 | Theoretical balance | PASS |
 | Ufo Future Catalog | PASS |
 | Woot | PASS |
@@ -57,10 +60,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 4916 / 5970 | IN PROGRESS |
-| Single item-only ratio | 13.5% / ≤30% | PASS |
+| RU/EN descriptions | 5238 / 5970 | IN PROGRESS |
+| Single item-only ratio | 8.5% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 1054 | IN PROGRESS |
+| Remaining without full RU/EN | 732 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
