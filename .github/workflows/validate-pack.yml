@@ -51,98 +51,68 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Build manifest-backed mod guide registry
-        run: python minecraft/tools/build_mod_guide_registry.py
+      - name: Build selected gameplay guide registry
+        run: |
+          python minecraft/tools/build_mod_guide_registry.py
+          python minecraft/tools/seed_core_mod_guide_registry.py
 
-      - name: Seed verified core mod guide plans
-        run: python minecraft/tools/seed_core_mod_guide_registry.py
+      - name: Normalize progression and close known bypasses
+        run: |
+          python minecraft/tools/normalize_progression_contract.py
+          python minecraft/tools/sync_projecte_emc_blacklist.py
+          python minecraft/tools/remove_gated_quest_rewards.py
 
-      - name: Normalize progression order
-        run: python minecraft/tools/normalize_progression_contract.py
+      - name: Synchronize expert localization and legacy upgrades
+        run: |
+          python minecraft/tools/sync_expert_localization.py
+          python minecraft/tools/sync_engineering_guide_localization.py
+          python minecraft/tools/upgrade_expert_progression.py
+          python minecraft/tools/upgrade_expert_progression_localization.py
+          python minecraft/tools/upgrade_create_core.py
+          python minecraft/tools/upgrade_create_core_localization.py
+          python minecraft/tools/upgrade_ie_core.py
+          python minecraft/tools/upgrade_ie_core_localization.py
+          python minecraft/tools/upgrade_mi_core.py
+          python minecraft/tools/upgrade_ae2_core.py
+          python minecraft/tools/upgrade_mekanism_core.py
 
-      - name: Enforce ProjectE EMC blacklist
-        run: python minecraft/tools/sync_projecte_emc_blacklist.py
+      - name: Generate curated manuals I-VII sequentially
+        run: |
+          python minecraft/tools/generate_core_technology_manual.py
+          python minecraft/tools/generate_core_technology_manual_2.py
+          python minecraft/tools/generate_core_technology_manual_3.py
+          python minecraft/tools/generate_core_technology_manual_4.py
+          python minecraft/tools/generate_core_technology_manual_5.py
+          python minecraft/tools/generate_core_technology_manual_6.py
+          python minecraft/tools/generate_core_technology_manual_7.py
 
-      - name: Remove progression-skipping quest rewards
-        run: python minecraft/tools/remove_gated_quest_rewards.py
+      - name: Tune and calculate theoretical balance
+        run: |
+          python minecraft/tools/tune_combat_profiles.py
+          python minecraft/tools/theoretical_balance.py
 
-      - name: Synchronize bilingual expert quest localization
-        run: python minecraft/tools/sync_expert_localization.py
+      - name: Audit progression, recipes, bypasses and guides
+        run: |
+          python minecraft/tools/quest_quality_audit.py
+          python minecraft/tools/progression_contract_audit.py
+          python minecraft/tools/recipe_dependency_audit.py
+          python minecraft/tools/bypass_audit.py
+          python minecraft/tools/mod_guide_coverage_audit.py
 
-      - name: Synchronize engineering guide localization
-        run: python minecraft/tools/sync_engineering_guide_localization.py
-
-      - name: Upgrade legacy expert progression tasks
-        run: python minecraft/tools/upgrade_expert_progression.py
-
-      - name: Upgrade legacy expert progression guidance
-        run: python minecraft/tools/upgrade_expert_progression_localization.py
-
-      - name: Upgrade Create core-route tasks
-        run: python minecraft/tools/upgrade_create_core.py
-
-      - name: Upgrade Create core-route guidance
-        run: python minecraft/tools/upgrade_create_core_localization.py
-
-      - name: Upgrade IE core-route tasks
-        run: python minecraft/tools/upgrade_ie_core.py
-
-      - name: Upgrade IE core-route guidance
-        run: python minecraft/tools/upgrade_ie_core_localization.py
-
-      - name: Upgrade MI core route
-        run: python minecraft/tools/upgrade_mi_core.py
-
-      - name: Upgrade AE2 core route
-        run: python minecraft/tools/upgrade_ae2_core.py
-
-      - name: Upgrade Mekanism core route
-        run: python minecraft/tools/upgrade_mekanism_core.py
-
-      - name: Generate Core Technology Manual I
-        run: python minecraft/tools/generate_core_technology_manual.py
-
-      - name: Tune combat profiles to modeled limits
-        run: python minecraft/tools/tune_combat_profiles.py
-
-      - name: Calculate theoretical balance
-        run: python minecraft/tools/theoretical_balance.py
-
-      - name: Audit quest quality
-        run: python minecraft/tools/quest_quality_audit.py
-
-      - name: Audit progression contract
-        run: python minecraft/tools/progression_contract_audit.py
-
-      - name: Audit recipe dependency graph
-        run: python minecraft/tools/recipe_dependency_audit.py
-
-      - name: Audit gated-item bypasses
-        run: python minecraft/tools/bypass_audit.py
-
-      - name: Audit guide coverage for all manifest projects
-        run: python minecraft/tools/mod_guide_coverage_audit.py
-
-      - name: Gate Create core-route quality
-        run: python minecraft/tools/create_core_quality_gate.py
-
-      - name: Gate IE core-route quality
-        run: python minecraft/tools/ie_core_quality_gate.py
-
-      - name: Gate MI core-route quality
-        run: python minecraft/tools/mi_core_quality_gate.py
-
-      - name: Gate AE2 core-route quality
-        run: python minecraft/tools/ae2_core_quality_gate.py
-
-      - name: Gate Mekanism core-route quality
-        run: python minecraft/tools/mekanism_core_quality_gate.py
+      - name: Gate curated manuals and core routes
+        run: |
+          python minecraft/tools/all_manual_quality_gate.py
+          python minecraft/tools/create_core_quality_gate.py
+          python minecraft/tools/ie_core_quality_gate.py
+          python minecraft/tools/mi_core_quality_gate.py
+          python minecraft/tools/ae2_core_quality_gate.py
+          python minecraft/tools/mekanism_core_quality_gate.py
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
 
-      - name: Classify v1 readiness
-        run: python minecraft/tools/v1_readiness.py
+      - name: Classify v1 product readiness
+        run: python minecraft/tools/v1_product_readiness.py
 
       - name: Commit generated pack metadata
         if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
@@ -169,11 +139,12 @@ jobs:
             minecraft/docs/RECIPE_DEPENDENCY_REPORT.md \
             minecraft/docs/BYPASS_AUDIT_REPORT.md \
             minecraft/docs/MOD_GUIDE_COVERAGE_REPORT.md \
+            minecraft/docs/ALL_MANUAL_QUALITY_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
             minecraft/docs/IE_CORE_QUALITY_REPORT.md \
             minecraft/docs/MI_CORE_QUALITY_REPORT.md \
             minecraft/docs/AE2_CORE_QUALITY_REPORT.md \
             minecraft/docs/MEKANISM_CORE_QUALITY_REPORT.md \
-            minecraft/docs/V1_READINESS.md
-          git commit -m "automation: enforce gates and refresh v1 reports"
+            minecraft/docs/V1_PRODUCT_READINESS.md
+          git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
