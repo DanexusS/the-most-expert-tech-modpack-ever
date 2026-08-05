@@ -22,7 +22,7 @@
     {
       "tokens": ["gearbox", "six_way", "parallel", "vertical_parallel"],
       "role_en": "multi-direction kinetic routing component",
-      "role_ru": "компонент мног方向ной кинетической маршрутизации",
+      "role_ru": "компонент многовекторной кинетической маршрутизации",
       "focus_en": "input shaft direction, all active outputs, rotation parity, total stress distribution, inaccessible-face maintenance, overload behavior and comparison with an equivalent vanilla gearbox arrangement",
       "focus_ru": "направление входного вала, все активные выходы, соответствие вращения, распределение общей нагрузки, обслуживание недоступных граней, поведение при перегрузке и сравнение с эквивалентной схемой обычных редукторов"
     },
