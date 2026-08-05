@@ -23,11 +23,14 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Create Core | PASS |
 | Create Crafts Additions Operational | PASS |
 | Create Stuff N Additions Catalog | PASS |
+| Creative Items Permission | PASS |
 | Draconic Evolution Catalog | PASS |
+| Dyson Cube Operational | PASS |
 | Ender Io Catalog | PASS |
 | Engineering Handbook Catalog | PASS |
 | Extended Crafting Catalog | PASS |
 | Extreme Reactors Operational | PASS |
+| Heart Of The Void Convergence | PASS |
 | Hostile Neural Networks | PASS |
 | Ice And Fire Catalog | PASS |
 | Ie Core | PASS |
@@ -57,6 +60,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Simply Swords | PASS |
 | Stage Chapter Organization | PASS |
 | Stage Depth Program | PASS |
+| Stellaris Operations | PASS |
 | Storage Systems Catalog | PASS |
 | Storage Systems Core | PASS |
 | Tfmg Chemistry Catalog | PASS |
@@ -72,10 +76,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5625 / 5970 | IN PROGRESS |
-| Single item-only ratio | 3.5% / ≤30% | PASS |
+| RU/EN descriptions | 5711 / 5970 | IN PROGRESS |
+| Single item-only ratio | 2.2% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 345 | IN PROGRESS |
+| Remaining without full RU/EN | 259 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 

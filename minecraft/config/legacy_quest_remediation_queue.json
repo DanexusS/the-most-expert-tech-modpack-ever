@@ -9,38 +9,11 @@
     "legacy_chapters": 57,
     "legacy_quests": 3324,
     "malformed_quest_objects": 0,
-    "rewrite_required_chapters": 10,
+    "rewrite_required_chapters": 6,
     "review_required_chapters": 5,
     "duplicate_description_groups": 63
   },
   "chapters": [
-    {
-      "chapter": "dl_stellaris",
-      "quests": 29,
-      "risk_score": 270,
-      "high_risk_quests": 29,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "CHECKMARK_ONLY": 1,
-        "NO_OPERATIONAL_GUIDANCE": 29,
-        "HAS_REWARD": 29,
-        "ROOT_OR_ORPHAN": 1,
-        "ITEM_ONLY": 21
-      }
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quests": 26,
-      "risk_score": 270,
-      "high_risk_quests": 26,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "ITEM_ONLY": 26,
-        "NO_OPERATIONAL_GUIDANCE": 26,
-        "HAS_REWARD": 25,
-        "ROOT_OR_ORPHAN": 13
-      }
-    },
     {
       "chapter": "when_dungeons_arise",
       "quests": 31,
@@ -82,20 +55,6 @@
       }
     },
     {
-      "chapter": "creative_items",
-      "quests": 19,
-      "risk_score": 192,
-      "high_risk_quests": 19,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "ITEM_ONLY": 18,
-        "NO_OPERATIONAL_GUIDANCE": 19,
-        "HAS_REWARD": 19,
-        "ROOT_OR_ORPHAN": 2,
-        "CHECKMARK_ONLY": 1
-      }
-    },
-    {
       "chapter": "divinerpg",
       "quests": 20,
       "risk_score": 140,
@@ -119,19 +78,6 @@
         "NO_OPERATIONAL_GUIDANCE": 15,
         "HAS_REWARD": 15,
         "ROOT_OR_ORPHAN": 7
-      }
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quests": 12,
-      "risk_score": 115,
-      "high_risk_quests": 12,
-      "classification": "REWRITE_REQUIRED",
-      "flags": {
-        "ITEM_ONLY": 11,
-        "NO_OPERATIONAL_GUIDANCE": 12,
-        "HAS_REWARD": 11,
-        "ROOT_OR_ORPHAN": 1
       }
     },
     {
@@ -285,6 +231,16 @@
       "flags": {
         "ROOT_OR_ORPHAN": 13,
         "CHECKMARK_ONLY": 4
+      }
+    },
+    {
+      "chapter": "heart_of_the_void",
+      "quests": 26,
+      "risk_score": 13,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "ROOT_OR_ORPHAN": 13
       }
     },
     {
@@ -494,6 +450,17 @@
       }
     },
     {
+      "chapter": "creative_items",
+      "quests": 19,
+      "risk_score": 2,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "ROOT_OR_ORPHAN": 2,
+        "CHECKMARK_ONLY": 1
+      }
+    },
+    {
       "chapter": "ender_io",
       "quests": 67,
       "risk_score": 2,
@@ -574,6 +541,27 @@
       "classification": "CURRENTLY_ACCEPTABLE",
       "flags": {
         "CHECKMARK_ONLY": 1,
+        "ROOT_OR_ORPHAN": 1
+      }
+    },
+    {
+      "chapter": "dl_stellaris",
+      "quests": 29,
+      "risk_score": 1,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
+        "CHECKMARK_ONLY": 1,
+        "ROOT_OR_ORPHAN": 1
+      }
+    },
+    {
+      "chapter": "dyson_cube_project",
+      "quests": 12,
+      "risk_score": 1,
+      "high_risk_quests": 0,
+      "classification": "CURRENTLY_ACCEPTABLE",
+      "flags": {
         "ROOT_OR_ORPHAN": 1
       }
     },
@@ -849,40 +837,6 @@
       "maximum_item_count": 1
     },
     {
-      "chapter": "creative_items",
-      "quest_id": "087144F5252E5FF5",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "7C31E7904E8DD77C",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
       "chapter": "divinerpg",
       "quest_id": "1086BBFA8FB8AA80",
       "risk_score": 11,
@@ -934,23 +888,6 @@
       "maximum_item_count": 1
     },
     {
-      "chapter": "dl_stellaris",
-      "quest_id": "128AF83728356D60",
-      "risk_score": 11,
-      "flags": [
-        "CHECKMARK_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "checkmark"
-      ],
-      "en_description_length": 72,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
       "chapter": "flux_networks",
       "quest_id": "439C6C61A5263D31",
       "risk_score": 11,
@@ -966,210 +903,6 @@
       "en_description_length": 279,
       "ru_description_length": 0,
       "maximum_item_count": 12
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "030E814BD568A97F",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "0EF4982211D87606",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 302,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "152ED772C41FD63A",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "24B5D2FC32F32D0D",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 10
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "30C7F7955B71A428",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "3D82F9E035BE899E",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "41612BEABB489AB2",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 2
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "571695B26E4EA017",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "5E5995EFD532081C",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 10
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "66CB86E03D47D430",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "6EEEAA630E7F7E91",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "79D9840E56157DCB",
-      "risk_score": 11,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
     },
     {
       "chapter": "minimum_for_maximummfm",
@@ -1622,278 +1355,6 @@
       "maximum_item_count": 1
     },
     {
-      "chapter": "creative_items",
-      "quest_id": "0E01D082BFC07BF4",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 49,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "1BEEB1B3081EA395",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "2457221FA3BDC0CB",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 60,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "25DF45F80400A12F",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "2C1AB8A598E5BFB3",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 33,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "3B118C4351749B71",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 35,
-      "ru_description_length": 0,
-      "maximum_item_count": 4
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "3BDF340E0327AEE4",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 58,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "3DF8B525061EC953",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 126,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "42A3D1BBCF05AEF9",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 42,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "442BB17AE7AC4936",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 108,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "508F41D6286655ED",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 41,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "53776E966FE9B0A0",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "5F86D3C647B91BD4",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 40,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "6518A54F5163C106",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 41,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "71CD58F48960B657",
-      "risk_score": 10,
-      "flags": [
-        "CHECKMARK_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "checkmark"
-      ],
-      "en_description_length": 266,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "785460A567666B2D",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 2
-    },
-    {
-      "chapter": "creative_items",
-      "quest_id": "7D4AFD1FFF1326A9",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 120,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
       "chapter": "divinerpg_codex",
       "quest_id": "0EA838E3062775AB",
       "risk_score": 10,
@@ -1924,502 +1385,6 @@
       "en_description_length": 0,
       "ru_description_length": 0,
       "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "04F8C9922D2F3BC3",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "3063CA76F5A02422",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "36C32C9F7271DB7B",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "45C02BA617A092FC",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 165,
-      "ru_description_length": 0,
-      "maximum_item_count": 6
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "518D71CFF03E0A96",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 136,
-      "ru_description_length": 0,
-      "maximum_item_count": 4
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "537FEA93C4D1E084",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "55AD5F4C1CDDCE35",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "560AF08F81A2D904",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 5
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "5685710C9FE8C918",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 213,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "58F63AEBB7F5241A",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 263,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "5960A0A84D0D98B2",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "5AAFDED22803AE85",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "5B99D103BD8A2507",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 9
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "61E4661095098FC0",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 6
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "637C95233A2AF9E2",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 10
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "6657B2892F72C3EE",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 6
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "68DBCC34C70AEF1A",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "6C4B5F02B8A6AFD0",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 201,
-      "ru_description_length": 0,
-      "maximum_item_count": 8
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "6F8577EACCE26F1F",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 6
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "72E4DF206C33D50D",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 8
-    },
-    {
-      "chapter": "dl_stellaris",
-      "quest_id": "776DACB7E66AAE5A",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "0B951A1F67328A1B",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "0CA317D971204E58",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "133CA7A4F623AB34",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 16
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "2283C4C4B0AE62B1",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "252C1A6D5EBDB91F",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "29E2AF2F34FCD651",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "368B5EA94059F1A6",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 6
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "517516EBACC17089",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 16
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "62B6A0DFC93F3CDA",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "dyson_cube_project",
-      "quest_id": "7965789D34022A0B",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 16
     },
     {
       "chapter": "flux_networks",
@@ -2564,214 +1529,6 @@
       "en_description_length": 0,
       "ru_description_length": 0,
       "maximum_item_count": 2
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "06A9BCE371EB7F32",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "16EE370FE0789F32",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "18BCBC9235B04BE8",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "245B6C714D755030",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "286B5D17664C4760",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "336282FB5DD2C5F3",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "3446238EBC7583E9",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "3DBDD509A49CDBF4",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "456E6532B7FBA2EA",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "472EBB6F6C957211",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "4C46167641F9BB20",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "53E28A4E4223206B",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "58D711E1E495E3C4",
-      "risk_score": 10,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "HAS_REWARD"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 0,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
     },
     {
       "chapter": "minimum_for_maximummfm",
@@ -3856,38 +2613,6 @@
       "maximum_item_count": 1
     },
     {
-      "chapter": "dyson_cube_project",
-      "quest_id": "51A4309769963F4F",
-      "risk_score": 8,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 619,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
-      "chapter": "heart_of_the_void",
-      "quest_id": "0A5C03A114ABF62D",
-      "risk_score": 8,
-      "flags": [
-        "ITEM_ONLY",
-        "NO_OPERATIONAL_GUIDANCE",
-        "ROOT_OR_ORPHAN"
-      ],
-      "task_types": [
-        "item"
-      ],
-      "en_description_length": 428,
-      "ru_description_length": 0,
-      "maximum_item_count": 1
-    },
-    {
       "chapter": "when_dungeons_arise",
       "quest_id": "041A1C64A8468087",
       "risk_score": 8,
@@ -4696,6 +3421,1206 @@
       ],
       "task_types": [
         "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "6E66934654A45A2E",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "72D97C73861B281E",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "75EDF3D53E9C19F4",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg",
+      "quest_id": "05FCA2E85105E1D7",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item",
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg",
+      "quest_id": "1EEE7BB40F110ECE",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg",
+      "quest_id": "22D93E849A8ACA9A",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 75,
+      "ru_description_length": 96,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg",
+      "quest_id": "467DA402E9696C9E",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "kill",
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg",
+      "quest_id": "70B73B7BD6EB968E",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "09486B5A26C30CCE",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "1755262DEC041F4C",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "1B39848B5566E29B",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "1D969EC020DA4CAE",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "299857CAB7827052",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "2C9299F91E4D470A",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "2E8B6F014AAFA620",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "364938D6E7D2B21C",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "3F0B16D944884C9E",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "4B6048557F00AE5A",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "4E287D900820B4FD",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "58703D5D4A2D6256",
+      "risk_score": 7,
+      "flags": [
+        "ITEM_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "5FD61F33E25B54E4",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "6DBBB488515EC3A3",
+      "risk_score": 7,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "NO_OPERATIONAL_GUIDANCE"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "minimum_for_maximummfm",
+      "quest_id": "158D1029B64302D6",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item",
+        "item"
+      ],
+      "en_description_length": 117,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "minimum_for_maximummfm",
+      "quest_id": "34CC84EAF74CD6FF",
+      "risk_score": 7,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "HAS_REWARD"
+      ],
+      "task_types": [
+        "item",
+        "item"
+      ],
+      "en_description_length": 221,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "0309031C02F40F48",
+      "risk_score": 6,
+      "flags": [
+        "ITEM_ONLY",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 229,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "1F95DE2B8AEAADB6",
+      "risk_score": 6,
+      "flags": [
+        "ITEM_ONLY",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 216,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "245F4D37B9D6BDEA",
+      "risk_score": 6,
+      "flags": [
+        "ITEM_ONLY",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 119,
+      "ru_description_length": 212,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "3F34DC9EE4EFF09E",
+      "risk_score": 6,
+      "flags": [
+        "ITEM_ONLY",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 218,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "603FEA2B63EBD29A",
+      "risk_score": 6,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 224,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "7739E5F65499CE9F",
+      "risk_score": 6,
+      "flags": [
+        "ITEM_ONLY",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 219,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "7FA8EB0C90B3F72B",
+      "risk_score": 6,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 230,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "1A692A5E03C485B2",
+      "risk_score": 6,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 170,
+      "ru_description_length": 224,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "1DCFEFBFB79866D9",
+      "risk_score": 6,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 170,
+      "ru_description_length": 228,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "divinerpg_codex",
+      "quest_id": "59FE01FC8C79654C",
+      "risk_score": 6,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "ROOT_OR_ORPHAN",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 170,
+      "ru_description_length": 251,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "Modern Industrialization",
+      "quest_id": "1CC910880728D896",
+      "risk_score": 5,
+      "flags": [
+        "EXCESSIVE_ITEM_COUNT"
+      ],
+      "task_types": [
+        "item",
+        "item",
+        "item",
+        "checkmark"
+      ],
+      "en_description_length": 635,
+      "ru_description_length": 654,
+      "maximum_item_count": 203
+    },
+    {
+      "chapter": "Modern Industrialization",
+      "quest_id": "3761B64135EA94C0",
+      "risk_score": 5,
+      "flags": [
+        "EXCESSIVE_ITEM_COUNT"
+      ],
+      "task_types": [
+        "item",
+        "item",
+        "item",
+        "checkmark"
+      ],
+      "en_description_length": 620,
+      "ru_description_length": 638,
+      "maximum_item_count": 77
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "0BEADBE8FAA1A907",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 222,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "11076A09529A4BEA",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 221,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "23B13127579104CF",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 224,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "23E2F2528AB7A0BB",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 119,
+      "ru_description_length": 220,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "25170E9E2A0EEF15",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 215,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "3A3E58D0B6EA38BB",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 227,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "3A9F6E8659F5B2D6",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 228,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "3AC4E2186DC04ED6",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 228,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "459266EB73384474",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 218,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "473B9CFA8C6E18CC",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 126,
+      "ru_description_length": 226,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "47B154FD7D42B946",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 217,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "4EEB515E5F3D68F1",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 219,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "58205A5ACECFFD64",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 219,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "5CD549A10495D51C",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 214,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "61B587B8C2D76FD7",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 225,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "701F1772884734C0",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 118,
+      "ru_description_length": 219,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "automation_challenges",
+      "quest_id": "7872204C06C53672",
+      "risk_score": 5,
+      "flags": [
+        "ITEM_ONLY",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "item"
+      ],
+      "en_description_length": 119,
+      "ru_description_length": 210,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "0329FBB59A588116",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 169,
+      "ru_description_length": 209,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "09F82FEF1DF4F16A",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "0C4CA9508E3A41CC",
+      "risk_score": 5,
+      "flags": [
+        "CHECKMARK_ONLY",
+        "HAS_REWARD",
+        "DUPLICATE_DESCRIPTION"
+      ],
+      "task_types": [
+        "checkmark"
+      ],
+      "en_description_length": 169,
+      "ru_description_length": 213,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "1DA617FAE66A2900",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "1E34C0442B20365E",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "2BF575FAAD732C5C",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "2C25D363382831F1",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "3E754A3E9C5594C9",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "413A2C765CA2199B",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "419F1DEF3B9943F6",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "42D90BA30005A542",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "47AADD409BFABA02",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "5204EC612D8C36C4",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "53502DBD61471C17",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "57665AF9F57E1DAF",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "583FB59AD0928B00",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "5E12D24B035A461D",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "5E39C28AF56E1DF6",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "5F01D276197BC9B0",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "613A631BF3F2F7B6",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "62DB4ADA381A3F03",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "66488BD652D7B704",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "6AD899AC4B3879E4",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "73F72B3D7E1B9A41",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
+      ],
+      "en_description_length": 0,
+      "ru_description_length": 0,
+      "maximum_item_count": 1
+    },
+    {
+      "chapter": "combat_trials",
+      "quest_id": "7912CAB7519DF2EF",
+      "risk_score": 5,
+      "flags": [
+        "NO_OPERATIONAL_GUIDANCE",
+        "ROOT_OR_ORPHAN"
+      ],
+      "task_types": [
+        "kill"
       ],
       "en_description_length": 0,
       "ru_description_length": 0,

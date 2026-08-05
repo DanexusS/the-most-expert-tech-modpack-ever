@@ -118,11 +118,6 @@
 				id: "stellaris:earth_globe"
 			}
 			id: "128AF83728356D60"
-			rewards: [{
-				id: "7B337CEE4CBC54D3"
-				type: "xp"
-				xp: 30
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "0B608346A977376A"
@@ -134,150 +129,97 @@
 		{
 			dependencies: ["128AF83728356D60"]
 			id: "6657B2892F72C3EE"
-			rewards: [
-				{
-					id: "013AA99C90FFF42F"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 6
-					id: "588AD9E2EF407F40"
-					item: {
-						count: 1
-						id: "stellaris:steel_nugget"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "47DE80ECDE79BEB0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "488B9B6A96EAEE13"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["128AF83728356D60"]
 			id: "637C95233A2AF9E2"
-			rewards: [
-				{
-					id: "1784EC96FC854C01"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 4
-					id: "545280102AB5B2FE"
-					item: {
-						count: 1
-						id: "stellaris:heavy_metal_nugget"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				count: 10L
 				id: "2A52C538497A12DC"
 				item: { count: 1, id: "stellaris:heavy_metal_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E48F0CC67B10B1CA"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6657B2892F72C3EE"]
 			id: "560AF08F81A2D904"
-			rewards: [
-				{
-					id: "11BBBB7AA3F4CED4"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 5
-					id: "09AFF7E01A20A5C8"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "407B519CBCC75D6E"
 				item: { count: 1, id: "stellaris:coal_generator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C74E1837C06D419C"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6657B2892F72C3EE"]
 			id: "68DBCC34C70AEF1A"
-			rewards: [{
-				id: "1458097A01556C03"
-				type: "xp"
-				xp: 30
-			}]
 			tasks: [{
 				id: "28B667A9ED00DB63"
 				item: { components: { "stellaris:energy": 0 }, count: 1, id: "stellaris:oil_finder" }
 				type: "item"
-			}]
+			}
+			{
+				id: "81F2A483C09F419E"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["58F63AEBB7F5241A"]
 			id: "5960A0A84D0D98B2"
-			rewards: [
-				{
-					id: "22A5712E8575A064"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "08B3280A155D4DCC"
-					item: {
-						count: 1
-						id: "stellaris:steel_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "5F0B052A4215FB5D"
 				item: { components: { "stellaris:fluid": { amounts: [L;3600L], fluids: ["stellaris:oxygen"] } }, count: 1, id: "stellaris:oxygen_tank" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6E4DDC42AB672220"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6657B2892F72C3EE"]
 			id: "58F63AEBB7F5241A"
-			rewards: [
-				{
-					id: "43F44C1EAB04F921"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "14762BC914C12F4E"
-					item: {
-						count: 1
-						id: "minecraft:bucket"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "180C6433C64B8FDC"
 				item: { count: 1, id: "stellaris:water_separator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "33E5D4212CA8DCE5"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 7.5d
 		}
@@ -285,22 +227,6 @@
 			dependencies: ["6657B2892F72C3EE"]
 			hide_dependent_lines: true
 			id: "6448E508EA3CF34E"
-			rewards: [
-				{
-					id: "38BEF4873B021480"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 2
-					id: "5CBDE5925846EC29"
-					item: {
-						count: 1
-						id: "stellaris:steel_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "451BDCEBE81F6B9D"
@@ -322,6 +248,11 @@
 					item: { count: 1, id: "stellaris:space_suit_boots" }
 					type: "item"
 				}
+			
+			{
+				id: "28E6F7196DCD65A9"
+				type: "checkmark"
+			}
 			]
 			x: -1.5d
 			y: 9.0d
@@ -329,81 +260,48 @@
 		{
 			dependencies: ["68DBCC34C70AEF1A"]
 			id: "45C02BA617A092FC"
-			rewards: [
-				{
-					id: "13C7C96F99CE3ECF"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 6
-					id: "06169B4B99BE0518"
-					item: {
-						count: 1
-						id: "stellaris:steel_nugget"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "5E3EA4C6BCD5BFEA"
 				item: { count: 1, id: "stellaris:pumpjack" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BE18964C566EE90B"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["45C02BA617A092FC"]
 			id: "61E4661095098FC0"
-			rewards: [
-				{
-					id: "00236D0E3FE94648"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 6
-					id: "2BA49F89FB0C9083"
-					item: {
-						count: 1
-						id: "stellaris:steel_nugget"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "477B370BAB159961"
 				item: { count: 1, id: "stellaris:oil_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2B9522E492237BDA"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["61E4661095098FC0"]
 			id: "6C4B5F02B8A6AFD0"
-			rewards: [
-				{
-					id: "78723E403AF2095F"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 8
-					id: "227A9BBD811039A7"
-					item: {
-						count: 1
-						id: "stellaris:steel_nugget"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "794A8DFFCB6CE56B"
 				item: { count: 1, id: "stellaris:fuel_refinery" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D834C5180CB58356"
+				type: "checkmark"
+			}
+			]
 			x: -6.0d
 			y: 7.5d
 		}
@@ -411,29 +309,16 @@
 			dependencies: ["560AF08F81A2D904"]
 			id: "55AD5F4C1CDDCE35"
 			optional: true
-			rewards: [
-				{
-					id: "16B68E51D66F9EA2"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "2AF65B20093D8FFB"
-					item: {
-						components: {
-							"stellaris:energy": 0
-						}
-						count: 1
-						id: "stellaris:battery"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "1F39EF3E2CF898DD"
 				item: { components: { "stellaris:energy": 0 }, count: 1, id: "stellaris:t1_bank" }
 				type: "item"
-			}]
+			}
+			{
+				id: "93FC1A73E6BA4F80"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 5.0d
 		}
@@ -444,28 +329,18 @@
 				"5B99D103BD8A2507"
 			]
 			id: "5685710C9FE8C918"
-			rewards: [
-				{
-					id: "10A049F3F86EE6E7"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "3F5112BD2D21F5D9"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "656EE6D72D2348E6"
 				item: { count: 1, id: "stellaris:rocket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E9A32EA9A2F904DF"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 10.5d
 		}
@@ -473,108 +348,65 @@
 			dependencies: ["58F63AEBB7F5241A"]
 			id: "518D71CFF03E0A96"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "365304E42CC7CECB"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "6D4ABF64DBBC1087"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [{
 				id: "5E16006E241A3700"
 				item: { count: 1, id: "stellaris:oxygen_distributor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F3F31A0705395274"
+				type: "checkmark"
+			}
+			]
 			x: 2.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["6657B2892F72C3EE"]
 			id: "5B99D103BD8A2507"
-			rewards: [
-				{
-					id: "38E77B8E47A509E5"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 2
-					id: "29096132006B6698"
-					item: {
-						count: 1
-						id: "stellaris:steel_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				count: 9L
 				id: "12B7AE63671C3306"
 				item: { count: 1, id: "stellaris:rocket_launch_pad" }
 				type: "item"
-			}]
+			}
+			{
+				id: "11ECC4E87EB5179F"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["6C4B5F02B8A6AFD0"]
 			id: "776DACB7E66AAE5A"
-			rewards: [
-				{
-					id: "6CEEC731EA0106C2"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "1428D85D4260228C"
-					item: {
-						count: 1
-						id: "stellaris:steel_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "53EC9D178D23E0E9"
 				item: { count: 1, id: "stellaris:fuel_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5ECB175600FA33B9"
+				type: "checkmark"
+			}
+			]
 			x: -6.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["637C95233A2AF9E2"]
 			id: "72E4DF206C33D50D"
-			rewards: [
-				{
-					id: "4097478EAEA5E907"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 8
-					id: "443502A93DDFF01C"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2F8DDFB7570A74E4"
 				item: { count: 1, id: "stellaris:rocket_station" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CD40C5DBE7E4F412"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 3.0d
 		}
@@ -582,29 +414,6 @@
 			dependencies: ["776DACB7E66AAE5A"]
 			id: "080F9094D84CB0F8"
 			optional: true
-			rewards: [
-				{
-					id: "21C32529A1325A84"
-					item: {
-						count: 1
-						id: "minecraft:cooked_chicken"
-					}
-					type: "item"
-				}
-				{
-					id: "795F37162B5430BE"
-					item: {
-						count: 1
-						id: "minecraft:glass_bottle"
-					}
-					type: "item"
-				}
-				{
-					id: "5B59705A62C8073D"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
 					id: "472C67B363163EFA"
@@ -636,6 +445,11 @@
 					optional_task: true
 					type: "item"
 				}
+			
+			{
+				id: "C72A03AD28421A3E"
+				type: "checkmark"
+			}
 			]
 			x: -6.0d
 			y: 12.0d
@@ -643,16 +457,16 @@
 		{
 			dependencies: ["080F9094D84CB0F8"]
 			id: "36C32C9F7271DB7B"
-			rewards: [{
-				id: "4A462A7AC62DB727"
-				type: "xp"
-				xp: 50
-			}]
 			tasks: [{
 				id: "67BD4BFB90E974A3"
 				item: { count: 1, id: "stellaris:vacuumator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5DD618A01B79EB23"
+				type: "checkmark"
+			}
+			]
 			x: -6.0d
 			y: 13.5d
 		}
@@ -663,16 +477,16 @@
 			]
 			id: "5AAFDED22803AE85"
 			optional: true
-			rewards: [{
-				id: "352919CE0273ACE4"
-				type: "xp"
-				xp: 50
-			}]
 			tasks: [{
 				id: "007E0B14CCE976EC"
 				item: { count: 1, id: "stellaris:tablet" }
 				type: "item"
-			}]
+			}
+			{
+				id: "84810B1CE02979BA"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 3.0d
 		}
@@ -682,15 +496,6 @@
 				"6448E508EA3CF34E"
 			]
 			id: "25BF6CC5C779BB4C"
-			rewards: [{
-				count: 4
-				id: "4E4C1BADD255110B"
-				item: {
-					count: 1
-					id: "immersiveengineering:storage_steel"
-				}
-				type: "item"
-			}]
 			size: 1.3d
 			tasks: [{
 				dimension: "stellaris:moon"
@@ -699,41 +504,34 @@
 				}
 				id: "7A3F3ABCCC9CFCC0"
 				type: "dimension"
-			}]
+			}
+			{
+				id: "23A07F79006AB238"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["25BF6CC5C779BB4C"]
 			id: "537FEA93C4D1E084"
-			rewards: [{
-				id: "17A5B5FE5753C698"
-				item: {
-					count: 1
-					id: "stellaris:moon_desh_ore"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0B031E9D5F0940B3"
 				item: { count: 1, id: "stellaris:desh_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F275257EAF96ECD2"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["537FEA93C4D1E084"]
 			id: "0462CF00D2373233"
-			rewards: [{
-				count: 6
-				id: "6548B4B115C0A321"
-				item: {
-					count: 1
-					id: "stellaris:desh_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "60EBDA76596B55AB"
@@ -755,6 +553,11 @@
 					item: { count: 1, id: "stellaris:jet_suit_boots" }
 					type: "item"
 				}
+			
+			{
+				id: "A8301BFCA25E8959"
+				type: "checkmark"
+			}
 			]
 			x: -1.5d
 			y: 14.5d
@@ -762,11 +565,6 @@
 		{
 			dependencies: ["0462CF00D2373233"]
 			id: "16280CCB0A27F969"
-			rewards: [{
-				id: "7925346C6A6E31DF"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				dimension: "stellaris:venus"
 				icon: {
@@ -774,18 +572,18 @@
 				}
 				id: "2246B2CB497520FC"
 				type: "dimension"
-			}]
+			}
+			{
+				id: "15E524E2410C6449"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["0462CF00D2373233"]
 			id: "1D3DC2B4A575290F"
-			rewards: [{
-				id: "67EEE76768687B94"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				dimension: "stellaris:mercury"
 				icon: {
@@ -793,18 +591,18 @@
 				}
 				id: "1B09ACD18C15CEF8"
 				type: "dimension"
-			}]
+			}
+			{
+				id: "B7F48075DACAB45F"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["0462CF00D2373233"]
 			id: "1C4817CFB13DE9CD"
-			rewards: [{
-				id: "0E278CFB0AF5C28D"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				dimension: "stellaris:mars"
 				icon: {
@@ -812,59 +610,60 @@
 				}
 				id: "54ABA984114C34DB"
 				type: "dimension"
-			}]
+			}
+			{
+				id: "4AE5A842BB333DB5"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["1D3DC2B4A575290F"]
 			id: "04F8C9922D2F3BC3"
-			rewards: [{
-				id: "0F3B43AB10956355"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "36AC8FCBA834C636"
 				item: { count: 1, id: "stellaris:solerium" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6EA76105D9F326E0"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["1C4817CFB13DE9CD"]
 			id: "3063CA76F5A02422"
-			rewards: [{
-				id: "4500806952FE5351"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "22D0F820BF62EF14"
 				item: { count: 1, id: "stellaris:plutonium_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BA0671E5E1E10AC1"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["25BF6CC5C779BB4C"]
 			id: "6F8577EACCE26F1F"
-			rewards: [{
-				count: 6
-				id: "49E4454A1F895809"
-				item: {
-					count: 1
-					id: "stellaris:ice_shard"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6551B18AF6B41C60"
 				item: { count: 1, id: "stellaris:ice_shard" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A51D3A0C52024E79"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: 12.5d
 		}
