@@ -1,7 +1,7 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "ftb_quests": {
-    "minimum_detection_delay_ticks": 40,
+    "minimum_detection_delay_ticks": 80,
     "maximum_grid_scale": 0.5,
     "verify_on_load": false,
     "drop_loot_crates": false
@@ -11,10 +11,32 @@
     "coroutil_debug_logging": false,
     "coroutil_error_logging": true
   },
+  "startup_io": {
+    "diagnostic_mod_inventory_enabled_by_default": false,
+    "diagnostic_mod_inventory_property": "expert.modInventoryExport",
+    "forbid_unguarded_startup_file_writes": true
+  },
   "combat_scaling": {
     "require_profile_cache": true,
+    "require_entity_type_identity_cache": true,
     "require_stable_modifier_ids": true,
     "require_registry_guard": true
+  },
+  "hot_path_budgets": {
+    "maximum_tick_subscriptions": 12,
+    "maximum_spawn_subscriptions": 12,
+    "maximum_hurt_subscriptions": 12,
+    "forbid_file_io_in_high_frequency_handlers": true,
+    "forbid_registry_full_scans_in_high_frequency_handlers": true,
+    "forbid_console_calls_in_high_frequency_handlers": true
+  },
+  "release_runtime_targets": {
+    "maximum_startup_regression_percent": 10.0,
+    "maximum_world_load_regression_percent": 10.0,
+    "minimum_soak_tps_p05": 19.0,
+    "maximum_soak_mspt_p95": 50.0,
+    "maximum_post_gc_heap_growth_percent": 10.0,
+    "maximum_repeated_log_lines_per_minute": 30
   },
   "repository_hygiene": {
     "forbidden_tracked_paths": [
