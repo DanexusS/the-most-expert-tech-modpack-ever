@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "immersive_engineering",
+  "chapter_id": "274D317B89DAB373",
+  "chapter_title_en": "Immersive Engineering — Industrial Systems and Multiblocks",
+  "chapter_title_ru": "Immersive Engineering — промышленные системы и мультиблоки",
+  "report_filename": "IMMERSIVE_ENGINEERING_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Immersive Engineering Catalogue Quality Report",
+  "report_intro": "Every Immersive Engineering quest must teach tool use, multiblock construction, power distribution, material processing, logistics or weapon safety without random-table rewards.",
+  "expected_quests": 46,
+  "minimum_description": 200,
+  "primary_namespace": "immersiveengineering",
+  "primary_namespace_prefixes": ["immersiveengineering", "minecraft", "kubejs"],
+  "acceptance_namespace": "immersive_engineering_catalog_acceptance",
+  "checkpoint_name": "Immersive Engineering Systems Checkpoint",
+  "title_suffix_en": "Industrial Acceptance",
+  "title_suffix_ru": "промышленная приёмка",
+  "description_en": "{display} is a {role} in the Immersive Engineering route. The objective is a measurable, serviceable industrial capability with legal inputs and recoverable failure—not a random reward for crafting one block or tool.",
+  "description_ru": "{display} — {role} ветви Immersive Engineering. Целью является измеряемая, обслуживаемая промышленная возможность с честными входами и восстановимым отказом, а не случайная награда за один блок или инструмент.",
+  "acceptance_en": "Acceptance: verify {focus}; build or operate a representative installation, record input, output, power or fuel and limiting section, test blocked output or loss of supply, recover safely and remove random-table, item, XP and shortcut rewards.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; соберите или запустите типовую установку, запишите вход, выход, энергию или топливо и ограничивающий участок, испытайте полный выход или потерю снабжения, безопасно восстановитесь и уберите случайные, предметные, XP- и обходные награды.",
+  "categories": [
+    {
+      "tokens": ["hammer", "wirecutter", "screwdriver", "voltmeter", "manual", "workbench", "craftingtable", "toolbox", "blueprint"],
+      "role_en": "engineering tool, workbench or measurement reference",
+      "role_ru": "инженерный инструмент, верстак или измерительный справочник",
+      "focus_en": "valid targets, configuration or measurement result, durability and repair, safe use on energized machinery, stored settings, returned tools and labelled workshop storage",
+      "focus_ru": "правильные цели, результат настройки или измерения, прочность и ремонт, безопасную работу с запитанной машиной, сохранение настроек, возврат инструментов и подписанное хранение"
+    },
+    {
+      "tokens": ["cokebrick", "blastbrick", "alloybrick", "coke", "creosote", "slag", "steel", "component_iron", "component_steel"],
+      "role_en": "coke, alloy or steel-production material and structure",
+      "role_ru": "материал или структура производства кокса, сплавов и стали",
+      "focus_en": "complete multiblock counts, fuel and ore ancestry, coke and creosote or slag routes, batch yield, heat-up loss, full-output shutdown and safe cooling before maintenance",
+      "focus_ru": "полное число блоков мультиблока, происхождение топлива и руды, маршруты кокса, креозота или шлака, выход партии, потери разогрева, остановку при полном выходе и безопасное охлаждение"
+    },
+    {
+      "tokens": ["wire", "connector", "relay", "transformer", "capacitor", "dynamo", "thermoelectric", "windmill", "watermill", "diesel_generator"],
+      "role_en": "power generation, conversion, storage or distribution component",
+      "role_ru": "компонент генерации, преобразования, хранения или распределения энергии",
+      "focus_en": "source and sink ownership, voltage tier, connector and relay topology, transfer limit, reserve, overload isolation, idle behaviour and black-start sequence",
+      "focus_ru": "владение источником и потребителем, уровень напряжения, топологию соединителей и реле, предел передачи, резерв, изоляцию перегруза, простой и порядок холодного запуска"
+    },
+    {
+      "tokens": ["crusher", "squeezer", "fermenter", "refinery", "arc_furnace", "metal_press", "assembler", "bottling", "mixer", "cloche", "excavator", "bucket_wheel"],
+      "role_en": "industrial processing or extraction multiblock",
+      "role_ru": "промышленный мультиблок переработки или добычи",
+      "focus_en": "complete structure and ports, legal inputs, exact recipe and byproducts, sustained power, conveyor or fluid interfaces, finite buffers, maintenance access and controlled shutdown",
+      "focus_ru": "полную структуру и порты, честные входы, точный рецепт и побочные продукты, устойчивую энергию, конвейерные или жидкостные интерфейсы, конечные буферы, обслуживание и контролируемую остановку"
+    },
+    {
+      "tokens": ["conveyor", "fluid_pipe", "fluid_pump", "tank", "silo", "crate", "sorter", "chute"],
+      "role_en": "industrial logistics, fluid or bulk-storage component",
+      "role_ru": "компонент промышленной логистики, жидкостей или массового хранения",
+      "focus_en": "medium ownership, direction, redstone state, filters and priorities, throughput, finite capacity, overflow route, loop prevention and recovery after one blocked segment",
+      "focus_ru": "владение средой, направление, редстоун-состояние, фильтры и приоритеты, пропускную способность, конечную ёмкость, переполнение, защиту от циклов и восстановление после блокировки участка"
+    },
+    {
+      "tokens": ["revolver", "railgun", "chemthrower", "turret", "gun", "bullet", "shield", "armor", "powerpack"],
+      "role_en": "industrial combat, defence or powered-equipment capability",
+      "role_ru": "промышленная боевая, защитная или энергетическая возможность",
+      "focus_en": "ammunition or fluid source, power and cooldown, target restrictions, friendly-fire and automation safety, repair, ordinary replacement and prevention of bypassing gated boss permissions",
+      "focus_ru": "источник боеприпасов или жидкости, энергию и перезарядку, ограничения целей, безопасность дружественного огня и автоматизации, ремонт, обычную замену и запрет обхода боссовых допусков"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Immersive Engineering component",
+    "role_ru": "специализированный компонент Immersive Engineering",
+    "focus_en": "its exact industrial role, material ancestry, power or fuel demand, interface, representative cycle, failure state and repeatable replacement from current-stage infrastructure",
+    "focus_ru": "его точную промышленную роль, происхождение материалов, спрос энергии или топлива, интерфейс, типовой цикл, состояние отказа и воспроизводимую замену инфраструктурой текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod industrial integration component",
+    "role_ru": "межмодовый компонент промышленной интеграции",
+    "focus_en": "which system owns acquisition, power, transport, storage or control, the interface buffer and absence of a cheaper route around the required industrial capability",
+    "focus_ru": "какая система отвечает за получение, энергию, транспорт, хранение или управление, интерфейсный буфер и отсутствие дешёвого обхода требуемой промышленной возможности"
+  },
+  "checkpoint": {
+    "role_en": "Immersive Engineering factory-design checkpoint",
+    "role_ru": "контрольная точка проектирования фабрики Immersive Engineering",
+    "focus_en": "tooling, coke and steel, power tree, multiblock ports, logistics, byproducts, diagnostics, controlled failure, maintenance access and restart order",
+    "focus_ru": "оснастку, кокс и сталь, дерево питания, порты мультиблоков, логистику, побочные продукты, диагностику, контролируемый отказ, обслуживание и порядок перезапуска"
+  }
+}
