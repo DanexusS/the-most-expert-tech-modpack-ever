@@ -26,6 +26,8 @@ Annexes unlock when their stage begins, but never block the next stage. They dee
 
 The seven Core Technology Manuals remain supplementary references. Full catalogue upgrades explain individual machines, items and mechanics. Stage chapters define progression requirements; manuals and catalogues explain how the underlying mods work.
 
+The storage catalogue is also fully redesigned: all 104 nodes now explain finite capacity, filters, priorities, nested-inventory safety, overflow and recovery rather than serving as a simple item checklist.
+
 This separation prevents three common problems:
 
 - one enormous progression chapter that is difficult to navigate;
