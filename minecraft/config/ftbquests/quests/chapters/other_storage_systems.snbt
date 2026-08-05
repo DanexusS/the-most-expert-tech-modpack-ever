@@ -41,7 +41,12 @@
 				id: "4D0FB1BA7616FF9A"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D1BCE93D23098DCD"
+				type: "checkmark"
+			}
+			]
 			x: 9.5d
 			y: 1.0d
 		}
@@ -121,7 +126,12 @@
 				id: "3B35067B51FF1DBB"
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
 				type: "item"
-			}]
+			}
+			{
+				id: "62D309E3BBAFF36A"
+				type: "checkmark"
+			}
+			]
 			x: 9.5d
 			y: 8.5d
 		}
@@ -138,7 +148,12 @@
 				id: "4C8C7957915B880A"
 				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3C2CA61231BD2697"
+				type: "checkmark"
+			}
+			]
 			x: 13.125d
 			y: 1.5d
 		}
@@ -172,7 +187,12 @@
 				id: "5B8881519020A659"
 				item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D75318941BF1380C"
+				type: "checkmark"
+			}
+			]
 			x: 13.125d
 			y: 2.625d
 		}
@@ -274,7 +294,12 @@
 				id: "09D7B8686EB753BB"
 				item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6A449888FAF28CB9"
+				type: "checkmark"
+			}
+			]
 			x: 13.125d
 			y: 6.0d
 		}
@@ -291,7 +316,12 @@
 				id: "4B0871EF9B877241"
 				item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3C99376A2F7077FD"
+				type: "checkmark"
+			}
+			]
 			x: 13.125d
 			y: 7.125d
 		}
@@ -1011,7 +1041,12 @@
 				id: "0C31402B19F1F6BD"
 				item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7FA5A17E6B0EFB70"
+				type: "checkmark"
+			}
+			]
 			x: 4.875d
 			y: 1.5d
 		}
@@ -1068,7 +1103,12 @@
 				id: "4641C693C58D1337"
 				item: { count: 1, id: "sophisticatedstorage:filter_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AF2B27B65B441FAF"
+				type: "checkmark"
+			}
+			]
 			x: 4.875d
 			y: 2.625d
 		}
@@ -1139,7 +1179,12 @@
 				id: "7A7377D93DB0B33A"
 				item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "ED4F6E4D81D5B216"
+				type: "checkmark"
+			}
+			]
 			x: 4.875d
 			y: 6.0d
 		}
@@ -1247,7 +1292,12 @@
 				id: "27D514C16257CEC7"
 				item: { count: 1, id: "sophisticatedstorage:advanced_void_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B3F77DE9108A43BB"
+				type: "checkmark"
+			}
+			]
 			x: 3.75d
 			y: 7.125d
 		}
@@ -1755,7 +1805,12 @@
 				id: "71313F64FE256B8D"
 				item: { count: 1, id: "sophisticatedstorage:barrel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7E4404860B2D0D14"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: 1.0d
 		}
@@ -1819,7 +1874,12 @@
 				id: "664D8E7BEC9DB088"
 				item: { count: 1, id: "sophisticatedstorage:diamond_barrel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "659F746ABA03D4AC"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: 7.0d
 		}

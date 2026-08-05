@@ -20,14 +20,15 @@
 | Mekanism route | PASS |
 | Simply Swords catalogue | PASS |
 | Powah catalogue | PASS |
+| Storage systems route | PASS |
 
 ## Quest product specification
 
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 757 / 3318 | IN PROGRESS |
-| Single item-only ratio | 63.7% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 769 / 3318 | IN PROGRESS |
+| Single item-only ratio | 63.3% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
