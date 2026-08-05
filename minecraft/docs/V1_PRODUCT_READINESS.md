@@ -66,6 +66,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Quest | PASS |
 | Recipe dependency graph | PASS |
 | Rftools Catalog | PASS |
+| Runtime Evidence Structure | PASS |
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
 | Stage Chapter Organization | PASS |
