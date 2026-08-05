@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "mekanism_part_1",
+  "chapter_id": "23983F4DC524B14B",
+  "chapter_title_en": "Mekanism I — Materials, Power and Processing",
+  "chapter_title_ru": "Mekanism I — материалы, энергия и переработка",
+  "report_filename": "MEKANISM_PART_1_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Mekanism Part I Catalogue Quality Report",
+  "report_intro": "Every early Mekanism node must explain the machine, material, transport or power role and require a practical operating check instead of rewarding possession.",
+  "expected_quests": 78,
+  "minimum_description": 190,
+  "primary_namespace": "mekanism",
+  "primary_namespace_prefixes": ["mekanism", "mekanismgenerators"],
+  "acceptance_namespace": "mekanism_part1_catalog_acceptance",
+  "checkpoint_name": "Mekanism Foundation Checkpoint",
+  "title_suffix_en": "Operating Acceptance",
+  "title_suffix_ru": "эксплуатационная приёмка",
+  "description_en": "{display} is a {role} in the first Mekanism production era. It matters only when its energy, material, chemical, transport and side-configuration contract is understood and connected to a repeatable factory.",
+  "description_ru": "{display} — {role} первой производственной эпохи Mekanism. Он имеет смысл только при понимании его энергетического, материального, химического, транспортного контракта и настройке повторяемой фабрики.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative batch, record input, output, energy and internal-buffer behaviour, test blocked output or power loss, and remove reward, EMC, loot, trade, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую партию, запишите вход, выход, энергию и внутренний буфер, испытайте полный выход или потерю питания и закройте обходы через награды, EMC, лут, торговлю, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["metallurgic_infuser", "enrichment_chamber", "crusher", "smelting_factory", "purification_chamber", "chemical_injection_chamber", "combiner", "osmium_compressor", "energized_smelter"],
+      "role_en": "primary ore or material-processing machine",
+      "role_ru": "основная машина переработки руд или материалов",
+      "focus_en": "recipe ownership, exact yield, secondary or infusion input, energy per batch, side configuration, output separation and shutdown under a full destination",
+      "focus_ru": "владение рецептом, точный выход, дополнительный или инфузионный вход, энергию партии, настройку сторон, разделение выходов и остановку при полном назначении"
+    },
+    {
+      "tokens": ["electrolytic_separator", "chemical_tank", "fluid_tank", "rotary_condensentrator", "chemical_oxidizer", "chemical_infuser", "chemical_crystallizer", "chemical_washer", "chemical_dissolution_chamber", "pressurized_reaction_chamber"],
+      "role_en": "chemical, gas or fluid-processing component",
+      "role_ru": "компонент химической, газовой или жидкостной переработки",
+      "focus_en": "phase identity, tank ownership, dump policy, secondary inputs, conversion ratio, contamination prevention and a clean purge before recipe changes",
+      "focus_ru": "идентичность фазы, владение баками, правила сброса, дополнительные входы, коэффициент преобразования, защиту от загрязнения и чистую продувку перед сменой рецепта"
+    },
+    {
+      "tokens": ["universal_cable", "logistical_transporter", "mechanical_pipe", "pressurized_tube", "thermodynamic_conductor", "restrictive_transporter", "diversion_transporter", "configurator"],
+      "role_en": "Mekanism transport or configuration component",
+      "role_ru": "транспортный или конфигурационный компонент Mekanism",
+      "focus_en": "transferred medium, pull-push direction, colour or diversion rules, throughput, network capacity, loop isolation and recovery after one segment is removed",
+      "focus_ru": "передаваемую среду, направление ввода-вывода, цветовые или разделительные правила, пропускную способность, ёмкость сети, изоляцию циклов и восстановление после удаления сегмента"
+    },
+    {
+      "tokens": ["heat_generator", "solar_generator", "advanced_solar_generator", "wind_generator", "bio_generator", "gas_burning_generator", "energy_cube"],
+      "role_en": "generation or energy-buffer component",
+      "role_ru": "компонент генерации или буферизации энергии",
+      "focus_en": "fuel or environmental input, sustained output, transfer limit, internal reserve, idle behaviour, tier comparison and black-start order for the connected workshop",
+      "focus_ru": "топливный или природный вход, устойчивый выход, предел передачи, внутренний резерв, простой, сравнение уровней и порядок холодного запуска мастерской"
+    },
+    {
+      "tokens": ["alloy_", "control_circuit", "steel_casing", "basic_control", "advanced_control", "elite_control", "ultimate_control"],
+      "role_en": "tiered alloy, circuit or machine-structure component",
+      "role_ru": "уровневый сплав, схема или конструкционный компонент машины",
+      "focus_en": "previous-tier ancestry, infusion material, legal first source, batch stocking, protected progression boundary and prevention of skipping intermediate circuit tiers",
+      "focus_ru": "происхождение от предыдущего уровня, инфузионный материал, честный первый источник, запас партии, границу прогрессии и запрет пропуска промежуточных схем"
+    },
+    {
+      "tokens": ["digital_miner", "cardboard_box", "teleporter", "portable_teleporter", "robit", "formulaic_assemblicator"],
+      "role_en": "specialized mining, relocation, remote or assembly capability",
+      "role_ru": "специализированная возможность добычи, перемещения, удалённой работы или сборки",
+      "focus_en": "target filters, radius or destination, energy cost, protected-block blacklist, ownership, safe interruption and proof that the capability does not bypass a later-stage resource gate",
+      "focus_ru": "фильтры целей, радиус или назначение, энергозатраты, чёрный список защищённых блоков, владение, безопасное прерывание и отсутствие обхода будущего ресурсного допуска"
+    }
+  ],
+  "default": {
+    "role_en": "specialized early Mekanism component",
+    "role_ru": "специализированный ранний компонент Mekanism",
+    "focus_en": "its exact input-output contract, power demand, configuration, integration point, repeat batch and safe blocked state",
+    "focus_ru": "его точный контракт входа-выхода, энергопотребление, настройку, точку интеграции, повторную партию и безопасную блокировку"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod Mekanism integration component",
+    "role_ru": "межмодовый компонент интеграции Mekanism",
+    "focus_en": "which external system owns acquisition or storage, the conversion direction, interface buffer and absence of a cheaper progression substitute",
+    "focus_ru": "какая внешняя система отвечает за получение или хранение, направление преобразования, интерфейсный буфер и отсутствие дешёвой замены прогрессии"
+  },
+  "checkpoint": {
+    "role_en": "Mekanism foundation design checkpoint",
+    "role_ru": "контрольная точка проектирования основы Mekanism",
+    "focus_en": "a documented power tree, material routes, chemical tanks, transport colours, overflow policy, emergency shutdown and restart order",
+    "focus_ru": "задокументированное дерево питания, маршруты материалов, химические баки, цвета транспорта, переполнение, аварийную остановку и порядок перезапуска"
+  }
+}
