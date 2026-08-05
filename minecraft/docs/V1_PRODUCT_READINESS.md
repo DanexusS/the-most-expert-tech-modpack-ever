@@ -14,6 +14,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Ars Nouveau Catalog | PASS |
 | Avaritia Catalog | PASS |
 | Bypass closure | PASS |
+| Cataclysm Catalog | PASS |
 | Create Core | PASS |
 | Draconic Evolution Catalog | PASS |
 | Extended Crafting Catalog | PASS |
@@ -22,7 +23,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Industrial Foregoing | PASS |
 | Mekanism Core | PASS |
 | Mi Core | PASS |
+| Mob Grinding Utils Catalog | PASS |
 | Mystical Agriculture | PASS |
+| Occultism Catalog | PASS |
 | Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
 | Progression contract | PASS |
@@ -40,8 +43,8 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 1689 / 3318 | IN PROGRESS |
-| Single item-only ratio | 38.0% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 1827 / 3318 | IN PROGRESS |
+| Single item-only ratio | 35.2% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
