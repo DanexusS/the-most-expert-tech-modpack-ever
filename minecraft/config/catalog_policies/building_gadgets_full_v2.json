@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "Gadgets",
+  "chapter_id": "7B329826EADF9720",
+  "chapter_title_en": "Building Gadgets — Bounded Construction and Safe Rollback",
+  "chapter_title_ru": "Building Gadgets — ограниченное строительство и безопасный откат",
+  "report_filename": "BUILDING_GADGETS_SAFETY_QUALITY_REPORT.md",
+  "report_title": "Building Gadgets Safety Quality Report",
+  "report_intro": "Every gadget quest must demonstrate energy, material sourcing, selection bounds, protected-block rules and rollback instead of rewarding iron or experience for owning the tool.",
+  "expected_quests": 15,
+  "minimum_description": 215,
+  "primary_namespace": "buildinggadgets2",
+  "primary_namespaces": ["buildinggadgets2", "charginggadgets"],
+  "acceptance_namespace": "building_gadgets_safety_acceptance",
+  "checkpoint_name": "Construction Gadget Safety Checkpoint",
+  "title_suffix_en": "Bounded-Construction Acceptance",
+  "title_suffix_ru": "приёмка ограниченного строительства",
+  "description_en": "{display} is a {role} in the Building Gadgets workflow. Mastery requires a bounded construction, exchange, cut, copy or destruction operation with accountable energy and materials—not simple ownership subsidized by iron and experience rewards.",
+  "description_ru": "{display} — {role} в процессе Building Gadgets. Освоение требует ограниченной операции строительства, замены, вырезания, копирования или разрушения с учётом энергии и материалов, а не простого владения, субсидированного железом и опытом из награды.",
+  "acceptance_en": "Acceptance: verify {focus}; configure a small protected test area, record energy and material stock, perform one representative operation, validate preview and result, test insufficient-energy or invalid-block behavior, undo or restore the area and confirm that templates, cut buffers, rewards and restart states cannot duplicate blocks or cross protected boundaries.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; настройте небольшую защищённую тестовую область, зафиксируйте запас энергии и материалов, выполните показательную операцию, проверьте предпросмотр и результат, испытайте нехватку энергии или неверный блок, отмените либо восстановите область и исключите копирование блоков или пересечение защищённых границ через шаблоны, буферы вырезания, награды и перезапуск.",
+  "categories": [
+    {
+      "tokens": ["gadget_building", "building_gadget"],
+      "role_en": "bulk-construction placement tool",
+      "role_ru": "инструмент массового размещения блоков",
+      "focus_en": "selected mode and range, source inventory, exact material consumption, energy cost, placement preview, unsupported or protected blocks, partial-operation behavior and undo without producing excess blocks",
+      "focus_ru": "выбранный режим и дальность, исходный инвентарь, точный расход материалов, стоимость энергии, предпросмотр размещения, неподдерживаемые или защищённые блоки, частичную операцию и отмену без создания лишних блоков"
+    },
+    {
+      "tokens": ["copy_paste", "template", "template_manager"],
+      "role_en": "structure template, copy and paste system",
+      "role_ru": "система шаблонов, копирования и вставки структур",
+      "focus_en": "captured boundary, template ownership and name, metadata policy, required material list, rotation and mirror, paste preview, missing-material response and prevention of template or restart duplication",
+      "focus_ru": "границу захвата, владельца и имя шаблона, правила компонентов, список требуемых материалов, поворот и отражение, предпросмотр вставки, реакцию на нехватку материалов и запрет копирования шаблоном либо перезапуском"
+    },
+    {
+      "tokens": ["cut_paste", "cut"],
+      "role_en": "atomic structure relocation and cut buffer",
+      "role_ru": "атомарное перемещение структуры и буфер вырезания",
+      "focus_en": "source and destination boundaries, cut-buffer custody, protected containers and block entities, energy and material conservation, interrupted relocation, invalid destination and guaranteed recovery without losing or duplicating the structure",
+      "focus_ru": "границы источника и назначения, хранение буфера вырезания, защищённые контейнеры и блок-сущности, сохранение энергии и материалов, прерванное перемещение, неверное назначение и гарантированное восстановление без потери или копирования структуры"
+    },
+    {
+      "tokens": ["destruction", "destroy"],
+      "role_en": "bounded terrain-removal or demolition tool",
+      "role_ru": "инструмент ограниченного удаления местности или демонтажа",
+      "focus_en": "selection bounds, protected-block and container blacklist, drop or void policy, energy cost, preview, emergency cancellation, accidental-use recovery and confirmation that demolition cannot remove progression structures or duplicate drops",
+      "focus_ru": "границы выделения, чёрный список защищённых блоков и контейнеров, правила лута или удаления, стоимость энергии, предпросмотр, аварийную отмену, восстановление после ошибки и запрет удаления прогрессионных структур либо копирования лута"
+    },
+    {
+      "tokens": ["exchanging", "exchange"],
+      "role_en": "bulk block-exchange and surface-replacement tool",
+      "role_ru": "инструмент массовой замены блоков и поверхностей",
+      "focus_en": "source and replacement block filters, material consumption and recovered blocks, range and connected-area rules, block-entity protection, insufficient-stock behavior, undo and conservation of replaced material",
+      "focus_ru": "фильтры исходного и заменяющего блока, расход и возврат материалов, дальность и правила связной области, защиту блок-сущностей, поведение при нехватке запаса, отмену и сохранение заменённого материала"
+    },
+    {
+      "tokens": ["charging_station", "charger", "charging"],
+      "role_en": "gadget energy-supply and charging station",
+      "role_ru": "станция энергоснабжения и зарядки гаджетов",
+      "focus_en": "accepted energy interface, charge rate and capacity, priority, idle draw, full-item behavior, output custody, shutdown and proof that repeated insertion or restart cannot duplicate charge",
+      "focus_ru": "допустимый энергетический интерфейс, скорость и ёмкость зарядки, приоритет, расход в простое, поведение полного предмета, хранение выхода, отключение и отсутствие копирования заряда повторной вставкой либо перезапуском"
+    }
+  ],
+  "default": {
+    "role_en": "specialized construction-gadget component",
+    "role_ru": "специализированный компонент строительного гаджета",
+    "focus_en": "operation mode, selected bounds, energy and material cost, protected targets, preview, partial failure, rollback and conservation of blocks and stored data",
+    "focus_ru": "режим операции, выбранные границы, стоимость энергии и материалов, защищённые цели, предпросмотр, частичный отказ, откат и сохранение блоков и хранимых данных"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod energy, material or storage support for Building Gadgets",
+    "role_ru": "межмодовая поддержка энергии, материалов или хранения для Building Gadgets",
+    "focus_en": "its legal source, transfer or inventory contract, exact consumption, protected-item policy and proof that the gadget cannot extract, copy or refund the support resource",
+    "focus_ru": "его честный источник, контракт передачи или инвентаря, точный расход, правила защищённых предметов и доказательство, что гаджет не извлекает, не копирует и не возвращает ресурс поддержки"
+  },
+  "checkpoint": {
+    "role_en": "construction-gadget operation review",
+    "role_ru": "проверка операции строительного гаджета",
+    "focus_en": "test area, selection, preview, energy, material inventory, protected blocks, operation result, rollback, interrupted state, restart and conservation evidence",
+    "focus_ru": "тестовую область, выделение, предпросмотр, энергию, инвентарь материалов, защищённые блоки, результат операции, откат, прерванное состояние, перезапуск и доказательство сохранения"
+  }
+}
