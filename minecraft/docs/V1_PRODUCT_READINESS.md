@@ -24,8 +24,8 @@
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 632 / 3318 | IN PROGRESS |
-| Single item-only ratio | 67.4% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 684 / 3318 | IN PROGRESS |
+| Single item-only ratio | 65.9% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
