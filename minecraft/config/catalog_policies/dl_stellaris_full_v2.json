@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "dl_stellaris",
+  "chapter_id": "3E4A70426B064C76",
+  "chapter_title_en": "Stellaris — Spaceflight, Life Support and Planetary Operations",
+  "chapter_title_ru": "Stellaris — космические полёты, жизнеобеспечение и планетарные операции",
+  "report_filename": "STELLARIS_OPERATIONS_QUALITY_REPORT.md",
+  "report_title": "Stellaris Operations Quality Report",
+  "report_intro": "Every Stellaris quest must teach a complete spacecraft, power, atmosphere, resource or planetary-operation workflow instead of rewarding steel, fuel, food or experience for collecting a machine.",
+  "expected_quests": 29,
+  "minimum_description": 220,
+  "primary_namespace": "stellaris",
+  "primary_namespaces": ["stellaris"],
+  "acceptance_namespace": "stellaris_operations_acceptance",
+  "checkpoint_name": "Space Mission Readiness Checkpoint",
+  "title_suffix_en": "Mission-System Acceptance",
+  "title_suffix_ru": "приёмка системы космической миссии",
+  "description_en": "{display} is a {role} in the Stellaris expedition branch. It must be validated as part of a complete mission architecture with power, atmosphere, supplies, transport and recovery—not as an isolated item whose resource cost is refunded by the quest book.",
+  "description_ru": "{display} — {role} экспедиционной ветви Stellaris. Его необходимо проверять как часть полной архитектуры миссии с энергией, атмосферой, запасами, транспортом и восстановлением, а не как отдельный предмет, стоимость которого возвращает квестовая книга.",
+  "acceptance_en": "Acceptance: verify {focus}; document mission inputs and reserve margins, run one representative operating interval or launch cycle, measure consumption and output, test a low-power, low-supply or disconnected state, complete safe shutdown or return and confirm that rewards, duplicated fuel, free atmosphere and teleport shortcuts cannot bypass expedition progression.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте входы миссии и запас прочности, выполните показательный рабочий интервал или цикл запуска, измерьте расход и выход, испытайте нехватку энергии, запасов либо отключение, завершите безопасную остановку или возвращение и исключите обход экспедиционной прогрессии через награды, копирование топлива, бесплатную атмосферу и телепортационные сокращения.",
+  "categories": [
+    {
+      "tokens": ["rocket", "launch", "engine", "fuel_tank", "nose_cone", "fin", "spacecraft"],
+      "role_en": "spacecraft, launch or propulsion component",
+      "role_ru": "компонент космического аппарата, запуска или двигателя",
+      "focus_en": "complete vehicle assembly, fuel identity and amount, launch-pad clearance, payload and mass, destination permission, abort criteria, landing or return plan and recovery after an interrupted launch",
+      "focus_ru": "полную сборку аппарата, тип и количество топлива, свободную стартовую площадку, полезную нагрузку и массу, допуск назначения, критерии отмены, план посадки или возврата и восстановление после прерванного запуска"
+    },
+    {
+      "tokens": ["oxygen", "water_separator", "life_support", "space_suit", "tank", "air"],
+      "role_en": "atmosphere, oxygen or life-support system",
+      "role_ru": "система атмосферы, кислорода или жизнеобеспечения",
+      "focus_en": "input water or gas, separation and compression rate, storage capacity, suit or habitat consumption, leak behavior, reserve duration, emergency supply and restart without losing atmosphere",
+      "focus_ru": "входную воду или газ, скорость разделения и сжатия, ёмкость хранения, расход костюма или базы, поведение утечки, длительность резерва, аварийный запас и перезапуск без потери атмосферы"
+    },
+    {
+      "tokens": ["generator", "solar", "radioactive", "power", "panel", "battery"],
+      "role_en": "space-rated power generation or storage component",
+      "role_ru": "космический компонент генерации или хранения энергии",
+      "focus_en": "fuel or sunlight condition, rated output, storage and transfer ceiling, planetary or orbital availability, idle draw, shutdown, radiation or heat risk and recovery after darkness or fuel loss",
+      "focus_ru": "условие топлива или освещения, номинальный выход, предел хранения и передачи, доступность на планете или орбите, расход в простое, отключение, радиационный или тепловой риск и восстановление после темноты либо потери топлива"
+    },
+    {
+      "tokens": ["planet", "earth", "moon", "mars", "mercury", "jupiter", "globe", "star_map"],
+      "role_en": "planetary destination, navigation or mission-permission component",
+      "role_ru": "планетарное назначение, навигация или допуск миссии",
+      "focus_en": "destination prerequisites, route and travel cost, environmental hazards, required reserves, first-arrival evidence, protected return route and prevention of teleportation bypassing staged exploration",
+      "focus_ru": "предпосылки назначения, маршрут и стоимость перелёта, опасности среды, необходимые резервы, доказательство первого прибытия, защищённый маршрут возврата и запрет телепортационного обхода этапной экспедиции"
+    },
+    {
+      "tokens": ["ore", "ingot", "heavy_metal", "steel", "dust", "plate", "resource"],
+      "role_en": "space-industry material or planetary resource",
+      "role_ru": "материал космической промышленности или планетарный ресурс",
+      "focus_en": "legal source world, extraction method, processing sequence, batch yield, byproducts, storage, first-sample policy and proof that rewards or terrestrial simulation do not create the resource early",
+      "focus_ru": "честный мир-источник, способ добычи, последовательность переработки, выход партии, побочные продукты, хранение, правила первого образца и доказательство, что награды или земная симуляция не создают ресурс раньше времени"
+    },
+    {
+      "tokens": ["coffee", "food", "ration", "farm", "crop"],
+      "role_en": "mission consumable or closed-loop supply component",
+      "role_ru": "расходный запас миссии или компонент замкнутого снабжения",
+      "focus_en": "production route, nutritional or operational purpose, reserve size, consumption rate, spoilage or storage, renewable supply at destination and emergency ration policy",
+      "focus_ru": "производственный маршрут, пищевую или рабочую роль, размер резерва, скорость расхода, хранение или порчу, возобновляемое снабжение в месте назначения и правила аварийного пайка"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Stellaris mission component",
+    "role_ru": "специализированный компонент миссии Stellaris",
+    "focus_en": "mission role, staged source, power or material cost, operating envelope, environmental hazard, reserve margin, failure recovery and safe return",
+    "focus_ru": "роль в миссии, этапный источник, стоимость энергии или материалов, рабочий диапазон, опасность среды, запас прочности, восстановление после отказа и безопасное возвращение"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite or support system for Stellaris exploration",
+    "role_ru": "межмодовая предпосылка или система поддержки исследования Stellaris",
+    "focus_en": "its legal stage route, exact mission role, capacity or consumption, replacement reserve and confirmation that it assists rather than replaces spacecraft, life-support or destination permissions",
+    "focus_ru": "его честный этапный маршрут, точную роль в миссии, ёмкость или расход, резерв замены и подтверждение поддержки без замены аппарата, жизнеобеспечения или допусков назначения"
+  },
+  "checkpoint": {
+    "role_en": "space-mission architecture review",
+    "role_ru": "проверка архитектуры космической миссии",
+    "focus_en": "vehicle, fuel, power, life support, cargo, destination permission, environmental hazards, reserve margins, abort, landing, return and post-mission recovery",
+    "focus_ru": "аппарат, топливо, энергию, жизнеобеспечение, груз, допуск назначения, опасности среды, резервы, отмену, посадку, возвращение и восстановление после миссии"
+  }
+}
