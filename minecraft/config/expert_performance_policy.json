@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "ftb_quests": {
-    "minimum_detection_delay_ticks": 20,
+    "minimum_detection_delay_ticks": 40,
     "maximum_grid_scale": 0.5,
     "verify_on_load": false,
     "drop_loot_crates": false
@@ -38,6 +38,18 @@
     "require_measured_baseline": true,
     "require_idle_shutdown": true,
     "require_chunk_reload_recovery": true,
-    "require_bounded_buffers": true
+    "require_bounded_buffers": true,
+    "minimum_workflow_optimization_quests": 90,
+    "minimum_depth_optimization_quests": 180
+  },
+  "script_budgets": {
+    "maximum_javascript_files": 220,
+    "maximum_event_subscriptions": 220,
+    "maximum_console_calls": 35
+  },
+  "questbook_budgets": {
+    "minimum_mandatory_quests_per_stage": 100,
+    "maximum_mandatory_quests_per_stage": 140,
+    "maximum_total_quests": 6000
   }
 }
