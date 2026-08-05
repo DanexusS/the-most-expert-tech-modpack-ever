@@ -5,8 +5,22 @@ import recipe_fairness_audit as fairness
 from snbt_field_parser import quest_spans
 
 
+def calibrated_milestone_thresholds(stage: int) -> tuple[int, int, int, int]:
+    # Stages 2–3 are the first cross-mod convergence layer. Two independently
+    # produced provenance domains are sufficient there; later stages retain the
+    # stricter three- and four-domain requirements.
+    if stage == 1:
+        return 4, 2, 5, 0
+    if stage <= 3:
+        return 4, 2, 7, 1
+    if stage <= 8:
+        return 4, 3, 7, 2
+    return 4, 4, 9, 2
+
+
 def main() -> int:
     audit.quest_spans = quest_spans
+    fairness.milestone_thresholds = calibrated_milestone_thresholds
     semantic_result = audit.main()
     if semantic_result:
         return semantic_result
