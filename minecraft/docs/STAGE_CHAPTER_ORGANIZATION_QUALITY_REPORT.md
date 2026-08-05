@@ -2,14 +2,14 @@
 
 **PASS**
 
-The mandatory route is split into one detailed chapter per stage. Every stage also has a separate optional annex for deeper mod integration, diagnostics and scaling.
+The mandatory route is split into one chapter per stage. Stages 1–4 additionally require branched component production, first-batch proof, automation, measured optimization and recovery before stage certification.
 
 | Stage | ID | Main quests | Main bilingual | Annex quests | Annex bilingual | Status |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `field_foundations` | 22 | 22 | 6 | 6 | PASS |
-| 2 | `steam_metallurgy` | 22 | 22 | 6 | 6 | PASS |
-| 3 | `regulated_electricity` | 22 | 22 | 6 | 6 | PASS |
-| 4 | `kinetic_automation` | 22 | 22 | 6 | 6 | PASS |
+| 1 | `field_foundations` | 41 | 41 | 6 | 6 | PASS |
+| 2 | `steam_metallurgy` | 41 | 41 | 6 | 6 | PASS |
+| 3 | `regulated_electricity` | 41 | 41 | 6 | 6 | PASS |
+| 4 | `kinetic_automation` | 41 | 41 | 6 | 6 | PASS |
 | 5 | `precision_manufacturing` | 22 | 22 | 6 | 6 | PASS |
 | 6 | `digital_storage` | 22 | 22 | 6 | 6 | PASS |
 | 7 | `process_chemistry` | 22 | 22 | 6 | 6 | PASS |
@@ -28,8 +28,10 @@ The mandatory route is split into one detailed chapter per stage. Every stage al
 ## Aggregate
 
 - Main stage chapters: **18 / 18**
-- Mandatory stage quests: **396**
+- Mandatory stage quests: **472**
+- Expanded workflow stages: **4 / 4**
+- Required workflow quests: **76**
 - Optional annex chapters: **18 / 18**
 - Optional annex quests: **108**
-- Unique organized quest IDs: **504**
+- Unique organized quest IDs: **580**
 - Failures: **0**

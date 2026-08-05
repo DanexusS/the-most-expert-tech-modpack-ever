@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "540F672838EEE815"
+		{
 		dependencies: ["509AE0FA52490469"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "F6FFFE30CAACE5F6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7F5787EADB56B819"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["F6FFFE30CAACE5F6"]
+		icon: { id: "kubejs:stress_sensor" }
+		id: "7B4F278591F6A410"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "92CE10F82D6F3156"
+			item: { count: 1, id: "kubejs:stress_sensor" }
+			type: "item"
+		}
+		{
+			id: "4B9AEC3653803766"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["7B4F278591F6A410"]
+		icon: { id: "kubejs:kinetic_regulator" }
+		id: "82C2FD40596F7005"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "3E2F3DD3202C63E3"
+			item: { count: 1, id: "kubejs:kinetic_regulator" }
+			type: "item"
+		}
+		{
+			id: "A0F0C58B86371CAC"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["82C2FD40596F7005"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "202A6D434CEC6E35"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B2B1D8B96A223831"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["509AE0FA52490469"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "4ED83CE3FA1506F9"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1BE3E477A5545145"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["4ED83CE3FA1506F9"]
+		icon: { id: "kubejs:gearbox_alignment_frame" }
+		id: "E2DCD59C9C4425B7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D158E1EB53B53F3B"
+			item: { count: 1, id: "kubejs:gearbox_alignment_frame" }
+			type: "item"
+		}
+		{
+			id: "0E512265F9046496"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["E2DCD59C9C4425B7"]
+		icon: { id: "create:mechanical_press" }
+		id: "3A73CF531C05924F"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "4615DD59E0A701B8"
+			item: { count: 1, id: "create:mechanical_press" }
+			type: "item"
+		}
+		{
+			id: "8078B6ACE9F8F3CF"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["3A73CF531C05924F"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "985A1B459BF95AE1"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8E82E02EAABB8D7B"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["202A6D434CEC6E35" "985A1B459BF95AE1"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "073B1A9623F80C0F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "F6FBFC2AA4B1B6BF"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["073B1A9623F80C0F"]
+		icon: { id: "kubejs:sequencing_cam" }
+		id: "979855F9FE8EC393"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D5F5A9E18683B929"
+			item: { count: 1, id: "kubejs:sequencing_cam" }
+			type: "item"
+		}
+		{
+			id: "A1EE1641B511991E"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["979855F9FE8EC393"]
+		icon: { id: "create:precision_mechanism" }
+		id: "C618445B8182B5C7"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "BB6E324F21286474"
+			item: { count: 1, id: "create:precision_mechanism" }
+			type: "item"
+		}
+		{
+			id: "4C830467B3948722"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["C618445B8182B5C7"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "382233235311A9AE"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "615FA00E66D248FB"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["509AE0FA52490469"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "E6FF7BA18098466B"
+		shape: "gear"
+		tasks: [
+		{
+			id: "1AAC3C48E70504FF"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["E6FF7BA18098466B"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "9A445857D4EC1A3B"
+		shape: "gear"
+		tasks: [
+		{
+			id: "05F0B6312720BE79"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["9A445857D4EC1A3B"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "4AAFDFDB3E0D4EE9"
+		shape: "gear"
+		tasks: [
+		{
+			id: "A1D577F5520E8D59"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["4AAFDFDB3E0D4EE9"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "9B06D851CFEF4054"
+		shape: "gear"
+		tasks: [
+		{
+			id: "E2777F3B47472997"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["9B06D851CFEF4054"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "47EBED949D60B7AE"
+		shape: "gear"
+		tasks: [
+		{
+			id: "6F76CAB1AE00BD6E"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["202A6D434CEC6E35" "985A1B459BF95AE1" "382233235311A9AE" "47EBED949D60B7AE"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "106ABA3F42BB1969"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "89F4AB39CB4B8D43"
+			item: { count: 1, id: "kubejs:kinetic_interface" }
+			type: "item"
+		}
+		{
+			id: "5A9DB4A2B5E1EA8D"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["106ABA3F42BB1969"]
+		icon: { id: "kubejs:kinetic_interface" }
+		id: "AC1EBF8135A7D728"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "60DB1CC9B262D38A"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "540F672838EEE815"
+		dependencies: ["AC1EBF8135A7D728"]
 		icon: { id: "kubejs:kinetic_interface" }
 		shape: "hexagon"
 		tasks: [

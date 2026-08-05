@@ -30,6 +30,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Modern Industrialization Catalog | PASS |
 | Mystical Agriculture | PASS |
 | Occultism Catalog | PASS |
+| Performance Configuration | PASS |
 | Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
 | Progression contract | PASS |
@@ -48,10 +49,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 3822 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 2757 / 3822 | IN PROGRESS |
-| Single item-only ratio | 20.6% / ≤30% | PASS |
-| Remaining to 5,000 quests | 1178 | IN PROGRESS |
+| Total quests | 3898 / 5,000–6,000 | IN PROGRESS |
+| RU/EN descriptions | 2833 / 3898 | IN PROGRESS |
+| Single item-only ratio | 20.2% / ≤30% | PASS |
+| Remaining to 5,000 quests | 1102 | IN PROGRESS |
 | Remaining without full RU/EN | 1065 | IN PROGRESS |
 
 ## Selected gameplay guide specification

@@ -177,9 +177,315 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "52E75AF15F4206FE"
+		{
 		dependencies: ["06E6DE298C64FDB3"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "72E43FC788D6EA5B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "20C163C028D3BCAE"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["72E43FC788D6EA5B"]
+		icon: { id: "kubejs:low_voltage_busbar" }
+		id: "B89D1374D0F48051"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "82E813F968C7A4D2"
+			item: { count: 1, id: "kubejs:low_voltage_busbar" }
+			type: "item"
+		}
+		{
+			id: "9EC71A787CCD0629"
+			item: { count: 1, id: "kubejs:circuit_protection_module" }
+			type: "item"
+		}
+		{
+			id: "58A68BDD6D915C5D"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["B89D1374D0F48051"]
+		icon: { id: "kubejs:electrical_bus" }
+		id: "432AFE97E492F767"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "F55CC01A88CEFBFB"
+			item: { count: 1, id: "kubejs:electrical_bus" }
+			type: "item"
+		}
+		{
+			id: "ED5C29C7988068BB"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["432AFE97E492F767"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "9578538AF1F82AE0"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "43DA1D31B6E8F25A"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["9578538AF1F82AE0"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "9DA59280747B97A4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "E8D6B304186AE579"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["9DA59280747B97A4"]
+		icon: { id: "kubejs:reserve_switchgear" }
+		id: "973597986C727A74"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "3C333E104B6C4F1A"
+			item: { count: 1, id: "kubejs:reserve_switchgear" }
+			type: "item"
+		}
+		{
+			id: "542357D7078EE474"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["973597986C727A74"]
+		icon: { id: "modern_industrialization:basic_machine_hull" }
+		id: "CC8F6F5D312C33A3"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "B781C8432AD35740"
+			item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+			type: "item"
+		}
+		{
+			id: "5341A28DEBB6854E"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["CC8F6F5D312C33A3"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "D5ECA2316B277C5C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "59575E1B0FFB519A"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["D5ECA2316B277C5C"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "751F424FF102345E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "14B71FBCD443B11C"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["751F424FF102345E"]
+		icon: { id: "modern_industrialization:motor" }
+		id: "E11F435412226BE7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "959B94465312D339"
+			item: { count: 1, id: "modern_industrialization:motor" }
+			type: "item"
+		}
+		{
+			id: "D3EE0130E3BB35DC"
+			item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+			type: "item"
+		}
+		{
+			id: "47A0D515E2213E46"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["E11F435412226BE7"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "E4B4B57E4B60A55D"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "7ABF4E32F30E2687"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["E4B4B57E4B60A55D"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "DF7CF84B423F488E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "CDC1F6B3AEB609FA"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["06E6DE298C64FDB3"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "3DB775D81070707F"
+		shape: "gear"
+		tasks: [
+		{
+			id: "68939339E4D9F95E"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["3DB775D81070707F"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "60F25C4482B1F07A"
+		shape: "gear"
+		tasks: [
+		{
+			id: "8FA4E14511C7D17F"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["60F25C4482B1F07A"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "5508DFFEA0C9A2C2"
+		shape: "gear"
+		tasks: [
+		{
+			id: "6EAF5C7F26BFC023"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["5508DFFEA0C9A2C2"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "40CE6AC47BF944EC"
+		shape: "gear"
+		tasks: [
+		{
+			id: "5EC47B23E6542B5F"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["40CE6AC47BF944EC"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "CD8F419E69404D6B"
+		shape: "gear"
+		tasks: [
+		{
+			id: "9FC6EF74F17F8A84"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["9578538AF1F82AE0" "D5ECA2316B277C5C" "DF7CF84B423F488E" "CD8F419E69404D6B"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "76FA1187E81FD670"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "EC13F9EB7F2D22A7"
+			item: { count: 1, id: "kubejs:mechanical_core" }
+			type: "item"
+		}
+		{
+			id: "5F1706179054A77A"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["76FA1187E81FD670"]
+		icon: { id: "kubejs:mechanical_core" }
+		id: "B62154A793C6A260"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "178633A1586BBC6A"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "52E75AF15F4206FE"
+		dependencies: ["B62154A793C6A260"]
 		icon: { id: "kubejs:mechanical_core" }
 		shape: "hexagon"
 		tasks: [

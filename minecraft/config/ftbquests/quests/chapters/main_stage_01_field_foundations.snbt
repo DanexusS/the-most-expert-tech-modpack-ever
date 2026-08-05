@@ -176,9 +176,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "9F981730C5771D23"
+		{
 		dependencies: ["51FC7057BE5517EF"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "9D15CDB1029B4693"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "DC9E1C8A75CF27C2"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["9D15CDB1029B4693"]
+		icon: { id: "kubejs:survey_lens" }
+		id: "18ACECAE85847DD8"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "06D5F1E2CCAA8C01"
+			item: { count: 1, id: "kubejs:survey_lens" }
+			type: "item"
+		}
+		{
+			id: "94EF08D35FD3DE7C"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["18ACECAE85847DD8"]
+		icon: { id: "kubejs:materials_analysis_matrix" }
+		id: "C50C9C5AE6DCD025"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "9CED5BEC83CAC91D"
+			item: { count: 1, id: "kubejs:materials_analysis_matrix" }
+			type: "item"
+		}
+		{
+			id: "FE62AF686EB79286"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["C50C9C5AE6DCD025"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "4D88124E6921000A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "199A365025DAFF11"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["51FC7057BE5517EF"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "54C9C94635B40D61"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "9CF2C7B6EE338C83"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["54C9C94635B40D61"]
+		icon: { id: "kubejs:insulated_wiring_bundle" }
+		id: "D551873FC45CBAE4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7F44F5C38B97C1B1"
+			item: { count: 1, id: "kubejs:insulated_wiring_bundle" }
+			type: "item"
+		}
+		{
+			id: "C07C3A42CDD1F274"
+			item: { count: 1, id: "kubejs:manual_control_board" }
+			type: "item"
+		}
+		{
+			id: "77BA783D36A79C6E"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["D551873FC45CBAE4"]
+		icon: { id: "kubejs:power_regulation_unit" }
+		id: "EDF6724885D2BFA1"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "45603A55D1FEA611"
+			item: { count: 1, id: "kubejs:power_regulation_unit" }
+			type: "item"
+		}
+		{
+			id: "47F06C703C15A129"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["EDF6724885D2BFA1"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "7426D4D3DCACEEB4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B074F14C970D8AC9"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["51FC7057BE5517EF"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "78AEFCF74E5FC39B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "B48AFF8C485195E1"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["78AEFCF74E5FC39B"]
+		icon: { id: "kubejs:field_tool_frame" }
+		id: "C6BF4F4DA16E54CA"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "AE4BFC4B1E2B038F"
+			item: { count: 1, id: "kubejs:field_tool_frame" }
+			type: "item"
+		}
+		{
+			id: "970F8DF31110D244"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["C6BF4F4DA16E54CA"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "52055CAFDDCA60B3"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "10B7FB4CEDE1B852"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["52055CAFDDCA60B3"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "7A016D625006D943"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "10483E59ACDA429A"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["51FC7057BE5517EF"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "6EC9CB6DA2DD5FD5"
+		shape: "gear"
+		tasks: [
+		{
+			id: "CDA3C1B2B78A32B7"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["6EC9CB6DA2DD5FD5"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "C166987B70CFE0D2"
+		shape: "gear"
+		tasks: [
+		{
+			id: "CFA795ECD6BD2031"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["C166987B70CFE0D2"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "70E00936F0ED109B"
+		shape: "gear"
+		tasks: [
+		{
+			id: "F22A2169C3342664"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["70E00936F0ED109B"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "AF977F4861754554"
+		shape: "gear"
+		tasks: [
+		{
+			id: "9672EE21A28DFC89"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["AF977F4861754554"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "3ECD04191B5648C8"
+		shape: "gear"
+		tasks: [
+		{
+			id: "2D21CD86E310186D"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["4D88124E6921000A" "7426D4D3DCACEEB4" "7A016D625006D943" "3ECD04191B5648C8"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "9AE90D0A4712970D"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "6CF7C74C4DB6467B"
+			item: { count: 1, id: "kubejs:field_engineering_kit" }
+			type: "item"
+		}
+		{
+			id: "5A12D78CF0C52A08"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["9AE90D0A4712970D"]
+		icon: { id: "kubejs:field_engineering_kit" }
+		id: "08131E6EFFEDFA84"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "9E9027BEF463C0EA"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "9F981730C5771D23"
+		dependencies: ["08131E6EFFEDFA84"]
 		icon: { id: "kubejs:field_engineering_kit" }
 		shape: "hexagon"
 		tasks: [

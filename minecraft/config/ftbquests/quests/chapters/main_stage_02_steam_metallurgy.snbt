@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "8F3190AE93005931"
+		{
 		dependencies: ["29A71BD18C822885"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "4493AF5EDDAC0D3C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "23F5ED8B3874BB30"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["4493AF5EDDAC0D3C"]
+		icon: { id: "kubejs:metallurgical_bracing" }
+		id: "BD9EE9BD1130512B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "82B5178A86DC1BC6"
+			item: { count: 1, id: "kubejs:metallurgical_bracing" }
+			type: "item"
+		}
+		{
+			id: "85323EDA1BB572A9"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["BD9EE9BD1130512B"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "726200BCBF8B4F97"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "40023BFA41A14A1F"
+			item: { count: 1, id: "kubejs:structural_lattice" }
+			type: "item"
+		}
+		{
+			id: "3D38AFCCDBB911AB"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["726200BCBF8B4F97"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "20C61CE007100766"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "FF1BF933F72046A8"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["20C61CE007100766"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "FDD24BDFCA343EE9"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "95F0ECEC0BC364C1"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["FDD24BDFCA343EE9"]
+		icon: { id: "kubejs:steam_valve_assembly" }
+		id: "B0924BB5F7305698"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "44DDA2AC52010C1B"
+			item: { count: 1, id: "kubejs:steam_valve_assembly" }
+			type: "item"
+		}
+		{
+			id: "DDE59C850F0D627E"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["B0924BB5F7305698"]
+		icon: { id: "modern_industrialization:bronze_boiler" }
+		id: "7267E853D86C7241"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "426124DCAC8D9A33"
+			item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+			type: "item"
+		}
+		{
+			id: "18A7153DBD38DFD8"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["7267E853D86C7241"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "B59089A91731A93B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7D276273DFECF9C3"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["20C61CE007100766"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "EC0AE5965AB4A56F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "01B3ED9E1E690E83"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["EC0AE5965AB4A56F"]
+		icon: { id: "kubejs:refractory_binder" }
+		id: "ABD8D44BF792F5CA"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1A723C129036BFB4"
+			item: { count: 1, id: "kubejs:refractory_binder" }
+			type: "item"
+		}
+		{
+			id: "4BD4C362283393A1"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["ABD8D44BF792F5CA"]
+		icon: { id: "immersiveengineering:blastbrick_reinforced" }
+		id: "63021EB2022D5DAF"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "FEEDEEB5ACFDAAF8"
+			item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+			type: "item"
+		}
+		{
+			id: "D4759D08DE0557DE"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["63021EB2022D5DAF"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "87A73332AFE2D964"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "125BF40403500994"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["29A71BD18C822885"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "0D6675B7D4ECE4A5"
+		shape: "gear"
+		tasks: [
+		{
+			id: "57B361311E2C446E"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["0D6675B7D4ECE4A5"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "908F5666073EF1E4"
+		shape: "gear"
+		tasks: [
+		{
+			id: "7C325D0D976D03EC"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["908F5666073EF1E4"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "C9077BB2C7A48923"
+		shape: "gear"
+		tasks: [
+		{
+			id: "A98FD01929A58374"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["C9077BB2C7A48923"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "8A2AF93360449679"
+		shape: "gear"
+		tasks: [
+		{
+			id: "ADC2065613BB2D3C"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["8A2AF93360449679"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "BA33A07876E5D684"
+		shape: "gear"
+		tasks: [
+		{
+			id: "8A91612F306E2AC8"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["20C61CE007100766" "B59089A91731A93B" "87A73332AFE2D964" "BA33A07876E5D684"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "B37F0B9DDB6D527F"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "FEA8016E229DA70E"
+			item: { count: 1, id: "kubejs:structural_lattice" }
+			type: "item"
+		}
+		{
+			id: "52AECB27FDA8DA52"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["B37F0B9DDB6D527F"]
+		icon: { id: "kubejs:structural_lattice" }
+		id: "BDE76EC364B8DA74"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "491CC071D390379C"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "8F3190AE93005931"
+		dependencies: ["BDE76EC364B8DA74"]
 		icon: { id: "kubejs:structural_lattice" }
 		shape: "hexagon"
 		tasks: [
