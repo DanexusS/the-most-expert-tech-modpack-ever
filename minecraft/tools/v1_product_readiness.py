@@ -12,11 +12,11 @@ EVIDENCE_PATH = ROOT / "config" / "v1_runtime_evidence.json"
 REPORTS = {
     "Theoretical balance": ROOT / "docs" / "THEORETICAL_BALANCE_REPORT.md",
     "Quest quality": ROOT / "docs" / "QUEST_QUALITY_REPORT.md",
-    "Five core manuals": ROOT / "docs" / "CORE_MANUAL_QUALITY_REPORT.md",
+    "Curated manuals": ROOT / "docs" / "ALL_MANUAL_QUALITY_REPORT.md",
     "Progression contract": ROOT / "docs" / "PROGRESSION_CONTRACT_REPORT.md",
     "Recipe dependency graph": ROOT / "docs" / "RECIPE_DEPENDENCY_REPORT.md",
     "Bypass closure": ROOT / "docs" / "BYPASS_AUDIT_REPORT.md",
-    "Manifest guide coverage": ROOT / "docs" / "MOD_GUIDE_COVERAGE_REPORT.md",
+    "Selected gameplay guide coverage": ROOT / "docs" / "MOD_GUIDE_COVERAGE_REPORT.md",
     "Create route": ROOT / "docs" / "CREATE_CORE_QUALITY_REPORT.md",
     "Immersive Engineering route": ROOT / "docs" / "IE_CORE_QUALITY_REPORT.md",
     "Modern Industrialization route": ROOT / "docs" / "MI_CORE_QUALITY_REPORT.md",
@@ -61,9 +61,12 @@ def guide_metrics() -> dict[str, int]:
     text = (ROOT / "docs" / "MOD_GUIDE_COVERAGE_REPORT.md").read_text(encoding="utf-8")
     return {
         "manifest": integer(text, r"Manifest projects:\s*\*\*([0-9,]+)\*\*"),
-        "classified": integer(text, r"Classified projects:\s*\*\*([0-9,]+)\*\*"),
-        "complete": integer(text, r"Completed guides:\s*\*\*([0-9,]+)\*\*"),
-        "unclassified": integer(text, r"Unclassified projects:\s*\*\*([0-9,]+)\*\*"),
+        "tracked": integer(text, r"Tracked gameplay/progression projects:\s*\*\*([0-9,]+)\*\*"),
+        "not_selected": integer(text, r"Manifest projects not selected for individual guides:\s*\*\*([0-9,]+)\*\*"),
+        "missing_review": integer(text, r"Tracked guides not reviewed:\s*\*\*([0-9,]+)\*\*"),
+        "reviewed": integer(text, r"Reviewed tracked guides:\s*\*\*([0-9,]+)\*\*"),
+        "complete": integer(text, r"Complete tracked guides:\s*\*\*([0-9,]+)\*\*"),
+        "blockers": integer(text, r"Coverage blockers:\s*\*\*([0-9,]+)\*\*"),
     }
 
 
@@ -77,12 +80,7 @@ def main() -> int:
     quest_volume = 5000 <= quests["quests"] <= 6000
     full_bilingual = quests["quests"] > 0 and quests["bilingual"] == quests["quests"]
     quest_structure = quests["item_only_ratio"] <= 0.30
-    guide_complete = (
-        guides["manifest"] > 0
-        and guides["classified"] == guides["manifest"]
-        and guides["complete"] == guides["manifest"]
-        and guides["unclassified"] == 0
-    )
+    guide_complete = guides["tracked"] > 0 and guides["missing_review"] == 0 and guides["blockers"] == 0
     static_complete = all(status.values()) and quest_volume and full_bilingual and quest_structure and guide_complete
     runtime_complete = all(runtime.values())
 
@@ -118,14 +116,16 @@ def main() -> int:
         f"| RU/EN descriptions | {quests['bilingual']} / {quests['quests']} | {'PASS' if full_bilingual else 'IN PROGRESS'} |",
         f"| Single item-only ratio | {quests['item_only_ratio']:.1%} / ≤30% | {'PASS' if quest_structure else 'IN PROGRESS'} |",
         "",
-        "## All-mod guide specification",
+        "## Selected gameplay guide specification",
         "",
         "| Metric | Current |",
         "|---|---:|",
-        f"| Manifest projects | {guides['manifest']} |",
-        f"| Classified projects | {guides['classified']} |",
-        f"| Completed guides | {guides['complete']} |",
-        f"| Unclassified projects | {guides['unclassified']} |",
+        f"| Manifest inventory projects | {guides['manifest']} |",
+        f"| Tracked gameplay/progression projects | {guides['tracked']} |",
+        f"| Projects not requiring individual guides | {guides['not_selected']} |",
+        f"| Tracked guides awaiting review | {guides['missing_review']} |",
+        f"| Reviewed tracked guides | {guides['reviewed']} |",
+        f"| Complete tracked guides | {guides['complete']} |",
         f"| Coverage status | {'PASS' if guide_complete else 'IN PROGRESS'} |",
         "",
         "## Minimum runtime evidence",
@@ -140,7 +140,7 @@ def main() -> int:
         "",
         "## Release rule",
         "",
-        "The label `v1` is prohibited until all static reports pass, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every manifest project has a completed guide classification, and the minimum runtime evidence is verified.",
+        "The label `v1` is prohibited until all static reports pass, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
         "",
     ])
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
@@ -150,7 +150,8 @@ def main() -> int:
     print(f"quests: {quests['quests']}")
     print(f"bilingual: {quests['bilingual']}")
     print(f"item_only_ratio: {quests['item_only_ratio']:.4f}")
-    print(f"guide_coverage: {guides['classified']}/{guides['manifest']}")
+    print(f"tracked_guide_coverage: {guides['tracked'] - guides['missing_review']}/{guides['tracked']}")
+    print(f"manifest_projects_not_selected: {guides['not_selected']}")
     print(f"minimum_runtime: {sum(runtime.values())}/{len(runtime)}")
     return 0
 
