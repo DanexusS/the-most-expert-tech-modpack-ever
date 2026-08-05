@@ -1,8 +1,13 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "policies": [
     "config/catalog_policies/ufo_future_full.json",
     "config/catalog_policies/engineering_handbook_full.json",
-    "config/catalog_policies/minecolonies_full.json"
+    "config/catalog_policies/minecolonies_full.json",
+    "config/catalog_policies/mainquestline_part_1_full.json",
+    "config/catalog_policies/tfmg_electricity_full.json"
+  ],
+  "tools": [
+    "tools/productive_bees_remediation.py"
   ]
 }
