@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "heart_of_the_void",
+  "chapter_id": "3B58FF4E74425AED",
+  "chapter_title_en": "Heart of the Void — Final Artifact Convergence",
+  "chapter_title_ru": "Сердце Пустоты — схождение финальных артефактов",
+  "report_filename": "HEART_OF_THE_VOID_CONVERGENCE_QUALITY_REPORT.md",
+  "report_title": "Heart of the Void Convergence Quality Report",
+  "report_intro": "Every Fragmentum endgame artifact must document its prerequisite branches, irreversible cost, bounded capability, failure recovery and final convergence role instead of returning enormous experience or lore books as quest rewards.",
+  "expected_quests": 26,
+  "minimum_description": 230,
+  "primary_namespace": "fragmentumneoforge",
+  "primary_namespaces": ["fragmentumneoforge", "fragmentum"],
+  "acceptance_namespace": "heart_of_void_convergence_acceptance",
+  "checkpoint_name": "Void Convergence Checkpoint",
+  "title_suffix_en": "Final Artifact Acceptance",
+  "title_suffix_ru": "приёмка финального артефакта",
+  "description_en": "{display} is a {role} in the Heart of the Void convergence. Its narrative significance must be backed by an authoritative, irreversible production route and a bounded operational role—not by experience, duplicate materials or a lore-book reward that substitutes for actual endgame proof.",
+  "description_ru": "{display} — {role} в схождении Сердца Пустоты. Его сюжетная значимость должна подтверждаться авторитетным необратимым производственным маршрутом и ограниченной рабочей ролью, а не опытом, дублирующими материалами или книгой-наградой вместо реального доказательства эндгейма.",
+  "acceptance_en": "Acceptance: verify {focus}; trace every major prerequisite branch, reconcile the consumed assemblies, perform one representative bounded capability test, document an interruption or loss-recovery procedure and confirm that quest rewards, EMC, simulation, trade, loot rerolls, recursive crafting and duplication cannot create the artifact or its protected inputs.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; проследите каждую крупную ветвь предпосылок, сверьте расходуемые сборки, выполните один показательный ограниченный тест способности, задокументируйте прерывание или восстановление после потери и исключите получение артефакта либо защищённых входов через награды, EMC, симуляцию, торговлю, переролл лута, рекурсивный крафт и копирование.",
+  "categories": [
+    {
+      "tokens": ["heartofthevoid", "heart_of_the_void", "voidheart"],
+      "role_en": "final convergence milestone and proof of completed progression",
+      "role_ru": "финальная веха схождения и доказательство завершённой прогрессии",
+      "focus_en": "all required artifact dependencies, one-way consumption, authoritative final recipe, absence of EMC and simulation value, protected storage, world-restart persistence and proof that no branch can be omitted",
+      "focus_ru": "все обязательные зависимости артефактов, одностороннее потребление, авторитетный финальный рецепт, отсутствие стоимости EMC и симуляции, защищённое хранение, сохранение после перезапуска мира и доказательство невозможности пропустить ветвь"
+    },
+    {
+      "tokens": ["blade", "sword", "eclipse", "weapon", "bow"],
+      "role_en": "void-forged combat artifact",
+      "role_ru": "боевой артефакт, выкованный Пустотой",
+      "focus_en": "material ancestry, damage and special-effect ceiling, durability or charge, repair prohibition or route, representative boss test, protected-area restrictions and confirmation that it does not replace required first victories",
+      "focus_ru": "происхождение материалов, предел урона и особых эффектов, прочность или заряд, запрет либо маршрут ремонта, показательный тест на боссе, ограничения защищённых зон и отсутствие замены обязательных первых побед"
+    },
+    {
+      "tokens": ["capacitor", "energy", "battery", "core", "reactor"],
+      "role_en": "supreme energy-storage or power-control artifact",
+      "role_ru": "высший артефакт хранения или управления энергией",
+      "focus_en": "capacity, charge and discharge ceilings, accepted energy interfaces, loss and idle behavior, overload isolation, restart state, bounded output policy and prevention of positive feedback or infinite transfer loops",
+      "focus_ru": "ёмкость, пределы заряда и разряда, допустимые энергетические интерфейсы, потери и простой, изоляцию перегрузки, состояние после перезапуска, ограничение выхода и запрет положительной обратной связи либо бесконечных циклов передачи"
+    },
+    {
+      "tokens": ["auraforge", "forge", "flame", "heart", "essence"],
+      "role_en": "world-forging catalyst or elemental convergence artifact",
+      "role_ru": "катализатор ковки мира или артефакт стихийного схождения",
+      "focus_en": "all elemental and machine prerequisites, heat or ritual conditions, catalyst custody, exact batch cost, failure residue, protected placement and recovery without refunding consumed endgame assemblies",
+      "focus_ru": "все стихийные и машинные предпосылки, условия температуры или ритуала, хранение катализатора, точную стоимость партии, остатки отказа, защищённое размещение и восстановление без возврата израсходованных эндгейм-сборок"
+    },
+    {
+      "tokens": ["time", "chron", "dimension", "reality", "portal", "space"],
+      "role_en": "temporal or dimensional-control artifact",
+      "role_ru": "артефакт управления временем или измерениями",
+      "focus_en": "activation permission, target dimension or time scope, cooldown and energy cost, chunk and restart behavior, destination safety, rollback limits and prevention of bypassing staged dimensions or protected rooms",
+      "focus_ru": "допуск активации, область измерения или времени, перезарядку и стоимость энергии, поведение чанков и перезапуска, безопасность назначения, пределы отката и запрет обхода этапных измерений либо защищённых помещений"
+    },
+    {
+      "tokens": ["infinity", "singularity", "cosmic", "eternal", "ultimate", "supreme"],
+      "role_en": "cosmic synthesis or infinity-grade prerequisite",
+      "role_ru": "предпосылка космического синтеза или уровня бесконечности",
+      "focus_en": "prior-stage convergence components, singularity or catalyst custody, irreversible cost, multi-mod provenance, authoritative recipe, no-value blacklist coverage and use only in the assigned final assembly",
+      "focus_ru": "компоненты схождения прошлых этапов, хранение сингулярности или катализатора, необратимую стоимость, межмодовое происхождение, авторитетный рецепт, покрытие чёрным списком стоимости и расход только в назначенной финальной сборке"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Fragmentum endgame artifact",
+    "role_ru": "специализированный эндгейм-артефакт Fragmentum",
+    "focus_en": "authoritative acquisition, prerequisite branches, irreversible material cost, bounded effect, protected storage, failure recovery and its exact role in final convergence",
+    "focus_ru": "авторитетное получение, ветви предпосылок, необратимую стоимость материалов, ограниченный эффект, защищённое хранение, восстановление после отказа и точную роль в финальном схождении"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod endgame prerequisite consumed by Fragmentum convergence",
+    "role_ru": "межмодовая эндгейм-предпосылка, расходуемая схождением Fragmentum",
+    "focus_en": "its source mod progression, assigned stage, exact count, irreversible consumption, blacklist and bypass coverage and proof that Fragmentum does not fabricate or refund it",
+    "focus_ru": "прогрессию исходного мода, назначенный этап, точное количество, необратимое потребление, покрытие чёрными списками и обходами и доказательство, что Fragmentum не создаёт и не возвращает этот компонент"
+  },
+  "checkpoint": {
+    "role_en": "final artifact-convergence review",
+    "role_ru": "проверка схождения финальных артефактов",
+    "focus_en": "all branch artifacts, recipe authority, irreversible inputs, protected storage, bounded capabilities, failure recovery, restart persistence and evidence that the final Heart represents completed progression",
+    "focus_ru": "все артефакты ветвей, авторитетность рецепта, необратимые входы, защищённое хранение, ограниченные способности, восстановление после отказа, сохранение после перезапуска и доказательство завершённой прогрессии финальным Сердцем"
+  }
+}
