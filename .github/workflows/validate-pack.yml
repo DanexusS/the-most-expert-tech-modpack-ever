@@ -77,6 +77,7 @@ jobs:
           python minecraft/tools/upgrade_mekanism_core.py
           python minecraft/tools/upgrade_simply_swords_catalog.py
           python minecraft/tools/upgrade_powah_catalog.py
+          python minecraft/tools/upgrade_storage_systems_core.py
 
       - name: Generate curated manuals I-VII sequentially
         run: |
@@ -112,6 +113,7 @@ jobs:
           python minecraft/tools/mekanism_core_quality_gate.py
           python minecraft/tools/simply_swords_quality_gate.py
           python minecraft/tools/powah_quality_gate.py
+          python minecraft/tools/storage_systems_core_quality_gate.py
 
       - name: Validate scripts, quests and localization
         run: python minecraft/tools/static_validate.py
@@ -152,6 +154,7 @@ jobs:
             minecraft/docs/MEKANISM_CORE_QUALITY_REPORT.md \
             minecraft/docs/SIMPLY_SWORDS_QUALITY_REPORT.md \
             minecraft/docs/POWAH_QUALITY_REPORT.md \
+            minecraft/docs/STORAGE_SYSTEMS_CORE_QUALITY_REPORT.md \
             minecraft/docs/V1_PRODUCT_READINESS.md
           git commit -m "automation: regenerate manuals and v1 product reports"
           git push origin HEAD:${TARGET_BRANCH}
