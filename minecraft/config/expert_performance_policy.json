@@ -23,9 +23,9 @@
     "require_registry_guard": true
   },
   "hot_path_budgets": {
-    "maximum_tick_subscriptions": 12,
-    "maximum_spawn_subscriptions": 12,
-    "maximum_hurt_subscriptions": 12,
+    "maximum_tick_subscriptions": 4,
+    "maximum_spawn_subscriptions": 4,
+    "maximum_hurt_subscriptions": 4,
     "forbid_file_io_in_high_frequency_handlers": true,
     "forbid_registry_full_scans_in_high_frequency_handlers": true,
     "forbid_console_calls_in_high_frequency_handlers": true
@@ -65,9 +65,9 @@
     "minimum_depth_optimization_quests": 180
   },
   "script_budgets": {
-    "maximum_javascript_files": 220,
-    "maximum_event_subscriptions": 220,
-    "maximum_console_calls": 35
+    "maximum_javascript_files": 212,
+    "maximum_event_subscriptions": 205,
+    "maximum_console_calls": 22
   },
   "questbook_budgets": {
     "minimum_mandatory_quests_per_stage": 100,
