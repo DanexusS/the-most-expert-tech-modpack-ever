@@ -5,7 +5,7 @@
 ## Summary
 
 - Gated outputs represented in graph: **63**
-- Parsed final recipe definitions: **95**
+- Parsed final recipe definitions: **113**
 - Dependency cycles: **0**
 - Later-stage dependency inversions: **0**
 - Outputs without a parsed shaped recipe: **11**

@@ -18,20 +18,20 @@ The mandatory route is split into one chapter per stage. Stages 1–4 additional
 | 10 | `applied_logistics` | 41 | 41 | 6 | 6 | PASS |
 | 11 | `resonant_energy` | 41 | 41 | 6 | 6 | PASS |
 | 12 | `nuclear_antimatter` | 41 | 41 | 6 | 6 | PASS |
-| 13 | `dimensional_materials` | 22 | 22 | 6 | 6 | PASS |
-| 14 | `draconic_engineering` | 22 | 22 | 6 | 6 | PASS |
-| 15 | `contained_transmutation` | 22 | 22 | 6 | 6 | PASS |
-| 16 | `extreme_fabrication` | 22 | 22 | 6 | 6 | PASS |
-| 17 | `cosmic_synthesis` | 22 | 22 | 6 | 6 | PASS |
-| 18 | `creative_convergence` | 22 | 22 | 6 | 6 | PASS |
+| 13 | `dimensional_materials` | 41 | 41 | 6 | 6 | PASS |
+| 14 | `draconic_engineering` | 41 | 41 | 6 | 6 | PASS |
+| 15 | `contained_transmutation` | 41 | 41 | 6 | 6 | PASS |
+| 16 | `extreme_fabrication` | 41 | 41 | 6 | 6 | PASS |
+| 17 | `cosmic_synthesis` | 41 | 41 | 6 | 6 | PASS |
+| 18 | `creative_convergence` | 41 | 41 | 6 | 6 | PASS |
 
 ## Aggregate
 
 - Main stage chapters: **18 / 18**
-- Mandatory stage quests: **624**
-- Expanded workflow stages: **12 / 12**
-- Required workflow quests: **228**
+- Mandatory stage quests: **738**
+- Expanded workflow stages: **18 / 18**
+- Required workflow quests: **342**
 - Optional annex chapters: **18 / 18**
 - Optional annex quests: **108**
-- Unique organized quest IDs: **732**
+- Unique organized quest IDs: **846**
 - Failures: **0**

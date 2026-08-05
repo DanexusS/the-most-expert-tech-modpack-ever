@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "751AFD5F83C83D1F"
+		{
 		dependencies: ["EAF6B171958E3EC6"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "39823C833D2CCE37"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "05C1348EBE51FD90"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["39823C833D2CCE37"]
+		icon: { id: "kubejs:injector_alignment_core" }
+		id: "BA32E32906C34C60"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "10B85BF11767396E"
+			item: { count: 1, id: "kubejs:injector_alignment_core" }
+			type: "item"
+		}
+		{
+			id: "160439CE904BC932"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["BA32E32906C34C60"]
+		icon: { id: "draconicevolution:wyvern_core" }
+		id: "8768EED8CD0D2820"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "3B188C03618684D9"
+			item: { count: 1, id: "draconicevolution:wyvern_core" }
+			type: "item"
+		}
+		{
+			id: "5E4669667F47C2A8"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["8768EED8CD0D2820"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "0BA1B6D0F1228084"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "43F63BBF06EA5E9B"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["EAF6B171958E3EC6"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "E0FB4BA8EA8F32E6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "1EAD69B1F2A19AE5"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["E0FB4BA8EA8F32E6"]
+		icon: { id: "kubejs:awakened_containment_shell" }
+		id: "50A7F35CA816539A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "4924B563DBA101D6"
+			item: { count: 1, id: "kubejs:awakened_containment_shell" }
+			type: "item"
+		}
+		{
+			id: "AE4666138B48D799"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["50A7F35CA816539A"]
+		icon: { id: "draconicevolution:awakened_core" }
+		id: "7F3F03389B6598A8"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "0C74ED9342ECF3C7"
+			item: { count: 1, id: "draconicevolution:awakened_core" }
+			type: "item"
+		}
+		{
+			id: "A97269FD4C676B65"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["7F3F03389B6598A8"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "17547E11A3CF31A5"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "871FAE2AE602251B"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["0BA1B6D0F1228084" "17547E11A3CF31A5"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "C1834978FB47B659"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "C0D674622BFA4C24"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["C1834978FB47B659"]
+		icon: { id: "kubejs:draconic_energy_coupler" }
+		id: "A2C8A402845AB96C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "189CD50A5FDA59CF"
+			item: { count: 1, id: "kubejs:draconic_energy_coupler" }
+			type: "item"
+		}
+		{
+			id: "4BBC7D4B763FA38A"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["A2C8A402845AB96C"]
+		icon: { id: "mekanism:ultimate_control_circuit" }
+		id: "B3B92B3EAE0502B3"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "FAC9F5B109EDC6A3"
+			item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+			type: "item"
+		}
+		{
+			id: "12B2A764D1104B90"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["B3B92B3EAE0502B3"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "3CCE4DF65B3DFB92"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "E757D05EAEF43015"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["EAF6B171958E3EC6"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "08A84BE171936DA1"
+		shape: "gear"
+		tasks: [
+		{
+			id: "C0B3099AC723EDD3"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["08A84BE171936DA1"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "7B5524A6BF77D268"
+		shape: "gear"
+		tasks: [
+		{
+			id: "5B7F5A2E26AA4460"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["7B5524A6BF77D268"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "2A2E844059090819"
+		shape: "gear"
+		tasks: [
+		{
+			id: "96D932B9D482AD90"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["2A2E844059090819"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "19DFD45C819ABB4A"
+		shape: "gear"
+		tasks: [
+		{
+			id: "FA5924AA067E3940"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["19DFD45C819ABB4A"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "BCC904E26C386410"
+		shape: "gear"
+		tasks: [
+		{
+			id: "10A63B08FCEFF984"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["0BA1B6D0F1228084" "17547E11A3CF31A5" "3CCE4DF65B3DFB92" "BCC904E26C386410"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "88F22F62EC91E1BF"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "13C7FFCF8159D245"
+			item: { count: 1, id: "kubejs:draconic_processor" }
+			type: "item"
+		}
+		{
+			id: "0FDF1FC887878B1C"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["88F22F62EC91E1BF"]
+		icon: { id: "kubejs:draconic_processor" }
+		id: "3BAC6D7766C74682"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "FD4B9C7973427B86"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "751AFD5F83C83D1F"
+		dependencies: ["3BAC6D7766C74682"]
 		icon: { id: "kubejs:draconic_processor" }
 		shape: "hexagon"
 		tasks: [

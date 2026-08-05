@@ -7,8 +7,8 @@
 - Macro stages: **18**
 - Mandatory substages: **72**
 - Planned quest budget: **5400**
-- Current parsed quests: **4050**
-- Remaining quest budget: **1350**
+- Current parsed quests: **4164**
+- Remaining quest budget: **1236**
 - Gated outputs: **63**
 - Gated outputs without an authoritative path: **0**
 - Authorized process or unique-permission outputs: **11**
@@ -48,6 +48,8 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:chemical_processor`
 - `kubejs:chemical_reactor_core`
 - `kubejs:cosmic_catalyst`
+- `kubejs:cosmic_synthesis_core`
+- `kubejs:creative_convergence_matrix`
 - `kubejs:dimensional_resonator`
 - `kubejs:draconic_processor`
 - `kubejs:electrical_bus`

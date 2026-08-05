@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "1F8EE06D1654D8FD"
+		{
 		dependencies: ["6AD6AE6D1FBB8002"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "622B3D05F6624D20"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "EB0526E1C2448508"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["622B3D05F6624D20"]
+		icon: { id: "kubejs:expedition_supply_frame" }
+		id: "1AA113952C051008"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "847E096CA6F3550B"
+			item: { count: 1, id: "kubejs:expedition_supply_frame" }
+			type: "item"
+		}
+		{
+			id: "74B7CC6E8E208982"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["1AA113952C051008"]
+		icon: { id: "minecraft:shulker_box" }
+		id: "6ED16D6442E749E2"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "1CE107137A73A371"
+			item: { count: 1, id: "minecraft:shulker_box" }
+			type: "item"
+		}
+		{
+			id: "D8976406D2C97D2B"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["6ED16D6442E749E2"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "33544408AEC1347B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "8A2807F8F03B54A9"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["6AD6AE6D1FBB8002"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "5C07AD3148616EAF"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "5E003023B8D4C33F"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["5C07AD3148616EAF"]
+		icon: { id: "kubejs:trophy_assay_module" }
+		id: "D7102622AFABFFF9"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "EB9CD81F4D942430"
+			item: { count: 1, id: "kubejs:trophy_assay_module" }
+			type: "item"
+		}
+		{
+			id: "C01CC2DBED00EA54"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["D7102622AFABFFF9"]
+		icon: { id: "divinerpg:dungeon_tokens" }
+		id: "E460E75A0D5F26BF"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "1BA294D3E1354A49"
+			item: { count: 1, id: "divinerpg:dungeon_tokens" }
+			type: "item"
+		}
+		{
+			id: "6DC179568561A1B7"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["E460E75A0D5F26BF"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "2CD74E785911AD92"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "A188C2114D40579E"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["33544408AEC1347B" "2CD74E785911AD92"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "25D069E6BBBDEF0C"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "BA7403C0F6C8B188"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["25D069E6BBBDEF0C"]
+		icon: { id: "kubejs:dimensional_cargo_anchor" }
+		id: "BD2F837C6595AE78"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "349A8EDECD8D4A70"
+			item: { count: 1, id: "kubejs:dimensional_cargo_anchor" }
+			type: "item"
+		}
+		{
+			id: "7621C207AE84FEF4"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["BD2F837C6595AE78"]
+		icon: { id: "ae2:quantum_ring" }
+		id: "61A81D8E4EDFC399"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "53869F954628745A"
+			item: { count: 1, id: "ae2:quantum_ring" }
+			type: "item"
+		}
+		{
+			id: "AF695F5A1C5A4411"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["61A81D8E4EDFC399"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "C35E793A5E10E054"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "001C42FB90581795"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["6AD6AE6D1FBB8002"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "66CE522B62511F9B"
+		shape: "gear"
+		tasks: [
+		{
+			id: "76BDADCC78EBA880"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["66CE522B62511F9B"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "65986C20A9458CF7"
+		shape: "gear"
+		tasks: [
+		{
+			id: "87F5AA6C0E019673"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["65986C20A9458CF7"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "B8EA67EC41281AD6"
+		shape: "gear"
+		tasks: [
+		{
+			id: "30D99940CFC9F52D"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["B8EA67EC41281AD6"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "A157B664A7928683"
+		shape: "gear"
+		tasks: [
+		{
+			id: "10B41F4FDEF9076F"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["A157B664A7928683"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "1C4194C8282064C7"
+		shape: "gear"
+		tasks: [
+		{
+			id: "FCF174EADE8EBBB5"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["33544408AEC1347B" "2CD74E785911AD92" "C35E793A5E10E054" "1C4194C8282064C7"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "290C5E30970B23BD"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "8B9F10FCBD8DE59B"
+			item: { count: 1, id: "kubejs:dimensional_resonator" }
+			type: "item"
+		}
+		{
+			id: "E395559B993059AC"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["290C5E30970B23BD"]
+		icon: { id: "kubejs:dimensional_resonator" }
+		id: "09D758EE0BC305D2"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "63F91EAD0BF76858"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "1F8EE06D1654D8FD"
+		dependencies: ["09D758EE0BC305D2"]
 		icon: { id: "kubejs:dimensional_resonator" }
 		shape: "hexagon"
 		tasks: [

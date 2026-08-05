@@ -32,9 +32,9 @@ This is a static safeguard report. It verifies low-risk configuration and script
 
 ## Script inventory
 
-- KubeJS JavaScript files: **203**
-- Event subscriptions found: **195**
-- Explicit console calls found: **26**
+- KubeJS JavaScript files: **204**
+- Event subscriptions found: **196**
+- Explicit console calls found: **28**
 - Required measured optimization quests: **60**
 
 ## Runtime measurements still required
