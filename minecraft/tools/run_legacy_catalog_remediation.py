@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "config" / "legacy_catalog_remediation_manifest.json"
-POLICY_RUNNER_PATH = ROOT / "tools" / "catalog_upgrade_multinamespace.py"
+POLICY_RUNNER_PATH = ROOT / "tools" / "catalog_upgrade_batch.py"
 
 
 def main() -> int:
