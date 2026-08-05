@@ -7,7 +7,7 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 - Legacy chapters analysed: **57**
 - Legacy quests and malformed objects analysed: **3324**
 - Malformed quest objects: **0**
-- Chapters requiring rewrite: **16**
+- Chapters requiring rewrite: **13**
 - Chapters requiring review: **5**
 - Empty chapters requiring a keep/remove decision: **0**
 - Duplicate description groups: **64**
@@ -17,12 +17,9 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | Chapter | Objects | Risk score | High risk | Malformed | Item-only | Missing guidance | Rewards | Classification |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | `create_crafts__additions` | 27 | 273 | 27 | 0 | 27 | 27 | 27 | REWRITE_REQUIRED |
-| `allthemodium` | 31 | 272 | 31 | 0 | 19 | 31 | 30 | REWRITE_REQUIRED |
 | `dl_stellaris` | 29 | 270 | 29 | 0 | 21 | 29 | 29 | REWRITE_REQUIRED |
 | `heart_of_the_void` | 26 | 270 | 26 | 0 | 26 | 26 | 25 | REWRITE_REQUIRED |
 | `package_mod` | 27 | 265 | 27 | 0 | 25 | 27 | 27 | REWRITE_REQUIRED |
-| `projecte` | 29 | 264 | 27 | 0 | 22 | 27 | 28 | REWRITE_REQUIRED |
-| `extreme_reactors` | 30 | 259 | 30 | 0 | 15 | 30 | 30 | REWRITE_REQUIRED |
 | `create_connected` | 26 | 258 | 26 | 0 | 25 | 26 | 25 | REWRITE_REQUIRED |
 | `when_dungeons_arise` | 31 | 248 | 31 | 0 | 0 | 31 | 31 | REWRITE_REQUIRED |
 | `minimum_for_maximummfm` | 25 | 240 | 24 | 0 | 18 | 25 | 24 | REWRITE_REQUIRED |
@@ -60,14 +57,17 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `tfmg_steel` | 39 | 4 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `draconic_evolution` | 111 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `mekanism_part_1` | 78 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `projecte` | 29 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `rftools` | 81 | 3 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `ender_io` | 67 | 2 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `industrial_foregoing` | 74 | 2 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `occultism` | 34 | 2 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `tfmg_electricity` | 44 | 2 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `allthemodium` | 31 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `cataclysm` | 79 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `create_stuff_n_additions` | 36 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `extended_crafting` | 43 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
+| `extreme_reactors` | 30 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `hostile_neural_networks` | 51 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `immersive_engineering` | 46 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
 | `other_storage_systems` | 104 | 1 | 0 | 0 | 0 | 0 | 0 | CURRENTLY_ACCEPTABLE |
@@ -87,7 +87,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `Gadgets` | `5855D8361A2C6623` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `6DDA86A3B4C0ACC1` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `6EEAF4D9F3BF6414` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `allthemodium` | `7CB81CA2F67B49FD` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `apotheosis_2` | `7C3968AF39557751` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `automation_challenges` | `51DFDEAC05124ED6` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `automation_challenges` | `69529ABB3E76DC19` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -101,7 +100,6 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `divinerpg_codex` | `2685BED005B7CE85` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `divinerpg_codex` | `3A0EB475437F4169` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `dl_stellaris` | `128AF83728356D60` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `extreme_reactors` | `7C4E4793DA887DE4` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `flux_networks` | `439C6C61A5263D31` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `heart_of_the_void` | `030E814BD568A97F` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `heart_of_the_void` | `0EF4982211D87606` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
@@ -118,26 +116,7 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `minimum_for_maximummfm` | `1F87798C942B893F` | 11 | CHECKMARK_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `minimum_for_maximummfm` | `232F28C7B5A9F4DD` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `package_mod` | `54832AACF9BC8B54` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `projecte` | `54DA9183B37E2BC5` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
-| `projecte` | `60140A3E8BFB3CA0` | 11 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD, ROOT_OR_ORPHAN |
 | `Gadgets` | `68107A111627BD77` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `0FD54A3728F4D93E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `1BD956EF7376C51C` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `1E31F400E47B0D34` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `320C8B5D62920E21` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `387392E5B6A4F98E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `39AC6D302927F98A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `4752CD3375835EC9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `4BBA254500807468` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `502D19ABEE99ACC5` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `551B6182DC7E577B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `5AAE62CC3CF51546` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `63339D05CD5EA9E9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `6AB126672C3BCF2C` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `7486637361FEC7A9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `78545503CE761C3F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `7B3E0DD6A0E2285F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
-| `allthemodium` | `7E30CB57EA769363` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis_2` | `00588B2FDB99874D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis_2` | `0D6D45DBA64E612D` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `apotheosis_2` | `0E02CE4469FCA4C9` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
@@ -178,3 +157,24 @@ This report analyses non-generated legacy chapters for obsolete catalogue struct
 | `create_connected` | `63B4B83F528E6AD6` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `create_connected` | `63E8F78EEA3063F7` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
 | `create_connected` | `6832CFEAFA7922E8` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `69816C16E81355E8` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `6B7188472F6ED6AF` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `6B8966D7EA9BB5FB` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `6DE8ACA4F08C420E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `6FE2FE40C2F60183` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `7AA7094E591A373B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `7EB1BE897B2B8C1A` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_connected` | `7F5D32DA7E8D094F` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `00ACD837E30165B3` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `0354DB37FD2030EE` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `0488989FD7F5AF42` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `0834527ED1C0E83B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `0B8148DAF5CC9DF1` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `0C8F501F6BDFFB92` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `113E1D3C37C63088` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `17709C4D6222244B` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `1F36CF5D11E08839` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `215D766150B54B17` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `22AC3C79141AB3FC` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `36760F31374EB61E` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |
+| `create_crafts__additions` | `39124F73B82400F4` | 10 | ITEM_ONLY, NO_OPERATIONAL_GUIDANCE, HAS_REWARD |

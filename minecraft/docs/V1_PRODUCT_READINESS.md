@@ -11,6 +11,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ae2 Catalog | PASS |
 | Ae2 Core | PASS |
 | All Manual | PASS |
+| Allthemodium Resource Gate | PASS |
 | Amateur Archaeologist Catalog | PASS |
 | Apotheosis Catalog | PASS |
 | Ars Nouveau Catalog | PASS |
@@ -24,6 +25,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ender Io Catalog | PASS |
 | Engineering Handbook Catalog | PASS |
 | Extended Crafting Catalog | PASS |
+| Extreme Reactors Operational | PASS |
 | Hostile Neural Networks | PASS |
 | Ice And Fire Catalog | PASS |
 | Ie Core | PASS |
@@ -44,6 +46,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Powah | PASS |
 | Productive Bees Catalog | PASS |
 | Progression contract | PASS |
+| Projecte Containment Catalog | PASS |
 | Quest | PASS |
 | Recipe dependency graph | PASS |
 | Rftools Catalog | PASS |
@@ -66,10 +69,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5457 / 5970 | IN PROGRESS |
-| Single item-only ratio | 5.7% / ≤30% | PASS |
+| RU/EN descriptions | 5545 / 5970 | IN PROGRESS |
+| Single item-only ratio | 4.8% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 513 | IN PROGRESS |
+| Remaining without full RU/EN | 425 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 

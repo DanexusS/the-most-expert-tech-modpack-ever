@@ -32,9 +32,9 @@ This static safeguard verifies low-risk configuration, bounded questbook growth 
 | Depth optimization quests | `180/180` | PASS |
 | Mandatory quests per stage | `min=121, max=121` | PASS |
 | Total questbook size | `5970/6000` | PASS |
-| KubeJS JavaScript files | `205/220` | PASS |
-| Event subscriptions | `197/220` | PASS |
-| Explicit console calls | `30/35` | PASS |
+| KubeJS JavaScript files | `206/220` | PASS |
+| Event subscriptions | `198/220` | PASS |
+| Explicit console calls | `32/35` | PASS |
 
 ## Runtime measurements still required
 

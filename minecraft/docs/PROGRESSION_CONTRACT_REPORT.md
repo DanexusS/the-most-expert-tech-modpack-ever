@@ -47,12 +47,15 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:calibrated_substrate`
 - `kubejs:chemical_processor`
 - `kubejs:chemical_reactor_core`
+- `kubejs:cosmic_assembly_matrix`
 - `kubejs:cosmic_catalyst`
 - `kubejs:cosmic_synthesis_core`
 - `kubejs:creative_convergence_matrix`
 - `kubejs:dimensional_resonator`
+- `kubejs:draconic_lattice`
 - `kubejs:draconic_processor`
 - `kubejs:electrical_bus`
+- `kubejs:emc_containment_core`
 - `kubejs:field_engineering_kit`
 - `kubejs:industrial_frame`
 - `kubejs:kinetic_interface`
