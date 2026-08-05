@@ -228,7 +228,8 @@ def matching_delimiter(text: str, start: int, opening: str, closing: str) -> int
 
 
 def quest_for_item(text: str, item_id: str) -> tuple[str, int, int]:
-    item_index = text.find(f'id: "{item_id}"')
+    quests_marker = text.find("quests:")
+    item_index = text.find(f'id: "{item_id}"', quests_marker)
     if item_index < 0:
         raise RuntimeError(f"Storage focus item not found in chapter: {item_id}")
     object_start = text.rfind("\n\t\t{", 0, item_index)
