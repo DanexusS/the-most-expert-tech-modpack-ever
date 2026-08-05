@@ -85,6 +85,7 @@ jobs:
           python minecraft/tools/generate_core_technology_manual_5.py
           python minecraft/tools/generate_core_technology_manual_6.py
           python minecraft/tools/generate_core_technology_manual_7.py
+          python minecraft/tools/sync_curated_guide_registry.py
 
       - name: Tune and calculate theoretical balance
         run: |
