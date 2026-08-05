@@ -6,7 +6,7 @@ This static safeguard verifies low-risk configuration, bounded questbook growth 
 
 | Check | Current | Status |
 |---|---|---|
-| FTB Quests detection delay | `40.0` | PASS |
+| FTB Quests detection delay | `80.0` | PASS |
 | FTB Quests grid scale | `0.5` | PASS |
 | FTB Quests verify_on_load | `False` | PASS |
 | FTB Quests drop_loot_crates | `False` | PASS |
@@ -34,7 +34,7 @@ This static safeguard verifies low-risk configuration, bounded questbook growth 
 | Total questbook size | `5970/6000` | PASS |
 | KubeJS JavaScript files | `206/220` | PASS |
 | Event subscriptions | `198/220` | PASS |
-| Explicit console calls | `32/35` | PASS |
+| Explicit console calls | `31/35` | PASS |
 
 ## Runtime measurements still required
 

@@ -2,7 +2,7 @@
 
 ## Classification: **V1 CANDIDATE — MINIMUM RUNTIME EVIDENCE REQUIRED**
 
-Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter therefore adds a mandatory v1 check without editing this classifier.
+Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter or performance safeguard therefore adds a mandatory static check without editing this classifier.
 
 ## Static reports
 
@@ -45,6 +45,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ie Core | PASS |
 | Immersive Engineering Catalog | PASS |
 | Industrial Foregoing | PASS |
+| Kubejs Hot Path | PASS |
 | Mainquestline Part 1 Catalog | PASS |
 | Mekanism Core | PASS |
 | Mekanism Part 1 Catalog | PASS |
@@ -67,6 +68,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Recipe dependency graph | PASS |
 | Rftools Catalog | PASS |
 | Runtime Evidence Structure | PASS |
+| Runtime Performance | PASS |
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
 | Stage Chapter Organization | PASS |
@@ -105,7 +107,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Complete tracked guides | 0 |
 | Coverage status | PASS |
 
-## Minimum runtime evidence
+## Minimum functional runtime evidence
 
 | Gate | Status |
 |---|---|
@@ -117,6 +119,15 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | `second_clean_restart_and_world_reopen` | UNVERIFIED |
 | `strategic_recipes_verified` | UNVERIFIED |
 
+## Final release performance evidence
+
+| Gate | Status |
+|---|---|
+| `heap_stability_gate` | UNVERIFIED |
+| `log_rate_gate` | UNVERIFIED |
+| `startup_and_world_load_regression_below_10_percent` | UNVERIFIED |
+| `thirty_minute_soak_tps_gate` | UNVERIFIED |
+
 ## Release rule
 
-The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.
+The label `v1` is prohibited until all static reports pass, the quest product specification is complete, all seven functional runtime gates are verified, and the four final performance gates pass measured startup/world-load, representative soak, heap-stability and repeated-log thresholds. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.
