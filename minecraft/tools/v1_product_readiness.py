@@ -6,25 +6,16 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_PATH = ROOT / "docs" / "V1_PRODUCT_READINESS.md"
+DOCS = ROOT / "docs"
+REPORT_PATH = DOCS / "V1_PRODUCT_READINESS.md"
 EVIDENCE_PATH = ROOT / "config" / "v1_runtime_evidence.json"
 
-REPORTS = {
-    "Theoretical balance": ROOT / "docs" / "THEORETICAL_BALANCE_REPORT.md",
-    "Quest quality": ROOT / "docs" / "QUEST_QUALITY_REPORT.md",
-    "Curated manuals": ROOT / "docs" / "ALL_MANUAL_QUALITY_REPORT.md",
-    "Progression contract": ROOT / "docs" / "PROGRESSION_CONTRACT_REPORT.md",
-    "Recipe dependency graph": ROOT / "docs" / "RECIPE_DEPENDENCY_REPORT.md",
-    "Bypass closure": ROOT / "docs" / "BYPASS_AUDIT_REPORT.md",
-    "Selected gameplay guide coverage": ROOT / "docs" / "MOD_GUIDE_COVERAGE_REPORT.md",
-    "Create route": ROOT / "docs" / "CREATE_CORE_QUALITY_REPORT.md",
-    "Immersive Engineering route": ROOT / "docs" / "IE_CORE_QUALITY_REPORT.md",
-    "Modern Industrialization route": ROOT / "docs" / "MI_CORE_QUALITY_REPORT.md",
-    "Applied Energistics 2 route": ROOT / "docs" / "AE2_CORE_QUALITY_REPORT.md",
-    "Mekanism route": ROOT / "docs" / "MEKANISM_CORE_QUALITY_REPORT.md",
-    "Simply Swords catalogue": ROOT / "docs" / "SIMPLY_SWORDS_QUALITY_REPORT.md",
-    "Powah catalogue": ROOT / "docs" / "POWAH_QUALITY_REPORT.md",
-    "Storage systems route": ROOT / "docs" / "STORAGE_SYSTEMS_CORE_QUALITY_REPORT.md",
+BASE_REPORTS = {
+    "Theoretical balance": DOCS / "THEORETICAL_BALANCE_REPORT.md",
+    "Progression contract": DOCS / "PROGRESSION_CONTRACT_REPORT.md",
+    "Recipe dependency graph": DOCS / "RECIPE_DEPENDENCY_REPORT.md",
+    "Bypass closure": DOCS / "BYPASS_AUDIT_REPORT.md",
+    "Selected gameplay guide coverage": DOCS / "MOD_GUIDE_COVERAGE_REPORT.md",
 }
 
 MINIMUM_RUNTIME_GATES = {
@@ -38,6 +29,17 @@ MINIMUM_RUNTIME_GATES = {
 }
 
 
+def report_label(path: Path) -> str:
+    return path.stem.replace("_QUALITY_REPORT", "").replace("_", " ").title()
+
+
+def report_registry() -> dict[str, Path]:
+    reports = dict(BASE_REPORTS)
+    for path in sorted(DOCS.glob("*_QUALITY_REPORT.md")):
+        reports[report_label(path)] = path
+    return reports
+
+
 def report_pass(path: Path) -> bool:
     return path.is_file() and "**PASS**" in path.read_text(encoding="utf-8")
 
@@ -48,7 +50,7 @@ def integer(text: str, pattern: str) -> int:
 
 
 def quest_metrics() -> dict[str, int | float]:
-    text = (ROOT / "docs" / "QUEST_QUALITY_REPORT.md").read_text(encoding="utf-8")
+    text = (DOCS / "QUEST_QUALITY_REPORT.md").read_text(encoding="utf-8")
     quests = integer(text, r"Quests parsed:\s*\*\*([0-9,]+)\*\*")
     bilingual = integer(text, r"Bilingual quest descriptions:\s*\*\*([0-9,]+)")
     item_only = integer(text, r"Single item-only quests:\s*\*\*([0-9,]+)\*\*")
@@ -61,7 +63,7 @@ def quest_metrics() -> dict[str, int | float]:
 
 
 def guide_metrics() -> dict[str, int]:
-    text = (ROOT / "docs" / "MOD_GUIDE_COVERAGE_REPORT.md").read_text(encoding="utf-8")
+    text = (DOCS / "MOD_GUIDE_COVERAGE_REPORT.md").read_text(encoding="utf-8")
     return {
         "manifest": integer(text, r"Manifest projects:\s*\*\*([0-9,]+)\*\*"),
         "tracked": integer(text, r"Tracked gameplay/progression projects:\s*\*\*([0-9,]+)\*\*"),
@@ -74,7 +76,8 @@ def guide_metrics() -> dict[str, int]:
 
 
 def main() -> int:
-    status = {name: report_pass(path) for name, path in REPORTS.items()}
+    reports = report_registry()
+    status = {name: report_pass(path) for name, path in reports.items()}
     quests = quest_metrics()
     guides = guide_metrics()
     evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
@@ -101,12 +104,14 @@ def main() -> int:
         "",
         f"## Classification: **{classification}**",
         "",
+        "Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new redesigned chapter therefore adds a mandatory v1 check without editing this classifier.",
+        "",
         "## Static reports",
         "",
         "| Gate | Status |",
         "|---|---|",
     ]
-    for name, passed in status.items():
+    for name, passed in sorted(status.items()):
         lines.append(f"| {name} | {'PASS' if passed else 'IN PROGRESS / FAIL'} |")
 
     lines.extend([
@@ -143,13 +148,14 @@ def main() -> int:
         "",
         "## Release rule",
         "",
-        "The label `v1` is prohibited until all static reports pass, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
+        "The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
         "",
     ])
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
     print(f"v1_product_classification: {classification}")
     print(f"static_reports: {sum(status.values())}/{len(status)}")
+    print(f"quality_reports_discovered: {sum(path.name.endswith('_QUALITY_REPORT.md') for path in reports.values())}")
     print(f"quests: {quests['quests']}")
     print(f"bilingual: {quests['bilingual']}")
     print(f"item_only_ratio: {quests['item_only_ratio']:.4f}")
