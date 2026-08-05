@@ -12,12 +12,14 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Ae2 Core | PASS |
 | All Manual | PASS |
 | Amateur Archaeologist Catalog | PASS |
+| Apotheosis Catalog | PASS |
 | Ars Nouveau Catalog | PASS |
 | Avaritia Catalog | PASS |
 | Bypass closure | PASS |
 | Cataclysm Catalog | PASS |
 | Create Catalog | PASS |
 | Create Core | PASS |
+| Create Stuff N Additions Catalog | PASS |
 | Draconic Evolution Catalog | PASS |
 | Ender Io Catalog | PASS |
 | Engineering Handbook Catalog | PASS |
@@ -55,6 +57,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Tfmg Electricity Catalog | PASS |
 | Tfmg Steel Catalog | PASS |
 | Theoretical balance | PASS |
+| Tips And Tricks Catalog | PASS |
 | Ufo Future Catalog | PASS |
 | Woot | PASS |
 
@@ -63,10 +66,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5346 / 5970 | IN PROGRESS |
-| Single item-only ratio | 7.2% / ≤30% | PASS |
+| RU/EN descriptions | 5457 / 5970 | IN PROGRESS |
+| Single item-only ratio | 5.7% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 624 | IN PROGRESS |
+| Remaining without full RU/EN | 513 | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
