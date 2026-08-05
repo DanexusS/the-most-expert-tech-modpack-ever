@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "engineering_handbook",
+  "chapter_id": "50C7409B109FC276",
+  "chapter_title_en": "Engineering Handbook — Cross-Mod Systems",
+  "chapter_title_ru": "Инженерный справочник — межмодовые системы",
+  "report_filename": "ENGINEERING_HANDBOOK_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Engineering Handbook Catalogue Quality Report",
+  "report_intro": "The handbook must teach system ownership, measured operation, automation, failure and recovery across the major technology mods instead of presenting disconnected item cards.",
+  "expected_quests": 96,
+  "minimum_description": 200,
+  "primary_namespace": "create",
+  "primary_namespace_prefixes": ["create", "immersiveengineering", "modern_industrialization", "ae2", "mekanism", "pneumaticcraft", "powah", "industrialforegoing", "minecraft", "kubejs"],
+  "acceptance_namespace": "engineering_handbook_acceptance",
+  "checkpoint_name": "Engineering Systems Checkpoint",
+  "title_suffix_en": "Systems Acceptance",
+  "title_suffix_ru": "приёмка системы",
+  "description_en": "{display} is a {role} in the cross-mod engineering handbook. The lesson must explain who owns the input, transformation, transport, storage and control state and how the system behaves during normal production and failure.",
+  "description_ru": "{display} — {role} межмодового инженерного справочника. Задание должно объяснять владельца входа, преобразования, транспорта, хранения и управления, а также поведение системы в нормальной работе и при отказе.",
+  "acceptance_en": "Acceptance: verify {focus}; assemble or operate a representative system, record rate, reserve and limiting section, test a blocked, empty or unpowered state, recover without administrator help and remove reward-driven or cheaper alternate progression.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; соберите или запустите типовую систему, запишите скорость, резерв и ограничивающий участок, испытайте полный, пустой или обесточенный режим, восстановитесь без администратора и уберите наградной или дешёвый альтернативный прогресс.",
+  "categories": [
+    {
+      "tokens": ["hammer", "wrench", "screwdriver", "voltmeter", "goggles", "tool", "manual", "blueprint"],
+      "role_en": "engineering tool, measurement instrument or reference",
+      "role_ru": "инженерный инструмент, измерительный прибор или справочник",
+      "focus_en": "valid target, measurement or configuration result, durability and replacement, safe use on live machinery, retained settings and a labelled storage location",
+      "focus_ru": "правильную цель, результат измерения или настройки, прочность и замену, безопасное применение на работающей машине, сохранение настроек и подписанное место хранения"
+    },
+    {
+      "tokens": ["generator", "boiler", "turbine", "dynamo", "reactor", "energy", "battery", "capacitor", "cable", "wire", "connector", "transformer"],
+      "role_en": "power generation, conversion, storage or distribution system",
+      "role_ru": "система генерации, преобразования, хранения или распределения энергии",
+      "focus_en": "source and sink ownership, voltage or transfer boundaries, sustained output, reserve duration, overload protection, idle shutdown and black-start order",
+      "focus_ru": "владение источником и потребителем, границы напряжения или передачи, устойчивый выход, длительность резерва, защиту от перегруза, отключение простоя и порядок холодного запуска"
+    },
+    {
+      "tokens": ["macerator", "crusher", "furnace", "press", "mixer", "assembler", "compressor", "cutting", "centrifuge", "refinery", "chamber", "machine"],
+      "role_en": "material-processing or assembly machine",
+      "role_ru": "машина переработки материалов или сборки",
+      "focus_en": "legal inputs, exact recipe and yield, energy or stress demand, returned tools and containers, side configuration, byproduct route and full-output shutdown",
+      "focus_ru": "законные входы, точный рецепт и выход, спрос энергии или нагрузки, возврат инструментов и контейнеров, настройку сторон, маршрут побочных продуктов и остановку при полном выходе"
+    },
+    {
+      "tokens": ["pipe", "tube", "belt", "conveyor", "transporter", "bus", "interface", "hopper", "tank", "cell", "drive", "chest", "barrel"],
+      "role_en": "logistics, transport, storage or interface component",
+      "role_ru": "компонент логистики, транспорта, хранения или интерфейса",
+      "focus_en": "medium ownership, direction, filters, priorities, throughput, finite buffer, overflow destination, loop isolation and recovery after one segment is removed",
+      "focus_ru": "владение средой, направление, фильтры, приоритеты, пропускную способность, конечный буфер, переполнение, изоляцию циклов и восстановление после удаления участка"
+    },
+    {
+      "tokens": ["controller", "circuit", "processor", "computer", "redstone", "sensor", "detector", "logic", "monitor"],
+      "role_en": "control, sensing or digital-logic component",
+      "role_ru": "компонент управления, датчиков или цифровой логики",
+      "focus_en": "observed state, decision rule, signal ownership, safe default, manual override, false-trigger prevention and restoration of configuration after replacement",
+      "focus_ru": "наблюдаемое состояние, правило решения, владение сигналом, безопасное значение по умолчанию, ручное управление, защиту от ложного срабатывания и восстановление настроек после замены"
+    },
+    {
+      "tokens": ["frame", "casing", "brick", "steel", "alloy", "plate", "component", "gear", "motor"],
+      "role_en": "structural or recurring production component",
+      "role_ru": "конструкционный или повторяющийся производственный компонент",
+      "focus_en": "previous-tier ancestry, repeat batch size, tooling and returned standards, inventory minimum, defect quarantine and scalable production without excessive manual clicking",
+      "focus_ru": "происхождение от предыдущего уровня, размер повторной партии, оснастку и возврат стандартов, минимальный запас, карантин брака и масштабирование без лишних ручных кликов"
+    }
+  ],
+  "default": {
+    "role_en": "specialized cross-mod engineering component",
+    "role_ru": "специализированный межмодовый инженерный компонент",
+    "focus_en": "its exact capability, system owner, input-output contract, measurable state, automation boundary, failure response and reusable lesson for the main progression",
+    "focus_ru": "его точную возможность, владельца системы, контракт входа-выхода, измеримое состояние, границу автоматизации, реакцию на отказ и применимый в основной прогрессии принцип"
+  },
+  "cross_mod": {
+    "role_en": "external engineering integration component",
+    "role_ru": "внешний компонент инженерной интеграции",
+    "focus_en": "which mod owns acquisition, transformation, transport, storage or control, the interface buffer and the absence of a cheaper substitute for the required capability",
+    "focus_ru": "какой мод отвечает за получение, преобразование, транспорт, хранение или управление, интерфейсный буфер и отсутствие дешёвой замены требуемой возможности"
+  },
+  "checkpoint": {
+    "role_en": "cross-mod engineering design checkpoint",
+    "role_ru": "контрольная точка межмодового инженерного проектирования",
+    "focus_en": "system boundaries, source and sink map, measured throughput, finite buffers, diagnostics, controlled failure, recovery and a documented optimization decision",
+    "focus_ru": "границы системы, карту источников и потребителей, измеренную скорость, конечные буферы, диагностику, контролируемый отказ, восстановление и задокументированное решение по оптимизации"
+  }
+}
