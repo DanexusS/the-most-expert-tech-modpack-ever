@@ -49,10 +49,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 3898 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 2833 / 3898 | IN PROGRESS |
-| Single item-only ratio | 20.2% / ≤30% | PASS |
-| Remaining to 5,000 quests | 1102 | IN PROGRESS |
+| Total quests | 3974 / 5,000–6,000 | IN PROGRESS |
+| RU/EN descriptions | 2909 / 3974 | IN PROGRESS |
+| Single item-only ratio | 19.8% / ≤30% | PASS |
+| Remaining to 5,000 quests | 1026 | IN PROGRESS |
 | Remaining without full RU/EN | 1065 | IN PROGRESS |
 
 ## Selected gameplay guide specification

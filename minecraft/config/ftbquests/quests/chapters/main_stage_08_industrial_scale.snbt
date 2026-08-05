@@ -177,9 +177,305 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "4DE235310E4172BB"
+		{
 		dependencies: ["88A8ACE2F99C93C1"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "F44164F202094C81"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "D7417DB01603414B"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["F44164F202094C81"]
+		icon: { id: "kubejs:parallel_machine_bus" }
+		id: "BE8FD00C767A0DC2"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "C3D6318B584426D1"
+			item: { count: 1, id: "kubejs:parallel_machine_bus" }
+			type: "item"
+		}
+		{
+			id: "3BFB44630A1E9F00"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["BE8FD00C767A0DC2"]
+		icon: { id: "kubejs:chemical_reactor_core" }
+		id: "ACEF40C764F9527F"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "3DEFE43DE33FD19E"
+			item: { count: 1, id: "kubejs:chemical_reactor_core" }
+			type: "item"
+		}
+		{
+			id: "17CC8E2D1C25409B"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["ACEF40C764F9527F"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "851F8BF9A5B85C91"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "AC88FD4B928228FD"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["88A8ACE2F99C93C1"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "151DBCF80536BC6A"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "84042C8C337ED038"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["151DBCF80536BC6A"]
+		icon: { id: "kubejs:fluid_safety_block" }
+		id: "448A2B70B3DC503B"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "4AC660C5A71FB21F"
+			item: { count: 1, id: "kubejs:fluid_safety_block" }
+			type: "item"
+		}
+		{
+			id: "1A97271CFA762251"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["448A2B70B3DC503B"]
+		icon: { id: "industrialforegoing:machine_frame_advanced" }
+		id: "0CEA6B5518A2C09C"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "7EAC4E8E64876274"
+			item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+			type: "item"
+		}
+		{
+			id: "80F4A9103DF8889F"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["0CEA6B5518A2C09C"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "4572465F0330B0A6"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "7FA3066245B2386B"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["88A8ACE2F99C93C1"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "0A38B5AEC531FE4F"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "452913CC1F323B41"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["0A38B5AEC531FE4F"]
+		icon: { id: "kubejs:maintenance_access_frame" }
+		id: "298E850AFA775F00"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "963D8F9ADE18AC09"
+			item: { count: 1, id: "kubejs:maintenance_access_frame" }
+			type: "item"
+		}
+		{
+			id: "D6976E356FF28D70"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["298E850AFA775F00"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "33C13B3C5DDBC204"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "ADF7FC381BBA4157"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["33C13B3C5DDBC204"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "05399E739EA98556"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "0D383A0EAC7B29ED"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["88A8ACE2F99C93C1"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "8E5217753574FDFD"
+		shape: "gear"
+		tasks: [
+		{
+			id: "0E09D6936A6E217D"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["8E5217753574FDFD"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "711373A18A2A5A1F"
+		shape: "gear"
+		tasks: [
+		{
+			id: "D5C87044A0A05940"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["711373A18A2A5A1F"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "B973C2A7F2BC907E"
+		shape: "gear"
+		tasks: [
+		{
+			id: "C39B1738D4EAE202"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["B973C2A7F2BC907E"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "F80828927E137E90"
+		shape: "gear"
+		tasks: [
+		{
+			id: "9113B94AF1E11814"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["F80828927E137E90"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "5A227DF056A382FD"
+		shape: "gear"
+		tasks: [
+		{
+			id: "EF0AD1F47A4F1DE1"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["851F8BF9A5B85C91" "4572465F0330B0A6" "05399E739EA98556" "5A227DF056A382FD"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "BE5AFB6F4328B240"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "34D17FEFF83032F0"
+			item: { count: 1, id: "kubejs:chemical_processor" }
+			type: "item"
+		}
+		{
+			id: "4E52AC5621371F17"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["BE5AFB6F4328B240"]
+		icon: { id: "kubejs:chemical_processor" }
+		id: "F1A0C9297A2D12E7"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "111B1AE4593FEC8A"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "4DE235310E4172BB"
+		dependencies: ["F1A0C9297A2D12E7"]
 		icon: { id: "kubejs:chemical_processor" }
 		shape: "hexagon"
 		tasks: [

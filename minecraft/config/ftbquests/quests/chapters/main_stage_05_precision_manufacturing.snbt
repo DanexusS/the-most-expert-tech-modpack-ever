@@ -177,9 +177,310 @@
 		x: 17.8d
 		y: 10.5d
 	}
-	{
-		id: "51A665711EA516AC"
+		{
 		dependencies: ["7A1BDED97DF86A36"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A3879A2C824725E4"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "411338F97FF664B9"
+			type: "checkmark"
+		}
+	]
+		x: 0.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["A3879A2C824725E4"]
+		icon: { id: "kubejs:pressure_treated_frame" }
+		id: "11EF8EEAD211C9BF"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "0E0C2C19AA7F7CB3"
+			item: { count: 1, id: "kubejs:pressure_treated_frame" }
+			type: "item"
+		}
+		{
+			id: "D150DB6FBA2081B1"
+			type: "checkmark"
+		}
+	]
+		x: 1.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["11EF8EEAD211C9BF"]
+		icon: { id: "pneumaticcraft:pressure_chamber_valve" }
+		id: "155229EA2AE9C82D"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "83326E8AE91062BD"
+			item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+			type: "item"
+		}
+		{
+			id: "532170D4E3216358"
+			type: "checkmark"
+		}
+	]
+		x: 3.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["155229EA2AE9C82D"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "6FEB7CCE1C8971FE"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "878F7BE9493CFDDB"
+			type: "checkmark"
+		}
+	]
+		x: 5.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["7A1BDED97DF86A36"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "A10BC0CD346093CD"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "F55477EE3B505343"
+			type: "checkmark"
+		}
+	]
+		x: 8.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["A10BC0CD346093CD"]
+		icon: { id: "kubejs:etched_copper_substrate" }
+		id: "59F3E313600D624E"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "185D38DA029AFD1D"
+			item: { count: 1, id: "kubejs:etched_copper_substrate" }
+			type: "item"
+		}
+		{
+			id: "08F45B718028AB4A"
+			type: "checkmark"
+		}
+	]
+		x: 9.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["59F3E313600D624E"]
+		icon: { id: "kubejs:calibrated_substrate" }
+		id: "7EBA36B57977060A"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "62F15E2678BA04CE"
+			item: { count: 1, id: "kubejs:calibrated_substrate" }
+			type: "item"
+		}
+		{
+			id: "3AEF3B4796FC9DB8"
+			type: "checkmark"
+		}
+	]
+		x: 11.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["7EBA36B57977060A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "9372ABA653EF4AFD"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "4FBBB30024C56F59"
+			type: "checkmark"
+		}
+	]
+		x: 13.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["9372ABA653EF4AFD"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "522825844FECD55D"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "0C42EDEEC8280624"
+			type: "checkmark"
+		}
+	]
+		x: 16.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["522825844FECD55D"]
+		icon: { id: "kubejs:assembly_alignment_jig" }
+		id: "54DE274CFD2A6985"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "C2CCFC88F429112B"
+			item: { count: 1, id: "kubejs:assembly_alignment_jig" }
+			type: "item"
+		}
+		{
+			id: "2B50FCB28E0BF9DA"
+			type: "checkmark"
+		}
+	]
+		x: 17.7d
+		y: 34.0d
+	}
+	{
+		dependencies: ["54DE274CFD2A6985"]
+		icon: { id: "pneumaticcraft:printed_circuit_board" }
+		id: "C1A123D16043F52A"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "50B3B9CA58DE60BB"
+			item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+			type: "item"
+		}
+		{
+			id: "4898AB145E4A6E61"
+			type: "checkmark"
+		}
+	]
+		x: 19.4d
+		y: 37.0d
+	}
+	{
+		dependencies: ["C1A123D16043F52A"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "51926B75D3EE43F3"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "94DE8E1CB4794ADC"
+			type: "checkmark"
+		}
+	]
+		x: 21.1d
+		y: 40.0d
+	}
+	{
+		dependencies: ["7A1BDED97DF86A36"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "79F2BBF2F9FB5706"
+		shape: "gear"
+		tasks: [
+		{
+			id: "0C3EFA4B305702C1"
+			type: "checkmark"
+		}
+	]
+		x: 27.0d
+		y: 31.0d
+	}
+	{
+		dependencies: ["79F2BBF2F9FB5706"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "97E127FB6E084CFA"
+		shape: "gear"
+		tasks: [
+		{
+			id: "9125B874F86982A6"
+			type: "checkmark"
+		}
+	]
+		x: 28.8d
+		y: 34.0d
+	}
+	{
+		dependencies: ["97E127FB6E084CFA"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "49481300AB2211B2"
+		shape: "gear"
+		tasks: [
+		{
+			id: "25BFFFF5CDD4FFE3"
+			type: "checkmark"
+		}
+	]
+		x: 30.6d
+		y: 37.0d
+	}
+	{
+		dependencies: ["49481300AB2211B2"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "8B5B91217946E315"
+		shape: "gear"
+		tasks: [
+		{
+			id: "D589D82A4230CDBB"
+			type: "checkmark"
+		}
+	]
+		x: 32.4d
+		y: 40.0d
+	}
+	{
+		dependencies: ["8B5B91217946E315"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "4244880F83EC8DEE"
+		shape: "gear"
+		tasks: [
+		{
+			id: "5522B4CACF475D52"
+			type: "checkmark"
+		}
+	]
+		x: 34.2d
+		y: 43.0d
+	}
+	{
+		dependencies: ["6FEB7CCE1C8971FE" "9372ABA653EF4AFD" "51926B75D3EE43F3" "4244880F83EC8DEE"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "398069B4106545AC"
+		shape: "diamond"
+		tasks: [
+		{
+			id: "3966F1619E64D3B9"
+			item: { count: 1, id: "kubejs:industrial_frame" }
+			type: "item"
+		}
+		{
+			id: "654402AF22139C95"
+			type: "checkmark"
+		}
+	]
+		x: 15.0d
+		y: 48.0d
+	}
+	{
+		dependencies: ["398069B4106545AC"]
+		icon: { id: "kubejs:industrial_frame" }
+		id: "2CE24510E32DD223"
+		shape: "hexagon"
+		tasks: [
+		{
+			id: "5BB4E5C21C7CE8DA"
+			type: "checkmark"
+		}
+	]
+		x: 19.0d
+		y: 48.0d
+	}
+{
+		id: "51A665711EA516AC"
+		dependencies: ["2CE24510E32DD223"]
 		icon: { id: "kubejs:industrial_frame" }
 		shape: "hexagon"
 		tasks: [

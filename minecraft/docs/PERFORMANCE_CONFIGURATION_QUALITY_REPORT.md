@@ -28,14 +28,14 @@ This is a static safeguard report. It verifies low-risk configuration and script
 | Runtime path crash-reports/ | `absent` | PASS |
 | Runtime path local/ | `absent` | PASS |
 | Runtime path saves/ | `absent` | PASS |
-| Measured optimization quests | `20/20` | PASS |
+| Measured optimization quests | `40/40` | PASS |
 
 ## Script inventory
 
-- KubeJS JavaScript files: **201**
-- Event subscriptions found: **193**
-- Explicit console calls found: **22**
-- Required measured optimization quests: **20**
+- KubeJS JavaScript files: **202**
+- Event subscriptions found: **194**
+- Explicit console calls found: **24**
+- Required measured optimization quests: **40**
 
 ## Runtime measurements still required
 

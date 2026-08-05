@@ -10,10 +10,10 @@ The mandatory route is split into one chapter per stage. Stages 1–4 additional
 | 2 | `steam_metallurgy` | 41 | 41 | 6 | 6 | PASS |
 | 3 | `regulated_electricity` | 41 | 41 | 6 | 6 | PASS |
 | 4 | `kinetic_automation` | 41 | 41 | 6 | 6 | PASS |
-| 5 | `precision_manufacturing` | 22 | 22 | 6 | 6 | PASS |
-| 6 | `digital_storage` | 22 | 22 | 6 | 6 | PASS |
-| 7 | `process_chemistry` | 22 | 22 | 6 | 6 | PASS |
-| 8 | `industrial_scale` | 22 | 22 | 6 | 6 | PASS |
+| 5 | `precision_manufacturing` | 41 | 41 | 6 | 6 | PASS |
+| 6 | `digital_storage` | 41 | 41 | 6 | 6 | PASS |
+| 7 | `process_chemistry` | 41 | 41 | 6 | 6 | PASS |
+| 8 | `industrial_scale` | 41 | 41 | 6 | 6 | PASS |
 | 9 | `controlled_resources` | 22 | 22 | 6 | 6 | PASS |
 | 10 | `applied_logistics` | 22 | 22 | 6 | 6 | PASS |
 | 11 | `resonant_energy` | 22 | 22 | 6 | 6 | PASS |
@@ -28,10 +28,10 @@ The mandatory route is split into one chapter per stage. Stages 1–4 additional
 ## Aggregate
 
 - Main stage chapters: **18 / 18**
-- Mandatory stage quests: **472**
-- Expanded workflow stages: **4 / 4**
-- Required workflow quests: **76**
+- Mandatory stage quests: **548**
+- Expanded workflow stages: **8 / 8**
+- Required workflow quests: **152**
 - Optional annex chapters: **18 / 18**
 - Optional annex quests: **108**
-- Unique organized quest IDs: **580**
+- Unique organized quest IDs: **656**
 - Failures: **0**
