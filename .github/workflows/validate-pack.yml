@@ -108,7 +108,7 @@ jobs:
           python minecraft/tools/generate_core_technology_manual_6.py
           python minecraft/tools/generate_core_technology_manual_7.py
           python minecraft/tools/generate_organized_stage_questbook.py
-          python minecraft/tools/generate_early_stage_workflow_expansions.py
+          python minecraft/tools/generate_stage_workflow_expansions.py
           python minecraft/tools/sync_curated_guide_registry.py
 
       - name: Tune and calculate theoretical balance
@@ -128,7 +128,7 @@ jobs:
       - name: Gate curated manuals and core routes
         run: |
           python minecraft/tools/all_manual_quality_gate.py
-          python minecraft/tools/stage_chapter_organization_quality_gate.py
+          python minecraft/tools/stage_chapter_workflow_quality_gate.py
           python minecraft/tools/create_core_quality_gate.py
           python minecraft/tools/ie_core_quality_gate.py
           python minecraft/tools/mi_core_quality_gate.py
