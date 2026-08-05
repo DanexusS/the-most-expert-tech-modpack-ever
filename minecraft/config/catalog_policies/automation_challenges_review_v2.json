@@ -1,0 +1,100 @@
+{
+  "chapter_filename": "automation_challenges",
+  "chapter_id": "6A66C6C471F7CE78",
+  "chapter_title_en": "Automation Challenges — Measured Multi-Mod Production",
+  "chapter_title_ru": "Испытания автоматизации — измеряемое межмодовое производство",
+  "report_filename": "AUTOMATION_CHALLENGES_REVIEW_QUALITY_REPORT.md",
+  "report_title": "Automation Challenges Review Quality Report",
+  "report_intro": "Every challenge must require a working, measurable and recoverable production system instead of a loose item checklist or XP reward.",
+  "expected_quests": 72,
+  "minimum_description": 220,
+  "primary_namespace": "minecraft",
+  "primary_namespaces": [
+    "create",
+    "immersiveengineering",
+    "modern_industrialization",
+    "ae2",
+    "mekanism",
+    "mekanismgenerators",
+    "pneumaticcraft",
+    "industrialforegoing",
+    "powah",
+    "projecte",
+    "mysticalagriculture",
+    "draconicevolution",
+    "extendedcrafting",
+    "avaritia",
+    "minecraft",
+    "kubejs"
+  ],
+  "acceptance_namespace": "automation_challenge_acceptance",
+  "checkpoint_name": "Automation Challenge Checkpoint",
+  "title_suffix_en": "Measured Automation Acceptance",
+  "title_suffix_ru": "приёмка измеряемой автоматизации",
+  "description_en": "{display} is a {role} in an optional automation challenge. The objective is not ownership: build a repeatable system that produces or uses it with accountable inputs, bounded buffers, explicit control and measurable throughput while respecting the current progression stage.",
+  "description_ru": "{display} — {role} в дополнительном испытании автоматизации. Целью является не владение предметом, а повторяемая система, которая производит или использует его с учётом входов, ограниченными буферами, явным управлением и измеримой производительностью в пределах текущего этапа.",
+  "acceptance_en": "Acceptance: verify {focus}; record an idle baseline and target rate, prepare one input batch, run at least one complete unattended cycle, reconcile every input and output, test a full-output or missing-input state, recover after chunk reload or restart and confirm that rewards, duplication, recursive recycling and manual insertion cannot satisfy the challenge.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте базовую линию простоя и целевую скорость, подготовьте одну партию входов, выполните полный автономный цикл, сверьте каждый вход и выход, испытайте полный выход или отсутствие входа, восстановитесь после перезагрузки чанка либо перезапуска и исключите выполнение через награды, копирование, рекурсивную переработку и ручную подачу.",
+  "categories": [
+    {
+      "tokens": ["ingot", "plate", "rod", "gear", "wire", "alloy", "dust", "component", "mechanism"],
+      "role_en": "repeatable component or processed-material output",
+      "role_ru": "повторяемый компонент или переработанный материал",
+      "focus_en": "material ancestry, machine sequence, target batch size, yield and byproducts, power or stress cost, quality rejection, bounded input and output storage and conservation of material",
+      "focus_ru": "происхождение материала, последовательность машин, размер целевой партии, выход и побочные продукты, стоимость энергии или нагрузки, отбраковку, ограниченное хранение входа и выхода и сохранение материала"
+    },
+    {
+      "tokens": ["machine", "crusher", "furnace", "assembler", "press", "mixer", "macerator", "centrifuge", "reactor", "generator"],
+      "role_en": "working machine or processing subsystem",
+      "role_ru": "работающая машина или технологическая подсистема",
+      "focus_en": "complete machine construction, legal recipe, input and output sides, rated energy or stress, representative cycle time, idle shutdown, blocked-output response and restart recovery",
+      "focus_ru": "полную сборку машины, разрешённый рецепт, стороны входа и выхода, номинальную энергию или нагрузку, время показательного цикла, отключение в простое, реакцию на полный выход и восстановление после перезапуска"
+    },
+    {
+      "tokens": ["storage", "drive", "cell", "drawer", "barrel", "bus", "interface", "terminal", "controller"],
+      "role_en": "storage, logistics or network-control subsystem",
+      "role_ru": "подсистема хранения, логистики или сетевого управления",
+      "focus_en": "network ownership and topology, capacity, channel or transfer budget, filters and priorities, overflow destination, protected-item policy, disconnected behavior and persistence after restart",
+      "focus_ru": "владельца и топологию сети, ёмкость, бюджет каналов или передачи, фильтры и приоритеты, назначение переполнения, правила защищённых предметов, поведение при отключении и сохранение после перезапуска"
+    },
+    {
+      "tokens": ["energy", "battery", "capacitor", "induction", "reactor", "turbine", "solar", "nitro"],
+      "role_en": "generation, storage or energy-distribution challenge",
+      "role_ru": "испытание генерации, хранения или распределения энергии",
+      "focus_en": "source and fuel, rated output, capacity and transfer ceiling, measured demand, loss and idle draw, full-buffer shutdown, emergency isolation and proof that feedback cannot create positive net energy",
+      "focus_ru": "источник и топливо, номинальный выход, ёмкость и предел передачи, измеренный спрос, потери и расход в простое, отключение при полном буфере, аварийную изоляцию и отсутствие положительной чистой энергии в обратной связи"
+    },
+    {
+      "tokens": ["chemical", "gas", "slurry", "fluid", "acid", "plastic", "oxygen", "hydrogen", "antimatter"],
+      "role_en": "chemical, gas or fluid-processing challenge",
+      "role_ru": "испытание химической, газовой или жидкостной переработки",
+      "focus_en": "chemical identity and amount, tank separation, reagents, conversion ratio, residue and waste, side configuration, full-output shutdown, leak or void policy and conservation across restart",
+      "focus_ru": "тип и количество химиката, разделение резервуаров, реагенты, коэффициент преобразования, остатки и отходы, настройку сторон, отключение при полном выходе, правила утечки или удаления и сохранение после перезапуска"
+    },
+    {
+      "tokens": ["seed", "essence", "bee", "model", "prediction", "mob", "farm", "crop"],
+      "role_en": "renewable biological or simulated-resource challenge",
+      "role_ru": "испытание возобновляемого биологического или симулируемого ресурса",
+      "focus_en": "legal first sample, renewable input loop, growth or model conditions, expected rate, unique-drop exclusion, entity and chunk limits, waste handling and proof that simulation does not replace mandatory first encounters",
+      "focus_ru": "честный первый образец, возобновляемый цикл входов, условия роста или модели, ожидаемую скорость, исключение уникального лута, лимиты сущностей и чанков, обработку отходов и запрет замены обязательной первой встречи симуляцией"
+    }
+  ],
+  "default": {
+    "role_en": "specialized multi-mod automation objective",
+    "role_ru": "специализированная цель межмодовой автоматизации",
+    "focus_en": "legal inputs, complete machine or network path, target rate, instrumentation, bounded buffers, idle and failure behavior, recovery and conservation without manual completion",
+    "focus_ru": "честные входы, полный маршрут машин или сети, целевую скорость, измерительные средства, ограниченные буферы, простой и отказ, восстановление и сохранение без ручного выполнения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite or interface in an automation challenge",
+    "role_ru": "межмодовая предпосылка или интерфейс испытания автоматизации",
+    "focus_en": "its source progression, exact interface contract, transfer or consumption limit, replacement policy and proof that the automation cannot bypass the source mod's machine, encounter or stage permission",
+    "focus_ru": "его исходную прогрессию, точный контракт интерфейса, предел передачи или расхода, правила замены и доказательство, что автоматизация не обходит машину, встречу или этапный допуск исходного мода"
+  },
+  "checkpoint": {
+    "role_en": "automation architecture and acceptance checkpoint",
+    "role_ru": "контрольная точка архитектуры и приёмки автоматизации",
+    "focus_en": "objective and target rate, inputs, processing graph, power, logistics, buffers, instrumentation, control, full-output state, recovery, restart and measured acceptance evidence",
+    "focus_ru": "цель и целевую скорость, входы, граф обработки, энергию, логистику, буферы, измерения, управление, полный выход, восстановление, перезапуск и измеренное доказательство приёмки"
+  }
+}
