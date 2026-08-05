@@ -38,26 +38,38 @@ const EXPERT_COMPONENTS = [
   ['cosmic_catalyst', 'minecraft:item/netherite_ingot', 'epic']
 ]
 
-// Consumable assemblies used by the first four stages. Unlike milestones and
-// engineering standards, these are real batch components: producing the next
-// machine consumes them, so scaling the factory remains meaningful.
+// Consumable assemblies used by staged production routes. Unlike milestones
+// and engineering standards, these are real batch components: producing the
+// next machine consumes them, so scaling the factory remains meaningful.
 const EXPERT_ASSEMBLY_COMPONENTS = [
+  // Stages 1–4.
   ['survey_lens', 'minecraft:item/spyglass', 'uncommon'],
   ['insulated_wiring_bundle', 'minecraft:item/copper_ingot', 'uncommon'],
   ['field_tool_frame', 'minecraft:item/iron_pickaxe', 'uncommon'],
   ['manual_control_board', 'minecraft:item/comparator', 'uncommon'],
-
   ['refractory_binder', 'minecraft:item/brick', 'uncommon'],
   ['steam_valve_assembly', 'minecraft:item/copper_block', 'uncommon'],
   ['metallurgical_bracing', 'minecraft:item/iron_bars', 'uncommon'],
-
   ['low_voltage_busbar', 'minecraft:item/lightning_rod', 'rare'],
   ['circuit_protection_module', 'minecraft:item/repeater', 'rare'],
   ['reserve_switchgear', 'minecraft:item/lever', 'rare'],
-
   ['stress_sensor', 'minecraft:item/clock', 'rare'],
   ['gearbox_alignment_frame', 'minecraft:item/rail', 'rare'],
-  ['sequencing_cam', 'minecraft:item/observer', 'rare']
+  ['sequencing_cam', 'minecraft:item/observer', 'rare'],
+
+  // Stages 5–8.
+  ['pressure_treated_frame', 'minecraft:item/heavy_weighted_pressure_plate', 'rare'],
+  ['etched_copper_substrate', 'minecraft:item/copper_ingot', 'rare'],
+  ['assembly_alignment_jig', 'minecraft:item/target', 'rare'],
+  ['processor_press_frame', 'minecraft:item/piston', 'rare'],
+  ['storage_cell_backplane', 'minecraft:item/echo_shard', 'rare'],
+  ['channel_test_fixture', 'minecraft:item/redstone_torch', 'rare'],
+  ['sealed_reaction_vessel', 'minecraft:item/cauldron', 'rare'],
+  ['gas_distribution_rack', 'minecraft:item/copper_block', 'rare'],
+  ['process_control_board', 'minecraft:item/comparator', 'rare'],
+  ['parallel_machine_bus', 'minecraft:item/repeater', 'rare'],
+  ['fluid_safety_block', 'minecraft:item/hopper', 'rare'],
+  ['maintenance_access_frame', 'minecraft:item/iron_trapdoor', 'rare']
 ]
 
 const DIVINE_PROGRESSION_SEALS = [
