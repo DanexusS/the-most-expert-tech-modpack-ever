@@ -38,6 +38,28 @@ const EXPERT_COMPONENTS = [
   ['cosmic_catalyst', 'minecraft:item/netherite_ingot', 'epic']
 ]
 
+// Consumable assemblies used by the first four stages. Unlike milestones and
+// engineering standards, these are real batch components: producing the next
+// machine consumes them, so scaling the factory remains meaningful.
+const EXPERT_ASSEMBLY_COMPONENTS = [
+  ['survey_lens', 'minecraft:item/spyglass', 'uncommon'],
+  ['insulated_wiring_bundle', 'minecraft:item/copper_ingot', 'uncommon'],
+  ['field_tool_frame', 'minecraft:item/iron_pickaxe', 'uncommon'],
+  ['manual_control_board', 'minecraft:item/comparator', 'uncommon'],
+
+  ['refractory_binder', 'minecraft:item/brick', 'uncommon'],
+  ['steam_valve_assembly', 'minecraft:item/copper_block', 'uncommon'],
+  ['metallurgical_bracing', 'minecraft:item/iron_bars', 'uncommon'],
+
+  ['low_voltage_busbar', 'minecraft:item/lightning_rod', 'rare'],
+  ['circuit_protection_module', 'minecraft:item/repeater', 'rare'],
+  ['reserve_switchgear', 'minecraft:item/lever', 'rare'],
+
+  ['stress_sensor', 'minecraft:item/clock', 'rare'],
+  ['gearbox_alignment_frame', 'minecraft:item/rail', 'rare'],
+  ['sequencing_cam', 'minecraft:item/observer', 'rare']
+]
+
 const DIVINE_PROGRESSION_SEALS = [
   ['divine_seal', 'divinerpg:item/divine_shards'],
   ['eden_seal', 'divinerpg:item/eden_heart'],
@@ -57,6 +79,12 @@ StartupEvents.registry('item', event => {
       .unstackable()
       .rarity(component[2])
       .containerItem(`kubejs:${component[0]}`)
+  })
+
+  EXPERT_ASSEMBLY_COMPONENTS.forEach(component => {
+    event.create(component[0])
+      .texture(component[1])
+      .rarity(component[2])
   })
 
   DIVINE_PROGRESSION_SEALS.forEach(seal => {
