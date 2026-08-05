@@ -83,6 +83,9 @@ jobs:
           python minecraft/tools/upgrade_industrial_foregoing_catalog.py
           python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
           python minecraft/tools/upgrade_woot_catalog.py
+          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_1_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/amateur_archaeologist_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/ice_and_fire_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ae2_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/draconic_evolution_full.json
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/ars_nouveau_full.json
@@ -141,6 +144,9 @@ jobs:
           python minecraft/tools/powah_quality_gate.py
           python minecraft/tools/storage_systems_core_quality_gate_v2.py
           python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/storage_systems_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/mekanism_part_1_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/amateur_archaeologist_full.json
+          python minecraft/tools/catalog_upgrade_multinamespace.py gate config/catalog_policies/ice_and_fire_full.json
           python minecraft/tools/mystical_agriculture_quality_gate.py
           python minecraft/tools/industrial_foregoing_quality_gate.py
           python minecraft/tools/hostile_neural_networks_quality_gate.py
@@ -186,5 +192,5 @@ jobs:
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
             minecraft/docs
-          git commit -m "automation: generate deep stages and refresh v1 reports"
+          git commit -m "automation: generate deep stages and remediate legacy quests"
           git push origin HEAD:${TARGET_BRANCH}
