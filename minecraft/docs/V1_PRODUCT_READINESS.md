@@ -18,6 +18,7 @@
 | Modern Industrialization route | PASS |
 | Applied Energistics 2 route | PASS |
 | Mekanism route | PASS |
+| Simply Swords catalogue | PASS |
 
 ## Quest product specification
 
