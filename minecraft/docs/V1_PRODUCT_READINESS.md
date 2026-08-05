@@ -32,6 +32,7 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 | Occultism Catalog | PASS |
 | Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
+| Progression Spine | PASS |
 | Progression contract | PASS |
 | Quest | PASS |
 | Recipe dependency graph | PASS |
@@ -47,9 +48,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 
 | Requirement | Current | Status |
 |---|---:|---|
-| Total quests | 3498 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 2341 / 3498 | IN PROGRESS |
-| Single item-only ratio | 25.2% / ≤30% | PASS |
+| Total quests | 3714 / 5,000–6,000 | IN PROGRESS |
+| RU/EN descriptions | 2557 / 3714 | IN PROGRESS |
+| Single item-only ratio | 23.7% / ≤30% | PASS |
 
 ## Selected gameplay guide specification
 
