@@ -6,7 +6,7 @@
   "report_filename": "ICE_AND_FIRE_CATALOG_QUALITY_REPORT.md",
   "report_title": "Ice and Fire Catalogue Quality Report",
   "report_intro": "Every Ice and Fire node must teach preparation, encounter evidence, forge construction, unique-drop protection and recovery instead of giving dragon materials as quest rewards.",
-  "expected_quests": 36,
+  "expected_quests": 88,
   "minimum_description": 200,
   "primary_namespace": "iceandfire",
   "primary_namespace_prefixes": ["iceandfire"],
