@@ -121,9 +121,9 @@ def quest_identity(block: str) -> tuple[str, list[str]]:
     if not quest_match:
         raise RuntimeError("Powah quest without a valid ID")
     _, _, tasks_body = extract_array(block, "tasks:")
-    items = list(dict.fromkeys(re.findall(r'id:\s*"(powah:[a-z0-9_./-]+)"', tasks_body)))
+    items = list(dict.fromkeys(re.findall(r'id:\s*"([a-z0-9_.-]+:[a-z0-9_./-]+)"', tasks_body)))
     if not items:
-        raise RuntimeError(f"Powah quest {quest_match.group(1)} has no Powah item task")
+        raise RuntimeError(f"Powah quest {quest_match.group(1)} has no item task")
     return quest_match.group(1), items
 
 
@@ -138,7 +138,15 @@ def tier(path: str) -> tuple[str, str]:
     return "Untiered", "внеуровневый"
 
 
-def category(path: str) -> tuple[str, str, str, str]:
+def category(item_id: str) -> tuple[str, str, str, str]:
+    namespace, path = item_id.split(":", 1)
+    if namespace != "powah":
+        return (
+            "cross-mod Powah integration component",
+            "межмодовый компонент интеграции Powah",
+            "the supplying mod's recipe, Powah compatibility and the declared stage boundary",
+            "рецепт исходного мода, совместимость с Powah и заявленную границу этапа",
+        )
     tier_en, tier_ru = tier(path)
     categories = [
         (("dielectric",), "dielectric component", "диэлектрический компонент", "material preparation and component stocking", "подготовку материала и запас компонентов"),
@@ -167,7 +175,6 @@ def category(path: str) -> tuple[str, str, str, str]:
 
 def localized_content(items: list[str]) -> dict[str, tuple[str, list[str]]]:
     primary = items[0]
-    path = primary.split(":", 1)[1]
     if len(items) > 1:
         display_en = " / ".join(human_name(item) for item in items)
         display_ru = display_en
@@ -178,7 +185,7 @@ def localized_content(items: list[str]) -> dict[str, tuple[str, list[str]]]:
     else:
         display_en = human_name(primary)
         display_ru = display_en
-        role_en, role_ru, focus_en, focus_ru = category(path)
+        role_en, role_ru, focus_en, focus_ru = category(primary)
 
     en_desc = [
         f"{display_en} is a {role_en} in the Powah energy chain. Its tier is meaningful only when the upstream energizing materials and the downstream machine or network can operate at the same sustained rate.",
