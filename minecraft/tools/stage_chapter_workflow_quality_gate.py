@@ -3,12 +3,17 @@ from __future__ import annotations
 import generate_early_stage_workflow_expansions as workflow
 import stage_chapter_organization_quality_gate as organization
 from advanced_stage_workflow_profiles import ADVANCED_STAGE_WORKFLOW_PROFILES
+from late_stage_workflow_profiles import LATE_STAGE_WORKFLOW_PROFILES
 from mid_stage_workflow_profiles import MID_STAGE_WORKFLOW_PROFILES
 
 
 def main() -> int:
     additions = {}
-    for profiles in (MID_STAGE_WORKFLOW_PROFILES, ADVANCED_STAGE_WORKFLOW_PROFILES):
+    for profiles in (
+        MID_STAGE_WORKFLOW_PROFILES,
+        ADVANCED_STAGE_WORKFLOW_PROFILES,
+        LATE_STAGE_WORKFLOW_PROFILES,
+    ):
         overlap = (set(workflow.WORKFLOW_STAGES) | set(additions)) & set(profiles)
         if overlap:
             raise RuntimeError(
