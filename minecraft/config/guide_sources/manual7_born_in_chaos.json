@@ -1,0 +1,145 @@
+{
+  "slug": "born_in_chaos",
+  "lessons": [
+    {
+      "slug": "threat_ecology",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "title_en": "Chaotic Threat Ecology",
+      "title_ru": "Экология хаотических угроз",
+      "desc_en": [
+        "Born in Chaos adds many aggressive creatures with distinct attacks and places them into ordinary survival, caves, structures and travel routes rather than isolating danger in one arena.",
+        "Classify threats by environment and stage, identify escape conditions before combat, and avoid spawn settings that turn routine travel into an unavoidable chain of elite fights."
+      ],
+      "desc_ru": [
+        "Born in Chaos добавляет множество агрессивных существ с разными атаками в обычное выживание, пещеры, структуры и маршруты, а не в одну изолированную арену.",
+        "Классифицируйте угрозы по среде и этапу, определяйте условия отхода до боя и не допускайте настроек, превращающих путешествие в непрерывную цепь элитных встреч."
+      ]
+    },
+    {
+      "slug": "structures",
+      "icon": "minecraft:cartography_table",
+      "title_en": "Structures, Approach and Loot Security",
+      "title_ru": "Структуры, подход и безопасность лута",
+      "desc_en": [
+        "Mod structures combine hostile density, confined geometry and valuable equipment, so entering from a safe angle or breaking walls can remove much of the intended risk.",
+        "Define a legitimate entry rule, preserve key encounter spaces, place recovery storage outside the structure, and audit every chest reward against the progression stage."
+      ],
+      "desc_ru": [
+        "Структуры мода объединяют плотность врагов, тесную геометрию и ценное снаряжение, поэтому безопасный пролом стены может убрать предусмотренный риск.",
+        "Определяйте честный вход, сохраняйте ключевые пространства встреч, держите восстановление снаружи и проверяйте каждую награду сундука относительно этапа."
+      ]
+    },
+    {
+      "slug": "special_attacks",
+      "icon": "minecraft:shield",
+      "title_en": "Special Attacks and Defensive Responses",
+      "title_ru": "Особые атаки и защитные ответы",
+      "desc_en": [
+        "Many Born in Chaos enemies use unusual movement, control, ranged attacks or status effects that invalidate a single universal defense strategy.",
+        "Observe the telegraph, match a specific response, maintain durability and consumable reserves, and tune raw damage only after the mechanical counter remains usable."
+      ],
+      "desc_ru": [
+        "Многие враги Born in Chaos используют необычное движение, контроль, дальние атаки или эффекты, поэтому одной универсальной защиты недостаточно.",
+        "Изучайте предупреждение, подбирайте конкретный ответ, поддерживайте прочность и расходники и меняйте сырой урон только после сохранения механического контрприёма."
+      ]
+    },
+    {
+      "slug": "elite_and_miniboss",
+      "icon": "minecraft:wither_skeleton_skull",
+      "title_en": "Elite and Miniboss Classification",
+      "title_ru": "Классификация элиты и мини-боссов",
+      "desc_en": [
+        "Elite creatures and minibosses should sit above ordinary hostile profiles without appearing so frequently that early exploration becomes statistically impossible.",
+        "Separate spawn rarity from combat power, define equipment expectations, keep unique rewards outside generic farms and provide a deliberate rematch path only after first victory."
+      ],
+      "desc_ru": [
+        "Элитные существа и мини-боссы должны быть сильнее обычных врагов, но не появляться настолько часто, чтобы раннее исследование стало статистически невозможным.",
+        "Разделяйте редкость и боевую силу, задавайте ожидания по экипировке, исключайте уникальный лут из ферм и давайте повторный вызов только после первой победы."
+      ]
+    },
+    {
+      "slug": "equipment",
+      "icon": "minecraft:iron_chestplate",
+      "title_en": "Equipment, Effects and Capability Tiers",
+      "title_ru": "Снаряжение, эффекты и уровни возможностей",
+      "desc_en": [
+        "Born in Chaos equipment may combine combat statistics with special effects, so recipe price alone does not show the actual progression power of an item.",
+        "Evaluate mobility, crowd control, healing, summons and damage together, assign a stage, and close loot, reward, trade and repair paths that grant the capability early."
+      ],
+      "desc_ru": [
+        "Снаряжение Born in Chaos может объединять характеристики и особые эффекты, поэтому цена рецепта не показывает реальную силу предмета для прогрессии.",
+        "Оценивайте движение, контроль толпы, лечение, призывы и урон вместе, назначайте этап и закрывайте ранний лут, награды, торговлю и ремонт."
+      ]
+    },
+    {
+      "slug": "conditional_content",
+      "icon": "minecraft:clock",
+      "title_en": "Conditional and Seasonal Content",
+      "title_ru": "Условный и сезонный контент",
+      "desc_en": [
+        "Conditional enemies or rewards must not become permanently inaccessible or force clock manipulation when they are required by the main progression.",
+        "Keep seasonal content optional or provide a bounded alternative after discovery, document activation conditions and prevent date changes from duplicating unique rewards."
+      ],
+      "desc_ru": [
+        "Условные или сезонные враги не должны навсегда блокировать обязательную прогрессию или требовать манипуляции временем системы.",
+        "Оставляйте такой контент необязательным либо давайте ограниченную альтернативу после открытия, описывайте условия и запрещайте дублирование наград сменой даты."
+      ]
+    },
+    {
+      "slug": "spawn_balance",
+      "icon": "minecraft:torch",
+      "title_en": "Spawn Density and Safe Infrastructure",
+      "title_ru": "Плотность спавна и безопасная инфраструктура",
+      "desc_en": [
+        "A large hostile roster can compound with darkness, structures and other mob mods, creating density spikes that are more dangerous than any individual combat profile.",
+        "Measure simultaneous threats, preserve recoverable safe zones, cap elite clustering and tune spawn weights separately from health, armor and damage."
+      ],
+      "desc_ru": [
+        "Большой набор врагов складывается с темнотой, структурами и другими моб-модами, создавая пики плотности опаснее характеристик отдельного существа.",
+        "Измеряйте одновременные угрозы, сохраняйте восстанавливаемые безопасные зоны, ограничивайте скопление элиты и настраивайте вес спавна отдельно от характеристик."
+      ]
+    },
+    {
+      "slug": "anti_farm",
+      "icon": "minecraft:spawner",
+      "title_en": "Capture, Spawner and Simulation Exclusion",
+      "title_ru": "Запрет захвата, спавнеров и симуляции",
+      "desc_en": [
+        "Swabs, powered spawners, Woot and neural simulation can convert rare or scripted Born in Chaos encounters into unattended loot production.",
+        "Blacklist elites, minibosses and capability-defining drops, review ordinary materials individually and require real first-victory evidence outside every automated system."
+      ],
+      "desc_ru": [
+        "Мазки, усиленные спавнеры, Woot и нейросимуляция могут превратить редкие или сценарные встречи Born in Chaos в автономный источник лута.",
+        "Запрещайте элиту, мини-боссов и значимые награды, проверяйте обычные материалы отдельно и требуйте реальную первую победу вне автоматизации."
+      ]
+    },
+    {
+      "slug": "recovery",
+      "icon": "minecraft:ender_chest",
+      "title_en": "Failure Analysis and Recovery Contract",
+      "title_ru": "Анализ поражения и контракт восстановления",
+      "desc_en": [
+        "Deaths in a dense hostile environment often come from combined effects, path blocking or durability collapse rather than the last visible attacker.",
+        "Record the full failure chain, keep a replacement kit outside the danger zone, change one preparation variable and confirm the route remains recoverable without repeated item loss."
+      ],
+      "desc_ru": [
+        "Смерть в плотной враждебной среде часто вызывают сочетание эффектов, блокировка пути или разрушение экипировки, а не последний видимый противник.",
+        "Записывайте полную цепочку, храните запасной комплект снаружи, меняйте одну переменную и подтверждайте возможность восстановления без повторной потери предметов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "minecraft:compass",
+      "title_en": "Project: Controlled Chaos Expedition",
+      "title_ru": "Проект: контролируемая экспедиция хаоса",
+      "desc_en": [
+        "Complete one structure or elite route with a written threat map, stage-appropriate equipment, recovery cache and explicit classification of every unusual output.",
+        "The project passes when the route can be repeated without terrain cheese and no elite reward, conditional item or structure loot bypasses the declared progression."
+      ],
+      "desc_ru": [
+        "Пройдите одну структуру или элитный маршрут с картой угроз, подходящей экипировкой, запасом восстановления и классификацией каждого необычного выхода.",
+        "Проект принят, когда маршрут повторяем без геометрического эксплойта, а элитная награда, условный предмет или лут структуры не обходят заявленный этап."
+      ]
+    }
+  ]
+}
