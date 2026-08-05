@@ -81,13 +81,26 @@ def main() -> int:
     quests = quest_metrics()
     guides = guide_metrics()
     evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
-    runtime = {name: bool(evidence.get("gates", {}).get(name, False)) for name in MINIMUM_RUNTIME_GATES}
+    runtime = {
+        name: bool(evidence.get("gates", {}).get(name, False))
+        for name in MINIMUM_RUNTIME_GATES
+    }
 
     quest_volume = 5000 <= quests["quests"] <= 6000
     full_bilingual = quests["quests"] > 0 and quests["bilingual"] == quests["quests"]
     quest_structure = quests["item_only_ratio"] <= 0.30
-    guide_complete = guides["tracked"] > 0 and guides["missing_review"] == 0 and guides["blockers"] == 0
-    static_complete = all(status.values()) and quest_volume and full_bilingual and quest_structure and guide_complete
+    guide_complete = (
+        guides["tracked"] > 0
+        and guides["missing_review"] == 0
+        and guides["blockers"] == 0
+    )
+    static_complete = (
+        all(status.values())
+        and quest_volume
+        and full_bilingual
+        and quest_structure
+        and guide_complete
+    )
     runtime_complete = all(runtime.values())
 
     if static_complete and runtime_complete:
@@ -99,12 +112,14 @@ def main() -> int:
     else:
         classification = "DEVELOPMENT — STATIC GATES INCOMPLETE"
 
+    remaining_volume = max(0, 5000 - quests["quests"])
+    remaining_bilingual = max(0, quests["quests"] - quests["bilingual"])
     lines = [
         "# v1 Product Readiness",
         "",
         f"## Classification: **{classification}**",
         "",
-        "Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new redesigned chapter therefore adds a mandatory v1 check without editing this classifier.",
+        "Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter therefore adds a mandatory v1 check without editing this classifier.",
         "",
         "## Static reports",
         "",
@@ -114,52 +129,66 @@ def main() -> int:
     for name, passed in sorted(status.items()):
         lines.append(f"| {name} | {'PASS' if passed else 'IN PROGRESS / FAIL'} |")
 
-    lines.extend([
-        "",
-        "## Quest product specification",
-        "",
-        "| Requirement | Current | Status |",
-        "|---|---:|---|",
-        f"| Total quests | {quests['quests']} / 5,000–6,000 | {'PASS' if quest_volume else 'IN PROGRESS'} |",
-        f"| RU/EN descriptions | {quests['bilingual']} / {quests['quests']} | {'PASS' if full_bilingual else 'IN PROGRESS'} |",
-        f"| Single item-only ratio | {quests['item_only_ratio']:.1%} / ≤30% | {'PASS' if quest_structure else 'IN PROGRESS'} |",
-        "",
-        "## Selected gameplay guide specification",
-        "",
-        "| Metric | Current |",
-        "|---|---:|",
-        f"| Manifest inventory projects | {guides['manifest']} |",
-        f"| Tracked gameplay/progression projects | {guides['tracked']} |",
-        f"| Projects not requiring individual guides | {guides['not_selected']} |",
-        f"| Tracked guides awaiting review | {guides['missing_review']} |",
-        f"| Reviewed tracked guides | {guides['reviewed']} |",
-        f"| Complete tracked guides | {guides['complete']} |",
-        f"| Coverage status | {'PASS' if guide_complete else 'IN PROGRESS'} |",
-        "",
-        "## Minimum runtime evidence",
-        "",
-        "| Gate | Status |",
-        "|---|---|",
-    ])
+    lines.extend(
+        [
+            "",
+            "## Quest product specification",
+            "",
+            "| Requirement | Current | Status |",
+            "|---|---:|---|",
+            f"| Total quests | {quests['quests']} / 5,000–6,000 | {'PASS' if quest_volume else 'IN PROGRESS'} |",
+            f"| RU/EN descriptions | {quests['bilingual']} / {quests['quests']} | {'PASS' if full_bilingual else 'IN PROGRESS'} |",
+            f"| Single item-only ratio | {quests['item_only_ratio']:.1%} / ≤30% | {'PASS' if quest_structure else 'IN PROGRESS'} |",
+            f"| Remaining to 5,000 quests | {remaining_volume} | {'PASS' if remaining_volume == 0 else 'IN PROGRESS'} |",
+            f"| Remaining without full RU/EN | {remaining_bilingual} | {'PASS' if remaining_bilingual == 0 else 'IN PROGRESS'} |",
+            "",
+            "## Selected gameplay guide specification",
+            "",
+            "| Metric | Current |",
+            "|---|---:|",
+            f"| Manifest inventory projects | {guides['manifest']} |",
+            f"| Tracked gameplay/progression projects | {guides['tracked']} |",
+            f"| Projects not requiring individual guides | {guides['not_selected']} |",
+            f"| Tracked guides awaiting review | {guides['missing_review']} |",
+            f"| Reviewed tracked guides | {guides['reviewed']} |",
+            f"| Complete tracked guides | {guides['complete']} |",
+            f"| Coverage status | {'PASS' if guide_complete else 'IN PROGRESS'} |",
+            "",
+            "## Minimum runtime evidence",
+            "",
+            "| Gate | Status |",
+            "|---|---|",
+        ]
+    )
     for name in sorted(runtime):
         lines.append(f"| `{name}` | {'VERIFIED' if runtime[name] else 'UNVERIFIED'} |")
 
-    lines.extend([
-        "",
-        "## Release rule",
-        "",
-        "The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
-        "",
-    ])
+    lines.extend(
+        [
+            "",
+            "## Release rule",
+            "",
+            "The label `v1` is prohibited until every static and chapter quality report passes, the quest book contains 5,000–6,000 fully bilingual quests, item-only quests are at most 30%, every selected meaningful gameplay/progression mod has a reviewed guide, and the minimum runtime evidence is verified. Unselected libraries, APIs, renderers, compatibility layers and optimization projects do not require individual guide chapters.",
+            "",
+        ]
+    )
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
     print(f"v1_product_classification: {classification}")
     print(f"static_reports: {sum(status.values())}/{len(status)}")
-    print(f"quality_reports_discovered: {sum(path.name.endswith('_QUALITY_REPORT.md') for path in reports.values())}")
+    print(
+        f"quality_reports_discovered: "
+        f"{sum(path.name.endswith('_QUALITY_REPORT.md') for path in reports.values())}"
+    )
     print(f"quests: {quests['quests']}")
     print(f"bilingual: {quests['bilingual']}")
+    print(f"remaining_to_5000: {remaining_volume}")
+    print(f"remaining_without_full_bilingual: {remaining_bilingual}")
     print(f"item_only_ratio: {quests['item_only_ratio']:.4f}")
-    print(f"tracked_guide_coverage: {guides['tracked'] - guides['missing_review']}/{guides['tracked']}")
+    print(
+        f"tracked_guide_coverage: "
+        f"{guides['tracked'] - guides['missing_review']}/{guides['tracked']}"
+    )
     print(f"manifest_projects_not_selected: {guides['not_selected']}")
     print(f"minimum_runtime: {sum(runtime.values())}/{len(runtime)}")
     return 0
