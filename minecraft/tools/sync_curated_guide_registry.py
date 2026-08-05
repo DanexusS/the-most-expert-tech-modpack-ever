@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "config" / "mod_guide_registry.json"
 CHAPTER_DIR = ROOT / "config" / "ftbquests" / "quests" / "chapters"
+REMEDIATION_RUNNER = ROOT / "tools" / "run_legacy_catalog_remediation.py"
 
 # The core projects below are covered by a reviewed conceptual manual in
 # addition to their legacy item/reference chapter. This mapping is intentionally
@@ -30,6 +33,15 @@ CURATED_GUIDES: dict[int, str] = {
 
 
 def main() -> int:
+    # Apply the current remediation manifest after all generated chapters have
+    # been rebuilt and before quality reports are calculated. Future legacy
+    # batches only extend the JSON manifest; the CI workflow remains stable.
+    subprocess.run(
+        [sys.executable, str(REMEDIATION_RUNNER), "upgrade"],
+        cwd=ROOT,
+        check=True,
+    )
+
     document = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     projects = {int(entry["project_id"]): entry for entry in document.get("projects", [])}
     changed = 0
