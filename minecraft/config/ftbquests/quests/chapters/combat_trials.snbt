@@ -52,7 +52,12 @@
 				id: "35883AB5020E9A78"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "13AF8B19F2D5744D"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -26.2d
 		}
@@ -67,7 +72,12 @@
 				id: "18059B52F328DE47"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "55969799AC8711A7"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -26.2d
 		}
@@ -82,7 +92,12 @@
 				id: "1A3A947A9CB00FB8"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "B9C44ADB6F610839"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: -26.2d
 		}
@@ -97,7 +112,12 @@
 				id: "32D9B4381ACC538F"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "46FB4DD2AB66E372"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: -26.2d
 		}
@@ -112,7 +132,12 @@
 				id: "450A8F4B1F7D5FF1"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "F35FF86D09A95C21"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: -26.2d
 		}
@@ -127,7 +152,12 @@
 				id: "39C688946119B2EC"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "124B18155469841F"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: -26.2d
 		}
@@ -144,7 +174,12 @@
 				id: "0509E39E43B79415"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "F4D1632DC8C1A541"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: -26.2d
 		}
@@ -161,7 +196,12 @@
 				id: "3831741927F6E89A"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "DEB26743E23062A5"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -26.2d
 		}
@@ -178,7 +218,12 @@
 				id: "62B0339A5B78A64E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "A84293846D136194"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -24.0d
 		}
@@ -195,7 +240,12 @@
 				id: "2D310BF85180AFB3"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "2829560AA45F3DC2"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -24.0d
 		}
@@ -212,7 +262,12 @@
 				id: "4DB272F3AE921AF2"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "0E017529CCA0CAC3"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: -24.0d
 		}
@@ -229,7 +284,12 @@
 				id: "0F9F3602729816E3"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "C1D28953E0E5CD85"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: -24.0d
 		}
@@ -246,7 +306,12 @@
 				id: "1A671B780F5FCD24"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "57BE3F40CAA1AA55"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: -24.0d
 		}
@@ -263,7 +328,12 @@
 				id: "681B5C1E7BAB7A83"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "6A19224D785ADDB8"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: -24.0d
 		}
@@ -281,11 +351,6 @@
 			}
 			id: "21B514DDD0177F9A"
 			optional: true
-			rewards: [{
-				id: "2D1A532CF9D6AEB1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -321,7 +386,12 @@
 				id: "1A3BBA885D22C85A"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "869115A93D7E0D25"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -18.2d
 		}
@@ -336,7 +406,12 @@
 				id: "0833C95A3CC29C3F"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "661D35B10F580952"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -18.2d
 		}
@@ -351,7 +426,12 @@
 				id: "6C0E5900BBF0D024"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "86863C210ADB4B38"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: -18.2d
 		}
@@ -366,7 +446,12 @@
 				id: "3C3F0D947AEF0FBF"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "E114B8275E2F9373"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: -18.2d
 		}
@@ -381,7 +466,12 @@
 				id: "7B4CD411F707A516"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "EDD962F410F72E73"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: -18.2d
 		}
@@ -396,7 +486,12 @@
 				id: "5A81826A46913CC3"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "D501824288B0EF00"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: -18.2d
 		}
@@ -411,7 +506,12 @@
 				id: "29CB34997BDBE0E7"
 				type: "kill"
 				value: 4L
-			}]
+			}
+			{
+				id: "7F69294E7A5C345A"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: -18.2d
 		}
@@ -428,7 +528,12 @@
 				id: "755BBDE60A85916E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "5557FE3408EAECC1"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -18.2d
 		}
@@ -445,7 +550,12 @@
 				id: "7A9AB5014D5D6743"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "D829C6C9F1F95820"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -16.0d
 		}
@@ -462,7 +572,12 @@
 				id: "68CB80DCFD573FE1"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "92C2DBCE913C951E"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -16.0d
 		}
@@ -479,11 +594,6 @@
 			}
 			id: "0C4CA9508E3A41CC"
 			optional: true
-			rewards: [{
-				id: "79C66AF979EBFA39"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -520,7 +630,12 @@
 				id: "3E5B2E0F3031A830"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "EE5F996A13B3FFA7"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -10.2d
 		}
@@ -536,7 +651,12 @@
 				id: "4B548145C75BF191"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "66CD849C9DEFA2AA"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -10.2d
 		}
@@ -552,7 +672,12 @@
 				id: "60EBDF9DEE489ED9"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "04808414AD84F1D1"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: -10.2d
 		}
@@ -568,7 +693,12 @@
 				id: "4EEE776CBA8BD7F8"
 				type: "kill"
 				value: 2L
-			}]
+			}
+			{
+				id: "C351D7E9C87F0669"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: -10.2d
 		}
@@ -584,7 +714,12 @@
 				id: "567BB5619B279F9D"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "06B918E761F8F727"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: -10.2d
 		}
@@ -600,7 +735,12 @@
 				id: "71F4BE4324AD80C1"
 				type: "kill"
 				value: 5L
-			}]
+			}
+			{
+				id: "0BF74860ED8AA40E"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: -10.2d
 		}
@@ -614,11 +754,6 @@
 			}
 			id: "28FE5C4EF2C287CA"
 			optional: true
-			rewards: [{
-				id: "1A845D2E6EEC518C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -655,7 +790,12 @@
 				id: "47F9CE5830C15D8B"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "F70D8E3986CFD6E1"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -2.2d
 		}
@@ -671,7 +811,12 @@
 				id: "255BE039DB469E16"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "C594BEC9B275DC31"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: -2.2d
 		}
@@ -687,7 +832,12 @@
 				id: "6EF6E06C8C5A42D5"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "88866F997CC84318"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: -2.2d
 		}
@@ -703,7 +853,12 @@
 				id: "06A8D786ECD9F654"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "1910D4C595BA2FB4"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: -2.2d
 		}
@@ -719,7 +874,12 @@
 				id: "2EDB9738D528AE3D"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "CFE9B89109F51539"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: -2.2d
 		}
@@ -735,7 +895,12 @@
 				id: "58AFA2565F806515"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "74EF8E3CD1A9A969"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: -2.2d
 		}
@@ -751,7 +916,12 @@
 				id: "09BCA7158124308F"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "77DACF05D3EF6AA6"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: -2.2d
 		}
@@ -767,7 +937,12 @@
 				id: "3DA34175BC4FED66"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "B24B254FEDD15B85"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -2.2d
 		}
@@ -783,7 +958,12 @@
 				id: "37E41F1A56BE92F2"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "411B946D232C2133"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -799,7 +979,12 @@
 				id: "773D932FA6859FAA"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "12D579EBE409B3CF"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -815,7 +1000,12 @@
 				id: "2097B35212D05B2C"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "4850A301274F1760"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -831,7 +1021,12 @@
 				id: "461406E9E755B611"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "A781FB799078FB0A"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -848,11 +1043,6 @@
 			}
 			id: "6D743B95130671AE"
 			optional: true
-			rewards: [{
-				id: "5041225E75AECC6E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -890,7 +1080,12 @@
 				id: "0491CB8E8EB8433A"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "0BA208CEDD0F8BC4"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 5.8d
 		}
@@ -907,7 +1102,12 @@
 				id: "773859F6D3A39336"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "CDBF2C151546D4C5"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 5.8d
 		}
@@ -924,7 +1124,12 @@
 				id: "6C87BE878A75ED3D"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "8644D05C9DDE6F90"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 5.8d
 		}
@@ -941,7 +1146,12 @@
 				id: "0EA04E0D4CE268E7"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "E1A4A51BA2860C3A"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 5.8d
 		}
@@ -958,7 +1168,12 @@
 				id: "1345853A3950E075"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "AB32F2D390F170B4"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 5.8d
 		}
@@ -975,7 +1190,12 @@
 				id: "751C12BBE72B113C"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "DE8496CD309AECEA"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 5.8d
 		}
@@ -992,7 +1212,12 @@
 				id: "311ED792FFAA4B4E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "84A22D355D461973"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 5.8d
 		}
@@ -1009,7 +1234,12 @@
 				id: "66939A2818644768"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "6D7AC97B8BF48730"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: 5.8d
 		}
@@ -1026,7 +1256,12 @@
 				id: "6E51AB60FE903DBC"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "1F22EE420CE841C4"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1043,7 +1278,12 @@
 				id: "3FADDD1DD8E98044"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "C379A7E249F48605"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 8.0d
 		}
@@ -1060,7 +1300,12 @@
 				id: "444C94898E3F9F8C"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "62DEFBF3FE1E80E3"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 8.0d
 		}
@@ -1077,7 +1322,12 @@
 				id: "1132892EB90339D4"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "4BF421F99C94E2E0"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 8.0d
 		}
@@ -1094,7 +1344,12 @@
 				id: "0035FCCE9FED4682"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "82D430DDFBF49585"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 8.0d
 		}
@@ -1111,7 +1366,12 @@
 				id: "0EB92923F1DCDA04"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "562F9955501C818D"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 8.0d
 		}
@@ -1128,7 +1388,12 @@
 				id: "2A15637A06AA25FD"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "10294C0BC5B7C123"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 8.0d
 		}
@@ -1145,7 +1410,12 @@
 				id: "615AE2174318E2A8"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "524A92002DD77A50"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: 8.0d
 		}
@@ -1162,7 +1432,12 @@
 				id: "70C3FE993604A947"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "CD6688C2E474B753"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 10.2d
 		}
@@ -1179,7 +1454,12 @@
 				id: "00AED8E3F6D1942C"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "0780F979117D7C1E"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 10.2d
 		}
@@ -1196,7 +1476,12 @@
 				id: "79ED5EECA71F2CE6"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "8216AE0D28FA2D9D"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 10.2d
 		}
@@ -1213,7 +1498,12 @@
 				id: "15179A1DA9379506"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "90CA97EF11B1D931"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 10.2d
 		}
@@ -1230,7 +1520,12 @@
 				id: "07DD5A80225A0F34"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "5031EF8D55D76811"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 10.2d
 		}
@@ -1247,7 +1542,12 @@
 				id: "2A55722D4A7904D2"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "54B376FD7836D0F7"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 10.2d
 		}
@@ -1264,7 +1564,12 @@
 				id: "4A437EFCFEBE41F7"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "D1A3AD9DE5764B76"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 10.2d
 		}
@@ -1288,11 +1593,6 @@
 			}
 			id: "0329FBB59A588116"
 			optional: true
-			rewards: [{
-				id: "36FF0CD90DC1CB62"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -1329,7 +1629,12 @@
 				id: "3028D7DCE199CADF"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "BA7CD3BDE9C8CBBA"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 13.8d
 		}
@@ -1345,7 +1650,12 @@
 				id: "33119DC4559F17D1"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "983E94E81C62EFB8"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 13.8d
 		}
@@ -1361,7 +1671,12 @@
 				id: "0B14FD21DD44ABF6"
 				type: "kill"
 				value: 10L
-			}]
+			}
+			{
+				id: "8F0E547AA10822D4"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 13.8d
 		}
@@ -1377,7 +1692,12 @@
 				id: "2788E1A8541F7ECB"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "3FAB0AE05F3A2361"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 13.8d
 		}
@@ -1393,7 +1713,12 @@
 				id: "72E989AE2E60FBAC"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "F4ED0DB838B4F251"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 13.8d
 		}
@@ -1409,7 +1734,12 @@
 				id: "7CC62EFCB13FCBAA"
 				type: "kill"
 				value: 16L
-			}]
+			}
+			{
+				id: "682A4251BA63FB38"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 13.8d
 		}
@@ -1425,7 +1755,12 @@
 				id: "4AD116519A57F1B0"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "17F4ACA32622E573"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 13.8d
 		}
@@ -1443,7 +1778,12 @@
 				id: "5CBE19C0CAA97EFB"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "687E788E6E68E229"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: 13.8d
 		}
@@ -1461,7 +1801,12 @@
 				id: "22CB7E3C52BBA7EC"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "2347CBAB53E15618"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 16.0d
 		}
@@ -1479,7 +1824,12 @@
 				id: "4EE43E2072D25E21"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "C020D0EC68BF0221"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 16.0d
 		}
@@ -1497,7 +1847,12 @@
 				id: "1B9B3C7A6F3C5D08"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "6EC5407C1F4C73DE"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 16.0d
 		}
@@ -1513,7 +1868,12 @@
 				id: "532DA07703C09D86"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "4698C7FD870CC1F1"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 16.0d
 		}
@@ -1531,7 +1891,12 @@
 				id: "223F8E96B5971DCA"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "3DC31E6DB8E93B61"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 16.0d
 		}
@@ -1549,7 +1914,12 @@
 				id: "6EA1C8764B5324AB"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "4AC51FE8B1B75367"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 16.0d
 		}
@@ -1567,7 +1937,12 @@
 				id: "0A699146556EBF0C"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "5C7025A5834256E0"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 16.0d
 		}
@@ -1586,11 +1961,6 @@
 			}
 			id: "24B11C0EBB23F75A"
 			optional: true
-			rewards: [{
-				id: "0D416A4C882696EA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -1627,7 +1997,12 @@
 				id: "3C9690C33886A0CF"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "0982D53B41C7EDC7"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 21.8d
 		}
@@ -1643,7 +2018,12 @@
 				id: "783393122B936F0E"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "00DE3353BD7505FE"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 21.8d
 		}
@@ -1659,7 +2039,12 @@
 				id: "5B769618C77A474E"
 				type: "kill"
 				value: 6L
-			}]
+			}
+			{
+				id: "72E9F57A494D14EC"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 21.8d
 		}
@@ -1675,7 +2060,12 @@
 				id: "1194283924824242"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "C9539CE8BD24B1A4"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 21.8d
 		}
@@ -1691,7 +2081,12 @@
 				id: "3CA15C83404CAF14"
 				type: "kill"
 				value: 12L
-			}]
+			}
+			{
+				id: "224CC31F878CFB4D"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 21.8d
 		}
@@ -1707,7 +2102,12 @@
 				id: "54B2F4237F697A76"
 				type: "kill"
 				value: 8L
-			}]
+			}
+			{
+				id: "17DD3062F818A837"
+				type: "checkmark"
+			}
+			]
 			x: 16.0d
 			y: 21.8d
 		}
@@ -1723,7 +2123,12 @@
 				id: "751399B9A43076A5"
 				type: "kill"
 				value: 4L
-			}]
+			}
+			{
+				id: "BF7B0C662A5EF509"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 21.8d
 		}
@@ -1739,7 +2144,12 @@
 				id: "51C33AD1CC5E394B"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "ABEE317337FD4D6B"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: 21.8d
 		}
@@ -1755,7 +2165,12 @@
 				id: "7003D1640F05F3AC"
 				type: "kill"
 				value: 2L
-			}]
+			}
+			{
+				id: "C7986CFE45C77DC6"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 24.0d
 		}
@@ -1773,7 +2188,12 @@
 				id: "6D650EAB8C6C2383"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "8142D5932788795A"
+				type: "checkmark"
+			}
+			]
 			x: 8.0d
 			y: 24.0d
 		}
@@ -1789,7 +2209,12 @@
 				id: "0E4A7CB975F19415"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "ADA9C02DD49F4CA5"
+				type: "checkmark"
+			}
+			]
 			x: 10.0d
 			y: 24.0d
 		}
@@ -1805,7 +2230,12 @@
 				id: "03EB88290BC3CFFE"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "CEB4FC014FE9EA53"
+				type: "checkmark"
+			}
+			]
 			x: 12.0d
 			y: 24.0d
 		}
@@ -1821,7 +2251,12 @@
 				id: "7F142C8F0078D186"
 				type: "kill"
 				value: 3L
-			}]
+			}
+			{
+				id: "3AEFF3BB0FC39190"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 24.0d
 		}
@@ -1838,11 +2273,6 @@
 			}
 			id: "6D2A03C2AF9E2BE3"
 			optional: true
-			rewards: [{
-				id: "6B0A2781D040BDC9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{

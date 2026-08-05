@@ -47,7 +47,12 @@
 				id: "29BE9EA34E83F16E"
 				item: { count: 1, id: "divinerpg:divine_shards" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9BA428B4FF8DD598"
+				type: "checkmark"
+			}
+			]
 			x: 3.6d
 			y: 0.0d
 		}
@@ -62,7 +67,12 @@
 				id: "66D4FA1864923E31"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "F09873C86377A32D"
+				type: "checkmark"
+			}
+			]
 			x: 5.4d
 			y: 1.4d
 		}
@@ -78,7 +88,12 @@
 				id: "052FB7B62CB7B62F"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "F97628E9A0EF8D8F"
+				type: "checkmark"
+			}
+			]
 			x: 7.2d
 			y: -1.4d
 		}
@@ -94,7 +109,12 @@
 				id: "06A2D60AECD7512E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "51B9EA704F074028"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -117,11 +137,6 @@
 				id: "divinerpg:divine_shards"
 			}
 			id: "7820E025DBB69FF1"
-			rewards: [{
-				id: "2FDD06217B7E3D51"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -155,7 +170,12 @@
 				id: "5A1A65A2D16DF024"
 				item: { count: 1, id: "divinerpg:divine_rock" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7F6C4603A481DB0D"
+				type: "checkmark"
+			}
+			]
 			x: 39.8d
 			y: -1.4d
 		}
@@ -171,7 +191,12 @@
 				id: "63F3224306B92AAF"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "68DAD3F4C13119EF"
+				type: "checkmark"
+			}
+			]
 			x: 41.6d
 			y: 0.0d
 		}
@@ -185,7 +210,12 @@
 				id: "130130B75B493DED"
 				item: { count: 1, id: "kubejs:divine_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "06494A3380E048C3"
+				type: "checkmark"
+			}
+			]
 			x: 43.4d
 			y: 1.4d
 		}
@@ -202,7 +232,12 @@
 				id: "1348577A644B8D43"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "4A258046126B0BA0"
+				type: "checkmark"
+			}
+			]
 			x: 45.2d
 			y: -1.4d
 		}
@@ -236,11 +271,6 @@
 				id: "divinerpg:divine_rock"
 			}
 			id: "59FE01FC8C79654C"
-			rewards: [{
-				id: "371F4CFD0EA8B0F1"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -288,7 +318,12 @@
 				id: "1D36BEBDA551C5D8"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "1DC4250B2C5647F1"
+				type: "checkmark"
+			}
+			]
 			x: 79.6d
 			y: 0.0d
 		}
@@ -301,7 +336,12 @@
 				id: "4577644046BEA92F"
 				item: { count: 1, id: "divinerpg:eden_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3874E6AA1A74CA96"
+				type: "checkmark"
+			}
+			]
 			x: 81.4d
 			y: 1.4d
 		}
@@ -314,7 +354,12 @@
 				id: "26D15FE72B59B944"
 				item: { count: 1, id: "kubejs:eden_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CD8583C49327AA44"
+				type: "checkmark"
+			}
+			]
 			x: 83.2d
 			y: -1.4d
 		}
@@ -347,11 +392,6 @@
 				id: "divinerpg:eden_heart"
 			}
 			id: "1A692A5E03C485B2"
-			rewards: [{
-				id: "374E5B255E7BB2A1"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -400,7 +440,12 @@
 				id: "02B76480F215B95E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "1630730DF4A01D30"
+				type: "checkmark"
+			}
+			]
 			x: 3.6d
 			y: 14.0d
 		}
@@ -413,7 +458,12 @@
 				id: "3A72B06E49BF8D21"
 				item: { count: 1, id: "divinerpg:wildwood_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3745420D3F9345D9"
+				type: "checkmark"
+			}
+			]
 			x: 5.4d
 			y: 15.4d
 		}
@@ -426,7 +476,12 @@
 				id: "5CC54725BBDEB9E5"
 				item: { count: 1, id: "kubejs:wildwood_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6E4B3F6812693072"
+				type: "checkmark"
+			}
+			]
 			x: 7.2d
 			y: 12.6d
 		}
@@ -440,7 +495,12 @@
 				id: "1F0BA844EFB57137"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "84950BC586C070B0"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: 14.0d
 		}
@@ -453,7 +513,12 @@
 				id: "57E2BA35C2EFAD75"
 				item: { count: 1, id: "kubejs:chemical_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8227468571896BE9"
+				type: "checkmark"
+			}
+			]
 			x: 10.8d
 			y: 15.4d
 		}
@@ -463,11 +528,6 @@
 				id: "divinerpg:wildwood_heart"
 			}
 			id: "0EA838E3062775AB"
-			rewards: [{
-				id: "7D2984849C12CE13"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -516,7 +576,12 @@
 				id: "540B9E6DDB729C37"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "31F7180F3A6177C3"
+				type: "checkmark"
+			}
+			]
 			x: 41.6d
 			y: 14.0d
 		}
@@ -529,7 +594,12 @@
 				id: "47F12F1DB116807F"
 				item: { count: 1, id: "divinerpg:apalachia_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "418EDB25AF939AEC"
+				type: "checkmark"
+			}
+			]
 			x: 43.4d
 			y: 15.4d
 		}
@@ -543,7 +613,12 @@
 				id: "5728C1FDDDA4EF25"
 				item: { count: 1, id: "kubejs:apalachia_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2DBCD2B387A189BB"
+				type: "checkmark"
+			}
+			]
 			x: 45.2d
 			y: 12.6d
 		}
@@ -556,7 +631,12 @@
 				id: "3D6052C7FC7BF42A"
 				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "217CE7347DE5A17E"
+				type: "checkmark"
+			}
+			]
 			x: 47.0d
 			y: 14.0d
 		}
@@ -569,7 +649,12 @@
 				id: "3CD2DB3E8826C17C"
 				item: { count: 1, id: "kubejs:bioindustrial_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "EB9C7D4E7B31F90A"
+				type: "checkmark"
+			}
+			]
 			x: 48.8d
 			y: 15.4d
 		}
@@ -578,11 +663,6 @@
 				id: "divinerpg:apalachia_heart"
 			}
 			id: "1DCFEFBFB79866D9"
-			rewards: [{
-				id: "712678D4E08F3D46"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -630,7 +710,12 @@
 				id: "420BBD575B38FCA2"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "02846DFC596E8E66"
+				type: "checkmark"
+			}
+			]
 			x: 79.6d
 			y: 14.0d
 		}
@@ -643,7 +728,12 @@
 				id: "707AD2E02C15CADD"
 				item: { count: 1, id: "divinerpg:skythern_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9BDE95608ECE644C"
+				type: "checkmark"
+			}
+			]
 			x: 81.4d
 			y: 15.4d
 		}
@@ -657,7 +747,12 @@
 				id: "23E3614DDDA77874"
 				item: { count: 1, id: "kubejs:skythern_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "EDE935E2E539DE4B"
+				type: "checkmark"
+			}
+			]
 			x: 83.2d
 			y: 12.6d
 		}
@@ -673,7 +768,12 @@
 				id: "130AF709A07E0ACA"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "87BD3EE83B7E1939"
+				type: "checkmark"
+			}
+			]
 			x: 85.0d
 			y: 14.0d
 		}
@@ -689,7 +789,12 @@
 				id: "7746F67F43193BAD"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "C16270730937D4E1"
+				type: "checkmark"
+			}
+			]
 			x: 86.8d
 			y: 15.4d
 		}
@@ -702,7 +807,12 @@
 				id: "36D9E337584AD202"
 				item: { count: 1, id: "divinerpg:dungeon_tokens" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AB523D5169BF2A4B"
+				type: "checkmark"
+			}
+			]
 			x: 88.6d
 			y: 12.6d
 		}
@@ -715,7 +825,12 @@
 				id: "4413D97E7578D71A"
 				item: { count: 1, id: "kubejs:quantum_logic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "65A264C816BC98A3"
+				type: "checkmark"
+			}
+			]
 			x: 90.4d
 			y: 14.0d
 		}
@@ -724,11 +839,6 @@
 				id: "divinerpg:skythern_heart"
 			}
 			id: "3A0EB475437F4169"
-			rewards: [{
-				id: "44FAB38DEDDECB04"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -776,7 +886,12 @@
 				id: "6981D1820DDDD5A6"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "1C2BEB4CFF972227"
+				type: "checkmark"
+			}
+			]
 			x: 3.6d
 			y: 28.0d
 		}
@@ -791,7 +906,12 @@
 				id: "2523FCB82AE10DDD"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "AEB5383DD59FD821"
+				type: "checkmark"
+			}
+			]
 			x: 5.4d
 			y: 29.4d
 		}
@@ -806,7 +926,12 @@
 				id: "20327550BEC0BEB5"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "C2139B5A0EAD402E"
+				type: "checkmark"
+			}
+			]
 			x: 7.2d
 			y: 26.6d
 		}
@@ -821,7 +946,12 @@
 				id: "3D43A72BFCABA640"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "799160FAD8EFDDB8"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: 28.0d
 		}
@@ -836,7 +966,12 @@
 				id: "2429163A0955F5B5"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "ACFF1536631AAD99"
+				type: "checkmark"
+			}
+			]
 			x: 10.8d
 			y: 29.4d
 		}
@@ -851,7 +986,12 @@
 				id: "1CE11D6CD9C4A41B"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "5A16D918158027BE"
+				type: "checkmark"
+			}
+			]
 			x: 12.6d
 			y: 26.6d
 		}
@@ -864,7 +1004,12 @@
 				id: "38E6BBCAD04CF2AE"
 				item: { count: 1, id: "divinerpg:mortum_heart" }
 				type: "item"
-			}]
+			}
+			{
+				id: "79B14FE8DCE32D62"
+				type: "checkmark"
+			}
+			]
 			x: 14.4d
 			y: 28.0d
 		}
@@ -878,7 +1023,12 @@
 				id: "0F07C54AB796B7C4"
 				item: { count: 1, id: "kubejs:mortum_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "255783EB6ABB9C35"
+				type: "checkmark"
+			}
+			]
 			x: 16.2d
 			y: 29.4d
 		}
@@ -892,7 +1042,12 @@
 				id: "7B80D898C307FBC6"
 				item: { count: 1, id: "kubejs:resonant_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2F5CD6880BBE9919"
+				type: "checkmark"
+			}
+			]
 			x: 18.0d
 			y: 26.6d
 		}
@@ -901,11 +1056,6 @@
 				id: "divinerpg:mortum_heart"
 			}
 			id: "2685BED005B7CE85"
-			rewards: [{
-				id: "4D0F8653A362A206"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -952,7 +1102,12 @@
 				id: "7CE6489582D4F794"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "6458998562914D65"
+				type: "checkmark"
+			}
+			]
 			x: 41.6d
 			y: 28.0d
 		}
@@ -965,7 +1120,12 @@
 				id: "2DA1BEC71A8B06B3"
 				item: { count: 1, id: "divinerpg:hive_egg" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FC5DBAF47016E181"
+				type: "checkmark"
+			}
+			]
 			x: 43.4d
 			y: 29.4d
 		}
@@ -978,7 +1138,12 @@
 				id: "4DAC7842542241B2"
 				item: { count: 1, id: "kubejs:vethea_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0B01ED6D0009B7C4"
+				type: "checkmark"
+			}
+			]
 			x: 45.2d
 			y: 26.6d
 		}
@@ -993,7 +1158,12 @@
 				id: "209B8B1CD685ABFF"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "5587D9482FE74AE6"
+				type: "checkmark"
+			}
+			]
 			x: 47.0d
 			y: 28.0d
 		}
@@ -1006,7 +1176,12 @@
 				id: "6085FDC9F9A45AF6"
 				item: { count: 1, id: "divinerpg:quadrotic_altar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3BAED64951A894DC"
+				type: "checkmark"
+			}
+			]
 			x: 48.8d
 			y: 29.4d
 		}
@@ -1022,7 +1197,12 @@
 				id: "1E5BFB52D56752B3"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "2E2AB639E520932C"
+				type: "checkmark"
+			}
+			]
 			x: 50.6d
 			y: 26.6d
 		}
@@ -1036,7 +1216,12 @@
 				id: "394961A61FDD91B8"
 				item: { count: 1, id: "divinerpg:karos_altar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F09DA042C9856FB4"
+				type: "checkmark"
+			}
+			]
 			x: 52.4d
 			y: 28.0d
 		}
@@ -1051,7 +1236,12 @@
 				id: "1FC23CF551E78FFC"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "3FB1F1227A43AEB2"
+				type: "checkmark"
+			}
+			]
 			x: 54.2d
 			y: 29.4d
 		}
@@ -1064,7 +1254,12 @@
 				id: "13561010FC49D753"
 				item: { count: 1, id: "divinerpg:raglok_altar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9AB96791F9FD0B44"
+				type: "checkmark"
+			}
+			]
 			x: 56.0d
 			y: 26.6d
 		}
@@ -1080,7 +1275,12 @@
 				id: "346CB5B86FE3A31E"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "0873FEDEF52B3EB6"
+				type: "checkmark"
+			}
+			]
 			x: 57.8d
 			y: 28.0d
 		}
@@ -1094,7 +1294,12 @@
 				id: "0C4302E40F46F9DB"
 				item: { count: 1, id: "divinerpg:wreck_altar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3852ED313C3EEB39"
+				type: "checkmark"
+			}
+			]
 			x: 59.6d
 			y: 29.4d
 		}
@@ -1110,7 +1315,12 @@
 				id: "3C2E354B737A7FAB"
 				type: "kill"
 				value: 0L
-			}]
+			}
+			{
+				id: "6A5975428AD11F40"
+				type: "checkmark"
+			}
+			]
 			x: 61.4d
 			y: 26.6d
 		}
@@ -1124,7 +1334,12 @@
 				id: "122D79C564834DBC"
 				item: { count: 1, id: "divinerpg:lunic_altar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6CC0260CB6F0785B"
+				type: "checkmark"
+			}
+			]
 			x: 63.2d
 			y: 28.0d
 		}
@@ -1138,7 +1353,12 @@
 				id: "4E02094E75B638D1"
 				item: { count: 1, id: "kubejs:lunar_seal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "11701E49AB78C028"
+				type: "checkmark"
+			}
+			]
 			x: 65.0d
 			y: 29.4d
 		}
@@ -1148,11 +1368,6 @@
 				id: "divinerpg:hive_egg"
 			}
 			id: "14F3BA3DDC607758"
-			rewards: [{
-				id: "048B805A314D4BDA"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{
@@ -1199,7 +1414,12 @@
 				id: "43D9CEA856BAF144"
 				item: { count: 1, id: "kubejs:draconic_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3F59682B8E4A359E"
+				type: "checkmark"
+			}
+			]
 			x: 79.6d
 			y: 28.0d
 		}
@@ -1212,7 +1432,12 @@
 				id: "11171F212F990186"
 				item: { count: 1, id: "kubejs:transmutation_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C7BE4036DC4164EB"
+				type: "checkmark"
+			}
+			]
 			x: 81.4d
 			y: 29.4d
 		}
@@ -1225,7 +1450,12 @@
 				id: "6B8DAE83395F84D7"
 				item: { count: 1, id: "kubejs:cosmic_catalyst" }
 				type: "item"
-			}]
+			}
+			{
+				id: "628638953553E8F4"
+				type: "checkmark"
+			}
+			]
 			x: 83.2d
 			y: 26.6d
 		}
@@ -1285,11 +1515,6 @@
 				id: "kubejs:cosmic_catalyst"
 			}
 			id: "783974C228C7A863"
-			rewards: [{
-				id: "5C82E3EC88C0C5A2"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.4d
 			tasks: [{

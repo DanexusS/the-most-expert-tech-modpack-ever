@@ -31,7 +31,12 @@
 				id: "B4C55CE9C6B71229"
 				item: { count: 1, id: "kubejs:field_engineering_kit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "979600097301E9D8"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -44,7 +49,12 @@
 				id: "D1BC53E0517EDE88"
 				item: { count: 1, id: "kubejs:power_regulation_unit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B5ECCC7073539005"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -57,7 +67,12 @@
 				id: "2C600E03708EB420"
 				item: { count: 1, id: "kubejs:materials_analysis_matrix" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E983F52F0AD8996A"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 3.0d
 		}
@@ -75,7 +90,12 @@
 				id: "80EF93CC5AE92209"
 				item: { count: 1, id: "kubejs:mechanical_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7F62D1A86D278B41"
+				type: "checkmark"
+			}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
@@ -88,7 +108,12 @@
 				id: "53A142A8711EFEC4"
 				item: { count: 1, id: "kubejs:kinetic_interface" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E235C0215C1921A2"
+				type: "checkmark"
+			}
+			]
 			x: 11.0d
 			y: -4.0d
 		}
@@ -122,7 +147,12 @@
 				id: "72117C58B0A16C6B"
 				item: { count: 2, id: "create:large_cogwheel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DD20CFA90326B386"
+				type: "checkmark"
+			}
+			]
 			x: 20.0d
 			y: -5.0d
 		}
@@ -134,7 +164,12 @@
 				id: "CB66EA3855B2A2AF"
 				item: { count: 27, id: "immersiveengineering:cokebrick" }
 				type: "item"
-			}]
+			}
+			{
+				id: "37DE1A7FDCA3CE33"
+				type: "checkmark"
+			}
+			]
 			x: 11.0d
 			y: 0.0d
 		}
@@ -146,7 +181,12 @@
 				id: "993938EE227582C0"
 				item: { count: 8, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3AED1E3D8A88FBFB"
+				type: "checkmark"
+			}
+			]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -158,7 +198,12 @@
 				id: "2458373AE5E937A0"
 				item: { count: 2, id: "modern_industrialization:motor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "12A9DFF697011390"
+				type: "checkmark"
+			}
+			]
 			x: 11.0d
 			y: 4.0d
 		}
@@ -199,7 +244,12 @@
 				id: "CCD76617685572B8"
 				item: { count: 1, id: "kubejs:industrial_frame" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4182F89571BCB622"
+				type: "checkmark"
+			}
+			]
 			x: 27.0d
 			y: 0.0d
 		}
@@ -207,11 +257,6 @@
 			dependencies: ["F8CB87B3063D8541"]
 			icon: { id: "minecraft:writable_book" }
 			id: "515835E1E6E7125D"
-			rewards: [{
-				id: "FFB1A7EAE821D988"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{

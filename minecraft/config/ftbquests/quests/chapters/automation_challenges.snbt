@@ -39,7 +39,12 @@
 				id: "0059B9B0D375D034"
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2B8B4443AF0DBBC2"
+				type: "checkmark"
+			}
+			]
 			x: 2.2d
 			y: -1.3d
 		}
@@ -55,7 +60,12 @@
 				id: "54E77E9AF121BB53"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
-			}]
+			}
+			{
+				id: "47235429F6A721A1"
+				type: "checkmark"
+			}
+			]
 			x: 4.4d
 			y: 0.0d
 		}
@@ -71,7 +81,12 @@
 				id: "63EF550774458818"
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
-			}]
+			}
+			{
+				id: "807693D69DCB8AE6"
+				type: "checkmark"
+			}
+			]
 			x: 6.6d
 			y: 1.3d
 		}
@@ -97,11 +112,6 @@
 			}
 			id: "3AC4E2186DC04ED6"
 			optional: true
-			rewards: [{
-				id: "6B91108E67DAABF3"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -139,7 +149,12 @@
 				id: "289F47D3DA35EB2B"
 				item: { count: 1, id: "immersiveengineering:ingot_steel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1DBFF57ED7D031E5"
+				type: "checkmark"
+			}
+			]
 			x: 14.2d
 			y: -1.3d
 		}
@@ -155,7 +170,12 @@
 				id: "7C93F0DE5ADFDC24"
 				item: { count: 1, id: "immersiveengineering:component_steel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "19D1A17B1301410B"
+				type: "checkmark"
+			}
+			]
 			x: 16.4d
 			y: 0.0d
 		}
@@ -171,7 +191,12 @@
 				id: "35B07B5AF9EFB118"
 				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7FE7BD25F2AE12FE"
+				type: "checkmark"
+			}
+			]
 			x: 18.6d
 			y: 1.3d
 		}
@@ -198,11 +223,6 @@
 			}
 			id: "459266EB73384474"
 			optional: true
-			rewards: [{
-				id: "33F0D9991D037501"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -239,7 +259,12 @@
 				id: "73D11C9598208B3F"
 				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6F734A6180638BC7"
+				type: "checkmark"
+			}
+			]
 			x: 26.2d
 			y: -1.3d
 		}
@@ -255,7 +280,12 @@
 				id: "0CCCF0FA354DDA53"
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4E8F0BBFE4662254"
+				type: "checkmark"
+			}
+			]
 			x: 28.4d
 			y: 0.0d
 		}
@@ -271,7 +301,12 @@
 				id: "6FD57EBB1849AD54"
 				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E2DA286B016EF6E9"
+				type: "checkmark"
+			}
+			]
 			x: 30.6d
 			y: 1.3d
 		}
@@ -301,11 +336,6 @@
 			}
 			id: "67E156F68E42F5A6"
 			optional: true
-			rewards: [{
-				id: "5D6B1890AE707559"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -342,7 +372,12 @@
 				id: "78AC6A583AE66ED5"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6FE3C36D889EC654"
+				type: "checkmark"
+			}
+			]
 			x: 38.2d
 			y: -1.3d
 		}
@@ -357,7 +392,12 @@
 				id: "264821449E11EB81"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F24DE378D08CA6F5"
+				type: "checkmark"
+			}
+			]
 			x: 40.4d
 			y: 0.0d
 		}
@@ -372,7 +412,12 @@
 				id: "630ED5FD1BDBA8FF"
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7F90476EC0F82423"
+				type: "checkmark"
+			}
+			]
 			x: 42.6d
 			y: 1.3d
 		}
@@ -398,11 +443,6 @@
 			}
 			id: "51DFDEAC05124ED6"
 			optional: true
-			rewards: [{
-				id: "5D1768E2713ECE15"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -439,7 +479,12 @@
 				id: "2F12A753692F5856"
 				item: { count: 1, id: "mekanism:alloy_infused" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5C676BF1DA68D41F"
+				type: "checkmark"
+			}
+			]
 			x: 2.2d
 			y: 8.7d
 		}
@@ -455,7 +500,12 @@
 				id: "0F35FEEE3C74E8E9"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2AB964C1B844F91F"
+				type: "checkmark"
+			}
+			]
 			x: 4.4d
 			y: 10.0d
 		}
@@ -471,7 +521,12 @@
 				id: "5A1724B2289A2138"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E91C1BDC8A940500"
+				type: "checkmark"
+			}
+			]
 			x: 6.6d
 			y: 11.3d
 		}
@@ -501,11 +556,6 @@
 			}
 			id: "6ADF14F9875DBF13"
 			optional: true
-			rewards: [{
-				id: "72D5050E8BDA512E"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -542,7 +592,12 @@
 				id: "4F397118CEB266AC"
 				item: { count: 1, id: "mekanism:hdpe_pellet" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4FE294CC3B4A61AE"
+				type: "checkmark"
+			}
+			]
 			x: 14.2d
 			y: 8.7d
 		}
@@ -558,7 +613,12 @@
 				id: "68AD65BA5891447F"
 				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
 				type: "item"
-			}]
+			}
+			{
+				id: "45D924AC9B33DAAB"
+				type: "checkmark"
+			}
+			]
 			x: 16.4d
 			y: 10.0d
 		}
@@ -574,7 +634,12 @@
 				id: "48D0C397C02E0FCF"
 				item: { count: 1, id: "mekanism:pellet_polonium" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4AFADAC0F4AFBFE1"
+				type: "checkmark"
+			}
+			]
 			x: 18.6d
 			y: 11.3d
 		}
@@ -605,11 +670,6 @@
 			}
 			id: "473B9CFA8C6E18CC"
 			optional: true
-			rewards: [{
-				id: "04302E8F42CC8D08"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -645,7 +705,12 @@
 				id: "289A27947EEA86A6"
 				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "552B62D0E6377BBD"
+				type: "checkmark"
+			}
+			]
 			x: 26.2d
 			y: 8.7d
 		}
@@ -660,7 +725,12 @@
 				id: "3D4DCA48DDB995AA"
 				item: { count: 1, id: "industrialforegoing:pink_slime" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9ADAC3A411EE1AAD"
+				type: "checkmark"
+			}
+			]
 			x: 28.4d
 			y: 10.0d
 		}
@@ -675,7 +745,12 @@
 				id: "5216CC49A9A58F95"
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D4FA5B2058D1528D"
+				type: "checkmark"
+			}
+			]
 			x: 30.6d
 			y: 11.3d
 		}
@@ -701,11 +776,6 @@
 			}
 			id: "7FA8EB0C90B3F72B"
 			optional: true
-			rewards: [{
-				id: "5D23BC21E28CE369"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -742,7 +812,12 @@
 				id: "258EFE71900DE51A"
 				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F46E1EFF9F630759"
+				type: "checkmark"
+			}
+			]
 			x: 38.2d
 			y: 8.7d
 		}
@@ -757,7 +832,12 @@
 				id: "077AB0A91F920B94"
 				item: { count: 1, id: "ae2:calculation_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "34BE4F7813259071"
+				type: "checkmark"
+			}
+			]
 			x: 40.4d
 			y: 10.0d
 		}
@@ -772,7 +852,12 @@
 				id: "4089F9E30E651B0F"
 				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "67CA4F8E5496EAA2"
+				type: "checkmark"
+			}
+			]
 			x: 42.6d
 			y: 11.3d
 		}
@@ -799,11 +884,6 @@
 			}
 			id: "23B13127579104CF"
 			optional: true
-			rewards: [{
-				id: "5A2E8229D346AE11"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -841,7 +921,12 @@
 				id: "06442CB8DF7B93DA"
 				item: { count: 1, id: "powah:dielectric_casing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "309925C7A1F30039"
+				type: "checkmark"
+			}
+			]
 			x: 2.2d
 			y: 18.7d
 		}
@@ -857,7 +942,12 @@
 				id: "5568FB47EDCD22DE"
 				item: { count: 1, id: "powah:crystal_blazing" }
 				type: "item"
-			}]
+			}
+			{
+				id: "598995AFA858950F"
+				type: "checkmark"
+			}
+			]
 			x: 4.4d
 			y: 20.0d
 		}
@@ -873,7 +963,12 @@
 				id: "234D82E1F38437DB"
 				item: { count: 1, id: "powah:crystal_nitro" }
 				type: "item"
-			}]
+			}
+			{
+				id: "56C0FD2BD076988B"
+				type: "checkmark"
+			}
+			]
 			x: 6.6d
 			y: 21.3d
 		}
@@ -904,11 +999,6 @@
 			}
 			id: "3A9F6E8659F5B2D6"
 			optional: true
-			rewards: [{
-				id: "5B803A69C765943C"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -944,7 +1034,12 @@
 				id: "61B3DC491D96F665"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7BE69C3C5857DC12"
+				type: "checkmark"
+			}
+			]
 			x: 14.2d
 			y: 18.7d
 		}
@@ -959,7 +1054,12 @@
 				id: "7C2C18A43101A71C"
 				item: { count: 1, id: "draconicevolution:wyvern_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AAD6004E6A47C59A"
+				type: "checkmark"
+			}
+			]
 			x: 16.4d
 			y: 20.0d
 		}
@@ -974,7 +1074,12 @@
 				id: "0886908586A98648"
 				item: { count: 1, id: "draconicevolution:awakened_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8C3B74497C328F2E"
+				type: "checkmark"
+			}
+			]
 			x: 18.6d
 			y: 21.3d
 		}
@@ -1003,11 +1108,6 @@
 			}
 			id: "603FEA2B63EBD29A"
 			optional: true
-			rewards: [{
-				id: "5A65B961E1ED9A97"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -1044,7 +1144,12 @@
 				id: "0FB6C7F96634827E"
 				item: { count: 1, id: "projecte:aeternalis_fuel" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9CDB1CFA9A68F7D0"
+				type: "checkmark"
+			}
+			]
 			x: 26.2d
 			y: 18.7d
 		}
@@ -1060,7 +1165,12 @@
 				id: "59011EC30BB39696"
 				item: { count: 1, id: "projecte:dark_matter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E21668F4FBD5E025"
+				type: "checkmark"
+			}
+			]
 			x: 28.4d
 			y: 20.0d
 		}
@@ -1076,7 +1186,12 @@
 				id: "57ECEB402BB4D4AA"
 				item: { count: 1, id: "projecte:red_matter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "16F2BFD4D87701CC"
+				type: "checkmark"
+			}
+			]
 			x: 30.6d
 			y: 21.3d
 		}
@@ -1105,11 +1220,6 @@
 			}
 			id: "69529ABB3E76DC19"
 			optional: true
-			rewards: [{
-				id: "7C699084C764166C"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -1145,7 +1255,12 @@
 				id: "6F71B4D9D9DD26A0"
 				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3932382C39E16C56"
+				type: "checkmark"
+			}
+			]
 			x: 38.2d
 			y: 18.7d
 		}
@@ -1160,7 +1275,12 @@
 				id: "42A0E428FF8FC98B"
 				item: { count: 1, id: "avaritia:neutron_pile" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5FA626A974B7300C"
+				type: "checkmark"
+			}
+			]
 			x: 40.4d
 			y: 20.0d
 		}
@@ -1175,7 +1295,12 @@
 				id: "57A4A6D3841C0F6F"
 				item: { count: 1, id: "avaritia:infinity_catalyst" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4D12EA50776AA7F5"
+				type: "checkmark"
+			}
+			]
 			x: 42.6d
 			y: 21.3d
 		}
@@ -1200,11 +1325,6 @@
 			}
 			id: "6A569C5B3D593EEA"
 			optional: true
-			rewards: [{
-				id: "1B2322F0E5DD28D6"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{

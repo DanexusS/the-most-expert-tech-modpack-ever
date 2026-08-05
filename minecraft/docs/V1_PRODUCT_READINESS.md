@@ -1,6 +1,6 @@
 # v1 Product Readiness
 
-## Classification: **STATIC FOUNDATION PASS — PRODUCT INCOMPLETE**
+## Classification: **V1 CANDIDATE — MINIMUM RUNTIME EVIDENCE REQUIRED**
 
 Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesigned chapter therefore adds a mandatory v1 check without editing this classifier.
 
@@ -16,21 +16,26 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Apotheosis Catalog | PASS |
 | Apotheosis Secondary Systems | PASS |
 | Ars Nouveau Catalog | PASS |
+| Automation Challenges Review | PASS |
 | Avaritia Catalog | PASS |
 | Building Gadgets Safety | PASS |
 | Bypass closure | PASS |
 | Cataclysm Catalog | PASS |
+| Combat Trials | PASS |
 | Create Catalog | PASS |
 | Create Connected Routing | PASS |
 | Create Core | PASS |
 | Create Crafts Additions Operational | PASS |
 | Create Stuff N Additions Catalog | PASS |
 | Creative Items Permission | PASS |
+| Divinerpg Codex | PASS |
 | Divinerpg Stage Seal | PASS |
 | Draconic Evolution Catalog | PASS |
 | Dyson Cube Operational | PASS |
 | Ender Io Catalog | PASS |
+| Engineering Foundations Review | PASS |
 | Engineering Handbook Catalog | PASS |
+| Expert Progression Review | PASS |
 | Extended Crafting Catalog | PASS |
 | Extreme Reactors Operational | PASS |
 | Flux Networks Grid | PASS |
@@ -82,10 +87,10 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 5970 / 5,000–6,000 | PASS |
-| RU/EN descriptions | 5827 / 5970 | IN PROGRESS |
-| Single item-only ratio | 1.3% / ≤30% | PASS |
+| RU/EN descriptions | 5970 / 5970 | PASS |
+| Single item-only ratio | 0.0% / ≤30% | PASS |
 | Remaining to 5,000 quests | 0 | PASS |
-| Remaining without full RU/EN | 143 | IN PROGRESS |
+| Remaining without full RU/EN | 0 | PASS |
 
 ## Selected gameplay guide specification
 
