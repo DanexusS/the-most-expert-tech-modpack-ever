@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 import catalog_upgrade_common as common
+from snbt_field_parser import extract_array, quest_spans
 
 
 def select_category(policy: dict, item_id: str | None) -> dict:
@@ -30,6 +31,8 @@ def main() -> int:
     policy_path = args.policy if args.policy.is_absolute() else common.ROOT / args.policy
     policy = common.load_policy(policy_path)
     common.select_category = select_category
+    common.extract_array = extract_array
+    common.quest_spans = quest_spans
     if args.mode == "upgrade":
         common.upgrade(policy)
         return 0
