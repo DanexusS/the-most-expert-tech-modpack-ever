@@ -20,7 +20,12 @@
 				id: "0F6AF1BE3560BC79"
 				item: { count: 1, id: "rftoolsbase:dimensionalshard" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DD25C40725D62092"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -32,7 +37,12 @@
 				id: "6C3B2515180A5AFC"
 				item: { count: 1, id: "rftoolsbase:machine_base" }
 				type: "item"
-			}]
+			}
+			{
+				id: "79CF3AE2912B8224"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -43,7 +53,12 @@
 				id: "4284900636674F5B"
 				item: { count: 1, id: "rftoolsutility:screen" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C68D041004242185"
+				type: "checkmark"
+			}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
@@ -54,7 +69,12 @@
 				id: "590B54F3AD78FA31"
 				item: { count: 1, id: "rftoolsbase:smartwrench" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DB7DA7CF757226E6"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -65,7 +85,12 @@
 				id: "20F06E4F41CFDF2C"
 				item: { count: 1, id: "rftoolsbase:machine_frame" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F1FEF81881F4FB56"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
@@ -78,7 +103,12 @@
 				id: "20AB7ABDEA16A644"
 				item: { count: 1, id: "rftoolsutility:analog" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CD4F927847A4E7CB"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: -0.25d
 		}
@@ -91,7 +121,12 @@
 				id: "367881D19D270795"
 				item: { count: 1, id: "rftoolsutility:counter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7951AC8128EEC688"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.75d
 		}
@@ -104,7 +139,12 @@
 				id: "427423077D9365B6"
 				item: { count: 1, id: "rftoolsutility:digit" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D3491685E1DAF8EC"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -0.75d
 		}
@@ -117,7 +157,12 @@
 				id: "475C305756346A22"
 				item: { count: 1, id: "rftoolsutility:invchecker" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B30332A6227F93DE"
+				type: "checkmark"
+			}
+			]
 			x: 2.75d
 			y: -0.5d
 		}
@@ -130,7 +175,12 @@
 				id: "496AC1850892A93A"
 				item: { count: 1, id: "rftoolsutility:sensor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DAC389560A22AF1B"
+				type: "checkmark"
+			}
+			]
 			x: 2.75d
 			y: 0.5d
 		}
@@ -143,7 +193,12 @@
 				id: "3B5F7CE0DB08644C"
 				item: { count: 1, id: "rftoolsutility:sequencer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "66D93ABFC98A1DE4"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: 0.25d
 		}
@@ -156,7 +211,12 @@
 				id: "18CF916B55E73925"
 				item: { count: 1, id: "rftoolsutility:logic" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9401B3532701A264"
+				type: "checkmark"
+			}
+			]
 			x: 3.25d
 			y: 0.5d
 		}
@@ -169,7 +229,12 @@
 				id: "16D00C129507BAA8"
 				item: { count: 1, id: "rftoolsutility:timer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "189CB685B2053328"
+				type: "checkmark"
+			}
+			]
 			x: 3.5d
 			y: 0.25d
 		}
@@ -182,7 +247,12 @@
 				id: "2E44FA9A8A5D70F2"
 				item: { count: 1, id: "rftoolsutility:wire" }
 				type: "item"
-			}]
+			}
+			{
+				id: "380C802C0573CEB3"
+				type: "checkmark"
+			}
+			]
 			x: 3.5d
 			y: -0.25d
 		}
@@ -202,6 +272,11 @@
 					item: { count: 1, id: "rftoolsutility:redstone_receiver" }
 					type: "item"
 				}
+			
+			{
+				id: "EB34396D3EA26D31"
+				type: "checkmark"
+			}
 			]
 			x: 3.25d
 			y: -0.5d
@@ -213,7 +288,12 @@
 				id: "15CFE426B61CC4F4"
 				item: { count: 1, id: "rftoolsutility:screen_controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5AB57E262E5C7A54"
+				type: "checkmark"
+			}
+			]
 			x: 7.0d
 			y: -1.0d
 		}
@@ -226,7 +306,12 @@
 				id: "53C5AC6DC9DD039B"
 				item: { count: 1, id: "rftoolsutility:counter_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "342D842B6AEF063F"
+				type: "checkmark"
+			}
+			]
 			x: 6.375d
 			y: 1.125d
 		}
@@ -239,7 +324,12 @@
 				id: "209D1D49D2506B28"
 				item: { count: 1, id: "rftoolsutility:redstone_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "921C66050FF07617"
+				type: "checkmark"
+			}
+			]
 			x: 6.75d
 			y: 1.5d
 		}
@@ -252,7 +342,12 @@
 				id: "6B5C8A44006F7D81"
 				item: { count: 1, id: "rftoolsutility:button_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1B2D7E6235EDE3EC"
+				type: "checkmark"
+			}
+			]
 			x: 7.125d
 			y: 1.125d
 		}
@@ -265,7 +360,12 @@
 				id: "3D916B1900ADD416"
 				item: { count: 1, id: "rftoolsutility:machineinformation_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DB7A88D2378A93CB"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 2.25d
 		}
@@ -278,7 +378,12 @@
 				id: "1DADE65FDECCE8BD"
 				item: { count: 1, id: "rftoolsutility:fluid_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C9180796B8E398E5"
+				type: "checkmark"
+			}
+			]
 			x: 6.375d
 			y: 1.875d
 		}
@@ -291,7 +396,12 @@
 				id: "1ACF66A5E7DA6555"
 				item: { count: 1, id: "rftoolsutility:clock_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B7F0CF3C8AD9FE0E"
+				type: "checkmark"
+			}
+			]
 			x: 7.125d
 			y: 1.875d
 		}
@@ -304,7 +414,12 @@
 				id: "0CBEB26595E1AAA6"
 				item: { count: 1, id: "rftoolsutility:inventory_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DEA401A6D5E5A0BC"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 1.5d
 		}
@@ -317,7 +432,12 @@
 				id: "6FC459465B9E8ADB"
 				item: { count: 1, id: "rftoolsutility:energy_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F68CE0DDAE9285AC"
+				type: "checkmark"
+			}
+			]
 			x: 6.75d
 			y: 2.25d
 		}
@@ -330,7 +450,12 @@
 				id: "7F302B75571EF4DD"
 				item: { count: 1, id: "rftoolsutility:text_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B958A80582796B80"
+				type: "checkmark"
+			}
+			]
 			x: 7.5d
 			y: 2.25d
 		}
@@ -343,7 +468,12 @@
 				id: "32873300AB6507E5"
 				item: { count: 1, id: "rftoolsstorage:dump_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7553D6C8FFA602C3"
+				type: "checkmark"
+			}
+			]
 			x: 6.375d
 			y: 2.625d
 		}
@@ -356,7 +486,12 @@
 				id: "591F97F2EC3F94DC"
 				item: { count: 1, id: "rftoolsutility:inventoryplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "04F3BA7975C748B9"
+				type: "checkmark"
+			}
+			]
 			x: 7.0625d
 			y: 2.6875d
 		}
@@ -369,7 +504,12 @@
 				id: "276C6D86FC288309"
 				item: { count: 1, id: "rftoolsutility:fluidplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1E0D335E82C508B9"
+				type: "checkmark"
+			}
+			]
 			x: 7.5d
 			y: 1.5d
 		}
@@ -382,7 +522,12 @@
 				id: "1DCF109BEFB916F6"
 				item: { count: 1, id: "rftoolsutility:energyplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5247EE138F200A3B"
+				type: "checkmark"
+			}
+			]
 			x: 6.75d
 			y: 3.0d
 		}
@@ -393,7 +538,12 @@
 				id: "3BEC28F3B26F39DA"
 				item: { count: 1, id: "rftoolsbase:tablet" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BBF6B06BADE593AF"
+				type: "checkmark"
+			}
+			]
 			x: 8.25d
 			y: 0.0d
 		}
@@ -404,7 +554,12 @@
 				id: "248E9E15CF4E6DC7"
 				item: { count: 1, id: "rftoolsutility:screen_link" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D4AA7924E40390A8"
+				type: "checkmark"
+			}
+			]
 			x: 8.75d
 			y: -0.75d
 		}
@@ -415,7 +570,12 @@
 				id: "02AFDF0ABA7BECC1"
 				item: { count: 1, id: "rftoolsutility:redstone_information" }
 				type: "item"
-			}]
+			}
+			{
+				id: "576DF17C33A99341"
+				type: "checkmark"
+			}
+			]
 			x: 8.75d
 			y: 0.75d
 		}
@@ -426,7 +586,12 @@
 				id: "19334FBEBA7AD529"
 				item: { count: 1, id: "rftoolsbase:dimensionalshard" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B4F7B88A33A64D19"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: -2.5d
 		}
@@ -437,7 +602,12 @@
 				id: "2EE18C4DD63C1A89"
 				item: { count: 1, id: "rftoolsbase:infused_diamond" }
 				type: "item"
-			}]
+			}
+			{
+				id: "419B20F5C19DA07F"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: -3.25d
 		}
@@ -448,7 +618,12 @@
 				id: "3CA1B0BAF6DCAC02"
 				item: { count: 1, id: "rftoolsbase:infused_enderpearl" }
 				type: "item"
-			}]
+			}
+			{
+				id: "318C00393846CB72"
+				type: "checkmark"
+			}
+			]
 			x: 0.5d
 			y: -3.25d
 		}
@@ -459,7 +634,12 @@
 				id: "442FEF94C73F3100"
 				item: { count: 1, id: "rftoolspower:cell1" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3A3EAC91999F9A14"
+				type: "checkmark"
+			}
+			]
 			x: -5.25d
 			y: -0.75d
 		}
@@ -470,7 +650,12 @@
 				id: "5D77142E2D8F7825"
 				item: { count: 1, id: "rftoolspower:coalgenerator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "61C9D34E52D01CA7"
+				type: "checkmark"
+			}
+			]
 			x: -4.25d
 			y: -1.75d
 		}
@@ -481,7 +666,12 @@
 				id: "2A002DFE089DD4EA"
 				item: { count: 1, id: "rftoolspower:blazing_generator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "45D0E3CA39AA8DB6"
+				type: "checkmark"
+			}
+			]
 			x: -3.25d
 			y: -1.75d
 		}
@@ -500,6 +690,11 @@
 					item: { count: 1, id: "rftoolspower:powercell_card" }
 					type: "item"
 				}
+			
+			{
+				id: "40481633A076CD42"
+				type: "checkmark"
+			}
 			]
 			x: -2.5d
 			y: -0.75d
@@ -511,7 +706,12 @@
 				id: "3D4829632AB1D91F"
 				item: { count: 1, id: "rftoolsutility:crafter1" }
 				type: "item"
-			}]
+			}
+			{
+				id: "681FEE5C0C85FD38"
+				type: "checkmark"
+			}
+			]
 			x: -4.25d
 			y: 1.75d
 		}
@@ -522,7 +722,12 @@
 				id: "03F5D4AE2FCABE85"
 				item: { count: 1, id: "rftoolsbase:filter_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8A355FF5D0E61FA0"
+				type: "checkmark"
+			}
+			]
 			x: -4.25d
 			y: 2.75d
 		}
@@ -545,6 +750,11 @@
 					item: { count: 1, id: "rftoolsutility:dialing_device" }
 					type: "item"
 				}
+			
+			{
+				id: "31E184B1C2AF45A1"
+				type: "checkmark"
+			}
 			]
 			x: -3.25d
 			y: 1.75d
@@ -563,6 +773,11 @@
 					item: { count: 1, id: "rftoolsbuilder:blue_shield_template_block" }
 					type: "item"
 				}
+			
+			{
+				id: "391ED1C057146C98"
+				type: "checkmark"
+			}
 			]
 			x: -2.5d
 			y: 0.75d
@@ -574,7 +789,12 @@
 				id: "64BC677EFEA6F241"
 				item: { count: 1, id: "rftoolsbuilder:builder" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0DFE7643C84346C8"
+				type: "checkmark"
+			}
+			]
 			x: -6.0d
 			y: 0.0d
 		}
@@ -585,7 +805,12 @@
 				id: "096BBF20A5FD4A47"
 				item: { count: 1, id: "rftoolspower:blazing_infuser" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4DFA886FFA270B14"
+				type: "checkmark"
+			}
+			]
 			x: -5.25d
 			y: 0.75d
 		}
@@ -599,7 +824,12 @@
 				id: "48523C125C90A8C2"
 				item: { count: 1, id: "rftoolsbase:machine_infuser" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1BB23CE7FD151E34"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: -2.5d
 		}
@@ -611,7 +841,12 @@
 				id: "363DA9BB711B770B"
 				item: { count: 1, id: "rftoolsbuilder:shape_card_def" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B5BE1E38432661A3"
+				type: "checkmark"
+			}
+			]
 			x: -7.25d
 			y: 0.0d
 		}
@@ -623,7 +858,12 @@
 				id: "27745776F6456EC1"
 				item: { count: 1, id: "rftoolsbuilder:shape_card_quarry" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D5C68A39993BAFED"
+				type: "checkmark"
+			}
+			]
 			x: -7.75d
 			y: 2.25d
 		}
@@ -635,7 +875,12 @@
 				id: "61BF7A6CACAD34CA"
 				item: { count: 1, id: "rftoolsbuilder:shape_card_liquid" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B5725444D90FB6AD"
+				type: "checkmark"
+			}
+			]
 			x: -7.25d
 			y: 1.75d
 		}
@@ -647,7 +892,12 @@
 				id: "4998F0A9ED95E993"
 				item: { count: 1, id: "rftoolsbuilder:shape_card_pump" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3DC4336EB9BCD929"
+				type: "checkmark"
+			}
+			]
 			x: -6.75d
 			y: 2.25d
 		}
@@ -659,7 +909,12 @@
 				id: "09579F35F1C93294"
 				item: { count: 1, id: "rftoolsbuilder:shape_card_void" }
 				type: "item"
-			}]
+			}
+			{
+				id: "254C90730FA51671"
+				type: "checkmark"
+			}
+			]
 			x: -7.25d
 			y: 2.75d
 		}
@@ -670,7 +925,12 @@
 				id: "515B4780DFF493B7"
 				item: { count: 1, id: "rftoolsutility:environmental_controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1368457E47F01B28"
+				type: "checkmark"
+			}
+			]
 			x: 4.1875d
 			y: -1.5625d
 		}
@@ -682,7 +942,12 @@
 				id: "7A12BD413FFA53D4"
 				item: { count: 1, id: "rftoolsutility:module_template" }
 				type: "item"
-			}]
+			}
+			{
+				id: "43C13E6920328DCA"
+				type: "checkmark"
+			}
+			]
 			x: 5.1875d
 			y: -2.5625d
 		}
@@ -694,7 +959,12 @@
 				id: "3B48E763B23BADAF"
 				item: { count: 1, id: "rftoolsutility:moduleplus_template" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5C8B3CE3CA3D6796"
+				type: "checkmark"
+			}
+			]
 			x: 3.1875d
 			y: -2.5625d
 		}
@@ -705,7 +975,12 @@
 				id: "1D6A25A36D714F2F"
 				item: { count: 1, id: "rftoolsutility:glowing_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "166A2E79AC44E860"
+				type: "checkmark"
+			}
+			]
 			x: 4.1875d
 			y: -3.3125d
 		}
@@ -718,7 +993,12 @@
 				id: "6273409A5C784F48"
 				item: { count: 1, id: "rftoolsutility:haste_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5784C682A64810B4"
+				type: "checkmark"
+			}
+			]
 			x: 5.625d
 			y: -3.1875d
 		}
@@ -731,7 +1011,12 @@
 				id: "68A96BB8088C0B64"
 				item: { count: 1, id: "rftoolsutility:hasteplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E38B5438453326FB"
+				type: "checkmark"
+			}
+			]
 			x: 2.625d
 			y: -3.1875d
 		}
@@ -744,7 +1029,12 @@
 				id: "62FC26A47D6DEC6B"
 				item: { count: 1, id: "rftoolsutility:featherfalling_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6F4D2D066A94876D"
+				type: "checkmark"
+			}
+			]
 			x: 5.25d
 			y: -3.5625d
 		}
@@ -757,7 +1047,12 @@
 				id: "5EB57043B450585C"
 				item: { count: 1, id: "rftoolsutility:featherfallingplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "58BBDB8274010DD7"
+				type: "checkmark"
+			}
+			]
 			x: 2.25d
 			y: -3.5625d
 		}
@@ -770,7 +1065,12 @@
 				id: "27ACD7F7F3EE8E96"
 				item: { count: 1, id: "rftoolsutility:blindness_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3F397F10300F3BD1"
+				type: "checkmark"
+			}
+			]
 			x: 1.875d
 			y: -3.9375d
 		}
@@ -783,7 +1083,12 @@
 				id: "28D82432193BEFA3"
 				item: { count: 1, id: "rftoolsutility:flight_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D70F4FF93C59AC0B"
+				type: "checkmark"
+			}
+			]
 			x: 2.625d
 			y: -4.6875d
 		}
@@ -796,7 +1101,12 @@
 				id: "2FC7849F30514A6D"
 				item: { count: 1, id: "rftoolsutility:luck_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1F9C34A162CDD4DE"
+				type: "checkmark"
+			}
+			]
 			x: 4.875d
 			y: -3.9375d
 		}
@@ -809,7 +1119,12 @@
 				id: "53F371F2D4BEF610"
 				item: { count: 1, id: "rftoolsutility:nightvision_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "665B2C297F284AC3"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -3.5625d
 		}
@@ -822,7 +1137,12 @@
 				id: "3995C6B6C2360E65"
 				item: { count: 1, id: "rftoolsutility:noteleport_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3778FDC96A49F9B9"
+				type: "checkmark"
+			}
+			]
 			x: 2.25d
 			y: -4.3125d
 		}
@@ -835,7 +1155,12 @@
 				id: "4AC31B6DF2F7442C"
 				item: { count: 1, id: "rftoolsutility:peaceful_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F81C51610E15A683"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -3.5625d
 		}
@@ -848,7 +1173,12 @@
 				id: "4ADE22CF544681C4"
 				item: { count: 1, id: "rftoolsutility:poison_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0CF0307C0869C122"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -4.3125d
 		}
@@ -861,7 +1191,12 @@
 				id: "4B615EF80A20B5D0"
 				item: { count: 1, id: "rftoolsutility:regeneration_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "C09799966F46D302"
+				type: "checkmark"
+			}
+			]
 			x: 5.625d
 			y: -3.9375d
 		}
@@ -874,7 +1209,12 @@
 				id: "25A61EE079017BF6"
 				item: { count: 1, id: "rftoolsutility:regenerationplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "EB88C9A018858E54"
+				type: "checkmark"
+			}
+			]
 			x: 3.375d
 			y: -3.9375d
 		}
@@ -887,7 +1227,12 @@
 				id: "25D7A22B4FE5483C"
 				item: { count: 1, id: "rftoolsutility:saturation_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E94E770ED05AA20C"
+				type: "checkmark"
+			}
+			]
 			x: 5.25d
 			y: -4.3125d
 		}
@@ -900,7 +1245,12 @@
 				id: "298797CBC0CDE666"
 				item: { count: 1, id: "rftoolsutility:saturationplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5BB55BB0C54992DD"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -4.3125d
 		}
@@ -913,7 +1263,12 @@
 				id: "11F10841E9300C7F"
 				item: { count: 1, id: "rftoolsutility:slowness_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CCC09E623C8A0667"
+				type: "checkmark"
+			}
+			]
 			x: 5.625d
 			y: -4.6875d
 		}
@@ -926,7 +1281,12 @@
 				id: "146C3E8C12054223"
 				item: { count: 1, id: "rftoolsutility:speed_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A491C1170A436D26"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: -4.3125d
 		}
@@ -939,7 +1299,12 @@
 				id: "687C4A576322D894"
 				item: { count: 1, id: "rftoolsutility:speedplus_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "71BEC6E6749691E6"
+				type: "checkmark"
+			}
+			]
 			x: 3.75d
 			y: -4.3125d
 		}
@@ -952,7 +1317,12 @@
 				id: "07477E483B738D9F"
 				item: { count: 1, id: "rftoolsutility:waterbreathing_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "88CE9CFBC34B0F67"
+				type: "checkmark"
+			}
+			]
 			x: 2.625d
 			y: -3.9375d
 		}
@@ -965,7 +1335,12 @@
 				id: "7C6B048C8E37E300"
 				item: { count: 1, id: "rftoolsutility:weakness_module" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A82E6E840E1421C7"
+				type: "checkmark"
+			}
+			]
 			x: 6.375d
 			y: -3.9375d
 		}
@@ -976,7 +1351,12 @@
 				id: "77DACD314FAE856D"
 				item: { count: 1, id: "rftoolsutility:syringe" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B72D27320C12FE52"
+				type: "checkmark"
+			}
+			]
 			x: 5.1875d
 			y: -1.5625d
 		}
@@ -986,7 +1366,12 @@
 				id: "17D4005D76E67749"
 				item: { count: 1, id: "xnet:controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "98223BBF1DFEEFD7"
+				type: "checkmark"
+			}
+			]
 			x: -6.75d
 			y: -4.0d
 		}
@@ -997,7 +1382,12 @@
 				id: "12BD48F2CF3DBD01"
 				item: { count: 1, id: "xnet:facade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7F7BCCA737AD1009"
+				type: "checkmark"
+			}
+			]
 			x: -5.75d
 			y: -4.0d
 		}
@@ -1015,6 +1405,11 @@
 					item: { count: 1, id: "xnet:router" }
 					type: "item"
 				}
+			
+			{
+				id: "A2F40FC1A9E84D3E"
+				type: "checkmark"
+			}
 			]
 			x: -6.75d
 			y: -3.0d
@@ -1033,6 +1428,11 @@
 					item: { count: 1, id: "xnet:redstone_proxy_upd" }
 					type: "item"
 				}
+			
+			{
+				id: "763AF2DD32DBB3D0"
+				type: "checkmark"
+			}
 			]
 			x: -5.75d
 			y: -3.0d
@@ -1056,6 +1456,11 @@
 					item: { count: 1, id: "xnet:antenna_dish" }
 					type: "item"
 				}
+			
+			{
+				id: "321855F66F3B398A"
+				type: "checkmark"
+			}
 			]
 			x: -6.75d
 			y: -2.0d

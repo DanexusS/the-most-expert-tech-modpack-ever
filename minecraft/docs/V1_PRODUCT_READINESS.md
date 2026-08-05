@@ -8,31 +8,40 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a new re
 
 | Gate | Status |
 |---|---|
+| Ae2 Catalog | PASS |
 | Ae2 Core | PASS |
 | All Manual | PASS |
+| Ars Nouveau Catalog | PASS |
+| Avaritia Catalog | PASS |
 | Bypass closure | PASS |
 | Create Core | PASS |
+| Draconic Evolution Catalog | PASS |
+| Extended Crafting Catalog | PASS |
+| Hostile Neural Networks | PASS |
 | Ie Core | PASS |
 | Industrial Foregoing | PASS |
 | Mekanism Core | PASS |
 | Mi Core | PASS |
 | Mystical Agriculture | PASS |
+| Pneumaticcraft Catalog | PASS |
 | Powah | PASS |
 | Progression contract | PASS |
 | Quest | PASS |
 | Recipe dependency graph | PASS |
+| Rftools Catalog | PASS |
 | Selected gameplay guide coverage | PASS |
 | Simply Swords | PASS |
 | Storage Systems Core | PASS |
 | Theoretical balance | PASS |
+| Woot | PASS |
 
 ## Quest product specification
 
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 981 / 3318 | IN PROGRESS |
-| Single item-only ratio | 57.4% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 1689 / 3318 | IN PROGRESS |
+| Single item-only ratio | 38.0% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
