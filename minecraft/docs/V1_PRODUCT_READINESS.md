@@ -19,14 +19,15 @@
 | Applied Energistics 2 route | PASS |
 | Mekanism route | PASS |
 | Simply Swords catalogue | PASS |
+| Powah catalogue | PASS |
 
 ## Quest product specification
 
 | Requirement | Current | Status |
 |---|---:|---|
 | Total quests | 3318 / 5,000–6,000 | IN PROGRESS |
-| RU/EN descriptions | 684 / 3318 | IN PROGRESS |
-| Single item-only ratio | 65.9% / ≤30% | IN PROGRESS |
+| RU/EN descriptions | 757 / 3318 | IN PROGRESS |
+| Single item-only ratio | 63.7% / ≤30% | IN PROGRESS |
 
 ## Selected gameplay guide specification
 
