@@ -116,13 +116,14 @@ jobs:
           python minecraft/tools/tune_combat_profiles.py
           python minecraft/tools/theoretical_balance.py
 
-      - name: Audit progression, recipes, bypasses and guides
+      - name: Audit progression, recipes, bypasses, guides and performance
         run: |
           python minecraft/tools/quest_quality_audit.py
           python minecraft/tools/progression_contract_audit.py
           python minecraft/tools/recipe_dependency_audit.py
           python minecraft/tools/bypass_audit.py
           python minecraft/tools/mod_guide_coverage_audit.py
+          python minecraft/tools/performance_configuration_audit.py
 
       - name: Gate curated manuals and core routes
         run: |
