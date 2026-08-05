@@ -1,0 +1,89 @@
+{
+  "chapter_filename": "mob_grinding",
+  "chapter_id": "06D9548298DE2DCD",
+  "chapter_title_en": "Mob Grinding Utils — Bounded Mob Processing",
+  "chapter_title_ru": "Mob Grinding Utils — ограниченная переработка мобов",
+  "report_filename": "MOB_GRINDING_UTILS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Mob Grinding Utils Catalogue Quality Report",
+  "report_intro": "Every Mob Grinding Utils node must explain capture, spawning, killing, collection or waste handling and must preserve first-encounter and restricted-drop boundaries.",
+  "expected_quests": 25,
+  "minimum_description": 190,
+  "primary_namespace": "mob_grinding_utils",
+  "acceptance_namespace": "mob_grinding_utils_catalog_acceptance",
+  "checkpoint_name": "Mob Processing Checkpoint",
+  "title_suffix_en": "Farm Safety Acceptance",
+  "title_suffix_ru": "приёмка безопасности фермы",
+  "description_en": "{display} is a {role} in Mob Grinding Utils. A valid farm must be bounded, recoverable and restricted to creatures and drops that are legal after the corresponding first encounter.",
+  "description_ru": "{display} — {role} в Mob Grinding Utils. Корректная ферма должна быть ограниченной, восстанавливаемой и работать только с существами и лутом, разрешёнными после соответствующей первой встречи.",
+  "acceptance_en": "Acceptance: verify {focus}; run a controlled batch, record spawn rate, kill rate, power or consumables, collection capacity and shutdown behaviour, then close boss, unique-drop, reward, trade, EMC, Woot and neural-simulation bypasses.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните контролируемую партию, запишите скорость появления и убийства, энергию или расходники, ёмкость сбора и остановку, затем закройте обходы боссов и уникального лута через награды, торговлю, EMC, Woot и нейросимуляцию.",
+  "categories": [
+    {
+      "tokens": ["mob_swab", "gm_chicken_feed", "nutritious_chicken_feed", "spawn_egg"],
+      "role_en": "mob capture and spawn-egg conversion component",
+      "role_ru": "компонент захвата моба и получения яйца призыва",
+      "focus_en": "allowed target list, exact entity identity, one legitimate encounter, component preservation and a blacklist for bosses, quest entities and unique-drop creatures",
+      "focus_ru": "список разрешённых целей, точную сущность, одну честную встречу, сохранение компонентов и чёрный список боссов, квестовых существ и носителей уникального лута"
+    },
+    {
+      "tokens": ["dreadful_dirt", "delightful_dirt"],
+      "role_en": "area-based spawning substrate",
+      "role_ru": "площадочная среда появления мобов",
+      "focus_en": "spawn category, light and biome conditions, valid area, player safety, chunk activity and exclusion of stage-gated entities",
+      "focus_ru": "категорию появления, свет и биом, допустимую область, безопасность игрока, активность чанка и исключение этапных существ"
+    },
+    {
+      "tokens": ["mob_fan", "fan_upgrade", "width_upgrade", "height_upgrade", "distance_upgrade"],
+      "role_en": "mob movement and chamber-routing component",
+      "role_ru": "компонент перемещения мобов и маршрутизации камеры",
+      "focus_en": "effective range, width and height, entity collision, item interference, redstone control and safe stop after chamber blockage",
+      "focus_ru": "реальный радиус, ширину и высоту, столкновения сущностей, влияние на предметы, управление редстоуном и остановку после блокировки камеры"
+    },
+    {
+      "tokens": ["mob_masher", "masher_upgrade", "beheading_upgrade", "looting_upgrade", "sharpness_upgrade", "smite_upgrade", "bane_upgrade"],
+      "role_en": "automated kill and drop-modification component",
+      "role_ru": "компонент автоматического убийства и изменения лута",
+      "focus_en": "damage per cycle, target compatibility, upgrade stacking, looting and beheading limits, player-kill requirements and unique-drop blacklist",
+      "focus_ru": "урон за цикл, совместимость целей, сложение улучшений, пределы добычи и обезглавливания, требования убийства игроком и чёрный список уникального лута"
+    },
+    {
+      "tokens": ["absorption_hopper", "singularity_tank", "xp_tap", "solid_xp", "jumbo_tank"],
+      "role_en": "item, fluid or experience collection component",
+      "role_ru": "компонент сбора предметов, жидкости или опыта",
+      "focus_en": "collection radius, destination priority, item-fluid separation, full-output shutdown, experience ownership and restart recovery",
+      "focus_ru": "радиус сбора, приоритет назначения, разделение предметов и жидкости, остановку при полном выходе, владение опытом и восстановление после перезапуска"
+    },
+    {
+      "tokens": ["entity_conveyor", "conveyor"],
+      "role_en": "entity transport component",
+      "role_ru": "компонент транспортировки сущностей",
+      "focus_en": "movement direction, edge containment, baby and large-entity behaviour, item interaction and emergency disable control",
+      "focus_ru": "направление движения, удержание на краях, поведение детёнышей и крупных существ, влияние на предметы и аварийное отключение"
+    },
+    {
+      "tokens": ["spawner", "dragon_muffler", "mob_muffler"],
+      "role_en": "spawn-control or farm-safety component",
+      "role_ru": "компонент управления появлением или безопасностью фермы",
+      "focus_en": "affected entity or sound scope, ownership, range, chunk reload state and proof that suppression does not hide a failed or escaped farm",
+      "focus_ru": "область сущностей или звуков, владение, радиус, состояние после загрузки чанка и доказательство, что подавление не скрывает отказ или побег"
+    }
+  ],
+  "default": {
+    "role_en": "specialized mob-farm component",
+    "role_ru": "специализированный компонент мобофермы",
+    "focus_en": "its capture, spawning, movement, killing or collection role, bounded operating area, overflow response and restricted-target policy",
+    "focus_ru": "его роль в захвате, появлении, перемещении, убийстве или сборе, ограниченную рабочую область, реакцию на переполнение и политику запрещённых целей"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod mob-processing requirement",
+    "role_ru": "межмодовое требование переработки мобов",
+    "focus_en": "the external item's stage, legal source, data-bearing state, consumed or reusable behaviour and absence of a lower-stage substitute",
+    "focus_ru": "этап внешнего предмета, честный источник, состояние с данными, расходуемость или возврат и отсутствие более ранней замены"
+  },
+  "checkpoint": {
+    "role_en": "bounded mob-farm design checkpoint",
+    "role_ru": "контрольная точка ограниченной мобофермы",
+    "focus_en": "documented target allowlist, spawn and kill rate, collection capacity, escape prevention, shutdown, recovery and restricted-drop policy",
+    "focus_ru": "задокументированный белый список целей, скорость появления и убийства, ёмкость сбора, защиту от побега, остановку, восстановление и политику ограниченного лута"
+  }
+}
