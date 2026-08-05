@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "expert_progression",
+  "chapter_id": "301DF0A89B0E6061",
+  "chapter_title_en": "Expert Progression — Milestone Systems and Stage Contracts",
+  "chapter_title_ru": "Экспертная прогрессия — системы вех и этапные контракты",
+  "report_filename": "EXPERT_PROGRESSION_REVIEW_QUALITY_REPORT.md",
+  "report_title": "Expert Progression Review Quality Report",
+  "report_intro": "Every milestone must verify the operating capability represented by the staged component and must not award experience for merely possessing it.",
+  "expected_quests": 15,
+  "minimum_description": 225,
+  "primary_namespace": "kubejs",
+  "primary_namespaces": ["kubejs"],
+  "acceptance_namespace": "expert_progression_review_acceptance",
+  "checkpoint_name": "Expert Progression Contract Checkpoint",
+  "title_suffix_en": "Stage-Capability Acceptance",
+  "title_suffix_ru": "приёмка этапной возможности",
+  "description_en": "{display} is a {role} in the expert progression contract. The component represents a completed production capability and must be accepted through its prerequisite branches, authoritative recipe and operating proof—not by an XP reward or a standalone inventory check.",
+  "description_ru": "{display} — {role} в контракте экспертной прогрессии. Компонент представляет завершённую производственную возможность и должен приниматься через ветви предпосылок, авторитетный рецепт и рабочее доказательство, а не через награду опытом или отдельную проверку инвентаря.",
+  "acceptance_en": "Acceptance: verify {focus}; trace the complete prerequisite graph, reconcile one legal production batch, demonstrate the represented subsystem under load, measure its relevant rate or limit, test a controlled failure and recovery and confirm that rewards, alternative recipes, EMC, simulation, trade and duplication cannot grant the milestone early.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; проследите полный граф предпосылок, сверьте одну легальную производственную партию, продемонстрируйте представленную подсистему под нагрузкой, измерьте соответствующую скорость или предел, испытайте контролируемый отказ и восстановление и исключите раннее получение вехи через награды, альтернативные рецепты, EMC, симуляцию, торговлю и копирование.",
+  "categories": [
+    {
+      "tokens": ["field_engineering_kit", "power_regulation_unit", "materials_analysis_matrix"],
+      "role_en": "parallel early-workshop capability branch",
+      "role_ru": "параллельная ветвь возможностей ранней мастерской",
+      "focus_en": "its independent material route, workshop use, instrumentation or safety result, retained tools, replacement policy and convergence with the other two startup branches before the mechanical core",
+      "focus_ru": "независимый маршрут материалов, применение в мастерской, результат измерения или безопасности, сохранённые инструменты, правила замены и схождение с двумя другими стартовыми ветвями до механического ядра"
+    },
+    {
+      "tokens": ["mechanical_core", "kinetic_interface"],
+      "role_en": "mechanical and kinetic integration milestone",
+      "role_ru": "веха механической и кинетической интеграции",
+      "focus_en": "all startup branches, material and tool ancestry, source RPM and stress budget, transmission interface, useful mechanical load, overload response and restart recovery",
+      "focus_ru": "все стартовые ветви, происхождение материалов и инструментов, обороты источника и бюджет нагрузки, интерфейс передачи, полезную механическую нагрузку, реакцию на перегрузку и восстановление после перезапуска"
+    },
+    {
+      "tokens": ["industrial_frame", "precision_circuit"],
+      "role_en": "industrial construction or precision-manufacturing milestone",
+      "role_ru": "веха промышленного строительства или точного производства",
+      "focus_en": "structural and electronic prerequisite branches, dimensional seal when assigned, batch fabrication, machine integration, tolerance or quality checks, bounded buffers and proof of repeatable production",
+      "focus_ru": "структурные и электронные ветви предпосылок, назначенную печать измерения, изготовление партии, интеграцию машин, проверку допуска или качества, ограниченные буферы и доказательство повторяемого производства"
+    },
+    {
+      "tokens": ["chemical_processor", "bioindustrial_matrix"],
+      "role_en": "chemical or biological process-integration milestone",
+      "role_ru": "веха интеграции химических или биологических процессов",
+      "focus_en": "reagent and feedstock routes, machine and containment chain, conversion ratio, residue and waste, renewable inputs, parallel processing, shutdown and recovery after contamination or full output",
+      "focus_ru": "маршруты реагентов и сырья, цепочку машин и изоляции, коэффициент преобразования, остатки и отходы, возобновляемые входы, параллельную обработку, отключение и восстановление после загрязнения либо полного выхода"
+    },
+    {
+      "tokens": ["quantum_logic", "resonant_core", "antimatter_regulator"],
+      "role_en": "advanced logistics, resonant-energy or antimatter-control milestone",
+      "role_ru": "веха продвинутой логистики, резонансной энергии или контроля антиматерии",
+      "focus_en": "prior digital and power branches, network or matrix capacity, transfer and channel limits, radiation or containment interlocks, measured high-tier operation, emergency shutdown and restart without loss of protected material",
+      "focus_ru": "прошлые цифровые и энергетические ветви, ёмкость сети или матрицы, пределы передачи и каналов, радиационные или изоляционные блокировки, измеренную высокоуровневую работу, аварийное отключение и перезапуск без потери защищённого материала"
+    },
+    {
+      "tokens": ["dimensional_resonator", "draconic_lattice", "emc_containment_core", "cosmic", "creative"],
+      "role_en": "late dimensional, draconic, EMC, cosmic or creative convergence milestone",
+      "role_ru": "поздняя веха измеренного, драконического, EMC-, космического или creative-схождения",
+      "focus_en": "all assigned prior milestones and seals, authoritative multi-mod recipe, irreversible inputs, protected unique materials, blacklist coverage, bounded capability, failure recovery and proof that no required branch can be omitted",
+      "focus_ru": "все назначенные прошлые вехи и печати, авторитетный межмодовый рецепт, необратимые входы, защищённые уникальные материалы, покрытие чёрными списками, ограниченную возможность, восстановление после отказа и доказательство невозможности пропустить обязательную ветвь"
+    }
+  ],
+  "default": {
+    "role_en": "specialized expert-progression milestone component",
+    "role_ru": "специализированный компонент вехи экспертной прогрессии",
+    "focus_en": "assigned stage, prior milestones, authoritative recipe, material provenance, represented operating capability, measured limit, controlled failure, recovery and bypass closure",
+    "focus_ru": "назначенный этап, прошлые вехи, авторитетный рецепт, происхождение материалов, представленную рабочую возможность, измеренный предел, контролируемый отказ, восстановление и закрытие обходов"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite consumed by an expert milestone",
+    "role_ru": "межмодовая предпосылка, расходуемая экспертной вехой",
+    "focus_en": "its source progression, exact stage and count, irreversible consumption, blacklist coverage and proof that the milestone recipe cannot fabricate or refund the prerequisite",
+    "focus_ru": "его исходную прогрессию, точный этап и количество, необратимое потребление, покрытие чёрным списком и доказательство, что рецепт вехи не создаёт и не возвращает предпосылку"
+  },
+  "checkpoint": {
+    "role_en": "expert stage-contract review",
+    "role_ru": "проверка контракта экспертного этапа",
+    "focus_en": "stage objective, all prerequisite branches, authoritative path, represented subsystem, measured acceptance, failure recovery, bypass closure and readiness for the next milestone",
+    "focus_ru": "цель этапа, все ветви предпосылок, авторитетный путь, представленную подсистему, измеренную приёмку, восстановление после отказа, закрытие обходов и готовность к следующей вехе"
+  }
+}
