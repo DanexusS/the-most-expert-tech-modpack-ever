@@ -97,7 +97,7 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/create_full.json
           python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_2_full.json
 
-      - name: Generate curated manuals I-VII sequentially
+      - name: Generate curated manuals and stage project matrix
         run: |
           python minecraft/tools/generate_core_technology_manual.py
           python minecraft/tools/generate_core_technology_manual_2.py
@@ -106,6 +106,7 @@ jobs:
           python minecraft/tools/generate_core_technology_manual_5.py
           python minecraft/tools/generate_core_technology_manual_6.py
           python minecraft/tools/generate_core_technology_manual_7.py
+          python minecraft/tools/generate_stage_project_matrix.py
           python minecraft/tools/sync_curated_guide_registry.py
 
       - name: Tune and calculate theoretical balance
@@ -124,6 +125,7 @@ jobs:
       - name: Gate curated manuals and core routes
         run: |
           python minecraft/tools/all_manual_quality_gate.py
+          python minecraft/tools/stage_project_matrix_quality_gate.py
           python minecraft/tools/create_core_quality_gate.py
           python minecraft/tools/ie_core_quality_gate.py
           python minecraft/tools/mi_core_quality_gate.py
@@ -183,6 +185,7 @@ jobs:
             minecraft/docs/BYPASS_AUDIT_REPORT.md \
             minecraft/docs/MOD_GUIDE_COVERAGE_REPORT.md \
             minecraft/docs/ALL_MANUAL_QUALITY_REPORT.md \
+            minecraft/docs/STAGE_PROJECT_MATRIX_QUALITY_REPORT.md \
             minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
             minecraft/docs/IE_CORE_QUALITY_REPORT.md \
             minecraft/docs/MI_CORE_QUALITY_REPORT.md \
