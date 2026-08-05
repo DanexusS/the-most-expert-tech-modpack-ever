@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import generate_early_stage_workflow_expansions as workflow
 from advanced_stage_workflow_profiles import ADVANCED_STAGE_WORKFLOW_PROFILES
-from late_stage_workflow_profiles import LATE_STAGE_WORKFLOW_PROFILES
+from late_stage_workflow_profiles_corrected import LATE_STAGE_WORKFLOW_PROFILES
 from mid_stage_workflow_profiles import MID_STAGE_WORKFLOW_PROFILES
 
 
