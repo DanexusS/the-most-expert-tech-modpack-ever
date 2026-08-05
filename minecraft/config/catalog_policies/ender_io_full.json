@@ -1,0 +1,110 @@
+{
+  "chapter_filename": "ender_io",
+  "chapter_id": "27BF642963FBAF53",
+  "chapter_title_en": "Ender IO — Alloy, Conduit and Machine Engineering",
+  "chapter_title_ru": "Ender IO — инженерия сплавов, каналов и машин",
+  "report_filename": "ENDER_IO_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Ender IO Catalogue Quality Report",
+  "report_intro": "Every Ender IO node must explain its alloy, machine, conduit, capacitor, spawner or equipment role and include a practical acceptance check without random progression rewards.",
+  "expected_quests": 67,
+  "minimum_description": 190,
+  "primary_namespace": "enderio",
+  "acceptance_namespace": "enderio_catalog_acceptance",
+  "checkpoint_name": "Ender IO Factory Checkpoint",
+  "title_suffix_en": "Machine-System Acceptance",
+  "title_suffix_ru": "приёмка машинной системы",
+  "description_en": "{display} is a {role} in Ender IO. Its value comes from alloy processing, conduit topology, capacitor tier or machine configuration rather than from owning the block or item alone.",
+  "description_ru": "{display} — {role} в Ender IO. Его ценность определяется переработкой сплавов, топологией каналов, уровнем конденсатора или настройкой машины, а не одним владением предметом.",
+  "acceptance_en": "Acceptance: verify {focus}; complete a representative unattended cycle, record energy and material reserves, test a blocked output or disconnected conduit, and close loot, reward, trade, spawner, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой автономный цикл, запишите резервы энергии и материалов, испытайте полный выход или отключённый канал и закройте обходы через лут, награды, торговлю, спавнеры, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["alloy", "energetic", "vibrant", "conductive", "pulsating", "dark_steel", "end_steel", "soularium", "grains_of_infinity"],
+      "role_en": "Ender IO alloy or tier material",
+      "role_ru": "сплав или уровневый материал Ender IO",
+      "focus_en": "raw-material origin, alloy ratio, furnace mode, batch buffer, previous-tier dependency and repair use",
+      "focus_ru": "источник сырья, соотношение сплава, режим печи, буфер партии, зависимость от предыдущего уровня и ремонт"
+    },
+    {
+      "tokens": ["alloy_smelter", "sag_mill", "slice_and_splice", "soul_binder", "painting_machine", "vat"],
+      "role_en": "specialized processing machine",
+      "role_ru": "специализированная перерабатывающая машина",
+      "focus_en": "recipe isolation, grinding-ball or secondary input, capacitor effect, byproducts, output blocking and restart",
+      "focus_ru": "изоляцию рецепта, мелющий шар или дополнительный вход, влияние конденсатора, побочные продукты, блокировку выхода и перезапуск"
+    },
+    {
+      "tokens": ["capacitor", "capacitor_bank"],
+      "role_en": "machine-upgrade or energy-buffer component",
+      "role_ru": "компонент улучшения машины или энергобуфера",
+      "focus_en": "capacitor tier, machine compatibility, effective speed and energy multiplier, bank capacity and safe expansion",
+      "focus_ru": "уровень конденсатора, совместимость машины, реальный множитель скорости и энергии, ёмкость банка и безопасное расширение"
+    },
+    {
+      "tokens": ["conduit", "conduit_bundle", "extract_speed_upgrade", "filter"],
+      "role_en": "multi-service conduit or routing component",
+      "role_ru": "многосервисный канал или компонент маршрутизации",
+      "focus_en": "service type, insert-extract direction, filter exactness, channel priority, redstone mode and loop prevention",
+      "focus_ru": "тип сервиса, направление ввода-вывода, точность фильтра, приоритет канала, режим редстоуна и защиту от циклов"
+    },
+    {
+      "tokens": ["powered_spawner", "broken_spawner", "soul_vial", "soul_engine"],
+      "role_en": "mob identity or spawning component",
+      "role_ru": "компонент идентификации или спавна мобов",
+      "focus_en": "entity eligibility, soul acquisition, spawner conversion, power cost, blacklist policy and unique-drop exclusion",
+      "focus_ru": "допустимых существ, получение души, преобразование спавнера, энергозатраты, чёрный список и запрет уникального дропа"
+    },
+    {
+      "tokens": ["travel_anchor", "telepad", "staff_of_travelling", "coordinate_selector"],
+      "role_en": "travel and teleportation component",
+      "role_ru": "компонент путешествий и телепортации",
+      "focus_en": "destination ownership, range or dimensional rule, energy cost, safe arrival and recovery from a lost anchor",
+      "focus_ru": "владение назначением, радиус или межпространственное правило, энергозатраты, безопасное прибытие и восстановление потерянной точки"
+    },
+    {
+      "tokens": ["dark_steel_", "end_steel_", "glider", "elytra"],
+      "role_en": "upgradeable equipment capability",
+      "role_ru": "улучшаемая возможность снаряжения",
+      "focus_en": "upgrade slots, empowered state, movement or combat effect, energy demand, repair and interaction with other equipment systems",
+      "focus_ru": "слоты улучшений, усиленное состояние, эффект движения или боя, энергопотребление, ремонт и взаимодействие с другим снаряжением"
+    },
+    {
+      "tokens": ["photovoltaic", "stirling_generator", "combustion_generator"],
+      "role_en": "Ender IO power-generation component",
+      "role_ru": "компонент генерации энергии Ender IO",
+      "focus_en": "fuel or daylight condition, coolant or byproduct, output rate, buffer, shutdown and comparison with the current energy stage",
+      "focus_ru": "условие топлива или света, охлаждение или побочный продукт, выход, буфер, остановку и сравнение с текущим энергетическим этапом"
+    },
+    {
+      "tokens": ["tank", "vacuum_chest", "inventory_chest", "crafter"],
+      "role_en": "storage, collection or crafting component",
+      "role_ru": "компонент хранения, сбора или крафта",
+      "focus_en": "capacity, side configuration, filter or recipe lock, overflow, extraction route and safe item or fluid retention",
+      "focus_ru": "ёмкость, настройку сторон, фильтр или фиксацию рецепта, переполнение, маршрут извлечения и безопасное хранение"
+    },
+    {
+      "tokens": ["enchanter", "experience_rod", "xp_"],
+      "role_en": "experience or enchanting component",
+      "role_ru": "компонент опыта или зачарования",
+      "focus_en": "XP ownership, material cost, deterministic output, invalid enchantment handling and prevention of duplication or cheap transfer",
+      "focus_ru": "владение опытом, стоимость материалов, детерминированный выход, обработку неверных чар и защиту от копирования или дешёвого переноса"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Ender IO component",
+    "role_ru": "специализированный компонент Ender IO",
+    "focus_en": "its alloy, capacitor, side, conduit or inventory contract and a safe blocked or disconnected state",
+    "focus_ru": "его контракт сплава, конденсатора, стороны, канала или инвентаря и безопасное заблокированное или отключённое состояние"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod Ender IO integration component",
+    "role_ru": "межмодовый компонент интеграции Ender IO",
+    "focus_en": "the external mod's stage, data or inventory state, conversion direction and absence of a cheaper substitute",
+    "focus_ru": "этап внешнего мода, состояние данных или инвентаря, направление преобразования и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "Ender IO factory design checkpoint",
+    "role_ru": "контрольная точка проектирования фабрики Ender IO",
+    "focus_en": "documented alloy supply, capacitor tiers, conduit topology, machine buffers, failure isolation and restart procedure",
+    "focus_ru": "задокументированное снабжение сплавами, уровни конденсаторов, топологию каналов, буферы машин, изоляцию отказа и перезапуск"
+  }
+}
