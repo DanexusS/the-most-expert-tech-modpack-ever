@@ -69,7 +69,21 @@ const EXPERT_ASSEMBLY_COMPONENTS = [
   ['process_control_board', 'minecraft:item/comparator', 'rare'],
   ['parallel_machine_bus', 'minecraft:item/repeater', 'rare'],
   ['fluid_safety_block', 'minecraft:item/hopper', 'rare'],
-  ['maintenance_access_frame', 'minecraft:item/iron_trapdoor', 'rare']
+  ['maintenance_access_frame', 'minecraft:item/iron_trapdoor', 'rare'],
+
+  // Stages 9–12.
+  ['culture_support_matrix', 'minecraft:item/moss_block', 'rare'],
+  ['simulation_data_coupler', 'minecraft:item/ender_eye', 'rare'],
+  ['renewable_harvest_controller', 'minecraft:item/composter', 'rare'],
+  ['controller_channel_frame', 'minecraft:item/respawn_anchor', 'rare'],
+  ['crafting_cpu_scheduler', 'minecraft:item/recovery_compass', 'rare'],
+  ['quantum_link_stabilizer', 'minecraft:item/end_crystal', 'epic'],
+  ['nitro_regulation_array', 'minecraft:item/blaze_powder', 'epic'],
+  ['induction_transfer_manifold', 'minecraft:item/lightning_rod', 'epic'],
+  ['resonant_distribution_frame', 'minecraft:item/nether_star', 'epic'],
+  ['radiation_interlock_module', 'minecraft:item/sculk_sensor', 'epic'],
+  ['sps_pulse_controller', 'minecraft:item/beacon', 'epic'],
+  ['antimatter_containment_cell', 'minecraft:item/dragon_breath', 'epic']
 ]
 
 const DIVINE_PROGRESSION_SEALS = [
