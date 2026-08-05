@@ -1,0 +1,118 @@
+{
+  "chapter_filename": "rftools",
+  "chapter_id": "39B827D6A1170163",
+  "chapter_title_en": "RFTools — Modular Infrastructure Engineering",
+  "chapter_title_ru": "RFTools — инженерия модульной инфраструктуры",
+  "report_filename": "RFTOOLS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "RFTools Catalogue Quality Report",
+  "report_intro": "Every RFTools ecosystem node must explain its builder, storage, power, teleportation, shielding, screen or control role across the RFTools namespace family.",
+  "expected_quests": 81,
+  "minimum_description": 190,
+  "primary_namespace": "rftoolsbase",
+  "primary_namespace_prefixes": ["rftools"],
+  "acceptance_namespace": "rftools_catalog_acceptance",
+  "checkpoint_name": "RFTools Infrastructure Checkpoint",
+  "title_suffix_en": "Infrastructure Acceptance",
+  "title_suffix_ru": "приёмка инфраструктуры",
+  "description_en": "{display} is a {role} in the RFTools ecosystem. Its capability depends on modules, cards, power, area ownership and network configuration rather than on the block alone.",
+  "description_ru": "{display} — {role} в экосистеме RFTools. Его возможность зависит от модулей, карт, энергии, владения областью и настройки сети, а не от одного блока.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative automated cycle, record power and storage demand, test invalid configuration or a full destination, and close reward, loot, trade, quarry, duplication and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой автоматический цикл, запишите спрос энергии и хранения, испытайте неверную настройку или полный выход и закройте обходы через награды, лут, торговлю, карьер, копирование и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["machine_frame", "dimensionalshard", "infused_"],
+      "role_en": "RFTools structural or infused material",
+      "role_ru": "конструкционный или насыщенный материал RFTools",
+      "focus_en": "material source, infusion percentage, previous-tier component, batch production and prevention of tag substitution",
+      "focus_ru": "источник материала, процент насыщения, компонент предыдущего уровня, производство партии и запрет подмены тегом"
+    },
+    {
+      "tokens": ["builder", "shape_card", "quarry", "space_chamber"],
+      "role_en": "builder or area-operation component",
+      "role_ru": "компонент строителя или работы с областью",
+      "focus_en": "shape-card bounds, chunk ownership, filter rules, energy per operation, protected blocks and output collection",
+      "focus_ru": "границы карты формы, владение чанками, фильтры, энергию операции, защищённые блоки и сбор выхода"
+    },
+    {
+      "tokens": ["storage_scanner", "storage_module", "modular_storage", "storage_tablet", "remote_storage"],
+      "role_en": "modular or remote storage component",
+      "role_ru": "компонент модульного или удалённого хранения",
+      "focus_en": "scan radius, module capacity, access permissions, extraction route, unloaded chunks and overflow behaviour",
+      "focus_ru": "радиус сканирования, ёмкость модуля, права доступа, маршрут извлечения, выгруженные чанки и переполнение"
+    },
+    {
+      "tokens": ["crafter", "crafting_card"],
+      "role_en": "multi-tier autocrafting machine",
+      "role_ru": "многоуровневая машина автокрафта",
+      "focus_en": "recipe slot isolation, ingredient retention, internal buffer, operation order, byproducts and restart after blockage",
+      "focus_ru": "изоляцию рецептов, сохранение ингредиентов, внутренний буфер, порядок операций, побочные продукты и перезапуск"
+    },
+    {
+      "tokens": ["environmental_controller", "environmental_module"],
+      "role_en": "area-effect environmental system",
+      "role_ru": "система эффектов области",
+      "focus_en": "radius, module cost, energy demand, player or mob targeting, overlapping fields and server-side permission",
+      "focus_ru": "радиус, стоимость модуля, энергопотребление, выбор игроков или мобов, перекрытие полей и серверные разрешения"
+    },
+    {
+      "tokens": ["shield_projector", "shield_template", "shield_block"],
+      "role_en": "configurable shield-system component",
+      "role_ru": "компонент настраиваемой системы щита",
+      "focus_en": "template capture, block count, damage or solidity mode, power reserve, ownership and emergency access",
+      "focus_ru": "захват шаблона, число блоков, режим урона или твёрдости, резерв энергии, владение и аварийный доступ"
+    },
+    {
+      "tokens": ["matter_transmitter", "matter_receiver", "dialing_device", "destination_analyzer", "charged_porter"],
+      "role_en": "matter teleportation network component",
+      "role_ru": "компонент сети телепортации материи",
+      "focus_en": "destination ownership, transmitter-receiver pairing, energy cost, safety check, unloaded destination and recovery from failed travel",
+      "focus_ru": "владение назначением, связь передатчика и приёмника, энергозатраты, проверку безопасности, выгруженную цель и восстановление сбоя"
+    },
+    {
+      "tokens": ["powercell", "power_cell", "power_relay", "coal_generator", "endergenic"],
+      "role_en": "RFTools power generation, transfer or storage component",
+      "role_ru": "компонент генерации, передачи или хранения энергии RFTools",
+      "focus_en": "capacity, transfer limit, channel ownership, generator fuel, reserve policy and cross-base drain isolation",
+      "focus_ru": "ёмкость, предел передачи, владение каналом, топливо генератора, резерв и изоляцию потребления другой базы"
+    },
+    {
+      "tokens": ["screen", "screen_module"],
+      "role_en": "monitoring and display component",
+      "role_ru": "компонент мониторинга и отображения",
+      "focus_en": "module source, displayed value, refresh cost, range, stale-data indication and diagnostic usefulness",
+      "focus_ru": "источник модуля, отображаемое значение, стоимость обновления, радиус, отметку устаревших данных и пользу диагностики"
+    },
+    {
+      "tokens": ["spawner", "syringe"],
+      "role_en": "mob-spawning or identity component",
+      "role_ru": "компонент спавна или идентификации мобов",
+      "focus_en": "entity eligibility, syringe acquisition, matter or power cost, blacklist policy, unique-drop exclusion and shutdown",
+      "focus_ru": "допустимых существ, получение шприца, расход материи или энергии, чёрный список, запрет уникального дропа и остановку"
+    },
+    {
+      "tokens": ["sensor", "sequencer", "timer", "counter", "logic", "redstone"],
+      "role_en": "redstone control or sequencing component",
+      "role_ru": "компонент редстоун-контроля или последовательности",
+      "focus_en": "input condition, pulse or sequence timing, output ownership, reset state and behaviour after chunk reload",
+      "focus_ru": "условие входа, тайминг импульса или последовательности, владение выходом, сброс и поведение после перезагрузки чанка"
+    }
+  ],
+  "default": {
+    "role_en": "specialized RFTools ecosystem component",
+    "role_ru": "специализированный компонент экосистемы RFTools",
+    "focus_en": "its module or card configuration, power contract, area or network ownership and a safe invalid or disconnected state",
+    "focus_ru": "его настройку модулей или карт, энергоконтракт, владение областью или сетью и безопасное неверное или отключённое состояние"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod RFTools integration component",
+    "role_ru": "межмодовый компонент интеграции RFTools",
+    "focus_en": "the external stage, data or inventory ownership, conversion direction and absence of a cheaper substitute",
+    "focus_ru": "внешний этап, владение данными или инвентарём, направление преобразования и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "modular-infrastructure design checkpoint",
+    "role_ru": "контрольная точка проектирования модульной инфраструктуры",
+    "focus_en": "documented power budget, cards and modules, area ownership, failure containment and restart procedure",
+    "focus_ru": "задокументированный энергобюджет, карты и модули, владение областью, локализацию отказа и перезапуск"
+  }
+}
