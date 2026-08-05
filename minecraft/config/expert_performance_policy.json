@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "ftb_quests": {
+    "minimum_detection_delay_ticks": 20,
+    "maximum_grid_scale": 0.5,
+    "verify_on_load": false,
+    "drop_loot_crates": false
+  },
+  "logging": {
+    "coroutil_routine_logging": false,
+    "coroutil_debug_logging": false,
+    "coroutil_error_logging": true
+  },
+  "combat_scaling": {
+    "require_profile_cache": true,
+    "require_stable_modifier_ids": true,
+    "require_registry_guard": true
+  },
+  "repository_hygiene": {
+    "forbidden_tracked_paths": [
+      "command_history.txt",
+      "ESM/",
+      "logs/",
+      "crash-reports/",
+      "local/",
+      "saves/"
+    ],
+    "required_gitignore_entries": [
+      "/command_history.txt",
+      "/ESM/",
+      "/logs/",
+      "/crash-reports/",
+      "/local/",
+      "/saves/"
+    ]
+  },
+  "factory_guidance": {
+    "require_measured_baseline": true,
+    "require_idle_shutdown": true,
+    "require_chunk_reload_recovery": true,
+    "require_bounded_buffers": true
+  }
+}
