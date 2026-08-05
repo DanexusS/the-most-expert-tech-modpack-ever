@@ -1,0 +1,145 @@
+{
+  "slug": "earth_mobs",
+  "lessons": [
+    {
+      "slug": "overworld_ecology",
+      "icon": "minecraft:grass_block",
+      "title_en": "Overworld Ecology and Encounter Mapping",
+      "title_ru": "Экология Верхнего мира и карта встреч",
+      "desc_en": [
+        "Earth Mobs distributes Minecraft Earth-inspired creatures across ordinary Overworld biomes, so the first task is learning habitat and behavior rather than entering a separate dimension.",
+        "Record where passive, neutral and hostile variants appear, preserve natural spawn conditions, and do not use generic capture tools to replace the first legitimate encounter."
+      ],
+      "desc_ru": [
+        "Earth Mobs распределяет существ из Minecraft Earth по обычным биомам Верхнего мира, поэтому сначала нужно понять среду и поведение, а не искать отдельное измерение.",
+        "Записывайте места появления мирных, нейтральных и враждебных вариантов, сохраняйте естественные условия и не заменяйте первую честную встречу универсальным захватом."
+      ]
+    },
+    {
+      "slug": "passive_variants",
+      "icon": "minecraft:cow_spawn_egg",
+      "title_en": "Passive Variants and Useful Husbandry",
+      "title_ru": "Мирные варианты и полезное разведение",
+      "desc_en": [
+        "Decorative or productive animal variants should enrich farms without becoming an unexplained source of late materials or bypassing another mod's breeding progression.",
+        "Separate cosmetic value from resource value, document breeding conditions and drops, and cap any output that competes with gated agriculture or industrial processing."
+      ],
+      "desc_ru": [
+        "Декоративные и продуктивные варианты животных должны расширять фермы, но не становиться необъяснимым источником поздних материалов и не обходить разведение других модов.",
+        "Разделяйте внешний вид и ресурсную ценность, документируйте условия размножения и дроп, ограничивайте выходы, конкурирующие с закрытым сельским хозяйством или производством."
+      ]
+    },
+    {
+      "slug": "hostile_variants",
+      "icon": "minecraft:zombie_spawn_egg",
+      "title_en": "Hostile Variants and Threat Recognition",
+      "title_ru": "Враждебные варианты и распознавание угроз",
+      "desc_en": [
+        "Earth Mobs adds hostile variants whose movement, ranged pressure or special attacks differ from familiar vanilla enemies even when their silhouette appears recognizable.",
+        "Observe one full attack cycle, classify the threat before committing, maintain an open retreat route, and tune health and damage without hiding the distinguishing mechanic."
+      ],
+      "desc_ru": [
+        "Earth Mobs добавляет враждебные варианты, чьи движения, дальнее давление и особые атаки отличаются от ванильных противников при внешне знакомом силуэте.",
+        "Наблюдайте полный цикл атак, определяйте угрозу до вступления в бой, сохраняйте путь отхода и усиливайте характеристики без сокрытия отличительной механики."
+      ]
+    },
+    {
+      "slug": "boulderer",
+      "icon": "minecraft:stone",
+      "title_en": "Boulderer: Vertical Pressure and Terrain",
+      "title_ru": "Boulderer: вертикальное давление и рельеф",
+      "desc_en": [
+        "The climbing Boulderer changes the safety assumptions of cliffs, walls and elevated firing positions because vertical terrain no longer guarantees separation.",
+        "Test approach routes on natural terrain, avoid one-block geometry exploits, protect recovery storage outside the combat area, and keep the encounter readable after scaling."
+      ],
+      "desc_ru": [
+        "Карабкающийся Boulderer меняет безопасность склонов, стен и высотных позиций, потому что вертикальный рельеф больше не гарантирует дистанцию.",
+        "Проверяйте маршруты на естественном рельефе, не используйте эксплойты узкой геометрии, храните восстановительный комплект вне боя и сохраняйте читаемость после усиления."
+      ]
+    },
+    {
+      "slug": "viler_witch",
+      "icon": "minecraft:potion",
+      "title_en": "Viler Witch: Effects, Adds and Area Control",
+      "title_ru": "Viler Witch: эффекты, призывы и контроль области",
+      "desc_en": [
+        "The Viler Witch represents an encounter where status effects and battlefield control can be more dangerous than direct damage, especially when ordinary mobs join the fight.",
+        "Carry effect removal and ranged options, isolate supporting enemies, mark safe recovery distance, and prevent automated farms from trivializing distinctive drops."
+      ],
+      "desc_ru": [
+        "Viler Witch представляет бой, где эффекты и контроль поля опаснее прямого урона, особенно когда к сражению присоединяются обычные мобы.",
+        "Берите снятие эффектов и дальние средства, изолируйте поддержку, отмечайте безопасную дистанцию восстановления и не позволяйте фермам обесценивать уникальный дроп."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "minecraft:chest",
+      "title_en": "Drop Classification and Progression Value",
+      "title_ru": "Классификация дропа и ценность для прогрессии",
+      "desc_en": [
+        "Every new mob drop must be classified as cosmetic, common utility, renewable material or capability-defining reward before it can enter storage, trade and automation systems.",
+        "Assign a stage, set EMC and simulation policy explicitly, remove inappropriate quest rewards, and keep unique combat rewards tied to a legitimate encounter."
+      ],
+      "desc_ru": [
+        "Каждый новый дроп нужно классифицировать как косметику, обычную утилиту, возобновляемый материал или награду, меняющую возможности, до подключения хранения и автоматизации.",
+        "Назначайте этап, явно задавайте политику EMC и симуляции, удаляйте неподходящие награды и привязывайте уникальный боевой лут к честной встрече."
+      ]
+    },
+    {
+      "slug": "capture",
+      "icon": "minecraft:lead",
+      "title_en": "Capture, Transport and Spawn Controls",
+      "title_ru": "Захват, перевозка и контроль спавна",
+      "desc_en": [
+        "Mob transport tools can turn a rare ecological encounter into unlimited production or place a dangerous creature inside geometry where its behavior no longer functions.",
+        "Allow transport only after first documentation, blacklist elite or unique entities from duplication paths, and require safe enclosures that preserve intended movement."
+      ],
+      "desc_ru": [
+        "Средства перевозки могут превратить редкую встречу в бесконечное производство или поместить опасное существо в геометрию, где его поведение перестаёт работать.",
+        "Разрешайте перенос после первого изучения, запрещайте элиту и уникальных существ в путях копирования и требуйте безопасные вольеры с сохранением движения."
+      ]
+    },
+    {
+      "slug": "farm_fairness",
+      "icon": "minecraft:hopper",
+      "title_en": "Fair Farms and Output Boundaries",
+      "title_ru": "Справедливые фермы и границы выхода",
+      "desc_en": [
+        "Ordinary Earth Mobs resources may become renewable after review, but a farm must not outperform dedicated progression machines or generate unique encounter rewards unattended.",
+        "Measure output per hour, include spawn and transport cost, stop cleanly when storage fills, and blacklist any reward that grants a new capability or stage permission."
+      ],
+      "desc_ru": [
+        "Обычные ресурсы Earth Mobs можно сделать возобновляемыми после проверки, но ферма не должна превосходить профильные машины или автономно выдавать уникальные награды.",
+        "Измеряйте выход в час, учитывайте стоимость спавна и перевозки, останавливайте линию при заполнении и запрещайте награды, открывающие возможности или этап."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "minecraft:spyglass",
+      "title_en": "Encounter Diagnostics and Scaling Review",
+      "title_ru": "Диагностика встреч и проверка усиления",
+      "desc_en": [
+        "When an encounter feels unfair, separate spawn frequency, terrain, status effects, group size, health, armor and damage instead of changing a single global multiplier.",
+        "Reproduce the same scenario, change one variable, compare theoretical and observed outcomes, and preserve the mob's recognizable behavior as the primary challenge."
+      ],
+      "desc_ru": [
+        "Если встреча кажется несправедливой, разделяйте частоту спавна, рельеф, эффекты, размер группы, здоровье, броню и урон вместо изменения одного общего множителя.",
+        "Повторяйте одинаковый сценарий, меняйте одну переменную, сравнивайте расчёт и наблюдение и сохраняйте узнаваемое поведение главным источником сложности."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "minecraft:map",
+      "title_en": "Project: Earth Mobs Field Catalogue",
+      "title_ru": "Проект: полевой каталог Earth Mobs",
+      "desc_en": [
+        "Document representative passive, neutral and hostile Earth Mobs encounters with habitat, behavior, drops, stage value, capture policy and a safe recovery procedure.",
+        "The project passes when every sampled output has an explicit automation rule and no unique or elite reward can be obtained through an unattended generic system."
+      ],
+      "desc_ru": [
+        "Задокументируйте мирную, нейтральную и враждебную встречу Earth Mobs: среду, поведение, дроп, этап, правила захвата и безопасное восстановление.",
+        "Проект принят, когда каждый исследованный выход имеет явное правило автоматизации, а уникальную или элитную награду нельзя получить автономной универсальной системой."
+      ]
+    }
+  ]
+}
