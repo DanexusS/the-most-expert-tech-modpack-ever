@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "create_connected",
+  "chapter_id": "4206A58542561BF0",
+  "chapter_title_en": "Create Connected — Routing, Switching and Safe Transmission",
+  "chapter_title_ru": "Create Connected — маршрутизация, переключение и безопасная передача",
+  "report_filename": "CREATE_CONNECTED_ROUTING_QUALITY_REPORT.md",
+  "report_title": "Create Connected Routing Quality Report",
+  "report_intro": "Every Create Connected node must demonstrate a routing, switching, transmission or control use case under load instead of rewarding the vanilla Create component it extends.",
+  "expected_quests": 26,
+  "minimum_description": 210,
+  "primary_namespace": "create_connected",
+  "primary_namespaces": ["create_connected", "create"],
+  "acceptance_namespace": "create_connected_routing_acceptance",
+  "checkpoint_name": "Kinetic Routing Checkpoint",
+  "title_suffix_en": "Routing-System Acceptance",
+  "title_suffix_ru": "приёмка системы маршрутизации",
+  "description_en": "{display} is a {role} in the Create Connected branch. Its value is proven only when it routes, switches, isolates or transmits a working kinetic or logistic system under representative load—not when the quest returns the base Create block or experience.",
+  "description_ru": "{display} — {role} ветви Create Connected. Его ценность подтверждается только при маршрутизации, переключении, изоляции или передаче работающей кинетической либо логистической системы под показательной нагрузкой, а не возвратом базового блока Create или опыта из квеста.",
+  "acceptance_en": "Acceptance: verify {focus}; document the source and destination, run a representative load, switch or reroute it while active, measure stress or item-flow behavior, test a jammed or disconnected state, recover without manual item loss and confirm that rewards or duplicated base components cannot bypass construction cost.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте источник и назначение, запустите показательную нагрузку, переключите или перенаправьте её во время работы, измерьте нагрузку или поток предметов, испытайте заклинивание либо отключение, восстановитесь без ручной потери предметов и исключите обход стоимости строительства через награды или копирование базовых компонентов.",
+  "categories": [
+    {
+      "tokens": ["gearbox", "six_way", "parallel", "vertical_parallel"],
+      "role_en": "multi-direction kinetic routing component",
+      "role_ru": "компонент мног方向ной кинетической маршрутизации",
+      "focus_en": "input shaft direction, all active outputs, rotation parity, total stress distribution, inaccessible-face maintenance, overload behavior and comparison with an equivalent vanilla gearbox arrangement",
+      "focus_ru": "направление входного вала, все активные выходы, соответствие вращения, распределение общей нагрузки, обслуживание недоступных граней, поведение при перегрузке и сравнение с эквивалентной схемой обычных редукторов"
+    },
+    {
+      "tokens": ["clutch", "gearshift", "brake", "inverted"],
+      "role_en": "kinetic switching, reversing or braking device",
+      "role_ru": "устройство переключения, реверса или торможения кинетики",
+      "focus_en": "control-signal truth table, transition under load, reversal timing, stored-motion risk, default state after restart, emergency isolation and prevention of rapid switching causing item or stress duplication",
+      "focus_ru": "таблицу состояний управляющего сигнала, переход под нагрузкой, время реверса, риск накопленного движения, состояние после перезапуска, аварийную изоляцию и запрет копирования предметов или нагрузки быстрым переключением"
+    },
+    {
+      "tokens": ["crank_wheel", "hand_crank", "fan"],
+      "role_en": "manual or auxiliary kinetic input",
+      "role_ru": "ручной или вспомогательный кинетический ввод",
+      "focus_en": "operator position, generated speed and stress, duration, safe attachment, inability to sustain industrial automation and a controlled handoff to the normal stage power source",
+      "focus_ru": "положение оператора, создаваемые скорость и нагрузку, длительность, безопасное подключение, невозможность питать промышленную автоматизацию и контролируемую передачу обычному этапному источнику"
+    },
+    {
+      "tokens": ["bridge", "belt", "chain", "conveyor", "funnel", "chute", "package"],
+      "role_en": "item-transfer or logistics-routing component",
+      "role_ru": "компонент передачи предметов или логистической маршрутизации",
+      "focus_en": "source and destination inventories, transfer rate, filtering, backpressure, full-output behavior, dropped-item prevention, chunk-border recovery and restart reconciliation",
+      "focus_ru": "исходный и целевой инвентари, скорость передачи, фильтрацию, обратное давление, поведение при полном выходе, предотвращение выпадения предметов, восстановление на границе чанков и сверку после перезапуска"
+    },
+    {
+      "tokens": ["control", "signal", "copycat", "encased", "fanout"],
+      "role_en": "control, integration or compact-construction component",
+      "role_ru": "компонент управления, интеграции или компактного строительства",
+      "focus_en": "control scope, visual state, redstone interaction, maintenance access, protected-block behavior, failure visibility and proof that compact construction preserves the same stress and resource cost",
+      "focus_ru": "область управления, визуальное состояние, взаимодействие с редстоуном, доступ для обслуживания, поведение защищённых блоков, видимость отказа и сохранение той же нагрузки и стоимости ресурсов при компактной сборке"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Create Connected routing component",
+    "role_ru": "специализированный компонент маршрутизации Create Connected",
+    "focus_en": "input and output topology, stress or transfer limit, control state, failure mode, recovery, maintenance and comparison with a stage-appropriate vanilla Create solution",
+    "focus_ru": "топологию входов и выходов, предел нагрузки или передачи, состояние управления, режим отказа, восстановление, обслуживание и сравнение с этапным решением обычного Create"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite or endpoint for Create Connected routing",
+    "role_ru": "межмодовая предпосылка или конечная точка маршрутизации Create Connected",
+    "focus_en": "its legal source, interface contract, throughput, buffer, shutdown and confirmation that the connection cannot bypass the source mod's machine or progression requirements",
+    "focus_ru": "его честный источник, контракт интерфейса, пропускную способность, буфер, отключение и отсутствие обхода машины или прогрессии исходного мода"
+  },
+  "checkpoint": {
+    "role_en": "kinetic and logistic routing-design checkpoint",
+    "role_ru": "контрольная точка проектирования кинетической и логистической маршрутизации",
+    "focus_en": "sources, destinations, rotation, stress, control truth table, item backpressure, emergency isolation, maintenance access and restart recovery",
+    "focus_ru": "источники, назначения, вращение, нагрузку, таблицу управления, обратное давление предметов, аварийную изоляцию, доступ обслуживания и восстановление после перезапуска"
+  }
+}
