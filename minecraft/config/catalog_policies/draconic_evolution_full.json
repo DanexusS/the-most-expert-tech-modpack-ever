@@ -1,0 +1,117 @@
+{
+  "chapter_filename": "draconic_evolution",
+  "chapter_id": "392E2667267FD1F3",
+  "chapter_title_en": "Draconic Evolution — High-Energy Engineering",
+  "chapter_title_ru": "Draconic Evolution — высокоэнергетическая инженерия",
+  "report_filename": "DRACONIC_EVOLUTION_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Draconic Evolution Catalogue Quality Report",
+  "report_intro": "Every Draconic Evolution node must explain its energy, fusion-crafting, module, reactor or Chaos role and must not distribute late capabilities as quest rewards.",
+  "expected_quests": 111,
+  "minimum_description": 190,
+  "primary_namespace": "draconicevolution",
+  "acceptance_namespace": "draconic_catalog_acceptance",
+  "checkpoint_name": "Draconic Engineering Checkpoint",
+  "title_suffix_en": "High-Energy Acceptance",
+  "title_suffix_ru": "высокоэнергетическая приёмка",
+  "description_en": "{display} is a {role} in Draconic Evolution. Its true progression value includes energy scale, modules, special abilities and infrastructure requirements rather than only the visible crafting ingredients.",
+  "description_ru": "{display} — {role} в Draconic Evolution. Реальная ценность для прогрессии включает масштаб энергии, модули, особые способности и инфраструктуру, а не только видимые ингредиенты.",
+  "acceptance_en": "Acceptance: verify {focus}; test the complete charged or operating state, record energy and material reserves, define a recoverable failure procedure, and close loot, reward, trade, EMC, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; испытайте полностью заряженное или рабочее состояние, запишите резервы энергии и материалов, задайте восстановление после отказа и закройте обходы через лут, награды, торговлю, EMC, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["draconium", "draconic_core", "wyvern_core", "awakened_core", "chaotic_core"],
+      "role_en": "tier-defining draconic material or core",
+      "role_ru": "драконический материал или ядро, определяющее уровень",
+      "focus_en": "material origin, previous-tier core, awakening or Chaos prerequisite, batch size and reusable progression permissions",
+      "focus_ru": "источник материала, ядро предыдущего уровня, условие пробуждения или Chaos, размер партии и многоразовые допуски"
+    },
+    {
+      "tokens": ["fusion_crafting", "crafting_injector", "fusion_craft"],
+      "role_en": "fusion-crafting infrastructure component",
+      "role_ru": "компонент инфраструктуры fusion crafting",
+      "focus_en": "injector tier, symmetric placement, recipe energy, ingredient retention and restart after interrupted charging",
+      "focus_ru": "уровень инжекторов, симметрию размещения, энергию рецепта, сохранение ингредиентов и перезапуск после прерывания"
+    },
+    {
+      "tokens": ["energy_core", "energy_pylon", "core_stabilizer"],
+      "role_en": "mass-energy storage structure component",
+      "role_ru": "компонент структуры массового хранения энергии",
+      "focus_en": "valid multiblock tier, pylon mode, transfer bottleneck, reserve policy and safe expansion without losing stored energy",
+      "focus_ru": "уровень мультиблока, режим пилона, узкое место передачи, политику резерва и безопасное расширение без потери энергии"
+    },
+    {
+      "tokens": ["energy_crystal", "relay", "transceiver"],
+      "role_en": "wireless high-current energy network component",
+      "role_ru": "компонент беспроводной высокоточной энергосети",
+      "focus_en": "link ownership, transfer limit, source priority, visual diagnostics and isolation of loops or cross-base drains",
+      "focus_ru": "владение связями, предел передачи, приоритет источника, визуальную диагностику и изоляцию циклов или чужого потребления"
+    },
+    {
+      "tokens": ["reactor", "reactor_core", "reactor_stabilizer", "reactor_injector"],
+      "role_en": "draconic reactor safety component",
+      "role_ru": "компонент безопасности драконического реактора",
+      "focus_en": "containment field, saturation, fuel conversion, extraction rate, emergency shutdown and blast-safe placement",
+      "focus_ru": "поле сдерживания, насыщение, переработку топлива, скорость отбора, аварийную остановку и взрывобезопасное размещение"
+    },
+    {
+      "tokens": ["chestpiece", "helmet", "leggings", "boots", "armor"],
+      "role_en": "modular defensive capability item",
+      "role_ru": "модульный защитный предмет",
+      "focus_en": "shield capacity, recharge demand, flight or movement modules, damage bypass interactions and replacement after loss",
+      "focus_ru": "ёмкость щита, спрос зарядки, модули полёта или движения, обходящий урон и замену после потери"
+    },
+    {
+      "tokens": ["sword", "bow", "staff", "pickaxe", "shovel", "axe", "hoe", "capacitor"],
+      "role_en": "modular tool, weapon or portable energy item",
+      "role_ru": "модульный инструмент, оружие или переносной энергетический предмет",
+      "focus_en": "module capacity, charged performance, area effect, attack or mining throughput, repair path and energy supply",
+      "focus_ru": "ёмкость модулей, работу под зарядом, эффект области, скорость боя или добычи, ремонт и энергоснабжение"
+    },
+    {
+      "tokens": ["module", "module_core"],
+      "role_en": "capability module or module component",
+      "role_ru": "модуль возможности или его компонент",
+      "focus_en": "host compatibility, slot cost, stacking rule, exact capability gain and interaction with other equipment mods",
+      "focus_ru": "совместимость носителя, стоимость слотов, правила сложения, точный прирост возможности и взаимодействие с другим снаряжением"
+    },
+    {
+      "tokens": ["dislocator", "portal", "pedestal"],
+      "role_en": "teleportation and location-control component",
+      "role_ru": "компонент телепортации и управления точками",
+      "focus_en": "binding ownership, destination safety, cross-dimensional cost, recovery from lost anchors and multiplayer permissions",
+      "focus_ru": "владение привязкой, безопасность назначения, межпространственную стоимость, восстановление потерянных точек и права игроков"
+    },
+    {
+      "tokens": ["chaos", "guardian", "shard"],
+      "role_en": "Chaos-tier encounter or material",
+      "role_ru": "встреча или материал уровня Chaos",
+      "focus_en": "legitimate guardian victory, island destruction risk, unique-drop policy, repeat access and prohibition of generic mob simulation",
+      "focus_ru": "честную победу над Guardian, риск разрушения острова, правила уникального дропа, повторный доступ и запрет универсальной симуляции"
+    },
+    {
+      "tokens": ["celestial_manipulator", "weather", "time"],
+      "role_en": "world-state control component",
+      "role_ru": "компонент управления состоянием мира",
+      "focus_en": "permission, energy cost, server-wide side effects, cooldown and prevention of progression or seasonal abuse",
+      "focus_ru": "разрешения, энергозатраты, серверные последствия, перезарядку и защиту от обхода прогрессии или сезонов"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Draconic Evolution component",
+    "role_ru": "специализированный компонент Draconic Evolution",
+    "focus_en": "its tier, charged state, module or multiblock dependency, effective capability and safe failure state",
+    "focus_ru": "его уровень, заряд, зависимость от модулей или мультиблока, реальную возможность и безопасное состояние отказа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod draconic integration component",
+    "role_ru": "межмодовый компонент драконической интеграции",
+    "focus_en": "the external stage, data components, conversion direction and absence of a lower-tier substitute",
+    "focus_ru": "внешний этап, компоненты данных, направление преобразования и отсутствие замены более низкого уровня"
+  },
+  "checkpoint": {
+    "role_en": "high-energy engineering checkpoint",
+    "role_ru": "контрольная точка высокоэнергетической инженерии",
+    "focus_en": "documented energy budget, material reserve, containment or shield failure response and restart procedure",
+    "focus_ru": "задокументированный энергобюджет, резерв материалов, реакцию на отказ сдерживания или щита и процедуру перезапуска"
+  }
+}
