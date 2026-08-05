@@ -8,7 +8,7 @@ This report tracks known static acquisition paths. A PASS means the source tree 
 
 - Gated outputs: **63**
 - Outputs with recipe declarations: **52**
-- Outputs with explicit recipe removal evidence: **48**
+- Outputs with explicit recipe removal evidence: **52**
 - Authorized process or unique-permission outputs: **11**
 - Unauthorized quest reward outputs: **0**
 - Unallowlisted data/loot mentions: **0**

@@ -33,8 +33,10 @@ These are not automatically failures because the last v1 layer removes legacy ou
 
 - `ae2:controller`
 - `avaritia:extreme_crafting_table`
+- `create:precision_mechanism`
 - `draconicevolution:wyvern_core`
 - `extendedcrafting:ultimate_table`
+- `immersiveengineering:blastbrick_reinforced`
 - `industrialforegoing:machine_frame_advanced`
 - `kubejs:bioindustrial_matrix`
 - `kubejs:calibrated_substrate`
@@ -42,14 +44,22 @@ These are not automatically failures because the last v1 layer removes legacy ou
 - `kubejs:cosmic_catalyst`
 - `kubejs:dimensional_resonator`
 - `kubejs:draconic_processor`
+- `kubejs:electrical_bus`
+- `kubejs:field_engineering_kit`
 - `kubejs:industrial_frame`
+- `kubejs:kinetic_interface`
+- `kubejs:kinetic_regulator`
+- `kubejs:materials_analysis_matrix`
 - `kubejs:mechanical_core`
+- `kubejs:power_regulation_unit`
 - `kubejs:precision_circuit`
 - `kubejs:quantum_logic`
 - `kubejs:resonant_core`
 - `kubejs:structural_lattice`
 - `kubejs:transmutation_matrix`
 - `mekanism:steel_casing`
+- `modern_industrialization:basic_machine_hull`
+- `modern_industrialization:bronze_boiler`
 - `mysticalagriculture:infusion_altar`
 - `powah:reactor_nitro`
 - `projecte:philosophers_stone`
