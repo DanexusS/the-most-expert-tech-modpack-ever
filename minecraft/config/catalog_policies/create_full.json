@@ -1,0 +1,124 @@
+{
+  "chapter_filename": "create",
+  "chapter_id": "5C3FF9D1ECAC4860",
+  "chapter_title_en": "Create — Kinetic Factory Engineering",
+  "chapter_title_ru": "Create — инженерия кинетической фабрики",
+  "report_filename": "CREATE_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Create Catalogue Quality Report",
+  "report_intro": "Every Create catalogue node must explain stress, speed, processing, logistics, fluids, contraptions or trains and include an operating acceptance check.",
+  "expected_quests": 80,
+  "minimum_description": 190,
+  "primary_namespace": "create",
+  "acceptance_namespace": "create_catalog_acceptance",
+  "checkpoint_name": "Create Factory Checkpoint",
+  "title_suffix_en": "Kinetic Acceptance",
+  "title_suffix_ru": "кинетическая приёмка",
+  "description_en": "{display} is a {role} in Create. The meaningful requirement is a stable kinetic or logistical system with known speed, stress, direction and failure behaviour rather than ownership of one component.",
+  "description_ru": "{display} — {role} в Create. Значимое требование — стабильная кинетическая или логистическая система с известной скоростью, нагрузкой, направлением и поведением при отказе, а не один компонент.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative unattended batch or movement cycle, record RPM, stress and buffers, test blockage or reversal, and close loot, reward, trade, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую автономную партию или цикл движения, запишите RPM, нагрузку и буферы, испытайте блокировку или реверс и закройте обходы через лут, награды, торговлю, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["shaft", "cogwheel", "gearbox", "clutch", "gearshift", "chain_drive", "encased_chain"],
+      "role_en": "kinetic transmission component",
+      "role_ru": "компонент кинетической передачи",
+      "focus_en": "rotation direction, RPM ratio, stress capacity, branch isolation, reverse state and visible diagnostics",
+      "focus_ru": "направление вращения, отношение RPM, запас нагрузки, изоляцию ветвей, реверс и видимую диагностику"
+    },
+    {
+      "tokens": ["water_wheel", "windmill", "steam_engine", "hand_crank", "creative_motor"],
+      "role_en": "kinetic power source",
+      "role_ru": "источник кинетической мощности",
+      "focus_en": "environmental input, generated stress capacity, RPM, startup condition, reserve margin and safe shutdown",
+      "focus_ru": "условия среды, создаваемую нагрузочную способность, RPM, запуск, резерв и безопасную остановку"
+    },
+    {
+      "tokens": ["speedometer", "stressometer", "rotation_speed_controller"],
+      "role_en": "kinetic measurement or control component",
+      "role_ru": "компонент измерения или управления кинетикой",
+      "focus_en": "measured branch, target speed, stress margin, control authority and response to overload or power loss",
+      "focus_ru": "измеряемую ветвь, целевую скорость, запас нагрузки, управляющее воздействие и реакцию на перегрузку или потерю мощности"
+    },
+    {
+      "tokens": ["mechanical_press", "millstone", "crushing_wheel", "mixer", "basin", "deployer", "saw", "spout", "fan"],
+      "role_en": "kinetic processing machine",
+      "role_ru": "кинетическая перерабатывающая машина",
+      "focus_en": "required RPM and stress, recipe isolation, input and output buffer, heat or fluid condition, byproducts and full-output shutdown",
+      "focus_ru": "требуемые RPM и нагрузку, изоляцию рецепта, буферы входа и выхода, тепло или жидкость, побочные продукты и остановку"
+    },
+    {
+      "tokens": ["precision_mechanism", "sequenced", "incomplete_"],
+      "role_en": "sequenced-assembly component",
+      "role_ru": "компонент последовательной сборки",
+      "focus_en": "operation order, loop count, intermediate ownership, tool return, failure recovery and prevention of shortcut recipes",
+      "focus_ru": "порядок операций, число циклов, владение промежуточным предметом, возврат инструмента, восстановление и запрет сокращений"
+    },
+    {
+      "tokens": ["belt", "funnel", "tunnel", "chute", "smart_chute", "brass_funnel", "brass_tunnel", "depot"],
+      "role_en": "item-logistics component",
+      "role_ru": "компонент предметной логистики",
+      "focus_en": "direction, filter, distribution mode, belt speed, destination capacity, overflow and prevention of recirculation loops",
+      "focus_ru": "направление, фильтр, режим распределения, скорость ленты, ёмкость назначения, переполнение и защиту от циклов"
+    },
+    {
+      "tokens": ["mechanical_arm", "stockpile_switch", "content_observer", "redstone_link", "display_link"],
+      "role_en": "factory sensing or control component",
+      "role_ru": "компонент контроля или датчиков фабрики",
+      "focus_en": "input signal, target selection, priority, stock threshold, wireless channel ownership and safe default state",
+      "focus_ru": "входной сигнал, выбор цели, приоритет, порог запаса, владение беспроводным каналом и безопасное состояние по умолчанию"
+    },
+    {
+      "tokens": ["fluid_pipe", "mechanical_pump", "fluid_tank", "hose_pulley", "portable_fluid_interface"],
+      "role_en": "fluid logistics or storage component",
+      "role_ru": "компонент жидкостной логистики или хранения",
+      "focus_en": "flow direction, pump speed, tank reserve, infinite-source boundary, moving-interface contact and overflow",
+      "focus_ru": "направление потока, скорость насоса, резерв бака, границу бесконечного источника, контакт движущегося интерфейса и переполнение"
+    },
+    {
+      "tokens": ["mechanical_bearing", "cart_assembler", "gantry", "rope_pulley", "piston", "contraption", "portable_storage_interface"],
+      "role_en": "moving-contraption component",
+      "role_ru": "компонент движущейся конструкции",
+      "focus_en": "assembly boundary, movement axis, collision and protected blocks, inventory transfer, chunk edge and safe disassembly",
+      "focus_ru": "границу сборки, ось движения, столкновения и защищённые блоки, передачу инвентаря, край чанка и безопасную разборку"
+    },
+    {
+      "tokens": ["train", "track", "station", "schedule", "signal", "bogey"],
+      "role_en": "railway and train-system component",
+      "role_ru": "компонент железной дороги и поездов",
+      "focus_en": "track continuity, station ownership, schedule order, signal blocks, loading time, unloaded chunks and recovery from obstruction",
+      "focus_ru": "непрерывность путей, владение станцией, порядок расписания, сигнальные блоки, время погрузки, выгруженные чанки и восстановление"
+    },
+    {
+      "tokens": ["blaze_burner", "steam_whistle", "steam_engine", "boiler"],
+      "role_en": "heat or steam-system component",
+      "role_ru": "компонент тепловой или паровой системы",
+      "focus_en": "heat tier, fuel automation, water input, boiler level, engine count, stress output and dry-run protection",
+      "focus_ru": "уровень нагрева, автоматизацию топлива, воду, уровень котла, число двигателей, выход нагрузки и защиту от сухого хода"
+    },
+    {
+      "tokens": ["goggles", "wrench", "filter", "clipboard", "schematic"],
+      "role_en": "configuration, diagnostic or planning tool",
+      "role_ru": "инструмент настройки, диагностики или планирования",
+      "focus_en": "exact configuration effect, copied data, ownership, safe reset, replacement after loss and use in diagnosing the production line",
+      "focus_ru": "точный эффект настройки, скопированные данные, владение, безопасный сброс, замену после потери и применение для диагностики линии"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Create factory component",
+    "role_ru": "специализированный компонент фабрики Create",
+    "focus_en": "its RPM, stress, direction, inventory or fluid contract and a safe blocked, reversed or unloaded state",
+    "focus_ru": "его контракт RPM, нагрузки, направления, инвентаря или жидкости и безопасное заблокированное, реверсивное или выгруженное состояние"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod Create integration component",
+    "role_ru": "межмодовый компонент интеграции Create",
+    "focus_en": "the external stage, conversion direction, moving-inventory state and absence of a cheaper parallel route",
+    "focus_ru": "внешний этап, направление преобразования, состояние движущегося инвентаря и отсутствие дешёвого параллельного пути"
+  },
+  "checkpoint": {
+    "role_en": "kinetic-factory design checkpoint",
+    "role_ru": "контрольная точка проектирования кинетической фабрики",
+    "focus_en": "documented RPM tree, stress budget, processing order, buffers, overload isolation and restart procedure",
+    "focus_ru": "задокументированное дерево RPM, бюджет нагрузки, порядок обработки, буферы, изоляцию перегруза и перезапуск"
+  }
+}
