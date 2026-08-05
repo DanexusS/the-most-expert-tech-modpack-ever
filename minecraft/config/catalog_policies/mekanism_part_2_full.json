@@ -1,0 +1,132 @@
+{
+  "chapter_filename": "mekanism_part_2",
+  "chapter_id": "0A093D8C4429B627",
+  "chapter_title_en": "Mekanism II — Advanced Energy, Nuclear and Quantum Engineering",
+  "chapter_title_ru": "Mekanism II — продвинутая энергетическая, ядерная и квантовая инженерия",
+  "report_filename": "MEKANISM_PART_2_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Mekanism Part II Catalogue Quality Report",
+  "report_intro": "Every late Mekanism and Mekanism-addons node must explain its factory, transport, QIO, reactor, turbine, fusion, SPS, antimatter or modular-equipment role and include a practical acceptance check.",
+  "expected_quests": 102,
+  "minimum_description": 190,
+  "primary_namespace": "mekanism",
+  "primary_namespace_prefixes": ["mekanism"],
+  "acceptance_namespace": "mekanism_part2_catalog_acceptance",
+  "checkpoint_name": "Advanced Mekanism Checkpoint",
+  "title_suffix_en": "Advanced-System Acceptance",
+  "title_suffix_ru": "приёмка продвинутой системы",
+  "description_en": "{display} is a {role} in the advanced Mekanism ecosystem. Its progression value depends on sustained power, chemical, radiation, heat, transport or modular-equipment infrastructure rather than on possessing one block or item.",
+  "description_ru": "{display} — {role} в продвинутой экосистеме Mekanism. Его ценность для прогрессии зависит от устойчивой энергетической, химической, радиационной, тепловой, транспортной или модульной инфраструктуры, а не от одного блока или предмета.",
+  "acceptance_en": "Acceptance: verify {focus}; complete a representative operating cycle, record energy, heat, chemical and material reserves, test blocked output or interrupted power, and close reward, loot, trade, EMC, simulation, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой рабочий цикл, запишите резервы энергии, тепла, химикатов и материалов, испытайте полный выход или прерывание питания и закройте обходы через награды, лут, торговлю, EMC, симуляцию, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["alloy_", "control_circuit", "tier_installer", "configuration_card"],
+      "role_en": "Mekanism tier-control or upgrade component",
+      "role_ru": "компонент управления уровнем или улучшения Mekanism",
+      "focus_en": "previous-tier ancestry, infusion or alloy supply, exact upgrade target, retained configuration and prevention of skipped intermediate tiers",
+      "focus_ru": "происхождение от предыдущего уровня, снабжение инфузией или сплавами, точную цель улучшения, сохранение настроек и запрет пропуска промежуточных уровней"
+    },
+    {
+      "tokens": ["factory", "basic_factory", "advanced_factory", "elite_factory", "ultimate_factory"],
+      "role_en": "parallel-processing factory tier",
+      "role_ru": "уровень фабрики параллельной переработки",
+      "focus_en": "base-machine ancestry, processing slots, energy and chemical demand, side configuration, recipe isolation and full-output shutdown",
+      "focus_ru": "происхождение от базовой машины, число слотов, спрос энергии и химикатов, настройку сторон, изоляцию рецепта и остановку при полном выходе"
+    },
+    {
+      "tokens": ["logistical_transporter", "mechanical_pipe", "pressurized_tube", "thermodynamic_conductor", "universal_cable", "restrictive_transporter", "diversion_transporter"],
+      "role_en": "tiered transport-network component",
+      "role_ru": "компонент уровневой транспортной сети",
+      "focus_en": "transferred medium, throughput, pull-push direction, colour or diversion rules, network capacity and loop isolation",
+      "focus_ru": "передаваемую среду, пропускную способность, направление ввода-вывода, цветовые или разделительные правила, ёмкость сети и изоляцию циклов"
+    },
+    {
+      "tokens": ["qio_", "portable_qio", "drive_array", "dashboard", "importer", "exporter", "redstone_adapter"],
+      "role_en": "QIO digital-storage or logistics component",
+      "role_ru": "компонент цифрового хранения или логистики QIO",
+      "focus_en": "frequency ownership, item and type capacity, importer or exporter filters, remote access, overflow and recovery after frequency loss",
+      "focus_ru": "владение частотой, ёмкость предметов и типов, фильтры импорта или экспорта, удалённый доступ, переполнение и восстановление после потери частоты"
+    },
+    {
+      "tokens": ["digital_miner", "dimensional_stabilizer", "teleporter", "teleportation_core", "portable_teleporter"],
+      "role_en": "remote mining, chunk or teleportation capability",
+      "role_ru": "возможность удалённой добычи, чанков или телепортации",
+      "focus_en": "target filters, radius, replacement mode, chunk ownership, energy cost, destination safety and blacklist of protected or gated resources",
+      "focus_ru": "фильтры целей, радиус, режим замены, владение чанками, энергозатраты, безопасность назначения и чёрный список защищённых или закрытых ресурсов"
+    },
+    {
+      "tokens": ["induction_", "ultimate_induction", "advanced_induction", "basic_induction", "elite_induction"],
+      "role_en": "Induction Matrix structure component",
+      "role_ru": "компонент структуры Induction Matrix",
+      "focus_en": "valid casing and ports, cell capacity, provider transfer rate, input-output separation, reserve policy and safe expansion",
+      "focus_ru": "валидный корпус и порты, ёмкость ячеек, скорость провайдеров, разделение входа и выхода, резерв и безопасное расширение"
+    },
+    {
+      "tokens": ["fission_", "reactor_glass", "control_rod", "fuel_assembly", "logic_adapter", "radioactive_waste", "waste_barrel", "polonium", "plutonium"],
+      "role_en": "fission-reactor, radiation or nuclear-fuel component",
+      "role_ru": "компонент реактора деления, радиации или ядерного топлива",
+      "focus_en": "reactor structure, fissile fuel rate, coolant and heated output, burn limit, waste route, radiation containment and emergency SCRAM",
+      "focus_ru": "структуру реактора, расход делящегося топлива, охлаждение и горячий выход, предел горения, маршрут отходов, радиационное сдерживание и аварийную остановку"
+    },
+    {
+      "tokens": ["turbine_", "rotational_complex", "electromagnetic_coil", "pressure_disperser", "saturating_condenser", "superheating_element", "boiler_", "thermal_evaporation"],
+      "role_en": "large heat, steam or turbine multiblock component",
+      "role_ru": "компонент крупного теплового, парового или турбинного мультиблока",
+      "focus_en": "valid structure, steam or heat input, coolant return, rotor and coil balance, output limit, condensate recovery and safe spin-down",
+      "focus_ru": "валидность структуры, вход пара или тепла, возврат охлаждения, баланс роторов и катушек, предел выхода, возврат конденсата и безопасную остановку"
+    },
+    {
+      "tokens": ["fusion_", "hohlraum", "laser_amplifier", "reactor_controller", "reactor_frame"],
+      "role_en": "fusion-reactor ignition or structure component",
+      "role_ru": "компонент зажигания или структуры термоядерного реактора",
+      "focus_en": "D-T fuel production, laser charge, ignition sequence, injection rate, passive and active output, coolant loop and restart after flameout",
+      "focus_ru": "производство D-T топлива, заряд лазера, последовательность зажигания, скорость впрыска, пассивный и активный выход, контур охлаждения и перезапуск после погасания"
+    },
+    {
+      "tokens": ["sps_", "supercharged_coil", "pellet_antimatter", "antiprotonic_nucleosynthesizer"],
+      "role_en": "SPS, antimatter or nucleosynthesis component",
+      "role_ru": "компонент SPS, антиматерии или нуклеосинтеза",
+      "focus_en": "polonium input, SPS energy pulse, coil count, antimatter output rate, containment buffer, recipe authority and prohibition of simulated antimatter",
+      "focus_ru": "вход полония, энергетический импульс SPS, число катушек, скорость антиматерии, буфер сдерживания, авторитет рецепта и запрет симулированной антиматерии"
+    },
+    {
+      "tokens": ["mekasuit", "meka_tool", "module_", "module_tweaker", "modification_station"],
+      "role_en": "modular MekaSuit or Meka-Tool capability",
+      "role_ru": "модульная возможность MekaSuit или Meka-Tool",
+      "focus_en": "module host, slot or unit count, energy demand, mining or combat throughput, flight or immunity effects, repair and replacement",
+      "focus_ru": "носитель модуля, число слотов или единиц, энергопотребление, скорость добычи или боя, полёт или иммунитет, ремонт и замену"
+    },
+    {
+      "tokens": ["energy_cube", "advanced_solar_generator", "wind_generator", "gas_burning_generator", "bio_generator", "heat_generator"],
+      "role_en": "Mekanism power-generation or buffering component",
+      "role_ru": "компонент генерации или буферизации энергии Mekanism",
+      "focus_en": "fuel or environmental input, sustained output, transfer limit, internal buffer, tier comparison and protection of the factory reserve",
+      "focus_ru": "топливный или природный вход, устойчивый выход, предел передачи, внутренний буфер, сравнение уровня и защиту резерва фабрики"
+    },
+    {
+      "tokens": ["chemical_", "pressurized_reaction", "isotopic_centrifuge", "solar_neutron_activator", "oxidizer", "rotary_condensentrator", "nutritional_liquifier"],
+      "role_en": "advanced chemical-processing component",
+      "role_ru": "компонент продвинутой химической переработки",
+      "focus_en": "chemical phase, tank and side configuration, catalyst or secondary input, output separation, radioactive handling and clean purge",
+      "focus_ru": "фазу химиката, настройку баков и сторон, катализатор или дополнительный вход, разделение выходов, радиоактивность и чистую продувку"
+    }
+  ],
+  "default": {
+    "role_en": "specialized advanced Mekanism component",
+    "role_ru": "специализированный продвинутый компонент Mekanism",
+    "focus_en": "its power, chemical, heat, radiation, transport, modular or multiblock contract and a safe blocked or interrupted state",
+    "focus_ru": "его контракт энергии, химикатов, тепла, радиации, транспорта, модулей или мультиблока и безопасное состояние блокировки или прерывания"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod advanced Mekanism integration component",
+    "role_ru": "межмодовый компонент продвинутой интеграции Mekanism",
+    "focus_en": "the external stage, authoritative material or data state, conversion direction and absence of a cheaper substitute",
+    "focus_ru": "внешний этап, авторитетное состояние материала или данных, направление преобразования и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "advanced Mekanism system-design checkpoint",
+    "role_ru": "контрольная точка проектирования продвинутой системы Mekanism",
+    "focus_en": "documented energy tree, chemical and heat loops, radiation containment, digital logistics, emergency shutdown and restart procedure",
+    "focus_ru": "задокументированное дерево энергии, химические и тепловые контуры, радиационное сдерживание, цифровую логистику, аварийную остановку и перезапуск"
+  }
+}
