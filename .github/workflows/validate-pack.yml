@@ -123,7 +123,7 @@ jobs:
           python minecraft/tools/recipe_dependency_audit.py
           python minecraft/tools/bypass_audit.py
           python minecraft/tools/mod_guide_coverage_audit.py
-          python minecraft/tools/performance_configuration_audit.py
+          python minecraft/tools/performance_configuration_audit_all.py
 
       - name: Gate curated manuals and core routes
         run: |
