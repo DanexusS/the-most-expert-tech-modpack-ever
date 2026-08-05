@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "minimum_for_maximummfm",
+  "chapter_id": "16E56173884F915A",
+  "chapter_title_en": "Minimum for Maximum — Scanning, Memory and Quantum Systems",
+  "chapter_title_ru": "Minimum for Maximum — сканирование, память и квантовые системы",
+  "report_filename": "MINIMUM_FOR_MAXIMUM_OPERATIONAL_QUALITY_REPORT.md",
+  "report_title": "Minimum for Maximum Operational Quality Report",
+  "report_intro": "Every MinForMax node must demonstrate scanning, indexing, generation, storage or quantum processing under measured load instead of rewarding memory shards, upgrades, food, experience or quantum materials.",
+  "expected_quests": 25,
+  "minimum_description": 215,
+  "primary_namespace": "minformax",
+  "primary_namespaces": ["minformax"],
+  "acceptance_namespace": "minformax_operational_acceptance",
+  "checkpoint_name": "MinForMax System Checkpoint",
+  "title_suffix_en": "Measured-System Acceptance",
+  "title_suffix_ru": "приёмка измеряемой системы",
+  "description_en": "{display} is a {role} in the Minimum for Maximum branch. It must be evaluated as part of an instrumented information, energy or quantum-processing system with known input, capacity and failure behavior—not as an item whose upgrade materials are returned by the quest.",
+  "description_ru": "{display} — {role} ветви Minimum for Maximum. Его необходимо оценивать как часть измеряемой информационной, энергетической или квантовой системы с известными входом, ёмкостью и поведением отказа, а не как предмет, материалы улучшения которого возвращаются квестом.",
+  "acceptance_en": "Acceptance: verify {focus}; record a baseline, submit one bounded input or work interval, measure throughput, energy and retained state, test a missing-input, full-buffer or restart condition, recover without lost or duplicated data and confirm that rewards, recursive upgrades and free quantum material cannot bypass the intended tier progression.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте базовую линию, подайте один ограниченный вход или рабочий интервал, измерьте производительность, энергию и сохранённое состояние, испытайте отсутствие входа, полный буфер либо перезапуск, восстановитесь без потери или копирования данных и исключите обход уровней через награды, рекурсивные улучшения и бесплатный квантовый материал.",
+  "categories": [
+    {
+      "tokens": ["scanner", "scan"],
+      "role_en": "material, structure or information scanning device",
+      "role_ru": "устройство сканирования материалов, структур или информации",
+      "focus_en": "scan target and range, energy cost, duration, result identity, protected-target rules, invalid-target handling, retained data after restart and prevention of scanning granting the target item or stage permission",
+      "focus_ru": "цель и дальность сканирования, стоимость энергии, длительность, идентичность результата, правила защищённых целей, обработку неверной цели, сохранение данных после перезапуска и запрет выдачи предмета либо этапного допуска сканированием"
+    },
+    {
+      "tokens": ["inscriber", "index", "memory", "shard", "database"],
+      "role_en": "memory encoding, indexing or persistent-data component",
+      "role_ru": "компонент кодирования памяти, индексации или постоянных данных",
+      "focus_en": "input identity, memory capacity, encoding sequence, metadata preservation, duplicate-index rejection, full-state behavior, backup and recovery from power loss without copying the encoded resource",
+      "focus_ru": "идентичность входа, ёмкость памяти, последовательность кодирования, сохранение компонентов, отклонение дублирующего индекса, поведение при заполнении, резервную копию и восстановление после потери энергии без копирования закодированного ресурса"
+    },
+    {
+      "tokens": ["generator", "energy", "battery", "cell", "capacitor"],
+      "role_en": "advanced generation, transfer or energy-storage component",
+      "role_ru": "продвинутый компонент генерации, передачи или хранения энергии",
+      "focus_en": "fuel or source condition, rated output, capacity, transfer ceiling, idle draw, shutdown, full-buffer behavior, restart persistence and proof that generator-storage feedback cannot create positive net energy",
+      "focus_ru": "условие топлива или источника, номинальный выход, ёмкость, предел передачи, расход в простое, отключение, поведение полного буфера, сохранение после перезапуска и отсутствие положительной чистой энергии в цикле генератор-накопитель"
+    },
+    {
+      "tokens": ["upgrade", "speed", "capacity", "efficiency", "tier"],
+      "role_en": "tiered machine-performance upgrade",
+      "role_ru": "этапное улучшение производительности машины",
+      "focus_en": "compatible host, tier ancestry, installation slots, measured before-and-after throughput, increased energy or heat cost, stacking limit, removal and confirmation that reward refunds cannot bootstrap higher tiers",
+      "focus_ru": "совместимый узел, происхождение уровня, слоты установки, измеренную производительность до и после, рост стоимости энергии или тепла, предел суммирования, извлечение и запрет запуска более высоких уровней возвратом наград"
+    },
+    {
+      "tokens": ["quantum", "eternal", "singularity", "maximum", "infinite"],
+      "role_en": "quantum-grade material, processor or convergence component",
+      "role_ru": "квантовый материал, процессор или компонент схождения",
+      "focus_en": "prior-tier assemblies, authoritative production route, irreversible cost, multi-mod provenance, processing conditions, protected storage, disabled EMC or simulation value and exact higher-stage consumption",
+      "focus_ru": "сборки прошлых уровней, авторитетный производственный маршрут, необратимую стоимость, межмодовое происхождение, условия обработки, защищённое хранение, отключённую стоимость EMC или симуляции и точный расход на более высоком этапе"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Minimum for Maximum system component",
+    "role_ru": "специализированный компонент системы Minimum for Maximum",
+    "focus_en": "system role, legal material route, input and output, energy, capacity, measured performance, failure recovery and interaction with the assigned technology tier",
+    "focus_ru": "роль в системе, честный маршрут материалов, вход и выход, энергию, ёмкость, измеренную производительность, восстановление после отказа и связь с назначенным технологическим уровнем"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite for a MinForMax system",
+    "role_ru": "межмодовая предпосылка системы MinForMax",
+    "focus_en": "its staged source, exact consumption, metadata, replacement policy and why scanning or quantum processing cannot fabricate or refund the prerequisite",
+    "focus_ru": "его этапный источник, точное потребление, компоненты, правила замены и доказательство, что сканирование или квантовая обработка не создаёт и не возвращает предпосылку"
+  },
+  "checkpoint": {
+    "role_en": "MinForMax architecture and tier review",
+    "role_ru": "проверка архитектуры и уровней MinForMax",
+    "focus_en": "scanner scope, encoded data, memory capacity, generation and storage, upgrade tiers, quantum materials, buffers, shutdown, restart and conservation evidence",
+    "focus_ru": "область сканера, закодированные данные, ёмкость памяти, генерацию и хранение, уровни улучшений, квантовые материалы, буферы, отключение, перезапуск и доказательство сохранения"
+  }
+}
