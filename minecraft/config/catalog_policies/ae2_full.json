@@ -1,0 +1,124 @@
+{
+  "chapter_filename": "applied_energistics_2",
+  "chapter_id": "06686A9AF6DA9186",
+  "chapter_title_en": "Applied Energistics 2 — Network Engineering",
+  "chapter_title_ru": "Applied Energistics 2 — сетевая инженерия",
+  "report_filename": "AE2_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Applied Energistics 2 Catalogue Quality Report",
+  "report_intro": "Every AE2 catalogue node must explain its network role, channel or energy impact, failure mode and an operating acceptance check.",
+  "expected_quests": 135,
+  "minimum_description": 190,
+  "primary_namespace": "ae2",
+  "acceptance_namespace": "ae2_catalog_acceptance",
+  "checkpoint_name": "AE2 Network Checkpoint",
+  "title_suffix_en": "Network Acceptance",
+  "title_suffix_ru": "сетевая приёмка",
+  "description_en": "{display} is a {role} in an AE2 system. The item is useful only when its power, channel, storage and routing assumptions are explicit and the network remains diagnosable under load.",
+  "description_ru": "{display} — {role} в системе AE2. Предмет полезен только при явных требованиях к энергии, каналам, хранению и маршрутам и при возможности диагностировать сеть под нагрузкой.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative automated job, record channel and power use, test a full or disconnected destination, and prove that loot, rewards, trades or alternate recipes cannot unlock this capability before its stage.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую автоматическую работу, запишите каналы и энергию, испытайте полный или отключённый выход и исключите раннее получение возможности лутом, наградами, торговлей или альтернативным рецептом.",
+  "categories": [
+    {
+      "tokens": ["certus", "fluix", "charger", "quartz"],
+      "role_en": "crystal and network-material production step",
+      "role_ru": "этап производства кристаллов и сетевых материалов",
+      "focus_en": "crystal source, charging or growth time, batch buffer and contamination-free conversion",
+      "focus_ru": "источник кристаллов, время зарядки или роста, буфер партии и чистое преобразование"
+    },
+    {
+      "tokens": ["inscriber", "printed_", "processor", "press"],
+      "role_en": "processor manufacturing component",
+      "role_ru": "компонент производства процессоров",
+      "focus_en": "press ownership, silicon and printed-part routing, recipe isolation and processor throughput",
+      "focus_ru": "владение прессами, маршруты кремния и печатных деталей, изоляцию рецепта и выпуск процессоров"
+    },
+    {
+      "tokens": ["energy_acceptor", "energy_cell", "dense_energy", "vibration_chamber"],
+      "role_en": "network power and buffering component",
+      "role_ru": "компонент питания и буферизации сети",
+      "focus_en": "conversion input, idle demand, peak demand, stored reserve and recovery after power loss",
+      "focus_ru": "вход преобразования, простой, пиковый спрос, запас и восстановление после потери питания"
+    },
+    {
+      "tokens": ["cable", "covered_", "smart_", "dense_", "toggle_bus", "inverted_toggle"],
+      "role_en": "channel-bearing network segment",
+      "role_ru": "сетевой сегмент с каналами",
+      "focus_en": "channel count, controller path, colour isolation, tunnel boundaries and a visible overload diagnostic",
+      "focus_ru": "число каналов, путь к контроллеру, цветовую изоляцию, границы туннелей и видимую диагностику перегруза"
+    },
+    {
+      "tokens": ["terminal", "monitor", "interface_terminal"],
+      "role_en": "network access and operator interface",
+      "role_ru": "интерфейс доступа и управления сетью",
+      "focus_en": "access scope, crafting visibility, permission boundary, search behaviour and disconnected-state clarity",
+      "focus_ru": "область доступа, видимость крафта, границу разрешений, поиск и понятное состояние отключения"
+    },
+    {
+      "tokens": ["storage_cell", "item_cell", "fluid_cell", "chemical_cell", "drive", "chest", "cell_workbench"],
+      "role_en": "digital storage component",
+      "role_ru": "компонент цифрового хранения",
+      "focus_en": "type limits, byte capacity, partition policy, overflow destination and safe cell migration",
+      "focus_ru": "лимит типов, байтовую ёмкость, разделы, направление переполнения и безопасный перенос ячеек"
+    },
+    {
+      "tokens": ["import_bus", "export_bus", "storage_bus", "formation_plane", "annihilation_plane"],
+      "role_en": "network input or output endpoint",
+      "role_ru": "входной или выходной узел сети",
+      "focus_en": "filter exactness, direction, acceleration, destination capacity and prevention of routing loops",
+      "focus_ru": "точность фильтра, направление, ускорение, ёмкость назначения и защиту от циклов маршрутизации"
+    },
+    {
+      "tokens": ["interface", "pattern_provider", "molecular_assembler", "crafting_unit", "coprocessor", "crafting_storage", "pattern_encoding"],
+      "role_en": "autocrafting infrastructure component",
+      "role_ru": "компонент инфраструктуры автокрафта",
+      "focus_en": "pattern ownership, ingredient return, machine blocking mode, crafting CPU capacity and recovery from a failed job",
+      "focus_ru": "владение шаблоном, возврат ингредиентов, режим блокировки машины, ёмкость CPU и восстановление проваленной задачи"
+    },
+    {
+      "tokens": ["p2p", "tunnel", "network_tool"],
+      "role_en": "network compression or diagnostic component",
+      "role_ru": "компонент сжатия сети или диагностики",
+      "focus_en": "input-output pairing, channel accounting on both sides, naming and isolation of unrelated services",
+      "focus_ru": "связь входа и выхода, учёт каналов с обеих сторон, именование и изоляцию посторонних сервисов"
+    },
+    {
+      "tokens": ["quantum", "singularity", "matter_condenser"],
+      "role_en": "late cross-dimensional networking component",
+      "role_ru": "поздний компонент межпространственной сети",
+      "focus_en": "singularity production, paired ownership, chunk availability, energy reserve and loss-safe reconnection",
+      "focus_ru": "производство сингулярности, владение парой, загрузку чанков, запас энергии и безопасное переподключение"
+    },
+    {
+      "tokens": ["spatial", "io_port"],
+      "role_en": "bulk transfer or spatial-storage component",
+      "role_ru": "компонент массового переноса или пространственного хранения",
+      "focus_en": "transfer direction, cell compatibility, area boundary, protected blocks and rollback after interruption",
+      "focus_ru": "направление переноса, совместимость ячейки, границу области, защищённые блоки и откат после прерывания"
+    },
+    {
+      "tokens": ["wireless", "access_point", "booster"],
+      "role_en": "wireless network access component",
+      "role_ru": "компонент беспроводного доступа",
+      "focus_en": "range, energy drain, permission, dimensional boundary and protection of the main network reserve",
+      "focus_ru": "радиус, расход энергии, разрешения, границу измерений и защиту основного резерва сети"
+    }
+  ],
+  "default": {
+    "role_en": "specialized AE2 network component",
+    "role_ru": "специализированный сетевой компонент AE2",
+    "focus_en": "its channel, power, storage or routing contract and a safe disconnected or saturated state",
+    "focus_ru": "его контракт каналов, энергии, хранения или маршрутизации и безопасное отключённое или насыщенное состояние"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod AE2 integration component",
+    "role_ru": "межмодовый компонент интеграции AE2",
+    "focus_en": "the external mod's stage, conversion direction, component data and the absence of a cheaper parallel route",
+    "focus_ru": "этап внешнего мода, направление преобразования, данные предмета и отсутствие более дешёвого параллельного пути"
+  },
+  "checkpoint": {
+    "role_en": "network design checkpoint",
+    "role_ru": "контрольная точка проектирования сети",
+    "focus_en": "documented topology, channel budget, power reserve, storage overflow and a restart procedure",
+    "focus_ru": "задокументированную топологию, бюджет каналов, резерв энергии, переполнение хранения и процедуру перезапуска"
+  }
+}
