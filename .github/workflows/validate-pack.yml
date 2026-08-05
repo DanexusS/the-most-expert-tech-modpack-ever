@@ -83,6 +83,7 @@ jobs:
           python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
           python minecraft/tools/upgrade_woot_catalog.py
           python minecraft/tools/run_established_catalog_suite.py upgrade
+          python minecraft/tools/reduce_expert_startup_logging.py
 
       - name: Generate or verify curated manuals and 121-quest stages
         run: python minecraft/tools/generate_cached_questbook.py
@@ -146,7 +147,7 @@ jobs:
             minecraft/config/ftbquests/quests/chapters \
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
-            minecraft/kubejs/server_scripts/combat_scaling.js \
+            minecraft/kubejs/server_scripts \
             minecraft/docs
           git commit -m "automation: synchronize cached questbook and v1 reports"
           git push origin HEAD:${TARGET_BRANCH}
