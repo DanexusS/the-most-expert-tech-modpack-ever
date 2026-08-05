@@ -1,6 +1,6 @@
 # v1 Product Readiness
 
-## Classification: **DEVELOPMENT — STATIC GATES INCOMPLETE**
+## Classification: **STATIC FOUNDATION PASS — PRODUCT INCOMPLETE**
 
 ## Static reports
 
@@ -12,7 +12,7 @@
 | Progression contract | PASS |
 | Recipe dependency graph | PASS |
 | Bypass closure | PASS |
-| Selected gameplay guide coverage | IN PROGRESS / FAIL |
+| Selected gameplay guide coverage | PASS |
 | Create route | PASS |
 | Immersive Engineering route | PASS |
 | Modern Industrialization route | PASS |
@@ -34,10 +34,10 @@
 | Manifest inventory projects | 501 |
 | Tracked gameplay/progression projects | 13 |
 | Projects not requiring individual guides | 488 |
-| Tracked guides awaiting review | 13 |
-| Reviewed tracked guides | 0 |
+| Tracked guides awaiting review | 0 |
+| Reviewed tracked guides | 13 |
 | Complete tracked guides | 0 |
-| Coverage status | IN PROGRESS |
+| Coverage status | PASS |
 
 ## Minimum runtime evidence
 
