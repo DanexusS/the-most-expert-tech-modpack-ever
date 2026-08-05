@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "ufo_future",
+  "chapter_id": "A1ED6BE6E679822D",
+  "chapter_title_en": "Stellaris — Orbital and Planetary Engineering",
+  "chapter_title_ru": "Stellaris — орбитальная и планетарная инженерия",
+  "report_filename": "UFO_FUTURE_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Stellaris Space Engineering Catalogue Quality Report",
+  "report_intro": "Space quests must form a safe engineering route from structural materials and life support through propulsion, launch, orbital operations and recoverable planetary logistics.",
+  "expected_quests": 65,
+  "minimum_description": 200,
+  "primary_namespace": "stellaris",
+  "primary_namespace_prefixes": ["stellaris"],
+  "acceptance_namespace": "stellaris_catalog_acceptance",
+  "checkpoint_name": "Space Engineering Checkpoint",
+  "title_suffix_en": "Mission Acceptance",
+  "title_suffix_ru": "приёмка миссии",
+  "description_en": "{display} is a {role} in the Stellaris space-engineering route. Its progression value depends on a documented material, life-support, propulsion, power or mission contract—not on receiving a spacecraft component from a quest reward.",
+  "description_ru": "{display} — {role} космической инженерии Stellaris. Его ценность зависит от задокументированного контракта материалов, жизнеобеспечения, тяги, энергии или миссии, а не от выдачи детали корабля квестовой наградой.",
+  "acceptance_en": "Acceptance: verify {focus}; produce or operate a representative unit, record mass or stock, energy, fuel, oxygen and recovery reserves, test one aborted or interrupted state and remove reward, trade, loot, duplication and early-planet shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; изготовьте или запустите типовой узел, запишите массу или запас, энергию, топливо, кислород и резерв восстановления, испытайте отменённое или прерванное состояние и закройте обходы через награды, торговлю, лут, копирование и ранний доступ к планетам.",
+  "categories": [
+    {
+      "tokens": ["steel", "desh", "ostrum", "calorite", "plating", "plate", "sheet", "rod", "block"],
+      "role_en": "space-rated structural material or processed alloy",
+      "role_ru": "конструкционный космический материал или обработанный сплав",
+      "focus_en": "legal ore origin, processing ancestry, batch yield, structural purpose, protected late-planet materials and a reproducible ordinary-stock threshold",
+      "focus_ru": "честное происхождение руды, цепочку обработки, выход партии, конструкционное назначение, защиту позднепланетных материалов и воспроизводимый запас"
+    },
+    {
+      "tokens": ["space_suit", "jet_suit", "oxygen", "tank", "distributor", "loader", "fan", "life_support"],
+      "role_en": "life-support or environmental-protection component",
+      "role_ru": "компонент жизнеобеспечения или защиты от среды",
+      "focus_en": "oxygen source, capacity, refill path, power demand, sealing or equipment slot, alarm threshold and a retreat reserve independent of the primary system",
+      "focus_ru": "источник кислорода, ёмкость, путь заправки, энергопотребление, герметичность или слот, порог тревоги и резерв отступления независимо от основной системы"
+    },
+    {
+      "tokens": ["engine", "rocket", "thruster", "fuel", "launch", "nasa", "navigation", "vehicle"],
+      "role_en": "propulsion, launch or spacecraft-control component",
+      "role_ru": "компонент тяги, запуска или управления кораблём",
+      "focus_en": "previous-tier vehicle ancestry, fuel type and reserve, engine count, launch mass, destination permission, abort procedure and post-landing recovery",
+      "focus_ru": "происхождение от предыдущего корабля, тип и резерв топлива, число двигателей, стартовую массу, допуск назначения, процедуру отмены и восстановление после посадки"
+    },
+    {
+      "tokens": ["solar", "generator", "cable", "battery", "energy", "coal_generator"],
+      "role_en": "remote power-generation or distribution component",
+      "role_ru": "компонент удалённой генерации или распределения энергии",
+      "focus_en": "environmental or fuel input, sustained output, transfer limit, night or eclipse reserve, idle shutdown and black-start order for an isolated base",
+      "focus_ru": "природный или топливный вход, устойчивый выход, предел передачи, резерв ночи или затмения, отключение простоя и порядок холодного запуска изолированной базы"
+    },
+    {
+      "tokens": ["globe", "planet", "moon", "mars", "mercury", "orbit", "station", "asteroid", "flag"],
+      "role_en": "mission, destination or orbital-infrastructure milestone",
+      "role_ru": "этап миссии, назначения или орбитальной инфраструктуры",
+      "focus_en": "destination prerequisites, cargo manifest, landing and return coordinates, remote storage, emergency shelter, sample reconciliation and no teleportation shortcut before first arrival",
+      "focus_ru": "предпосылки назначения, грузовой манифест, координаты посадки и возврата, удалённое хранение, аварийное укрытие, сверку образцов и запрет телепортации до первого прибытия"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Stellaris spacecraft or base component",
+    "role_ru": "специализированный компонент корабля или базы Stellaris",
+    "focus_en": "material ancestry, exact mission role, power or consumable demand, operating state, failure response and repeatable replacement from current-stage infrastructure",
+    "focus_ru": "происхождение материала, точную роль в миссии, спрос энергии или расходников, рабочее состояние, реакцию на отказ и воспроизводимую замену инфраструктурой текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod space-mission support component",
+    "role_ru": "межмодовый компонент поддержки космической миссии",
+    "focus_en": "which system owns production, storage, power, communication or recovery and why it supports the mission without granting an early destination or protected resource",
+    "focus_ru": "какая система отвечает за производство, хранение, энергию, связь или восстановление и почему она поддерживает миссию без раннего назначения или защищённого ресурса"
+  },
+  "checkpoint": {
+    "role_en": "space mission-design checkpoint",
+    "role_ru": "контрольная точка проектирования космической миссии",
+    "focus_en": "structural inventory, life-support budget, propulsion and fuel, remote power, cargo manifest, abort criteria, landing plan and recoverable return path",
+    "focus_ru": "конструкционный запас, бюджет жизнеобеспечения, тягу и топливо, удалённую энергию, грузовой манифест, критерии отмены, план посадки и восстанавливаемый путь возвращения"
+  }
+}
