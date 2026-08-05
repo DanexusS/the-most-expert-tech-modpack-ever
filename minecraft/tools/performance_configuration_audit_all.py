@@ -5,13 +5,17 @@ from __future__ import annotations
 import late_stage_workflow_profiles_corrected  # noqa: F401
 import kubejs_hot_path_quality_gate as hot_path
 import performance_configuration_audit as configuration
+import runtime_performance_quality_gate as runtime_gate
 
 
 def main() -> int:
-    configuration_result = configuration.main()
-    if configuration_result:
-        return configuration_result
-    return hot_path.main()
+    result = configuration.main()
+    if result:
+        return result
+    result = hot_path.main()
+    if result:
+        return result
+    return runtime_gate.main()
 
 
 if __name__ == "__main__":
