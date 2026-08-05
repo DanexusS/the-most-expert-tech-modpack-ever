@@ -1,5 +1,6 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "pack_commit": null,
   "measured_at": null,
   "environment": {
     "minecraft": "1.21.1",
@@ -7,22 +8,109 @@
     "java": null,
     "memory_mib": null,
     "hardware_note": null,
-    "test_world": null
+    "test_world": null,
+    "instance_note": null
   },
   "gates": {
-    "clean_client_start": false,
-    "new_world_create_save_reopen": false,
-    "kubejs_milestone_items_exist": false,
-    "strategic_recipes_verified": false,
-    "scaled_namespaces_sampled": false,
-    "representative_quest_tasks_complete": false,
-    "language_switch_verified": false,
-    "combat_samples_within_targets": false,
-    "startup_and_world_load_regression_below_10_percent": false,
-    "thirty_minute_soak_tps_gate": false,
-    "heap_stability_gate": false,
-    "log_rate_gate": false,
-    "second_clean_restart_and_world_reopen": false
+    "clean_client_start": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 1 },
+      "evidence": [],
+      "notes": []
+    },
+    "new_world_create_save_reopen": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 1 },
+      "evidence": [],
+      "notes": []
+    },
+    "kubejs_milestone_items_exist": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 18 },
+      "evidence": [],
+      "notes": []
+    },
+    "strategic_recipes_verified": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 18 },
+      "evidence": [],
+      "notes": []
+    },
+    "representative_quest_tasks_complete": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 3 },
+      "evidence": [],
+      "notes": [
+        "Required task classes: item, checkmark and kill."
+      ]
+    },
+    "language_switch_verified": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 2 },
+      "evidence": [],
+      "notes": [
+        "Required locales: en_us and ru_ru."
+      ]
+    },
+    "second_clean_restart_and_world_reopen": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 1 },
+      "evidence": [],
+      "notes": []
+    },
+    "scaled_namespaces_sampled": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 4 },
+      "evidence": [],
+      "notes": []
+    },
+    "combat_samples_within_targets": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 4 },
+      "evidence": [],
+      "notes": []
+    },
+    "startup_and_world_load_regression_below_10_percent": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 1 },
+      "evidence": [],
+      "notes": []
+    },
+    "thirty_minute_soak_tps_gate": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 30 },
+      "evidence": [],
+      "notes": [
+        "Coverage is measured in soak minutes."
+      ]
+    },
+    "heap_stability_gate": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 2 },
+      "evidence": [],
+      "notes": [
+        "At least two comparable post-GC measurement cycles are required."
+      ]
+    },
+    "log_rate_gate": {
+      "verified": false,
+      "checked_at": null,
+      "coverage": { "current": 0, "required": 1 },
+      "evidence": [],
+      "notes": []
+    }
   },
   "measurements": {
     "baseline_startup_seconds_median": null,
@@ -30,13 +118,14 @@
     "baseline_world_load_seconds_median": null,
     "candidate_world_load_seconds_median": null,
     "soak_tps_p05": null,
+    "soak_mspt_p95": null,
     "heap_after_first_cycle_mib": null,
     "heap_after_second_cycle_mib": null,
     "maximum_repeated_log_lines_per_minute": null
   },
   "notes": [
-    "All fields remain false until backed by a clean client or server run.",
-    "Do not set gates from theoretical calculations alone.",
-    "Record raw logs or profiler output before changing a gate to true."
+    "All mandatory gates remain unverified until backed by a clean client or server run.",
+    "Do not set verified from theoretical calculations or static CI alone.",
+    "Every verified gate requires the tested commit, environment metadata, timestamp, coverage and non-empty evidence references."
   ]
 }
