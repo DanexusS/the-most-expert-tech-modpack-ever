@@ -97,7 +97,7 @@ jobs:
           python minecraft/tools/catalog_upgrade_common.py upgrade config/catalog_policies/create_full.json
           python minecraft/tools/catalog_upgrade_multinamespace.py upgrade config/catalog_policies/mekanism_part_2_full.json
 
-      - name: Generate curated manuals and progression projects
+      - name: Generate curated manuals and organized stage chapters
         run: |
           python minecraft/tools/generate_core_technology_manual.py
           python minecraft/tools/generate_core_technology_manual_2.py
@@ -106,8 +106,7 @@ jobs:
           python minecraft/tools/generate_core_technology_manual_5.py
           python minecraft/tools/generate_core_technology_manual_6.py
           python minecraft/tools/generate_core_technology_manual_7.py
-          python minecraft/tools/generate_stage_project_matrix.py
-          python minecraft/tools/generate_progression_spine.py
+          python minecraft/tools/generate_organized_stage_questbook.py
           python minecraft/tools/sync_curated_guide_registry.py
 
       - name: Tune and calculate theoretical balance
@@ -126,8 +125,7 @@ jobs:
       - name: Gate curated manuals and core routes
         run: |
           python minecraft/tools/all_manual_quality_gate.py
-          python minecraft/tools/stage_project_matrix_quality_gate.py
-          python minecraft/tools/progression_spine_quality_gate.py
+          python minecraft/tools/stage_chapter_organization_quality_gate.py
           python minecraft/tools/create_core_quality_gate.py
           python minecraft/tools/ie_core_quality_gate.py
           python minecraft/tools/mi_core_quality_gate.py
@@ -171,7 +169,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
+          git add -A \
             minecraft/config/expert_progression_contract.json \
             minecraft/config/mod_guide_registry.json \
             minecraft/config/ProjectE/custom_emc.json \
@@ -179,42 +177,6 @@ jobs:
             minecraft/config/ftbquests/quests/lang/en_us.snbt \
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts/combat_scaling.js \
-            minecraft/docs/PROGRESSION_MAP.md \
-            minecraft/docs/THEORETICAL_BALANCE_REPORT.md \
-            minecraft/docs/QUEST_QUALITY_REPORT.md \
-            minecraft/docs/PROGRESSION_CONTRACT_REPORT.md \
-            minecraft/docs/RECIPE_DEPENDENCY_REPORT.md \
-            minecraft/docs/BYPASS_AUDIT_REPORT.md \
-            minecraft/docs/MOD_GUIDE_COVERAGE_REPORT.md \
-            minecraft/docs/ALL_MANUAL_QUALITY_REPORT.md \
-            minecraft/docs/STAGE_PROJECT_MATRIX_QUALITY_REPORT.md \
-            minecraft/docs/PROGRESSION_SPINE_QUALITY_REPORT.md \
-            minecraft/docs/CREATE_CORE_QUALITY_REPORT.md \
-            minecraft/docs/IE_CORE_QUALITY_REPORT.md \
-            minecraft/docs/MI_CORE_QUALITY_REPORT.md \
-            minecraft/docs/AE2_CORE_QUALITY_REPORT.md \
-            minecraft/docs/MEKANISM_CORE_QUALITY_REPORT.md \
-            minecraft/docs/SIMPLY_SWORDS_QUALITY_REPORT.md \
-            minecraft/docs/POWAH_QUALITY_REPORT.md \
-            minecraft/docs/STORAGE_SYSTEMS_CORE_QUALITY_REPORT.md \
-            minecraft/docs/MYSTICAL_AGRICULTURE_QUALITY_REPORT.md \
-            minecraft/docs/INDUSTRIAL_FOREGOING_QUALITY_REPORT.md \
-            minecraft/docs/HOSTILE_NEURAL_NETWORKS_QUALITY_REPORT.md \
-            minecraft/docs/WOOT_QUALITY_REPORT.md \
-            minecraft/docs/AE2_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/DRACONIC_EVOLUTION_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/ARS_NOUVEAU_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/EXTENDED_CRAFTING_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/PNEUMATICCRAFT_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/AVARITIA_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/RFTOOLS_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/CATACLYSM_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/MOB_GRINDING_UTILS_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/OCCULTISM_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/ENDER_IO_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/MODERN_INDUSTRIALIZATION_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/CREATE_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/MEKANISM_PART_2_CATALOG_QUALITY_REPORT.md \
-            minecraft/docs/V1_PRODUCT_READINESS.md
-          git commit -m "automation: regenerate manuals and v1 product reports"
+            minecraft/docs
+          git commit -m "automation: organize stage chapters and refresh v1 reports"
           git push origin HEAD:${TARGET_BRANCH}
