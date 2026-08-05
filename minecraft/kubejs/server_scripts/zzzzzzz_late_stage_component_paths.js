@@ -138,7 +138,7 @@ ServerEvents.recipes(function(event) {
       id: 'kubejs:late_path/draconic_processor',
       output: 'kubejs:draconic_processor',
       authoritative: true,
-      pattern: ['IAC', 'RLR', 'IH C'],
+      pattern: ['IAC', 'RLR', 'IHC'],
       key: {
         I: 'kubejs:injector_alignment_core',
         A: 'kubejs:awakened_containment_shell',
