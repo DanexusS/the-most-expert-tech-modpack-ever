@@ -1,8 +1,7 @@
 from __future__ import annotations
 
-import legacy_quest_semantic_audit as audit
+import legacy_quest_semantic_audit_v2 as audit
 import recipe_fairness_audit as fairness
-from snbt_field_parser import quest_spans
 
 
 def calibrated_milestone_thresholds(stage: int) -> tuple[int, int, int, int]:
@@ -19,7 +18,6 @@ def calibrated_milestone_thresholds(stage: int) -> tuple[int, int, int, int]:
 
 
 def main() -> int:
-    audit.quest_spans = quest_spans
     fairness.milestone_thresholds = calibrated_milestone_thresholds
     semantic_result = audit.main()
     if semantic_result:
