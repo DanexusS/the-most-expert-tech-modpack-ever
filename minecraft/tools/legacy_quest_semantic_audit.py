@@ -8,7 +8,6 @@ from pathlib import Path
 from catalog_upgrade_common import (
     extract_array,
     parse_localization,
-    quest_identity,
     quest_spans,
     task_types,
     visible_length,
@@ -24,6 +23,7 @@ GENERATED_PREFIXES = (
     "stage_annex_",
     "core_technology_manual_",
 )
+QUEST_ID_RE = re.compile(r'(?m)^\s*id:\s*"([0-9A-F]{16})"')
 
 
 def chapter_filename(text: str, fallback: str) -> str:
@@ -44,12 +44,20 @@ def normalized_description(raw: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def safe_task_types(block: str) -> list[str]:
+    try:
+        return task_types(block)
+    except RuntimeError:
+        return []
+
+
 def main() -> int:
     en = parse_localization(LANG_DIR / "en_us.snbt")
     ru = parse_localization(LANG_DIR / "ru_ru.snbt")
     chapter_rows: list[dict] = []
     quest_rows: list[dict] = []
     description_owners: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    malformed_total = 0
 
     for path in sorted(CHAPTER_DIR.glob("*.snbt")):
         text = path.read_text(encoding="utf-8")
@@ -59,10 +67,27 @@ def main() -> int:
         spans = quest_spans(text)
         chapter_quests: list[dict] = []
 
-        for start, end in spans:
+        for object_index, (start, end) in enumerate(spans):
             block = text[start:end]
-            quest_id, _ = quest_identity(block)
-            types = task_types(block)
+            quest_match = QUEST_ID_RE.search(block)
+            if quest_match is None:
+                malformed_total += 1
+                row = {
+                    "chapter": filename,
+                    "quest_id": f"MALFORMED_OBJECT_{object_index:03d}",
+                    "risk_score": 12,
+                    "flags": ["MALFORMED_QUEST_OBJECT", "NO_TASKS", "NO_OPERATIONAL_GUIDANCE"],
+                    "task_types": safe_task_types(block),
+                    "en_description_length": 0,
+                    "ru_description_length": 0,
+                    "maximum_item_count": 1,
+                }
+                chapter_quests.append(row)
+                quest_rows.append(row)
+                continue
+
+            quest_id = quest_match.group(1)
+            types = safe_task_types(block)
             title_key = f"quest.{quest_id}.title"
             desc_key = f"quest.{quest_id}.quest_desc"
             en_len = visible_length(en.get(desc_key, ""))
@@ -122,6 +147,8 @@ def main() -> int:
 
         if quest_count == 0:
             classification = "EMPTY_REVIEW"
+        elif counts["MALFORMED_QUEST_OBJECT"] > 0:
+            classification = "REWRITE_REQUIRED"
         elif high_ratio >= 0.5 or guidance_ratio >= 0.6:
             classification = "REWRITE_REQUIRED"
         elif high_ratio >= 0.2 or item_ratio >= 0.4 or counts["HAS_REWARD"] > 0:
@@ -160,11 +187,12 @@ def main() -> int:
     quest_rows.sort(key=lambda row: (-row["risk_score"], row["chapter"], row["quest_id"]))
 
     queue = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_exclusions": list(GENERATED_PREFIXES),
         "summary": {
             "legacy_chapters": len(chapter_rows),
             "legacy_quests": len(quest_rows),
+            "malformed_quest_objects": malformed_total,
             "rewrite_required_chapters": sum(
                 row["classification"] == "REWRITE_REQUIRED" for row in chapter_rows
             ),
@@ -185,12 +213,13 @@ def main() -> int:
     lines = [
         "# Legacy Quest Semantic Audit",
         "",
-        "This report analyses non-generated legacy chapters for obsolete catalogue structure, missing operational guidance, empty tasks, rewards, excessive item counts and duplicate descriptions. It is a remediation queue, not proof that every surviving quest is fun in play.",
+        "This report analyses non-generated legacy chapters for obsolete catalogue structure, missing operational guidance, malformed quest objects, empty tasks, rewards, excessive item counts and duplicate descriptions. It is a remediation queue, not proof that every surviving quest is fun in play.",
         "",
         "## Summary",
         "",
         f"- Legacy chapters analysed: **{len(chapter_rows)}**",
-        f"- Legacy quests analysed: **{len(quest_rows)}**",
+        f"- Legacy quests and malformed objects analysed: **{len(quest_rows)}**",
+        f"- Malformed quest objects: **{malformed_total}**",
         f"- Chapters requiring rewrite: **{sum(row['classification'] == 'REWRITE_REQUIRED' for row in chapter_rows)}**",
         f"- Chapters requiring review: **{sum(row['classification'] == 'REVIEW_REQUIRED' for row in chapter_rows)}**",
         f"- Empty chapters requiring a keep/remove decision: **{sum(row['classification'] == 'EMPTY_REVIEW' for row in chapter_rows)}**",
@@ -198,21 +227,21 @@ def main() -> int:
         "",
         "## Chapter remediation queue",
         "",
-        "| Chapter | Quests | Risk score | High risk | Item-only | Missing guidance | Rewards | Classification |",
-        "|---|---:|---:|---:|---:|---:|---:|---|",
+        "| Chapter | Objects | Risk score | High risk | Malformed | Item-only | Missing guidance | Rewards | Classification |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---|",
     ]
     for row in chapter_rows:
         flags = row["flags"]
         lines.append(
-            f"| `{row['chapter']}` | {row['quests']} | {row['risk_score']} | {row['high_risk_quests']} | {flags.get('ITEM_ONLY', 0)} | {flags.get('NO_OPERATIONAL_GUIDANCE', 0)} | {flags.get('HAS_REWARD', 0)} | {row['classification']} |"
+            f"| `{row['chapter']}` | {row['quests']} | {row['risk_score']} | {row['high_risk_quests']} | {flags.get('MALFORMED_QUEST_OBJECT', 0)} | {flags.get('ITEM_ONLY', 0)} | {flags.get('NO_OPERATIONAL_GUIDANCE', 0)} | {flags.get('HAS_REWARD', 0)} | {row['classification']} |"
         )
 
     lines.extend(
         [
             "",
-            "## Highest-risk individual quests",
+            "## Highest-risk individual quests and objects",
             "",
-            "| Chapter | Quest ID | Score | Flags |",
+            "| Chapter | Quest/Object ID | Score | Flags |",
             "|---|---|---:|---|",
         ]
     )
@@ -224,7 +253,8 @@ def main() -> int:
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
     print(f"legacy_chapters: {len(chapter_rows)}")
-    print(f"legacy_quests: {len(quest_rows)}")
+    print(f"legacy_objects: {len(quest_rows)}")
+    print(f"malformed_quest_objects: {malformed_total}")
     print(
         "rewrite_required: "
         + str(sum(row["classification"] == "REWRITE_REQUIRED" for row in chapter_rows))
