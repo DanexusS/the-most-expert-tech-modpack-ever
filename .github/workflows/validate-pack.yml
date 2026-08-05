@@ -109,7 +109,7 @@ jobs:
           python minecraft/tools/generate_core_technology_manual_7.py
           python minecraft/tools/generate_organized_stage_questbook.py
           python minecraft/tools/generate_stage_workflow_expansions.py
-          python minecraft/tools/generate_stage_depth_program.py
+          python -c "import sys; sys.path.insert(0, 'minecraft/tools'); import late_stage_workflow_profiles_corrected; import generate_stage_depth_program as m; raise SystemExit(m.main())"
           python minecraft/tools/sync_curated_guide_registry.py
 
       - name: Tune and calculate theoretical balance
@@ -125,13 +125,13 @@ jobs:
           python minecraft/tools/bypass_audit.py
           python minecraft/tools/mod_guide_coverage_audit.py
           python minecraft/tools/legacy_quest_semantic_audit.py
-          python minecraft/tools/performance_configuration_audit.py
+          python -c "import sys; sys.path.insert(0, 'minecraft/tools'); import late_stage_workflow_profiles_corrected; import performance_configuration_audit as m; raise SystemExit(m.main())"
 
       - name: Gate curated manuals and core routes
         run: |
           python minecraft/tools/all_manual_quality_gate.py
           python minecraft/tools/stage_chapter_workflow_quality_gate.py
-          python minecraft/tools/stage_depth_program_quality_gate.py
+          python -c "import sys; sys.path.insert(0, 'minecraft/tools'); import late_stage_workflow_profiles_corrected; import stage_depth_program_quality_gate as m; raise SystemExit(m.main())"
           python minecraft/tools/create_core_quality_gate.py
           python minecraft/tools/ie_core_quality_gate.py
           python minecraft/tools/mi_core_quality_gate.py
