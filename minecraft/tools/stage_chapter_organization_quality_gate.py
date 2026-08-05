@@ -7,6 +7,7 @@ from pathlib import Path
 
 import generate_early_stage_workflow_expansions as workflow
 import generate_progression_spine as spine
+import generate_stage_depth_program as depth
 import generate_stage_project_matrix as matrix
 from catalog_upgrade_common import (
     extract_array,
@@ -68,15 +69,17 @@ def expected_main_dependencies(stage: dict, previous_final: str) -> dict[str, li
             expected[quest_id] = [stage_spine[position - 1]]
 
     stage_workflow = workflow.workflow_quest_ids(stage["id"])
-    if stage_workflow:
-        expected.update(workflow.expected_dependencies(stage["id"], stage_spine[-1]))
-        matrix_entry = workflow.workflow_final_id(stage["id"])
-    else:
-        matrix_entry = stage_spine[-1]
+    if not stage_workflow:
+        raise RuntimeError(f"Stage {stage['id']} has no mandatory workflow profile")
+    expected.update(workflow.expected_dependencies(stage["id"], stage_spine[-1]))
+    workflow_entry = workflow.workflow_final_id(stage["id"])
+
+    expected.update(depth.expected_dependencies(stage["id"], workflow_entry))
+    depth_entry = depth.depth_final_id(stage["id"])
 
     stage_matrix = matrix_ids(stage)
     for position, quest_id in enumerate(stage_matrix):
-        expected[quest_id] = [matrix_entry] if position == 0 else [stage_matrix[position - 1]]
+        expected[quest_id] = [depth_entry] if position == 0 else [stage_matrix[position - 1]]
     return expected
 
 
@@ -114,7 +117,7 @@ def validate_main_tasks(
             status = False
         for item_id in expected_items:
             if item_id not in block:
-                failures.append(f"{label}/{quest_id}: required workflow item {item_id} missing")
+                failures.append(f"{label}/{quest_id}: required staged item {item_id} missing")
                 status = False
     elif item_count != 0 or check_count != 1 or len(types) != 1:
         failures.append(
@@ -131,6 +134,7 @@ def validate_main_tasks(
 def main() -> int:
     contract = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
     stages = contract["stages"]
+    workflow_profiles = depth.merged_workflow_profiles()
     en = parse_localization(LANG_DIR / "en_us.snbt")
     ru = parse_localization(LANG_DIR / "ru_ru.snbt")
     failures: list[str] = []
@@ -144,15 +148,16 @@ def main() -> int:
 
     for stage in stages:
         index = int(stage["index"])
-        main_name = f"main_stage_{index:02d}_{stage['id']}"
-        annex_name = f"stage_annex_{index:02d}_{stage['id']}"
+        stage_id = stage["id"]
+        main_name = f"main_stage_{index:02d}_{stage_id}"
+        annex_name = f"stage_annex_{index:02d}_{stage_id}"
         main_path = CHAPTER_DIR / f"{main_name}.snbt"
         annex_path = CHAPTER_DIR / f"{annex_name}.snbt"
         status = "PASS"
 
         if not main_path.is_file():
             failures.append(f"Missing main stage chapter {main_name}")
-            rows.append((index, stage["id"], 0, 0, 0, 0, "FAIL"))
+            rows.append((index, stage_id, 0, 0, 0, 0, "FAIL"))
             continue
         if not annex_path.is_file():
             failures.append(f"Missing stage annex {annex_name}")
@@ -170,9 +175,13 @@ def main() -> int:
         main_spans = quest_spans(main_text)
         annex_spans = quest_spans(annex_text) if annex_text else []
         stage_spine = spine_ids(stage)
-        stage_workflow = workflow.workflow_quest_ids(stage["id"])
+        stage_workflow = workflow.workflow_quest_ids(stage_id)
+        stage_depth = depth.depth_quest_ids(stage_id)
         stage_matrix = matrix_ids(stage)
-        expected_order = stage_spine + stage_workflow + stage_matrix
+        expected_order = stage_spine + stage_workflow + stage_depth + stage_matrix
+        if len(expected_order) != 121:
+            failures.append(f"{main_name}: internal expected quest count is {len(expected_order)}, not 121")
+            status = "FAIL"
         if len(main_spans) != len(expected_order):
             failures.append(
                 f"{main_name}: expected {len(expected_order)} quests, found {len(main_spans)}"
@@ -194,11 +203,17 @@ def main() -> int:
             actual_order.append(quest_id)
             all_main_ids.add(quest_id)
         if actual_order != expected_order:
-            failures.append(f"{main_name}: generated quest order does not match stage workflow contract")
+            failures.append(f"{main_name}: generated quest order does not match 121-quest stage contract")
             status = "FAIL"
 
         expected_deps = expected_main_dependencies(stage, previous_final)
-        item_expectations = workflow.expected_item_tasks(stage["id"]) if stage_workflow else {}
+        workflow_items = workflow.expected_item_tasks(stage_id)
+        depth_items = {
+            quest_id: [item_id for item_id, _ in values]
+            for quest_id, values in depth.item_expectations(stage, workflow_profiles[stage_id]).items()
+        }
+        item_expectations = dict(workflow_items)
+        item_expectations.update(depth_items)
         main_bilingual = 0
         for quest_id in expected_order:
             block = blocks.get(quest_id)
@@ -214,7 +229,12 @@ def main() -> int:
             desc_key = f"quest.{quest_id}.quest_desc"
             en_len = visible_length(en.get(desc_key, ""))
             ru_len = visible_length(ru.get(desc_key, ""))
-            minimum = 180 if quest_id in stage_workflow else 140
+            if quest_id in stage_depth:
+                minimum = 220
+            elif quest_id in stage_workflow:
+                minimum = 180
+            else:
+                minimum = 140
             if title_key in en and title_key in ru and en_len >= minimum and ru_len >= minimum:
                 main_bilingual += 1
             else:
@@ -240,7 +260,7 @@ def main() -> int:
         for position, (start, end) in enumerate(annex_spans):
             block = annex_text[start:end]
             quest_id, _ = quest_identity(block)
-            expected_id = stable_id(f"stage_annex:{stage['id']}:{ANNEX_SLUGS[position]}")
+            expected_id = stable_id(f"stage_annex:{stage_id}:{ANNEX_SLUGS[position]}")
             if quest_id != expected_id:
                 failures.append(
                     f"{annex_name}: position {position} expected {expected_id}, found {quest_id}"
@@ -282,7 +302,7 @@ def main() -> int:
         rows.append(
             (
                 index,
-                stage["id"],
+                stage_id,
                 len(main_spans),
                 main_bilingual,
                 len(annex_spans),
@@ -303,7 +323,7 @@ def main() -> int:
         "",
         f"**{'PASS' if not failures else 'FAIL'}**",
         "",
-        "The mandatory route is split into one chapter per stage. Stages 1–4 additionally require branched component production, first-batch proof, automation, measured optimization and recovery before stage certification.",
+        "The mandatory route is split into one chapter per stage. Every stage contains substage teaching, a production workflow, an eighty-quest operational depth program and final certification.",
         "",
         "| Stage | ID | Main quests | Main bilingual | Annex quests | Annex bilingual | Status |",
         "|---:|---|---:|---:|---:|---:|---|",
@@ -318,9 +338,10 @@ def main() -> int:
             "## Aggregate",
             "",
             f"- Main stage chapters: **{sum(row[2] > 0 for row in rows)} / 18**",
+            f"- Stages with at least 100 mandatory quests: **{sum(row[2] >= 100 for row in rows)} / 18**",
             f"- Mandatory stage quests: **{sum(row[2] for row in rows)}**",
-            f"- Expanded workflow stages: **{sum(row[1] in workflow.expanded_stage_ids() for row in rows)} / {len(workflow.expanded_stage_ids())}**",
             f"- Required workflow quests: **{sum(len(workflow.workflow_quest_ids(row[1])) for row in rows)}**",
+            f"- Required depth-program quests: **{sum(len(depth.depth_quest_ids(row[1])) for row in rows)}**",
             f"- Optional annex chapters: **{sum(row[4] > 0 for row in rows)} / 18**",
             f"- Optional annex quests: **{sum(row[4] for row in rows)}**",
             f"- Unique organized quest IDs: **{len(all_main_ids) + len(all_annex_ids)}**",
@@ -337,7 +358,7 @@ def main() -> int:
     print(f"stage_chapter_organization: {'PASS' if not failures else 'FAIL'}")
     print(f"main_chapters: {sum(row[2] > 0 for row in rows)}")
     print(f"main_quests: {sum(row[2] for row in rows)}")
-    print(f"expanded_stages: {sum(row[1] in workflow.expanded_stage_ids() for row in rows)}")
+    print(f"stages_over_100: {sum(row[2] >= 100 for row in rows)}")
     print(f"annex_chapters: {sum(row[4] > 0 for row in rows)}")
     print(f"annex_quests: {sum(row[4] for row in rows)}")
     print(f"failures: {len(failures)}")
