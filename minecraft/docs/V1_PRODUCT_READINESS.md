@@ -99,9 +99,9 @@ Every `*_QUALITY_REPORT.md` file is automatically release-gated. Adding a redesi
 
 | Metric | Current |
 |---|---:|
-| Manifest inventory projects | 501 |
+| Manifest inventory projects | 500 |
 | Tracked gameplay/progression projects | 13 |
-| Projects not requiring individual guides | 488 |
+| Projects not requiring individual guides | 487 |
 | Tracked guides awaiting review | 0 |
 | Reviewed tracked guides | 13 |
 | Complete tracked guides | 0 |

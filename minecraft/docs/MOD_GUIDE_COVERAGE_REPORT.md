@@ -6,9 +6,9 @@ The manifest is an inventory, not a requirement for 501 separate quest chapters.
 
 ## Summary
 
-- Manifest projects: **501**
+- Manifest projects: **500**
 - Tracked gameplay/progression projects: **13**
-- Manifest projects not selected for individual guides: **488**
+- Manifest projects not selected for individual guides: **487**
 - Tracked guides not reviewed: **0**
 - Reviewed tracked guides: **13**
 - Complete tracked guides: **0**
