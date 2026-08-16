@@ -51,6 +51,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Sanitize release manifest
+        run: python minecraft/tools/optimize_release_manifest.py
+
       - name: Build selected gameplay guide registry
         run: |
           python minecraft/tools/build_mod_guide_registry.py
@@ -139,6 +142,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A \
+            flame/manifest.json \
             minecraft/config/expert_progression_contract.json \
             minecraft/config/generated_content_fingerprint.json \
             minecraft/config/mod_guide_registry.json \
@@ -149,5 +153,5 @@ jobs:
             minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
             minecraft/kubejs/server_scripts \
             minecraft/docs
-          git commit -m "automation: synchronize cached questbook and v1 reports"
+          git commit -m "automation: synchronize release manifest, cached questbook and reports"
           git push origin HEAD:${TARGET_BRANCH}
