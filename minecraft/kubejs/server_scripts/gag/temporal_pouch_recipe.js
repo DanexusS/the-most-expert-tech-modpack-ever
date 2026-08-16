@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             ],
             {
                     C: 'extendedae:entro_crystal',
-                    D: 'enderstorage:ender_pouch',
+                    D: 'sophisticatedbackpacks:diamond_backpack',
                     E: 'apotheosis:uncommon_material',
                     B: 'minecraft:clock',
                     A: 'tempad:time_steel'
