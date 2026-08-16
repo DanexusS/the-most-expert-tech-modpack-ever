@@ -1,0 +1,145 @@
+{
+  "slug": "twilight_forest",
+  "lessons": [
+    {
+      "slug": "portal",
+      "icon": "twilightforest:twilight_portal_miniature_structure",
+      "title_en": "Portal Entry and Safe Hub",
+      "title_ru": "Вход через портал и безопасный узел",
+      "desc_en": [
+        "The Twilight Forest is a progression dimension with biome locks, structures and ordered bosses. A safe portal hub prevents every expedition from becoming a recovery gamble.",
+        "Mark coordinates, protect both sides, store food and replacement gear outside the portal and test return before carrying trophies or unique materials."
+      ],
+      "desc_ru": [
+        "Twilight Forest является измерением с биомными ограничениями, структурами и порядком боссов. Безопасный узел портала снижает риск каждой экспедиции.",
+        "Запишите координаты, защитите обе стороны, храните еду и запасной комплект снаружи и проверяйте возврат до переноса трофеев или уникальных материалов."
+      ]
+    },
+    {
+      "slug": "progression",
+      "icon": "twilightforest:magic_map",
+      "title_en": "Biome Locks and Boss Order",
+      "title_ru": "Биомные ограничения и порядок боссов",
+      "desc_en": [
+        "Biome hazards and structure access encode the intended boss sequence. Removing protections or entering by teleport can expose later resources without the required victories.",
+        "Keep progression enforcement enabled, explain each unlock and block cross-mod travel tools from skipping the first legitimate entry into protected regions."
+      ],
+      "desc_ru": [
+        "Опасности биомов и доступ к структурам задают последовательность боссов. Снятие защиты или телепортация открывают поздние ресурсы без побед.",
+        "Сохраняйте ограничения, объясняйте каждое открытие и не позволяйте межмодовым инструментам путешествий пропускать первый честный вход в защищённые регионы."
+      ]
+    },
+    {
+      "slug": "maps",
+      "icon": "twilightforest:filled_magic_map",
+      "title_en": "Maps, Landmarks and Route Planning",
+      "title_ru": "Карты, ориентиры и планирование маршрута",
+      "desc_en": [
+        "Magic maps reveal structure regions but do not replace terrain preparation, safe paths and return logistics.",
+        "Mark completed and pending structures, build protected waypoints, preserve spare maps and avoid carrying the only route information into a boss arena."
+      ],
+      "desc_ru": [
+        "Магические карты показывают регионы структур, но не заменяют подготовку местности, безопасные пути и возврат.",
+        "Отмечайте завершённые и будущие структуры, создавайте защищённые точки, храните запасные карты и не несите единственную информацию маршрута на арену босса."
+      ]
+    },
+    {
+      "slug": "bosses",
+      "icon": "twilightforest:naga_trophy",
+      "title_en": "Boss Sequence and Readiness",
+      "title_ru": "Последовательность боссов и готовность",
+      "desc_en": [
+        "Naga, Lich, Minoshroom, Hydra and later bosses test different movement, arena and damage responses. One universal equipment set is rarely optimal.",
+        "Prepare encounter-specific tools, record mechanics, define retreat conditions and keep one replacement set at the last safe waypoint."
+      ],
+      "desc_ru": [
+        "Naga, Lich, Minoshroom, Hydra и поздние боссы проверяют разные движения, арены и ответы на урон. Один универсальный комплект редко оптимален.",
+        "Готовьте инструменты под бой, записывайте механики, задавайте условия отступления и храните запасной комплект на последней безопасной точке."
+      ]
+    },
+    {
+      "slug": "trophies",
+      "icon": "twilightforest:lich_trophy",
+      "title_en": "Trophies, Unlocks and Non-Consumable Proof",
+      "title_ru": "Трофеи, открытия и нерасходуемые доказательства",
+      "desc_en": [
+        "Trophies prove boss completion and may be decorative or used by original progression. Mass-consuming them in technical recipes creates unfair rematches.",
+        "Store original trophies, use reusable permission items for repeated cross-mod crafting and prevent loot, EMC or simulation copies."
+      ],
+      "desc_ru": [
+        "Трофеи доказывают завершение босса и могут участвовать в оригинальной прогрессии. Массовое расходование в технологиях создаёт несправедливые повторы.",
+        "Храните оригиналы, используйте многоразовые допуски для повторных межмодовых крафтов и блокируйте копии через лут, EMC или симуляцию."
+      ]
+    },
+    {
+      "slug": "resources",
+      "icon": "twilightforest:fiery_ingot",
+      "title_en": "Dimension Materials and Industrial Use",
+      "title_ru": "Материалы измерения и промышленное применение",
+      "desc_en": [
+        "Fiery, Knightmetal, Carminite and other materials represent different structures and boss tiers. Treating them as one generic Twilight resource erases progression.",
+        "Assign each material to its first legitimate structure, document processing and keep simulators, seeds and bees locked until that tier is complete."
+      ],
+      "desc_ru": [
+        "Fiery, Knightmetal, Carminite и другие материалы относятся к разным структурам и боссовым уровням. Объединение их в один ресурс стирает прогрессию.",
+        "Назначайте материал его первой честной структуре, документируйте переработку и закрывайте симуляторы, семена и пчёл до завершения уровня."
+      ]
+    },
+    {
+      "slug": "structures",
+      "icon": "twilightforest:uncrafting_table",
+      "title_en": "Structure Loot and Uncrafting Risk",
+      "title_ru": "Лут структур и риск разборки",
+      "desc_en": [
+        "Structure chests and uncrafting systems can expose components or reverse recipes in ways that bypass intended material costs.",
+        "Audit high-value loot, restrict uncrafting outputs, include repair or XP cost and reject any reversible recipe that yields more gated material than the source required."
+      ],
+      "desc_ru": [
+        "Сундуки структур и системы разборки открывают компоненты или обращают рецепты, обходя стоимость материалов.",
+        "Проверяйте ценный лут, ограничивайте выходы разборки, учитывайте ремонт или опыт и запрещайте обратный рецепт с приростом закрытого материала."
+      ]
+    },
+    {
+      "slug": "gear",
+      "icon": "twilightforest:fiery_helmet",
+      "title_en": "Twilight Equipment and Capability Matching",
+      "title_ru": "Снаряжение Twilight и соответствие возможностей",
+      "desc_en": [
+        "Twilight equipment provides fire effects, special protection, durability and utility tied to boss and structure progression.",
+        "Map each set to a stage, compare with crafted tech gear, preserve repair materials and prevent salvaging or trading from granting later sets early."
+      ],
+      "desc_ru": [
+        "Снаряжение Twilight даёт огненные эффекты, особую защиту, прочность и утилиту, связанную с боссами и структурами.",
+        "Привязывайте наборы к этапам, сравнивайте с техническим снаряжением, храните ремонт и не допускайте раннего получения через разборку или торговлю."
+      ]
+    },
+    {
+      "slug": "integration",
+      "icon": "kubejs:skythern_seal",
+      "title_en": "Twilight Progression and Cross-Mod Gates",
+      "title_ru": "Прогрессия Twilight и межмодовые допуски",
+      "desc_en": [
+        "Twilight victories can prove combat and exploration readiness for selected technology jumps without becoming mandatory ingredients in every machine.",
+        "Use a small number of reusable permissions, explain the matching technology domain and never let Twilight farming replace DivineRPG seals or other independent gates."
+      ],
+      "desc_ru": [
+        "Победы Twilight могут доказывать боевую и исследовательскую готовность к отдельным технологиям без обязательного расходования в каждой машине.",
+        "Используйте немного многоразовых допусков, объясняйте соответствующую область и не заменяйте ими независимые печати DivineRPG или другие ворота."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "twilightforest:hydra_trophy",
+      "title_en": "Project: Documented Twilight Campaign",
+      "title_ru": "Проект: документированная кампания Twilight",
+      "desc_en": [
+        "Complete a contiguous Twilight progression segment with mapped structures, safe routes, encounter notes, sorted resources and preserved trophies.",
+        "The project passes when biome order is respected, no travel tool skips a first entry, resource simulators remain stage-safe and the return path works after a restart."
+      ],
+      "desc_ru": [
+        "Завершите последовательный участок прогрессии Twilight с картой структур, безопасными маршрутами, заметками боя, сортировкой ресурсов и сохранёнными трофеями.",
+        "Проект принят при соблюдении порядка биомов, отсутствии пропуска первым путешествием, безопасных симуляторах ресурсов и работающем возврате после перезапуска."
+      ]
+    }
+  ]
+}

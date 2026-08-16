@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "ice_and_fire",
+  "chapter_id": "296B70EEA1897429",
+  "chapter_title_en": "Ice and Fire — Expedition, Dragons and Dragonforges",
+  "chapter_title_ru": "Ice and Fire — экспедиции, драконы и драконьи кузни",
+  "report_filename": "ICE_AND_FIRE_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Ice and Fire Catalogue Quality Report",
+  "report_intro": "Every Ice and Fire node must teach preparation, encounter evidence, forge construction, unique-drop protection and recovery instead of giving dragon materials as quest rewards.",
+  "expected_quests": 88,
+  "minimum_description": 200,
+  "primary_namespace": "iceandfire",
+  "primary_namespace_prefixes": ["iceandfire"],
+  "acceptance_namespace": "ice_and_fire_catalog_acceptance",
+  "checkpoint_name": "Ice and Fire Expedition Checkpoint",
+  "title_suffix_en": "Expedition Acceptance",
+  "title_suffix_ru": "экспедиционная приёмка",
+  "description_en": "{display} is a {role} in the Ice and Fire progression branch. Its value comes from prepared exploration, first-victory evidence, controlled dragon interaction or a repeatable forge—not from receiving rare materials from the quest book.",
+  "description_ru": "{display} — {role} ветви Ice and Fire. Его ценность определяется подготовленной экспедицией, доказательством первой победы, контролируемым взаимодействием с драконом или повторяемой кузней, а не выдачей редких материалов из квестовой книги.",
+  "acceptance_en": "Acceptance: verify {focus}; document preparation and retreat criteria, complete the encounter or production cycle, reconcile unique and ordinary drops, test one failure or interrupted state and remove reward, loot-reroll, simulation, trade and duplication shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; задокументируйте подготовку и критерии отступления, выполните встречу или производственный цикл, сверяйте уникальный и обычный лут, испытайте один отказ или прерывание и закройте обходы через награды, переролл лута, симуляцию, торговлю и копирование.",
+  "categories": [
+    {
+      "tokens": ["manuscript", "bestiary", "lectern", "dragon_seeker"],
+      "role_en": "research, identification or dragon-location tool",
+      "role_ru": "инструмент исследования, идентификации или поиска драконов",
+      "focus_en": "information source, manuscript supply, seeker range or tier, false-positive handling, safe route planning and retaining a non-magical fallback for the return trip",
+      "focus_ru": "источник информации, запас рукописей, радиус или уровень искателя, обработку ложных целей, безопасное планирование маршрута и обычную замену для возвращения"
+    },
+    {
+      "tokens": ["dragon_heart", "dragon_blood", "dragon_egg", "dragon_skull", "dragonbone", "dragon_bone"],
+      "role_en": "dragon encounter evidence or protected biological material",
+      "role_ru": "доказательство встречи с драконом или защищённый биологический материал",
+      "focus_en": "dragon type and stage, first-victory evidence, unique-drop protection, safe transport, ordinary-versus-unique classification and prohibition of simulated or rewarded trophies",
+      "focus_ru": "тип и стадию дракона, доказательство первой победы, защиту уникального лута, безопасную перевозку, классификацию обычных и уникальных материалов и запрет симулированных или выданных трофеев"
+    },
+    {
+      "tokens": ["dragonforge", "dragonsteel"],
+      "role_en": "dragonforge structure, input or dragonsteel output",
+      "role_ru": "структура драконьей кузни, её вход или выход драконьей стали",
+      "focus_en": "complete multiblock counts, matching dragon element, blood and breath supply, protected dragon position, batch yield, blocked-output shutdown and recovery without losing the dragon",
+      "focus_ru": "полное число блоков мультиблока, соответствие стихии, снабжение кровью и дыханием, защищённое положение дракона, выход партии, остановку при полном выходе и восстановление без потери дракона"
+    },
+    {
+      "tokens": ["siren", "cyclops", "gorgon", "hydra", "troll", "cockatrice", "stymphalian", "sea_serpent", "deathworm", "ghost"],
+      "role_en": "dangerous creature encounter or creature-derived material",
+      "role_ru": "встреча с опасным существом или получаемый от него материал",
+      "focus_en": "encounter preparation, terrain and status risks, retreat route, first-kill evidence, ordinary drop supply and confirmation that automation does not replace the initial encounter",
+      "focus_ru": "подготовку к встрече, риски местности и эффектов, маршрут отступления, доказательство первой победы, снабжение обычным лутом и подтверждение, что автоматизация не заменяет первую встречу"
+    },
+    {
+      "tokens": ["armor", "sword", "bow", "shield", "helmet", "chestplate", "leggings", "boots"],
+      "role_en": "dragon or creature-derived combat equipment",
+      "role_ru": "боевое снаряжение из материалов драконов или существ",
+      "focus_en": "material ancestry, repair route, elemental effect, durability, comparison with current-stage equipment and prevention of the item trivializing later boss permissions",
+      "focus_ru": "происхождение материала, путь ремонта, стихийный эффект, прочность, сравнение с текущим снаряжением и защиту от обесценивания будущих боссовых допусков"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Ice and Fire expedition component",
+    "role_ru": "специализированный компонент экспедиции Ice and Fire",
+    "focus_en": "legal acquisition, encounter or production context, unique-drop policy, safe storage, repeatability and recovery after a failed expedition",
+    "focus_ru": "честное получение, контекст встречи или производства, правила уникального лута, безопасное хранение, повторяемость и восстановление после неудачной экспедиции"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod expedition support component",
+    "role_ru": "межмодовый компонент поддержки экспедиции",
+    "focus_en": "its role in travel, power, storage, healing or recovery and why it supports the encounter without replacing the required first victory",
+    "focus_ru": "его роль в путешествии, энергии, хранении, лечении или восстановлении и отсутствие замены обязательной первой победы"
+  },
+  "checkpoint": {
+    "role_en": "Ice and Fire expedition-design checkpoint",
+    "role_ru": "контрольная точка проектирования экспедиции Ice and Fire",
+    "focus_en": "research, equipment, cargo reserve, retreat plan, encounter proof, unique-drop storage, dragonforge safety and post-expedition recovery",
+    "focus_ru": "исследование, снаряжение, резерв груза, план отступления, доказательство встречи, хранение уникального лута, безопасность драконьей кузни и восстановление после экспедиции"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "flux_networks",
+  "lessons": [
+    {
+      "slug": "network_model",
+      "icon": "fluxnetworks:flux_controller",
+      "title_en": "Flux Network Model",
+      "title_ru": "Модель сети Flux",
+      "desc_en": [
+        "Flux Networks separates named wireless networks from physical generators and consumers. A connection is easy to create, so ownership and purpose must be explicit.",
+        "Use one network per operational domain, name it clearly, document the controller and prevent personal or test devices from joining industrial reserves by default."
+      ],
+      "desc_ru": [
+        "Flux Networks отделяет именованные беспроводные сети от физических генераторов и потребителей. Связь создаётся легко, поэтому владение и назначение должны быть явными.",
+        "Используйте отдельную сеть на область, понятно называйте её, документируйте контроллер и не подключайте личные или тестовые устройства к промышленному резерву по умолчанию."
+      ]
+    },
+    {
+      "slug": "plugs",
+      "icon": "fluxnetworks:flux_plug",
+      "title_en": "Flux Plugs and Source Accounting",
+      "title_ru": "Flux Plugs и учёт источников",
+      "desc_en": [
+        "Flux Plugs insert power from external storage or generation. Several plugs can make total supply appear larger while sharing the same upstream bottleneck.",
+        "Label every source, record real input limits, avoid double-counting linked storage and verify one disabled plug does not hide a failing generator."
+      ],
+      "desc_ru": [
+        "Flux Plugs вводят энергию из внешнего хранения или генерации. Несколько точек создают видимость большого снабжения, хотя используют одно узкое место.",
+        "Подписывайте источники, записывайте реальные пределы, не считайте связанное хранилище дважды и проверяйте отказ одной точки отдельно от генератора."
+      ]
+    },
+    {
+      "slug": "points",
+      "icon": "fluxnetworks:flux_point",
+      "title_en": "Flux Points and Consumer Boundaries",
+      "title_ru": "Flux Points и границы потребителей",
+      "desc_en": [
+        "Flux Points deliver power to machines or local storage. Unlimited-looking wireless delivery can obscure the actual demand of a machine group.",
+        "Assign points by subsystem, cap transfer where supported, monitor peak draw and keep optional loads outside the protected recovery network."
+      ],
+      "desc_ru": [
+        "Flux Points подают энергию машинам или локальному хранению. Беспроводная передача скрывает реальный спрос группы машин.",
+        "Назначайте точки подсистемам, ограничивайте передачу, наблюдайте пик и держите второстепенные нагрузки вне защищённой сети восстановления."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "fluxnetworks:basic_flux_storage",
+      "title_en": "Wireless Storage and Reserve Layers",
+      "title_ru": "Беспроводное хранение и уровни резерва",
+      "desc_en": [
+        "Flux storage adds network-visible reserves. A large shared pool can let low-priority consumers drain power required for restart or containment.",
+        "Create operating, emergency and project reserves, expose their minimum levels and prevent wireless charging from crossing those boundaries."
+      ],
+      "desc_ru": [
+        "Хранилища Flux добавляют общий резерв. Большой пул позволяет низкоприоритетным потребителям расходовать энергию запуска или удержания.",
+        "Разделяйте рабочий, аварийный и проектный резерв, показывайте минимумы и не позволяйте беспроводной зарядке пересекать эти границы."
+      ]
+    },
+    {
+      "slug": "priorities",
+      "icon": "fluxnetworks:flux_controller",
+      "title_en": "Priorities and Load Shedding",
+      "title_ru": "Приоритеты и сброс нагрузки",
+      "desc_en": [
+        "Priorities decide which devices retain power during shortage. Without a policy, convenience charging can compete equally with critical factories.",
+        "Define shutdown order, test a deliberate generation loss and verify containment, recovery and logistics remain powered before optional production."
+      ],
+      "desc_ru": [
+        "Приоритеты определяют, какие устройства сохраняют питание при дефиците. Без политики удобная зарядка конкурирует с критическими фабриками.",
+        "Задайте порядок отключения, проведите потерю генерации и убедитесь, что удержание, восстановление и логистика питаются раньше второстепенного производства."
+      ]
+    },
+    {
+      "slug": "security",
+      "icon": "fluxnetworks:flux_configurator",
+      "title_en": "Security, Ownership and Team Access",
+      "title_ru": "Безопасность, владение и доступ команды",
+      "desc_en": [
+        "Network ownership controls who can add devices or change settings. Incorrect public access can connect unintended loads or expose protected reserves.",
+        "Set team policy, audit members and public flags, keep administrative recovery access and document the owner before transferring a world or team."
+      ],
+      "desc_ru": [
+        "Владение сетью определяет добавление устройств и изменение настроек. Неверный публичный доступ подключает лишние нагрузки или открывает резерв.",
+        "Задайте политику команды, проверяйте участников и публичность, сохраняйте аварийный административный доступ и документируйте владельца до передачи мира."
+      ]
+    },
+    {
+      "slug": "wireless_charging",
+      "icon": "fluxnetworks:flux_controller",
+      "title_en": "Wireless Charging Scope",
+      "title_ru": "Область беспроводной зарядки",
+      "desc_en": [
+        "Wireless charging can target players, armor and inventories across dimensions. Broad scope creates a hidden continuous load.",
+        "Restrict targets, reserve a charge budget, separate combat equipment from utility tools and verify interdimensional charging cannot bypass travel-stage energy planning."
+      ],
+      "desc_ru": [
+        "Беспроводная зарядка охватывает игроков, броню и инвентари между измерениями. Широкая область создаёт скрытую постоянную нагрузку.",
+        "Ограничивайте цели, выделяйте бюджет, разделяйте боевое и рабочее снаряжение и не допускайте обхода энергетического планирования путешествий."
+      ]
+    },
+    {
+      "slug": "chunk_behavior",
+      "icon": "fluxnetworks:flux_plug",
+      "title_en": "Chunk Availability and Remote Failure",
+      "title_ru": "Доступность чанков и удалённые отказы",
+      "desc_en": [
+        "Wireless links do not guarantee that remote generators, storage or machines are loaded and functioning. A point can remain connected to an unavailable source domain.",
+        "Document chunk assumptions, keep local fallback energy and test each remote network after a restart and after unloading its source area."
+      ],
+      "desc_ru": [
+        "Беспроводная связь не гарантирует загрузку и работу удалённых генераторов, хранилищ или машин. Точка может быть подключена к недоступному источнику.",
+        "Документируйте чанки, храните локальный резерв и проверяйте сеть после перезапуска и выгрузки области источника."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "fluxnetworks:flux_controller",
+      "title_en": "Flux Diagnostics and Hidden Demand",
+      "title_ru": "Диагностика Flux и скрытый спрос",
+      "desc_en": [
+        "A falling reserve should be traced through network input, output, wireless charging and per-point demand before more generation is added.",
+        "Record rates under idle and peak operation, disable consumers in order and compare controller totals with physical source and storage measurements."
+      ],
+      "desc_ru": [
+        "Падение резерва следует проследить по входу, выходу, беспроводной зарядке и спросу точек до добавления генерации.",
+        "Записывайте простой и пик, отключайте потребителей по порядку и сравнивайте контроллер с физическими источниками и хранилищами."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:resonant_power_cell",
+      "title_en": "Project: Protected Wireless Power Backbone",
+      "title_ru": "Проект: защищённая беспроводная энергомагистраль",
+      "desc_en": [
+        "Build separated Flux networks for critical industry, optional production and personal charging, with documented sources, points, storage and security.",
+        "The project passes after a generation-loss test, priority-based load shedding, restart from local reserve, team-access review and proof that no later-stage machine is powered early."
+      ],
+      "desc_ru": [
+        "Постройте отдельные сети Flux для критической промышленности, второстепенного производства и личной зарядки с документированными источниками, точками и безопасностью.",
+        "Проект принят после потери генерации, сброса по приоритетам, запуска от локального резерва, проверки доступа и отсутствия раннего питания поздних машин."
+      ]
+    }
+  ]
+}

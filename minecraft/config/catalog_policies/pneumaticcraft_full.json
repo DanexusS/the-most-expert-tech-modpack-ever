@@ -1,0 +1,124 @@
+{
+  "chapter_filename": "pneumaticcraft",
+  "chapter_id": "5E31DF282998B992",
+  "chapter_title_en": "PneumaticCraft — Pressure and Automation Engineering",
+  "chapter_title_ru": "PneumaticCraft — инженерия давления и автоматизации",
+  "report_filename": "PNEUMATICCRAFT_CATALOG_QUALITY_REPORT.md",
+  "report_title": "PneumaticCraft Catalogue Quality Report",
+  "report_intro": "Every PneumaticCraft node must explain pressure, heat, logistics, assembly, drones or programmable behaviour and include a safe operating acceptance check.",
+  "expected_quests": 72,
+  "minimum_description": 190,
+  "primary_namespace": "pneumaticcraft",
+  "acceptance_namespace": "pneumatic_catalog_acceptance",
+  "checkpoint_name": "Pneumatic Engineering Checkpoint",
+  "title_suffix_en": "Pressure-System Acceptance",
+  "title_suffix_ru": "приёмка пневмосистемы",
+  "description_en": "{display} is a {role} in PneumaticCraft. Its progression value comes from pressure, heat, programmable behaviour and supporting infrastructure rather than from the block or item alone.",
+  "description_ru": "{display} — {role} в PneumaticCraft. Его ценность для прогрессии определяется давлением, теплом, программируемым поведением и инфраструктурой, а не одним предметом.",
+  "acceptance_en": "Acceptance: verify {focus}; complete a representative operating cycle, record pressure, heat, air and material reserves, test shutdown or invalid input, and close loot, reward, trade, salvage and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой рабочий цикл, запишите давление, тепло, воздух и материалы, испытайте остановку или неверный вход и закройте обходы через лут, награды, торговлю, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["air_compressor", "advanced_air_compressor", "liquid_compressor", "flux_compressor", "creative_compressor"],
+      "role_en": "compressed-air generation component",
+      "role_ru": "компонент генерации сжатого воздуха",
+      "focus_en": "fuel or energy input, heat production, maximum pressure, air output and safe unload behaviour",
+      "focus_ru": "топливо или энергию, выделение тепла, максимальное давление, выход воздуха и безопасную разгрузку"
+    },
+    {
+      "tokens": ["pressure_chamber", "pressure_chamber_wall", "pressure_chamber_interface", "pressure_chamber_valve"],
+      "role_en": "pressure-chamber multiblock component",
+      "role_ru": "компонент мультиблока камеры давления",
+      "focus_en": "sealed structure, interface direction, target pressure, recipe isolation, decompression and ingredient recovery",
+      "focus_ru": "герметичность, направление интерфейса, целевое давление, изоляцию рецепта, декомпрессию и возврат ингредиентов"
+    },
+    {
+      "tokens": ["pressure_tube", "air_grate", "flow_detector", "pressure_gauge", "safety_tube", "regulator_tube"],
+      "role_en": "air-network distribution or safety component",
+      "role_ru": "компонент распределения или безопасности воздушной сети",
+      "focus_en": "tube pressure rating, branch loss, regulator setpoint, isolation valve, leak diagnosis and overpressure protection",
+      "focus_ru": "допустимое давление труб, потери ветвей, уставку регулятора, изоляцию, диагностику утечек и защиту от превышения"
+    },
+    {
+      "tokens": ["printed_circuit_board", "empty_pcb", "unassembled_pcb", "uv_light_box", "etching_acid", "etching_tank"],
+      "role_en": "printed-circuit manufacturing component",
+      "role_ru": "компонент производства печатных плат",
+      "focus_en": "plastic preparation, UV exposure, etching time, acid handling, board yield and prevention of early PCB rewards",
+      "focus_ru": "подготовку пластика, УФ-экспозицию, травление, обращение с кислотой, выход плат и запрет ранних наград"
+    },
+    {
+      "tokens": ["refinery", "thermopneumatic", "plastic", "kerosene", "diesel", "gasoline", "lpg"],
+      "role_en": "oil, heat or plastic processing component",
+      "role_ru": "компонент переработки нефти, тепла или пластика",
+      "focus_en": "temperature window, fluid separation, heat source, output tanks, byproduct routing and clean cooldown",
+      "focus_ru": "температурное окно, разделение жидкостей, источник тепла, выходные ёмкости, побочные продукты и охлаждение"
+    },
+    {
+      "tokens": ["assembly_", "laser", "drill"],
+      "role_en": "assembly-line automation component",
+      "role_ru": "компонент автоматической сборочной линии",
+      "focus_en": "controller program, platform layout, laser or drill sequence, input trays, output collection and restart after blockage",
+      "focus_ru": "программу контроллера, размещение платформ, последовательность лазера или сверла, входы, сбор выхода и перезапуск после блокировки"
+    },
+    {
+      "tokens": ["drone", "programmer", "programming_puzzle", "network_api"],
+      "role_en": "programmable drone or logic component",
+      "role_ru": "компонент программируемого дрона или логики",
+      "focus_en": "program flow, area ownership, inventory filters, pathing, chunk boundaries, abort condition and drone recovery",
+      "focus_ru": "поток программы, владение областью, фильтры инвентаря, поиск пути, границы чанков, условие отмены и возврат дрона"
+    },
+    {
+      "tokens": ["logistics_", "omnidirectional_hopper", "tag_workbench"],
+      "role_en": "pneumatic logistics component",
+      "role_ru": "компонент пневматической логистики",
+      "focus_en": "request and provider priority, filter exactness, routing range, stock retention, overflow and loop prevention",
+      "focus_ru": "приоритет запросов и поставщиков, точность фильтра, радиус, сохранение запаса, переполнение и защиту от циклов"
+    },
+    {
+      "tokens": ["heat_frame", "heat_pipe", "vortex_tube", "heat_sink", "compressed_iron_block"],
+      "role_en": "heat-transfer or temperature-control component",
+      "role_ru": "компонент теплопередачи или контроля температуры",
+      "focus_en": "hot and cold sides, insulation, equilibrium temperature, air cost, adjacent-machine demand and shutdown cooling",
+      "focus_ru": "горячую и холодную стороны, изоляцию, равновесную температуру, расход воздуха, спрос соседних машин и охлаждение"
+    },
+    {
+      "tokens": ["pneumatic_helmet", "pneumatic_chestplate", "pneumatic_leggings", "pneumatic_boots", "minigun", "jackhammer"],
+      "role_en": "pressurized equipment capability item",
+      "role_ru": "предмет возможностей на сжатом воздухе",
+      "focus_en": "air capacity, upgrade slots, active ability, recharge infrastructure, combat or mining throughput and repair path",
+      "focus_ru": "запас воздуха, слоты улучшений, активную способность, инфраструктуру зарядки, скорость боя или добычи и ремонт"
+    },
+    {
+      "tokens": ["upgrade_", "speed_upgrade", "volume_upgrade", "security_upgrade"],
+      "role_en": "machine or equipment upgrade",
+      "role_ru": "улучшение машины или снаряжения",
+      "focus_en": "compatible host, stack limit, additional pressure or air demand, exact capability gain and safe removal",
+      "focus_ru": "совместимый носитель, лимит количества, дополнительный спрос давления или воздуха, точный прирост и безопасное снятие"
+    },
+    {
+      "tokens": ["amadron", "trading"],
+      "role_en": "remote trading component",
+      "role_ru": "компонент удалённой торговли",
+      "focus_en": "offer source, payment and delivery inventory, unavailable-offer handling, stage restrictions and duplication prevention",
+      "focus_ru": "источник предложений, инвентарь оплаты и доставки, обработку недоступных сделок, этапные ограничения и защиту от копирования"
+    }
+  ],
+  "default": {
+    "role_en": "specialized PneumaticCraft component",
+    "role_ru": "специализированный компонент PneumaticCraft",
+    "focus_en": "its pressure, heat, air, program or logistics contract and a safe blocked, empty or overpressure state",
+    "focus_ru": "его контракт давления, тепла, воздуха, программы или логистики и безопасное состояние блокировки, пустого входа или превышения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod pneumatic integration component",
+    "role_ru": "межмодовый компонент пневматической интеграции",
+    "focus_en": "the external stage, conversion direction, pressure or heat dependency and absence of a cheaper substitute",
+    "focus_ru": "внешний этап, направление преобразования, зависимость от давления или тепла и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "pressure-system design checkpoint",
+    "role_ru": "контрольная точка проектирования пневмосистемы",
+    "focus_en": "documented pressure zones, compressor capacity, heat balance, emergency isolation and restart procedure",
+    "focus_ru": "задокументированные зоны давления, мощность компрессоров, тепловой баланс, аварийную изоляцию и перезапуск"
+  }
+}

@@ -1,0 +1,157 @@
+name: Validate expert modpack
+
+on:
+  push:
+    branches:
+      - expert-overhaul-v1
+    paths:
+      - "flame/manifest.json"
+      - "minecraft/**"
+      - ".github/workflows/validate-pack.yml"
+  pull_request:
+    paths:
+      - "flame/manifest.json"
+      - "minecraft/**"
+      - ".github/workflows/validate-pack.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expert-pack-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_BRANCH: ${{ github.event.pull_request.head.ref || github.ref_name }}
+    steps:
+      - name: Check out source directories
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            flame/manifest.json
+            minecraft/config
+            minecraft/docs
+            minecraft/kubejs
+            minecraft/tools
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sanitize release manifest
+        run: python minecraft/tools/optimize_release_manifest.py
+
+      - name: Build selected gameplay guide registry
+        run: |
+          python minecraft/tools/build_mod_guide_registry.py
+          python minecraft/tools/seed_core_mod_guide_registry.py
+
+      - name: Normalize progression and close known bypasses
+        run: |
+          python minecraft/tools/normalize_progression_contract.py
+          python minecraft/tools/sync_projecte_emc_blacklist.py
+          python minecraft/tools/remove_gated_quest_rewards.py
+
+      - name: Synchronize expert localization and upgrade legacy chapters
+        run: |
+          python minecraft/tools/sync_expert_localization.py
+          python minecraft/tools/sync_engineering_guide_localization.py
+          python minecraft/tools/upgrade_expert_progression.py
+          python minecraft/tools/upgrade_expert_progression_localization.py
+          python minecraft/tools/upgrade_create_core.py
+          python minecraft/tools/upgrade_create_core_localization.py
+          python minecraft/tools/upgrade_ie_core.py
+          python minecraft/tools/upgrade_ie_core_localization.py
+          python minecraft/tools/upgrade_mi_core.py
+          python minecraft/tools/upgrade_ae2_core.py
+          python minecraft/tools/upgrade_mekanism_core.py
+          python minecraft/tools/upgrade_simply_swords_catalog.py
+          python minecraft/tools/upgrade_powah_catalog.py
+          python minecraft/tools/upgrade_storage_systems_core_v2.py
+          python minecraft/tools/upgrade_mystical_agriculture_catalog.py
+          python minecraft/tools/upgrade_industrial_foregoing_catalog.py
+          python minecraft/tools/upgrade_hostile_neural_networks_catalog.py
+          python minecraft/tools/upgrade_woot_catalog.py
+          python minecraft/tools/run_established_catalog_suite.py upgrade
+          python minecraft/tools/reduce_expert_startup_logging.py
+
+      - name: Generate or verify curated manuals and 121-quest stages
+        run: python minecraft/tools/generate_cached_questbook.py
+
+      - name: Tune and calculate theoretical balance
+        run: |
+          python minecraft/tools/tune_combat_profiles.py
+          python minecraft/tools/theoretical_balance.py
+
+      - name: Audit progression, recipes, bypasses, legacy quests and performance
+        run: |
+          python minecraft/tools/quest_quality_audit_safe.py
+          python minecraft/tools/progression_contract_audit.py
+          python minecraft/tools/recipe_dependency_audit.py
+          python minecraft/tools/bypass_audit.py
+          python minecraft/tools/mod_guide_coverage_audit.py
+          python minecraft/tools/legacy_quest_semantic_audit_safe.py
+          python minecraft/tools/performance_configuration_audit_all.py
+
+      - name: Gate curated manuals and core routes
+        run: |
+          python minecraft/tools/all_manual_quality_gate.py
+          python minecraft/tools/stage_chapter_workflow_quality_gate.py
+          python -c "import sys; sys.path.insert(0, 'minecraft/tools'); import late_stage_workflow_profiles_corrected; import stage_depth_program_quality_gate as m; raise SystemExit(m.main())"
+          python minecraft/tools/create_core_quality_gate.py
+          python minecraft/tools/ie_core_quality_gate.py
+          python minecraft/tools/mi_core_quality_gate.py
+          python minecraft/tools/ae2_core_quality_gate.py
+          python minecraft/tools/mekanism_core_quality_gate.py
+          python minecraft/tools/simply_swords_quality_gate.py
+          python minecraft/tools/powah_quality_gate.py
+          python minecraft/tools/storage_systems_core_quality_gate_v2.py
+          python minecraft/tools/mystical_agriculture_quality_gate.py
+          python minecraft/tools/industrial_foregoing_quality_gate.py
+          python minecraft/tools/hostile_neural_networks_quality_gate.py
+          python minecraft/tools/woot_quality_gate.py
+          python minecraft/tools/run_established_catalog_suite.py gate
+
+      - name: Validate scripts, quests and localization
+        run: python minecraft/tools/static_validate.py
+
+      - name: Classify v1 product readiness
+        run: python minecraft/tools/v1_product_readiness.py
+
+      - name: Commit generated pack metadata
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Generated pack metadata is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A \
+            flame/manifest.json \
+            minecraft/config/expert_progression_contract.json \
+            minecraft/config/generated_content_fingerprint.json \
+            minecraft/config/mod_guide_registry.json \
+            minecraft/config/legacy_quest_remediation_queue.json \
+            minecraft/config/ProjectE/custom_emc.json \
+            minecraft/config/ftbquests/quests/chapters \
+            minecraft/config/ftbquests/quests/lang/en_us.snbt \
+            minecraft/config/ftbquests/quests/lang/ru_ru.snbt \
+            minecraft/kubejs/server_scripts \
+            minecraft/docs
+          git commit -m "automation: synchronize release manifest, cached questbook and reports"
+          git push origin HEAD:${TARGET_BRANCH}

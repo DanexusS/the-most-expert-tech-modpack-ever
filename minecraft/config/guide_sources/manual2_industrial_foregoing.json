@@ -1,0 +1,145 @@
+{
+  "slug": "industrial_foregoing",
+  "lessons": [
+    {
+      "slug": "latex",
+      "icon": "industrialforegoing:latex_processing_unit",
+      "title_en": "Latex and Plastic Foundation",
+      "title_ru": "Латекс и пластиковая основа",
+      "desc_en": [
+        "Industrial Foregoing begins with tree fluid extraction, latex buffering and plastic production. One slow extractor should not define the permanent rate of the entire mod.",
+        "Measure fluid per tree, scale extraction before consumers, buffer water and latex separately and stop processing when plastic storage is full."
+      ],
+      "desc_ru": [
+        "Industrial Foregoing начинается с извлечения жидкости из деревьев, буфера латекса и пластика. Один медленный экстрактор не должен навсегда определять скорость мода.",
+        "Измеряйте выход с дерева, масштабируйте добычу до потребителей, отдельно храните воду и латекс и останавливайте процесс при заполнении пластика."
+      ]
+    },
+    {
+      "slug": "frames",
+      "icon": "industrialforegoing:machine_frame_advanced",
+      "title_en": "Machine Frames as Stage Standards",
+      "title_ru": "Корпуса машин как стандарты этапов",
+      "desc_en": [
+        "Machine frames represent increasing material, circuit and process capability. Receiving an advanced frame through loot or a quest reward bypasses an industrial stage.",
+        "Produce every frame through the declared route, retain reusable engineering standards and audit add-ons that introduce alternative frame recipes."
+      ],
+      "desc_ru": [
+        "Корпуса отражают рост возможностей материалов, схем и процессов. Получение продвинутого корпуса через лут или награду пропускает промышленный этап.",
+        "Создавайте каждый корпус через объявленную цепочку, сохраняйте многоразовые стандарты и проверяйте аддоны с альтернативными рецептами."
+      ]
+    },
+    {
+      "slug": "work_area",
+      "icon": "industrialforegoing:machine_area_provider",
+      "title_en": "Working Areas and Chunk Boundaries",
+      "title_ru": "Рабочие области и границы чанков",
+      "desc_en": [
+        "Many IF machines operate over configurable areas. Oversized or overlapping regions waste power, duplicate work and hide chunk-loading assumptions.",
+        "Visualize every area, avoid accidental overlap, keep critical inventories loaded and document which machine owns each block or entity region."
+      ],
+      "desc_ru": [
+        "Многие машины IF работают в настраиваемой области. Избыточные и пересекающиеся зоны тратят энергию, дублируют работу и скрывают зависимость от чанков.",
+        "Показывайте области, избегайте случайных пересечений, держите критические инвентари загруженными и назначайте владельца каждой зоны."
+      ]
+    },
+    {
+      "slug": "plants",
+      "icon": "industrialforegoing:plant_gatherer",
+      "title_en": "Plant Automation and Sludge",
+      "title_ru": "Автоматизация растений и шлам",
+      "desc_en": [
+        "Plant production combines sowing, gathering, fertilizer, item routing and sludge or other secondary outputs. The harvester alone is not a complete farm.",
+        "Balance replanting stock, route products by type, process or store sludge and verify one full crop cycle without manual seed replacement."
+      ],
+      "desc_ru": [
+        "Растительное производство объединяет посадку, сбор, удобрение, маршрутизацию и шлам или другие выходы. Один сборщик не является полной фермой.",
+        "Согласуйте запас семян, разделяйте продукты, перерабатывайте шлам и проверяйте полный цикл без ручной замены посадочного материала."
+      ]
+    },
+    {
+      "slug": "animals",
+      "icon": "industrialforegoing:animal_rancher",
+      "title_en": "Animal Machines and Population Control",
+      "title_ru": "Животноводческие машины и контроль численности",
+      "desc_en": [
+        "Breeding, feeding, ranching and slaughter machines can grow populations faster than outputs are handled, creating entity load and blocked inventories.",
+        "Set population limits, separate breeding stock, handle every product and prove that a full output stops breeding before entity count rises."
+      ],
+      "desc_ru": [
+        "Машины разведения, кормления, сбора и убоя увеличивают численность быстрее обработки выходов, создавая нагрузку и переполнение.",
+        "Задавайте предел популяции, отделяйте племенной запас, обрабатывайте продукты и останавливайте размножение до роста числа сущностей."
+      ]
+    },
+    {
+      "slug": "mobs",
+      "icon": "industrialforegoing:mob_crusher",
+      "title_en": "Mob Processing and Essence",
+      "title_ru": "Переработка мобов и эссенция",
+      "desc_en": [
+        "Mob processing converts controlled spawns into drops and essence. It must not become an early source of boss permissions or progression-locked materials.",
+        "Use explicit entity filters, contain spawns, buffer essence and drops, disable the system on overflow and audit every simulated entity against stage policy."
+      ],
+      "desc_ru": [
+        "Переработка мобов превращает контролируемый спавн в лут и эссенцию. Она не должна давать ранние боссовые допуски или закрытые материалы.",
+        "Используйте точные фильтры, удерживайте спавн, буферизуйте выходы, отключайте при переполнении и сверяйте каждую сущность с политикой этапов."
+      ]
+    },
+    {
+      "slug": "fluids",
+      "icon": "industrialforegoing:dissolution_chamber",
+      "title_en": "Fluid Recipes and Dissolution",
+      "title_ru": "Жидкостные рецепты и растворение",
+      "desc_en": [
+        "IF fluid machines combine item ratios, fluid inputs and reusable molds or components. A wrong side or full secondary tank can silently halt the line.",
+        "Label all sides, preserve reusable items, calculate fluid per batch and stop upstream production before either item or fluid output saturates."
+      ],
+      "desc_ru": [
+        "Жидкостные машины IF объединяют предметы, жидкости и многоразовые формы. Неверная сторона или полный вторичный бак незаметно останавливает линию.",
+        "Подписывайте стороны, возвращайте многоразовые предметы, рассчитывайте жидкость на партию и останавливайте верхнюю подачу до переполнения."
+      ]
+    },
+    {
+      "slug": "lasers",
+      "icon": "industrialforegoing:laser_drill",
+      "title_en": "Laser Drilling and Ore Policy",
+      "title_ru": "Лазерное бурение и политика руд",
+      "desc_en": [
+        "Laser drills are configurable renewable resource generators whose lenses and location rules can bypass exploration or material stages if unrestricted.",
+        "Define allowed outputs by stage, restrict late ores, meter power cost, provide overflow and compare drilling with existing extraction before scaling."
+      ],
+      "desc_ru": [
+        "Лазерные буры являются настраиваемыми генераторами и без ограничений пропускают исследование или этапы материалов.",
+        "Определяйте разрешённые выходы по этапам, закрывайте поздние руды, учитывайте энергию, создавайте переполнение и сравнивайте с существующей добычей."
+      ]
+    },
+    {
+      "slug": "enchanting",
+      "icon": "industrialforegoing:enchantment_factory",
+      "title_en": "Essence, Enchanting and Books",
+      "title_ru": "Эссенция, зачарование и книги",
+      "desc_en": [
+        "Enchanting machines convert essence, items and books through specialized steps. Random output can consume substantial resources without improving the intended equipment.",
+        "Separate extraction, sorting and application, recycle unwanted books only through a bounded policy and reserve essence for mandatory production."
+      ],
+      "desc_ru": [
+        "Зачаровывающие машины преобразуют эссенцию, предметы и книги в нескольких этапах. Случайный выход расходует ресурсы без улучшения нужного снаряжения.",
+        "Разделяйте извлечение, сортировку и применение, перерабатывайте ненужные книги ограниченно и сохраняйте эссенцию для обязательного производства."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bio_process_controller",
+      "title_en": "Project: Closed-Loop Bioindustry",
+      "title_ru": "Проект: замкнутая биоиндустрия",
+      "desc_en": [
+        "Build an IF complex that produces plastic, runs one plant or animal line and processes every fluid and secondary output without unrestricted resource simulation.",
+        "The project passes after two cycles, bounded working areas, verified frame stages, overflow shutdown and documented power and fluid balances."
+      ],
+      "desc_ru": [
+        "Постройте комплекс IF, выпускающий пластик, обслуживающий растительную или животную линию и обрабатывающий все жидкости без бесконтрольной симуляции.",
+        "Проект принят после двух циклов, ограниченных областей, соблюдения уровней корпусов, остановки при переполнении и баланса энергии и жидкостей."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "flux_networks",
+  "chapter_id": "42510D445257E239",
+  "chapter_title_en": "Flux Networks — Secured Wireless Power Grids",
+  "chapter_title_ru": "Flux Networks — защищённые беспроводные энергосети",
+  "report_filename": "FLUX_NETWORKS_GRID_QUALITY_REPORT.md",
+  "report_title": "Flux Networks Grid Quality Report",
+  "report_intro": "Every Flux Networks node must demonstrate secured network creation, measured transfer, storage, priorities, chunk behavior and failure recovery instead of refunding flux dust, cores, points or experience.",
+  "expected_quests": 10,
+  "minimum_description": 220,
+  "primary_namespace": "fluxnetworks",
+  "primary_namespaces": ["fluxnetworks"],
+  "acceptance_namespace": "flux_networks_grid_acceptance",
+  "checkpoint_name": "Wireless Grid Acceptance Checkpoint",
+  "title_suffix_en": "Secured-Grid Acceptance",
+  "title_suffix_ru": "приёмка защищённой сети",
+  "description_en": "{display} is a {role} in the Flux Networks grid. It must be validated in a secured, instrumented source-to-load topology with explicit transfer limits, priorities and recovery—not treated as an isolated block whose dust, cores or endpoints are refunded by quest rewards.",
+  "description_ru": "{display} — {role} в сети Flux Networks. Его необходимо проверять в защищённой измеряемой топологии от источника к нагрузке с явными пределами передачи, приоритетами и восстановлением, а не как отдельный блок, пыль, ядра или конечные точки которого возвращаются наградами.",
+  "acceptance_en": "Acceptance: verify {focus}; create or inspect one named secured network, record source and load baselines, transfer a bounded energy amount, test priority, rate-limit, full-storage or disconnected behavior, restart or reload the relevant chunks and confirm that rewards, cross-network leakage, duplicate endpoints and positive feedback cannot create energy or bypass ownership.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; создайте или осмотрите одну именованную защищённую сеть, зафиксируйте базовые показатели источника и нагрузки, передайте ограниченное количество энергии, испытайте приоритет, лимит скорости, заполненное хранилище или отключение, перезапустите либо перезагрузите соответствующие чанки и исключите создание энергии или обход владельца через награды, утечку между сетями, копирование конечных точек и положительную обратную связь.",
+  "categories": [
+    {
+      "tokens": ["flux_dust", "flux_core", "flux_block"],
+      "role_en": "wireless-grid material or network-construction component",
+      "role_ru": "материал беспроводной сети или компонент её строительства",
+      "focus_en": "legal material route, batch yield, exact endpoint and storage consumption, protected buffer, no reward refund, disabled recursive conversion and reconciliation showing that network construction does not multiply flux material",
+      "focus_ru": "честный маршрут материала, выход партии, точный расход на конечные точки и хранилище, защищённый буфер, отсутствие возврата наградой, отключённую рекурсивную конвертацию и сверку отсутствия умножения flux-материала"
+    },
+    {
+      "tokens": ["flux_configurator", "controller", "config"],
+      "role_en": "network configuration, ownership and security interface",
+      "role_ru": "интерфейс настройки, владения и безопасности сети",
+      "focus_en": "network name and owner, password or access list, public versus private mode, selected transfer mode, endpoint assignment, invalid-access rejection, configuration persistence and recovery from a lost or replaced configurator",
+      "focus_ru": "имя и владельца сети, пароль или список доступа, публичный и приватный режим, выбранный режим передачи, назначение конечных точек, отклонение неверного доступа, сохранение настроек и восстановление после потери либо замены конфигуратора"
+    },
+    {
+      "tokens": ["flux_plug", "plug"],
+      "role_en": "wireless-grid energy input endpoint",
+      "role_ru": "входная конечная точка беспроводной энергосети",
+      "focus_en": "source interface, extraction side, transfer limit, priority, source-buffer protection, idle and disconnected behavior, cross-dimension rules and proof that repeated connection or restart cannot duplicate extracted energy",
+      "focus_ru": "интерфейс источника, сторону извлечения, предел передачи, приоритет, защиту буфера источника, поведение в простое и при отключении, межизмеренные правила и отсутствие копирования извлечённой энергии повторным подключением либо перезапуском"
+    },
+    {
+      "tokens": ["flux_point", "point"],
+      "role_en": "wireless-grid load output endpoint",
+      "role_ru": "выходная конечная точка нагрузки беспроводной сети",
+      "focus_en": "target interface, insertion side, demand and rate limit, priority, full-target behavior, ownership, cross-dimension operation, unload and reload recovery and confirmation that one point cannot draw from unauthorized networks",
+      "focus_ru": "целевой интерфейс, сторону вставки, спрос и лимит скорости, приоритет, поведение полной цели, владельца, межизмеренную работу, восстановление после выгрузки и загрузки и запрет получения энергии из чужих сетей"
+    },
+    {
+      "tokens": ["flux_storage", "basic_flux_storage", "herculean", "gargantuan", "storage"],
+      "role_en": "wireless-grid storage and buffering tier",
+      "role_ru": "уровень хранения и буферизации беспроводной сети",
+      "focus_en": "capacity, charge and discharge ceiling, priority, tier ancestry, empty and full behavior, comparator or monitoring state, restart persistence, emergency isolation and efficiency under representative source and load changes",
+      "focus_ru": "ёмкость, предел заряда и разряда, приоритет, происхождение уровня, поведение пустого и полного состояния, сигнал мониторинга, сохранение после перезапуска, аварийную изоляцию и эффективность при показательных изменениях источника и нагрузки"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Flux Networks grid component",
+    "role_ru": "специализированный компонент сети Flux Networks",
+    "focus_en": "network assignment, ownership, source or load role, transfer ceiling, priority, storage, chunk and dimension behavior, failure recovery and energy conservation",
+    "focus_ru": "назначение сети, владельца, роль источника или нагрузки, предел передачи, приоритет, хранение, поведение чанков и измерений, восстановление после отказа и сохранение энергии"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod source, load or storage interface attached to Flux Networks",
+    "role_ru": "межмодовый интерфейс источника, нагрузки или хранения, подключённый к Flux Networks",
+    "focus_en": "its legal stage source, energy capability and side, transfer contract, buffer and ownership and proof that the wireless grid cannot bypass the attached mod's voltage, tier or machine permission",
+    "focus_ru": "его честный этапный источник, энергетическую возможность и сторону, контракт передачи, буфер и владельца и доказательство, что беспроводная сеть не обходит напряжение, уровень или допуск машины подключённого мода"
+  },
+  "checkpoint": {
+    "role_en": "wireless power-grid design review",
+    "role_ru": "проверка проекта беспроводной энергосети",
+    "focus_en": "network ownership, sources, loads, storage, priorities, rate limits, cross-dimension policy, chunk reload, disconnected and full states, restart and energy balance",
+    "focus_ru": "владельца сети, источники, нагрузки, хранение, приоритеты, лимиты скорости, межизмеренную политику, перезагрузку чанков, отключённые и полные состояния, перезапуск и энергетический баланс"
+  }
+}

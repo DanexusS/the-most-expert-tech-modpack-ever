@@ -1,0 +1,110 @@
+{
+  "chapter_filename": "avaritia",
+  "chapter_id": "568601071A7A5099",
+  "chapter_title_en": "Avaritia — Extreme Production and Convergence",
+  "chapter_title_ru": "Avaritia — экстремальное производство и схождение ветвей",
+  "report_filename": "AVARITIA_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Avaritia Catalogue Quality Report",
+  "report_intro": "Every Avaritia node must explain the production infrastructure, singularity or convergence role behind the item and must not distribute endgame materials as quest rewards.",
+  "expected_quests": 75,
+  "minimum_description": 190,
+  "primary_namespace": "avaritia",
+  "acceptance_namespace": "avaritia_catalog_acceptance",
+  "checkpoint_name": "Extreme Production Checkpoint",
+  "title_suffix_en": "Endgame Production Acceptance",
+  "title_suffix_ru": "приёмка эндгейм-производства",
+  "description_en": "{display} is a {role} in Avaritia. Difficulty must come from mature cross-mod infrastructure, parallel production and controlled convergence rather than repetitive manual crafting or random rewards.",
+  "description_ru": "{display} — {role} в Avaritia. Сложность должна исходить из зрелой межмодовой инфраструктуры, параллельного производства и управляемого схождения, а не из повторного ручного крафта или случайных наград.",
+  "acceptance_en": "Acceptance: verify {focus}; demonstrate a repeatable automated supply path, record throughput and reserves, retain reusable permissions, and close loot, reward, EMC, seed, bee, mob-simulation, salvage and alternate-recipe bypasses.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; покажите повторяемый автоматический путь снабжения, запишите скорость и резервы, сохраняйте многоразовые допуски и закройте обходы через лут, награды, EMC, семена, пчёл, симуляцию мобов, разбор и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["compressed_crafting_table", "sculk_crafting_table", "nether_crafting_table", "end_crafting_table", "extreme_crafting_table"],
+      "role_en": "crafting-infrastructure tier",
+      "role_ru": "уровень инфраструктуры крафта",
+      "focus_en": "previous-table ancestry, matrix size, automation interface, recipe authority and prevention of lower-table substitutes",
+      "focus_ru": "происхождение от предыдущего стола, размер матрицы, интерфейс автоматизации, авторитет рецепта и запрет замен более низким столом"
+    },
+    {
+      "tokens": ["neutron_collector", "neutronium", "neutron_pile", "neutron_nugget"],
+      "role_en": "neutronium production component",
+      "role_ru": "компонент производства нейтрония",
+      "focus_en": "collector count, passive production rate, chunk availability, buffer capacity and fair scaling without manual waiting",
+      "focus_ru": "число коллекторов, пассивную скорость, загрузку чанков, ёмкость буфера и справедливое масштабирование без ручного ожидания"
+    },
+    {
+      "tokens": ["singularity"],
+      "role_en": "bulk-resource singularity or convergence material",
+      "role_ru": "сингулярность массового ресурса или материал схождения",
+      "focus_en": "authoritative input material, exact count, automated compression, renewable-source legality and protection from cross-tag substitution",
+      "focus_ru": "авторитетный входной материал, точное количество, автоматическое сжатие, законность возобновляемого источника и защиту от подмены тегом"
+    },
+    {
+      "tokens": ["infinity_catalyst", "ultimate_stew", "cosmic_meatballs", "record_fragment", "endest_pearl"],
+      "role_en": "multi-branch convergence ingredient",
+      "role_ru": "ингредиент схождения нескольких ветвей",
+      "focus_en": "all required domain outputs, batch automation, container return, unique encounter permissions and absence of random acquisition",
+      "focus_ru": "выходы всех требуемых направлений, автоматизацию партии, возврат контейнеров, уникальные боевые допуски и отсутствие случайного получения"
+    },
+    {
+      "tokens": ["infinity_ingot", "crystal_matrix", "diamond_lattice"],
+      "role_en": "endgame structural material",
+      "role_ru": "эндгейм-материал конструкции",
+      "focus_en": "full convergence recipe, previous-tier components, antimatter or draconic dependencies, EMC zeroing and scalable batch production",
+      "focus_ru": "полный рецепт схождения, компоненты предыдущего уровня, антиматерию или драконические зависимости, нулевой EMC и масштабируемую партию"
+    },
+    {
+      "tokens": ["infinity_sword", "world_breaker", "planet_eater", "nature_ruin", "skullfire_sword", "infinity_bow"],
+      "role_en": "creative-adjacent weapon or tool",
+      "role_ru": "оружие или инструмент, близкий к творческому режиму",
+      "focus_en": "area effect, world damage, combat throughput, safety controls, repair or replacement and strict post-convergence acquisition",
+      "focus_ru": "эффект области, воздействие на мир, боевую производительность, защитные ограничения, ремонт или замену и получение только после схождения"
+    },
+    {
+      "tokens": ["infinity_helmet", "infinity_chestplate", "infinity_pants", "infinity_boots"],
+      "role_en": "creative-adjacent armor capability",
+      "role_ru": "защитная возможность, близкая к творческому режиму",
+      "focus_en": "damage immunity or reduction, flight and movement, environmental protection, interaction with combat scaling and replacement after loss",
+      "focus_ru": "иммунитет или снижение урона, полёт и движение, защиту среды, взаимодействие с усилением боя и замену после потери"
+    },
+    {
+      "tokens": ["matter_cluster", "full_matter_cluster"],
+      "role_en": "compressed matter container",
+      "role_ru": "контейнер сжатой материи",
+      "focus_en": "contained-item accounting, component preservation, unpacking direction, duplication resistance and storage or EMC interaction",
+      "focus_ru": "учёт вложенных предметов, сохранение компонентов, направление распаковки, защиту от копирования и взаимодействие с хранением или EMC"
+    },
+    {
+      "tokens": ["neutron_compressor", "dense_neutron_collector", "extreme_crafter"],
+      "role_en": "extreme-production machine",
+      "role_ru": "машина экстремального производства",
+      "focus_en": "input throughput, power or time requirement, parallelization, output blocking and restart without losing accumulated work",
+      "focus_ru": "скорость входов, энергию или время, параллелизацию, блокировку выхода и перезапуск без потери накопленной работы"
+    },
+    {
+      "tokens": ["creative_", "endless_cake", "infinity_clock"],
+      "role_en": "creative or rule-altering endgame item",
+      "role_ru": "творческий или изменяющий правила эндгейм-предмет",
+      "focus_en": "exact capability, server-side consequences, permission boundary, irreversibility and placement after every other production gate",
+      "focus_ru": "точную возможность, серверные последствия, границу разрешений, необратимость и размещение после всех остальных производственных допусков"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Avaritia endgame component",
+    "role_ru": "специализированный эндгейм-компонент Avaritia",
+    "focus_en": "its resource-domain dependencies, automation path, effective capability and strict post-stage acquisition policy",
+    "focus_ru": "его зависимости от ресурсных направлений, путь автоматизации, реальную возможность и строгую политику получения после этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod convergence component",
+    "role_ru": "межмодовый компонент схождения",
+    "focus_en": "the external mod's completed infrastructure, authoritative output, data or container state and absence of a cheaper substitute",
+    "focus_ru": "завершённую инфраструктуру внешнего мода, авторитетный выход, состояние данных или контейнера и отсутствие дешёвой замены"
+  },
+  "checkpoint": {
+    "role_en": "endgame convergence checkpoint",
+    "role_ru": "контрольная точка эндгейм-схождения",
+    "focus_en": "documented parallel supply chains, bottleneck analysis, reusable permissions, recovery reserve and automated repeatability",
+    "focus_ru": "задокументированные параллельные цепочки, анализ узких мест, многоразовые допуски, резерв восстановления и автоматическую повторяемость"
+  }
+}

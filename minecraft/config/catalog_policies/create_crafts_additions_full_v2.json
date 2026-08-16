@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "create_crafts__additions",
+  "chapter_id": "66F98B6CCBBBF2A2",
+  "chapter_title_en": "Create Crafts & Additions — Electromechanical Conversion",
+  "chapter_title_ru": "Create Crafts & Additions — электромеханическое преобразование",
+  "report_filename": "CREATE_CRAFTS_ADDITIONS_OPERATIONAL_QUALITY_REPORT.md",
+  "report_title": "Create Crafts & Additions Operational Quality Report",
+  "report_intro": "Every Create Crafts & Additions node must teach conversion direction, stress or electrical limits, conductor sizing, measured efficiency and restart behavior instead of paying experience for collecting a component.",
+  "expected_quests": 27,
+  "minimum_description": 215,
+  "primary_namespace": "createaddition",
+  "primary_namespaces": ["createaddition", "create"],
+  "acceptance_namespace": "createaddition_operational_acceptance",
+  "checkpoint_name": "Electromechanical Acceptance Checkpoint",
+  "title_suffix_en": "Conversion-System Acceptance",
+  "title_suffix_ru": "приёмка системы преобразования",
+  "description_en": "{display} is a {role} in the Create Crafts & Additions branch. It must be validated inside a complete conversion or distribution system with known direction, load and losses—not treated as a collectible part whose cost is refunded by quest experience or materials.",
+  "description_ru": "{display} — {role} ветви Create Crafts & Additions. Его необходимо проверять в составе полной системы преобразования или распределения с известным направлением, нагрузкой и потерями, а не считать коллекционной деталью, стоимость которой возвращается опытом или материалами из квеста.",
+  "acceptance_en": "Acceptance: verify {focus}; record an idle baseline, run one bounded batch or power interval, measure input, output and losses, test overload or disconnected-output behavior, recover after shutdown or restart and confirm that rewards, duplicated conductors and free energy feedback cannot bypass the intended infrastructure cost.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте базовую линию простоя, выполните ограниченную партию или энергетический интервал, измерьте вход, выход и потери, испытайте перегрузку или отключённый выход, восстановитесь после остановки или перезапуска и исключите обход стоимости инфраструктуры через награды, копирование проводников и обратную связь бесплатной энергии.",
+  "categories": [
+    {
+      "tokens": ["rolling_mill", "wire", "rod", "spool"],
+      "role_en": "conductor or stock-material fabrication component",
+      "role_ru": "компонент изготовления проводников или профильного материала",
+      "focus_en": "feedstock identity, rolling or drawing sequence, batch yield, stress and speed requirement, conductor material, buffer limit, scrap handling and reconciliation proving that no metal is multiplied",
+      "focus_ru": "тип исходного металла, последовательность прокатки или вытяжки, выход партии, требования нагрузки и скорости, материал проводника, предел буфера, обработку брака и сверку отсутствия умножения металла"
+    },
+    {
+      "tokens": ["electric_motor", "alternator", "generator"],
+      "role_en": "kinetic-to-electric or electric-to-kinetic converter",
+      "role_ru": "преобразователь кинетической и электрической энергии",
+      "focus_en": "conversion direction, RPM and stress input, voltage or power output, efficiency under representative load, idle draw, overload cutoff and prevention of a closed positive-power loop",
+      "focus_ru": "направление преобразования, входные обороты и нагрузку, выходное напряжение или мощность, КПД под показательной нагрузкой, расход в простое, отключение при перегрузке и запрет замкнутого положительного энергетического цикла"
+    },
+    {
+      "tokens": ["capacitor", "accumulator", "battery"],
+      "role_en": "electrical buffer or energy-storage component",
+      "role_ru": "электрический буфер или накопитель энергии",
+      "focus_en": "capacity, charge and discharge rate, accepted voltage, transfer losses, empty and full behavior, comparator or control signal, restart persistence and safe isolation during maintenance",
+      "focus_ru": "ёмкость, скорость заряда и разряда, допустимое напряжение, потери передачи, поведение при пустом и полном состоянии, сигнал управления, сохранение после перезапуска и безопасную изоляцию при обслуживании"
+    },
+    {
+      "tokens": ["connector", "wireless", "portable_energy", "redstone_relay", "modular_accumulator"],
+      "role_en": "electrical distribution, interface or control device",
+      "role_ru": "устройство распределения, интерфейса или управления электричеством",
+      "focus_en": "connection topology, range, transfer ceiling, voltage compatibility, chunk-border behavior, disconnect interlock, loss recovery and confirmation that wireless or portable transfer cannot cross gated boundaries",
+      "focus_ru": "топологию соединений, дальность, предел передачи, совместимость напряжений, поведение на границе чанков, блокировку отключения, восстановление после потери и запрет пересечения закрытых границ беспроводной или переносной передачей"
+    },
+    {
+      "tokens": ["tesla", "heater", "burner", "biomass", "straw"],
+      "role_en": "specialized electrical load, heat device or fuel-processing unit",
+      "role_ru": "специализированная электрическая нагрузка, нагреватель или топливный узел",
+      "focus_en": "input power or fuel, useful thermal or processing output, effective range, entity and block safety, shutdown, byproducts, measured consumption and recovery after interrupted processing",
+      "focus_ru": "входную мощность или топливо, полезный тепловой или технологический выход, эффективный радиус, безопасность сущностей и блоков, отключение, побочные продукты, измеренный расход и восстановление после прерывания"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Create Crafts & Additions component",
+    "role_ru": "специализированный компонент Create Crafts & Additions",
+    "focus_en": "energy or material direction, operating limits, measured throughput, losses, control, shutdown, restart recovery and integration with the current-stage Create network",
+    "focus_ru": "направление энергии или материала, рабочие пределы, измеренную производительность, потери, управление, отключение, восстановление после перезапуска и интеграцию с сетью Create текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite for electromechanical conversion",
+    "role_ru": "межмодовая предпосылка электромеханического преобразования",
+    "focus_en": "its legal production route, exact consumption, voltage or stress compatibility, replacement policy and why it supports rather than bypasses the conversion chain",
+    "focus_ru": "его честный производственный маршрут, точный расход, совместимость напряжения или нагрузки, правила замены и поддержку без обхода цепочки преобразования"
+  },
+  "checkpoint": {
+    "role_en": "electromechanical system-design checkpoint",
+    "role_ru": "контрольная точка проектирования электромеханической системы",
+    "focus_en": "source, conversion direction, conductors, voltage, stress, buffers, controls, overload response, shutdown, restart and measured efficiency",
+    "focus_ru": "источник, направление преобразования, проводники, напряжение, нагрузку, буферы, управление, реакцию на перегрузку, отключение, перезапуск и измеренный КПД"
+  }
+}

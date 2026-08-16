@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "apotheosis_2",
+  "chapter_id": "0E81CBCD6B1D1895",
+  "chapter_title_en": "Apotheosis Secondary Systems — Spawners, Augmenting and Salvage",
+  "chapter_title_ru": "Вторичные системы Apotheosis — спавнеры, усиление и переработка",
+  "report_filename": "APOTHEOSIS_SECONDARY_SYSTEMS_QUALITY_REPORT.md",
+  "report_title": "Apotheosis Secondary Systems Quality Report",
+  "report_intro": "Every secondary Apotheosis node must explain spawner control, augmenting, salvaging, socket manipulation or enchanting interaction under bounded conditions instead of rewarding books, materials or experience.",
+  "expected_quests": 22,
+  "minimum_description": 215,
+  "primary_namespace": "apotheosis",
+  "primary_namespaces": ["apotheosis", "apothic_enchanting", "apothic_attributes", "minecraft"],
+  "acceptance_namespace": "apotheosis_secondary_acceptance",
+  "checkpoint_name": "Apotheosis Secondary-System Checkpoint",
+  "title_suffix_en": "Controlled-System Acceptance",
+  "title_suffix_ru": "приёмка контролируемой системы",
+  "description_en": "{display} is a {role} in the secondary Apotheosis systems. It must be tested with explicit inputs, limits, recovery and interaction rules—not treated as a collectible that returns enchanted books, affix material or experience through the quest book.",
+  "description_ru": "{display} — {role} во вторичных системах Apotheosis. Его необходимо испытывать с явными входами, пределами, восстановлением и правилами взаимодействия, а не считать коллекционным предметом, возвращающим зачарованные книги, аффиксный материал или опыт через квестовую книгу.",
+  "acceptance_en": "Acceptance: verify {focus}; record the initial state and material cost, perform one bounded modification or operating cycle, compare the result, test an invalid input or failure state, recover rejected materials and confirm that rewards, recursive salvage, unrestricted spawning and duplicate sockets cannot create net equipment value or bypass encounter permissions.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте исходное состояние и стоимость материалов, выполните одно ограниченное изменение или рабочий цикл, сравните результат, испытайте неверный вход либо отказ, верните отклонённые материалы и исключите чистую ценность снаряжения или обход встреч через награды, рекурсивную переработку, неограниченный спавн и копирование сокетов.",
+  "categories": [
+    {
+      "tokens": ["spawner", "spawn", "capturing", "boss"],
+      "role_en": "controlled-spawner or encounter-management component",
+      "role_ru": "компонент контролируемого спавнера или управления встречами",
+      "focus_en": "entity identity, spawn conditions, range and cap, redstone or player control, chunk-loading behavior, first-encounter restrictions, emergency shutdown and cleanup without duplicating entities or drops",
+      "focus_ru": "идентичность сущности, условия спавна, радиус и лимит, управление редстоуном или игроком, поведение загрузки чанков, ограничения первой встречи, аварийное отключение и очистку без копирования сущностей либо лута"
+    },
+    {
+      "tokens": ["augment", "reforg", "anvil", "shears", "affix"],
+      "role_en": "equipment augmentation or affix-manipulation workflow",
+      "role_ru": "процесс усиления снаряжения или изменения аффиксов",
+      "focus_en": "eligible item and affix state, material and experience cost, operation order, retained enchantments, rejected combinations, before-and-after comparison and rollback or salvage of an unacceptable result",
+      "focus_ru": "допустимый предмет и состояние аффиксов, стоимость материалов и опыта, порядок операций, сохранение зачарований, отклонённые сочетания, сравнение до и после и откат либо переработку неприемлемого результата"
+    },
+    {
+      "tokens": ["salvag", "material", "scrap", "dust"],
+      "role_en": "equipment salvage and affix-material recovery component",
+      "role_ru": "компонент переработки снаряжения и возврата аффиксных материалов",
+      "focus_en": "accepted equipment, rarity-dependent yield, irreversible loss, protected-item filter, output buffer, full-output behavior and conservation proof preventing salvage-recraft loops from multiplying material",
+      "focus_ru": "принимаемое снаряжение, выход по редкости, необратимую потерю, фильтр защищённых предметов, выходной буфер, поведение при заполнении и доказательство отсутствия умножения материала циклом переработки и перекрафта"
+    },
+    {
+      "tokens": ["socket", "gem", "sigil", "vial"],
+      "role_en": "socket or gem-modification component",
+      "role_ru": "компонент изменения сокетов или самоцветов",
+      "focus_en": "target-item compatibility, socket count, gem tier and trait, insertion and extraction cost, destructive versus reversible operation, protected-build backup and proof that sockets or gems are not duplicated",
+      "focus_ru": "совместимость целевого предмета, число сокетов, уровень и свойство самоцвета, стоимость установки и извлечения, разрушающую или обратимую операцию, резерв защищённой сборки и отсутствие копирования сокетов либо самоцветов"
+    },
+    {
+      "tokens": ["enchant", "book", "library", "shelf"],
+      "role_en": "enchanting support, transfer or library component",
+      "role_ru": "компонент поддержки, переноса или библиотеки зачарований",
+      "focus_en": "source enchantment, level and compatibility, transfer cost, retained item state, library capacity, duplicate-book handling, variance and confirmation that the workflow cannot generate enchantments without their required source and experience",
+      "focus_ru": "исходное зачарование, уровень и совместимость, стоимость переноса, сохранённое состояние предмета, ёмкость библиотеки, обработку дубликатов книг, разброс и запрет генерации зачарований без требуемого источника и опыта"
+    }
+  ],
+  "default": {
+    "role_en": "specialized secondary Apotheosis component",
+    "role_ru": "специализированный компонент вторичной системы Apotheosis",
+    "focus_en": "eligible input, material and experience cost, bounded result, protected-item rules, failure recovery, restart behavior and interaction with the current-stage equipment ceiling",
+    "focus_ru": "допустимый вход, стоимость материалов и опыта, ограниченный результат, правила защищённых предметов, восстановление после отказа, поведение перезапуска и связь с пределом снаряжения текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite or target used by an Apotheosis secondary system",
+    "role_ru": "межмодовая предпосылка или цель вторичной системы Apotheosis",
+    "focus_en": "its legal source, metadata and compatibility, exact consumption or retained state and proof that Apotheosis cannot fabricate, duplicate or refund the cross-mod item",
+    "focus_ru": "его честный источник, компоненты и совместимость, точное потребление или сохраняемое состояние и доказательство, что Apotheosis не создаёт, не копирует и не возвращает межмодовый предмет"
+  },
+  "checkpoint": {
+    "role_en": "secondary Apotheosis workflow review",
+    "role_ru": "проверка вторичного процесса Apotheosis",
+    "focus_en": "spawner limits, augmenting order, salvage yield, socket custody, enchanting transfer, protected items, buffers, shutdown, restart and conservation evidence",
+    "focus_ru": "пределы спавнера, порядок усиления, выход переработки, хранение сокетов, перенос зачарований, защищённые предметы, буферы, отключение, перезапуск и доказательство сохранения"
+  }
+}

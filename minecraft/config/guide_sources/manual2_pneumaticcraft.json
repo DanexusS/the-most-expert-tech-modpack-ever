@@ -1,0 +1,145 @@
+{
+  "slug": "pneumaticcraft",
+  "lessons": [
+    {
+      "slug": "pressure_model",
+      "icon": "pneumaticcraft:pressure_tube",
+      "title_en": "Pressure as Stored Work",
+      "title_ru": "Давление как запас работы",
+      "desc_en": [
+        "Pressure networks store compressed air, and every machine changes both pressure and available air volume. A high gauge reading in one small pipe is not the same as a stable production reserve.",
+        "Separate generation, storage and consumers; measure recovery after a full machine cycle and keep normal operation below the component pressure limit."
+      ],
+      "desc_ru": [
+        "Пневмосети хранят сжатый воздух, а каждая машина меняет давление и доступный объём. Высокое показание в короткой трубе не равно устойчивому производственному резерву.",
+        "Разделяйте генерацию, хранение и потребителей; измеряйте восстановление после полного цикла и держите рабочее давление ниже предела компонентов."
+      ]
+    },
+    {
+      "slug": "compression_heat",
+      "icon": "pneumaticcraft:air_compressor",
+      "title_en": "Compression, Heat and Efficiency",
+      "title_ru": "Сжатие, тепло и эффективность",
+      "desc_en": [
+        "Compressors convert fuel or power into pressure while producing heat. Excess temperature reduces efficiency and can turn a simple supply problem into a thermal shutdown.",
+        "Provide heat rejection, fuel or energy buffering and a pressure-controlled stop; compare useful air produced per input rather than judging only fill speed."
+      ],
+      "desc_ru": [
+        "Компрессоры превращают топливо или энергию в давление и выделяют тепло. Перегрев снижает эффективность и превращает нехватку воздуха в тепловую остановку.",
+        "Обеспечьте отвод тепла, буфер топлива или энергии и остановку по давлению; сравнивайте полезный воздух на единицу входа, а не только скорость заполнения."
+      ]
+    },
+    {
+      "slug": "safety",
+      "icon": "pneumaticcraft:safety_tube_module",
+      "title_en": "Safety Valves and Network Segmentation",
+      "title_ru": "Предохранители и разделение сети",
+      "desc_en": [
+        "Pressure limits differ between components. One weak tube or machine can define the safe ceiling of an otherwise advanced network.",
+        "Use safety modules and shutoff valves, label pressure classes, isolate test branches and verify that one fault cannot vent the entire factory reserve."
+      ],
+      "desc_ru": [
+        "Пределы давления различаются между компонентами. Одна слабая труба или машина задаёт безопасный потолок всей продвинутой сети.",
+        "Используйте предохранители и клапаны, подписывайте классы давления, изолируйте испытательные ветви и не допускайте потери всего резерва при одном отказе."
+      ]
+    },
+    {
+      "slug": "chamber",
+      "icon": "pneumaticcraft:pressure_chamber_wall",
+      "title_en": "Pressure Chamber Throughput",
+      "title_ru": "Пропускная способность камеры давления",
+      "desc_en": [
+        "The Pressure Chamber is a multiblock batch processor whose real speed depends on chamber volume, target pressure, input routing and output extraction.",
+        "Keep item paths one-way, expose pressure and inventory state, prevent finished items from re-entering and test a full batch without opening the chamber manually."
+      ],
+      "desc_ru": [
+        "Камера давления является пакетным мультиблоком, а её скорость зависит от объёма, целевого давления, подачи и выгрузки.",
+        "Сделайте поток односторонним, показывайте давление и инвентарь, исключите возврат готовых предметов и проверьте полную партию без ручного открытия."
+      ]
+    },
+    {
+      "slug": "plastic",
+      "icon": "pneumaticcraft:plastic",
+      "title_en": "Oil, Refining and Plastic",
+      "title_ru": "Нефть, переработка и пластик",
+      "desc_en": [
+        "Plastic production links crude inputs, temperature control, refinery outputs and solidification. Ignoring one fraction can block the whole refinery.",
+        "Plan storage for every fluid, stabilize heat before bulk operation and reserve plastic for circuits and machines instead of optional decoration."
+      ],
+      "desc_ru": [
+        "Производство пластика связывает сырьё, температуру, фракции и затвердевание. Игнорирование одного выхода останавливает весь нефтеперерабатывающий узел.",
+        "Планируйте хранение каждой жидкости, стабилизируйте тепло до массовой работы и сохраняйте пластик для схем и машин, а не необязательного декора."
+      ]
+    },
+    {
+      "slug": "circuits",
+      "icon": "pneumaticcraft:printed_circuit_board",
+      "title_en": "Etching and Circuit Quality",
+      "title_ru": "Травление и качество плат",
+      "desc_en": [
+        "Printed circuit boards require a timed etching process and careful handling of unfinished boards. They are a production permission, not a random loot substitute.",
+        "Use bounded batches, track etching progress, protect finished boards from the etchant and maintain a reserve for rebuilding pressure-control infrastructure."
+      ],
+      "desc_ru": [
+        "Печатные платы требуют длительного травления и аккуратного обращения с незавершёнными заготовками. Это производственный допуск, а не замена случайной наградой.",
+        "Используйте ограниченные партии, отслеживайте прогресс, защищайте готовые платы от травителя и храните резерв для восстановления управления давлением."
+      ]
+    },
+    {
+      "slug": "logistics",
+      "icon": "pneumaticcraft:logistics_drone",
+      "title_en": "Logistics Frames and Drones",
+      "title_ru": "Логистические рамки и дроны",
+      "desc_en": [
+        "Pneumatic logistics can request, provide and transport items through programmable frames or drones. Broad requests easily create loops and competing destinations.",
+        "Give each route ownership, exact filters, stock limits and a failure destination; test missing items and blocked inventories before unattended operation."
+      ],
+      "desc_ru": [
+        "Пневматическая логистика запрашивает, предоставляет и переносит предметы рамками или дронами. Широкие запросы создают циклы и конкурирующие назначения.",
+        "Назначайте владельца маршрута, точные фильтры, пределы запаса и аварийное назначение; проверяйте отсутствие предмета и полный инвентарь до автономной работы."
+      ]
+    },
+    {
+      "slug": "drones",
+      "icon": "pneumaticcraft:drone",
+      "title_en": "Drone Programs and Safe Areas",
+      "title_ru": "Программы дронов и безопасные зоны",
+      "desc_en": [
+        "Drones execute ordered programs and can interact with areas larger than expected when coordinates, filters or conditions are ambiguous.",
+        "Start with a restricted test area, provide charging and recovery, document every branch and ensure a stopped drone cannot leave a critical process permanently locked."
+      ],
+      "desc_ru": [
+        "Дроны выполняют последовательные программы и могут затрагивать слишком большую область при неоднозначных координатах, фильтрах или условиях.",
+        "Начинайте с ограниченной зоны, обеспечьте зарядку и возврат, документируйте ветви и не позволяйте остановившемуся дрону навсегда заблокировать критический процесс."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "pneumaticcraft:manometer",
+      "title_en": "Pneumatic Diagnostics",
+      "title_ru": "Диагностика пневмосистем",
+      "desc_en": [
+        "A stopped pneumatic machine should be checked for local pressure, network volume, heat, side configuration, item state and redstone control in that order.",
+        "Record gauge values before changing pipes, isolate one branch at a time and reproduce the fault with a small batch instead of venting the whole network."
+      ],
+      "desc_ru": [
+        "Остановившуюся пневмомашину проверяйте по порядку: локальное давление, объём сети, тепло, стороны, предметы и сигнал.",
+        "Записывайте показания до изменения труб, изолируйте одну ветвь и воспроизводите сбой малой партией вместо сброса всей сети."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:pressure_manifold",
+      "title_en": "Project: Safe Pressure Factory",
+      "title_ru": "Проект: безопасная пневмофабрика",
+      "desc_en": [
+        "Build a factory that generates and stores pressure, runs a Pressure Chamber and produces plastic or circuits through controlled thermal and item systems.",
+        "The project passes after two repeated batches, safe overpressure protection, visible heat and pressure margins, automatic output handling and recovery from a blocked destination."
+      ],
+      "desc_ru": [
+        "Постройте фабрику, создающую и хранящую давление, использующую камеру и выпускающую пластик или платы через управляемые тепловые и предметные системы.",
+        "Проект принят после двух партий, защиты от превышения давления, видимых запасов тепла и воздуха, автоматической выгрузки и восстановления после полного выхода."
+      ]
+    }
+  ]
+}

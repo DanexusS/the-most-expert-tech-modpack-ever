@@ -1,0 +1,145 @@
+{
+  "slug": "avaritia",
+  "lessons": [
+    {
+      "slug": "compressed_crafting",
+      "icon": "avaritia:double_compressed_crafting_table",
+      "title_en": "Compressed Crafting Foundations",
+      "title_ru": "Основа сжатых верстаков",
+      "desc_en": [
+        "Compressed crafting tables represent accumulated manufacturing infrastructure. Their cost should be automated wood and crafting capacity, not prolonged manual clicking.",
+        "Automate table production, verify conversion ratios and keep the chain visible so a large count does not hide an accidental recursive recipe."
+      ],
+      "desc_ru": [
+        "Сжатые верстаки отражают накопленную производственную инфраструктуру. Их стоимость должна выражаться автоматизированной древесиной и мощностью, а не ручными кликами.",
+        "Автоматизируйте выпуск, проверяйте коэффициенты и сохраняйте цепочку видимой, чтобы большие количества не скрывали рекурсивный рецепт."
+      ]
+    },
+    {
+      "slug": "neutron_collector",
+      "icon": "avaritia:neutron_collector",
+      "title_en": "Neutron Collection as Time Infrastructure",
+      "title_ru": "Сбор нейтронов как инфраструктура времени",
+      "desc_en": [
+        "Neutron collectors convert installed machine count and elapsed time into a late material. Waiting alone should not be the only challenge.",
+        "Set a bounded collector target, provide automated extraction and storage, measure output per hour and avoid requiring an array so large that it only creates chunk load."
+      ],
+      "desc_ru": [
+        "Сборщики превращают число установок и время в поздний материал. Одно ожидание не должно быть единственной сложностью.",
+        "Задавайте ограниченную цель, автоматизируйте выгрузку, измеряйте выпуск в час и не требуйте массив, создающий только нагрузку чанков."
+      ]
+    },
+    {
+      "slug": "neutronium",
+      "icon": "avaritia:neutronium_ingot",
+      "title_en": "Neutronium Production Stock",
+      "title_ru": "Производственный запас нейтрония",
+      "desc_en": [
+        "Neutronium is a recurring late material for catalysts, tools and structures. Crafting each ingot only when requested turns time into a hidden queue.",
+        "Maintain a minimum stock, expose collector throughput and reserve enough material to rebuild the extraction and crafting infrastructure itself."
+      ],
+      "desc_ru": [
+        "Нейтроний постоянно расходуется на катализаторы, инструменты и структуры. Производство только по запросу превращает время в скрытую очередь.",
+        "Поддерживайте минимальный запас, показывайте выпуск сборщиков и сохраняйте материал для восстановления собственной инфраструктуры."
+      ]
+    },
+    {
+      "slug": "crystal_matrix",
+      "icon": "avaritia:crystal_matrix_ingot",
+      "title_en": "Crystal Matrix Integration",
+      "title_ru": "Интеграция кристаллической матрицы",
+      "desc_en": [
+        "Crystal Matrix Ingots should combine extreme material purity with prior digital and draconic manufacturing, not appear from a standalone decorative recipe.",
+        "Require automated diamond or crystal supply, cross-mod standards and zero EMC while keeping the repeated recipe accessible to late factories."
+      ],
+      "desc_ru": [
+        "Слитки кристаллической матрицы должны объединять чистоту материалов с цифровым и драконическим производством, а не появляться из отдельного декоративного рецепта.",
+        "Требуйте автоматизированные кристаллы, межмодовые стандарты и нулевой EMC, сохраняя повторяемость для поздней фабрики."
+      ]
+    },
+    {
+      "slug": "singularities",
+      "icon": "avaritia:singularity",
+      "title_en": "Singularities as Throughput Proof",
+      "title_ru": "Сингулярности как доказательство выпуска",
+      "desc_en": [
+        "A singularity should prove sustained production of a material family. Excessive counts punish storage and waiting rather than engineering.",
+        "Choose amounts from measured automated rates, include only renewable or deliberately stockpiled resources and block boss permissions or unique artifacts from compression."
+      ],
+      "desc_ru": [
+        "Сингулярность должна доказывать устойчивый выпуск семейства материалов. Чрезмерные количества наказывают хранением и ожиданием, а не инженерией.",
+        "Выбирайте объём по измеренной автоматической скорости и запрещайте сжатие боссовых допусков или уникальных артефактов."
+      ]
+    },
+    {
+      "slug": "infinity_catalyst",
+      "icon": "avaritia:infinity_catalyst",
+      "title_en": "Infinity Catalyst Bill of Materials",
+      "title_ru": "Состав катализатора бесконечности",
+      "desc_en": [
+        "The Infinity Catalyst is a convergence bill of materials. Every ingredient should represent a mastered system and have a repeatable source.",
+        "Audit the full dependency graph, replace hidden loot ingredients, prevent EMC or simulation and preassemble domain modules before the final craft."
+      ],
+      "desc_ru": [
+        "Катализатор бесконечности является ведомостью освоенных систем. Каждый ингредиент должен иметь повторяемый источник.",
+        "Проверяйте весь граф, заменяйте скрытый лут, запрещайте EMC и симуляцию и заранее собирайте модули отдельных областей."
+      ]
+    },
+    {
+      "slug": "infinity_ingot",
+      "icon": "avaritia:infinity_ingot",
+      "title_en": "Infinity Ingot Convergence",
+      "title_ru": "Конвергенция слитка бесконечности",
+      "desc_en": [
+        "The first Infinity Ingot should require cosmic assembly, antimatter, awakened infrastructure and the final dimensional permission without demanding pointless manual quantities.",
+        "Keep the recipe authoritative, remove reward and EMC paths and verify every reusable standard returns while consumed materials remain meaningful."
+      ],
+      "desc_ru": [
+        "Первый слиток должен требовать космическую сборку, антиматерию, пробуждённую инфраструктуру и финальный допуск без бессмысленных ручных количеств.",
+        "Сохраняйте авторитетный рецепт, удаляйте награды и EMC и проверяйте возврат стандартов при значимом расходе материалов."
+      ]
+    },
+    {
+      "slug": "extreme_table",
+      "icon": "avaritia:extreme_crafting_table",
+      "title_en": "Extreme Crafting Table Boundary",
+      "title_ru": "Граница экстремального верстака",
+      "desc_en": [
+        "The Extreme Crafting Table is access to the final recipe space. If obtained early, every later ingredient gate becomes vulnerable.",
+        "Require the cosmic assembly and transmutation standards, set EMC to zero and audit all alternate table recipes, loot and quest rewards."
+      ],
+      "desc_ru": [
+        "Экстремальный верстак открывает финальное пространство рецептов. Ранний доступ делает уязвимыми все последующие ограничения.",
+        "Требуйте космическую сборку и трансмутацию, задавайте нулевой EMC и проверяйте альтернативные рецепты, лут и награды."
+      ]
+    },
+    {
+      "slug": "creative_outputs",
+      "icon": "kubejs:creative_convergence_matrix",
+      "title_en": "Creative Outputs and Final Permissions",
+      "title_ru": "Творческие выходы и финальные разрешения",
+      "desc_en": [
+        "Creative items remove ordinary constraints and therefore require proof that the pack's major production domains have been completed, not merely one expensive material.",
+        "Route every creative recipe through the convergence matrix, prohibit duplication systems and require a visible checklist of energy, logistics, chemistry, dimensions and materials."
+      ],
+      "desc_ru": [
+        "Творческие предметы снимают обычные ограничения и требуют доказательства завершения основных производственных областей, а не одного дорогого материала.",
+        "Проводите каждый рецепт через матрицу конвергенции, запрещайте системы дублирования и требуйте явный список энергии, логистики, химии, измерений и материалов."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:cosmic_synthesis_core",
+      "title_en": "Project: Fair Infinity Production Cell",
+      "title_ru": "Проект: справедливая ячейка бесконечности",
+      "desc_en": [
+        "Build a production cell that prepares neutronium, matrix ingots, required singularities and cross-mod modules for one Infinity Ingot without gated rewards or EMC.",
+        "The project passes after a complete material audit, zero dependency cycles, automated subcomponents, bounded collector count and a second reproducible ingot plan."
+      ],
+      "desc_ru": [
+        "Постройте ячейку подготовки нейтрония, матричных слитков, сингулярностей и межмодовых модулей для одного слитка без наград или EMC.",
+        "Проект принят после полного аудита материалов, отсутствия циклов, автоматизации компонентов, ограниченного числа сборщиков и плана повторного слитка."
+      ]
+    }
+  ]
+}

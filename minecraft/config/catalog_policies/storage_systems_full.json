@@ -1,0 +1,122 @@
+{
+  "chapter_filename": "other_storage_systems",
+  "chapter_id": "168674AADABF8E42",
+  "chapter_title_en": "Storage Systems — Portable, Stationary and Filtered Logistics",
+  "chapter_title_ru": "Системы хранения — переносная, стационарная и фильтрованная логистика",
+  "report_filename": "STORAGE_SYSTEMS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Storage Systems Catalogue Quality Report",
+  "report_intro": "Every storage catalogue node must explain capacity, filtering, routing, overflow or portable-operation behaviour and include a practical acceptance check without material quest rewards.",
+  "expected_quests": 104,
+  "minimum_description": 190,
+  "primary_namespace": "sophisticatedstorage",
+  "primary_namespaces": [
+    "sophisticatedstorage",
+    "sophisticatedbackpacks",
+    "ftbfiltersystem"
+  ],
+  "acceptance_namespace": "storage_catalog_acceptance",
+  "checkpoint_name": "Storage Architecture Checkpoint",
+  "title_suffix_en": "Storage-System Acceptance",
+  "title_suffix_ru": "приёмка системы хранения",
+  "description_en": "{display} is a {role} in the portable and stationary storage ecosystem. Its value depends on controlled inventory ownership, routing, finite capacity and recoverable configuration rather than on possessing one container or upgrade.",
+  "description_ru": "{display} — {role} в экосистеме переносного и стационарного хранения. Его ценность зависит от управляемого владения инвентарём, маршрутизации, конечной ёмкости и восстанавливаемой настройки, а не от одного контейнера или улучшения.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative input and extraction cycle, test empty input and full destination, record capacity and priorities, and close reward, loot, trade, EMC, duplication, nested-container and alternate-recipe shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой цикл ввода и извлечения, испытайте пустой вход и полное назначение, запишите ёмкость и приоритеты и закройте обходы через награды, лут, торговлю, EMC, копирование, вложенные контейнеры и альтернативные рецепты.",
+  "categories": [
+    {
+      "tokens": ["backpack", "chest", "barrel", "shulker_box", "limited_barrel"],
+      "role_en": "portable or stationary storage tier",
+      "role_ru": "уровень переносного или стационарного хранения",
+      "focus_en": "slot and stack capacity, previous-tier ancestry, retained contents during upgrade, placement or carrying rules and recovery after container loss",
+      "focus_ru": "число слотов и стеки, происхождение от предыдущего уровня, сохранение содержимого при улучшении, правила установки или переноски и восстановление после потери контейнера"
+    },
+    {
+      "tokens": ["pickup_upgrade", "magnet_upgrade", "advanced_pickup", "advanced_magnet"],
+      "role_en": "automatic collection upgrade",
+      "role_ru": "улучшение автоматического сбора",
+      "focus_en": "collection radius, allowlist and denylist, destination capacity, interaction with player pickup and prevention of cross-base item theft",
+      "focus_ru": "радиус сбора, белые и чёрные списки, ёмкость назначения, взаимодействие с подбором игрока и защиту от кражи предметов с соседней базы"
+    },
+    {
+      "tokens": ["filter_upgrade", "smart_filter", "tag_filter", "mod_filter"],
+      "role_en": "inventory filter and classification component",
+      "role_ru": "компонент фильтрации и классификации инвентаря",
+      "focus_en": "exact item, tag, mod and component matching, allow-deny direction, priority order, NBT-sensitive items and visible false-positive diagnostics",
+      "focus_ru": "точное совпадение предмета, тега, мода и компонентов, направление разрешения или запрета, порядок приоритетов, предметы с NBT и видимую диагностику ложных совпадений"
+    },
+    {
+      "tokens": ["compacting_upgrade", "advanced_compacting"],
+      "role_en": "automatic compacting and decompression upgrade",
+      "role_ru": "улучшение автоматического сжатия и распаковки",
+      "focus_en": "two-way recipe legality, preferred storage form, crafting-grid conflicts, tag ambiguity, extraction form and prevention of conversion loops",
+      "focus_ru": "законность двустороннего рецепта, предпочтительную форму хранения, конфликты сетки крафта, неоднозначность тегов, форму извлечения и защиту от циклов преобразования"
+    },
+    {
+      "tokens": ["void_upgrade", "advanced_void"],
+      "role_en": "destructive overflow-control upgrade",
+      "role_ru": "разрушающее улучшение контроля переполнения",
+      "focus_en": "protected-item denylist, keep amount, activation threshold, filtered scope, warning visibility and recovery policy for accidental configuration",
+      "focus_ru": "чёрный список защищённых предметов, сохраняемое количество, порог активации, область фильтра, видимость предупреждения и политику восстановления ошибочной настройки"
+    },
+    {
+      "tokens": ["feeding_upgrade", "advanced_feeding"],
+      "role_en": "automatic food-consumption upgrade",
+      "role_ru": "улучшение автоматического питания",
+      "focus_en": "food allowlist, hunger and saturation threshold, harmful effects, emergency reserve, priority over valuable foods and disable procedure",
+      "focus_ru": "белый список еды, порог голода и насыщения, вредные эффекты, аварийный запас, приоритет над ценной едой и процедуру отключения"
+    },
+    {
+      "tokens": ["stack_upgrade", "tier_upgrade", "upgrade_base"],
+      "role_en": "capacity multiplier or upgrade foundation",
+      "role_ru": "множитель ёмкости или основа улучшения",
+      "focus_en": "compatible container tier, slot cost, effective stack multiplication, previous-upgrade ancestry, nesting behaviour and realistic capacity accounting",
+      "focus_ru": "совместимый уровень контейнера, стоимость слота, фактическое умножение стека, происхождение от предыдущего улучшения, вложенность и честный учёт ёмкости"
+    },
+    {
+      "tokens": ["crafting_upgrade", "stonecutter", "furnace_upgrade", "smoking_upgrade", "blasting_upgrade"],
+      "role_en": "embedded crafting or processing upgrade",
+      "role_ru": "встроенное улучшение крафта или обработки",
+      "focus_en": "recipe selection, input reservation, fuel or processing rate, returned containers, output destination, blocked-output state and automation boundary",
+      "focus_ru": "выбор рецепта, резерв входов, топливо или скорость обработки, возврат контейнеров, назначение выхода, состояние полного выхода и границу автоматизации"
+    },
+    {
+      "tokens": ["deposit_upgrade", "refill_upgrade", "restock_upgrade"],
+      "role_en": "player-to-storage inventory synchronization upgrade",
+      "role_ru": "улучшение синхронизации инвентаря игрока и хранилища",
+      "focus_en": "target inventory ownership, matching template, minimum player reserve, transfer direction, hotbar protection and behaviour when several containers match",
+      "focus_ru": "владение целевым инвентарём, шаблон совпадения, минимальный запас игрока, направление передачи, защиту панели быстрого доступа и поведение при нескольких подходящих контейнерах"
+    },
+    {
+      "tokens": ["pump_upgrade", "tank_upgrade", "battery_upgrade", "energy"],
+      "role_en": "fluid or energy storage integration upgrade",
+      "role_ru": "улучшение интеграции жидкостного или энергетического хранения",
+      "focus_en": "stored medium, capacity, transfer direction and rate, container interaction, incompatible-fluid or energy rejection, reserve and safe disconnect",
+      "focus_ru": "хранимую среду, ёмкость, направление и скорость передачи, взаимодействие с контейнерами, отказ несовместимой жидкости или энергии, резерв и безопасное отключение"
+    },
+    {
+      "tokens": ["tool_swapper", "inception_upgrade", "everlasting_upgrade"],
+      "role_en": "container capability and nested-tool upgrade",
+      "role_ru": "улучшение возможностей контейнера и вложенных инструментов",
+      "focus_en": "nested inventory depth, tool-selection rule, durability and enchantment preservation, recursive-container prevention and recovery after configuration loss",
+      "focus_ru": "глубину вложенного инвентаря, правило выбора инструмента, сохранение прочности и чар, запрет рекурсивных контейнеров и восстановление после потери настройки"
+    }
+  ],
+  "default": {
+    "role_en": "specialized storage or inventory-management component",
+    "role_ru": "специализированный компонент хранения или управления инвентарём",
+    "focus_en": "its exact inventory owner, capacity, transfer trigger, filtering rule, full-output state and recoverable configuration",
+    "focus_ru": "точного владельца инвентаря, ёмкость, условие передачи, правило фильтрации, состояние полного выхода и восстанавливаемую настройку"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod storage integration component",
+    "role_ru": "межмодовый компонент интеграции хранения",
+    "focus_en": "the external inventory or item contract, transfer direction, component-sensitive matching and absence of a cheaper duplication or nesting route",
+    "focus_ru": "контракт внешнего инвентаря или предмета, направление передачи, совпадение с учётом компонентов и отсутствие дешёвого пути копирования или вложенности"
+  },
+  "checkpoint": {
+    "role_en": "storage-architecture design checkpoint",
+    "role_ru": "контрольная точка проектирования хранения",
+    "focus_en": "documented storage zones, ownership, capacity budget, priority tree, overflow policy, protected-item list and recovery from a lost controller or container",
+    "focus_ru": "задокументированные зоны хранения, владение, бюджет ёмкости, дерево приоритетов, политику переполнения, список защищённых предметов и восстановление после потери контроллера или контейнера"
+  }
+}

@@ -26,27 +26,16 @@
 		{
 			id: "439C6C61A5263D31"
 			min_width: 300
-			rewards: [
-				{
-					id: "48CCB4B4BBD548A2"
-					type: "xp"
-					xp: 50
-				}
-				{
-					count: 12
-					id: "2981585CE1F27EEE"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "02B777D641194D80"
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A71A9D077EFF75E8"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: -3.0d
 		}
@@ -54,42 +43,32 @@
 			dependencies: ["439C6C61A5263D31"]
 			id: "1651E315517369BD"
 			min_width: 300
-			rewards: [{
-				id: "3E912FE6F9283B4D"
-				type: "xp"
-				xp: 10
-			}]
 			tasks: [{
 				id: "7EBA08CBDBF4EEC5"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FAC0934BDD751B8A"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["486457F40D2A1D29"]
 			id: "7AA18B409FB698D2"
-			rewards: [
-				{
-					id: "06B75A37A97B5589"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "2676F841A385222F"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_block"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2A6AAD2D1CD9E259"
 				item: { count: 1, id: "fluxnetworks:flux_block" }
 				type: "item"
-			}]
+			}
+			{
+				id: "97E12BE0A830D089"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
@@ -97,18 +76,18 @@
 			dependencies: ["7AA18B409FB698D2"]
 			id: "1B60491EDE73447B"
 			min_width: 330
-			rewards: [{
-				id: "72CB63173D302083"
-				type: "xp"
-				xp: 100
-			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "000430BA08919240"
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DCD14D163D152822"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -3.0d
 		}
@@ -116,27 +95,16 @@
 			dependencies: ["486457F40D2A1D29"]
 			id: "7AEAF2E101B5D652"
 			min_width: 230
-			rewards: [
-				{
-					id: "22B0C0F4595E68E8"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "7726B56CF890D892"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_core"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "1F02234419CA3CD9"
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
-			}]
+			}
+			{
+				id: "715924AFD38245BD"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: -4.0d
 		}
@@ -144,26 +112,16 @@
 			dependencies: ["486457F40D2A1D29"]
 			id: "6E9B60CCAE55E387"
 			min_width: 250
-			rewards: [
-				{
-					id: "7FC400880CBA8F1B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "70CD1DED02C154BE"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_point"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "7F8B33C6790AE7CC"
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A2B2AC900F4CC8B3"
+				type: "checkmark"
+			}
+			]
 			x: -1.5d
 			y: -4.0d
 		}
@@ -175,81 +133,70 @@
 			]
 			id: "1C214DD51C58BE4D"
 			min_width: 300
-			rewards: [{
-				id: "189C3B794E9F6565"
-				type: "xp"
-				xp: 100
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "0120A13DAF9C15AF"
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
-			}]
+			}
+			{
+				id: "986ED9AB976F6B50"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1B60491EDE73447B"]
 			id: "4CC229C23E5AC155"
-			rewards: [{
-				id: "04B53CCA9C85763E"
-				type: "xp"
-				xp: 100
-			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "28F65D4F11F6AA7B"
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3E09AFF050C9E599"
+				type: "checkmark"
+			}
+			]
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4CC229C23E5AC155"]
 			id: "6886DFF567919753"
-			rewards: [{
-				id: "62581571F3835125"
-				type: "xp"
-				xp: 100
-			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "0E8AC367918AD54F"
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D474F23B0A879712"
+				type: "checkmark"
+			}
+			]
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["439C6C61A5263D31"]
 			id: "486457F40D2A1D29"
-			rewards: [
-				{
-					id: "45E3B05D0201E028"
-					type: "xp"
-					xp: 70
-				}
-				{
-					count: 8
-					id: "28AAC867DFFA5626"
-					item: {
-						count: 1
-						id: "minecraft:obsidian"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2E3C48AB30023865"
 				item: { count: 1, id: "fluxnetworks:flux_core" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2988EEE7E88308EE"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: -3.0d
 		}

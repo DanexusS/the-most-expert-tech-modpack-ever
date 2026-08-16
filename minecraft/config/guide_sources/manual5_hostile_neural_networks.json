@@ -1,0 +1,145 @@
+{
+  "slug": "hostile_neural_networks",
+  "lessons": [
+    {
+      "slug": "data_models",
+      "icon": "hostilenetworks:blank_data_model",
+      "title_en": "Data Models as Entity Permissions",
+      "title_ru": "Модели данных как разрешения сущностей",
+      "desc_en": [
+        "A data model turns observed kills into a permanent simulation path for an entity. Creating the model early can bypass later dimension or boss access.",
+        "Classify every entity by stage, block bosses and permission carriers, require legitimate observation and keep model crafting outside random rewards or trades."
+      ],
+      "desc_ru": [
+        "Модель данных превращает наблюдённые убийства в постоянный путь симуляции сущности. Раннее создание обходит измерение или босса.",
+        "Классифицируйте сущностей по этапам, блокируйте боссов и носителей допусков, требуйте честное наблюдение и исключайте модели из случайных наград или торговли."
+      ]
+    },
+    {
+      "slug": "training",
+      "icon": "hostilenetworks:deep_learner",
+      "title_en": "Training and Accuracy Tiers",
+      "title_ru": "Обучение и уровни точности",
+      "desc_en": [
+        "Model accuracy grows through real encounters before simulation becomes efficient. The training requirement should prove access without demanding hundreds of repetitive kills.",
+        "Use moderate kill counts, distinguish normal mobs from elites, keep boss models exceptional and explain which tier is sufficient for the intended output."
+      ],
+      "desc_ru": [
+        "Точность модели растёт через реальные встречи до эффективной симуляции. Обучение должно доказывать доступ без сотен повторных убийств.",
+        "Используйте умеренные количества, различайте обычных мобов и элиту, делайте боссовые модели исключением и объясняйте достаточный уровень."
+      ]
+    },
+    {
+      "slug": "simulation",
+      "icon": "hostilenetworks:simulation_chamber",
+      "title_en": "Simulation Chamber Inputs",
+      "title_ru": "Входы камеры симуляции",
+      "desc_en": [
+        "The Simulation Chamber consumes energy and prediction material to produce generalized predictions from trained models.",
+        "Buffer both inputs, expose model tier and progress, stop on full output and prohibit chambers from running models whose stage permission is not currently satisfied."
+      ],
+      "desc_ru": [
+        "Камера симуляции расходует энергию и материал предсказаний для выпуска обобщённых результатов обученной модели.",
+        "Буферизуйте оба входа, показывайте уровень и прогресс, останавливайте при полном выходе и запрещайте модели без текущего допуска этапа."
+      ]
+    },
+    {
+      "slug": "fabrication",
+      "icon": "hostilenetworks:loot_fabricator",
+      "title_en": "Loot Fabrication and Output Policy",
+      "title_ru": "Фабрикация лута и политика выходов",
+      "desc_en": [
+        "Loot Fabricators convert predictions into selected drops. The allowed output list defines whether the mod is convenient automation or a progression bypass.",
+        "Remove boss permissions, unique trophies and late materials, assign ordinary drops by stage and document every output with its original legitimate source."
+      ],
+      "desc_ru": [
+        "Фабрикаторы превращают предсказания в выбранный лут. Список выходов определяет, является мод автоматизацией или обходом прогрессии.",
+        "Удаляйте боссовые допуски, уникальные трофеи и поздние материалы, назначайте обычные выходы по этапам и документируйте исходный источник."
+      ]
+    },
+    {
+      "slug": "boss_models",
+      "icon": "hostilenetworks:prediction_matrix",
+      "title_en": "Boss Models and Non-Simulatable Rewards",
+      "title_ru": "Боссовые модели и несимулируемые награды",
+      "desc_en": [
+        "A repeatable boss model can erase combat, arena and dimension requirements if it produces the same permission item as a real victory.",
+        "Permit only non-unique secondary drops when justified, never fabricate seals or progression trophies and keep first-victory quests as the sole permission source."
+      ],
+      "desc_ru": [
+        "Повторяемая модель босса стирает бой, арену и измерение, если выдаёт тот же допуск, что настоящая победа.",
+        "Разрешайте только оправданные вторичные выходы, никогда не создавайте печати или трофеи прогрессии и оставляйте первый боссовый квест единственным источником допуска."
+      ]
+    },
+    {
+      "slug": "energy",
+      "icon": "hostilenetworks:simulation_chamber",
+      "title_en": "Energy Cost and Parallel Chambers",
+      "title_ru": "Энергозатраты и параллельные камеры",
+      "desc_en": [
+        "Parallel chambers convert grid capacity into higher simulated loot throughput. Excessive scaling can make real farms and exploration irrelevant.",
+        "Measure energy per prediction, cap chamber count by stage, protect critical power reserves and compare simulated output with a physical farm before expansion."
+      ],
+      "desc_ru": [
+        "Параллельные камеры превращают мощность сети в выпуск симулированного лута. Избыточное масштабирование делает реальные фермы и исследование ненужными.",
+        "Измеряйте энергию на предсказание, ограничивайте число камер по этапу, защищайте резерв и сравнивайте выход с физической фермой."
+      ]
+    },
+    {
+      "slug": "model_storage",
+      "icon": "hostilenetworks:deep_learner",
+      "title_en": "Model Storage and Ownership",
+      "title_ru": "Хранение моделей и владение",
+      "desc_en": [
+        "Models carry training progress and access rights. Losing, duplicating or sharing a model can change who has permission to simulate an entity.",
+        "Store master models securely, use named working copies only when policy permits and audit team sharing after progression or membership changes."
+      ],
+      "desc_ru": [
+        "Модели несут прогресс обучения и право симуляции. Потеря, копирование или передача меняют доступ к сущности.",
+        "Храните основные модели безопасно, используйте рабочие копии только при разрешении и проверяйте командный доступ после изменений прогрессии или состава."
+      ]
+    },
+    {
+      "slug": "cross_mod",
+      "icon": "hostilenetworks:prediction_matrix",
+      "title_en": "Simulation, EMC and Resource Loops",
+      "title_ru": "Симуляция, EMC и ресурсные циклы",
+      "desc_en": [
+        "Fabricated drops may enter EMC, seeds, bees or machine recipes and create a positive resource loop independent of real encounters.",
+        "Set zero EMC on gates, compare prediction cost with output value and reject any closed loop that upgrades models or creates more prediction material than it consumes."
+      ],
+      "desc_ru": [
+        "Симулированный лут попадает в EMC, семена, пчёл или машины и создаёт положительный цикл без реальных встреч.",
+        "Задавайте нулевой EMC, сравнивайте стоимость предсказания с выходом и запрещайте цикл, улучшающий модели или создающий больше материала, чем расходует."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "hostilenetworks:simulation_chamber",
+      "title_en": "Simulation Diagnostics",
+      "title_ru": "Диагностика симуляции",
+      "desc_en": [
+        "A stopped chamber should be checked for model tier, prediction material, energy, selected output, full inventory and stage policy.",
+        "Record one complete cycle, isolate the fabricator from the chamber and avoid changing model, energy and output rules simultaneously."
+      ],
+      "desc_ru": [
+        "Остановившуюся камеру проверяйте по уровню модели, материалу, энергии, выбранному выходу, заполнению и политике этапа.",
+        "Запишите полный цикл, отделите фабрикатор от камеры и не меняйте одновременно модель, питание и правила выхода."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bioindustrial_matrix",
+      "title_en": "Project: Audited Neural Simulation Lab",
+      "title_ru": "Проект: проверенная лаборатория нейросимуляции",
+      "desc_en": [
+        "Build a lab with three stage-approved models, bounded chamber capacity and a fabricator policy that excludes bosses, seals and unique trophies.",
+        "The project passes after real-training proof, energy-per-drop calculation, output audit, loop analysis and a deliberate attempt to request a forbidden reward."
+      ],
+      "desc_ru": [
+        "Постройте лабораторию с тремя разрешёнными моделями, ограниченными камерами и политикой фабрикатора без боссов, печатей и уникальных трофеев.",
+        "Проект принят после доказательства обучения, расчёта энергии на лут, аудита выходов, анализа циклов и попытки запросить запрещённую награду."
+      ]
+    }
+  ]
+}

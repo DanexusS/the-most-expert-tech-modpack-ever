@@ -1,0 +1,145 @@
+{
+  "slug": "ars_nouveau",
+  "lessons": [
+    {
+      "slug": "spellbook",
+      "icon": "ars_nouveau:novice_spell_book",
+      "title_en": "Spellbooks, Glyphs and Capability Growth",
+      "title_ru": "Книги заклинаний, глифы и рост возможностей",
+      "desc_en": [
+        "Ars Nouveau spells are assembled from forms, effects and augments. One newly unlocked glyph can change travel, mining, combat or automation capability.",
+        "Classify glyphs by equivalent technology stage, document each spell's purpose and keep a low-risk recovery spell separate from experimental combat chains."
+      ],
+      "desc_ru": [
+        "Заклинания Ars Nouveau собираются из форм, эффектов и усилений. Один новый глиф меняет перемещение, добычу, бой или автоматизацию.",
+        "Классифицируйте глифы по эквивалентному технологическому этапу, документируйте назначение и держите безопасное восстановительное заклинание отдельно от экспериментов."
+      ]
+    },
+    {
+      "slug": "source",
+      "icon": "ars_nouveau:source_jar",
+      "title_en": "Source Generation and Buffering",
+      "title_ru": "Генерация и буферизация Истока",
+      "desc_en": [
+        "Source is a production utility consumed by apparatus crafting, rituals and automation. A jar near one generator is not proof of sustained supply.",
+        "Measure source per cycle, separate generation from consumers, reserve restart capacity and stop expensive rituals before shared storage is exhausted."
+      ],
+      "desc_ru": [
+        "Источник является производственной средой для аппарата, ритуалов и автоматизации. Одна банка рядом с генератором не доказывает устойчивое снабжение.",
+        "Измеряйте расход на цикл, отделяйте генерацию от потребителей, сохраняйте резерв запуска и останавливайте дорогие ритуалы до истощения общего хранилища."
+      ]
+    },
+    {
+      "slug": "apparatus",
+      "icon": "ars_nouveau:enchanting_apparatus",
+      "title_en": "Enchanting Apparatus and Pedestal Recipes",
+      "title_ru": "Зачаровывающий аппарат и рецепты пьедесталов",
+      "desc_en": [
+        "The Enchanting Apparatus combines a central item, pedestal ingredients and Source. Missing or extra items can make a correct-looking setup fail.",
+        "Label pedestal groups, insert exact quantities, expose Source progress and recover unused ingredients after an incompatible recipe."
+      ],
+      "desc_ru": [
+        "Зачаровывающий аппарат объединяет центральный предмет, ингредиенты пьедесталов и Источник. Лишние или отсутствующие предметы делают внешне правильную схему нерабочей.",
+        "Подписывайте группы, подавайте точные количества, показывайте прогресс Истока и возвращайте неиспользованное после несовместимого рецепта."
+      ]
+    },
+    {
+      "slug": "rituals",
+      "icon": "ars_nouveau:ritual_brazier",
+      "title_en": "Ritual Areas and Persistent Effects",
+      "title_ru": "Области ритуалов и постоянные эффекты",
+      "desc_en": [
+        "Rituals apply large-area or long-duration effects and may consume Source continuously. Overlapping rituals can hide their true cost and capability.",
+        "Bound every area, label duration and upkeep, isolate experimental rituals and gate effects that replace later environmental, farming or travel systems."
+      ],
+      "desc_ru": [
+        "Ритуалы создают большие или длительные эффекты и могут постоянно расходовать Источник. Пересечения скрывают стоимость и возможности.",
+        "Ограничивайте область, подписывайте длительность и расход, изолируйте эксперименты и закрывайте эффекты, заменяющие поздние системы среды, ферм или путешествий."
+      ]
+    },
+    {
+      "slug": "automation",
+      "icon": "ars_nouveau:spell_turret",
+      "title_en": "Spell Turrets and Automated Casting",
+      "title_ru": "Турели и автоматическое колдовство",
+      "desc_en": [
+        "Spell Turrets turn a spell into repeatable automation. Mining, breaking, placing or damaging effects can bypass machine and combat progression when unrestricted.",
+        "Assign one documented spell per turret, bound the target area, provide shutdown and exclude protected blocks, bosses and progression items."
+      ],
+      "desc_ru": [
+        "Турели превращают заклинание в повторяемую автоматизацию. Добыча, разрушение, размещение или урон обходят машины и бой без ограничений.",
+        "Назначайте одно документированное заклинание, ограничивайте область, создавайте остановку и исключайте защищённые блоки, боссов и предметы прогрессии."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "ars_nouveau:storage_lectern",
+      "title_en": "Storage Lecterns and Inventory Scope",
+      "title_ru": "Кафедры хранения и область инвентарей",
+      "desc_en": [
+        "Storage Lecterns expose connected inventories through a single interface. Broad scope can mix machine buffers, personal storage and protected progression stock.",
+        "Define included inventories, reserve output capacity, separate strategic items and test extraction after two stores contain the same material."
+      ],
+      "desc_ru": [
+        "Кафедры открывают связанные инвентари одним интерфейсом. Широкая область смешивает буферы машин, личное хранение и защищённый запас.",
+        "Определяйте включённые инвентари, оставляйте выход, отделяйте стратегические предметы и проверяйте извлечение при дублировании материала."
+      ]
+    },
+    {
+      "slug": "familiars",
+      "icon": "ars_nouveau:familiar_amethyst_golem_charm",
+      "title_en": "Familiars and Passive Capability",
+      "title_ru": "Фамильяры и пассивные возможности",
+      "desc_en": [
+        "Familiars grant passive bonuses or automate specific tasks. Their effects persist beyond the ritual that summoned them.",
+        "Document ownership and effect, gate capability-equivalent familiars, provide dismissal and prevent passive bonuses from replacing a later gear or utility stage."
+      ],
+      "desc_ru": [
+        "Фамильяры дают пассивные бонусы или автоматизируют задачи, причём эффект сохраняется после ритуала призыва.",
+        "Документируйте владельца и эффект, закрывайте эквивалентные поздним возможностям виды, обеспечьте отзыв и не заменяйте ими следующий уровень снаряжения."
+      ]
+    },
+    {
+      "slug": "enchanting",
+      "icon": "ars_nouveau:enchanters_sword",
+      "title_en": "Mage Equipment and Thread Selection",
+      "title_ru": "Магическое снаряжение и выбор нитей",
+      "desc_en": [
+        "Mage equipment and threads shape mana, defense and spell behavior. Stacking maximum utility can produce movement or protection beyond the current stage.",
+        "Choose a role, compare thread opportunity cost, keep recovery gear and gate effects equivalent to flight, invulnerability or high-area mining."
+      ],
+      "desc_ru": [
+        "Магическое снаряжение и нити меняют ману, защиту и заклинания. Максимальная утилита даёт движение или защиту выше текущего этапа.",
+        "Выбирайте роль, сравнивайте стоимость нитей, храните запасной комплект и закрывайте эффекты полёта, неуязвимости или массовой добычи."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "ars_nouveau:dominion_wand",
+      "title_en": "Ars Diagnostics and Linking",
+      "title_ru": "Диагностика Ars и связи",
+      "desc_en": [
+        "A stopped Ars system should be checked for Source, ownership, linked inventories, selected spell, target area and redstone state.",
+        "Inspect one link at a time, preserve a known-good configuration and test with a bounded spell or single-item recipe before changing the full network."
+      ],
+      "desc_ru": [
+        "Остановившуюся систему Ars проверяйте по Истоку, владельцу, связанным инвентарям, заклинанию, области и сигналу.",
+        "Проверяйте по одной связи, сохраняйте рабочую конфигурацию и тестируйте ограниченным заклинанием или единичным рецептом до изменения всей сети."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:chemical_processor",
+      "title_en": "Project: Bounded Arcane Automation Lab",
+      "title_ru": "Проект: ограниченная лаборатория магической автоматизации",
+      "desc_en": [
+        "Build an Ars lab with measured Source generation, one automated Apparatus recipe, one bounded ritual and one stage-safe Spell Turret or familiar.",
+        "The project passes after two repeated crafts, Source reserve verification, area audit, safe shutdown and proof that no spell bypasses protected resources or travel stages."
+      ],
+      "desc_ru": [
+        "Постройте лабораторию Ars с измеренной генерацией Истока, автоматическим рецептом аппарата, ограниченным ритуалом и безопасной турелью или фамильяром.",
+        "Проект принят после двух крафтов, проверки резерва, аудита областей, безопасной остановки и отсутствия обхода ресурсов или путешествий заклинаниями."
+      ]
+    }
+  ]
+}

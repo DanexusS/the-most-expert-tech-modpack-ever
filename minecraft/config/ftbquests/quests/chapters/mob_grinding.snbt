@@ -13,243 +13,243 @@
 		{
 			dependencies: ["24CF73443031CEAE"]
 			id: "210137C6556CA68B"
-			rewards: [{
-				id: "536BEB540F5934EA"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "7B53396BDF15CA59"
 				item: { count: 1, id: "mob_grinding_utils:nutritious_chicken_feed" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0BD04AF48F1F5202"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["24CF73443031CEAE"]
 			id: "5D61FEEE2C38D2FE"
-			rewards: [{
-				id: "624B6AFE45A4C4ED"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "2B3A051363A8DE6A"
 				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0D0C22C21D704AD9"
+				type: "checkmark"
+			}
+			]
 			x: -5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["210137C6556CA68B"]
 			id: "24DB954ED93BE6EE"
-			rewards: [{
-				id: "78301026B096E8E6"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "055ED1EE7C16D6C0"
 				item: { count: 1, id: "mob_grinding_utils:golden_egg" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DE5FB9377FB00108"
+				type: "checkmark"
+			}
+			]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5D61FEEE2C38D2FE"]
 			id: "384436003FDA9258"
-			rewards: [{
-				id: "6FF12B268724F657"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "1D15CBD52CDFA33B"
 				item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
 				type: "item"
-			}]
+			}
+			{
+				id: "08683B852C32D10D"
+				type: "checkmark"
+			}
+			]
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			id: "1FE3645BC1E7689F"
-			rewards: [{
-				id: "0FEE3DE109857900"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "35FAF4C9A71B2B18"
 				item: { count: 1, id: "mob_grinding_utils:fan" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3D2D23D238F36461"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 5.5d
 		}
 		{
 			id: "7E200B1A028DF704"
-			rewards: [{
-				id: "464C52C4FF7E9E0F"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "038E21007F51AE91"
 				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2872A4B4EC182164"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7E200B1A028DF704"]
 			id: "4D5F9B7F5289FC5E"
-			rewards: [{
-				id: "634921DD07BE6DDF"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 6L
 				id: "5D853211DB384055"
 				item: { count: 1, id: "mob_grinding_utils:absorption_upgrade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3A0E329A9DA0C724"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 8.5d
 		}
 		{
 			id: "13297FADD13D3A84"
-			rewards: [{
-				id: "60407BE32E321156"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "096D4E8AADFDEA41"
 				item: { count: 1, id: "mob_grinding_utils:tank" }
 				type: "item"
-			}]
+			}
+			{
+				id: "06002B3502BBF78B"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1FE3645BC1E7689F"]
 			id: "2304A253226E03A5"
-			rewards: [{
-				id: "7CA79C713C9F1E7C"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 3L
 				id: "7EE4204C86853192"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8E8F3FEDC929816C"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1FE3645BC1E7689F"]
 			id: "779732C99B227912"
-			rewards: [{
-				id: "498380F989C21127"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 3L
 				id: "4F18AE358971652F"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_speed" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0CEE764988C8205A"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 6.5d
 		}
 		{
 			id: "5B658B92D3E5641D"
-			rewards: [{
-				id: "704C44767B909206"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "4B90123C857BB6BF"
 				item: { count: 1, id: "mob_grinding_utils:saw" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B2373572DD2FC343"
+				type: "checkmark"
+			}
+			]
 			x: -3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "7777FF92637BFDA9"
-			rewards: [{
-				id: "2A22C213B26869DA"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "48158C8362BA3D10"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_arthropod" }
 				type: "item"
-			}]
+			}
+			{
+				id: "289AFD82F6A02750"
+				type: "checkmark"
+			}
+			]
 			x: -3.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "536E9964CD34B018"
-			rewards: [{
-				id: "4C7256A44201D63C"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "46E948461EECE1BA"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_beheading" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9EEF7166EFF33B06"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "4BB70479F0653A76"
-			rewards: [{
-				id: "5EBCCA03F1881D64"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "2E14022AE3CEEE3B"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_fire" }
 				type: "item"
-			}]
+			}
+			{
+				id: "6B17638E5311F245"
+				type: "checkmark"
+			}
+			]
 			x: -3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "5AC73E5F5CF24D08"
-			rewards: [{
-				id: "48E6CCE7CB620E2B"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "22F8566B39322842"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_looting" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B0AFEA4D8BD87F7B"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 7.5d
 		}
@@ -257,109 +257,104 @@
 			dependencies: ["5B658B92D3E5641D"]
 			disable_toast: true
 			id: "14984F77D74D663C"
-			rewards: [{
-				id: "341405DBAAA2B661"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "0966FD3761B475F2"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_sharpness" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A1177603CDDF8C6F"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "27215DB061F207FD"
-			rewards: [{
-				id: "515CB54E2C0BDE06"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 10L
 				id: "74C644B3C88C453D"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_smite" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A570A3392048B039"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
 			id: "05D2473CB1BE8F74"
-			rewards: [{
-				id: "6A9F26F3EB395CDC"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "3831E7F9D2D3C328"
 				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2C1FCF920BBF7B93"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
 			id: "2507593830977B88"
-			rewards: [{
-				id: "1D02BF523012BB9A"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "35FED3BBF7D97C80"
 				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8BB3BF74CAF2D801"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2507593830977B88"]
 			id: "24CF73443031CEAE"
-			rewards: [{
-				id: "5E57BDAC108704A2"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "662970080B4A46A6"
 				item: { count: 1, id: "mob_grinding_utils:fluid_xp_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "EA69D4EDB21459E2"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			id: "6A752619712F23A1"
-			rewards: [{
-				id: "57CF463EFAC6B8AC"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				count: 20L
 				id: "276FF76F3017270F"
 				item: { count: 1, id: "mob_grinding_utils:tinted_glass" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E26A60B149596242"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
 			id: "1118F827D5CCFB65"
-			rewards: [{
-				id: "466D0BE627EFC1A9"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [
 				{
 					id: "06790125666758B9"
@@ -371,6 +366,11 @@
 					item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_baby" }
 					type: "item"
 				}
+			
+			{
+				id: "8435A3750F3F7BCF"
+				type: "checkmark"
+			}
 			]
 			x: -3.0d
 			y: 3.0d
@@ -378,11 +378,6 @@
 		{
 			dependencies: ["1118F827D5CCFB65"]
 			id: "2EA3E6C82DA79317"
-			rewards: [{
-				id: "2E264D71653CF3AF"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [
 				{
 					id: "6B0B7F43B5D8ECDF"
@@ -394,6 +389,11 @@
 					item: { count: 1, id: "mob_grinding_utils:mob_swab" }
 					type: "item"
 				}
+			
+			{
+				id: "132AAD8FAFAAA843"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: 3.0d
@@ -401,32 +401,32 @@
 		{
 			dependencies: ["13297FADD13D3A84"]
 			id: "3C09EDD821E4995D"
-			rewards: [{
-				id: "33E8100BA7F7A491"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "58ECE5FFA6DEACDF"
 				item: { count: 1, id: "mob_grinding_utils:jumbo_tank" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9A4003FE0DF869F4"
+				type: "checkmark"
+			}
+			]
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "7C56E7051D52722C"
-			rewards: [{
-				id: "4B37EEF28098BA41"
-				type: "xp"
-				xp: 35
-			}]
 			tasks: [{
 				id: "0D1AE83CA5A827AC"
 				item: { count: 1, id: "mob_grinding_utils:ender_inhibitor_on" }
 				type: "item"
-			}]
+			}
+			{
+				id: "14893725DA3C4E9D"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: 7.5d
 		}

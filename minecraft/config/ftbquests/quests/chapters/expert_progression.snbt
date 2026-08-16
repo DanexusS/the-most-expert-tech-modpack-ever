@@ -1,240 +1,136 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
+	default_quest_shape: "hexagon"
 	filename: "expert_progression"
 	group: "177A10C99EDDA376"
-	icon: {
-		id: "kubejs:mechanical_core"
-	}
+	icon: { id: "create:mechanical_press" }
 	id: "301DF0A89B0E6061"
-	order_index: 2
-	progression_mode: "flexible"
-	quest_links: [ ]
+	order_index: 0
+	progression_mode: "linear"
+	title: "Expert Progression — Main Line"
+	quest_links: []
 	quests: [
 		{
-			icon: {
-				id: "kubejs:mechanical_core"
-			}
 			id: "1B663F652AEF7395"
-			rewards: [{
-				id: "6CBF8740FF2AF479"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "hexagon"
+			icon: { id: "create:andesite_alloy" }
+			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "1B3F165DF374C16A"
-				type: "checkmark"
-			}]
+			title: "START — Mechanical Foundations"
+			description: ["Build the first real Create material. This is the start of the mandatory line."]
+			tasks: [{ id: "1B3F165DF374C16A", item: { count: 8, id: "create:andesite_alloy" }, type: "item" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			id: "A17E4D09B8C2F101"
 			dependencies: ["1B663F652AEF7395"]
-			icon: {
-				id: "kubejs:mechanical_core"
-			}
-			id: "5E5CFA388D9EC683"
-			rewards: [{
-				id: "48053A967EDBFD29"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "4F0ADA3574A9678C"
-				item: { count: 1, id: "kubejs:mechanical_core" }
-				type: "item"
-			}]
+			icon: { id: "create:mechanical_press" }
+			title: "Mechanical Processing"
+			description: ["Move from hand crafting to repeatable mechanical processing."]
+			tasks: [{ id: "A17E4D09B8C2F111", item: { count: 1, id: "create:mechanical_press" }, type: "item" }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5E5CFA388D9EC683"]
-			icon: {
-				id: "kubejs:industrial_frame"
-			}
-			id: "16838B1A7CA4BE89"
-			rewards: [{
-				id: "3DB68C0CCE6E6B4B"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "6B3D6CAB641E65ED"
-				item: { count: 1, id: "kubejs:industrial_frame" }
-				type: "item"
-			}]
+			id: "B29F510AC7D3E202"
+			dependencies: ["A17E4D09B8C2F101"]
+			icon: { id: "modern_industrialization:bronze_boiler" }
+			title: "Steam Metallurgy"
+			description: ["Enter Modern Industrialization through an actual machine, not a synthetic gate item."]
+			tasks: [{ id: "B29F510AC7D3E212", item: { count: 1, id: "modern_industrialization:bronze_boiler" }, type: "item" }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["05FA9E02AB2C8163"]
-			icon: {
-				id: "kubejs:precision_circuit"
-			}
-			id: "31E4D1B55CA6546E"
-			rewards: [{
-				id: "793CF480FE3E5883"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "7ADAB6CBF9AA5A76"
-				item: { count: 1, id: "kubejs:precision_circuit" }
-				type: "item"
-			}]
+			id: "C3A0621BD8E4F303"
+			dependencies: ["B29F510AC7D3E202"]
+			icon: { id: "modern_industrialization:assembler" }
+			title: "Industrial Assembly"
+			description: ["The assembler is the hand-off point from early machinery into cross-mod production."]
+			tasks: [{ id: "C3A0621BD8E4F313", item: { count: 1, id: "modern_industrialization:assembler" }, type: "item" }]
 			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["31E4D1B55CA6546E"]
-			icon: {
-				id: "kubejs:chemical_processor"
-			}
-			id: "33D42DC311D2F9BE"
-			rewards: [{
-				id: "6D8DCA80A3BE1D90"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "429ECBF37F855A8E"
-				item: { count: 1, id: "kubejs:chemical_processor" }
-				type: "item"
-			}]
+			id: "5E5CFA388D9EC683"
+			dependencies: ["C3A0621BD8E4F303"]
+			icon: { id: "mekanism:steel_casing" }
+			title: "Mekanism Integration"
+			description: ["Mekanism now depends directly on materials from the earlier engineering mods."]
+			tasks: [{ id: "4F0ADA3574A9678C", item: { count: 1, id: "mekanism:steel_casing" }, type: "item" }]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "kubejs:bioindustrial_matrix"
-			}
-			id: "0D54023AEE59ED08"
-			rewards: [{
-				id: "3C3F5FFD17859925"
-				type: "xp_levels"
-				xp_levels: 7
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "6388B08F2D5B98CD"
-				item: { count: 1, id: "kubejs:bioindustrial_matrix" }
-				type: "item"
-			}]
+			id: "D4B1732CE9F50404"
+			dependencies: ["5E5CFA388D9EC683"]
+			icon: { id: "ae2:controller" }
+			title: "Applied Logistics"
+			description: ["Build the AE2 controller after industrial electronics are established."]
+			tasks: [{ id: "D4B1732CE9F50414", item: { count: 1, id: "ae2:controller" }, type: "item" }]
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0D54023AEE59ED08"]
-			icon: {
-				id: "kubejs:quantum_logic"
-			}
-			id: "4377C3797509D983"
-			rewards: [{
-				id: "25DB65E5631DAF0A"
-				type: "xp_levels"
-				xp_levels: 8
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "3FFA29A6510D76F8"
-				item: { count: 1, id: "kubejs:quantum_logic" }
-				type: "item"
-			}]
+			id: "16838B1A7CA4BE89"
+			dependencies: ["D4B1732CE9F50404"]
+			icon: { id: "mekanism:ultimate_control_circuit" }
+			title: "Ultimate Control"
+			description: ["Reach late industrial control electronics before high-tier power and magic-tech systems."]
+			tasks: [{ id: "6B3D6CAB641E65ED", item: { count: 1, id: "mekanism:ultimate_control_circuit" }, type: "item" }]
 			x: 18.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4377C3797509D983"]
-			icon: {
-				id: "kubejs:resonant_core"
-			}
-			id: "3EE8E42D0138A34A"
-			rewards: [{
-				id: "2152A71FC03B9AF5"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "34F2ECF495842CE7"
-				item: { count: 1, id: "kubejs:resonant_core" }
-				type: "item"
-			}]
+			id: "31E4D1B55CA6546E"
+			dependencies: ["16838B1A7CA4BE89"]
+			icon: { id: "powah:reactor_nitro" }
+			title: "Resonant Power"
+			description: ["High-tier Powah generation requires electronics from the established industrial chain."]
+			tasks: [{ id: "7ADAB6CBF9AA5A76", item: { count: 1, id: "powah:reactor_nitro" }, type: "item" }]
 			x: 21.0d
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "kubejs:draconic_processor"
-			}
-			id: "742C709923A5AB9B"
-			rewards: [{
-				id: "1B1E2907C28E4F80"
-				type: "xp_levels"
-				xp_levels: 12
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "06485851AA041A9A"
-				item: { count: 1, id: "kubejs:draconic_processor" }
-				type: "item"
-			}]
+			id: "33D42DC311D2F9BE"
+			dependencies: ["31E4D1B55CA6546E"]
+			icon: { id: "draconicevolution:wyvern_core" }
+			title: "Draconic Engineering"
+			description: ["Draconic Evolution is no longer an isolated recipe island."]
+			tasks: [{ id: "429ECBF37F855A8E", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
 			x: 24.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["742C709923A5AB9B"]
-			icon: {
-				id: "kubejs:transmutation_matrix"
-			}
-			id: "6B91727E7931BD65"
-			rewards: [{
-				id: "2619A9278641063A"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "63B750350D14A0DA"
-				item: { count: 1, id: "kubejs:transmutation_matrix" }
-				type: "item"
-			}]
+			id: "0D54023AEE59ED08"
+			dependencies: ["33D42DC311D2F9BE"]
+			icon: { id: "projecte:philosophers_stone" }
+			title: "Contained Transmutation"
+			description: ["ProjectE unlocks only after late-game engineering has been demonstrated."]
+			tasks: [{ id: "6388B08F2D5B98CD", item: { count: 1, id: "projecte:philosophers_stone" }, type: "item" }]
 			x: 27.0d
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "kubejs:cosmic_catalyst"
-			}
+			id: "4377C3797509D983"
+			dependencies: ["0D54023AEE59ED08"]
+			icon: { id: "avaritia:extreme_crafting_table" }
+			title: "Extreme Fabrication"
+			description: ["Enter Avaritia through a recipe that consumes established late-game systems."]
+			tasks: [{ id: "3FFA29A6510D76F8", item: { count: 1, id: "avaritia:extreme_crafting_table" }, type: "item" }]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
 			id: "0D199D42E619C8CF"
-			rewards: [{
-				id: "6D21C6EAA5EF4096"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
+			dependencies: ["4377C3797509D983"]
+			icon: { id: "extendedcrafting:ultimate_singularity" }
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "14050E10B3BD99B8"
-				item: { count: 1, id: "kubejs:cosmic_catalyst" }
-				type: "item"
-			}]
-			x: 30.0d
+			title: "END — Ultimate Convergence"
+			description: ["The end of the mandatory line. Side chapters remain optional support paths."]
+			tasks: [{ id: "14050E10B3BD99B8", item: { count: 1, id: "extendedcrafting:ultimate_singularity" }, type: "item" }]
+			x: 34.0d
 			y: 0.0d
 		}
 	]

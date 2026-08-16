@@ -1,0 +1,91 @@
+{
+  "chapter_filename": "package_mod",
+  "chapter_id": "0D9E32CFA14CC182",
+  "chapter_title_en": "Packaged Automation — Atomic Recipe Contracts",
+  "chapter_title_ru": "Packaged Automation — атомарные контракты рецептов",
+  "report_filename": "PACKAGED_AUTOMATION_CONTRACT_QUALITY_REPORT.md",
+  "report_title": "Packaged Automation Contract Quality Report",
+  "report_intro": "Every packaged-crafting node must demonstrate encoding, complete input accounting, atomic execution, output routing and deadlock recovery instead of rewarding high-tier ingredients from the automated recipe.",
+  "expected_quests": 27,
+  "minimum_description": 220,
+  "primary_namespace": "packagedauto",
+  "primary_namespaces": [
+    "packagedauto",
+    "packagedexcrafting",
+    "packagedavaritia",
+    "packageddraconic",
+    "packagedmekemicals",
+    "packagedmekanism"
+  ],
+  "primary_namespace_prefixes": ["packaged"],
+  "acceptance_namespace": "packaged_automation_acceptance",
+  "checkpoint_name": "Packaged Recipe Contract Checkpoint",
+  "title_suffix_en": "Atomic Automation Acceptance",
+  "title_suffix_ru": "приёмка атомарной автоматизации",
+  "description_en": "{display} is a {role} in the Packaged Automation branch. It must execute an explicit recipe contract with complete inputs, a single accountable output and deterministic recovery—not act as a shortcut whose quest reward supplies black iron, awakened material or cosmic components.",
+  "description_ru": "{display} — {role} ветви Packaged Automation. Он должен выполнять явный контракт рецепта с полным набором входов, единственным учитываемым выходом и детерминированным восстановлением, а не служить обходом, где квест выдаёт чёрное железо, пробуждённый материал или космические компоненты.",
+  "acceptance_en": "Acceptance: verify {focus}; encode one representative recipe, submit exactly one bounded input set, reconcile package contents and final output, test missing-input, full-output and restart states, recover every retained item and confirm that rewards, duplicate packages, recursive unpacking and parallel endpoint races cannot create extra material.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; закодируйте один показательный рецепт, подайте ровно один ограниченный набор входов, сверьте содержимое пакета и итоговый выход, испытайте отсутствие входа, полный выход и перезапуск, верните каждый удержанный предмет и исключите лишний материал через награды, копирование пакетов, рекурсивную распаковку и гонки параллельных конечных точек.",
+  "categories": [
+    {
+      "tokens": ["encoder", "package_filler", "package_unpackager", "package_component", "recipe_holder"],
+      "role_en": "recipe encoder, package boundary or contract-definition component",
+      "role_ru": "кодировщик рецепта, граница пакета или компонент определения контракта",
+      "focus_en": "recipe identity, exact item and fluid counts, metadata matching, package ownership, invalid-input rejection, version changes, safe replacement of an encoded pattern and recovery of an abandoned package",
+      "focus_ru": "идентичность рецепта, точные количества предметов и жидкостей, совпадение компонентов, владельца пакета, отклонение неверного входа, изменения версии, безопасную замену шаблона и возврат заброшенного пакета"
+    },
+    {
+      "tokens": ["fluid_package", "fluid_filler", "fluid_unpackager"],
+      "role_en": "fluid-aware package interface",
+      "role_ru": "интерфейс пакетов с поддержкой жидкостей",
+      "focus_en": "fluid identity and amount, tank capacity, item-fluid transaction atomicity, partial-fill rejection, wrong-fluid cleanup, full-output behavior and proof that packing and unpacking conserve volume",
+      "focus_ru": "тип и объём жидкости, ёмкость резервуара, атомарность транзакции предметов и жидкости, отклонение частичного заполнения, очистку неверной жидкости, поведение полного выхода и сохранение объёма при упаковке и распаковке"
+    },
+    {
+      "tokens": ["basic_crafter", "advanced_crafter", "elite_crafter", "ultimate_crafter", "flux_crafter", "combination_crafter"],
+      "role_en": "tiered Extended Crafting package executor",
+      "role_ru": "этапный исполнитель пакетов Extended Crafting",
+      "focus_en": "supported crafting tier, encoded-grid size, energy and time cost, package throughput, catalyst handling, output identity, parallel-job limit and rejection of recipes above the assigned progression stage",
+      "focus_ru": "поддерживаемый уровень крафта, размер закодированной сетки, стоимость энергии и времени, пропускную способность пакетов, обработку катализатора, идентичность выхода, предел параллельных задач и отклонение рецептов выше назначенного этапа"
+    },
+    {
+      "tokens": ["extreme_crafter", "end_crafter", "avaritia"],
+      "role_en": "Avaritia package executor or extreme-grid endpoint",
+      "role_ru": "исполнитель пакетов Avaritia или конечная точка экстремальной сетки",
+      "focus_en": "full extreme-grid accounting, singularity and catalyst custody, irreversible inputs, one-output atomicity, long-job restart recovery, gated recipe whitelist and prevention of partial package duplication",
+      "focus_ru": "полный учёт экстремальной сетки, хранение сингулярностей и катализаторов, необратимые входы, атомарность единственного выхода, восстановление долгой задачи после перезапуска, белый список закрытых рецептов и запрет копирования частичного пакета"
+    },
+    {
+      "tokens": ["fusion_crafter", "injector", "draconic"],
+      "role_en": "Draconic Evolution fusion-package endpoint",
+      "role_ru": "конечная точка fusion-пакетов Draconic Evolution",
+      "focus_en": "fusion tier, injector count and placement, energy charge, catalyst protection, package-to-injector distribution, interruption recovery and confirmation that marked injectors cannot fabricate awakened material without the full recipe",
+      "focus_ru": "уровень fusion, число и размещение инжекторов, заряд энергии, защиту катализатора, распределение пакета по инжекторам, восстановление после прерывания и запрет создания пробуждённого материала маркированными инжекторами без полного рецепта"
+    },
+    {
+      "tokens": ["mekanism", "chemical", "gas", "slurry", "infusion", "pigment"],
+      "role_en": "Mekanism chemical-aware package endpoint",
+      "role_ru": "конечная точка пакетов с химикатами Mekanism",
+      "focus_en": "chemical type and amount, tank separation, item-chemical atomicity, side configuration, residue handling, full-output shutdown and conservation across packaging and execution",
+      "focus_ru": "тип и количество химиката, разделение резервуаров, атомарность предметов и химикатов, настройку сторон, обработку остатка, отключение при полном выходе и сохранение количества при упаковке и выполнении"
+    }
+  ],
+  "default": {
+    "role_en": "specialized packaged-automation component",
+    "role_ru": "специализированный компонент пакетной автоматизации",
+    "focus_en": "contract inputs, package identity, supported recipe tier, energy or fluid cost, atomic output, backpressure, restart recovery and absence of duplicate retained contents",
+    "focus_ru": "входы контракта, идентичность пакета, поддерживаемый уровень рецепта, стоимость энергии или жидкости, атомарный выход, обратное давление, восстановление после перезапуска и отсутствие копий удержанного содержимого"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod recipe ingredient or endpoint prerequisite",
+    "role_ru": "межмодовый ингредиент рецепта или предпосылка конечной точки",
+    "focus_en": "its legal staged source, exact count, metadata, consumption or catalyst return rule and proof that packaging cannot replace the original mod's progression or machine permission",
+    "focus_ru": "его честный этапный источник, точное количество, компоненты, правило расхода или возврата катализатора и доказательство, что упаковка не заменяет прогрессию или допуск машины исходного мода"
+  },
+  "checkpoint": {
+    "role_en": "packaged-automation contract review",
+    "role_ru": "проверка контракта пакетной автоматизации",
+    "focus_en": "encoded recipe, all item and fluid inputs, package ownership, executor tier, throughput, output route, backpressure, deadlock recovery, restart and conservation evidence",
+    "focus_ru": "закодированный рецепт, все предметные и жидкостные входы, владельца пакета, уровень исполнителя, пропускную способность, маршрут выхода, обратное давление, восстановление из тупика, перезапуск и доказательство сохранения"
+  }
+}

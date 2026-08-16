@@ -1,0 +1,145 @@
+{
+  "slug": "apotheosis",
+  "lessons": [
+    {
+      "slug": "modules",
+      "icon": "apotheosis:boss_summoner",
+      "title_en": "Apotheosis Capability Modules",
+      "title_ru": "Модули возможностей Apotheosis",
+      "desc_en": [
+        "Apotheosis changes enchanting, adventure loot, spawners, potions and equipment progression. These systems must be reviewed separately because each can bypass a different technology stage.",
+        "Document enabled modules, assign each capability to a progression boundary and avoid treating the entire mod as one unrestricted reward pool."
+      ],
+      "desc_ru": [
+        "Apotheosis меняет зачарование, приключенческий лут, спавнеры, зелья и снаряжение. Каждая система может обходить отдельный технологический этап.",
+        "Документируйте включённые модули, назначайте границы возможностей и не рассматривайте весь мод как единый бесконтрольный пул наград."
+      ]
+    },
+    {
+      "slug": "enchanting",
+      "icon": "minecraft:enchanting_table",
+      "title_en": "Enchanting Stats and Shelf Design",
+      "title_ru": "Параметры зачарования и проект полок",
+      "desc_en": [
+        "Apotheosis enchanting uses several shelf statistics rather than only vanilla power. Maximum values can conflict or create expensive randomness.",
+        "Measure each statistic, design switchable shelf groups, keep a low-risk configuration and verify the setup does not grant endgame effects before equivalent production stages."
+      ],
+      "desc_ru": [
+        "Зачарование Apotheosis использует несколько параметров полок, а не только силу. Максимальные значения могут конфликтовать или создавать дорогую случайность.",
+        "Измеряйте параметры, создавайте переключаемые группы, храните безопасную конфигурацию и не выдавайте эндгейм-эффекты раньше эквивалентных этапов."
+      ]
+    },
+    {
+      "slug": "affixes",
+      "icon": "apotheosis:gem_dust",
+      "title_en": "Affix Loot and Rarity Policy",
+      "title_ru": "Аффиксный лут и политика редкости",
+      "desc_en": [
+        "Affix equipment can provide large damage, defense, movement or utility jumps independent of crafted gear tiers.",
+        "Map rarity to progression, restrict overpowered attributes, audit boss and chest sources and prevent salvaging from creating more value than the item source requires."
+      ],
+      "desc_ru": [
+        "Аффиксное снаряжение даёт большие скачки урона, защиты, движения или утилиты независимо от крафтовых уровней.",
+        "Связывайте редкость с прогрессией, ограничивайте чрезмерные свойства, проверяйте боссов и сундуки и исключайте выгодную разборку сверх источника."
+      ]
+    },
+    {
+      "slug": "gems",
+      "icon": "apotheosis:gem",
+      "title_en": "Gems, Sockets and Build Intent",
+      "title_ru": "Самоцветы, гнёзда и назначение сборки",
+      "desc_en": [
+        "Gems turn sockets into configurable power. Randomly installing the highest rarity can waste rare items or produce unintended capability combinations.",
+        "Define build intent, compare socket opportunity cost, preserve removal tools and gate gem effects that replace later flight, mining or damage systems."
+      ],
+      "desc_ru": [
+        "Самоцветы превращают гнёзда в настраиваемую мощь. Случайная установка максимальной редкости тратит предметы или создаёт непредусмотренные сочетания.",
+        "Определяйте назначение сборки, сравнивайте стоимость гнезда, храните средства извлечения и закрывайте эффекты, заменяющие поздний полёт, добычу или урон."
+      ]
+    },
+    {
+      "slug": "reforging",
+      "icon": "apotheosis:reforging_table",
+      "title_en": "Reforging Cost and Selection",
+      "title_ru": "Стоимость и выбор перековки",
+      "desc_en": [
+        "Reforging converts materials and randomness into affix outcomes. Repeated rerolls can consume more progression resources than the equipment is worth.",
+        "Set an acceptable result threshold, budget rerolls, preserve fallback gear and prevent cheap materials from rolling attributes intended for later stages."
+      ],
+      "desc_ru": [
+        "Перековка превращает материалы и случайность в аффиксы. Повторные попытки расходуют больше ресурсов прогрессии, чем стоит предмет.",
+        "Задавайте приемлемый порог, планируйте число попыток, храните запасное снаряжение и не позволяйте дешёвым материалам выдавать поздние свойства."
+      ]
+    },
+    {
+      "slug": "bosses",
+      "icon": "apotheosis:boss_summoner",
+      "title_en": "Adventure Bosses and Controlled Rewards",
+      "title_ru": "Приключенческие боссы и контролируемые награды",
+      "desc_en": [
+        "Apotheosis bosses are repeatable sources of affix gear and gems. Spawn rate and loot quality can dominate crafted combat progression.",
+        "Place boss tiers by dimension and stage, prevent farming permission items and keep the reward loop challenging without requiring hundreds of identical kills."
+      ],
+      "desc_ru": [
+        "Боссы Apotheosis являются повторяемым источником аффиксов и самоцветов. Частота и качество лута могут вытеснить крафтовую боевую прогрессию.",
+        "Размещайте уровни по измерениям и этапам, запрещайте ферму допусков и сохраняйте вызов без сотен одинаковых убийств."
+      ]
+    },
+    {
+      "slug": "spawners",
+      "icon": "minecraft:spawner",
+      "title_en": "Spawner Modification and Entity Limits",
+      "title_ru": "Изменение спавнеров и пределы сущностей",
+      "desc_en": [
+        "Spawner modifiers change delay, count, range, conditions and entity type. Combined upgrades can create severe entity load or bypass exploration.",
+        "Cap spawn rate and population, restrict entity replacement by stage, require overflow shutdown and verify no boss, seal carrier or rare dimension mob becomes an ordinary farm."
+      ],
+      "desc_ru": [
+        "Модификаторы меняют задержку, число, радиус, условия и сущность. Совместные улучшения создают нагрузку или обходят исследование.",
+        "Ограничивайте скорость и популяцию, закрывайте замену по этапам, требуйте остановку при переполнении и не превращайте боссов или носителей печатей в обычную ферму."
+      ]
+    },
+    {
+      "slug": "potions",
+      "icon": "minecraft:brewing_stand",
+      "title_en": "Potion Extensions and Capability Boundaries",
+      "title_ru": "Расширенные зелья и границы возможностей",
+      "desc_en": [
+        "Extended potion levels and durations can replace armor, environmental preparation or machine safety systems when ingredients arrive too early.",
+        "Gate high effects by equivalent technology, account for renewable ingredient farms and prohibit automated loops that make permanent high-tier buffs effectively free."
+      ],
+      "desc_ru": [
+        "Расширенные уровни и длительность зелий заменяют броню, подготовку среды или безопасность машин при ранних ингредиентах.",
+        "Закрывайте сильные эффекты эквивалентными технологиями, учитывайте фермы ингредиентов и запрещайте циклы, делающие постоянные усиления бесплатными."
+      ]
+    },
+    {
+      "slug": "salvaging",
+      "icon": "apotheosis:salvaging_table",
+      "title_en": "Salvaging and Value Conservation",
+      "title_ru": "Разборка и сохранение стоимости",
+      "desc_en": [
+        "Salvaging turns unwanted equipment into materials and can form positive loops with crafting, reforging, mob farms or EMC systems.",
+        "Compare input and expected output value, include energy and rarity cost, blacklist progression components and reject any repeatable net-positive loop."
+      ],
+      "desc_ru": [
+        "Разборка превращает ненужное снаряжение в материалы и создаёт положительные циклы с крафтом, перековкой, фермами или EMC.",
+        "Сравнивайте стоимость входа и выхода, учитывайте энергию и редкость, блокируйте компоненты прогрессии и запрещайте повторяемый чистый прирост."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:draconic_lattice",
+      "title_en": "Project: Stage-Bounded Apotheosis Build",
+      "title_ru": "Проект: сборка Apotheosis в границах этапа",
+      "desc_en": [
+        "Create one documented equipment build using enchanting, affixes and gems while maintaining a stage-safe boss or spawner source and audited salvage policy.",
+        "The project passes after capability comparison with crafted gear, bounded entity load, no permission-item farming, recoverable gem choices and zero positive material loop."
+      ],
+      "desc_ru": [
+        "Создайте документированную сборку с зачарованием, аффиксами и самоцветами при безопасном источнике боссов или спавнеров и проверенной разборке.",
+        "Проект принят после сравнения с крафтовым снаряжением, ограничения сущностей, запрета фермы допусков, обратимости самоцветов и отсутствия положительного цикла."
+      ]
+    }
+  ]
+}

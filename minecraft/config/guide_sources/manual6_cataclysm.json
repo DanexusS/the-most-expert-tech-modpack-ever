@@ -1,0 +1,145 @@
+{
+  "slug": "cataclysm",
+  "lessons": [
+    {
+      "slug": "structures",
+      "icon": "cataclysm:void_stone",
+      "title_en": "Boss Structures and Expedition Planning",
+      "title_ru": "Боссовые структуры и планирование экспедиций",
+      "desc_en": [
+        "Cataclysm bosses are tied to large structures, environmental hazards and long approach routes. Reaching the arena is part of the encounter infrastructure.",
+        "Record coordinates, secure a return path, place recovery storage outside destructive range and avoid mining shortcuts that bypass intended structure progression."
+      ],
+      "desc_ru": [
+        "Боссы Cataclysm связаны с крупными структурами, опасной средой и длинными подходами. Достижение арены является частью инфраструктуры боя.",
+        "Записывайте координаты, обеспечьте возврат, храните восстановительный комплект вне зоны разрушения и не используйте шахтные обходы, ломающие порядок структуры."
+      ]
+    },
+    {
+      "slug": "readiness",
+      "icon": "minecraft:shield",
+      "title_en": "Readiness, Damage Types and Recovery",
+      "title_ru": "Готовность, типы урона и восстановление",
+      "desc_en": [
+        "Cataclysm encounters combine heavy melee, projectiles, area attacks, terrain control and phase changes. Raw armor alone does not answer every failure mode.",
+        "Prepare mobility, ranged and close options, healing, repair stock and a retreat threshold; keep one complete replacement set outside the arena."
+      ],
+      "desc_ru": [
+        "Бои Cataclysm объединяют тяжёлый ближний урон, снаряды, области, контроль местности и фазы. Одна броня не отвечает на все угрозы.",
+        "Готовьте движение, дальний и ближний бой, лечение, ремонт и условие отступления; храните полный запасной комплект вне арены."
+      ]
+    },
+    {
+      "slug": "phases",
+      "icon": "cataclysm:monstrous_horn",
+      "title_en": "Boss Phases and Pattern Learning",
+      "title_ru": "Фазы боссов и изучение паттернов",
+      "desc_en": [
+        "Boss phases change attacks, vulnerability and arena pressure. Damage racing can skip learning but becomes unreliable after balance changes.",
+        "Observe one full cycle, identify telegraphs and safe responses, record phase transitions and tune equipment only after the mechanical cause of failure is understood."
+      ],
+      "desc_ru": [
+        "Фазы меняют атаки, уязвимость и давление арены. Гонка урона пропускает обучение и становится ненадёжной после изменений баланса.",
+        "Наблюдайте полный цикл, определяйте сигналы и безопасные ответы, записывайте переходы и меняйте экипировку после понимания причины поражения."
+      ]
+    },
+    {
+      "slug": "arena",
+      "icon": "cataclysm:ancient_metal_block",
+      "title_en": "Arena Integrity and Destructive Attacks",
+      "title_ru": "Целостность арены и разрушительные атаки",
+      "desc_en": [
+        "Some encounters alter terrain, create hazards or punish confinement. Overbuilding the arena can remove intended movement or trap the player with the boss.",
+        "Preserve escape lanes, protect only essential recovery points, avoid invulnerable cheese structures and test the arena without carrying unique progression items."
+      ],
+      "desc_ru": [
+        "Некоторые бои изменяют местность, создают опасности или наказывают тесноту. Чрезмерная перестройка убирает движение или запирает игрока с боссом.",
+        "Сохраняйте пути отхода, защищайте только важные точки, избегайте неуязвимых ловушек и тестируйте арену без уникальных предметов прогрессии."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "cataclysm:ignitium_ingot",
+      "title_en": "Boss Drops and Technology Permissions",
+      "title_ru": "Боссовый лут и технологические разрешения",
+      "desc_en": [
+        "Cataclysm drops often unlock powerful equipment or recipes. A loot simulator, quest reward or trade can erase the encounter requirement.",
+        "Classify every unique drop, keep first-victory evidence outside ordinary farms, set zero EMC where required and consume only repeatable materials in mass recipes."
+      ],
+      "desc_ru": [
+        "Лут Cataclysm часто открывает мощное снаряжение или рецепты. Симулятор, награда или торговля стирают требование боя.",
+        "Классифицируйте уникальные выходы, держите доказательство первой победы вне ферм, задавайте нулевой EMC и массово расходуйте только повторяемые материалы."
+      ]
+    },
+    {
+      "slug": "equipment",
+      "icon": "cataclysm:ignitium_helmet",
+      "title_en": "Cataclysm Equipment and Capability Jumps",
+      "title_ru": "Снаряжение Cataclysm и скачки возможностей",
+      "desc_en": [
+        "Boss equipment can grant mobility, damage, defense or environmental capability beyond ordinary crafted tiers.",
+        "Map each item to a stage, compare with Draconic and Apotheosis gear, preserve repair materials and block salvaging or duplication loops."
+      ],
+      "desc_ru": [
+        "Боссовое снаряжение даёт движение, урон, защиту или устойчивость выше обычных крафтовых уровней.",
+        "Связывайте предметы с этапами, сравнивайте с Draconic и Apotheosis, сохраняйте ремонтные материалы и блокируйте циклы разборки или дублирования."
+      ]
+    },
+    {
+      "slug": "rematches",
+      "icon": "cataclysm:abyssal_sacrifice",
+      "title_en": "Rematches and Fair Repeatability",
+      "title_ru": "Повторные бои и справедливая повторяемость",
+      "desc_en": [
+        "Some late recipes need repeatable boss materials. Repeating a long structure search is different from repeating a mastered encounter.",
+        "Provide a controlled rematch path after the first victory, preserve resource and energy cost, prevent automatic killing and keep unique permissions non-consumable."
+      ],
+      "desc_ru": [
+        "Поздние рецепты могут требовать повторяемые материалы босса. Новый поиск структуры отличается от повторения освоенного боя.",
+        "После первой победы создайте контролируемый повтор с затратами, запретите автоматическое убийство и оставьте уникальные допуски нерасходуемыми."
+      ]
+    },
+    {
+      "slug": "scaling",
+      "icon": "cataclysm:the_incinerator",
+      "title_en": "Modeled Health and TTK Targets",
+      "title_ru": "Модель здоровья и целевого времени боя",
+      "desc_en": [
+        "Cataclysm bosses use the highest pack combat profile, but difficulty should come from mechanics and pressure rather than an endless health bar.",
+        "Keep theoretical TTK inside the declared range, compare real phase duration and adjust health, damage and armor together instead of multiplying only HP."
+      ],
+      "desc_ru": [
+        "Боссы Cataclysm используют самый высокий боевой профиль сборки, но сложность должна идти от механик и давления, а не бесконечной полосы здоровья.",
+        "Держите расчётное время в диапазоне, сравнивайте длительность фаз и меняйте здоровье, урон и броню вместе, а не только множитель HP."
+      ]
+    },
+    {
+      "slug": "anti_farm",
+      "icon": "cataclysm:void_core",
+      "title_en": "Boss Farm Exclusion",
+      "title_ru": "Запрет автоматической фермы боссов",
+      "desc_en": [
+        "Woot, neural models, swabs, spawners and generic mob farms can attempt to reproduce Cataclysm entities or drops.",
+        "Blacklist bosses and unique outputs across every simulator, allow ordinary secondary materials only after review and keep progression seals or trophies first-victory only."
+      ],
+      "desc_ru": [
+        "Woot, нейромодели, мазки, спавнеры и обычные фермы могут воспроизводить сущностей или лут Cataclysm.",
+        "Запрещайте боссов и уникальные выходы во всех симуляторах, разрешайте обычные вторичные материалы только после проверки и оставляйте печати первой победе."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:draconic_lattice",
+      "title_en": "Project: Documented Cataclysm Expedition",
+      "title_ru": "Проект: документированная экспедиция Cataclysm",
+      "desc_en": [
+        "Complete one major Cataclysm encounter with a prepared route, recovery cache, recorded phases and an audited plan for every drop.",
+        "The project passes after a successful return, no terrain cheese, no simulated unique loot, measured combat duration and a fair rematch strategy if repeat materials are needed."
+      ],
+      "desc_ru": [
+        "Завершите крупный бой Cataclysm с подготовленным маршрутом, тайником восстановления, записанными фазами и планом каждого предмета.",
+        "Проект принят после успешного возврата без сырной арены, без симуляции уникального лута, с измеренным временем и справедливым планом повторного боя."
+      ]
+    }
+  ]
+}

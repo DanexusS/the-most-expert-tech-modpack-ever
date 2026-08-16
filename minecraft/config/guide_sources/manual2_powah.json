@@ -1,0 +1,145 @@
+{
+  "slug": "powah",
+  "lessons": [
+    {
+      "slug": "tiers",
+      "icon": "powah:capacitor_basic",
+      "title_en": "Tier Model and Shared Components",
+      "title_ru": "Уровни и общие компоненты",
+      "desc_en": [
+        "Powah uses recurring capacitors, crystals and previous-tier machines. Skipping one tier through loot or conversion undermines the intended energy progression.",
+        "Stock shared components, preserve previous-tier equipment for upgrades and verify every high-tier recipe depends on the declared resonant stage."
+      ],
+      "desc_ru": [
+        "Powah использует повторяющиеся конденсаторы, кристаллы и машины предыдущего уровня. Пропуск через лут или конверсию ломает энергетическую прогрессию.",
+        "Храните общие компоненты, сохраняйте младшее оборудование для улучшений и проверяйте зависимость каждого высокого уровня от резонансного этапа."
+      ]
+    },
+    {
+      "slug": "generators",
+      "icon": "powah:furnator_basic",
+      "title_en": "Generators and Fuel Economics",
+      "title_ru": "Генераторы и экономика топлива",
+      "desc_en": [
+        "Powah generators convert different fuels or conditions into energy. Nominal output is insufficient without supply reliability, waste handling and operating cost.",
+        "Measure energy per consumed resource, keep startup stock and choose generators that match renewable inputs instead of forcing one scarce fuel into every load."
+      ],
+      "desc_ru": [
+        "Генераторы Powah используют разные виды топлива и условия. Номинальная мощность недостаточна без надёжного снабжения и учёта стоимости.",
+        "Измеряйте энергию на ресурс, храните стартовый запас и выбирайте генерацию под возобновляемые входы, а не расходуйте дефицитное топливо на всё."
+      ]
+    },
+    {
+      "slug": "thermo",
+      "icon": "powah:thermo_generator_basic",
+      "title_en": "Thermo Generators and Coolant",
+      "title_ru": "Термогенераторы и охлаждение",
+      "desc_en": [
+        "Thermo generators depend on a heat source and coolant quality. Their steady output is useful only while the coolant route remains reliable.",
+        "Use a renewable coolant supply, protect against empty input, compare heat blocks and confirm the generator restarts after a temporary fluid interruption."
+      ],
+      "desc_ru": [
+        "Термогенераторы зависят от источника тепла и качества охлаждения. Их стабильность сохраняется только при надёжной подаче жидкости.",
+        "Используйте возобновляемое охлаждение, защищайте от пустого входа, сравнивайте тепловые блоки и проверяйте перезапуск после сбоя жидкости."
+      ]
+    },
+    {
+      "slug": "energizing",
+      "icon": "powah:energizing_rod_basic",
+      "title_en": "Energizing Recipes and Rod Scaling",
+      "title_ru": "Энергетическая обработка и масштабирование стержней",
+      "desc_en": [
+        "Energizing recipes consume a defined energy total, while rod count controls transfer rate. More rods shorten time but increase peak grid demand.",
+        "Buffer the required energy before a batch, prevent partial starvation, scale rods from measured capacity and route completed items without re-entry."
+      ],
+      "desc_ru": [
+        "Рецепты энергизации требуют определённую сумму энергии, а число стержней задаёт скорость. Дополнительные стержни сокращают время, но повышают пик.",
+        "Буферизуйте энергию до партии, исключайте частичное голодание, масштабируйте по измеренной сети и выводите готовые предметы без повторного входа."
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "powah:energy_cell_basic",
+      "title_en": "Energy Cells and Reserve Policy",
+      "title_ru": "Энергетические ячейки и резерв",
+      "desc_en": [
+        "Energy cells separate generation from demand and can form tiered reserves. A large empty cell does not solve insufficient generation or transfer.",
+        "Define a minimum reserve, protect recovery power, observe charge and discharge rates and keep high-tier storage behind the matching progression gate."
+      ],
+      "desc_ru": [
+        "Энергетические ячейки отделяют генерацию от спроса и создают резервы уровней. Большая пустая ячейка не исправляет слабую генерацию или передачу.",
+        "Задавайте минимальный резерв, защищайте энергию восстановления, наблюдайте скорости и держите высокие уровни за соответствующим допуском."
+      ]
+    },
+    {
+      "slug": "transfer",
+      "icon": "powah:energy_cable_basic",
+      "title_en": "Cables and Transfer Limits",
+      "title_ru": "Кабели и пределы передачи",
+      "desc_en": [
+        "Cable tier and connection configuration limit actual delivery. Generators and cells can be full while a consumer starves behind an undersized segment.",
+        "Label trunk tiers, inspect every connection, isolate high-pulse machines and test simultaneous demand rather than one idle consumer."
+      ],
+      "desc_ru": [
+        "Уровень кабеля и соединений ограничивает реальную передачу. Генератор и ячейка могут быть полны, пока потребитель голодает за слабым участком.",
+        "Подписывайте уровни магистралей, проверяйте соединения, изолируйте импульсные машины и тестируйте одновременный спрос."
+      ]
+    },
+    {
+      "slug": "wireless",
+      "icon": "powah:player_transmitter_basic",
+      "title_en": "Player Transmitters and Binding",
+      "title_ru": "Передатчики игрока и привязка",
+      "desc_en": [
+        "Player transmitters provide convenient wireless charging but can silently drain the same reserve that supports critical automation.",
+        "Bind deliberately, filter equipment when possible, set a protected energy floor and verify personal charging cannot shut down recovery systems."
+      ],
+      "desc_ru": [
+        "Передатчики игрока удобно заряжают снаряжение, но незаметно расходуют резерв критической автоматизации.",
+        "Привязывайте осознанно, фильтруйте оборудование, задавайте защищённый минимум и не допускайте отключения восстановительных систем."
+      ]
+    },
+    {
+      "slug": "reactor",
+      "icon": "powah:reactor_nitro",
+      "title_en": "Reactors and Multi-Input Balance",
+      "title_ru": "Реакторы и баланс нескольких входов",
+      "desc_en": [
+        "Powah reactors combine several consumables and cooling inputs. Missing one component reduces output or stops the system despite full stores of the others.",
+        "Maintain independent stock thresholds, expose limiting inputs, protect restart inventory and gate Nitro construction behind the resonant standard."
+      ],
+      "desc_ru": [
+        "Реакторы Powah объединяют несколько расходников и охлаждающих входов. Нехватка одного снижает мощность или останавливает систему при избытке остальных.",
+        "Поддерживайте отдельные минимумы, показывайте ограничивающий вход, защищайте запас запуска и держите Nitro за резонансным стандартом."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "powah:energy_hopper_basic",
+      "title_en": "Energy Diagnostics and Load Shedding",
+      "title_ru": "Диагностика энергии и сброс нагрузки",
+      "desc_en": [
+        "An energy network should identify whether failure begins at generation, storage, transfer or demand. Adding a generator without diagnosis can hide a cable bottleneck.",
+        "Record rates, disconnect optional loads in a defined order and test black-start recovery from an empty network."
+      ],
+      "desc_ru": [
+        "Энергосеть должна показывать, начинается ли отказ в генерации, хранении, передаче или спросе. Новый генератор скрывает узкое место кабеля.",
+        "Записывайте скорости, отключайте второстепенные нагрузки в заданном порядке и проверяйте холодный запуск из пустой сети."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:resonant_power_cell",
+      "title_en": "Project: Tiered Resilient Power Grid",
+      "title_ru": "Проект: отказоустойчивая многоуровневая сеть",
+      "desc_en": [
+        "Build a Powah grid with two generation methods, staged storage, protected recovery reserve and one controlled energizing line.",
+        "The project passes when simultaneous loads remain supplied, a failed generator triggers load shedding, the grid restarts from empty and Nitro stays stage-gated."
+      ],
+      "desc_ru": [
+        "Постройте сеть Powah с двумя способами генерации, ступенчатым хранением, защищённым резервом и управляемой линией энергизации.",
+        "Проект принят, когда одновременные нагрузки питаются, отказ включает сброс нагрузки, сеть запускается с нуля, а Nitro остаётся закрытым этапом."
+      ]
+    }
+  ]
+}

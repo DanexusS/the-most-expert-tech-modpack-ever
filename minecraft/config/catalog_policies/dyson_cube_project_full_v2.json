@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "dyson_cube_project",
+  "chapter_id": "19DC23338CBE652E",
+  "chapter_title_en": "Dyson Cube Project — Orbital Construction and Power Capture",
+  "chapter_title_ru": "Проект Дайсон-куба — орбитальное строительство и сбор энергии",
+  "report_filename": "DYSON_CUBE_OPERATIONAL_QUALITY_REPORT.md",
+  "report_title": "Dyson Cube Operational Quality Report",
+  "report_intro": "Every Dyson Cube node must teach orbital component production, packaging, launch logistics, receiver construction, measured power capture and recovery instead of refunding copper, iron, packages or cosmic materials.",
+  "expected_quests": 12,
+  "minimum_description": 225,
+  "primary_namespace": "dysoncubeproject",
+  "primary_namespaces": ["dysoncubeproject", "fragmentumneoforge"],
+  "acceptance_namespace": "dyson_cube_operational_acceptance",
+  "checkpoint_name": "Dyson Infrastructure Checkpoint",
+  "title_suffix_en": "Orbital-System Acceptance",
+  "title_suffix_ru": "приёмка орбитальной системы",
+  "description_en": "{display} is a {role} in the Dyson Cube megastructure chain. It must be validated through staged manufacturing, accountable packaging, orbital deployment and measured receiver output—not by a quest reward that refunds launch materials or duplicates the packaged component.",
+  "description_ru": "{display} — {role} в цепочке мегаструктуры Дайсон-куба. Его необходимо проверять через этапное производство, учитываемую упаковку, орбитальное развёртывание и измеряемый выход приёмника, а не наградой, возвращающей стартовые материалы или копирующей упакованный компонент.",
+  "acceptance_en": "Acceptance: verify {focus}; reconcile one bounded production and launch batch, record package contents and deployment count, measure receiver or launcher behavior, test a missing-package, full-output or interrupted-launch state, recover retained materials and prove that rewards, recursive packaging, duplication and unloaded-chunk behavior cannot create free orbital infrastructure or energy.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; сверьте одну ограниченную производственную и стартовую партию, зафиксируйте содержимое пакетов и число развёрнутых компонентов, измерьте работу приёмника или пусковой установки, испытайте отсутствие пакета, полный выход либо прерванный запуск, верните удержанные материалы и докажите отсутствие бесплатной орбитальной инфраструктуры или энергии через награды, рекурсивную упаковку, копирование и поведение выгруженных чанков.",
+  "categories": [
+    {
+      "tokens": ["solar_sail", "sail"],
+      "role_en": "orbital solar-collection element",
+      "role_ru": "орбитальный элемент сбора солнечной энергии",
+      "focus_en": "material ancestry, sail batch yield, optical or structural requirements, package conversion, launch count, deployed-fleet accounting, damage or loss policy and expected contribution to receiver output",
+      "focus_ru": "происхождение материалов, выход партии парусов, оптические или конструкционные требования, преобразование в пакет, число запусков, учёт развёрнутого флота, правила повреждения или потери и ожидаемый вклад в выход приёмника"
+    },
+    {
+      "tokens": ["beam", "ray", "receiver"],
+      "role_en": "orbital beam, ray receiver or power-capture component",
+      "role_ru": "орбитальный луч, приёмник или компонент сбора мощности",
+      "focus_en": "beam package count, receiver multiblock or controller requirements, alignment and range, rated power, storage and transfer ceiling, full-output shutdown, unloaded-chunk behavior and measured energy conservation",
+      "focus_ru": "число пакетов лучей, требования мультиблока или контроллера приёмника, выравнивание и дальность, номинальную мощность, предел хранения и передачи, отключение при полном выходе, поведение выгруженных чанков и измеренное сохранение энергии"
+    },
+    {
+      "tokens": ["package", "packaged"],
+      "role_en": "accountable orbital deployment package",
+      "role_ru": "учитываемый пакет орбитального развёртывания",
+      "focus_en": "exact contained component and count, packaging cost, metadata identity, stack and storage policy, one-package-to-one-deployment conservation, invalid-package rejection and recovery after interrupted loading",
+      "focus_ru": "точный содержащийся компонент и количество, стоимость упаковки, идентичность компонентов, правила стека и хранения, сохранение одного развёртывания на пакет, отклонение неверного пакета и восстановление после прерванной загрузки"
+    },
+    {
+      "tokens": ["railejector", "rail_ejector", "launcher", "ejector", "controller"],
+      "role_en": "orbital launch or deployment controller",
+      "role_ru": "контроллер орбитального запуска или развёртывания",
+      "focus_en": "complete structure, input buffer, power requirement, package validation, launch cadence, blocked trajectory or output response, emergency stop and recovery without consuming or duplicating the queued package",
+      "focus_ru": "полную структуру, входной буфер, требование энергии, проверку пакета, частоту запусков, реакцию на заблокированную траекторию или выход, аварийную остановку и восстановление без потери либо копирования пакета в очереди"
+    },
+    {
+      "tokens": ["solaris", "solaria", "fragmentum", "star", "cosmic"],
+      "role_en": "cosmic construction material or late convergence prerequisite",
+      "role_ru": "космический строительный материал или поздняя предпосылка схождения",
+      "focus_en": "source branch, authoritative recipe, irreversible material cost, exact use in orbital infrastructure, protected storage, EMC and simulation restrictions and confirmation that launch rewards cannot refund the cosmic input",
+      "focus_ru": "исходную ветвь, авторитетный рецепт, необратимую стоимость материалов, точное применение в орбитальной инфраструктуре, защищённое хранение, ограничения EMC и симуляции и запрет возврата космического входа стартовыми наградами"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Dyson Cube infrastructure component",
+    "role_ru": "специализированный компонент инфраструктуры Дайсон-куба",
+    "focus_en": "manufacturing route, package or structure role, power and material cost, orbital accounting, measured contribution, failure recovery and conservation across deployment",
+    "focus_ru": "производственный маршрут, роль пакета или структуры, стоимость энергии и материалов, орбитальный учёт, измеримый вклад, восстановление после отказа и сохранение при развёртывании"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite for orbital construction",
+    "role_ru": "межмодовая предпосылка орбитального строительства",
+    "focus_en": "its legal source, assigned stage, exact count, packaging or construction consumption, blacklist coverage and proof that the Dyson system cannot generate or refund it",
+    "focus_ru": "его честный источник, назначенный этап, точное количество, расход при упаковке или строительстве, покрытие чёрным списком и доказательство, что система Дайсона не создаёт и не возвращает этот компонент"
+  },
+  "checkpoint": {
+    "role_en": "Dyson megastructure mission review",
+    "role_ru": "проверка миссии мегаструктуры Дайсона",
+    "focus_en": "component factories, package accounting, launcher power, deployed counts, receiver capacity, energy routing, blocked-output behavior, restart recovery and conservation evidence",
+    "focus_ru": "фабрики компонентов, учёт пакетов, энергию пусковой установки, число развёртываний, ёмкость приёмника, передачу энергии, поведение при полном выходе, восстановление после перезапуска и доказательство сохранения"
+  }
+}

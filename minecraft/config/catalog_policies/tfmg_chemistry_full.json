@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "tfmg_chemistry",
+  "chapter_id": "54D57FF8C31ABBAE",
+  "chapter_title_en": "TFMG Chemistry — Fluids, Reactions and Industrial Plastics",
+  "chapter_title_ru": "TFMG Chemistry — жидкости, реакции и промышленный пластик",
+  "report_filename": "TFMG_CHEMISTRY_CATALOG_QUALITY_REPORT.md",
+  "report_title": "TFMG Chemistry Catalogue Quality Report",
+  "report_intro": "TFMG chemistry quests must teach legal feedstocks, vessel construction, phase ownership, reaction ratios, byproducts and safe purge procedures without returning the requested chemicals as rewards.",
+  "expected_quests": 35,
+  "minimum_description": 200,
+  "primary_namespace": "tfmg",
+  "primary_namespace_prefixes": ["tfmg", "create", "minecraft"],
+  "acceptance_namespace": "tfmg_chemistry_acceptance",
+  "checkpoint_name": "TFMG Chemical Engineering Checkpoint",
+  "title_suffix_en": "Chemical Acceptance",
+  "title_suffix_ru": "химическая приёмка",
+  "description_en": "{display} is a {role} in the TFMG chemical route. The lesson must establish a contained, measurable and repeatable process with legal feedstock and byproduct handling—not reward the player with the same acid, plastic or metal being requested.",
+  "description_ru": "{display} — {role} химической ветви TFMG. Задание должно создавать сдерживаемый, измеряемый и повторяемый процесс с честным сырьём и обработкой побочных продуктов, а не возвращать игроку ту же кислоту, пластик или металл наградой.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative reaction or separation batch, record feedstock, ratio, temperature or pressure, output and byproducts, test blocked output or contamination, purge safely and remove item, XP and shortcut rewards.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую партию реакции или разделения, запишите сырьё, соотношение, температуру или давление, выход и побочные продукты, испытайте полный выход или загрязнение, безопасно продуйте систему и уберите предметные, XP- и обходные награды.",
+  "categories": [
+    {
+      "tokens": ["chemical_vat", "mixer", "blade", "reactor", "vat", "casting_basin"],
+      "role_en": "reaction, mixing or casting vessel and its internal component",
+      "role_ru": "реакционный, смесительный или литейный сосуд и его внутренний компонент",
+      "focus_en": "complete structure and material tier, feed ports, agitation or mixing rate, containment, drain and output ownership, maintenance access and safe emptying before recipe changes",
+      "focus_ru": "полную структуру и уровень материала, входные порты, скорость перемешивания, сдерживание, владение сливом и выходом, обслуживание и безопасное опустошение перед сменой рецепта"
+    },
+    {
+      "tokens": ["sulfur", "acid", "nitrate", "ammonia", "nitrogen", "oxygen", "hydrogen", "chlorine", "chemical"],
+      "role_en": "industrial chemical feedstock, reagent or acid product",
+      "role_ru": "промышленное химическое сырьё, реагент или кислота",
+      "focus_en": "legal raw source, phase and container, stoichiometric ratio, storage compatibility, corrosive or toxic handling, byproduct route and spill or contamination response",
+      "focus_ru": "честный источник сырья, фазу и контейнер, стехиометрическое соотношение, совместимость хранения, работу с коррозией или токсичностью, маршрут побочного продукта и реакцию на пролив или загрязнение"
+    },
+    {
+      "tokens": ["ethylene", "propylene", "plastic", "polymer", "rubber", "resin"],
+      "role_en": "polymer feedstock, molten plastic or finished plastic material",
+      "role_ru": "полимерное сырьё, расплавленный пластик или готовый пластиковый материал",
+      "focus_en": "hydrocarbon ancestry, reaction and cooling route, conversion yield, casting or sheet output, rejected batch, storage temperature and repeatable production without quest-provided plastic",
+      "focus_ru": "происхождение углеводорода, путь реакции и охлаждения, выход преобразования, литьё или лист, брак, температуру хранения и повторяемое производство без пластика из наград"
+    },
+    {
+      "tokens": ["oil", "diesel", "gasoline", "kerosene", "distillation", "fraction", "naphtha"],
+      "role_en": "petroleum feedstock, fraction or refining milestone",
+      "role_ru": "нефтяное сырьё, фракция или этап переработки",
+      "focus_en": "crude source, distillation inputs, heat demand, fraction destinations, tank separation, flare or overflow policy and recovery after one full product tank",
+      "focus_ru": "источник сырой нефти, входы дистилляции, спрос тепла, назначения фракций, разделение баков, политику сброса или переполнения и восстановление после полного продуктового бака"
+    },
+    {
+      "tokens": ["lithium", "electrolyte", "cooling_fluid", "coolant", "battery"],
+      "role_en": "electrochemical, lithium or cooling-system material",
+      "role_ru": "электрохимический, литиевый материал или материал системы охлаждения",
+      "focus_en": "mineral or chemical ancestry, purity, container compatibility, charge or cooling role, consumption rate, closed-loop recovery and prevention of voiding rare fluid during maintenance",
+      "focus_ru": "минеральное или химическое происхождение, чистоту, совместимость контейнера, роль заряда или охлаждения, расход, замкнутый возврат и запрет уничтожения редкой жидкости при обслуживании"
+    },
+    {
+      "tokens": ["bucket", "fluid", "tank", "pipe", "pump", "valve"],
+      "role_en": "chemical fluid container, transport or control component",
+      "role_ru": "контейнер, транспортный или управляющий компонент химической жидкости",
+      "focus_en": "fluid identity, direction, pump or valve state, compatible tank, throughput, finite buffer, overflow destination, colour or filter policy and clean isolation for maintenance",
+      "focus_ru": "идентичность жидкости, направление, состояние насоса или клапана, совместимый бак, пропускную способность, конечный буфер, переполнение, цветовую или фильтрующую политику и чистую изоляцию для обслуживания"
+    }
+  ],
+  "default": {
+    "role_en": "specialized TFMG chemical component",
+    "role_ru": "специализированный химический компонент TFMG",
+    "focus_en": "its legal feedstock, phase, reaction or separation contract, containment, measurable yield, byproduct path, safe purge and repeatable replacement from current-stage infrastructure",
+    "focus_ru": "его честное сырьё, фазу, контракт реакции или разделения, сдерживание, измеримый выход, маршрут побочных продуктов, безопасную продувку и воспроизводимую замену инфраструктурой текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod chemical integration component",
+    "role_ru": "межмодовый компонент химической интеграции",
+    "focus_en": "which system owns feedstock, heat, pressure, storage or downstream use, the interface buffer and absence of a circular fuel, plastic or coolant conversion",
+    "focus_ru": "какая система отвечает за сырьё, тепло, давление, хранение или дальнейшее использование, интерфейсный буфер и отсутствие циклического преобразования топлива, пластика или охлаждения"
+  },
+  "checkpoint": {
+    "role_en": "TFMG chemical-process design checkpoint",
+    "role_ru": "контрольная точка проектирования химического процесса TFMG",
+    "focus_en": "feedstock map, vessel materials, reaction ratios, heat and pressure, separated tanks, byproducts, contamination response, purge procedure and restart order",
+    "focus_ru": "карту сырья, материалы сосудов, соотношения реакций, тепло и давление, разделённые баки, побочные продукты, реакцию на загрязнение, продувку и порядок перезапуска"
+  }
+}

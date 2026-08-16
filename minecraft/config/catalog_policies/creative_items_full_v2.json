@@ -1,0 +1,99 @@
+{
+  "chapter_filename": "creative_items",
+  "chapter_id": "5F654B75ED08206E",
+  "chapter_title_en": "Creative Convergence — Infinite-System Permissions",
+  "chapter_title_ru": "Creative-схождение — допуски бесконечных систем",
+  "report_filename": "CREATIVE_ITEMS_PERMISSION_QUALITY_REPORT.md",
+  "report_title": "Creative Items Permission Quality Report",
+  "report_intro": "Every creative item must be treated as a final permission backed by complete staged convergence, an authoritative recipe and explicit containment tests instead of a collectible rewarded with experience or random endgame loot.",
+  "expected_quests": 19,
+  "minimum_description": 230,
+  "primary_namespace": "minecraft",
+  "primary_namespaces": [
+    "ae2",
+    "mekanism",
+    "pneumaticcraft",
+    "draconicevolution",
+    "modularrouters",
+    "mysticalagriculture",
+    "tempad",
+    "create",
+    "industrialforegoing",
+    "powah",
+    "sophisticatedstorage",
+    "sophisticatedbackpacks",
+    "rftoolsbase",
+    "extendedcrafting",
+    "minecraft"
+  ],
+  "acceptance_namespace": "creative_permission_acceptance",
+  "checkpoint_name": "Creative Permission Checkpoint",
+  "title_suffix_en": "Infinite-System Acceptance",
+  "title_suffix_ru": "приёмка бесконечной системы",
+  "description_en": "{display} is a {role} granted only after creative convergence. Ownership is not sufficient proof: the item must have an authoritative multi-branch recipe, no alternative acquisition route and an explicit operating policy that prevents infinite output from bypassing protected resources, dimensions, encounters or progression permissions.",
+  "description_ru": "{display} — {role}, выдаваемая только после creative-схождения. Владение не является достаточным доказательством: предмет должен иметь авторитетный межветвевой рецепт, не иметь альтернативного пути получения и обладать явной политикой эксплуатации, не позволяющей бесконечному выходу обходить защищённые ресурсы, измерения, встречи или прогрессионные допуски.",
+  "acceptance_en": "Acceptance: verify {focus}; trace the complete recipe ancestry through prior milestones, confirm EMC, simulation, loot, trade and reward blacklists, run one bounded functional test, test full-output or disconnected behavior, document safe storage and restart recovery and prove that the creative capability cannot generate unique drops, first-acquisition evidence or gated crafting permissions.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; проследите полное происхождение рецепта через прошлые вехи, подтвердите чёрные списки EMC, симуляции, лута, торговли и наград, выполните один ограниченный функциональный тест, испытайте полный или отключённый выход, задокументируйте безопасное хранение и восстановление после перезапуска и докажите, что creative-возможность не создаёт уникальный лут, доказательства первого получения или закрытые крафтовые допуски.",
+  "categories": [
+    {
+      "tokens": ["creative_energy", "capacitor", "battery", "energy_cell", "power"],
+      "role_en": "infinite-energy permission or creative power buffer",
+      "role_ru": "допуск к бесконечной энергии или creative-энергобуфер",
+      "focus_en": "authoritative convergence recipe, interface compatibility, bounded test load, transfer and extraction policy, network isolation, prevention of positive-feedback duplication and prohibition on using infinite energy before the final stage",
+      "focus_ru": "авторитетный рецепт схождения, совместимость интерфейсов, ограниченную тестовую нагрузку, правила передачи и извлечения, изоляцию сети, запрет копирования положительной обратной связью и невозможность применения бесконечной энергии до финального этапа"
+    },
+    {
+      "tokens": ["creative_bin", "creative_storage", "drawer", "barrel", "backpack", "chest", "tank"],
+      "role_en": "infinite item, fluid or chemical storage permission",
+      "role_ru": "допуск к бесконечному хранению предметов, жидкостей или химикатов",
+      "focus_en": "configured resource identity, insertion and extraction policy, filter locking, protected-resource blacklist, void and overflow behavior, automation access, restart persistence and confirmation that unique or gated resources cannot be configured",
+      "focus_ru": "идентичность настроенного ресурса, правила входа и выхода, блокировку фильтра, чёрный список защищённых ресурсов, удаление и переполнение, доступ автоматизации, сохранение после перезапуска и запрет настройки уникальных или закрытых ресурсов"
+    },
+    {
+      "tokens": ["creative_fluid", "creative_chemical", "compressed_iron", "source", "infinite"],
+      "role_en": "infinite process-medium or material-source permission",
+      "role_ru": "допуск к бесконечной технологической среде или источнику материала",
+      "focus_en": "allowed medium whitelist, exact interface and rate, containment, wrong-medium rejection, shutdown, network separation and proof that the source cannot supply gated fuels, antimatter, unique fluids or recipe-only materials",
+      "focus_ru": "белый список разрешённой среды, точный интерфейс и скорость, изоляцию, отклонение неверной среды, отключение, разделение сети и доказательство, что источник не выдаёт закрытые топлива, антиматерию, уникальные жидкости или материалы только из рецептов"
+    },
+    {
+      "tokens": ["module", "router", "upgrade", "augment", "controller"],
+      "role_en": "creative automation module or unrestricted control permission",
+      "role_ru": "creative-модуль автоматизации или неограниченный допуск управления",
+      "focus_en": "target machine and module slot, range and throughput, filter and security policy, chunk-loading behavior, protected inventories, failure visibility and prevention of unrestricted routing crossing stage or ownership boundaries",
+      "focus_ru": "целевую машину и слот модуля, дальность и пропускную способность, фильтрацию и безопасность, поведение загрузки чанков, защищённые инвентари, видимость отказа и запрет неограниченной маршрутизации через этапные или владельческие границы"
+    },
+    {
+      "tokens": ["chronometer", "tempad", "time", "teleport", "creative_portal"],
+      "role_en": "unrestricted temporal or spatial-access permission",
+      "role_ru": "неограниченный допуск к времени или пространству",
+      "focus_en": "destination and time scope, protected-dimension blacklist, cooldown bypass policy, safe arrival, unloaded-chunk behavior, rollback limits, ownership and confirmation that the device cannot satisfy first-arrival or encounter gates",
+      "focus_ru": "область назначения и времени, чёрный список защищённых измерений, правила обхода перезарядки, безопасное прибытие, поведение выгруженных чанков, пределы отката, владельца и подтверждение, что устройство не выполняет допуски первого прибытия или встречи"
+    },
+    {
+      "tokens": ["dagger", "sword", "tool", "armor", "weapon"],
+      "role_en": "creative combat or harvesting permission",
+      "role_ru": "creative-допуск к бою или сбору ресурсов",
+      "focus_en": "damage or harvest ceiling, protected blocks and entities, unique-drop policy, durability behavior, automation restrictions, representative test and proof that the item cannot replace mandatory first kills or resource discoveries",
+      "focus_ru": "предел урона или добычи, защищённые блоки и сущности, правила уникального лута, поведение прочности, ограничения автоматизации, показательный тест и доказательство, что предмет не заменяет обязательные первые победы или открытия ресурсов"
+    }
+  ],
+  "default": {
+    "role_en": "specialized creative-mode system permission",
+    "role_ru": "специализированный допуск creative-системы",
+    "focus_en": "authoritative recipe ancestry, final-stage permission, blacklists, bounded test, protected-resource policy, network isolation, restart persistence and absence of alternative acquisition",
+    "focus_ru": "авторитетное происхождение рецепта, допуск финального этапа, чёрные списки, ограниченный тест, правила защищённых ресурсов, изоляцию сети, сохранение после перезапуска и отсутствие альтернативного получения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod convergence prerequisite for a creative permission",
+    "role_ru": "межмодовая предпосылка схождения для creative-допуска",
+    "focus_en": "its source progression, assigned prior milestone, exact irreversible consumption, blacklist coverage and proof that the creative item cannot refund or recreate the prerequisite",
+    "focus_ru": "его исходную прогрессию, назначенную прошлую веху, точное необратимое потребление, покрытие чёрным списком и доказательство, что creative-предмет не возвращает и не воссоздаёт предпосылку"
+  },
+  "checkpoint": {
+    "role_en": "creative-convergence permission review",
+    "role_ru": "проверка допуска creative-схождения",
+    "focus_en": "recipe ancestry, all prior milestones, alternative-path closure, allowed infinite resource or capability, protected outputs, isolation, shutdown, restart and evidence that progression remains meaningful",
+    "focus_ru": "происхождение рецепта, все прошлые вехи, закрытие альтернативных путей, разрешённый бесконечный ресурс или возможность, защищённые выходы, изоляцию, отключение, перезапуск и доказательство сохранения смысла прогрессии"
+  }
+}

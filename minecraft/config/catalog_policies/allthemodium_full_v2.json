@@ -1,0 +1,83 @@
+{
+  "chapter_filename": "allthemodium",
+  "chapter_id": "45266BB4B938FF39",
+  "chapter_title_en": "Allthemodium — Dimensional Ores and Controlled Upgrades",
+  "chapter_title_ru": "Allthemodium — руды измерений и контролируемые улучшения",
+  "report_filename": "ALLTHEMODIUM_RESOURCE_GATE_QUALITY_REPORT.md",
+  "report_title": "Allthemodium Resource-Gate Quality Report",
+  "report_intro": "Every Allthemodium node must explain the legal dimension, extraction route, processing loss, template source and equipment role instead of rewarding the ore, ingot or smithing template itself.",
+  "expected_quests": 31,
+  "minimum_description": 215,
+  "primary_namespace": "allthemodium",
+  "primary_namespaces": ["allthemodium", "alltheores", "allthecompressed"],
+  "acceptance_namespace": "allthemodium_resource_acceptance",
+  "checkpoint_name": "Dimensional Ore Control Checkpoint",
+  "title_suffix_en": "Dimensional Resource Acceptance",
+  "title_suffix_ru": "приёмка ресурса измерений",
+  "description_en": "{display} is a {role} in the Allthemodium resource branch. Its value must come from the assigned dimension, a stage-appropriate extraction method and a documented processing chain—not from a reward that duplicates rare ore, templates or finished equipment.",
+  "description_ru": "{display} — {role} ресурсной ветви Allthemodium. Его ценность должна определяться назначенным измерением, этапным способом добычи и документированной переработкой, а не наградой, копирующей редкую руду, шаблон или готовое снаряжение.",
+  "acceptance_en": "Acceptance: verify {focus}; record the source dimension and permission, obtain or process one legal batch, measure yield and loss, test storage and restart recovery, protect templates and unique inputs and confirm that rewards, simulated mining, EMC, trade, loot rerolls and duplication cannot create the resource early.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте исходное измерение и допуск, получите или переработайте одну легальную партию, измерьте выход и потери, испытайте хранение и восстановление после перезапуска, защитите шаблоны и уникальные входы и исключите раннее получение через награды, симуляцию добычи, EMC, торговлю, переролл лута и копирование.",
+  "categories": [
+    {
+      "tokens": ["raw_allthemodium", "raw_vibranium", "raw_unobtainium", "ore"],
+      "role_en": "dimension-bound raw ore or first-acquisition evidence",
+      "role_ru": "привязанная к измерению сырая руда или доказательство первого получения",
+      "focus_en": "correct dimension and biome or depth rule, required mining tier, first-acquisition evidence, vein or structure limits, safe return route and prohibition on simulated or rewarded first samples",
+      "focus_ru": "правильное измерение и правило биома или глубины, требуемый уровень добычи, доказательство первого получения, пределы жилы или структуры, безопасное возвращение и запрет симулированных или выданных первых образцов"
+    },
+    {
+      "tokens": ["ingot", "nugget", "block", "dust", "plate", "rod", "gear"],
+      "role_en": "processed dimensional metal form",
+      "role_ru": "переработанная форма металла измерений",
+      "focus_en": "ore ancestry, machine sequence, batch yield, byproducts, power and time cost, bounded buffer and reconciliation showing that processing does not multiply gated material",
+      "focus_ru": "происхождение руды, последовательность машин, выход партии, побочные продукты, стоимость энергии и времени, ограниченный буфер и сверку отсутствия умножения закрытого материала"
+    },
+    {
+      "tokens": ["smithing_template", "upgrade_template", "template"],
+      "role_en": "protected smithing-template permission",
+      "role_ru": "защищённый допуск через кузнечный шаблон",
+      "focus_en": "authorized structure or recipe source, first-template protection, legal duplication cost, stage assignment, recovery from loss and prevention of quest or loot rerolls producing unlimited copies",
+      "focus_ru": "разрешённый источник в структуре или рецепте, защиту первого шаблона, стоимость легального копирования, назначенный этап, восстановление после потери и запрет бесконечных копий через квесты или переролл лута"
+    },
+    {
+      "tokens": ["helmet", "chestplate", "leggings", "boots", "sword", "axe", "pickaxe", "shovel", "hoe", "shield", "armor", "tool"],
+      "role_en": "dimensional-metal equipment or tool",
+      "role_ru": "снаряжение или инструмент из металла измерений",
+      "focus_en": "material and template ancestry, smithing sequence, durability and repair route, measured benefit over current-stage gear, special effects and prevention of the item trivializing later permissions",
+      "focus_ru": "происхождение материала и шаблона, последовательность кузнечного улучшения, прочность и ремонт, измеримую пользу относительно этапного снаряжения, особые эффекты и отсутствие обесценивания будущих допусков"
+    },
+    {
+      "tokens": ["alloy", "vibranium_allthemodium", "unobtainium_vibranium", "unobtainium_allthemodium"],
+      "role_en": "cross-tier dimensional alloy",
+      "role_ru": "межуровневый сплав металлов измерений",
+      "focus_en": "both parent-metal routes, alloying machine and temperature, exact ratio, irreversible cost, yield, quality control and use in a meaningful higher-stage assembly",
+      "focus_ru": "маршруты обоих исходных металлов, машину и температуру сплавления, точное соотношение, необратимую стоимость, выход, контроль качества и расход в значимой сборке более высокого этапа"
+    },
+    {
+      "tokens": ["teleport", "portal", "pad", "sight", "charm"],
+      "role_en": "dimension-access or ore-location utility",
+      "role_ru": "утилита доступа в измерение или поиска руды",
+      "focus_en": "activation cost, destination and stage permission, search range, false-positive handling, protected-area rules, cooldown and confirmation that the utility does not grant premature dimension access",
+      "focus_ru": "стоимость активации, назначение и этапный допуск, радиус поиска, ложные цели, правила защищённых зон, перезарядку и отсутствие преждевременного доступа в измерение"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Allthemodium resource component",
+    "role_ru": "специализированный ресурсный компонент Allthemodium",
+    "focus_en": "dimension-bound source, stage permission, material ancestry, processing yield, protected storage, recovery and absence of alternative early-acquisition paths",
+    "focus_ru": "привязанный к измерению источник, этапный допуск, происхождение материала, выход переработки, защищённое хранение, восстановление и отсутствие альтернативного раннего получения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite or support material for dimensional processing",
+    "role_ru": "межмодовая предпосылка или материал поддержки переработки руд измерений",
+    "focus_en": "its legal source, assigned stage, exact consumption, replacement policy and why it supports rather than substitutes the dimensional resource chain",
+    "focus_ru": "его честный источник, назначенный этап, точный расход, правила замены и поддержку без замены ресурсной цепочки измерений"
+  },
+  "checkpoint": {
+    "role_en": "dimensional-resource governance checkpoint",
+    "role_ru": "контрольная точка управления ресурсами измерений",
+    "focus_en": "dimension permissions, first samples, mining method, processing yield, template custody, equipment ceiling, bypass blacklist and recovery after loss",
+    "focus_ru": "допуски измерений, первые образцы, способ добычи, выход переработки, хранение шаблонов, предел снаряжения, чёрный список обходов и восстановление после потери"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "mowzies_mobs",
+  "lessons": [
+    {
+      "slug": "encounters",
+      "icon": "mowziesmobs:ice_crystal",
+      "title_en": "Unique Encounters and Habitat",
+      "title_ru": "Уникальные встречи и среда",
+      "desc_en": [
+        "Mowzie's Mobs uses rare creatures and bosses with distinct habitats, arenas and behavior rather than a single linear dimension.",
+        "Document where each encounter belongs, prepare a safe approach and keep first discovery and victory outside generic spawn or simulation systems."
+      ],
+      "desc_ru": [
+        "Mowzie's Mobs использует редких существ и боссов с разными средами, аренами и поведением вместо одной линейной прогрессии.",
+        "Документируйте место каждой встречи, готовьте безопасный подход и держите первое обнаружение и победу вне обычных спавнеров и симуляторов."
+      ]
+    },
+    {
+      "slug": "wroughtnaut",
+      "icon": "mowziesmobs:wrought_helmet",
+      "title_en": "Ferrous Wroughtnaut: Armor Windows",
+      "title_ru": "Ferrous Wroughtnaut: окна уязвимости",
+      "desc_en": [
+        "The Wroughtnaut punishes frontal damage and rewards reading attack recovery and vulnerable positioning. Raw damage cannot replace pattern recognition reliably.",
+        "Observe a full attack cycle, preserve movement space, define a retreat route and avoid trapping the boss in geometry that removes its intended armor mechanic."
+      ],
+      "desc_ru": [
+        "Wroughtnaut наказывает фронтальный урон и требует использования пауз после атак и правильной позиции. Один высокий урон ненадёжно заменяет знание паттерна.",
+        "Наблюдайте полный цикл, сохраняйте пространство движения, задавайте путь отхода и не запирайте босса геометрией, убирающей механику брони."
+      ]
+    },
+    {
+      "slug": "frostmaw",
+      "icon": "mowziesmobs:ice_crystal",
+      "title_en": "Frostmaw: Wake Conditions and Freeze Control",
+      "title_ru": "Frostmaw: пробуждение и контроль заморозки",
+      "desc_en": [
+        "Frostmaw combines dormant positioning, sudden activation, freezing attacks and high area pressure.",
+        "Prepare cold and movement responses, choose a clear arena, keep recovery gear outside activation range and do not use ranged terrain exploits that remove retaliation entirely."
+      ],
+      "desc_ru": [
+        "Frostmaw объединяет спящее положение, внезапное пробуждение, заморозку и сильное давление по площади.",
+        "Готовьте защиту от холода и движение, выбирайте чистую арену, храните восстановительный комплект вне радиуса и не используйте дальние геометрические эксплойты без ответного риска."
+      ]
+    },
+    {
+      "slug": "barakoa",
+      "icon": "mowziesmobs:barakoa_mask_fury",
+      "title_en": "Barakoa Groups and Mask Effects",
+      "title_ru": "Группы Barakoa и эффекты масок",
+      "desc_en": [
+        "Barakoa encounters combine groups, ranged pressure and mask-based rewards. Farming ordinary tribes must not substitute for the Barako progression encounter.",
+        "Separate group control from boss preparation, classify mask capabilities by stage and prevent generic mob farms from producing unique leadership rewards."
+      ],
+      "desc_ru": [
+        "Встречи Barakoa объединяют группы, дальнее давление и награды-маски. Ферма обычных племён не должна заменять прогрессию Barako.",
+        "Отделяйте контроль группы от подготовки к боссу, классифицируйте возможности масок по этапам и запрещайте обычным фермам уникальные награды лидера."
+      ]
+    },
+    {
+      "slug": "sculptor",
+      "icon": "mowziesmobs:geomancer_robe",
+      "title_en": "Sculptor Challenge and Movement Mastery",
+      "title_ru": "Испытание Скульптора и мастерство движения",
+      "desc_en": [
+        "The Sculptor challenge tests movement, timing and route execution rather than conventional combat statistics.",
+        "Use the intended traversal tools, record failure points, keep a recovery route and prevent flight or teleport capabilities from invalidating the first legitimate completion."
+      ],
+      "desc_ru": [
+        "Испытание Скульптора проверяет движение, тайминг и исполнение маршрута, а не обычные боевые характеристики.",
+        "Используйте предусмотренные средства, записывайте точки ошибок, сохраняйте возврат и не позволяйте полёту или телепортации отменить первое честное прохождение."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "mowziesmobs:axe_of_a_thousand_metals",
+      "title_en": "Unique Drops and Capability Mapping",
+      "title_ru": "Уникальный лут и карта возможностей",
+      "desc_en": [
+        "Mowzie rewards often grant distinctive combat or movement capability. A quest reward, trade or simulator copy can bypass the encounter and its learning objective.",
+        "Assign every unique item to a stage, set zero EMC where needed, exclude it from generic farms and preserve repair or replacement materials."
+      ],
+      "desc_ru": [
+        "Награды Mowzie часто дают уникальные боевые или двигательные возможности. Награда, торговля или симулятор обходят встречу и её обучение.",
+        "Назначайте каждому уникальному предмету этап, задавайте нулевой EMC, исключайте обычные фермы и сохраняйте материалы ремонта или замены."
+      ]
+    },
+    {
+      "slug": "rematches",
+      "icon": "mowziesmobs:earth_talisman",
+      "title_en": "Rematches and Repeat Materials",
+      "title_ru": "Повторные встречи и расходные материалы",
+      "desc_en": [
+        "Some rewards or crafting materials may need more than one encounter. Repeating a mastered fight can be fair; repeating rare discovery without control is not.",
+        "After first victory, provide a bounded rematch method with real cost, keep unique permissions non-consumable and prohibit unattended boss killing."
+      ],
+      "desc_ru": [
+        "Некоторые материалы могут требовать нескольких встреч. Повтор освоенного боя справедлив, а бесконтрольный повтор редкого поиска — нет.",
+        "После первой победы создайте ограниченный способ повторного вызова с реальной стоимостью, оставьте допуски нерасходуемыми и запретите автономное убийство босса."
+      ]
+    },
+    {
+      "slug": "scaling",
+      "icon": "mowziesmobs:spear",
+      "title_en": "Combat Scaling and Mechanic Preservation",
+      "title_ru": "Масштабирование боя и сохранение механик",
+      "desc_en": [
+        "Mowzie bosses use increased health, damage, armor and knockback resistance, but their designed vulnerability windows must remain the primary solution.",
+        "Model TTK, test phase duration and adjust the full attribute profile without making ordinary groups or mechanically invulnerable phases into health sponges."
+      ],
+      "desc_ru": [
+        "Боссы Mowzie получают здоровье, урон, броню и сопротивление, но основным решением должны оставаться предусмотренные окна уязвимости.",
+        "Моделируйте время боя, проверяйте фазы и меняйте профиль целиком, не превращая обычные группы или неуязвимые фазы в губки здоровья."
+      ]
+    },
+    {
+      "slug": "anti_farm",
+      "icon": "mowziesmobs:mob_remover",
+      "title_en": "Boss Simulation and Spawn Exclusion",
+      "title_ru": "Запрет симуляции и спавна боссов",
+      "desc_en": [
+        "Neural models, Woot, swabs, spawner modifiers and generic grinders can attempt to automate Mowzie encounters or unique drops.",
+        "Blacklist bosses and signature rewards, allow ordinary creature drops only after review and keep first-victory evidence outside every simulation system."
+      ],
+      "desc_ru": [
+        "Нейромодели, Woot, мазки, модификаторы спавнеров и фермы могут автоматизировать встречи или уникальный лут Mowzie.",
+        "Запрещайте боссов и фирменные награды, разрешайте обычный лут после проверки и держите доказательство первой победы вне симуляции."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "mowziesmobs:axe_of_a_thousand_metals",
+      "title_en": "Project: Documented Mowzie Encounter",
+      "title_ru": "Проект: документированная встреча Mowzie",
+      "desc_en": [
+        "Complete one major Mowzie encounter with prepared recovery, recorded mechanics, preserved unique drops and no geometry or capability skip.",
+        "The project passes after successful return, modeled and observed fight duration, anti-farm verification and a fair rematch plan if repeat materials are justified."
+      ],
+      "desc_ru": [
+        "Завершите крупную встречу Mowzie с восстановлением, записанными механиками, сохранённым уникальным лутом и без пропуска геометрией или возможностями.",
+        "Проект принят после возврата, сравнения расчётного и реального времени, проверки запрета ферм и справедливого плана повтора при необходимости материалов."
+      ]
+    }
+  ]
+}

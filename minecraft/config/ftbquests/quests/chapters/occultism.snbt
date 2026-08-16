@@ -78,6 +78,11 @@
 					item: { count: 1, id: "occultism:dictionary_of_spirits" }
 					type: "item"
 				}
+			
+			{
+				id: "536C0B486AC9A774"
+				type: "checkmark"
+			}
 			]
 			x: -5.0d
 			y: 0.0d
@@ -96,6 +101,11 @@
 					item: { count: 1, id: "minecraft:flint_and_steel" }
 					type: "item"
 				}
+			
+			{
+				id: "EE32DD06EFAF8E01"
+				type: "checkmark"
+			}
 			]
 			x: -3.5d
 			y: 0.0d
@@ -116,6 +126,11 @@
 					item: { count: 1, id: "occultism:otherworld_essence" }
 					type: "item"
 				}
+			
+			{
+				id: "EC4BBCD3DF43B241"
+				type: "checkmark"
+			}
 			]
 			x: -4.0d
 			y: 1.5d
@@ -139,6 +154,11 @@
 					item: { count: 1, id: "occultism:otherworld_log" }
 					type: "item"
 				}
+			
+			{
+				id: "A3E0DEA1A7435EDB"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: 0.0d
@@ -157,6 +177,11 @@
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
+			
+			{
+				id: "534BAD7A6AF36A83"
+				type: "checkmark"
+			}
 			]
 			x: 1.5d
 			y: 0.0d
@@ -175,6 +200,11 @@
 					item: { count: 1, id: "occultism:chalk_white" }
 					type: "item"
 				}
+			
+			{
+				id: "28DDB566FCF3A9A2"
+				type: "checkmark"
+			}
 			]
 			x: -0.5d
 			y: -1.5d
@@ -195,6 +225,11 @@
 					item: { components: { "occultism:spirit_name": "Mrokvyrrine" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
+			
+			{
+				id: "F209E7EE88280291"
+				type: "checkmark"
+			}
 			]
 			x: 1.5d
 			y: -2.5d
@@ -208,7 +243,12 @@
 				id: "6DC54856AA7E9925"
 				item: { count: 1, id: "occultism:dark_sacrificial_bowl" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4BC435BB965C1DC5"
+				type: "checkmark"
+			}
+			]
 			x: 0.0d
 			y: 0.5d
 		}
@@ -227,6 +267,11 @@
 					item: { count: 1, id: "occultism:dark_iesnium_sacrificial_bowl" }
 					type: "item"
 				}
+			
+			{
+				id: "69BCB23320D90B21"
+				type: "checkmark"
+			}
 			]
 			x: 1.5d
 			y: 1.5d
@@ -246,6 +291,11 @@
 					item: { count: 1, id: "occultism:eldritch_chalice" }
 					type: "item"
 				}
+			
+			{
+				id: "2B67DA8DE9E8DE3F"
+				type: "checkmark"
+			}
 			]
 			x: 1.5d
 			y: 3.0d
@@ -266,6 +316,11 @@
 					item: { count: 1, id: "occultism:ritual_satchel_t2" }
 					type: "item"
 				}
+			
+			{
+				id: "111AD21903F636ED"
+				type: "checkmark"
+			}
 			]
 			x: -0.5d
 			y: -3.0d
@@ -290,6 +345,11 @@
 					item: { count: 1, id: "occultism:chalk_void" }
 					type: "item"
 				}
+			
+			{
+				id: "7D13E2E559C997E6"
+				type: "checkmark"
+			}
 			]
 			x: 15.5d
 			y: 0.0d
@@ -301,7 +361,12 @@
 				id: "5506E9BA985579B7"
 				item: { count: 1, id: "occultism:chalk_gold" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F9152250CE40BCFF"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -1.5d
 		}
@@ -312,7 +377,12 @@
 				id: "4EA9A44D85C9E357"
 				item: { count: 1, id: "occultism:chalk_purple" }
 				type: "item"
-			}]
+			}
+			{
+				id: "693016EC8633FD4A"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -330,6 +400,11 @@
 					item: { count: 1, id: "occultism:iesnium_ingot" }
 					type: "item"
 				}
+			
+			{
+				id: "B91E14FC9B67DF2A"
+				type: "checkmark"
+			}
 			]
 			x: -2.0d
 			y: 1.5d
@@ -341,7 +416,12 @@
 				id: "507CFB80D26806D2"
 				item: { count: 1, id: "occultism:chalk_light_gray" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D864D027537A3180"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 1.5d
 		}
@@ -352,7 +432,12 @@
 				id: "0AC3EEB5124443A9"
 				item: { count: 1, id: "occultism:chalk_lime" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D4298C90712C457D"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: 0.0d
 		}
@@ -367,7 +452,12 @@
 				id: "2F9A202B2F261B9D"
 				item: { count: 1, id: "occultism:chalk_orange" }
 				type: "item"
-			}]
+			}
+			{
+				id: "463FCB5B7288DB1F"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: -1.5d
 		}
@@ -381,7 +471,12 @@
 				id: "0C09A91EF0022638"
 				item: { count: 1, id: "occultism:chalk_gray" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A9BDE88B7257FDB4"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: 1.5d
 		}
@@ -395,7 +490,12 @@
 				id: "5E7DF622CD7AA6EE"
 				item: { count: 1, id: "occultism:chalk_red" }
 				type: "item"
-			}]
+			}
+			{
+				id: "48CA3067C79B34AC"
+				type: "checkmark"
+			}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
@@ -409,7 +509,12 @@
 				id: "5549C478F82F325C"
 				item: { count: 1, id: "occultism:chalk_black" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3FD1A134BF279737"
+				type: "checkmark"
+			}
+			]
 			x: 9.5d
 			y: 0.0d
 		}
@@ -420,7 +525,12 @@
 				id: "67E60117B62AD7FA"
 				item: { count: 1, id: "occultism:chalk_blue" }
 				type: "item"
-			}]
+			}
+			{
+				id: "190F6133759B4014"
+				type: "checkmark"
+			}
+			]
 			x: 11.5d
 			y: 0.0d
 		}
@@ -434,7 +544,12 @@
 				id: "2D7CC4A6201E54A7"
 				item: { count: 1, id: "occultism:chalk_pink" }
 				type: "item"
-			}]
+			}
+			{
+				id: "8918681B1507C491"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: -1.5d
 		}
@@ -445,7 +560,12 @@
 				id: "746A84E70D6C61FA"
 				item: { count: 1, id: "occultism:chalk_light_blue" }
 				type: "item"
-			}]
+			}
+			{
+				id: "4B173C666E13384B"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: -3.0d
 		}
@@ -456,7 +576,12 @@
 				id: "1EDF96F4B7C3F86E"
 				item: { count: 1, id: "occultism:chalk_green" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AF3EB069F2B69E0F"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -467,7 +592,12 @@
 				id: "1F5C405564761666"
 				item: { count: 1, id: "occultism:chalk_cyan" }
 				type: "item"
-			}]
+			}
+			{
+				id: "9C7F300E743F92A0"
+				type: "checkmark"
+			}
+			]
 			x: 13.5d
 			y: 1.5d
 		}
@@ -478,7 +608,12 @@
 				id: "506E92CB5B6B8CE7"
 				item: { count: 1, id: "occultism:chalk_brown" }
 				type: "item"
-			}]
+			}
+			{
+				id: "447329CF330B3C9F"
+				type: "checkmark"
+			}
+			]
 			x: 13.5d
 			y: 0.0d
 		}
@@ -489,7 +624,12 @@
 				id: "48A006F52953ECCA"
 				item: { count: 1, id: "occultism:chalk_magenta" }
 				type: "item"
-			}]
+			}
+			{
+				id: "5A43CE1CB84A5FC2"
+				type: "checkmark"
+			}
+			]
 			x: 13.5d
 			y: -1.5d
 		}
@@ -509,6 +649,11 @@
 					item: { count: 1, id: "occultism:dimensional_mineshaft" }
 					type: "item"
 				}
+			
+			{
+				id: "9F9C5BF704297D72"
+				type: "checkmark"
+			}
 			]
 			x: 3.0d
 			y: 3.0d
@@ -522,7 +667,12 @@
 				id: "5D0A1EA62546F89B"
 				item: { count: 1, id: "occultism:miner_djinni_ores" }
 				type: "item"
-			}]
+			}
+			{
+				id: "968660E8EB0C4ABB"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: 3.0d
 		}
@@ -530,27 +680,17 @@
 			dependencies: ["0CE1D43306251582"]
 			id: "36A14E2DDD5766A5"
 			optional: true
-			rewards: [{
-				id: "1D4CFCC37958AAEB"
-				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"minecraft:fortune": 8
-							}
-						}
-					}
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "11193B2AEBF9EA9F"
 				item: { count: 1, id: "occultism:miner_afrit_deeps" }
 				type: "item"
-			}]
+			}
+			{
+				id: "2ED1B46B0D40046F"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: 3.0d
 		}
@@ -558,27 +698,17 @@
 			dependencies: ["36A14E2DDD5766A5"]
 			id: "629CEE6359448568"
 			optional: true
-			rewards: [{
-				id: "6B6D11E9419D9878"
-				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"minecraft:efficiency": 9
-							}
-						}
-					}
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "5AE1299FE86ED5A9"
 				item: { count: 1, id: "occultism:miner_marid_master" }
 				type: "item"
-			}]
+			}
+			{
+				id: "725145154709B4D8"
+				type: "checkmark"
+			}
+			]
 			x: 7.5d
 			y: 3.0d
 		}
@@ -586,20 +716,17 @@
 			dependencies: ["629CEE6359448568"]
 			id: "4D1A4983E9155671"
 			optional: true
-			rewards: [{
-				id: "6D5E88CC2EDB771D"
-				item: {
-					count: 1
-					id: "forbidden_arcanus:eternal_stella"
-				}
-				type: "item"
-			}]
 			shape: "heart"
 			tasks: [{
 				id: "28557D87D634B084"
 				item: { count: 1, id: "occultism:miner_ancient_eldritch" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3B9D6BCD55434365"
+				type: "checkmark"
+			}
+			]
 			x: 9.0d
 			y: 3.0d
 		}
@@ -610,7 +737,12 @@
 				id: "62C7B7E2249606BD"
 				item: { count: 1, id: "ars_nouveau:mob_jar" }
 				type: "item"
-			}]
+			}
+			{
+				id: "A1AB9973C1AB9A63"
+				type: "checkmark"
+			}
+			]
 			x: 9.5d
 			y: -1.5d
 		}

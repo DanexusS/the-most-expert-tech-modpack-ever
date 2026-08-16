@@ -17,20 +17,17 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5F68F1D8533B534F"
-			rewards: [{
-				id: "28289AEF1F4FE707"
-				item: {
-					count: 1
-					id: "tfmg:mixer_blade"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "21F0A4DAFC235EFF"
 				item: { count: 1, id: "tfmg:mixer_blade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "104BB2F227BE8E87"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: -1.5d
 		}
@@ -41,44 +38,6 @@
 			]
 			id: "67F7FBDD9CC782F7"
 			optional: true
-			rewards: [
-				{
-					count: 6
-					id: "7686F4BA39E63F32"
-					item: {
-						count: 1
-						id: "tfmg:cast_iron_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 6
-					id: "0AD0B6167E0F1AA8"
-					item: {
-						count: 1
-						id: "tfmg:steel_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7C9DBB8ADC665761"
-					item: {
-						count: 1
-						id: "tfmg:lead_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "2D11C3CB771FCAE5"
-					item: {
-						count: 1
-						id: "tfmg:nickel_ingot"
-					}
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -91,27 +50,28 @@
 					item: { count: 1, id: "tfmg:steel_chemical_vat" }
 					type: "item"
 				}
+			
+			{
+				id: "05AFB93D7B606F27"
+				type: "checkmark"
+			}
 			]
 			x: -6.0d
 			y: -1.5d
 		}
 		{
 			id: "2DEF812916A51C34"
-			rewards: [{
-				count: 4
-				id: "2A3996C0C5B15F3C"
-				item: {
-					count: 1
-					id: "tfmg:sulfur_dust"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				count: 4L
 				id: "79EA6BF093755546"
 				item: { count: 1, id: "tfmg:sulfur_dust" }
 				type: "item"
-			}]
+			}
+			{
+				id: "40D99D3AEB1F15E0"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 1.5d
 		}
@@ -122,19 +82,16 @@
 				"11D8E015814D44F8"
 			]
 			id: "6C9157A690AA5F3C"
-			rewards: [{
-				id: "56D4690893347507"
-				item: {
-					count: 1
-					id: "tfmg:sulfuric_acid_bucket"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "483EECD72559821D"
 				item: { count: 1, id: "tfmg:sulfuric_acid_bucket" }
 				type: "item"
-			}]
+			}
+			{
+				id: "0545F13E6F7571CD"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: 0.0d
 		}
@@ -154,6 +111,11 @@
 					optional_task: true
 					type: "item"
 				}
+			
+			{
+				id: "437E0D23FAEF6180"
+				type: "checkmark"
+			}
 			]
 			x: -2.5d
 			y: -3.0d
@@ -173,6 +135,11 @@
 					item: { count: 1, id: "tfmg:casting_basin" }
 					type: "item"
 				}
+			
+			{
+				id: "7E34483AEFF0300C"
+				type: "checkmark"
+			}
 			]
 			x: -0.5d
 			y: -1.5d
@@ -180,21 +147,18 @@
 		{
 			dependencies: ["2CD6597AE3312F20"]
 			id: "0B7FFB9FF90F10CF"
-			rewards: [{
-				id: "4299197DF760BDAC"
-				item: {
-					count: 1
-					id: "tfmg:plastic_sheet"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "68587338668EDE82"
 				item: { count: 1, id: "tfmg:plastic_sheet" }
 				type: "item"
-			}]
+			}
+			{
+				id: "1703549FFBF0F17C"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -1.5d
 		}
@@ -207,26 +171,27 @@
 				item: { count: 1, id: "tfmg:cooling_fluid_bucket" }
 				optional_task: true
 				type: "item"
-			}]
+			}
+			{
+				id: "B63C16F174912745"
+				type: "checkmark"
+			}
+			]
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			id: "68E50F7501B945BB"
-			rewards: [{
-				count: 3
-				id: "7AC2EAB48E699F4D"
-				item: {
-					count: 1
-					id: "tfmg:lithium_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "118212C60EDD6BEC"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/lithium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E6B188C639ED4EA0"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: 0.0d
 		}
@@ -234,17 +199,17 @@
 			dependencies: ["68E50F7501B945BB"]
 			id: "57FCBFBA8789F893"
 			optional: true
-			rewards: [{
-				id: "013D6BD1D69B9E4A"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				count: 4L
 				id: "4EA61C934FAB67BA"
 				item: { count: 1, id: "tfmg:lithium_torch" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FB05E4B4783D4101"
+				type: "checkmark"
+			}
+			]
 			x: 8.5d
 			y: 1.5d
 		}
@@ -265,7 +230,12 @@
 				id: "246C96092047C955"
 				item: { count: 1, id: "tfmg:lithium_blade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B7B9087FE3CDAE6F"
+				type: "checkmark"
+			}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
@@ -276,21 +246,17 @@
 			]
 			id: "459AA2AD67CA6AAA"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "5BDBE44929892EF5"
-				item: {
-					count: 1
-					id: "tfmg:thermite_powder"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				count: 4L
 				id: "1D833DDBE0FEB0C8"
 				item: { count: 1, id: "tfmg:thermite_powder" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F7209CE7B37DA955"
+				type: "checkmark"
+			}
+			]
 			x: -8.0d
 			y: 0.0d
 		}
@@ -298,20 +264,16 @@
 			dependencies: ["459AA2AD67CA6AAA"]
 			id: "637EBAB0500A2295"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "73BD553901F32C36"
-				item: {
-					count: 1
-					id: "tfmg:thermite_powder"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6B980919CC543BC4"
 				item: { count: 1, id: "tfmg:thermite_grenade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "46D0900BAAEE6B76"
+				type: "checkmark"
+			}
+			]
 			x: -9.5d
 			y: 0.0d
 		}
@@ -319,20 +281,16 @@
 			dependencies: ["637EBAB0500A2295"]
 			id: "35296382603A6E78"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "6ECF7FF9C218C477"
-				item: {
-					count: 1
-					id: "tfmg:thermite_powder"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0AD1F2066A5B4610"
 				item: { count: 1, id: "tfmg:zinc_grenade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "66B5F0DEEB87DF47"
+				type: "checkmark"
+			}
+			]
 			x: -9.5d
 			y: 1.0d
 		}
@@ -340,20 +298,16 @@
 			dependencies: ["637EBAB0500A2295"]
 			id: "33FE53F9B5BA0001"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "4E7576D60E170BB9"
-				item: {
-					count: 1
-					id: "tfmg:thermite_powder"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7AEFDEC1F739FF73"
 				item: { count: 1, id: "tfmg:copper_grenade" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B1806381ED84E789"
+				type: "checkmark"
+			}
+			]
 			x: -9.5d
 			y: -1.0d
 		}
@@ -362,11 +316,6 @@
 				id: "tfmg:yellow_caution_block"
 			}
 			id: "4F78375EDADAFEC2"
-			rewards: [{
-				id: "22F9090EE91539FD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -383,7 +332,12 @@
 				id: "0F76F280F2A78121"
 				item: { count: 1, id: "tfmg:nitrate_dust" }
 				type: "item"
-			}]
+			}
+			{
+				id: "FA8194CBFF2193F9"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
@@ -398,7 +352,12 @@
 				id: "44FF10A96735EFC7"
 				item: { count: 1, id: "tfmg:centrifuge" }
 				type: "item"
-			}]
+			}
+			{
+				id: "01370E47538A6542"
+				type: "checkmark"
+			}
+			]
 			x: -4.5d
 			y: -3.0d
 		}
@@ -408,20 +367,17 @@
 				"5F68F1D8533B534F"
 			]
 			id: "11D8E015814D44F8"
-			rewards: [{
-				id: "5EEB14A11208D1C7"
-				item: {
-					count: 1
-					id: "immersiveengineering:storage_steel"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3890BF7BD030D44D"
 				item: { count: 1, id: "tfmg:industrial_mixer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "42190D67DF2F45BF"
+				type: "checkmark"
+			}
+			]
 			x: -2.5d
 			y: -1.5d
 		}
@@ -436,25 +392,27 @@
 				id: "479CE5668A2C77C0"
 				item: { count: 1, id: "tfmg:cooling_fluid_bottle" }
 				type: "item"
-			}]
+			}
+			{
+				id: "001873C6BFF5341F"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			id: "265D7836300A8B1E"
-			rewards: [{
-				id: "52B97C14F076C190"
-				item: {
-					count: 1
-					id: "tfmg:lithium_charge"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4BD2E13CD6C308B5"
 				item: { count: 1, id: "tfmg:lithium_charge" }
 				type: "item"
-			}]
+			}
+			{
+				id: "7EBCB8BA4EF93D19"
+				type: "checkmark"
+			}
+			]
 			x: 7.0d
 			y: 1.5d
 		}
@@ -465,19 +423,16 @@
 				"1C9B7BA5521AD3C4"
 			]
 			id: "2F74E955A2455025"
-			rewards: [{
-				id: "3ABCC233776FF561"
-				item: {
-					count: 1
-					id: "tfmg:electric_diode"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B82698C47C654AE"
 				item: { count: 1, id: "tfmg:electric_diode" }
 				type: "item"
-			}]
+			}
+			{
+				id: "02D20C29ADEEA3F7"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: 3.5d
 		}
@@ -487,21 +442,18 @@
 				"2DEF812916A51C34"
 			]
 			id: "063DA0C18DC25A0B"
-			rewards: [{
-				id: "412A3A27053D2638"
-				item: {
-					count: 1
-					id: "tfmg:sulfur_dust"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "5297F871F90F0F85"
 				item: { count: 1, id: "tfmg:n_semiconductor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B8D3C42AE92B8D1C"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: 1.5d
 		}
@@ -511,21 +463,18 @@
 				"6D7CC9EA47063963"
 			]
 			id: "1C9B7BA5521AD3C4"
-			rewards: [{
-				id: "1BE26586B205EA71"
-				item: {
-					count: 1
-					id: "tfmg:aluminum_ingot"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "798F56CC5CF05EE9"
 				item: { count: 1, id: "tfmg:p_semiconductor" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CD061DFC89F20350"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: 2.5d
 		}
@@ -538,19 +487,16 @@
 				"4E058BAF38B16EE0"
 			]
 			id: "0CE812FC58098EF3"
-			rewards: [{
-				id: "0234AA013740A514"
-				item: {
-					count: 1
-					id: "tfmg:transistor_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4762F01C4DA3C5E8"
 				item: { count: 1, id: "tfmg:transistor_item" }
 				type: "item"
-			}]
+			}
+			{
+				id: "E8D3A20E1087B34F"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: -1.5d
 		}
@@ -559,21 +505,17 @@
 			hide_dependency_lines: true
 			id: "44E8D5277063565A"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "05A35E6FB6C81679"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6481F9B347E3CBFD"
 				item: { count: 1, id: "tfmg:voltage_observer" }
 				type: "item"
-			}]
+			}
+			{
+				id: "06D070A1FFF00889"
+				type: "checkmark"
+			}
+			]
 			x: 6.5d
 			y: -3.5d
 		}
@@ -584,21 +526,17 @@
 			]
 			id: "6FFC4582D3620F32"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "4DBA1D1416286120"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2B20C8601233A56E"
 				item: { count: 1, id: "tfmg:electrical_switch" }
 				type: "item"
-			}]
+			}
+			{
+				id: "BD0FCC490D5C3519"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -3.0d
 		}
@@ -608,20 +546,17 @@
 				"0CE812FC58098EF3"
 			]
 			id: "617C2896FB22F9A6"
-			rewards: [{
-				id: "700A574D0A21A224"
-				item: {
-					count: 1
-					id: "tfmg:circuit_board"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "473B5B0D1788254A"
 				item: { count: 1, id: "tfmg:circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "F390C1A84EEAB74C"
+				type: "checkmark"
+			}
+			]
 			x: 5.5d
 			y: 0.0d
 		}
@@ -631,57 +566,48 @@
 				"79081EA4DB83383E"
 			]
 			id: "09794A824A3B022E"
-			rewards: [{
-				id: "1F4B7F2B1E5FC050"
-				item: {
-					count: 1
-					id: "tfmg:etched_circuit_board"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0870343838C4F8C3"
 				item: { count: 1, id: "tfmg:etched_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B57ECFB72D99FC34"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0679AE8045884A0F"]
 			id: "79081EA4DB83383E"
-			rewards: [{
-				id: "5FB34428E963076C"
-				item: {
-					count: 1
-					id: "tfmg:coated_circuit_board"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "78D91656E92AAC66"
 				item: { count: 1, id: "tfmg:coated_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "00FB37EE1B9A3FB6"
+				type: "checkmark"
+			}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0B7FFB9FF90F10CF"]
 			id: "0679AE8045884A0F"
-			rewards: [{
-				id: "4FB7808A4AFDC822"
-				item: {
-					count: 1
-					id: "tfmg:empty_circuit_board"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "235AAF51FC0377A2"
 				item: { count: 1, id: "tfmg:empty_circuit_board" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B1AC87558837508F"
+				type: "checkmark"
+			}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
@@ -693,20 +619,17 @@
 			hide_dependency_lines: true
 			id: "2951D84F8F0F389A"
 			optional: true
-			rewards: [{
-				id: "5676DE2CAB2D5461"
-				item: {
-					count: 1
-					id: "tfmg:industrial_aluminum_casing"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1B9D5E041FBEDE00"
 				item: { count: 1, id: "tfmg:segmented_display" }
 				type: "item"
-			}]
+			}
+			{
+				id: "DFB4D9B230FDE609"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: -3.0d
 		}
@@ -715,21 +638,17 @@
 			hide_dependency_lines: true
 			id: "3E1695A1D5FA81AD"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "1FA570C7B7A59E08"
-				item: {
-					count: 1
-					id: "tfmg:light_bulb"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "312F0B32D0DA47E1"
 				item: { count: 1, id: "tfmg:traffic_light" }
 				type: "item"
-			}]
+			}
+			{
+				id: "768E5960ED910E5F"
+				type: "checkmark"
+			}
+			]
 			x: 5.0d
 			y: -4.0d
 		}
@@ -742,22 +661,17 @@
 			]
 			hide_dependency_lines: true
 			id: "2239CC2E6B914090"
-			rewards: [{
-				auto: "enabled"
-				count: 5
-				id: "257AEAB68BB14C52"
-				item: {
-					count: 1
-					id: "tfmg:magnet"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6E0055BD3997E5D5"
 				item: { count: 1, id: "tfmg:electric_pump" }
 				type: "item"
-			}]
+			}
+			{
+				id: "42CACC4D7D92E2AA"
+				type: "checkmark"
+			}
+			]
 			x: 6.0d
 			y: -4.0d
 		}
@@ -769,17 +683,17 @@
 			]
 			hide_dependency_lines: true
 			id: "13CAA74DEE1F21A3"
-			rewards: [{
-				id: "682064C9C90D0605"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1D0DE005F4C17745"
 				item: { count: 1, id: "tfmg:fireproof_chemical_vat" }
 				type: "item"
-			}]
+			}
+			{
+				id: "3F8F6DB4C945B003"
+				type: "checkmark"
+			}
+			]
 			x: 4.5d
 			y: -3.5d
 		}

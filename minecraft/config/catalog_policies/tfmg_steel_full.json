@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "tfmg_steel",
+  "chapter_id": "21FFEEC5D27A5737",
+  "chapter_title_en": "TFMG Steel — Coke, Refractories and Heavy Metallurgy",
+  "chapter_title_ru": "TFMG Steel — кокс, огнеупоры и тяжёлая металлургия",
+  "report_filename": "TFMG_STEEL_CATALOG_QUALITY_REPORT.md",
+  "report_title": "TFMG Steel Catalogue Quality Report",
+  "report_intro": "TFMG steel quests must teach coke and creosote production, refractory preparation, blast-furnace construction, alloy control and downstream steel fabrication without returning the requested fuel or metal as rewards.",
+  "expected_quests": 39,
+  "minimum_description": 200,
+  "primary_namespace": "tfmg",
+  "primary_namespace_prefixes": ["tfmg", "create", "minecraft"],
+  "acceptance_namespace": "tfmg_steel_acceptance",
+  "checkpoint_name": "TFMG Metallurgy Checkpoint",
+  "title_suffix_en": "Metallurgical Acceptance",
+  "title_suffix_ru": "металлургическая приёмка",
+  "description_en": "{display} is a {role} in the TFMG metallurgy route. The lesson must establish repeatable coke, refractory, iron or steel production with measured yield and recoverable multiblocks—not reward the player with the same fuel or metal being requested.",
+  "description_ru": "{display} — {role} металлургической ветви TFMG. Задание должно создавать повторяемое производство кокса, огнеупоров, железа или стали с измеримым выходом и восстанавливаемыми мультиблоками, а не возвращать игроку то же топливо или металл наградой.",
+  "acceptance_en": "Acceptance: verify {focus}; run a representative heat or casting batch, record fuel, ore, flux, temperature or cycle time, metal and byproducts, test blocked output or fuel loss, cool and recover safely, and remove item, XP and shortcut rewards.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовую плавку или литьё, запишите топливо, руду, флюс, температуру или время цикла, металл и побочные продукты, испытайте полный выход или потерю топлива, безопасно охладите и восстановите систему и уберите предметные, XP- и обходные награды.",
+  "categories": [
+    {
+      "tokens": ["coke_oven", "coal_coke", "creosote", "hardened_planks"],
+      "role_en": "coke-oven structure, fuel or creosote-derived material",
+      "role_ru": "структура коксовой печи, топливо или материал на основе креозота",
+      "focus_en": "complete oven structure, coal input, coke and creosote yields, fluid storage, heat-up and cycle time, hardened-material recipe, overflow handling and cooling before maintenance",
+      "focus_ru": "полную структуру печи, вход угля, выход кокса и креозота, хранение жидкости, разогрев и время цикла, рецепт упрочнённого материала, переполнение и охлаждение перед обслуживанием"
+    },
+    {
+      "tokens": ["fireclay", "fireproof", "refractory", "brick", "reinforcement"],
+      "role_en": "refractory feedstock, brick or structural reinforcement",
+      "role_ru": "огнеупорное сырьё, кирпич или конструкционное усиление",
+      "focus_en": "clay and additive ancestry, shaping and firing batch, exact block count, defect or rejected brick handling, reinforcement purpose and reserve for one multiblock repair",
+      "focus_ru": "происхождение глины и добавок, формование и обжиг партии, точное число блоков, обработку брака, назначение усиления и резерв для одного ремонта мультиблока"
+    },
+    {
+      "tokens": ["blast_furnace", "furnace_hatch", "furnace_output", "stove", "heat"],
+      "role_en": "blast-furnace multiblock, hatch or heat-control component",
+      "role_ru": "мультиблок доменной печи, люк или компонент управления теплом",
+      "focus_en": "complete structure and ports, fuel and air or heat supply, ore and flux inputs, temperature or cycle state, metal and slag outputs, blocked-output shutdown and safe cooldown",
+      "focus_ru": "полную структуру и порты, снабжение топливом и воздухом или теплом, входы руды и флюса, температуру или состояние цикла, выход металла и шлака, остановку при полном выходе и безопасное охлаждение"
+    },
+    {
+      "tokens": ["cast_iron", "pig_iron", "steel_ingot", "steel_block", "molten_steel", "limesand", "slag", "coal_coke_dust"],
+      "role_en": "iron, steel, flux or metallurgical byproduct",
+      "role_ru": "железо, сталь, флюс или металлургический побочный продукт",
+      "focus_en": "legal mineral and carbon source, recipe ratio, metal yield, flux consumption, slag or dust route, batch reconciliation, storage separation and reproducible stock without reward-supplied metal",
+      "focus_ru": "честный источник минерала и углерода, соотношение рецепта, выход металла, расход флюса, маршрут шлака или пыли, сверку партии, разделение хранения и воспроизводимый запас без металла из наград"
+    },
+    {
+      "tokens": ["casting", "mold", "mechanism", "machine_input", "machine_output", "plate", "beam", "rail", "pipe"],
+      "role_en": "steel casting, shaping or downstream fabrication component",
+      "role_ru": "компонент литья, формования или дальнейшего изготовления стали",
+      "focus_en": "molten or solid input, mould or tool selection, returned tooling, output dimensions, batch throughput, cooling, rejected cast handling and integration with the next mechanical assembly",
+      "focus_ru": "расплавленный или твёрдый вход, выбор формы или инструмента, возврат оснастки, размеры выхода, скорость партии, охлаждение, обработку брака и интеграцию со следующей механической сборкой"
+    }
+  ],
+  "default": {
+    "role_en": "specialized TFMG metallurgy component",
+    "role_ru": "специализированный металлургический компонент TFMG",
+    "focus_en": "its material ancestry, heat and fuel contract, multiblock or fabrication role, measured yield, byproduct route, safe cooldown and repeatable replacement from current-stage infrastructure",
+    "focus_ru": "его происхождение материала, контракт тепла и топлива, роль мультиблока или изготовления, измеримый выход, маршрут побочных продуктов, безопасное охлаждение и воспроизводимую замену инфраструктурой текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod metallurgy integration component",
+    "role_ru": "межмодовый компонент металлургической интеграции",
+    "focus_en": "which system owns ore preparation, heat, fuel, transport, casting or downstream use, the interface buffer and absence of a circular steel or fuel conversion",
+    "focus_ru": "какая система отвечает за подготовку руды, тепло, топливо, транспорт, литьё или дальнейшее использование, интерфейсный буфер и отсутствие циклического преобразования стали или топлива"
+  },
+  "checkpoint": {
+    "role_en": "TFMG heavy-metallurgy design checkpoint",
+    "role_ru": "контрольная точка проектирования тяжёлой металлургии TFMG",
+    "focus_en": "coke and creosote supply, refractory inventory, blast-furnace structure, heat and fuel reserve, ore and flux ratios, slag handling, casting capacity, cooldown and restart order",
+    "focus_ru": "снабжение коксом и креозотом, запас огнеупоров, структуру доменной печи, резерв тепла и топлива, соотношения руды и флюса, обработку шлака, мощность литья, охлаждение и порядок перезапуска"
+  }
+}

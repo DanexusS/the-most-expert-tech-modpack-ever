@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "apotheosis",
+  "chapter_id": "282448C70744895F",
+  "chapter_title_en": "Apotheosis — Affixes, Gems and Controlled Boss Progression",
+  "chapter_title_ru": "Apotheosis — аффиксы, самоцветы и контролируемая прогрессия боссов",
+  "report_filename": "APOTHEOSIS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Apotheosis Catalogue Quality Report",
+  "report_intro": "Every Apotheosis node must explain the source, risk, affix or enchanting role, material recovery and acceptance test instead of paying the player with equipment, gems or experience.",
+  "expected_quests": 43,
+  "minimum_description": 210,
+  "primary_namespace": "apotheosis",
+  "primary_namespaces": ["apotheosis", "gateways"],
+  "acceptance_namespace": "apotheosis_catalog_acceptance",
+  "checkpoint_name": "Apotheosis Engineering Checkpoint",
+  "title_suffix_en": "Controlled Upgrade Acceptance",
+  "title_suffix_ru": "приёмка контролируемого усиления",
+  "description_en": "{display} is a {role} in the Apotheosis progression system. It must be treated as a controlled upgrade or encounter tool whose value comes from measured build improvement, recoverable materials and explicit risk—not from a quest reward that skips the affix economy.",
+  "description_ru": "{display} — {role} в прогрессии Apotheosis. Его следует использовать как контролируемый инструмент усиления или встречи, ценность которого определяется измеримым улучшением сборки, возвратом материалов и явным риском, а не наградой, обходящей экономику аффиксов.",
+  "acceptance_en": "Acceptance: verify {focus}; record the before-and-after equipment state, resource cost and failure condition, test one representative combat or enchanting cycle, salvage or recover rejected results and confirm that rewards, rerolls, duplication and unrestricted boss spawning cannot bypass the intended progression.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте состояние снаряжения до и после, стоимость ресурсов и условие отказа, выполните один показательный боевой или зачаровательный цикл, переработайте отклонённый результат и подтвердите отсутствие обходов через награды, переролл, копирование и неограниченный призыв боссов.",
+  "categories": [
+    {
+      "tokens": ["reforging", "salvaging", "material", "sigil", "rarity"],
+      "role_en": "affix reforging or material-recovery station",
+      "role_ru": "станция перековки аффиксов или возврата материалов",
+      "focus_en": "input rarity, material tier, deterministic costs, rejected-result recovery, output comparison and a bounded reroll policy that cannot consume unlimited resources silently",
+      "focus_ru": "редкость входа, уровень материала, предсказуемую стоимость, возврат отклонённых результатов, сравнение выхода и ограниченную политику переролла без скрытого бесконечного расхода"
+    },
+    {
+      "tokens": ["gem", "socket", "vial", "dust"],
+      "role_en": "gem, socketing or gem-processing component",
+      "role_ru": "компонент самоцветов, сокетов или их переработки",
+      "focus_en": "gem tier and trait, socket count, insertion and removal route, dust yield, compatibility with the target item and protection against destroying an irreplaceable build",
+      "focus_ru": "уровень и свойство самоцвета, число сокетов, путь установки и извлечения, выход пыли, совместимость с предметом и защиту незаменимой сборки"
+    },
+    {
+      "tokens": ["boss", "summoner", "gate_pearl", "gateway", "pinnacle"],
+      "role_en": "boss encounter or controlled summoning permission",
+      "role_ru": "допуск к боссу или контролируемому призыву",
+      "focus_en": "arena containment, spawn cost, expected affix tier, retreat route, first-kill evidence, repeat-farm limits and cleanup after an interrupted or escaped encounter",
+      "focus_ru": "изоляцию арены, стоимость призыва, ожидаемый уровень аффиксов, маршрут отступления, доказательство первой победы, пределы повторного фарма и очистку после прерванной встречи"
+    },
+    {
+      "tokens": ["bookshelf", "library", "enchant", "sightshelf", "seashelf", "endshelf", "draconic"],
+      "role_en": "enchanting-stat or library infrastructure component",
+      "role_ru": "компонент характеристик зачарования или библиотечной инфраструктуры",
+      "focus_en": "eterna, quanta and arcana contribution, shelf placement, target enchanting range, variance control, experience cost and a reproducible comparison against the previous layout",
+      "focus_ru": "вклад eterna, quanta и arcana, размещение полок, целевой диапазон зачарования, контроль разброса, стоимость опыта и воспроизводимое сравнение с предыдущей схемой"
+    },
+    {
+      "tokens": ["potion", "charm", "spawner", "capturing"],
+      "role_en": "utility, potion or controlled-spawner upgrade",
+      "role_ru": "утилита, зелье или контролируемое улучшение спавнера",
+      "focus_en": "activation cost, range or duration, safe shutdown, entity cap, chunk-loading behavior and confirmation that the utility does not replace mandatory first encounters or stage permissions",
+      "focus_ru": "стоимость активации, радиус или длительность, безопасное отключение, лимит сущностей, поведение при загрузке чанка и отсутствие замены обязательных первых встреч или этапных допусков"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Apotheosis progression component",
+    "role_ru": "специализированный компонент прогрессии Apotheosis",
+    "focus_en": "legal acquisition, tier, resource ancestry, measurable benefit, failure recovery and interaction with the current-stage equipment ceiling",
+    "focus_ru": "честное получение, уровень, происхождение ресурсов, измеримую пользу, восстановление после отказа и связь с пределом снаряжения текущего этапа"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod support item used by the Apotheosis branch",
+    "role_ru": "межмодовый предмет поддержки ветви Apotheosis",
+    "focus_en": "its exact support role, stage-appropriate availability, interaction with affixed equipment and why it assists rather than bypasses the Apotheosis system",
+    "focus_ru": "его точную роль поддержки, доступность по этапу, взаимодействие с аффиксным снаряжением и отсутствие обхода системы Apotheosis"
+  },
+  "checkpoint": {
+    "role_en": "Apotheosis build-review checkpoint",
+    "role_ru": "контрольная точка проверки сборки Apotheosis",
+    "focus_en": "current equipment baseline, affix target, gem plan, enchanting statistics, boss readiness, material reserve, rejection criteria and recovery procedure",
+    "focus_ru": "базовое состояние снаряжения, целевой аффикс, план самоцветов, характеристики зачарования, готовность к боссу, резерв материалов, критерии отклонения и процедуру восстановления"
+  }
+}

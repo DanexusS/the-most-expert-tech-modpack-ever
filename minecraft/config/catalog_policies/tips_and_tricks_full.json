@@ -1,0 +1,106 @@
+{
+  "chapter_filename": "tips_and_tricks",
+  "chapter_id": "1BE666F01EFFC00D",
+  "chapter_title_en": "Tips & Tricks — Practical Cross-Mod Utilities",
+  "chapter_title_ru": "Советы и приёмы — практические межмодовые утилиты",
+  "report_filename": "TIPS_AND_TRICKS_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Tips & Tricks Catalogue Quality Report",
+  "report_intro": "Every utility quest must teach a concrete use case, operating limits, safety and recovery instead of merely requiring an item and paying experience for discovering it.",
+  "expected_quests": 32,
+  "minimum_description": 205,
+  "primary_namespace": "minecraft",
+  "primary_namespaces": [
+    "buildinggadgets2",
+    "simplemagnets",
+    "mekanism",
+    "projecte",
+    "gateways",
+    "torchmaster",
+    "bhc",
+    "sophisticatedbackpacks",
+    "sophisticatedstorage",
+    "waystones",
+    "tempad",
+    "constructionwand",
+    "entangled",
+    "elevatorid",
+    "comforts",
+    "functionalstorage",
+    "enderstorage",
+    "mob_grinding_utils",
+    "industrialforegoing",
+    "create",
+    "ae2",
+    "minecraft"
+  ],
+  "acceptance_namespace": "tips_and_tricks_acceptance",
+  "checkpoint_name": "Utility Review Checkpoint",
+  "title_suffix_en": "Practical Utility Acceptance",
+  "title_suffix_ru": "приёмка практической утилиты",
+  "description_en": "{display} is a {role} selected for a practical cross-mod workflow. The quest must explain the problem it solves, the resource or energy cost and the situations where it should not be used, rather than treating ownership as proof of mastery.",
+  "description_ru": "{display} — {role}, выбранная для практического межмодового процесса. Квест должен объяснять решаемую проблему, стоимость ресурсов или энергии и ситуации, где инструмент применять не следует, а не считать владение предметом доказательством освоения.",
+  "acceptance_en": "Acceptance: verify {focus}; demonstrate one useful scenario and one misuse or failure case, measure range, capacity, speed or cost where applicable, document cleanup and recovery and confirm that the utility cannot bypass stage permissions, first encounters, protected areas or production requirements.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; покажите один полезный сценарий и один случай неправильного применения или отказа, измерьте дальность, ёмкость, скорость или стоимость, задокументируйте очистку и восстановление и исключите обход этапных допусков, первых встреч, защищённых зон или производственных требований.",
+  "categories": [
+    {
+      "tokens": ["gadget", "wand", "builder", "copy_paste", "destruction", "exchanging"],
+      "role_en": "bulk-building or terrain-editing utility",
+      "role_ru": "утилита массового строительства или изменения местности",
+      "focus_en": "energy and material source, selection range, undo or rollback path, protected-block policy, inventory exhaustion behavior and safe recovery from an incorrect large operation",
+      "focus_ru": "источник энергии и материалов, дальность выделения, путь отмены или отката, правила защищённых блоков, поведение при нехватке ресурсов и безопасное восстановление после ошибочной массовой операции"
+    },
+    {
+      "tokens": ["magnet", "oredictionificator", "filter", "void", "pickup", "compacting"],
+      "role_en": "collection, filtering or inventory-normalization utility",
+      "role_ru": "утилита сбора, фильтрации или нормализации инвентаря",
+      "focus_en": "pickup radius or filter rule, whitelist and blacklist behavior, overflow destination, protected-item handling, idle cost and a test proving that valuable or unique items are not destroyed",
+      "focus_ru": "радиус сбора или правило фильтра, белый и чёрный список, назначение переполнения, обработку защищённых предметов, стоимость простоя и тест отсутствия уничтожения ценного или уникального лута"
+    },
+    {
+      "tokens": ["torch", "lamp", "lantern", "dread", "flare"],
+      "role_en": "spawn-control or area-lighting utility",
+      "role_ru": "утилита контроля спавна или освещения области",
+      "focus_en": "effective radius, mob-category rules, chunk-border behavior, interaction with intended farms, visual verification and a rollback plan when the utility suppresses required encounters",
+      "focus_ru": "эффективный радиус, правила категорий мобов, поведение на границе чанков, взаимодействие с запланированными фермами, визуальную проверку и откат при подавлении обязательных встреч"
+    },
+    {
+      "tokens": ["heart", "canister", "amulet", "armor", "shield"],
+      "role_en": "survivability or personal-protection utility",
+      "role_ru": "утилита выживаемости или личной защиты",
+      "focus_en": "slot use, health or defense gain, material ancestry, repair or refill route, comparison with stage equipment and confirmation that the item does not trivialize later combat permissions",
+      "focus_ru": "занимаемый слот, прирост здоровья или защиты, происхождение материалов, ремонт или пополнение, сравнение с этапным снаряжением и отсутствие обесценивания будущих боевых допусков"
+    },
+    {
+      "tokens": ["waystone", "tempad", "elevator", "teleport", "warp", "entangled"],
+      "role_en": "transport, remote-access or spatial-link utility",
+      "role_ru": "утилита транспорта, удалённого доступа или пространственной связи",
+      "focus_en": "range or dimension rules, energy or cooldown cost, destination safety, unloaded-chunk behavior, recovery from a missing endpoint and prevention of access to gated dimensions or protected rooms",
+      "focus_ru": "правила дальности или измерений, стоимость энергии или перезарядки, безопасность назначения, поведение в выгруженном чанке, восстановление при потере точки и запрет доступа в закрытые измерения или помещения"
+    },
+    {
+      "tokens": ["miner", "machine", "factory", "storage", "drawer", "backpack", "chest"],
+      "role_en": "automation, mining or storage convenience system",
+      "role_ru": "система удобства автоматизации, добычи или хранения",
+      "focus_en": "power and input requirements, work area, capacity, filter policy, idle shutdown, overflow and restart behavior and why the convenience does not replace the required production chain",
+      "focus_ru": "требования к энергии и входам, рабочую область, ёмкость, политику фильтра, отключение в простое, переполнение и перезапуск и отсутствие замены обязательной производственной цепочки"
+    }
+  ],
+  "default": {
+    "role_en": "specialized quality-of-life utility",
+    "role_ru": "специализированная утилита удобства",
+    "focus_en": "the exact problem solved, resource cost, range or capacity, misuse risk, cleanup, recovery and stage-appropriate restrictions",
+    "focus_ru": "точно решаемую проблему, стоимость ресурсов, дальность или ёмкость, риск неправильного применения, очистку, восстановление и этапные ограничения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod support item used in a utility workflow",
+    "role_ru": "межмодовый предмет поддержки утилитарного процесса",
+    "focus_en": "its support role, legal acquisition stage, interaction with the primary utility, replacement policy and confirmation that it does not create free resources or permissions",
+    "focus_ru": "его роль поддержки, честный этап получения, взаимодействие с основной утилитой, правила замены и отсутствие бесплатных ресурсов или допусков"
+  },
+  "checkpoint": {
+    "role_en": "utility-selection and safety checkpoint",
+    "role_ru": "контрольная точка выбора и безопасности утилит",
+    "focus_en": "the original problem, chosen tool, measurable benefit, operating cost, unsafe use, rollback, maintenance and whether a simpler stage-appropriate solution is preferable",
+    "focus_ru": "исходную проблему, выбранный инструмент, измеримую пользу, стоимость работы, опасное применение, откат, обслуживание и возможность более простого этапного решения"
+  }
+}

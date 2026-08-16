@@ -1,0 +1,145 @@
+{
+  "slug": "mystical_agriculture",
+  "lessons": [
+    {
+      "slug": "essence",
+      "icon": "mysticalagriculture:inferium_essence",
+      "title_en": "Essence Tiers and Conversion",
+      "title_ru": "Уровни эссенции и преобразование",
+      "desc_en": [
+        "Essence tiers compress large amounts of Inferium into recurring progression materials. Conversion ratios define the real farm demand.",
+        "Automate upward conversion, preserve lower tiers for recipes, expose stock by tier and avoid consuming the last master infusion component."
+      ],
+      "desc_ru": [
+        "Уровни эссенции сжимают Inferium в повторяющиеся материалы прогрессии. Коэффициенты преобразования определяют реальный спрос на ферму.",
+        "Автоматизируйте повышение, сохраняйте младшие уровни, показывайте запас по уровням и не расходуйте последний основной компонент инфузии."
+      ]
+    },
+    {
+      "slug": "altar",
+      "icon": "mysticalagriculture:infusion_altar",
+      "title_en": "Infusion Altar as a Stage Gate",
+      "title_ru": "Алтарь инфузии как допуск этапа",
+      "desc_en": [
+        "The Infusion Altar unlocks seed creation and therefore renewable access to many resources. Its recipe is a major progression decision.",
+        "Require the industrial frame and bioprocess control, prevent loot or EMC access and treat every seed recipe as a resource-policy entry."
+      ],
+      "desc_ru": [
+        "Алтарь открывает создание семян и возобновляемый доступ ко многим ресурсам. Его рецепт является крупным решением прогрессии.",
+        "Требуйте промышленную раму и биоконтроль, исключайте лут и EMC и рассматривайте каждый рецепт семени как отдельную запись политики."
+      ]
+    },
+    {
+      "slug": "seeds",
+      "icon": "mysticalagriculture:prosperity_seed_base",
+      "title_en": "Seed Tiers and Resource Permissions",
+      "title_ru": "Уровни семян и разрешения ресурсов",
+      "desc_en": [
+        "A seed is not merely another crop; it grants permanent renewable production of its material. Seed availability must match the material progression stage.",
+        "Classify every seed, block late ores and boss materials, require stage components and audit add-ons that introduce duplicate seed paths."
+      ],
+      "desc_ru": [
+        "Семя является не просто культурой, а постоянным возобновляемым источником материала. Доступ должен соответствовать этапу ресурса.",
+        "Классифицируйте семена, закрывайте поздние руды и боссовые материалы, требуйте компоненты этапа и проверяйте дублирующие аддоны."
+      ]
+    },
+    {
+      "slug": "farmland",
+      "icon": "mysticalagriculture:inferium_farmland",
+      "title_en": "Farmland, Growth and Soil Policy",
+      "title_ru": "Почва, рост и политика земли",
+      "desc_en": [
+        "Farmland tier affects growth and consumes essence that competes with seed progression. Maximum soil everywhere is not always the best allocation.",
+        "Measure output per essence invested, reserve upgrade materials and assign high-tier soil to bottleneck crops instead of low-value bulk production."
+      ],
+      "desc_ru": [
+        "Уровень почвы влияет на рост и расходует эссенцию, конкурирующую с семенами. Максимальная земля везде не всегда оптимальна.",
+        "Измеряйте выход на вложенную эссенцию, сохраняйте материалы улучшений и назначайте старшую почву узким культурам, а не дешёвому массовому производству."
+      ]
+    },
+    {
+      "slug": "accelerators",
+      "icon": "mysticalagriculture:growth_accelerator",
+      "title_en": "Growth Accelerators and Tick Cost",
+      "title_ru": "Ускорители роста и стоимость тиков",
+      "desc_en": [
+        "Growth accelerators stack vertically and increase crop update work. Large arrays can move the bottleneck from crop time to harvesting, storage or server ticks.",
+        "Scale in measured steps, verify collector capacity, keep chunk impact visible and prefer balanced farms over one uncontrolled tower."
+      ],
+      "desc_ru": [
+        "Ускорители складываются вертикально и повышают число обновлений культур. Большой массив переносит узкое место в сбор, хранение или тики.",
+        "Масштабируйте измеренными шагами, проверяйте сбор, показывайте нагрузку чанка и предпочитайте сбалансированные фермы одной бесконтрольной башне."
+      ]
+    },
+    {
+      "slug": "harvest",
+      "icon": "mysticalagriculture:watering_can",
+      "title_en": "Harvesting and Replanting",
+      "title_ru": "Сбор и повторная посадка",
+      "desc_en": [
+        "Automated harvesting must preserve crops or seeds, collect every essence and stop before item entities or storage overflow accumulate.",
+        "Test replant behavior, route seeds and essence separately, provide overflow shutdown and verify the farm recovers when storage becomes available again."
+      ],
+      "desc_ru": [
+        "Автоматический сбор должен сохранять культуры или семена, собирать эссенцию и останавливаться до накопления предметов или переполнения.",
+        "Проверяйте пересадку, разделяйте семена и эссенцию, создавайте остановку и подтверждайте восстановление после освобождения хранилища."
+      ]
+    },
+    {
+      "slug": "secondary",
+      "icon": "mysticalagriculture:fertilized_essence",
+      "title_en": "Secondary Drops and Recycling",
+      "title_ru": "Вторичные выходы и переработка",
+      "desc_en": [
+        "Seeds, fertilized essence and add-on drops can become useful inputs or uncontrolled clutter. Deleting them may waste a balancing resource.",
+        "Assign every secondary output, recycle only through bounded recipes and prevent feedback loops that multiply essence or seeds without external cost."
+      ],
+      "desc_ru": [
+        "Семена, удобренная эссенция и выходы аддонов становятся полезными входами или мусором. Удаление может тратить балансирующий ресурс.",
+        "Назначайте каждый выход, перерабатывайте ограниченными рецептами и исключайте циклы, умножающие эссенцию или семена без внешней стоимости."
+      ]
+    },
+    {
+      "slug": "gear",
+      "icon": "mysticalagriculture:supremium_ingot",
+      "title_en": "Gear, Augments and Capability Jumps",
+      "title_ru": "Снаряжение, улучшения и скачки возможностей",
+      "desc_en": [
+        "Essence gear can grant flight, area mining, strength and other capability jumps independent of the seed economy.",
+        "Gate augments by equivalent technology stages, separate farming progression from combat permissions and audit salvaging or upgrade paths."
+      ],
+      "desc_ru": [
+        "Снаряжение из эссенции даёт полёт, площадь добычи, силу и другие скачки независимо от экономики семян.",
+        "Закрывайте улучшения эквивалентными этапами, отделяйте фермы от боевых разрешений и проверяйте разборку и улучшение на обходы."
+      ]
+    },
+    {
+      "slug": "loops",
+      "icon": "mysticalagriculture:master_infusion_crystal",
+      "title_en": "Anti-Loop Resource Policy",
+      "title_ru": "Политика запрета ресурсных циклов",
+      "desc_en": [
+        "Crop outputs can feed ProjectE, bees, machines or seed crafting and create positive loops that duplicate matter or progression components.",
+        "Compare all conversions, set EMC zero on gates, block seeds for permissions and require a real external cost for every renewable late resource."
+      ],
+      "desc_ru": [
+        "Выходы культур взаимодействуют с ProjectE, пчёлами, машинами и семенами, создавая положительные циклы материи или допусков.",
+        "Сравнивайте конверсии, задавайте нулевой EMC, запрещайте семена для разрешений и требуйте внешнюю стоимость позднего возобновляемого ресурса."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bio_process_controller",
+      "title_en": "Project: Stage-Safe Essence Farm",
+      "title_ru": "Проект: ферма эссенции по этапам",
+      "desc_en": [
+        "Build a farm that produces several approved materials, converts essence tiers and handles every secondary output without generating a locked resource.",
+        "The project passes after two harvest cycles, measured tick and storage capacity, overflow shutdown and a documented seed-permission audit."
+      ],
+      "desc_ru": [
+        "Постройте ферму нескольких разрешённых материалов с преобразованием уровней и обработкой всех выходов без выпуска закрытого ресурса.",
+        "Проект принят после двух циклов, измерения тиков и хранения, остановки при переполнении и документированного аудита разрешений семян."
+      ]
+    }
+  ]
+}

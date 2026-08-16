@@ -1,0 +1,40 @@
+{
+  "schema_version": 9,
+  "policies": [
+    "config/catalog_policies/ufo_future_full.json",
+    "config/catalog_policies/engineering_handbook_full.json",
+    "config/catalog_policies/minecolonies_full.json",
+    "config/catalog_policies/mainquestline_part_1_full.json",
+    "config/catalog_policies/tfmg_electricity_full.json",
+    "config/catalog_policies/immersive_engineering_full.json",
+    "config/catalog_policies/tfmg_chemistry_full.json",
+    "config/catalog_policies/tfmg_steel_full.json",
+    "config/catalog_policies/apotheosis_full.json",
+    "config/catalog_policies/create_stuff_n_additions_full.json",
+    "config/catalog_policies/tips_and_tricks_full.json",
+    "config/catalog_policies/projecte_full_v2.json",
+    "config/catalog_policies/allthemodium_full_v2.json",
+    "config/catalog_policies/extreme_reactors_full_v2.json",
+    "config/catalog_policies/create_crafts_additions_full_v2.json",
+    "config/catalog_policies/create_connected_full_v2.json",
+    "config/catalog_policies/package_mod_full_v2.json",
+    "config/catalog_policies/heart_of_the_void_full_v2.json",
+    "config/catalog_policies/dl_stellaris_full_v2.json",
+    "config/catalog_policies/dyson_cube_project_full_v2.json",
+    "config/catalog_policies/creative_items_full_v2.json",
+    "config/catalog_policies/minimum_for_maximum_full_v2.json",
+    "config/catalog_policies/apotheosis_2_full_v2.json",
+    "config/catalog_policies/building_gadgets_full_v2.json",
+    "config/catalog_policies/flux_networks_full_v2.json",
+    "config/catalog_policies/automation_challenges_review_v2.json",
+    "config/catalog_policies/engineering_foundations_review_v2.json",
+    "config/catalog_policies/expert_progression_review_v2.json"
+  ],
+  "tools": [
+    "tools/productive_bees_remediation.py",
+    "tools/when_dungeons_arise_remediation.py",
+    "tools/divinerpg_stage_seal_remediation.py",
+    "tools/divinerpg_codex_remediation.py",
+    "tools/combat_trials_remediation.py"
+  ]
+}

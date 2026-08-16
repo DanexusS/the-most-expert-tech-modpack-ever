@@ -1,0 +1,145 @@
+{
+  "slug": "extended_crafting",
+  "lessons": [
+    {
+      "slug": "tables",
+      "icon": "extendedcrafting:basic_table",
+      "title_en": "Crafting Table Tiers",
+      "title_ru": "Уровни верстаков",
+      "desc_en": [
+        "Extended Crafting tables increase grid size and therefore the number of distinct systems a recipe can require. Grid size alone is not meaningful difficulty.",
+        "Use higher tables only when a recipe expresses multiple completed production domains, and gate each table behind the stage that can supply those domains repeatedly."
+      ],
+      "desc_ru": [
+        "Верстаки Extended Crafting увеличивают сетку и число систем, которые может объединять рецепт. Сам размер сетки не является содержательной сложностью.",
+        "Используйте старшие верстаки, когда рецепт выражает несколько освоенных производственных областей, и закрывайте каждый уровень соответствующим этапом."
+      ]
+    },
+    {
+      "slug": "components",
+      "icon": "extendedcrafting:advanced_component",
+      "title_en": "Components and Catalysts",
+      "title_ru": "Компоненты и катализаторы",
+      "desc_en": [
+        "Components and catalysts are recurring crafting standards across table tiers. Requiring huge counts without automation creates repetition rather than expertise.",
+        "Automate component families, preserve catalysts when the design treats them as tools and scale demand from demonstrated throughput instead of arbitrary stacks."
+      ],
+      "desc_ru": [
+        "Компоненты и катализаторы повторяются между уровнями. Огромные количества без автоматизации создают повторение, а не экспертность.",
+        "Автоматизируйте семейства компонентов, сохраняйте катализаторы-инструменты и рассчитывайте спрос по доказанной производительности, а не случайным стакам."
+      ]
+    },
+    {
+      "slug": "combination",
+      "icon": "extendedcrafting:crafting_core",
+      "title_en": "Combination Crafting Structure",
+      "title_ru": "Структура комбинированного крафта",
+      "desc_en": [
+        "Combination crafting links a central core, pedestals, ingredients and energy. A visually complete ring can still fail through tier, range or missing power.",
+        "Label pedestal groups, supply exact quantities, expose energy progress and recover unused ingredients when a recipe is cancelled or rejected."
+      ],
+      "desc_ru": [
+        "Комбинированный крафт связывает ядро, пьедесталы, ингредиенты и энергию. Внешне готовое кольцо не работает при неверном уровне, радиусе или питании.",
+        "Подписывайте группы, подавайте точные количества, показывайте прогресс энергии и возвращайте неиспользованные ингредиенты при отмене."
+      ]
+    },
+    {
+      "slug": "automation",
+      "icon": "extendedcrafting:auto_ultimate_table",
+      "title_en": "Automating Large Recipes",
+      "title_ru": "Автоматизация крупных рецептов",
+      "desc_en": [
+        "Large grids are practical only when subcomponents, ingredient delivery and output extraction are repeatable. Manual placement should be a first-craft validation, not permanent gameplay.",
+        "Store recipes as documented bills of materials, preassemble modules, prevent partial starts and verify the system can repeat a craft after all buffers are emptied."
+      ],
+      "desc_ru": [
+        "Крупные сетки практичны только при повторяемых компонентах, доставке и выгрузке. Ручная раскладка допустима для первой проверки, а не постоянной игры.",
+        "Документируйте состав, заранее собирайте модули, исключайте частичный запуск и проверяйте повтор после полного опустошения буферов."
+      ]
+    },
+    {
+      "slug": "compressor",
+      "icon": "extendedcrafting:compressor",
+      "title_en": "Compression and Singularities",
+      "title_ru": "Сжатие и сингулярности",
+      "desc_en": [
+        "Compressors turn sustained material throughput into singularities. The challenge should be production capacity and logistics, not standing at a crafting table.",
+        "Choose fair amounts from automated rates, blacklist progression permissions, handle overflow and document the source factory for every singularity family."
+      ],
+      "desc_ru": [
+        "Компрессоры превращают устойчивый выпуск материалов в сингулярности. Сложность должна быть в мощности и логистике, а не в стоянии у верстака.",
+        "Выбирайте количества по автоматизированной скорости, закрывайте допуски, обрабатывайте переполнение и документируйте фабрику каждой сингулярности."
+      ]
+    },
+    {
+      "slug": "ingredient_fairness",
+      "icon": "extendedcrafting:ultimate_catalyst",
+      "title_en": "Fair Ingredient Selection",
+      "title_ru": "Справедливый выбор ингредиентов",
+      "desc_en": [
+        "A fair expert recipe asks for representative outputs from completed systems, not rare decorative items, hidden loot or thousands of trivial materials.",
+        "Prefer reusable standards, automated intermediates, meaningful energy and bounded boss permissions; reject ingredients that add only search time or manual repetition."
+      ],
+      "desc_ru": [
+        "Справедливый экспертный рецепт требует показательные выходы освоенных систем, а не редкий декор, скрытый лут или тысячи простых материалов.",
+        "Предпочитайте многоразовые стандарты, автоматизированные промежуточные детали, значимую энергию и ограниченные боссовые допуски."
+      ]
+    },
+    {
+      "slug": "cross_mod",
+      "icon": "extendedcrafting:elite_catalyst",
+      "title_en": "Cross-Mod Convergence",
+      "title_ru": "Межмодовая конвергенция",
+      "desc_en": [
+        "Extended Crafting is the natural place to combine chemistry, energy, logistics, dimensions and material engineering into one late-stage proof.",
+        "Every domain should contribute a completed component, and the dependency graph must prove that none of those components requires the recipe output itself."
+      ],
+      "desc_ru": [
+        "Extended Crafting естественно объединяет химию, энергию, логистику, измерения и материалы в одно позднее доказательство.",
+        "Каждая область должна давать завершённый компонент, а граф обязан доказывать отсутствие зависимости ингредиентов от самого результата."
+      ]
+    },
+    {
+      "slug": "recipe_review",
+      "icon": "extendedcrafting:ultimate_table",
+      "title_en": "Recipe Review and Missing Paths",
+      "title_ru": "Проверка рецептов и отсутствующих путей",
+      "desc_en": [
+        "A recipe is not complete until JEI visibility, item IDs, table tier, catalyst behavior and every alternative acquisition path have been reviewed.",
+        "Use deterministic IDs, remove previous outputs only after replacement ingredients exist and keep a report of skipped definitions instead of silently deleting content."
+      ],
+      "desc_ru": [
+        "Рецепт не завершён до проверки JEI, ID предметов, уровня верстака, поведения катализаторов и всех альтернативных путей получения.",
+        "Используйте стабильные ID, удаляйте старый выход только при наличии ингредиентов и отчётно пропускайте несовместимую замену вместо скрытого удаления."
+      ]
+    },
+    {
+      "slug": "creative_boundary",
+      "icon": "extendedcrafting:ultimate_singularity",
+      "title_en": "Creative Boundary Components",
+      "title_ru": "Компоненты границы творческого этапа",
+      "desc_en": [
+        "Ultimate components and singularities should lead toward creative convergence without granting creative capability on their own.",
+        "Keep them at zero EMC, block simulation and rewards, require completed stage standards and separate reusable permissions from consumed production materials."
+      ],
+      "desc_ru": [
+        "Предельные компоненты и сингулярности ведут к творческой конвергенции, но не должны сами выдавать творческие возможности.",
+        "Задавайте нулевой EMC, блокируйте симуляцию и награды, требуйте стандарты этапов и разделяйте многоразовые допуски и расходные материалы."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:cosmic_assembly_matrix",
+      "title_en": "Project: Automated Convergence Workshop",
+      "title_ru": "Проект: автоматизированная мастерская конвергенции",
+      "desc_en": [
+        "Build a workshop that produces one large-grid component and one combination-crafting component from automated subassemblies across at least four mods.",
+        "The project passes after two repeated crafts, zero manual subcomponent production, no cyclic dependency, protected reusable catalysts and complete bypass review."
+      ],
+      "desc_ru": [
+        "Постройте мастерскую, выпускающую компонент крупной сетки и комбинированного крафта из автоматизированных узлов минимум четырёх модов.",
+        "Проект принят после двух повторов без ручных подкомпонентов, циклов, потери многоразовых катализаторов и с полным аудитом обходов."
+      ]
+    }
+  ]
+}

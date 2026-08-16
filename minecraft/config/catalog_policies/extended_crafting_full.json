@@ -1,0 +1,110 @@
+{
+  "chapter_filename": "extended_crafting",
+  "chapter_id": "059EE974D686567D",
+  "chapter_title_en": "Extended Crafting — Fair Convergence Engineering",
+  "chapter_title_ru": "Extended Crafting — инженерия справедливого схождения",
+  "report_filename": "EXTENDED_CRAFTING_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Extended Crafting Catalogue Quality Report",
+  "report_intro": "Every Extended Crafting node must explain its material, grid, automation or singularity role, preserve the intended previous-tier dependency and remove free progression rewards.",
+  "expected_quests": 43,
+  "minimum_description": 190,
+  "primary_namespace": "extendedcrafting",
+  "acceptance_namespace": "extended_crafting_catalog_acceptance",
+  "checkpoint_name": "Convergence Engineering Checkpoint",
+  "title_suffix_en": "Convergence Acceptance",
+  "title_suffix_ru": "приёмка схождения",
+  "description_en": "{display} is a {role} in Extended Crafting. Its difficulty must come from integrated infrastructure, previous-tier mastery and meaningful material convergence rather than arbitrary manual repetition.",
+  "description_ru": "{display} — {role} в Extended Crafting. Его сложность должна происходить из связанной инфраструктуры, освоения предыдущего уровня и осмысленного схождения материалов, а не из произвольного ручного повторения.",
+  "acceptance_en": "Acceptance: verify {focus}; complete one representative recipe with documented inputs, reusable tools and output ownership, then prove that smaller tables, alternate recipes, rewards, EMC, loot or automation aliases cannot bypass the declared tier.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните один типовой рецепт с задокументированными входами, многоразовыми инструментами и владельцем выхода, затем исключите обход уровня через меньшие столы, альтернативные рецепты, награды, EMC, лут и алиасы автоматизации.",
+  "categories": [
+    {
+      "tokens": ["basic_table", "advanced_table", "elite_table", "ultimate_table", "crafting_table"],
+      "role_en": "extended crafting-grid tier",
+      "role_ru": "уровень расширенной сетки крафта",
+      "focus_en": "previous-table ancestry, grid size, recipe ownership, required stage component, safe recipe preview and prevention of lower-grid substitutes",
+      "focus_ru": "происхождение от предыдущего стола, размер сетки, владельца рецепта, этапный компонент, безопасный просмотр и запрет замены меньшей сеткой"
+    },
+    {
+      "tokens": ["auto_table", "crafting_core", "crafting_interface", "pedestal", "automation"],
+      "role_en": "extended-crafting automation infrastructure",
+      "role_ru": "инфраструктура автоматизации расширенного крафта",
+      "focus_en": "recipe lock, ingredient distribution, reusable-item return, output extraction, full-output stop and recovery after an interrupted craft",
+      "focus_ru": "фиксацию рецепта, распределение ингредиентов, возврат многоразовых предметов, извлечение выхода, остановку при заполнении и восстановление прерванного крафта"
+    },
+    {
+      "tokens": ["black_iron", "frame", "slate", "trimmed"],
+      "role_en": "structural Extended Crafting material",
+      "role_ru": "структурный материал Extended Crafting",
+      "focus_en": "source alloy chain, plate or slate processing, batch yield, stocking threshold and cross-mod material equivalence",
+      "focus_ru": "цепочку сплава, обработку пластин или сланца, выход партии, порог запаса и межмодовую эквивалентность материалов"
+    },
+    {
+      "tokens": ["basic_component", "advanced_component", "elite_component", "ultimate_component", "component"],
+      "role_en": "tiered recipe component",
+      "role_ru": "уровневый компонент рецепта",
+      "focus_en": "previous-component consumption, batch ratios, automation throughput, reserved stock and prevention of direct upper-tier crafting",
+      "focus_ru": "расход предыдущего компонента, соотношения партии, скорость автоматизации, резерв и запрет прямого крафта верхнего уровня"
+    },
+    {
+      "tokens": ["basic_catalyst", "advanced_catalyst", "elite_catalyst", "ultimate_catalyst", "catalyst"],
+      "role_en": "tiered convergence catalyst",
+      "role_ru": "уровневый катализатор схождения",
+      "focus_en": "previous-catalyst ancestry, consumed versus reusable behaviour, recipe count demand, replacement path and stage-gated ingredients",
+      "focus_ru": "происхождение от предыдущего катализатора, расходуемость или возврат, спрос рецептов, путь замены и этапные ингредиенты"
+    },
+    {
+      "tokens": ["singularity", "ultimate_singularity"],
+      "role_en": "large-scale material convergence object",
+      "role_ru": "объект крупномасштабного схождения материалов",
+      "focus_en": "declared source materials, automation-only bulk handling, exact count accounting, anti-duplication controls and exclusion of protected progression items",
+      "focus_ru": "заявленные исходные материалы, автоматизированную массовую обработку, точный учёт количества, защиту от копирования и исключение защищённых этапных предметов"
+    },
+    {
+      "tokens": ["ender_crafter", "ender_alternator", "flux_crafter", "flux_alternator"],
+      "role_en": "specialized powered crafting system",
+      "role_ru": "специализированная энергозависимая система крафта",
+      "focus_en": "power supply, recipe isolation, paired-block topology, cycle rate, input buffer and clean shutdown under insufficient energy",
+      "focus_ru": "питание, изоляцию рецепта, топологию парных блоков, скорость цикла, входной буфер и чистую остановку при недостатке энергии"
+    },
+    {
+      "tokens": ["the_ultimate_ingot", "ultimate_ingot"],
+      "role_en": "cross-mod ultimate material",
+      "role_ru": "межмодовый предельный материал",
+      "focus_en": "the complete declared material set, one legitimate source per ingredient, automated staging, no duplicate aliases and a bounded first-batch target",
+      "focus_ru": "полный заявленный набор материалов, один честный источник каждого ингредиента, автоматизированную подготовку, отсутствие дублирующих алиасов и ограниченную первую партию"
+    },
+    {
+      "tokens": ["recipe_maker", "template"],
+      "role_en": "recipe authoring or transfer tool",
+      "role_ru": "инструмент записи или переноса рецепта",
+      "focus_en": "stored recipe identity, component-sensitive matching, ownership, invalid-template rejection and prevention of template-based tier bypass",
+      "focus_ru": "идентичность сохранённого рецепта, учёт компонентов, владение, отклонение неверного шаблона и запрет обхода уровня через шаблон"
+    },
+    {
+      "tokens": ["creative"],
+      "role_en": "creative-class convergence component",
+      "role_ru": "творческий компонент схождения",
+      "focus_en": "all prior stage proofs, non-renewable permission evidence, one authoritative recipe and complete exclusion from rewards, EMC, loot, trades and ordinary singularity production",
+      "focus_ru": "все доказательства предыдущих этапов, невозобновляемый допуск, один авторитетный рецепт и полное исключение из наград, EMC, лута, торговли и обычного производства сингулярностей"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Extended Crafting component",
+    "role_ru": "специализированный компонент Extended Crafting",
+    "focus_en": "its exact tier, upstream material chain, recipe role, automation contract and every alternate acquisition route",
+    "focus_ru": "его точный уровень, предыдущую цепочку материалов, роль в рецепте, контракт автоматизации и каждый альтернативный путь получения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod convergence requirement",
+    "role_ru": "межмодовое требование схождения",
+    "focus_en": "the supplying mod's declared stage, legal first source, conversion direction, reusable state and absence of an easier equivalent",
+    "focus_ru": "заявленный этап исходного мода, честный первый источник, направление преобразования, многоразовое состояние и отсутствие более лёгкого эквивалента"
+  },
+  "checkpoint": {
+    "role_en": "convergence-system design checkpoint",
+    "role_ru": "контрольная точка проектирования системы схождения",
+    "focus_en": "documented input domains, previous-tier dependency, automation ownership, failure recovery and a fair first-production target",
+    "focus_ru": "задокументированные области входов, зависимость от предыдущего уровня, владение автоматизацией, восстановление отказа и справедливую цель первой партии"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "ice_and_fire",
+  "lessons": [
+    {
+      "slug": "bestiary",
+      "icon": "iceandfire:bestiary",
+      "title_en": "Bestiary and Threat Classification",
+      "title_ru": "Бестиарий и классификация угроз",
+      "desc_en": [
+        "Ice and Fire contains dragons, mythical predators, structures and tameable creatures with very different risks and rewards. The Bestiary is the operational reference.",
+        "Classify each creature by habitat, threat, drops and taming route before building farms or carrying valuable equipment into its territory."
+      ],
+      "desc_ru": [
+        "Ice and Fire содержит драконов, мифических хищников, структуры и приручаемых существ с разными рисками и наградами. Бестиарий является рабочим справочником.",
+        "Классифицируйте существ по среде, угрозе, луту и приручению до строительства ферм или переноса ценного снаряжения на их территорию."
+      ]
+    },
+    {
+      "slug": "dragon_stages",
+      "icon": "iceandfire:dragon_skull_fire",
+      "title_en": "Dragon Stages and Encounter Scale",
+      "title_ru": "Стадии драконов и масштаб боя",
+      "desc_en": [
+        "Dragon age changes health, damage, size, breath range and drop value. Treating all dragons as one mob tier creates severe combat and loot imbalance.",
+        "Separate surface and den encounters, scale preparation by stage and prevent generic spawners or simulators from flattening age progression."
+      ],
+      "desc_ru": [
+        "Возраст дракона меняет здоровье, урон, размер, дальность дыхания и ценность лута. Один общий уровень создаёт сильный дисбаланс.",
+        "Разделяйте поверхностные и подземные встречи, готовьтесь по стадии и не позволяйте обычным спавнерам или симуляторам стирать возрастную прогрессию."
+      ]
+    },
+    {
+      "slug": "combat",
+      "icon": "iceandfire:dragonbone_sword",
+      "title_en": "Dragon Combat and Elemental Protection",
+      "title_ru": "Бой с драконом и стихийная защита",
+      "desc_en": [
+        "Dragon combat combines flight, breath, melee, terrain damage and large pursuit distance. A high-damage weapon without mobility or resistance is unreliable.",
+        "Prepare element-specific protection, ranged pressure, cover and retreat, keep replacement equipment outside the den and define a safe loot-recovery route."
+      ],
+      "desc_ru": [
+        "Бой с драконом объединяет полёт, дыхание, ближний бой, разрушение местности и дальнее преследование. Один высокий урон без движения и сопротивления ненадёжен.",
+        "Готовьте стихийную защиту, дальний бой, укрытие и отступление, храните запасной комплект вне логова и задавайте безопасный маршрут возврата лута."
+      ]
+    },
+    {
+      "slug": "drops",
+      "icon": "iceandfire:dragon_scale_red",
+      "title_en": "Scales, Blood, Bones and Stage Policy",
+      "title_ru": "Чешуя, кровь, кости и политика этапа",
+      "desc_en": [
+        "Dragon drops unlock armor, weapons and Dragonforge production. Their availability must reflect the dragon stage and first legitimate victory.",
+        "Separate materials by element and age, keep unique eggs outside ordinary loot simulation and block EMC, seeds, bees and generic mob farms until the matching stage."
+      ],
+      "desc_ru": [
+        "Драконьи материалы открывают броню, оружие и Драконью кузницу. Доступ должен отражать стадию дракона и первую честную победу.",
+        "Разделяйте материалы по стихии и возрасту, держите яйца вне обычной симуляции и блокируйте EMC, семена, пчёл и фермы до соответствующего этапа."
+      ]
+    },
+    {
+      "slug": "eggs",
+      "icon": "iceandfire:dragonegg_red",
+      "title_en": "Dragon Eggs and Ownership",
+      "title_ru": "Драконьи яйца и владение",
+      "desc_en": [
+        "Dragon eggs are rare persistent capability items, not bulk resources. Hatching creates a long-term entity with ownership and growth requirements.",
+        "Store eggs securely, document owner and element, prepare containment and food before hatching and prevent cloning, loot rewards or simulation copies."
+      ],
+      "desc_ru": [
+        "Драконьи яйца являются редкими постоянными возможностями, а не массовым ресурсом. Выращивание создаёт долгосрочную сущность с владельцем и требованиями.",
+        "Храните яйца безопасно, документируйте владельца и стихию, готовьте удержание и корм до вылупления и запрещайте клонирование, награды или симуляцию."
+      ]
+    },
+    {
+      "slug": "taming",
+      "icon": "iceandfire:dragon_horn",
+      "title_en": "Taming, Growth and Entity Safety",
+      "title_ru": "Приручение, рост и безопасность сущности",
+      "desc_en": [
+        "Tamed dragons grow, consume food, occupy large space and can damage structures or entities. Ownership does not remove operational risk.",
+        "Build a dedicated area, control growth and wandering, keep recall tools accessible and verify a lost or unloaded dragon cannot block the only progression route."
+      ],
+      "desc_ru": [
+        "Прирученные драконы растут, едят, занимают пространство и могут повреждать строения или сущностей. Владение не отменяет эксплуатационный риск.",
+        "Создайте отдельную область, контролируйте рост и движение, держите инструменты возврата доступными и не допускайте блокировки единственного пути прогрессии."
+      ]
+    },
+    {
+      "slug": "dragonforge",
+      "icon": "iceandfire:dragonforge_fire_core",
+      "title_en": "Dragonforge Structure and Breath Supply",
+      "title_ru": "Структура Драконьей кузницы и подача дыхания",
+      "desc_en": [
+        "The Dragonforge combines a formed structure, elemental breath, input materials and a live dragon. It is an industrial-biological multiblock.",
+        "Secure the dragon, align the forge, automate item handling without trapping breath access and keep element-specific infrastructure separated."
+      ],
+      "desc_ru": [
+        "Драконья кузница объединяет структуру, стихийное дыхание, материалы и живого дракона. Это промышленно-биологический мультиблок.",
+        "Обеспечьте безопасность дракона, выровняйте кузницу, автоматизируйте предметы без перекрытия дыхания и разделяйте инфраструктуру стихий."
+      ]
+    },
+    {
+      "slug": "other_mobs",
+      "icon": "iceandfire:gorgon_head",
+      "title_en": "Mythical Creatures and Unique Counters",
+      "title_ru": "Мифические существа и уникальные ответы",
+      "desc_en": [
+        "Gorgons, cyclopes, sea serpents, hydras and other creatures use mechanics that differ from dragon combat and may punish ordinary gear assumptions.",
+        "Read the Bestiary, prepare the specific counter, store unique drops separately and prohibit generic farming of one-time or capability-defining rewards."
+      ],
+      "desc_ru": [
+        "Горгоны, циклопы, морские змеи, гидры и другие существа используют механики, отличные от драконов, и наказывают обычные предположения о снаряжении.",
+        "Изучайте Бестиарий, готовьте конкретный ответ, храните уникальный лут отдельно и запрещайте обычную ферму одноразовых или определяющих возможности наград."
+      ]
+    },
+    {
+      "slug": "world_impact",
+      "icon": "iceandfire:dragon_cave_fire_bricks",
+      "title_en": "World Damage, Dens and Base Distance",
+      "title_ru": "Повреждение мира, логова и расстояние до базы",
+      "desc_en": [
+        "Dragon dens and large creatures affect terrain, structures and nearby entities. Building critical factories too close creates a persistent disaster risk.",
+        "Survey before settlement, maintain buffer distance, protect only recovery infrastructure and avoid removing encounter terrain in ways that trivialize future fights."
+      ],
+      "desc_ru": [
+        "Логова драконов и крупные существа влияют на местность, строения и соседних существ. Критическая фабрика рядом создаёт постоянный риск.",
+        "Проводите разведку до заселения, сохраняйте расстояние, защищайте только восстановительную инфраструктуру и не удаляйте арену так, чтобы будущие бои становились тривиальными."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:draconic_lattice",
+      "title_en": "Project: Controlled Dragon Industry",
+      "title_ru": "Проект: контролируемая драконья промышленность",
+      "desc_en": [
+        "Complete one legitimate dragon encounter, preserve and classify its drops, then operate one element-specific Dragonforge or safe taming facility.",
+        "The project passes after combat documentation, no simulated egg or unique drop, safe entity containment, repeatable forge output and a verified return and recovery route."
+      ],
+      "desc_ru": [
+        "Завершите честный бой с драконом, сохраните и классифицируйте лут, затем запустите стихийную Драконью кузницу или безопасное содержание.",
+        "Проект принят после документации боя, отсутствия симуляции яйца или уникального лута, безопасного удержания, повторяемого выхода кузницы и проверенного возврата."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "chapter_filename": "projecte",
+  "chapter_id": "20C5CBF3B3AC21F6",
+  "chapter_title_en": "ProjectE — Contained EMC and Legal Transmutation",
+  "chapter_title_ru": "ProjectE — контролируемый EMC и легальная трансмутация",
+  "report_filename": "PROJECTE_CONTAINMENT_CATALOG_QUALITY_REPORT.md",
+  "report_title": "ProjectE Containment Catalogue Quality Report",
+  "report_intro": "Every ProjectE node must explain EMC containment, legal inputs, storage limits and bypass prevention instead of rewarding matter, fuel, experience or transmutation equipment.",
+  "expected_quests": 29,
+  "minimum_description": 220,
+  "primary_namespace": "projecte",
+  "primary_namespaces": ["projecte", "projectexpansion"],
+  "acceptance_namespace": "projecte_containment_acceptance",
+  "checkpoint_name": "EMC Containment Checkpoint",
+  "title_suffix_en": "Contained Transmutation Acceptance",
+  "title_suffix_ru": "приёмка контролируемой трансмутации",
+  "description_en": "{display} is a {role} in the contained ProjectE branch. Its use is legal only when the input was produced through the staged economy, the output is explicitly permitted and the EMC loop cannot create gated matter, unique drops or progression permissions.",
+  "description_ru": "{display} — {role} в контролируемой ветви ProjectE. Его применение допустимо только когда вход произведён этапной экономикой, выход явно разрешён, а цикл EMC не создаёт закрытую материю, уникальный лут или прогрессионные допуски.",
+  "acceptance_en": "Acceptance: verify {focus}; record the EMC balance before and after a bounded cycle, test one blocked or blacklisted output, confirm storage and transfer limits, recover from a full-output or restart state and prove that quest rewards, recursive conversion, simulation, trade and duplication cannot produce net gated value.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; зафиксируйте баланс EMC до и после ограниченного цикла, испытайте один заблокированный выход, подтвердите пределы хранения и передачи, восстановитесь после полного выхода или перезапуска и докажите отсутствие чистой закрытой ценности через награды, рекурсивную конверсию, симуляцию, торговлю и копирование.",
+  "categories": [
+    {
+      "tokens": ["philosophers_stone", "transmutation_table", "transmutation_tablet", "knowledge"],
+      "role_en": "transmutation permission or knowledge interface",
+      "role_ru": "допуск к трансмутации или интерфейс знаний",
+      "focus_en": "stage permission, learned-item policy, explicit EMC blacklist, personal versus shared knowledge, no-value outputs, restart persistence and inability to learn gated milestones",
+      "focus_ru": "этапный допуск, правила изученных предметов, явный чёрный список EMC, личные и общие знания, выходы без стоимости, сохранение после перезапуска и запрет изучения этапных вех"
+    },
+    {
+      "tokens": ["collector", "relay", "condenser", "emc_link", "power_flower"],
+      "role_en": "EMC generation, transfer or condensation infrastructure",
+      "role_ru": "инфраструктура генерации, передачи или конденсации EMC",
+      "focus_en": "generation rate, transfer bottleneck, target whitelist, bounded buffer, idle shutdown, full-output behavior, chunk-loading policy and measured net EMC without recursive fuel feedback",
+      "focus_ru": "скорость генерации, узкое место передачи, белый список цели, ограниченный буфер, отключение в простое, поведение при полном выходе, загрузку чанка и измеренный чистый EMC без рекурсивной обратной связи топлива"
+    },
+    {
+      "tokens": ["dark_matter", "red_matter", "covalence", "fuel", "aeternalis", "klein_star", "final_star", "star"],
+      "role_en": "tiered matter, fuel or EMC storage component",
+      "role_ru": "этапная материя, топливо или накопитель EMC",
+      "focus_en": "material ancestry, actual staged recipe, storage capacity, charge and discharge route, loss behavior, prohibition on reward refunds and use only in authorized higher-tier assemblies",
+      "focus_ru": "происхождение материалов, реальный этапный рецепт, ёмкость, путь заряда и разряда, поведение при потере, запрет возврата наградой и применение только в разрешённых высокоуровневых сборках"
+    },
+    {
+      "tokens": ["alchemical_chest", "alchemy_bag", "talisman", "interdiction", "furnace", "repair"],
+      "role_en": "alchemical utility, storage or processing device",
+      "role_ru": "алхимическая утилита, хранилище или перерабатывающее устройство",
+      "focus_en": "inventory scope, processing or repair rate, fuel and EMC cost, protected-item handling, overflow, shared-access policy and confirmation that passive utility cannot duplicate durability or contents",
+      "focus_ru": "область инвентаря, скорость переработки или ремонта, стоимость топлива и EMC, обработку защищённых предметов, переполнение, общий доступ и отсутствие копирования прочности или содержимого"
+    },
+    {
+      "tokens": ["infinite", "sun", "final", "omega", "magnum", "arcana"],
+      "role_en": "late-game ProjectExpansion convergence component",
+      "role_ru": "поздний компонент схождения ProjectExpansion",
+      "focus_en": "required prior-stage assemblies, irreversible cost, authoritative recipe, EMC-disabled status, unique-output policy and confirmation that the component cannot be condensed or learned before its assigned stage",
+      "focus_ru": "необходимые сборки прошлых этапов, необратимую стоимость, авторитетный рецепт, отключённый EMC, правила уникального выхода и запрет конденсации или изучения до назначенного этапа"
+    }
+  ],
+  "default": {
+    "role_en": "specialized contained-transmutation component",
+    "role_ru": "специализированный компонент контролируемой трансмутации",
+    "focus_en": "legal source, EMC value or disabled status, input-output boundary, buffer, stage permission, recovery and absence of positive recursive conversion",
+    "focus_ru": "честный источник, значение EMC или его отключение, границу входа и выхода, буфер, этапный допуск, восстановление и отсутствие положительной рекурсивной конвертации"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod prerequisite for contained transmutation",
+    "role_ru": "межмодовая предпосылка контролируемой трансмутации",
+    "focus_en": "its staged production route, whether it has EMC, why it must be consumed, blacklist coverage and proof that ProjectE cannot replace its source mod",
+    "focus_ru": "его этапный производственный маршрут, наличие EMC, причину расходования, покрытие чёрным списком и доказательство, что ProjectE не заменяет исходный мод"
+  },
+  "checkpoint": {
+    "role_en": "ProjectE containment-design checkpoint",
+    "role_ru": "контрольная точка проектирования изоляции ProjectE",
+    "focus_en": "authorized inputs and outputs, EMC accounting, blacklist coverage, learned knowledge, buffer ceilings, shutdown, restart recovery and evidence that no gated value is generated",
+    "focus_ru": "разрешённые входы и выходы, учёт EMC, покрытие чёрным списком, изученные знания, пределы буферов, отключение, восстановление после перезапуска и доказательство отсутствия закрытой ценности"
+  }
+}

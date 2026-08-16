@@ -1,0 +1,145 @@
+{
+  "slug": "projecte",
+  "lessons": [
+    {
+      "slug": "emc",
+      "icon": "projecte:philosophers_stone",
+      "title_en": "EMC Is an Accounting System",
+      "title_ru": "EMC как система учёта",
+      "desc_en": [
+        "EMC converts approved matter values, so every assigned value is a balance decision. A positive value on a progression gate becomes a direct bypass.",
+        "Treat the custom EMC blacklist as authoritative, review new modded values and never assume an expensive recipe remains meaningful after transmutation."
+      ],
+      "desc_ru": [
+        "EMC преобразует разрешённые значения материи, поэтому каждое число является решением баланса. Положительное значение закрытого предмета создаёт прямой обход.",
+        "Считайте чёрный список авторитетным, проверяйте новые значения модов и не предполагайте, что дорогой рецепт остаётся значимым после трансмутации."
+      ]
+    },
+    {
+      "slug": "stone",
+      "icon": "projecte:philosophers_stone",
+      "title_en": "Philosopher's Stone Permission",
+      "title_ru": "Допуск философского камня",
+      "desc_en": [
+        "The Philosopher's Stone is both a crafting catalyst and an access key. Granting it early unlocks many conversions beyond its own recipe.",
+        "Require draconic and dimensional standards, return it as a container item where appropriate and audit every recipe that accepts it."
+      ],
+      "desc_ru": [
+        "Философский камень является катализатором и ключом доступа. Ранняя выдача открывает множество конверсий помимо собственного рецепта.",
+        "Требуйте драконический и пространственный стандарты, возвращайте его как контейнер при необходимости и проверяйте каждый использующий рецепт."
+      ]
+    },
+    {
+      "slug": "table",
+      "icon": "projecte:transmutation_table",
+      "title_en": "Transmutation Table Access",
+      "title_ru": "Доступ к столу трансмутации",
+      "desc_en": [
+        "The table turns learned items into persistent conversion access. Its recipe and EMC value must not bypass contained transmutation.",
+        "Gate it behind the transmutation matrix, set EMC to zero and verify quest rewards, loot and alternate tables do not provide equivalent access."
+      ],
+      "desc_ru": [
+        "Стол превращает изученные предметы в постоянный доступ к конверсии. Его рецепт и EMC не должны обходить контролируемую трансмутацию.",
+        "Закрывайте его матрицей, задавайте EMC=0 и проверяйте награды, лут и альтернативные столы на эквивалентный доступ."
+      ]
+    },
+    {
+      "slug": "collectors",
+      "icon": "projecte:collector_mk1",
+      "title_en": "Collectors and Passive EMC",
+      "title_ru": "Коллекторы и пассивный EMC",
+      "desc_en": [
+        "Energy collectors generate EMC passively and can turn elapsed time into unrestricted matter. Scaling them changes the entire resource economy.",
+        "Gate tiers, measure EMC per hour, prevent early self-replication and compare passive generation with active factories before approving arrays."
+      ],
+      "desc_ru": [
+        "Коллекторы пассивно создают EMC и превращают время в неограниченную материю. Масштабирование меняет всю экономику ресурсов.",
+        "Закрывайте уровни, измеряйте EMC в час, исключайте раннее самовоспроизведение и сравнивайте пассивную генерацию с фабриками до крупных массивов."
+      ]
+    },
+    {
+      "slug": "relays",
+      "icon": "projecte:relay_mk1",
+      "title_en": "Relays and EMC Throughput",
+      "title_ru": "Реле и пропускная способность EMC",
+      "desc_en": [
+        "Relays move and amplify collector networks. Their tier determines whether passive generation can feed condensers faster than intended.",
+        "Design bounded networks, expose throughput, avoid hidden recursive layouts and keep high relay tiers behind the same matter stage as their outputs."
+      ],
+      "desc_ru": [
+        "Реле передают и усиливают сети сбора. Их уровень определяет скорость питания конденсаторов.",
+        "Стройте ограниченные сети, показывайте поток, избегайте скрытых рекурсий и держите старшие реле на том же уровне материи, что и их выходы."
+      ]
+    },
+    {
+      "slug": "condensers",
+      "icon": "projecte:condenser_mk1",
+      "title_en": "Condensers and Target Control",
+      "title_ru": "Конденсаторы и управление целью",
+      "desc_en": [
+        "Condensers transform EMC into a selected item. A wrong target or unrestricted input can consume strategic resources or manufacture gated outputs.",
+        "Whitelist targets by stage, protect catalyst slots, cap input and verify no blacklist item can be selected or indirectly produced."
+      ],
+      "desc_ru": [
+        "Конденсаторы превращают EMC в выбранный предмет. Неверная цель или бесконтрольный вход расходуют стратегические ресурсы или создают закрытые выходы.",
+        "Разрешайте цели по этапам, защищайте слоты, ограничивайте вход и проверяйте невозможность выбора или косвенного выпуска предметов чёрного списка."
+      ]
+    },
+    {
+      "slug": "matter",
+      "icon": "projecte:dark_matter",
+      "title_en": "Matter Tiers and Infrastructure Cost",
+      "title_ru": "Уровни материи и стоимость инфраструктуры",
+      "desc_en": [
+        "Dark and red matter should represent accumulated late infrastructure, not a lucky loot reward or trivial condenser target.",
+        "Require contained EMC systems, cross-mod components and documented production capacity while keeping the process automatable after mastery."
+      ],
+      "desc_ru": [
+        "Тёмная и красная материя должны отражать накопленную позднюю инфраструктуру, а не случайную награду или простую цель конденсатора.",
+        "Требуйте контролируемые EMC-системы, межмодовые компоненты и доказанную мощность, сохраняя автоматизацию после освоения."
+      ]
+    },
+    {
+      "slug": "stars",
+      "icon": "projecte:klein_star_ein",
+      "title_en": "Klein Stars and Portable Reserves",
+      "title_ru": "Звёзды Кляйна и переносной резерв",
+      "desc_en": [
+        "Klein Stars move stored EMC into tools and machines. Portable reserves can bypass intended energy or matter limitations when charged too early.",
+        "Gate star tiers, separate emergency and production reserves and audit machines that charge or drain them for unintended loops."
+      ],
+      "desc_ru": [
+        "Звёзды Кляйна переносят EMC в инструменты и машины. Переносной резерв обходит ограничения энергии или материи при раннем доступе.",
+        "Закрывайте уровни, разделяйте аварийный и производственный запас и проверяйте машины зарядки и разрядки на циклы."
+      ]
+    },
+    {
+      "slug": "automation",
+      "icon": "projecte:condenser_mk2",
+      "title_en": "Automation Limits and No-Free Loops",
+      "title_ru": "Ограничения автоматизации и запрет бесплатных циклов",
+      "desc_en": [
+        "ProjectE can interact with farms, bees, seeds and machine recipes whose output EMC exceeds input. Such loops convert configuration mistakes into infinite matter.",
+        "Model every automated conversion, blacklist strategic outputs, include energy and catalysts and reject any positive closed loop without a deliberate sink."
+      ],
+      "desc_ru": [
+        "ProjectE взаимодействует с фермами, пчёлами, семенами и машинами, где EMC выхода может превышать вход. Ошибка конфигурации превращается в бесконечную материю.",
+        "Моделируйте конверсии, закрывайте стратегические выходы, учитывайте энергию и катализаторы и запрещайте положительный замкнутый цикл без поглотителя."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:emc_containment_core",
+      "title_en": "Project: Audited Transmutation Cell",
+      "title_ru": "Проект: проверенная ячейка трансмутации",
+      "desc_en": [
+        "Build a contained ProjectE cell with explicit EMC sources, bounded storage, approved targets and no connection to progression-gated items.",
+        "The project passes after an EMC input-output audit, zero-value verification for every gate, loss-safe shutdown and proof that no closed loop creates net matter."
+      ],
+      "desc_ru": [
+        "Постройте контролируемую ячейку ProjectE с явными источниками EMC, ограниченным хранением, разрешёнными целями и без доступа к закрытым предметам.",
+        "Проект принят после аудита входа и выхода, проверки нулевых значений, безопасной остановки и доказательства отсутствия цикла с чистым приростом материи."
+      ]
+    }
+  ]
+}

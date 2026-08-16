@@ -78,160 +78,94 @@
 	quests: [
 		{
 			id: "6EEAF4D9F3BF6414"
-			rewards: [
-				{
-					id: "145A96854F6A933A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "4346D91113A5CFC1"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "1B389F13C2471981"
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
-			}]
+			}
+			{
+				id: "D1989092D3FAF4D0"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			id: "40F1315207ADEB80"
-			rewards: [
-				{
-					id: "6A13C6802F83B8BB"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "2C1AE0846D7EEDF2"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "7339D95CBBEF6CC3"
 				item: { count: 1, id: "buildinggadgets2:gadget_cut_paste" }
 				type: "item"
-			}]
+			}
+			{
+				id: "00834F6C78D6ABA0"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			id: "2B29DDBADF11195E"
-			rewards: [
-				{
-					id: "45C1C23595B62D7F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "72941EE2E3C92BBD"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "1CAACF358D85EFC0"
 				item: { count: 1, id: "charginggadgets:charging_station" }
 				type: "item"
-			}]
+			}
+			{
+				id: "AAAE42486D11CF82"
+				type: "checkmark"
+			}
+			]
 			x: -5.5d
 			y: 1.5d
 		}
 		{
 			id: "2A2E1C7C34C9A4AA"
-			rewards: [
-				{
-					id: "0DB2E989FAE2E811"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "6285EA432F5832CF"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "37C0C65C55CAF995"
 				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
 				type: "item"
-			}]
+			}
+			{
+				id: "CA00C56B997C2D99"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			id: "5855D8361A2C6623"
-			rewards: [
-				{
-					id: "77F406C80760B99B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "5F67059C41199EE3"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			size: 1.0d
 			tasks: [{
 				id: "46B92B0247C5E62A"
 				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
 				type: "item"
-			}]
+			}
+			{
+				id: "B5447159F73D7B9E"
+				type: "checkmark"
+			}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			hide_dependent_lines: true
 			id: "6DDA86A3B4C0ACC1"
-			rewards: [
-				{
-					id: "2E6AAE7D49131473"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "16127BEDBFA8F8F4"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			size: 1.0d
 			tasks: [{
 				id: "2DE3EFD4F2F7C1C9"
 				item: { count: 1, id: "mininggadgets:upgrade_empty" }
 				type: "item"
-			}]
+			}
+			{
+				id: "86BDA7483615B71E"
+				type: "checkmark"
+			}
+			]
 			x: 5.800000000000001d
 			y: -1.7000000000000002d
 		}
@@ -240,49 +174,22 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "68107A111627BD77"
-			rewards: [
-				{
-					id: "55731751B7EED6A2"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "4581A3CA3C41E10C"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "14A214A6FC56CC22"
 				item: { count: 1, id: "mininggadgets:modificationtable" }
 				type: "item"
-			}]
+			}
+			{
+				id: "475DE6CFDABF06E8"
+				type: "checkmark"
+			}
+			]
 			x: 4.0d
 			y: 0.09999999999999964d
 		}
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "234801C47F9B130A"
-			rewards: [
-				{
-					id: "1CAB2E7D67BA63D7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "3FB370DFDE593AAF"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "6E5D05BB1B6849F6"
@@ -299,6 +206,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_size_3" }
 					type: "item"
 				}
+			
+			{
+				id: "B040CEAFEBCC05E9"
+				type: "checkmark"
+			}
 			]
 			x: 4.0d
 			y: -2.0d
@@ -306,22 +218,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "44B610EE888A88A5"
-			rewards: [
-				{
-					id: "180AEF9327F4538B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "51E886F4422803EA"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "0B46E4CCBF7ACB44"
@@ -333,6 +229,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_freezing" }
 					type: "item"
 				}
+			
+			{
+				id: "3A5BF17B0A8427A4"
+				type: "checkmark"
+			}
 			]
 			x: 5.5d
 			y: 1.5999999999999996d
@@ -340,22 +241,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "3CDFF805003571A9"
-			rewards: [
-				{
-					id: "270785FFF5304B58"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "26F607B4FFFAE588"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "1FA9F4B02EDB4FE5"
@@ -382,6 +267,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_efficiency_5" }
 					type: "item"
 				}
+			
+			{
+				id: "65CBA215F0679E38"
+				type: "checkmark"
+			}
 			]
 			x: 2.5d
 			y: 1.5999999999999996d
@@ -389,22 +279,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "4F61F8FA290B2B6D"
-			rewards: [
-				{
-					id: "473E424EE3D5245C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "166070D221FB3920"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "71D0ABD225719724"
@@ -421,6 +295,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_battery_3" }
 					type: "item"
 				}
+			
+			{
+				id: "9B07E7953C0B7963"
+				type: "checkmark"
+			}
 			]
 			x: 4.0d
 			y: 2.0999999999999996d
@@ -428,22 +307,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "0C907D9AD9A6823A"
-			rewards: [
-				{
-					id: "415FC31D708C69C6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "756586EB5D07857E"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "6E03142D85841A6F"
@@ -460,6 +323,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_magnet" }
 					type: "item"
 				}
+			
+			{
+				id: "186ABE3F5BEB7ECC"
+				type: "checkmark"
+			}
 			]
 			x: 6.0d
 			y: 0.09999999999999964d
@@ -467,22 +335,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "0295E32828863704"
-			rewards: [
-				{
-					id: "38A3162569E97A2E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "77024F559575D27D"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "708E3151970A5A78"
@@ -499,6 +351,11 @@
 					item: { count: 1, id: "mininggadgets:upgrade_fortune_3" }
 					type: "item"
 				}
+			
+			{
+				id: "A58DCD70B1D14F28"
+				type: "checkmark"
+			}
 			]
 			x: 2.5d
 			y: -1.4d
@@ -506,22 +363,6 @@
 		{
 			dependencies: ["68107A111627BD77"]
 			id: "7402CBB0750E58DB"
-			rewards: [
-				{
-					id: "1D4A83B569598504"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "64F1C1F989E41BFE"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "07DD1835CE347D7A"
@@ -538,33 +379,27 @@
 					item: { count: 1, id: "mininggadgets:upgrade_range_3" }
 					type: "item"
 				}
+			
+			{
+				id: "4FA23CF5C8E726F9"
+				type: "checkmark"
+			}
 			]
 			x: 2.0d
 			y: 0.09999999999999964d
 		}
 		{
 			id: "4F00BE972EFE7FBE"
-			rewards: [
-				{
-					id: "7E571FB0984291E6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "6D54B322748FA18E"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "678363671F67D4BF"
 				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
 				type: "item"
-			}]
+			}
+			{
+				id: "661ED003A6769182"
+				type: "checkmark"
+			}
+			]
 			x: -2.0d
 			y: 0.0d
 		}

@@ -1,0 +1,110 @@
+{
+  "chapter_filename": "occultism",
+  "chapter_id": "096E6668DBBFC3C5",
+  "chapter_title_en": "Occultism — Ritual, Spirit and Dimensional Logistics",
+  "chapter_title_ru": "Occultism — ритуалы, духи и пространственная логистика",
+  "report_filename": "OCCULTISM_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Occultism Catalogue Quality Report",
+  "report_intro": "Every Occultism node must explain ritual layout, spirit contract, dimensional storage, resource extraction or equipment capability and must not provide progression materials through quest rewards.",
+  "expected_quests": 34,
+  "minimum_description": 190,
+  "primary_namespace": "occultism",
+  "acceptance_namespace": "occultism_catalog_acceptance",
+  "checkpoint_name": "Spirit Engineering Checkpoint",
+  "title_suffix_en": "Ritual Acceptance",
+  "title_suffix_ru": "ритуальная приёмка",
+  "description_en": "{display} is a {role} in Occultism. Its value comes from a correct ritual, a bounded spirit contract or a controlled dimensional system rather than from merely possessing the item.",
+  "description_ru": "{display} — {role} в Occultism. Его ценность определяется правильным ритуалом, ограниченным контрактом духа или управляемой пространственной системой, а не одним владением предметом.",
+  "acceptance_en": "Acceptance: verify {focus}; perform a representative ritual, spirit task or storage cycle, record ingredients, duration, capacity and recovery, and close quest-reward, trade, loot, EMC, miner, possession and alternate-ritual shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; выполните типовой ритуал, задачу духа или цикл хранения, запишите ингредиенты, длительность, ёмкость и восстановление и закройте обходы через награды, торговлю, лут, EMC, шахтёров, вселение и альтернативные ритуалы.",
+  "categories": [
+    {
+      "tokens": ["dictionary_of_spirits", "book_of_binding", "bound_book"],
+      "role_en": "ritual knowledge or spirit-binding document",
+      "role_ru": "документ ритуальных знаний или связывания духа",
+      "focus_en": "tier and spirit type, binding ingredients, data-bearing state, ownership, replacement after loss and prevention of pre-bound reward copies",
+      "focus_ru": "уровень и тип духа, ингредиенты связывания, состояние с данными, владение, замену после потери и запрет предварительно связанных наград"
+    },
+    {
+      "tokens": ["chalk", "golden_sacrificial_bowl", "sacrificial_bowl", "ritual_dummy", "ritual_satchel"],
+      "role_en": "ritual layout and execution component",
+      "role_ru": "компонент разметки и выполнения ритуала",
+      "focus_en": "pentacle pattern, chalk tier, bowl placement, central activation, consumed ingredients, chunk boundaries and safe cancellation",
+      "focus_ru": "схему пентакля, уровень мела, размещение чаш, центральную активацию, расходуемые ингредиенты, границы чанка и безопасную отмену"
+    },
+    {
+      "tokens": ["pentacle", "ritual"],
+      "role_en": "ritual pattern or invocation",
+      "role_ru": "ритуальный узор или призыв",
+      "focus_en": "required multiblock, spirit tier, activation item, duration, failure state, world effects and recovery of reusable tools",
+      "focus_ru": "требуемую структуру, уровень духа, предмет активации, длительность, состояние отказа, влияние на мир и возврат многоразовых инструментов"
+    },
+    {
+      "tokens": ["dimensional_mineshaft", "miner", "mining"],
+      "role_en": "spirit-operated resource extraction system",
+      "role_ru": "система добычи ресурсов духом",
+      "focus_en": "miner tier, valid ore table, dimensional access, output rate, storage capacity, repair or replacement and exclusion of stage-gated resources",
+      "focus_ru": "уровень шахтёра, допустимую таблицу руд, пространственный доступ, скорость выхода, ёмкость хранения, ремонт или замену и запрет этапных ресурсов"
+    },
+    {
+      "tokens": ["storage_controller", "storage_remote", "stable_wormhole", "wormhole", "dimensional_storage", "storage_actuator"],
+      "role_en": "dimensional storage and remote-access component",
+      "role_ru": "компонент пространственного хранения и удалённого доступа",
+      "focus_en": "network identity, capacity tier, remote range or dimension rules, component preservation, access ownership and recovery after link loss",
+      "focus_ru": "идентичность сети, уровень ёмкости, правила радиуса или измерения, сохранение компонентов, владение доступом и восстановление после потери связи"
+    },
+    {
+      "tokens": ["iesnium", "spirit_attuned_gem", "otherstone", "otherworld", "otherglass"],
+      "role_en": "Otherworld material or spirit-attuned resource",
+      "role_ru": "материал Иного мира или настроенный на духов ресурс",
+      "focus_en": "legal revelation method, mining or transformation route, tool requirement, batch yield and prevention of early acquisition through EMC or generic miners",
+      "focus_ru": "честный способ проявления, путь добычи или преобразования, требуемый инструмент, выход партии и запрет раннего получения через EMC или обычных шахтёров"
+    },
+    {
+      "tokens": ["familiar", "greedy_familiar", "possessed", "afrit", "djinni", "foliot", "marid"],
+      "role_en": "bound spirit, familiar or possession contract",
+      "role_ru": "контракт связанного духа, фамильяра или вселения",
+      "focus_en": "spirit tier, summon and bind conditions, owner, working area, valid targets, duration, dismissal and recovery from an escaped or unloaded entity",
+      "focus_ru": "уровень духа, условия призыва и связывания, владельца, рабочую область, допустимые цели, длительность, отпускание и восстановление сбежавшей или выгруженной сущности"
+    },
+    {
+      "tokens": ["crusher", "smelter", "transport", "lumberjack", "cleaner", "trader"],
+      "role_en": "spirit-operated automation task",
+      "role_ru": "автоматическая задача, выполняемая духом",
+      "focus_en": "task assignment, input and output ownership, processing ratio, valid targets, bounded work area, interruption and spirit replacement cost",
+      "focus_ru": "назначение задачи, владение входами и выходами, соотношение обработки, допустимые цели, ограниченную область, прерывание и стоимость замены духа"
+    },
+    {
+      "tokens": ["soul_gem", "magic_lamp", "infused_lenses", "divination_rod"],
+      "role_en": "spirit utility or perception tool",
+      "role_ru": "духовный инструмент утилиты или восприятия",
+      "focus_en": "stored entity or target data, charge or durability, valid use cases, replacement, component preservation and prevention of capability duplication",
+      "focus_ru": "данные сущности или цели, заряд или прочность, допустимые применения, замену, сохранение компонентов и запрет копирования возможностей"
+    },
+    {
+      "tokens": ["eldritch", "celestial", "wild_hunt", "satchel", "ring", "robe", "crown"],
+      "role_en": "ritual or spirit-derived equipment capability",
+      "role_ru": "ритуальная или духовная возможность снаряжения",
+      "focus_en": "exact capability, slot, spirit requirement, charge, durability, repair, interaction with accessories and stage-safe replacement",
+      "focus_ru": "точную возможность, слот, требование духа, заряд, прочность, ремонт, взаимодействие с аксессуарами и безопасную замену"
+    }
+  ],
+  "default": {
+    "role_en": "specialized Occultism ritual or spirit component",
+    "role_ru": "специализированный ритуальный или духовный компонент Occultism",
+    "focus_en": "its ritual, spirit, storage, extraction or equipment contract, legal ingredient sources, failure state and every alternate acquisition route",
+    "focus_ru": "его ритуальный, духовный, складской, добывающий или экипировочный контракт, честные источники ингредиентов, состояние отказа и каждый альтернативный путь получения"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod ritual requirement",
+    "role_ru": "межмодовое ритуальное требование",
+    "focus_en": "the supplying mod's stage, authoritative production route, data or container state, reusable behaviour and absence of a cheaper equivalent",
+    "focus_ru": "этап исходного мода, авторитетный производственный путь, состояние данных или контейнера, возврат и отсутствие более дешёвого эквивалента"
+  },
+  "checkpoint": {
+    "role_en": "ritual and spirit-system design checkpoint",
+    "role_ru": "контрольная точка проектирования ритуалов и духов",
+    "focus_en": "documented pentacle, ingredient budget, spirit ownership, work boundary, storage or output capacity, failure recovery and restart procedure",
+    "focus_ru": "задокументированный пентакль, бюджет ингредиентов, владение духом, рабочую границу, ёмкость хранения или выхода, восстановление отказа и перезапуск"
+  }
+}

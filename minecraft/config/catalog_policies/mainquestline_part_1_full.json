@@ -1,0 +1,90 @@
+{
+  "chapter_filename": "mainquestline_part_1",
+  "chapter_id": "732824E03978A934",
+  "chapter_title_en": "Survival Foundations — Tools, Resources and Safe Expansion",
+  "chapter_title_ru": "Основы выживания — инструменты, ресурсы и безопасное развитие",
+  "report_filename": "MAINQUESTLINE_PART_1_CATALOG_QUALITY_REPORT.md",
+  "report_title": "Survival Foundations Catalogue Quality Report",
+  "report_intro": "The old opening chapter must teach a recoverable survival workshop and gradual resource progression instead of paying the player for ordinary tools, ores and dimensions.",
+  "expected_quests": 74,
+  "minimum_description": 190,
+  "primary_namespace": "minecraft",
+  "primary_namespace_prefixes": ["minecraft", "ironfurnaces", "farmersdelight", "sophisticated", "constructionwand", "buildinggadgets", "curios", "biomesoplenty", "alltheores", "reliquary", "kubejs"],
+  "acceptance_namespace": "survival_foundations_acceptance",
+  "checkpoint_name": "Survival Workshop Checkpoint",
+  "title_suffix_en": "Foundation Acceptance",
+  "title_suffix_ru": "приёмка основы",
+  "description_en": "{display} is a {role} in the survival-foundations route. It should establish a safe, repeatable capability and prepare the next production step—not act as a reason to distribute ordinary materials or XP from the quest book.",
+  "description_ru": "{display} — {role} ветви основ выживания. Он должен создавать безопасную повторяемую возможность и готовить следующий производственный шаг, а не служить поводом выдавать обычные материалы или опыт из квестовой книги.",
+  "acceptance_en": "Acceptance: verify {focus}; demonstrate a representative use, record the input, durability or reserve and output, test one loss or blocked state, keep an ordinary replacement route and remove item, XP, loot and random-reward shortcuts.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; покажите типовое применение, запишите вход, прочность или резерв и выход, испытайте потерю или блокировку, сохраните обычный путь замены и уберите предметные, XP-, лутовые и случайные награды.",
+  "categories": [
+    {
+      "tokens": ["crafting_table", "workbench", "crafting", "stick", "plank", "log"],
+      "role_en": "manual workshop or basic fabrication milestone",
+      "role_ru": "этап ручной мастерской или базового изготовления",
+      "focus_en": "protected work area, legal wood supply, tool and recipe organization, spare crafting access, compact storage and recovery after losing the primary workstation",
+      "focus_ru": "защищённое рабочее место, честный запас древесины, организацию инструментов и рецептов, резервный доступ к крафту, компактное хранение и восстановление после потери основного стола"
+    },
+    {
+      "tokens": ["pickaxe", "axe", "shovel", "hoe", "hammer", "wrench", "sword", "shield", "bow", "armor", "helmet", "chestplate", "leggings", "boots"],
+      "role_en": "tool, weapon or protective-equipment progression step",
+      "role_ru": "этап инструментов, оружия или защитного снаряжения",
+      "focus_en": "material ancestry, valid use case, durability, repair and replacement, spare policy, comparison with the previous tier and avoidance of skipping a gated combat or mining capability",
+      "focus_ru": "происхождение материала, правильное применение, прочность, ремонт и замену, запас, сравнение с предыдущим уровнем и запрет пропуска закрытой боевой или добывающей возможности"
+    },
+    {
+      "tokens": ["furnace", "smoker", "blast_furnace", "kiln", "smelt", "ore", "raw_", "ingot", "coal", "charcoal"],
+      "role_en": "early heating, smelting or mineral-processing capability",
+      "role_ru": "ранняя возможность нагрева, плавки или переработки минералов",
+      "focus_en": "fuel source, legal ore acquisition, exact yield, furnace occupancy, input and output buffers, heat-up or idle loss and shutdown when the output inventory is full",
+      "focus_ru": "источник топлива, честную добычу руды, точный выход, занятость печи, входные и выходные буферы, потери разогрева или простоя и остановку при полном выходе"
+    },
+    {
+      "tokens": ["chest", "barrel", "drawer", "backpack", "shulker", "bundle", "crate", "storage"],
+      "role_en": "early storage, inventory or transport capability",
+      "role_ru": "ранняя возможность хранения, инвентаря или перевозки",
+      "focus_en": "item categories, finite capacity, labelled ownership, reserve and overflow, protected valuables, transport risk and recovery after one container is lost or broken",
+      "focus_ru": "категории предметов, конечную ёмкость, подписанное владение, резерв и переполнение, защиту ценностей, риск перевозки и восстановление после потери или разрушения контейнера"
+    },
+    {
+      "tokens": ["bread", "beef", "food", "wheat", "seed", "farm", "crop", "bucket", "water", "bed"],
+      "role_en": "food, farming, water or shelter milestone",
+      "role_ru": "этап еды, земледелия, воды или укрытия",
+      "focus_en": "renewable input, minimum food and water reserve, crop or cooking cycle, waste and byproduct handling, emergency ration and recovery after one harvest or shelter failure",
+      "focus_ru": "возобновляемый вход, минимальный запас еды и воды, цикл выращивания или готовки, отходы и побочные продукты, аварийный рацион и восстановление после неудачного урожая или потери укрытия"
+    },
+    {
+      "tokens": ["redstone", "repeater", "comparator", "piston", "observer", "lever", "button", "torch"],
+      "role_en": "early signal, sensing or simple automation component",
+      "role_ru": "ранний компонент сигнала, датчика или простой автоматизации",
+      "focus_en": "observed state, signal direction and length, safe default, manual override, visible failure, bounded output and one practical automation that saves repetition without creating a loop",
+      "focus_ru": "наблюдаемое состояние, направление и длину сигнала, безопасное значение по умолчанию, ручное управление, видимый отказ, ограниченный выход и одну полезную автоматизацию без циклов"
+    },
+    {
+      "tokens": ["portal", "obsidian", "ender", "nether", "dimension", "compass", "map", "waystone"],
+      "role_en": "exploration, navigation or dimension-access milestone",
+      "role_ru": "этап исследования, навигации или доступа в измерение",
+      "focus_en": "equipment and cargo manifest, destination permission, coordinates, retreat reserve, return path, protected first-acquisition resources and recovery after an interrupted trip",
+      "focus_ru": "снаряжение и грузовой манифест, допуск назначения, координаты, резерв отступления, обратный путь, защиту первых ресурсов и восстановление после прерванной поездки"
+    }
+  ],
+  "default": {
+    "role_en": "specialized early-survival capability",
+    "role_ru": "специализированная ранняя возможность выживания",
+    "focus_en": "legal acquisition, exact practical purpose, ordinary replacement, repeatable use, finite reserve, safe failure and how the capability prepares a later production system",
+    "focus_ru": "честное получение, точное практическое назначение, обычную замену, повторяемое применение, конечный резерв, безопасный отказ и подготовку будущей производственной системы"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod survival or workshop support component",
+    "role_ru": "межмодовый компонент поддержки выживания или мастерской",
+    "focus_en": "which current-stage need it solves, its material ancestry, repair or refill route, limitations and why it does not grant a later technology or resource early",
+    "focus_ru": "какую потребность текущего этапа он решает, происхождение материала, путь ремонта или заправки, ограничения и отсутствие ранней технологии или ресурса будущего этапа"
+  },
+  "checkpoint": {
+    "role_en": "survival-foundations design checkpoint",
+    "role_ru": "контрольная точка проектирования основ выживания",
+    "focus_en": "shelter, tools, food and water, storage, legal ores, heating, navigation, emergency reserve and recovery after losing one ordinary workstation",
+    "focus_ru": "укрытие, инструменты, еду и воду, хранение, честные руды, нагрев, навигацию, аварийный резерв и восстановление после потери одной обычной рабочей станции"
+  }
+}

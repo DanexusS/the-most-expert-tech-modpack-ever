@@ -1,0 +1,90 @@
+{
+  "chapter_filename": "minecolonies",
+  "chapter_id": "0E21FB2EFB41A583",
+  "chapter_title_en": "MineColonies — Sustainable Settlement Management",
+  "chapter_title_ru": "MineColonies — управление устойчивым поселением",
+  "report_filename": "MINECOLONIES_CATALOG_QUALITY_REPORT.md",
+  "report_title": "MineColonies Catalogue Quality Report",
+  "report_intro": "MineColonies quests must teach settlement planning, staffing, logistics, food, research, defence and recovery instead of paying the player for placing one building or completing one advancement.",
+  "expected_quests": 65,
+  "minimum_description": 200,
+  "primary_namespace": "minecolonies",
+  "primary_namespace_prefixes": ["minecolonies", "structurize", "domum_ornamentum"],
+  "acceptance_namespace": "minecolonies_catalog_acceptance",
+  "checkpoint_name": "Settlement Management Checkpoint",
+  "title_suffix_en": "Colony Acceptance",
+  "title_suffix_ru": "приёмка колонии",
+  "description_en": "{display} is a {role} in the MineColonies settlement route. The lesson is a staffed, supplied and recoverable civic service with measurable demand and output—not a reward for placing one hut or triggering an advancement.",
+  "description_ru": "{display} — {role} ветви поселения MineColonies. Смысл задания — укомплектованная, снабжаемая и восстанавливаемая служба с измеримым спросом и результатом, а не награда за одну хижину или достижение.",
+  "acceptance_en": "Acceptance: verify {focus}; staff and supply the service, run a representative work cycle, record requests, delivery delay and output, test worker absence or blocked storage, recover without commands and remove material, XP, loot and advancement-reward incentives.",
+  "acceptance_ru": "Приёмка: проверьте {focus}; назначьте работника и снабжение, выполните типовой рабочий цикл, запишите запросы, задержку доставки и выход, испытайте отсутствие работника или полное хранилище, восстановитесь без команд и уберите материальные, XP-, лутовые и достиженческие награды.",
+  "categories": [
+    {
+      "tokens": ["builder", "build_tool", "scepter", "shape_tool", "scan_tool", "construction", "decoration_controller"],
+      "role_en": "settlement planning, construction or layout tool",
+      "role_ru": "инструмент планирования, строительства или разметки поселения",
+      "focus_en": "claim boundary, build order, terrain and access, material manifest, builder delivery path, safe cancellation and recovery after an interrupted construction",
+      "focus_ru": "границу владения, порядок строительства, рельеф и доступ, ведомость материалов, маршрут снабжения строителя, безопасную отмену и восстановление прерванной стройки"
+    },
+    {
+      "tokens": ["town_hall", "citizen", "house", "residence", "tavern", "university", "school", "library"],
+      "role_en": "population, governance, education or housing service",
+      "role_ru": "служба населения, управления, образования или жилья",
+      "focus_en": "population capacity, worker or student assignment, happiness and needs, access paths, operating prerequisites, upgrade effect and continuity during one vacancy",
+      "focus_ru": "вместимость населения, назначение работника или ученика, счастье и потребности, пути доступа, предпосылки работы, эффект улучшения и непрерывность при одной вакансии"
+    },
+    {
+      "tokens": ["warehouse", "courier", "postbox", "stash", "rack", "request", "delivery", "compost"],
+      "role_en": "colony storage, request or delivery service",
+      "role_ru": "служба хранения, запросов или доставки колонии",
+      "focus_en": "request ownership, warehouse stock, courier route, priority and minimum reserve, delivery latency, overflow handling and recovery after a blocked rack or absent courier",
+      "focus_ru": "владение запросом, запас склада, маршрут курьера, приоритет и минимум, задержку доставки, переполнение и восстановление после полного стеллажа или отсутствия курьера"
+    },
+    {
+      "tokens": ["farmer", "fisher", "bakery", "restaurant", "cook", "herder", "swine", "cowboy", "chicken", "plantation", "florist"],
+      "role_en": "food or renewable-resource civic service",
+      "role_ru": "городская служба еды или возобновляемых ресурсов",
+      "focus_en": "field or herd capacity, seed or feed reserve, tool supply, production rate, food diversity, waste or byproduct path and fallback ration during service failure",
+      "focus_ru": "вместимость поля или стада, резерв семян или корма, снабжение инструментами, скорость производства, разнообразие еды, маршрут отходов или побочных продуктов и аварийный рацион при отказе службы"
+    },
+    {
+      "tokens": ["miner", "sawmill", "stonemason", "crusher", "smelter", "blacksmith", "mechanic", "glassblower", "concrete", "quarry"],
+      "role_en": "resource extraction or production craft service",
+      "role_ru": "служба добычи или производственного ремесла",
+      "focus_en": "work area and safety, tool and fuel ancestry, recipe list, material request rate, output destination, idle condition and replacement of one failed production worker",
+      "focus_ru": "рабочую область и безопасность, происхождение инструментов и топлива, список рецептов, скорость запросов материалов, назначение выхода, условие простоя и замену одного отсутствующего производственного работника"
+    },
+    {
+      "tokens": ["guard", "barracks", "combat_academy", "archery", "hospital", "graveyard", "mystical_site", "enchanter"],
+      "role_en": "defence, health, death-recovery or specialist service",
+      "role_ru": "служба обороны, здоровья, восстановления после смерти или специалистов",
+      "focus_en": "patrol or service area, equipment and consumables, staffing, alarm or request flow, civilian protection, casualty recovery and prevention of the colony trivializing gated boss encounters",
+      "focus_ru": "область патруля или обслуживания, снаряжение и расходники, персонал, поток тревог или запросов, защиту граждан, восстановление потерь и запрет обесценивания закрытых боссовых встреч"
+    },
+    {
+      "tokens": ["research", "technology", "upgrade", "researcher"],
+      "role_en": "colony research, policy or upgrade milestone",
+      "role_ru": "этап исследования, политики или улучшения колонии",
+      "focus_en": "prerequisite buildings and population, research resource cost, selected benefit, opportunity cost, affected services and proof that the upgrade improves a measured bottleneck",
+      "focus_ru": "предварительные здания и население, стоимость исследования, выбранную пользу, альтернативную стоимость, затрагиваемые службы и доказательство улучшения измеренного узкого места"
+    }
+  ],
+  "default": {
+    "role_en": "specialized MineColonies building, worker or management capability",
+    "role_ru": "специализированное здание, работник или управленческая возможность MineColonies",
+    "focus_en": "staffing, supply contract, request and delivery path, representative output, blocked or absent-worker state, upgrade value and recoverable operation",
+    "focus_ru": "персонал, контракт снабжения, маршрут запросов и доставки, типовой результат, состояние полного выхода или отсутствия работника, пользу улучшения и восстанавливаемую работу"
+  },
+  "cross_mod": {
+    "role_en": "cross-mod settlement support component",
+    "role_ru": "межмодовый компонент поддержки поселения",
+    "focus_en": "whether the external system supplies tools, food, energy, storage, transport or defence, the interface stock and why it supports rather than replaces colony services",
+    "focus_ru": "снабжает ли внешняя система инструментами, едой, энергией, хранением, транспортом или защитой, интерфейсный запас и почему она поддерживает, а не заменяет службы колонии"
+  },
+  "checkpoint": {
+    "role_en": "settlement systems-design checkpoint",
+    "role_ru": "контрольная точка проектирования систем поселения",
+    "focus_en": "population and staffing map, food and tool reserves, warehouse and courier capacity, production bottlenecks, defence coverage, research priority and recovery after losing one essential service",
+    "focus_ru": "карту населения и персонала, резервы еды и инструментов, ёмкость склада и курьеров, производственные узкие места, покрытие обороны, приоритет исследований и восстановление после потери одной критической службы"
+  }
+}

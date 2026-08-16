@@ -1,0 +1,145 @@
+{
+  "slug": "productive_bees",
+  "lessons": [
+    {
+      "slug": "bee_types",
+      "icon": "productivebees:honey_treat",
+      "title_en": "Bee Types and Resource Permissions",
+      "title_ru": "Типы пчёл и разрешения ресурсов",
+      "desc_en": [
+        "Each productive bee is a renewable permission for a material family. A bee obtained before its resource stage becomes a permanent bypass.",
+        "Classify every bee by output, dimension and parent requirements; block boss drops, seals and late materials until the corresponding stage is complete."
+      ],
+      "desc_ru": [
+        "Каждая продуктивная пчела является возобновляемым разрешением на семейство материалов. Раннее получение создаёт постоянный обход.",
+        "Классифицируйте пчёл по выходу, измерению и родителям; блокируйте боссовый лут, печати и поздние материалы до соответствующего этапа."
+      ]
+    },
+    {
+      "slug": "breeding",
+      "icon": "productivebees:breeding_chamber",
+      "title_en": "Breeding Trees and Parent Control",
+      "title_ru": "Деревья разведения и контроль родителей",
+      "desc_en": [
+        "Breeding paths form a dependency graph. Alternative parents, conversion items or wild spawns can skip the intended sequence.",
+        "Document parent pairs, remove duplicate early paths, preserve breeding stock and verify every advanced species depends on an already permitted material tier."
+      ],
+      "desc_ru": [
+        "Пути разведения образуют граф зависимостей. Альтернативные родители, предметы преобразования или дикий спавн пропускают порядок.",
+        "Документируйте пары, удаляйте ранние дубли, сохраняйте племенной запас и проверяйте зависимость продвинутых видов от разрешённого уровня."
+      ]
+    },
+    {
+      "slug": "hives",
+      "icon": "productivebees:advanced_oak_beehive",
+      "title_en": "Advanced Hives and Population Design",
+      "title_ru": "Продвинутые ульи и проект популяции",
+      "desc_en": [
+        "Hive productivity depends on bee count, weather behavior, upgrades, flowering conditions and output extraction.",
+        "Provide correct flowers, cap populations, separate species, expose blocked outputs and avoid dense arrays whose entity or tick cost exceeds their resource value."
+      ],
+      "desc_ru": [
+        "Продуктивность улья зависит от числа пчёл, погоды, улучшений, цветов и выгрузки.",
+        "Обеспечьте цветы, ограничьте популяцию, разделяйте виды, показывайте полный выход и избегайте массивов, чья нагрузка выше ценности ресурсов."
+      ]
+    },
+    {
+      "slug": "comb_blocks",
+      "icon": "productivebees:configurable_honeycomb",
+      "title_en": "Combs and Material Separation",
+      "title_ru": "Соты и разделение материалов",
+      "desc_en": [
+        "Comb outputs may look similar while representing different materials and processing routes. Mixed storage can feed the wrong centrifuge or recipe.",
+        "Route combs by exact type, preserve samples for breeding, cap low-value stock and stop hive extraction when the assigned processor cannot accept more."
+      ],
+      "desc_ru": [
+        "Соты выглядят похоже, но представляют разные материалы и маршруты. Смешанное хранение подаёт неверные соты в центрифугу или рецепт.",
+        "Разделяйте по точному типу, сохраняйте образцы для разведения, ограничивайте дешёвый запас и останавливайте выгрузку при полном процессоре."
+      ]
+    },
+    {
+      "slug": "centrifuge",
+      "icon": "productivebees:centrifuge",
+      "title_en": "Centrifuging and Secondary Products",
+      "title_ru": "Центрифугирование и вторичные продукты",
+      "desc_en": [
+        "Centrifuges convert combs into primary resources, wax, honey and other secondary products. Any full output can halt the same batch.",
+        "Handle every output, measure net material per comb, reuse wax and honey deliberately and compare the bee route with machines, crops or mining."
+      ],
+      "desc_ru": [
+        "Центрифуги превращают соты в основной ресурс, воск, мёд и вторичные продукты. Заполнение любого выхода останавливает партию.",
+        "Обрабатывайте все выходы, измеряйте материал на соту, осознанно используйте воск и мёд и сравнивайте путь пчёл с машинами, культурами и добычей."
+      ]
+    },
+    {
+      "slug": "upgrades",
+      "icon": "productivebees:productivity_upgrade",
+      "title_en": "Hive Upgrades and Scaling Cost",
+      "title_ru": "Улучшения ульев и стоимость масштабирования",
+      "desc_en": [
+        "Productivity, simulation and behavior upgrades change output and activity rules. Simulation upgrades can remove environmental constraints entirely.",
+        "Gate upgrade tiers, measure output before and after, account for tick cost and prohibit simulation for resources whose stage requires exploration or combat."
+      ],
+      "desc_ru": [
+        "Улучшения продуктивности, симуляции и поведения меняют выход и правила активности. Симуляция полностью снимает ограничения среды.",
+        "Закрывайте уровни, измеряйте выпуск, учитывайте тики и запрещайте симуляцию ресурсов, чей этап требует исследования или боя."
+      ]
+    },
+    {
+      "slug": "genes",
+      "icon": "productivebees:gene_bottle",
+      "title_en": "Genes and Trait Selection",
+      "title_ru": "Гены и отбор свойств",
+      "desc_en": [
+        "Gene systems let traits be extracted and applied across bees. Maximum productivity without species policy can multiply a balance error rapidly.",
+        "Separate gene stock, document trait sources, cap breeding experiments and verify transferred traits do not enable forbidden weather, dimension or simulation behavior."
+      ],
+      "desc_ru": [
+        "Гены позволяют переносить свойства между пчёлами. Максимальная продуктивность без политики видов быстро умножает ошибку баланса.",
+        "Разделяйте запас генов, документируйте источники, ограничивайте эксперименты и не позволяйте свойствам обходить погоду, измерение или запрет симуляции."
+      ]
+    },
+    {
+      "slug": "cross_mod_loops",
+      "icon": "productivebees:honey_treat",
+      "title_en": "Bees, EMC and Seed Loops",
+      "title_ru": "Пчёлы, EMC и циклы семян",
+      "desc_en": [
+        "Bee outputs can enter ProjectE, Mystical Agriculture, machine recipes and breeding, creating positive loops or duplicate renewable paths.",
+        "Compare all conversions, set zero EMC on gates, choose one authoritative renewable path per late material and reject closed net-positive loops."
+      ],
+      "desc_ru": [
+        "Выходы пчёл взаимодействуют с ProjectE, Mystical Agriculture, машинами и разведением, создавая положительные циклы или дублирующие пути.",
+        "Сравнивайте конверсии, задавайте нулевой EMC, выбирайте один авторитетный поздний путь и запрещайте замкнутый чистый прирост."
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "icon": "productivebees:bee_cage",
+      "title_en": "Apiary Diagnostics",
+      "title_ru": "Диагностика пасеки",
+      "desc_en": [
+        "A silent apiary should be checked for species, hive occupancy, flowering block, weather or simulation state, output capacity and processor backlog.",
+        "Inspect one hive at a time, preserve a known-good bee, test a small comb batch and avoid changing breeding, upgrades and logistics simultaneously."
+      ],
+      "desc_ru": [
+        "Неработающую пасеку проверяйте по виду, заполнению улья, цветку, погоде или симуляции, выходу и очереди переработки.",
+        "Проверяйте по одному улью, сохраняйте рабочую пчелу, тестируйте малую партию сот и не меняйте одновременно разведение, улучшения и логистику."
+      ]
+    },
+    {
+      "slug": "project",
+      "icon": "kubejs:bioindustrial_matrix",
+      "title_en": "Project: Stage-Safe Productive Apiary",
+      "title_ru": "Проект: продуктивная пасека по этапам",
+      "desc_en": [
+        "Build an apiary with at least four approved resource bees, complete comb processing, controlled upgrades and no simulated boss or permission output.",
+        "The project passes after two production cycles, breeding-tree audit, overflow shutdown, loop analysis and measured output compared with another renewable route."
+      ],
+      "desc_ru": [
+        "Постройте пасеку минимум четырёх разрешённых ресурсных пчёл с полной переработкой, управляемыми улучшениями и без симуляции боссов или допусков.",
+        "Проект принят после двух циклов, аудита разведения, остановки при переполнении, анализа циклов и сравнения выпуска с другим возобновляемым путём."
+      ]
+    }
+  ]
+}
