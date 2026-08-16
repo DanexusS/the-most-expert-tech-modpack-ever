@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "ftb_quests": {
     "minimum_detection_delay_ticks": 80,
     "maximum_grid_scale": 0.5,
@@ -12,9 +12,7 @@
     "coroutil_error_logging": true
   },
   "startup_io": {
-    "diagnostic_mod_inventory_enabled_by_default": false,
-    "diagnostic_mod_inventory_property": "expert.modInventoryExport",
-    "forbid_unguarded_startup_file_writes": true
+    "forbid_all_startup_file_writes": true
   },
   "combat_scaling": {
     "require_profile_cache": true,
