@@ -11,7 +11,7 @@ This static gate scans frequent KubeJS handlers and startup scripts. It rejects 
 | tick subscriptions | 0 | 4 | PASS |
 | spawn subscriptions | 1 | 4 | PASS |
 | hurt subscriptions | 0 | 4 | PASS |
-| Guarded startup file writers | 1 | diagnostic only | PASS |
+| Guarded startup file writers | 0 | diagnostic only | PASS |
 | Unguarded startup file writers | 0 | 0 | PASS |
 | Combat EntityType identity cache | present | required | PASS |
 
@@ -24,6 +24,6 @@ This static gate scans frequent KubeJS handlers and startup scripts. It rejects 
 ## Aggregate
 
 - High-frequency subscriptions: **1**
-- Guarded startup file writers: **1**
+- Guarded startup file writers: **0**
 - Unguarded startup file writers: **0**
 - Failures: **0**
