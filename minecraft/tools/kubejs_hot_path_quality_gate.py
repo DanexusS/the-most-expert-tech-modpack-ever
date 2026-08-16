@@ -36,7 +36,6 @@ def matching_delimiter(text: str, start: int, opening: str, closing: str) -> int
     while index < len(text):
         char = text[index]
         next_char = text[index + 1] if index + 1 < len(text) else ""
-
         if line_comment:
             if char == "\n":
                 line_comment = False
@@ -99,32 +98,20 @@ def main() -> int:
     policy = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
     budgets = policy["hot_path_budgets"]
     startup = policy["startup_io"]
-    diagnostic_property = str(startup["diagnostic_mod_inventory_property"])
 
     failures: list[str] = []
     counts: Counter[str] = Counter()
     handler_rows: list[dict[str, str]] = []
-    guarded_startup_writes = 0
-    unguarded_startup_writes = 0
+    startup_file_writers = 0
 
     for path in sorted(KUBEJS.rglob("*.js")):
         text = path.read_text(encoding="utf-8")
         relative = str(path.relative_to(ROOT))
 
         if "startup_scripts" in path.parts and FILE_IO_RE.search(text):
-            guard_tokens = (
-                f"System.getProperty('{diagnostic_property}'",
-                f'System.getProperty("{diagnostic_property}"',
-                f"getProperty('{diagnostic_property}'",
-                f'getProperty("{diagnostic_property}"',
-            )
-            guarded = any(token in text for token in guard_tokens)
-            if guarded:
-                guarded_startup_writes += 1
-            else:
-                unguarded_startup_writes += 1
-                if bool(startup["forbid_unguarded_startup_file_writes"]):
-                    failures.append(f"{relative}: startup file I/O is not guarded by {diagnostic_property}")
+            startup_file_writers += 1
+            if bool(startup["forbid_all_startup_file_writes"]):
+                failures.append(f"{relative}: startup script performs file I/O")
 
         for match in EVENT_RE.finditer(text):
             owner = match.group("owner")
@@ -144,19 +131,14 @@ def main() -> int:
                 issues.append("full registry/mod scan")
             if bool(budgets["forbid_console_calls_in_high_frequency_handlers"]) and CONSOLE_RE.search(block):
                 issues.append("console call")
-
             if issues:
-                failures.append(
-                    f"{relative}: {owner}.{event} contains " + ", ".join(issues)
-                )
-            handler_rows.append(
-                {
-                    "file": relative,
-                    "handler": f"{owner}.{event}",
-                    "category": category,
-                    "status": "FAIL" if issues else "PASS",
-                }
-            )
+                failures.append(f"{relative}: {owner}.{event} contains " + ", ".join(issues))
+            handler_rows.append({
+                "file": relative,
+                "handler": f"{owner}.{event}",
+                "category": category,
+                "status": "FAIL" if issues else "PASS",
+            })
 
     maximums = {
         "tick": int(budgets["maximum_tick_subscriptions"]),
@@ -165,20 +147,15 @@ def main() -> int:
     }
     for category, maximum in maximums.items():
         if counts[category] > maximum:
-            failures.append(
-                f"{category} subscriptions exceed budget: {counts[category]} > {maximum}"
-            )
+            failures.append(f"{category} subscriptions exceed budget: {counts[category]} > {maximum}")
 
     combat_path = KUBEJS / "server_scripts" / "combat_scaling.js"
     combat = combat_path.read_text(encoding="utf-8") if combat_path.is_file() else ""
-    identity_cache_ok = all(
-        token in combat
-        for token in (
-            "java.util.IdentityHashMap",
-            "var TYPE_PROFILE_CACHE",
-            "profileForType(entity.getType())",
-        )
-    )
+    identity_cache_ok = all(token in combat for token in (
+        "java.util.IdentityHashMap",
+        "var TYPE_PROFILE_CACHE",
+        "profileForType(entity.getType())",
+    ))
     if bool(policy["combat_scaling"]["require_entity_type_identity_cache"]) and not identity_cache_ok:
         failures.append("combat_scaling.js lacks the required EntityType identity cache")
 
@@ -187,7 +164,7 @@ def main() -> int:
         "",
         f"**{'PASS' if not failures else 'FAIL'}**",
         "",
-        "This static gate scans frequent KubeJS handlers and startup scripts. It rejects synchronous file I/O, full registry scans and console output in tick/spawn/hurt paths, and requires diagnostic startup writes to be explicitly enabled.",
+        "This static gate scans frequent KubeJS handlers and startup scripts. It rejects startup file writers plus synchronous file I/O, full registry scans and console output in tick/spawn/hurt paths.",
         "",
         "## Budgets",
         "",
@@ -199,34 +176,26 @@ def main() -> int:
             f"| {category} subscriptions | {counts[category]} | {maximums[category]} | "
             f"{'PASS' if counts[category] <= maximums[category] else 'FAIL'} |"
         )
-    lines.extend(
-        [
-            f"| Guarded startup file writers | {guarded_startup_writes} | diagnostic only | PASS |",
-            f"| Unguarded startup file writers | {unguarded_startup_writes} | 0 | {'PASS' if unguarded_startup_writes == 0 else 'FAIL'} |",
-            f"| Combat EntityType identity cache | {'present' if identity_cache_ok else 'missing'} | required | {'PASS' if identity_cache_ok else 'FAIL'} |",
-            "",
-            "## High-frequency handlers",
-            "",
-            "| File | Handler | Category | Status |",
-            "|---|---|---|---|",
-        ]
-    )
+    lines.extend([
+        f"| Startup file writers | {startup_file_writers} | 0 | {'PASS' if startup_file_writers == 0 else 'FAIL'} |",
+        f"| Combat EntityType identity cache | {'present' if identity_cache_ok else 'missing'} | required | {'PASS' if identity_cache_ok else 'FAIL'} |",
+        "",
+        "## High-frequency handlers",
+        "",
+        "| File | Handler | Category | Status |",
+        "|---|---|---|---|",
+    ])
     for row in handler_rows:
-        lines.append(
-            f"| `{row['file']}` | `{row['handler']}` | {row['category']} | {row['status']} |"
-        )
-    lines.extend(
-        [
-            "",
-            "## Aggregate",
-            "",
-            f"- High-frequency subscriptions: **{sum(counts.values())}**",
-            f"- Guarded startup file writers: **{guarded_startup_writes}**",
-            f"- Unguarded startup file writers: **{unguarded_startup_writes}**",
-            f"- Failures: **{len(failures)}**",
-            "",
-        ]
-    )
+        lines.append(f"| `{row['file']}` | `{row['handler']}` | {row['category']} | {row['status']} |")
+    lines.extend([
+        "",
+        "## Aggregate",
+        "",
+        f"- High-frequency subscriptions: **{sum(counts.values())}**",
+        f"- Startup file writers: **{startup_file_writers}**",
+        f"- Failures: **{len(failures)}**",
+        "",
+    ])
     if failures:
         lines.extend(["## Failures", ""])
         lines.extend(f"- {failure}" for failure in failures)
@@ -237,8 +206,7 @@ def main() -> int:
     print(f"tick_subscriptions: {counts['tick']}/{maximums['tick']}")
     print(f"spawn_subscriptions: {counts['spawn']}/{maximums['spawn']}")
     print(f"hurt_subscriptions: {counts['hurt']}/{maximums['hurt']}")
-    print(f"guarded_startup_writes: {guarded_startup_writes}")
-    print(f"unguarded_startup_writes: {unguarded_startup_writes}")
+    print(f"startup_file_writers: {startup_file_writers}")
     print(f"failures: {len(failures)}")
     for failure in failures:
         print(f"ERROR: {failure}")
